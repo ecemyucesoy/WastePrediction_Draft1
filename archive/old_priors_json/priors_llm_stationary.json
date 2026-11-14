@@ -1,0 +1,1188 @@
+{
+  "districts": [
+    {
+      "district": "Banadir",
+      "reasoning": "Banadir is a structurally heterogeneous urban district hosting Somalia's largest IDP population (~250-500k across 2017-21). Although urban diversified livelihoods support a lower host-community SAM burden, the persistent IDP settlements have shown Critical SAM (>=4%) across multiple FSNAU surveys, sustaining elevated structural gamma. CMAM coverage and survey infrastructure are the country's most consistent, lowering omega; survey quality is the highest in the country.",
+      "p": {
+        "a": 35.4,
+        "b": 84.6
+      },
+      "gamma": {
+        "a": 15.7796,
+        "b": 1201.1
+      },
+      "omega": {
+        "a": 15.9785,
+        "b": 12615.2
+      }
+    },
+    {
+      "district": "Afgooye",
+      "reasoning": "Afgooye corridor is a structurally riverine/agropastoral district hosting one of the largest IDP corridors in Somalia. Recurrent Shabelle flooding, mixed AS/government control fluctuating along main supply routes, and chronic IDP nutritional vulnerability elevate gamma; partial AS pressure on rural areas raises omega but Afgooye town is regularly surveyed.",
+      "p": {
+        "a": 21.5,
+        "b": 78.5
+      },
+      "gamma": {
+        "a": 24.662,
+        "b": 1872.4
+      },
+      "omega": {
+        "a": 15.9626,
+        "b": 7239.8
+      }
+    },
+    {
+      "district": "Marka",
+      "reasoning": "Marka district mixes Lower Shabelle riverine (SO13) and rainfed agropastoral (SO16) zones. Persistent AS presence in rural sub-districts across 2017-21 chronically limited humanitarian access; main town surveyed irregularly. Structural gamma is elevated by agricultural insecurity; omega is elevated by access constraints.",
+      "p": {
+        "a": 16.5,
+        "b": 83.5
+      },
+      "gamma": {
+        "a": 15.8045,
+        "b": 1358.5
+      },
+      "omega": {
+        "a": 12.707,
+        "b": 3617.9
+      }
+    },
+    {
+      "district": "Qoryooley",
+      "reasoning": "Riverine pump-irrigation district structurally vulnerable to Shabelle flooding and chronic AS-related access restrictions during 2017-21. Despite agricultural potential, chronic insecurity and recurrent flooding sustain elevated gamma; omega elevated by intermittent survey access.",
+      "p": {
+        "a": 16.0,
+        "b": 84.0
+      },
+      "gamma": {
+        "a": 15.83,
+        "b": 1567.2
+      },
+      "omega": {
+        "a": 12.7118,
+        "b": 4022.8
+      }
+    },
+    {
+      "district": "Sablaale",
+      "reasoning": "Small Lower Shabelle district that was structurally outside government control across most of 2017-21, severely limiting CMAM and survey access. Chronically inaccessible districts have very high omega; structural gamma is high given agropastoral fragility and lack of programme presence.",
+      "p": {
+        "a": 9.6,
+        "b": 70.4
+      },
+      "gamma": {
+        "a": 10.9779,
+        "b": 987.0
+      },
+      "omega": {
+        "a": 11.0312,
+        "b": 1660.4
+      }
+    },
+    {
+      "district": "Kurtunwaarey",
+      "reasoning": "Lower Shabelle district persistently under AS influence during 2017-21 with very limited humanitarian penetration. Structural agropastoral/riverine vulnerability with absent CMAM produces high gamma, low p (chronic, untreated SAM), and high omega.",
+      "p": {
+        "a": 9.6,
+        "b": 70.4
+      },
+      "gamma": {
+        "a": 10.9779,
+        "b": 987.0
+      },
+      "omega": {
+        "a": 11.0312,
+        "b": 1660.4
+      }
+    },
+    {
+      "district": "Baraawe",
+      "reasoning": "Coastal Lower Shabelle district with mixed fishing, agropastoral and riverine livelihoods. Coastal access provided some structural diet diversification, mitigating gamma; AS presence in rural hinterland generated intermittent access constraints raising omega.",
+      "p": {
+        "a": 16.0,
+        "b": 84.0
+      },
+      "gamma": {
+        "a": 15.884,
+        "b": 2311.4
+      },
+      "omega": {
+        "a": 12.6997,
+        "b": 3142.5
+      }
+    },
+    {
+      "district": "Wanla Weyn",
+      "reasoning": "Lower Shabelle agropastoral district with chronic AS-related access constraints in rural areas, structurally limiting CMAM coverage. Gamma elevated by agricultural insecurity; omega elevated by sparse survey coverage.",
+      "p": {
+        "a": 16.0,
+        "b": 84.0
+      },
+      "gamma": {
+        "a": 10.99,
+        "b": 1088.0
+      },
+      "omega": {
+        "a": 11.0445,
+        "b": 1997.0
+      }
+    },
+    {
+      "district": "Balcad",
+      "reasoning": "Middle Shabelle riverine/agropastoral district historically reaching famine-level acute malnutrition (2011) and structurally fragile thereafter. Mixed IDP hosting from Mogadishu outflows and chronic flooding; partially government-controlled with moderate CMAM access.",
+      "p": {
+        "a": 20.5,
+        "b": 79.5
+      },
+      "gamma": {
+        "a": 15.8045,
+        "b": 1358.5
+      },
+      "omega": {
+        "a": 12.707,
+        "b": 3617.9
+      }
+    },
+    {
+      "district": "Cadale",
+      "reasoning": "Middle Shabelle coastal-agropastoral district with chronic AS pressure in rural areas. Historically among famine-classified zones (2011) and structurally vulnerable; survey frequency below average raises omega.",
+      "p": {
+        "a": 16.0,
+        "b": 84.0
+      },
+      "gamma": {
+        "a": 10.99,
+        "b": 1088.0
+      },
+      "omega": {
+        "a": 11.0445,
+        "b": 1997.0
+      }
+    },
+    {
+      "district": "Jowhar",
+      "reasoning": "Middle Shabelle regional capital, riverine/agropastoral, structurally exposed to recurrent Shabelle flooding. Town-level CMAM access is moderate; rural AS presence raises omega. Some IDP hosting from Lower Shabelle and rural displacement.",
+      "p": {
+        "a": 20.5,
+        "b": 79.5
+      },
+      "gamma": {
+        "a": 15.8045,
+        "b": 1358.5
+      },
+      "omega": {
+        "a": 12.707,
+        "b": 3617.9
+      }
+    },
+    {
+      "district": "Adan Yabaal",
+      "reasoning": "Adan Yabaal was under AS control for ~12 years until late 2022, so across the entire 2017-21 study period it was structurally inaccessible to humanitarian and survey actors. Very high omega (no reliable surveys), structurally high gamma (no CMAM), and low p (no recovery pathway).",
+      "p": {
+        "a": 8.8,
+        "b": 71.2
+      },
+      "gamma": {
+        "a": 10.9512,
+        "b": 818.7
+      },
+      "omega": {
+        "a": 10.9948,
+        "b": 1134.3
+      }
+    },
+    {
+      "district": "Jalalaqsi",
+      "reasoning": "Middle Shabelle/Hiraan riverine district structurally exposed to flooding and chronic AS rural pressure. Limited CMAM scale; sparse survey coverage raises omega.",
+      "p": {
+        "a": 16.0,
+        "b": 84.0
+      },
+      "gamma": {
+        "a": 10.99,
+        "b": 1088.0
+      },
+      "omega": {
+        "a": 11.0445,
+        "b": 1997.0
+      }
+    },
+    {
+      "district": "Belet Weyne",
+      "reasoning": "Belet Weyne is the Hiraan regional capital with riverine and agropastoral hinterland; structurally exposed to recurrent flooding and shows persistent Critical/Serious GAM in FSNAU surveys. Town has reliable CMAM and surveys; rural AS pressure elevates omega moderately.",
+      "p": {
+        "a": 21.0,
+        "b": 79.0
+      },
+      "gamma": {
+        "a": 15.7947,
+        "b": 1292.3
+      },
+      "omega": {
+        "a": 15.9609,
+        "b": 6923.6
+      }
+    },
+    {
+      "district": "Bulo Burto",
+      "reasoning": "Bulo Burto remained substantially under AS control across 2017-21, structurally limiting CMAM and survey access. Riverine/agropastoral fragility with chronic insecurity yields high gamma and very high omega; low p reflects absence of treatment pathway.",
+      "p": {
+        "a": 9.6,
+        "b": 70.4
+      },
+      "gamma": {
+        "a": 10.9779,
+        "b": 987.0
+      },
+      "omega": {
+        "a": 11.0312,
+        "b": 1660.4
+      }
+    },
+    {
+      "district": "Dhuusamarreeb",
+      "reasoning": "Galmudug administrative capital in Central Agropastoral Cowpea Belt (SO10). Structurally diversified agropastoral economy; town-level IDP settlements have shown elevated GAM across surveys but generally lower than southern agropastoral. Reliable surveys and moderate CMAM access.",
+      "p": {
+        "a": 21.0,
+        "b": 79.0
+      },
+      "gamma": {
+        "a": 24.792,
+        "b": 3074.2
+      },
+      "omega": {
+        "a": 15.966,
+        "b": 7967.0
+      }
+    },
+    {
+      "district": "Cadaado",
+      "reasoning": "Central Agropastoral Cowpea Belt district with relatively stable government access. Moderate structural risk; consistent FSNAU monitoring and CMAM presence.",
+      "p": {
+        "a": 20.0,
+        "b": 80.0
+      },
+      "gamma": {
+        "a": 15.8895,
+        "b": 2428.6
+      },
+      "omega": {
+        "a": 12.7118,
+        "b": 4022.8
+      }
+    },
+    {
+      "district": "Cabudwaaq",
+      "reasoning": "Galgaduud district within the Central Agropastoral Cowpea Belt (SO10), structurally diversified between cowpea cultivation and pastoral livelihoods. Largely Galmudug-administered with stable rural access; moderate CMAM and survey coverage. Structural vulnerability moderate.",
+      "p": {
+        "a": 20.0,
+        "b": 80.0
+      },
+      "gamma": {
+        "a": 15.8895,
+        "b": 2428.6
+      },
+      "omega": {
+        "a": 12.7118,
+        "b": 4022.8
+      }
+    },
+    {
+      "district": "Ceel Buur",
+      "reasoning": "Ceel Buur was under AS control across 2017-21 (recovered later), structurally inaccessible to CMAM and surveys. High gamma, very high omega, low p reflect chronic untreated SAM.",
+      "p": {
+        "a": 8.8,
+        "b": 71.2
+      },
+      "gamma": {
+        "a": 10.9979,
+        "b": 1165.2
+      },
+      "omega": {
+        "a": 10.9948,
+        "b": 1134.3
+      }
+    },
+    {
+      "district": "Ceel Dheere",
+      "reasoning": "Ceel Dheere remained under AS control for most of 2017-21, structurally inaccessible. Mixed agropastoral and coastal Deeh livelihoods with no consistent CMAM presence. High omega and gamma, low p.",
+      "p": {
+        "a": 8.8,
+        "b": 71.2
+      },
+      "gamma": {
+        "a": 10.9979,
+        "b": 1165.2
+      },
+      "omega": {
+        "a": 10.9948,
+        "b": 1134.3
+      }
+    },
+    {
+      "district": "Xarardheere",
+      "reasoning": "Coastal Deeh pastoral/fishing district; structurally fragile and chronically AS-affected during 2017-21. Coastal Deeh (SO08) has shown Critical SAM in past surveys; absence of CMAM access yields very high omega.",
+      "p": {
+        "a": 8.8,
+        "b": 71.2
+      },
+      "gamma": {
+        "a": 10.9979,
+        "b": 1165.2
+      },
+      "omega": {
+        "a": 11.0065,
+        "b": 1262.9
+      }
+    },
+    {
+      "district": "Gaalkacyo",
+      "reasoning": "Gaalkacyo is a major IDP-hosting urban centre split between Puntland and Galmudug, with Galkayo IDPs sustaining Serious-to-Critical GAM levels across FSNAU surveys for years. Reliable surveys lower omega; structural IDP burden raises gamma; CMAM access strong.",
+      "p": {
+        "a": 25.5,
+        "b": 74.5
+      },
+      "gamma": {
+        "a": 15.8389,
+        "b": 1655.6
+      },
+      "omega": {
+        "a": 15.9785,
+        "b": 12615.2
+      }
+    },
+    {
+      "district": "Hobyo",
+      "reasoning": "Coastal Deeh (SO08) pastoral/fishing district with structurally chronic vulnerability and intermittent AS presence. Sparse survey access raises omega; absence of consistent CMAM yields modest p.",
+      "p": {
+        "a": 16.0,
+        "b": 84.0
+      },
+      "gamma": {
+        "a": 11.0082,
+        "b": 1284.1
+      },
+      "omega": {
+        "a": 11.0512,
+        "b": 2221.5
+      }
+    },
+    {
+      "district": "Galdogob",
+      "reasoning": "Mudug pastoral district along the Ethiopian border with Hawd/Addun pastoral livelihoods. Government-controlled with moderate CMAM access; structural pastoral vulnerability but no chronic AS isolation.",
+      "p": {
+        "a": 20.0,
+        "b": 80.0
+      },
+      "gamma": {
+        "a": 15.8895,
+        "b": 2428.6
+      },
+      "omega": {
+        "a": 12.7118,
+        "b": 4022.8
+      }
+    },
+    {
+      "district": "Jariiban",
+      "reasoning": "Addun Pastoral (SO09) district in Mudug; structural pastoral vulnerability moderated by Puntland administrative stability. Consistent moderate CMAM access; livelihood homogeneity supports survey reliability.",
+      "p": {
+        "a": 20.0,
+        "b": 80.0
+      },
+      "gamma": {
+        "a": 15.915,
+        "b": 3167.1
+      },
+      "omega": {
+        "a": 12.7118,
+        "b": 4022.8
+      }
+    },
+    {
+      "district": "Baydhaba",
+      "reasoning": "Baidoa is the largest IDP hub outside Mogadishu (sites grew from ~70 in 2017 to 435 in 2019) and the heart of Bay agropastoral SO12, the historically highest-SAM zone in Somalia (famine 2011, Critical SAM repeatedly). Structurally very high gamma; surveys frequent (low omega); CMAM scaled up but demand always exceeds supply.",
+      "p": {
+        "a": 25.5,
+        "b": 74.5
+      },
+      "gamma": {
+        "a": 15.7202,
+        "b": 939.4
+      },
+      "omega": {
+        "a": 15.9785,
+        "b": 12615.2
+      }
+    },
+    {
+      "district": "Buur Hakaba",
+      "reasoning": "Baidoa-Buur Hakaba livelihood zone has shown SAM ~4.9% in recent assessments. Structurally high gamma; rural AS presence intermittently restricted access raising omega; partial CMAM coverage.",
+      "p": {
+        "a": 16.5,
+        "b": 83.5
+      },
+      "gamma": {
+        "a": 15.745,
+        "b": 1033.9
+      },
+      "omega": {
+        "a": 12.7118,
+        "b": 4022.8
+      }
+    },
+    {
+      "district": "Diinsoor",
+      "reasoning": "Diinsoor (Bay) was substantially AS-controlled across 2017-21, structurally inaccessible for most of the period. Bay agropastoral fragility plus no CMAM yields very high gamma and omega; low p reflects chronic untreated SAM.",
+      "p": {
+        "a": 9.6,
+        "b": 70.4
+      },
+      "gamma": {
+        "a": 10.9313,
+        "b": 725.2
+      },
+      "omega": {
+        "a": 11.0312,
+        "b": 1660.4
+      }
+    },
+    {
+      "district": "Qansax Dheere",
+      "reasoning": "Bay agropastoral district structurally AS-affected during 2017-21. Chronic SO12 vulnerability with absent CMAM and irregular surveys: high gamma, very high omega.",
+      "p": {
+        "a": 9.6,
+        "b": 70.4
+      },
+      "gamma": {
+        "a": 10.9313,
+        "b": 725.2
+      },
+      "omega": {
+        "a": 11.0392,
+        "b": 1847.4
+      }
+    },
+    {
+      "district": "Xudur",
+      "reasoning": "Bakool regional capital, government-held but surrounded by AS rural areas, structurally limiting supply lines. Bakool agropastoral/pastoral has shown Critical SAM repeatedly. Town-level CMAM partial; rural surveys very irregular.",
+      "p": {
+        "a": 16.5,
+        "b": 83.5
+      },
+      "gamma": {
+        "a": 10.9294,
+        "b": 717.7
+      },
+      "omega": {
+        "a": 11.0445,
+        "b": 1997.0
+      }
+    },
+    {
+      "district": "Tayeeglow",
+      "reasoning": "Bakool district persistently AS-controlled throughout 2017-21, structurally inaccessible. Mixed Southern Inland Pastoral/agropastoral; absence of CMAM and surveys yields very high omega and gamma, low p.",
+      "p": {
+        "a": 8.8,
+        "b": 71.2
+      },
+      "gamma": {
+        "a": 10.9512,
+        "b": 818.7
+      },
+      "omega": {
+        "a": 10.9948,
+        "b": 1134.3
+      }
+    },
+    {
+      "district": "Waajid",
+      "reasoning": "Bakool agropastoral district under chronic AS pressure during 2017-21 with structurally limited humanitarian access. SO12 baseline plus inaccessibility yields very high gamma and omega; chronic untreated SAM lowers p.",
+      "p": {
+        "a": 9.6,
+        "b": 70.4
+      },
+      "gamma": {
+        "a": 10.9313,
+        "b": 725.2
+      },
+      "omega": {
+        "a": 10.9948,
+        "b": 1134.3
+      }
+    },
+    {
+      "district": "Ceel Barde",
+      "reasoning": "Bakool agropastoral district structurally AS-affected and remote. SO12 chronic vulnerability with no consistent CMAM or survey access yields high gamma, very high omega.",
+      "p": {
+        "a": 8.8,
+        "b": 71.2
+      },
+      "gamma": {
+        "a": 10.9512,
+        "b": 818.7
+      },
+      "omega": {
+        "a": 10.9948,
+        "b": 1134.3
+      }
+    },
+    {
+      "district": "Rab Dhuure",
+      "reasoning": "Small Bakool district structurally inaccessible during most of 2017-21 due to AS control. SO12 baseline plus isolation yields very high gamma and omega.",
+      "p": {
+        "a": 8.8,
+        "b": 71.2
+      },
+      "gamma": {
+        "a": 10.9512,
+        "b": 818.7
+      },
+      "omega": {
+        "a": 10.9948,
+        "b": 1134.3
+      }
+    },
+    {
+      "district": "Garbahaarey",
+      "reasoning": "Gedo regional capital; North/South Gedo agropastoral and pastoral consistently among highest-SAM zones (>4% SAM in multiple FSNAU surveys). Town-level partial CMAM; rural AS presence raises omega; structural gamma very high.",
+      "p": {
+        "a": 16.0,
+        "b": 84.0
+      },
+      "gamma": {
+        "a": 10.9476,
+        "b": 800.0
+      },
+      "omega": {
+        "a": 11.0445,
+        "b": 1997.0
+      }
+    },
+    {
+      "district": "Luuq",
+      "reasoning": "Gedo riverine/agropastoral district with the Doolow IDP corridor. Sustained Critical SAM in IDP settlements; town has moderate CMAM access. Structural IDP burden elevates gamma; mixed surveys.",
+      "p": {
+        "a": 20.5,
+        "b": 79.5
+      },
+      "gamma": {
+        "a": 15.8045,
+        "b": 1358.5
+      },
+      "omega": {
+        "a": 12.707,
+        "b": 3617.9
+      }
+    },
+    {
+      "district": "Doolow",
+      "reasoning": "Doolow hosts one of Somalia's largest sustained IDP settlements with persistent Critical SAM (~5% SAM repeatedly). Border-crossing humanitarian access supports CMAM and frequent surveys, lowering omega; structural IDP burden keeps gamma very high.",
+      "p": {
+        "a": 25.5,
+        "b": 74.5
+      },
+      "gamma": {
+        "a": 15.7055,
+        "b": 890.8
+      },
+      "omega": {
+        "a": 15.957,
+        "b": 6291.2
+      }
+    },
+    {
+      "district": "Belet Xaawo",
+      "reasoning": "Gedo border district with cross-border humanitarian access supporting CMAM. Structural agropastoral vulnerability with elevated baseline; surveys moderately frequent.",
+      "p": {
+        "a": 20.5,
+        "b": 79.5
+      },
+      "gamma": {
+        "a": 15.8045,
+        "b": 1358.5
+      },
+      "omega": {
+        "a": 12.707,
+        "b": 3617.9
+      }
+    },
+    {
+      "district": "Ceel Waaq",
+      "reasoning": "Gedo border district with chronic AS pressure intermittently restricting access. SO12 structural vulnerability; intermittent CMAM and irregular surveys raise omega.",
+      "p": {
+        "a": 16.0,
+        "b": 84.0
+      },
+      "gamma": {
+        "a": 10.99,
+        "b": 1088.0
+      },
+      "omega": {
+        "a": 11.0445,
+        "b": 1997.0
+      }
+    },
+    {
+      "district": "Baardheere",
+      "reasoning": "Baardheere remained under AS control for most of 2017-21, structurally inaccessible. Gedo agropastoral baseline already among highest in Somalia; absence of CMAM and surveys yields very high gamma and omega, low p.",
+      "p": {
+        "a": 9.6,
+        "b": 70.4
+      },
+      "gamma": {
+        "a": 10.9313,
+        "b": 725.2
+      },
+      "omega": {
+        "a": 10.9948,
+        "b": 1134.3
+      }
+    },
+    {
+      "district": "Bu'aale",
+      "reasoning": "Middle Juba regional capital under AS control throughout 2017-21, structurally inaccessible. Riverine/cattle pastoral mix; no CMAM, no surveys. Very high gamma and omega, low p.",
+      "p": {
+        "a": 8.8,
+        "b": 71.2
+      },
+      "gamma": {
+        "a": 10.9512,
+        "b": 818.7
+      },
+      "omega": {
+        "a": 10.9948,
+        "b": 1134.3
+      }
+    },
+    {
+      "district": "Saakow",
+      "reasoning": "Middle Juba riverine district under AS control across 2017-21, structurally inaccessible. SO13 vulnerability plus no CMAM yields very high gamma and omega.",
+      "p": {
+        "a": 8.8,
+        "b": 71.2
+      },
+      "gamma": {
+        "a": 10.9512,
+        "b": 818.7
+      },
+      "omega": {
+        "a": 10.9948,
+        "b": 1134.3
+      }
+    },
+    {
+      "district": "Jilib",
+      "reasoning": "Middle Juba riverine district under AS control during 2017-21. Structural Shabelle/Juba flood vulnerability plus no humanitarian access yields very high gamma and omega.",
+      "p": {
+        "a": 9.6,
+        "b": 70.4
+      },
+      "gamma": {
+        "a": 10.9313,
+        "b": 725.2
+      },
+      "omega": {
+        "a": 10.9948,
+        "b": 1134.3
+      }
+    },
+    {
+      "district": "Kismaayo",
+      "reasoning": "Kismayo is a major IDP-hosting port city with Jubaland administrative presence and relatively low overall poverty (lowest among major cities per SHFS 2017-18). Reliable CMAM and survey infrastructure; IDP settlements show Serious GAM. Lower structural gamma than Bay/Banadir IDP, lower omega.",
+      "p": {
+        "a": 25.5,
+        "b": 74.5
+      },
+      "gamma": {
+        "a": 15.8304,
+        "b": 1571.2
+      },
+      "omega": {
+        "a": 15.957,
+        "b": 6291.2
+      }
+    },
+    {
+      "district": "Afmadow",
+      "reasoning": "Lower Juba pastoral/cattle district with chronic AS rural pressure. Juba cattle pastoral consistently noted as area of high concern; intermittent CMAM and surveys raise omega.",
+      "p": {
+        "a": 16.5,
+        "b": 83.5
+      },
+      "gamma": {
+        "a": 10.9718,
+        "b": 943.1
+      },
+      "omega": {
+        "a": 11.0445,
+        "b": 1997.0
+      }
+    },
+    {
+      "district": "Badhaadhe",
+      "reasoning": "Remote Lower Juba district under chronic AS influence and structurally hard to reach. Pastoral/coastal mix; near-absent humanitarian programming yields high gamma and very high omega.",
+      "p": {
+        "a": 8.8,
+        "b": 71.2
+      },
+      "gamma": {
+        "a": 10.9979,
+        "b": 1165.2
+      },
+      "omega": {
+        "a": 10.9948,
+        "b": 1134.3
+      }
+    },
+    {
+      "district": "Jamaame",
+      "reasoning": "Lower Juba riverine district with persistent AS pressure restricting rural access. Structural Juba flooding vulnerability and irregular surveys raise omega.",
+      "p": {
+        "a": 16.0,
+        "b": 84.0
+      },
+      "gamma": {
+        "a": 10.99,
+        "b": 1088.0
+      },
+      "omega": {
+        "a": 11.0445,
+        "b": 1997.0
+      }
+    },
+    {
+      "district": "Bossaso",
+      "reasoning": "Major Puntland port city with substantial IDP settlements; relatively diversified urban economy and consistent Puntland administrative access support CMAM and frequent surveys. IDP nutritional vulnerability raises gamma somewhat; overall structural risk moderate.",
+      "p": {
+        "a": 25.5,
+        "b": 74.5
+      },
+      "gamma": {
+        "a": 15.8661,
+        "b": 1998.9
+      },
+      "omega": {
+        "a": 15.957,
+        "b": 6291.2
+      }
+    },
+    {
+      "district": "Caluula",
+      "reasoning": "East Golis Frankincense, Goats and Fishing zone (SO07); structurally diversified income (frankincense + livestock + fishing) supports relatively low chronic vulnerability. Remote location reduces survey frequency raising omega.",
+      "p": {
+        "a": 16.0,
+        "b": 84.0
+      },
+      "gamma": {
+        "a": 11.0748,
+        "b": 3680.5
+      },
+      "omega": {
+        "a": 11.0512,
+        "b": 2221.5
+      }
+    },
+    {
+      "district": "Iskushuban",
+      "reasoning": "East Golis (SO07) Bari district with diversified frankincense/pastoral/fishing economy. Remote interior reduces survey coverage; otherwise relatively stable.",
+      "p": {
+        "a": 16.0,
+        "b": 84.0
+      },
+      "gamma": {
+        "a": 11.0748,
+        "b": 3680.5
+      },
+      "omega": {
+        "a": 11.0512,
+        "b": 2221.5
+      }
+    },
+    {
+      "district": "Qandala",
+      "reasoning": "Coastal Bari district within East Golis SO07; livelihood diversification through fishing and frankincense moderates structural risk. Survey frequency limited.",
+      "p": {
+        "a": 16.0,
+        "b": 84.0
+      },
+      "gamma": {
+        "a": 11.0748,
+        "b": 3680.5
+      },
+      "omega": {
+        "a": 11.0512,
+        "b": 2221.5
+      }
+    },
+    {
+      "district": "Bandarbeyla",
+      "reasoning": "Coastal Deeh (SO08) Bari district; structural fishing/pastoral mix with moderate vulnerability. Remote location reduces survey frequency.",
+      "p": {
+        "a": 16.0,
+        "b": 84.0
+      },
+      "gamma": {
+        "a": 11.0506,
+        "b": 2199.1
+      },
+      "omega": {
+        "a": 11.0512,
+        "b": 2221.5
+      }
+    },
+    {
+      "district": "Qardho",
+      "reasoning": "Bari urban-pastoral district within Puntland with consistent administrative access. Some IDP hosting; reliable CMAM and surveys.",
+      "p": {
+        "a": 25.0,
+        "b": 75.0
+      },
+      "gamma": {
+        "a": 24.844,
+        "b": 4115.8
+      },
+      "omega": {
+        "a": 15.966,
+        "b": 7967.0
+      }
+    },
+    {
+      "district": "Garoowe",
+      "reasoning": "Puntland state capital with the most consistent administrative access in northeast Somalia. Garowe IDPs have shown sustained Critical/Serious GAM, raising gamma; survey infrastructure excellent (very low omega); CMAM strong.",
+      "p": {
+        "a": 35.4,
+        "b": 84.6
+      },
+      "gamma": {
+        "a": 15.8728,
+        "b": 2105.8
+      },
+      "omega": {
+        "a": 15.9785,
+        "b": 12615.2
+      }
+    },
+    {
+      "district": "Eyl",
+      "reasoning": "Coastal Deeh (SO08) Nugaal district; structural pastoral/fishing mix. Puntland administrative access supports moderate CMAM; remote rural surveys irregular.",
+      "p": {
+        "a": 20.0,
+        "b": 80.0
+      },
+      "gamma": {
+        "a": 15.915,
+        "b": 3167.1
+      },
+      "omega": {
+        "a": 12.7118,
+        "b": 4022.8
+      }
+    },
+    {
+      "district": "Burtinle",
+      "reasoning": "Addun Pastoral (SO09) Nugaal district. Stable Puntland administration supports moderate CMAM and surveys; pastoral vulnerability gives moderate structural risk.",
+      "p": {
+        "a": 20.0,
+        "b": 80.0
+      },
+      "gamma": {
+        "a": 15.8895,
+        "b": 2428.6
+      },
+      "omega": {
+        "a": 12.7118,
+        "b": 4022.8
+      }
+    },
+    {
+      "district": "Laas Caanood",
+      "reasoning": "Sool regional capital in contested Somaliland/Puntland zone; Hawd Pastoral hinterland. Periodic political tension limits programme stability; otherwise structurally moderate.",
+      "p": {
+        "a": 20.0,
+        "b": 80.0
+      },
+      "gamma": {
+        "a": 15.9235,
+        "b": 3522.6
+      },
+      "omega": {
+        "a": 12.707,
+        "b": 3617.9
+      }
+    },
+    {
+      "district": "Taleex",
+      "reasoning": "Hawd Pastoral (SO05) Sool district; remote pastoral economy with limited service infrastructure. Survey frequency low raising omega.",
+      "p": {
+        "a": 16.0,
+        "b": 84.0
+      },
+      "gamma": {
+        "a": 11.0506,
+        "b": 2199.1
+      },
+      "omega": {
+        "a": 11.0512,
+        "b": 2221.5
+      }
+    },
+    {
+      "district": "Xudun",
+      "reasoning": "Sool pastoral district, remote with limited service coverage. Hawd-Northern Inland pastoral mix; structurally moderate, omega elevated by sparse surveys.",
+      "p": {
+        "a": 16.0,
+        "b": 84.0
+      },
+      "gamma": {
+        "a": 11.0506,
+        "b": 2199.1
+      },
+      "omega": {
+        "a": 11.0512,
+        "b": 2221.5
+      }
+    },
+    {
+      "district": "Caynabo",
+      "reasoning": "Mixed Hawd Pastoral and Northwest Agropastoral district; relatively stable Somaliland administrative access. Moderate structural vulnerability.",
+      "p": {
+        "a": 20.0,
+        "b": 80.0
+      },
+      "gamma": {
+        "a": 15.949,
+        "b": 5300.4
+      },
+      "omega": {
+        "a": 12.707,
+        "b": 3617.9
+      }
+    },
+    {
+      "district": "Ceerigaabo",
+      "reasoning": "Sanaag regional capital in Northern Inland Pastoral (SO06); Somaliland-administered with moderate CMAM access. Some IDP hosting; structurally moderate vulnerability.",
+      "p": {
+        "a": 20.0,
+        "b": 80.0
+      },
+      "gamma": {
+        "a": 15.9235,
+        "b": 3522.6
+      },
+      "omega": {
+        "a": 12.707,
+        "b": 3617.9
+      }
+    },
+    {
+      "district": "Ceel Afweyn",
+      "reasoning": "Sanaag district mixing Northern Inland Pastoral and West Golis livelihoods. Stable Somaliland administration with moderate CMAM presence.",
+      "p": {
+        "a": 20.0,
+        "b": 80.0
+      },
+      "gamma": {
+        "a": 15.949,
+        "b": 5300.4
+      },
+      "omega": {
+        "a": 12.707,
+        "b": 3617.9
+      }
+    },
+    {
+      "district": "Laasqoray",
+      "reasoning": "Coastal Sanaag district mixing East Golis and Northern Inland Pastoral. Remote, intermittent CMAM access; surveys infrequent raise omega.",
+      "p": {
+        "a": 16.0,
+        "b": 84.0
+      },
+      "gamma": {
+        "a": 11.0748,
+        "b": 3680.5
+      },
+      "omega": {
+        "a": 11.0445,
+        "b": 1997.0
+      }
+    },
+    {
+      "district": "Burco",
+      "reasoning": "Togdheer regional capital, second-largest urban centre in Somaliland; reliable administration supports CMAM and FSNAU surveys (low omega). Some IDP hosting; structural agropastoral/pastoral hinterland of moderate vulnerability.",
+      "p": {
+        "a": 25.0,
+        "b": 75.0
+      },
+      "gamma": {
+        "a": 24.844,
+        "b": 4115.8
+      },
+      "omega": {
+        "a": 15.966,
+        "b": 7967.0
+      }
+    },
+    {
+      "district": "Buuhoodle",
+      "reasoning": "Togdheer/Sool border Hawd Pastoral district. Stable administration; structurally pastoral with moderate vulnerability.",
+      "p": {
+        "a": 20.0,
+        "b": 80.0
+      },
+      "gamma": {
+        "a": 15.915,
+        "b": 3167.1
+      },
+      "omega": {
+        "a": 12.7118,
+        "b": 4022.8
+      }
+    },
+    {
+      "district": "Owdweyne",
+      "reasoning": "Togdheer Agropastoral (SO04) district. Diversified rural economy; stable Somaliland administration; moderate CMAM.",
+      "p": {
+        "a": 20.0,
+        "b": 80.0
+      },
+      "gamma": {
+        "a": 15.949,
+        "b": 5300.4
+      },
+      "omega": {
+        "a": 12.707,
+        "b": 3617.9
+      }
+    },
+    {
+      "district": "Sheikh",
+      "reasoning": "Togdheer highlands district within West Golis Pastoral (SO02). Highland pastoral diversification supports relatively low structural vulnerability.",
+      "p": {
+        "a": 20.0,
+        "b": 80.0
+      },
+      "gamma": {
+        "a": 15.949,
+        "b": 5300.4
+      },
+      "omega": {
+        "a": 12.707,
+        "b": 3617.9
+      }
+    },
+    {
+      "district": "Hargeysa",
+      "reasoning": "Somaliland capital; the country's most stable urban environment with strong public services, diversified economy, and consistent FSNAU survey infrastructure (very low omega). IDP hosting elevates gamma slightly; structural risk lowest tier.",
+      "p": {
+        "a": 34.8,
+        "b": 85.2
+      },
+      "gamma": {
+        "a": 15.9152,
+        "b": 3175.1
+      },
+      "omega": {
+        "a": 15.9804,
+        "b": 13880.1
+      }
+    },
+    {
+      "district": "Berbera",
+      "reasoning": "Somaliland port city bordering Guban Pastoral (SO01) which has historically shown Critical SAM. Urban core lowers risk, but coastal Guban hinterland keeps structural vulnerability moderate.",
+      "p": {
+        "a": 24.5,
+        "b": 75.5
+      },
+      "gamma": {
+        "a": 24.883,
+        "b": 5504.7
+      },
+      "omega": {
+        "a": 15.966,
+        "b": 7967.0
+      }
+    },
+    {
+      "district": "Gebiley",
+      "reasoning": "Northwest Agropastoral (SO03) district in Somaliland; among most diversified rural economies with reliable surveys and CMAM. Low structural vulnerability.",
+      "p": {
+        "a": 24.5,
+        "b": 75.5
+      },
+      "gamma": {
+        "a": 24.922,
+        "b": 8282.4
+      },
+      "omega": {
+        "a": 15.9694,
+        "b": 8855.9
+      }
+    },
+    {
+      "district": "Borama",
+      "reasoning": "Awdal regional capital; West Golis/NW Agropastoral mix. Stable administration, diversified livelihoods, reliable CMAM and surveys; relatively low structural risk.",
+      "p": {
+        "a": 24.5,
+        "b": 75.5
+      },
+      "gamma": {
+        "a": 24.883,
+        "b": 5504.7
+      },
+      "omega": {
+        "a": 15.966,
+        "b": 7967.0
+      }
+    },
+    {
+      "district": "Baki",
+      "reasoning": "Awdal district at the boundary of Guban Pastoral (SO01, historically Critical SAM) and West Golis. Coastal pastoral pressure raises structural vulnerability; moderate CMAM.",
+      "p": {
+        "a": 20.0,
+        "b": 80.0
+      },
+      "gamma": {
+        "a": 15.915,
+        "b": 3167.1
+      },
+      "omega": {
+        "a": 12.707,
+        "b": 3617.9
+      }
+    },
+    {
+      "district": "Lughaye",
+      "reasoning": "Coastal Guban Pastoral (SO01) district; Guban has historically been one of the few zones with Critical SAM (>4%) in FSNAU surveys despite Somaliland administration. Hot, arid, structurally vulnerable; remote with sparse surveys.",
+      "p": {
+        "a": 16.0,
+        "b": 84.0
+      },
+      "gamma": {
+        "a": 11.0082,
+        "b": 1284.1
+      },
+      "omega": {
+        "a": 11.0512,
+        "b": 2221.5
+      }
+    },
+    {
+      "district": "Zeylac",
+      "reasoning": "Coastal Guban Pastoral (SO01) district along the Djibouti border; historically Critical SAM. Structurally hot/arid pastoral economy with chronic vulnerability and irregular surveys.",
+      "p": {
+        "a": 16.0,
+        "b": 84.0
+      },
+      "gamma": {
+        "a": 11.0082,
+        "b": 1284.1
+      },
+      "omega": {
+        "a": 11.0512,
+        "b": 2221.5
+      }
+    }
+  ]
+}

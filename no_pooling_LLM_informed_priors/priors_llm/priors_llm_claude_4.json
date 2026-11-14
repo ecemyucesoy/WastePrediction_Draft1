@@ -1,0 +1,1188 @@
+{
+  "districts": [
+    {
+      "district": "Adan Yabaal",
+      "reasoning": "Rainfed sorghum-cowpea and livestock agropastoralism in the Middle Shabelle hinterland, under Al-Shabaab control for most of the period and contested after the 2019 government takeover, so health and CMAM presence is minimal (low p) while chronic insecurity suppresses cropping and herd mobility (elevated gamma). Omega reflects Gu/Deyr harvest dependence, blockades and taxation that repeatedly cut market supply, and front-line volatility.",
+      "p": {
+        "a": 10.955,
+        "b": 61.116
+      },
+      "gamma": {
+        "a": 9.71,
+        "b": 1863.616
+      },
+      "omega": {
+        "a": 5.645,
+        "b": 1550.134
+      }
+    },
+    {
+      "district": "Afgooye",
+      "reasoning": "Shabelle riverine irrigated farming zone that also contains the Afgooye corridor, one of the country's largest concentrations of displaced households, with partial programme presence near Mogadishu offset by insecurity in rural villages; crowding and AWD exposure raise exits by fatality as well as treatment. Omega is driven by recurrent Shabelle floods, large and fluctuating IDP arrivals and evictions, and repeated military operations along the corridor.",
+      "p": {
+        "a": 27.56,
+        "b": 101.227
+      },
+      "gamma": {
+        "a": 13.622,
+        "b": 2080.424
+      },
+      "omega": {
+        "a": 7.667,
+        "b": 1362.895
+      }
+    },
+    {
+      "district": "Afmadow",
+      "reasoning": "Juba cattle-goat pastoral and southern rainfed zone where Dhobley and the border corridor receive returnees and IDPs while much of the rural district is Al-Shabaab influenced, giving sporadic programme access. Omega reflects strong Gu/Deyr pasture seasonality, Deshek/Lag Dheere flooding, cross-border return flows from Kenya, and recurrent fighting along the Kismaayo-Dhobley axis.",
+      "p": {
+        "a": 19.84,
+        "b": 82.165
+      },
+      "gamma": {
+        "a": 11.425,
+        "b": 2151.222
+      },
+      "omega": {
+        "a": 6.543,
+        "b": 1561.223
+      }
+    },
+    {
+      "district": "Baardheere",
+      "reasoning": "Juba pump-irrigation riverine and agropastoral district whose town is government-held but encircled, so supplies and services depend heavily on air access and programme reach outside the town is poor. Juba floods, siege-driven price spikes, and the Gu lean season produce large recurring swings in food access.",
+      "p": {
+        "a": 22.04,
+        "b": 84.69
+      },
+      "gamma": {
+        "a": 11.412,
+        "b": 1805.19
+      },
+      "omega": {
+        "a": 6.535,
+        "b": 1231.757
+      }
+    },
+    {
+      "district": "Badhaadhe",
+      "reasoning": "Coastal Lower Juba pastoral and fishing area that has been chronically inaccessible and Al-Shabaab controlled, with virtually no formal health or CMAM infrastructure, implying slow exit and moderately elevated incidence. Information is sparse, so priors are wide; omega is driven mainly by pastoral seasonality and occasional flooding rather than by displacement dynamics.",
+      "p": {
+        "a": 10.955,
+        "b": 61.116
+      },
+      "gamma": {
+        "a": 9.711,
+        "b": 1914.536
+      },
+      "omega": {
+        "a": 5.646,
+        "b": 1664.212
+      }
+    },
+    {
+      "district": "Baki",
+      "reasoning": "Northwest agropastoral and West Golis zone in Awdal with relatively diversified crop-livestock livelihoods, stable security and consistent access to Somaliland health services, supporting low incidence and moderate exit. Rainfed sorghum and karan rains give some seasonality, but stable markets and the absence of conflict or mass displacement keep month-to-month variability low.",
+      "p": {
+        "a": 36.917,
+        "b": 143.166
+      },
+      "gamma": {
+        "a": 20.609,
+        "b": 8566.545
+      },
+      "omega": {
+        "a": 11.1,
+        "b": 12489.301
+      }
+    },
+    {
+      "district": "Balcad",
+      "reasoning": "Middle Shabelle riverine irrigated farming close to Mogadishu with moderate programme presence in town but persistent Al-Shabaab activity in the surrounding villages; endemic AWD in riverine settlements raises exit through fatality. Omega reflects Shabelle flooding, Gu lean-season dependence on agricultural labour, and recurring insecurity along the Mogadishu-Jowhar road.",
+      "p": {
+        "a": 27.56,
+        "b": 101.227
+      },
+      "gamma": {
+        "a": 13.63,
+        "b": 2272.122
+      },
+      "omega": {
+        "a": 7.674,
+        "b": 1601.127
+      }
+    },
+    {
+      "district": "Banadir",
+      "reasoning": "Mogadishu has the densest health and CMAM network in the country, yielding the highest structural exit rate, but it hosts over a million IDPs in crowded informal settlements with endemic AWD/cholera exposure, which raises both incidence and fatality-driven exits. Omega is driven mainly by large, fluctuating displacement inflows and repeated forced evictions rather than by agricultural seasonality.",
+      "p": {
+        "a": 56.732,
+        "b": 158.161
+      },
+      "gamma": {
+        "a": 20.579,
+        "b": 5423.674
+      },
+      "omega": {
+        "a": 11.084,
+        "b": 4958.919
+      }
+    },
+    {
+      "district": "Bandarbeyla",
+      "reasoning": "Remote Bari coastal deeh pastoral and fishing district with poor road links and very sparse health infrastructure, giving slow exits, and moderate incidence linked to market dependence for staples. Omega reflects the strong Jilaal lean season, monsoon-driven gaps in fishing income, and cyclone exposure along the Indian Ocean coast.",
+      "p": {
+        "a": 20.145,
+        "b": 103.826
+      },
+      "gamma": {
+        "a": 16.602,
+        "b": 5035.649
+      },
+      "omega": {
+        "a": 9.164,
+        "b": 5061.567
+      }
+    },
+    {
+      "district": "Baraawe",
+      "reasoning": "Coastal Lower Shabelle district whose town is government-held but cut off by road, with an Al-Shabaab-controlled agropastoral hinterland, so programme reach is narrow and supplies arrive mainly by air or sea. Omega reflects Gu/Deyr crop dependence, siege-related market and price volatility, and repeated military operations.",
+      "p": {
+        "a": 16.775,
+        "b": 77.998
+      },
+      "gamma": {
+        "a": 11.418,
+        "b": 1939.021
+      },
+      "omega": {
+        "a": 6.544,
+        "b": 1590.315
+      }
+    },
+    {
+      "district": "Baydhaba",
+      "reasoning": "Sorghum high-potential agropastoral hub hosting one of the largest IDP populations in Somalia, with a dense network of humanitarian health and nutrition partners in town, giving a relatively high exit rate, while IDP crowding and AWD outbreaks raise both incidence and fatality-driven exit. Omega is driven by large drought-related arrival waves, Gu-harvest seasonality, and Al-Shabaab restrictions on rural roads.",
+      "p": {
+        "a": 44.662,
+        "b": 129.46
+      },
+      "gamma": {
+        "a": 16.558,
+        "b": 2866.617
+      },
+      "omega": {
+        "a": 9.144,
+        "b": 2403.282
+      }
+    },
+    {
+      "district": "Belet Weyne",
+      "reasoning": "Hiiraan riverine and urban centre on the Shabelle that hosts many IDPs and has reasonable programme presence in town; riverine AWD exposure and crowding raise fatality-related exits. It is among the most flood-exposed districts, with recurrent Shabelle floods that displace much of the town, so omega is high.",
+      "p": {
+        "a": 39.678,
+        "b": 126.337
+      },
+      "gamma": {
+        "a": 16.556,
+        "b": 2800.691
+      },
+      "omega": {
+        "a": 9.135,
+        "b": 1933.911
+      }
+    },
+    {
+      "district": "Belet Xaawo",
+      "reasoning": "Gedo southern agropastoral and pastoral border district at the Kenya-Ethiopia tri-border with moderate programme access and an IDP presence; recurrent political-armed tension (including the 2020 Jubaland-federal clashes) disrupts livelihoods. Omega reflects pastoral seasonality, cross-border displacement flows, and episodic conflict.",
+      "p": {
+        "a": 24.923,
+        "b": 98.457
+      },
+      "gamma": {
+        "a": 13.636,
+        "b": 2440.443
+      },
+      "omega": {
+        "a": 7.681,
+        "b": 1912.35
+      }
+    },
+    {
+      "district": "Berbera",
+      "reasoning": "Somaliland's main port town with livestock-export employment and good access to health services, set in Guban pastoral surroundings; stable security and functioning markets keep incidence low. Seasonality is modest (extreme Xagaa heat and coastal xays rains), and stable markets and absence of conflict keep omega low.",
+      "p": {
+        "a": 42.545,
+        "b": 148.67
+      },
+      "gamma": {
+        "a": 20.611,
+        "b": 8901.952
+      },
+      "omega": {
+        "a": 11.101,
+        "b": 12976.801
+      }
+    },
+    {
+      "district": "Borama",
+      "reasoning": "Northwest agropastoral highland town and hinterland with relatively diversified livelihoods (sorghum, livestock, cross-border trade with Ethiopia) and good health infrastructure, giving low incidence and a relatively high exit rate. Stable security and markets keep variability low despite rainfed crop seasonality.",
+      "p": {
+        "a": 48.4,
+        "b": 153.267
+      },
+      "gamma": {
+        "a": 20.607,
+        "b": 8156.604
+      },
+      "omega": {
+        "a": 11.1,
+        "b": 11893.468
+      }
+    },
+    {
+      "district": "Bossaso",
+      "reasoning": "Puntland's commercial port with strong market access and dense health services, but structurally hosting large IDP and migrant settlements with poor sanitation, which raises incidence above other northern towns. Omega is modest: markets are stable, with variability arising mainly from arrivals of displaced and migrant households.",
+      "p": {
+        "a": 52.527,
+        "b": 155.913
+      },
+      "gamma": {
+        "a": 20.592,
+        "b": 6418.396
+      },
+      "omega": {
+        "a": 11.094,
+        "b": 8056.78
+      }
+    },
+    {
+      "district": "Bu'aale",
+      "reasoning": "Middle Juba riverine farming district under long-term Al-Shabaab control with essentially no international health or CMAM presence, implying slow exits, and elevated incidence from insecurity and recurrent crop loss. Information is sparse (wide priors); omega reflects Juba floods, Gu/Deyr lean seasons, and market isolation.",
+      "p": {
+        "a": 12.583,
+        "b": 64.141
+      },
+      "gamma": {
+        "a": 9.701,
+        "b": 1606.704
+      },
+      "omega": {
+        "a": 5.638,
+        "b": 1198.681
+      }
+    },
+    {
+      "district": "Bulo Burto",
+      "reasoning": "Hiiraan riverine and agropastoral district whose town has been besieged by Al-Shabaab, with supply routes cut for long periods and limited programme reach. Shabelle floods, blockade-driven price spikes, and recurring fighting produce large swings in food access.",
+      "p": {
+        "a": 16.775,
+        "b": 77.998
+      },
+      "gamma": {
+        "a": 11.412,
+        "b": 1805.19
+      },
+      "omega": {
+        "a": 6.535,
+        "b": 1231.757
+      }
+    },
+    {
+      "district": "Burco",
+      "reasoning": "Somaliland's largest livestock market town with good health coverage and functioning markets, surrounded by Togdheer agropastoral and Hawd pastoral areas, giving low structural incidence. Omega is moderate: livestock-price dependence and drought-driven arrivals of destitute pastoralists cause some fluctuation.",
+      "p": {
+        "a": 50.453,
+        "b": 154.64
+      },
+      "gamma": {
+        "a": 20.609,
+        "b": 8495.398
+      },
+      "omega": {
+        "a": 11.097,
+        "b": 9745.66
+      }
+    },
+    {
+      "district": "Burtinle",
+      "reasoning": "Nugaal Hawd and Northern Inland pastoral district with high dependence on purchased cereals and few health facilities outside town, implying moderate incidence and relatively slow exit. Omega reflects a pronounced Jilaal lean season, recurrent drought, and pastoral migration rather than conflict.",
+      "p": {
+        "a": 31.551,
+        "b": 136.72
+      },
+      "gamma": {
+        "a": 20.596,
+        "b": 6844.795
+      },
+      "omega": {
+        "a": 11.091,
+        "b": 6835.508
+      }
+    },
+    {
+      "district": "Buuhoodle",
+      "reasoning": "Hawd pastoral border district in the area disputed between Somaliland and Puntland/Khatumo, with intermittent armed clashes and limited service delivery. Omega is elevated by pastoral seasonality, drought, and episodic conflict that disrupts livestock movement and trade.",
+      "p": {
+        "a": 18.827,
+        "b": 90.315
+      },
+      "gamma": {
+        "a": 13.66,
+        "b": 3506.311
+      },
+      "omega": {
+        "a": 7.694,
+        "b": 2996.109
+      }
+    },
+    {
+      "district": "Buur Hakaba",
+      "reasoning": "Bay sorghum high-potential agropastoral district whose town lies on the contested Mogadishu-Baidoa road with frequent Al-Shabaab blockades, limiting programmes and markets. Omega reflects strong Gu/Deyr crop seasonality and blockade-related price and supply shocks.",
+      "p": {
+        "a": 16.775,
+        "b": 77.998
+      },
+      "gamma": {
+        "a": 11.414,
+        "b": 1847.725
+      },
+      "omega": {
+        "a": 6.542,
+        "b": 1515.691
+      }
+    },
+    {
+      "district": "Cabudwaaq",
+      "reasoning": "Galgaduud Hawd pastoral district on the Ethiopian border with moderate access and some IDP settlements around town; heavy reliance on livestock and purchased cereals. Omega reflects the Jilaal lean season, recurrent drought, and occasional clan clashes.",
+      "p": {
+        "a": 30.086,
+        "b": 117.755
+      },
+      "gamma": {
+        "a": 16.588,
+        "b": 4089.252
+      },
+      "omega": {
+        "a": 9.158,
+        "b": 3768.739
+      }
+    },
+    {
+      "district": "Cadaado",
+      "reasoning": "Addun pastoral district serving as an administrative centre of Galmudug, with moderate service presence and drought-related IDP settlements. Omega is driven by pastoral seasonality, recurrent drought, and periodic insecurity.",
+      "p": {
+        "a": 30.086,
+        "b": 117.755
+      },
+      "gamma": {
+        "a": 16.584,
+        "b": 3853.628
+      },
+      "omega": {
+        "a": 9.157,
+        "b": 3552.278
+      }
+    },
+    {
+      "district": "Cadale",
+      "reasoning": "Middle Shabelle coastal deeh pastoral and fishing district with weak roads, partial Al-Shabaab presence and very limited health services, giving slow exits. Information is sparse (wide priors); omega reflects pastoral and fishing seasonality.",
+      "p": {
+        "a": 12.96,
+        "b": 71.469
+      },
+      "gamma": {
+        "a": 11.435,
+        "b": 2552.289
+      },
+      "omega": {
+        "a": 6.554,
+        "b": 2442.535
+      }
+    },
+    {
+      "district": "Caluula",
+      "reasoning": "Remote Bari East Golis frankincense and coastal fishing district with few health facilities, implying slow exit; incidence is moderate given diversified frankincense and fishing income. Omega reflects monsoon fishing seasonality, the Jilaal lean season and high import dependence, with minimal conflict.",
+      "p": {
+        "a": 20.145,
+        "b": 103.826
+      },
+      "gamma": {
+        "a": 16.602,
+        "b": 5035.649
+      },
+      "omega": {
+        "a": 9.166,
+        "b": 5406.871
+      }
+    },
+    {
+      "district": "Caynabo",
+      "reasoning": "Northern Inland and Hawd pastoral district on the Sool-Togdheer boundary with sparse services and recurrent clan clashes over land. Omega reflects pastoral seasonality, drought, and episodic conflict.",
+      "p": {
+        "a": 24.217,
+        "b": 110.32
+      },
+      "gamma": {
+        "a": 16.599,
+        "b": 4839.143
+      },
+      "omega": {
+        "a": 9.161,
+        "b": 4244.448
+      }
+    },
+    {
+      "district": "Ceel Afweyn",
+      "reasoning": "Sanaag Northern Inland pastoral district with limited health infrastructure and protracted clan conflict (e.g. 2018-19) that disrupts grazing and trade. Omega reflects Jilaal lean-season dynamics, drought and intermittent conflict.",
+      "p": {
+        "a": 24.217,
+        "b": 110.32
+      },
+      "gamma": {
+        "a": 16.599,
+        "b": 4839.143
+      },
+      "omega": {
+        "a": 9.161,
+        "b": 4244.448
+      }
+    },
+    {
+      "district": "Ceel Barde",
+      "reasoning": "Bakool southern agropastoral and pastoral border district with sporadic access and limited services. Omega is driven by Gu/Deyr seasonality, cross-border movement, and periodic insecurity, including shifting military positions.",
+      "p": {
+        "a": 21.235,
+        "b": 93.86
+      },
+      "gamma": {
+        "a": 13.641,
+        "b": 2618.147
+      },
+      "omega": {
+        "a": 7.688,
+        "b": 2346.548
+      }
+    },
+    {
+      "district": "Ceel Buur",
+      "reasoning": "Central cowpea-belt agropastoral district under prolonged Al-Shabaab control, chronically inaccessible to humanitarian programmes, implying slow exits and elevated incidence. Information is sparse (wide priors); omega reflects rainfed crop seasonality, drought, and market isolation.",
+      "p": {
+        "a": 10.955,
+        "b": 61.116
+      },
+      "gamma": {
+        "a": 9.71,
+        "b": 1863.616
+      },
+      "omega": {
+        "a": 5.646,
+        "b": 1620.093
+      }
+    },
+    {
+      "district": "Ceel Dheere",
+      "reasoning": "Galgaduud coastal and cowpea-belt district under Al-Shabaab control and chronically inaccessible, with essentially no formal nutrition services. Information is sparse (wide priors); omega reflects seasonal and drought-driven variability and market isolation.",
+      "p": {
+        "a": 10.955,
+        "b": 61.116
+      },
+      "gamma": {
+        "a": 9.713,
+        "b": 1968.285
+      },
+      "omega": {
+        "a": 5.648,
+        "b": 1791.55
+      }
+    },
+    {
+      "district": "Ceel Waaq",
+      "reasoning": "Gedo southern inland pastoral district on the Kenyan border with sporadic access and limited services. Omega reflects pastoral seasonality, drought, and cross-border insecurity.",
+      "p": {
+        "a": 21.235,
+        "b": 93.86
+      },
+      "gamma": {
+        "a": 13.649,
+        "b": 2904.248
+      },
+      "omega": {
+        "a": 7.69,
+        "b": 2601.999
+      }
+    },
+    {
+      "district": "Ceerigaabo",
+      "reasoning": "Sanaag regional capital set in East Golis highland and Northern Inland pastoral areas, with moderate services but in territory contested by Somaliland and Puntland and affected by clan conflict. Omega reflects pastoral seasonality, drought, and episodic clashes.",
+      "p": {
+        "a": 28.547,
+        "b": 115.994
+      },
+      "gamma": {
+        "a": 16.596,
+        "b": 4607.079
+      },
+      "omega": {
+        "a": 9.16,
+        "b": 4041.412
+      }
+    },
+    {
+      "district": "Dhuusamarreeb",
+      "reasoning": "Galmudug capital in Addun and cowpea-belt zones with a sizeable IDP population; moderate programme presence was repeatedly interrupted by the ASWJ-government fighting between 2017 and 2020. Omega is elevated by drought, conflict-driven displacement waves, and access volatility.",
+      "p": {
+        "a": 31.65,
+        "b": 119.425
+      },
+      "gamma": {
+        "a": 16.579,
+        "b": 3598.111
+      },
+      "omega": {
+        "a": 9.149,
+        "b": 2761.402
+      }
+    },
+    {
+      "district": "Diinsoor",
+      "reasoning": "Bay agropastoral district that has been largely inaccessible and contested, with negligible health infrastructure. Information is sparse (wide priors); omega reflects strong Gu-harvest seasonality and market isolation.",
+      "p": {
+        "a": 10.955,
+        "b": 61.116
+      },
+      "gamma": {
+        "a": 9.699,
+        "b": 1565.26
+      },
+      "omega": {
+        "a": 5.641,
+        "b": 1361.588
+      }
+    },
+    {
+      "district": "Doolow",
+      "reasoning": "Gedo Juba pump-irrigation riverine district and IDP hub on the Ethiopian border with a long-standing, well-supported health and nutrition partner presence, giving a relatively high exit rate. Omega is elevated by large IDP and cross-border movements, Juba flooding, and riverine seasonality.",
+      "p": {
+        "a": 54.62,
+        "b": 157.086
+      },
+      "gamma": {
+        "a": 20.541,
+        "b": 3684.558
+      },
+      "omega": {
+        "a": 11.06,
+        "b": 2596.657
+      }
+    },
+    {
+      "district": "Eyl",
+      "reasoning": "Nugaal coastal deeh pastoral and fishing district with limited services and high dependence on purchased staples. Omega reflects pastoral and fishing seasonality and exposure to tropical cyclones (e.g. Gati, 2020).",
+      "p": {
+        "a": 24.217,
+        "b": 110.32
+      },
+      "gamma": {
+        "a": 16.591,
+        "b": 4225.024
+      },
+      "omega": {
+        "a": 9.158,
+        "b": 3829.323
+      }
+    },
+    {
+      "district": "Gaalkacyo",
+      "reasoning": "Mudug urban centre divided between Puntland and Galmudug, hosting large IDP settlements with moderate programme presence. Omega is high due to cross-line conflict (notably 2016-17), displacement inflows, and drought.",
+      "p": {
+        "a": 36.35,
+        "b": 123.781
+      },
+      "gamma": {
+        "a": 16.587,
+        "b": 4026.921
+      },
+      "omega": {
+        "a": 9.154,
+        "b": 3248.533
+      }
+    },
+    {
+      "district": "Galdogob",
+      "reasoning": "Mudug Hawd pastoral border district with stable access but limited health services and high dependence on purchased food. Omega reflects pastoral seasonality and drought.",
+      "p": {
+        "a": 31.551,
+        "b": 136.72
+      },
+      "gamma": {
+        "a": 20.591,
+        "b": 6356.867
+      },
+      "omega": {
+        "a": 11.089,
+        "b": 6014.176
+      }
+    },
+    {
+      "district": "Garbahaarey",
+      "reasoning": "Gedo regional capital in southern agropastoral areas, with moderate services in town but insecure rural roads. Omega reflects Gu/Deyr crop seasonality, drought, and periodic insecurity.",
+      "p": {
+        "a": 24.923,
+        "b": 98.457
+      },
+      "gamma": {
+        "a": 13.638,
+        "b": 2497.855
+      },
+      "omega": {
+        "a": 7.686,
+        "b": 2239.142
+      }
+    },
+    {
+      "district": "Garoowe",
+      "reasoning": "Puntland's administrative capital with relatively dense health services and functioning markets, hosting moderate IDP settlements, giving low-moderate incidence and high exit. Omega is low, driven mostly by drought-related arrivals of pastoralists.",
+      "p": {
+        "a": 50.453,
+        "b": 154.64
+      },
+      "gamma": {
+        "a": 20.596,
+        "b": 6867.828
+      },
+      "omega": {
+        "a": 11.095,
+        "b": 8234.773
+      }
+    },
+    {
+      "district": "Gebiley",
+      "reasoning": "Northwest agropastoral sorghum area of Somaliland with relatively diversified livelihoods, stable security, and access to Hargeysa services. Omega is moderate-low, reflecting rainfed crop seasonality without conflict or displacement shocks.",
+      "p": {
+        "a": 36.917,
+        "b": 143.166
+      },
+      "gamma": {
+        "a": 20.609,
+        "b": 8566.545
+      },
+      "omega": {
+        "a": 11.099,
+        "b": 10870.036
+      }
+    },
+    {
+      "district": "Hargeysa",
+      "reasoning": "Somaliland's capital with the strongest health system in the north and diversified urban livelihoods, but hosting sizeable IDP and returnee settlements, giving low incidence and high exit. Omega is low, with some fluctuation from drought-related arrivals.",
+      "p": {
+        "a": 50.453,
+        "b": 154.64
+      },
+      "gamma": {
+        "a": 20.606,
+        "b": 8124.198
+      },
+      "omega": {
+        "a": 11.097,
+        "b": 9736.222
+      }
+    },
+    {
+      "district": "Hobyo",
+      "reasoning": "Mudug coastal deeh and Addun pastoral district with a government-held town and a contested hinterland, limited services and road access. Omega reflects pastoral seasonality, drought, and conflict-related market disruption.",
+      "p": {
+        "a": 20.018,
+        "b": 92.128
+      },
+      "gamma": {
+        "a": 13.65,
+        "b": 2985.708
+      },
+      "omega": {
+        "a": 7.69,
+        "b": 2591.929
+      }
+    },
+    {
+      "district": "Iskushuban",
+      "reasoning": "Bari East Golis frankincense and Karkaar/coastal pastoral district with limited services, implying slower exit. Omega reflects pastoral seasonality and import dependence, with low conflict.",
+      "p": {
+        "a": 24.217,
+        "b": 110.32
+      },
+      "gamma": {
+        "a": 16.602,
+        "b": 5035.649
+      },
+      "omega": {
+        "a": 9.166,
+        "b": 5406.871
+      }
+    },
+    {
+      "district": "Jalalaqsi",
+      "reasoning": "Hiiraan riverine district whose town has been blockaded, cutting trade and service access for long periods. Omega reflects Shabelle floods, siege-driven price spikes, and recurrent fighting.",
+      "p": {
+        "a": 17.806,
+        "b": 79.492
+      },
+      "gamma": {
+        "a": 11.416,
+        "b": 1892.286
+      },
+      "omega": {
+        "a": 6.536,
+        "b": 1291.082
+      }
+    },
+    {
+      "district": "Jamaame",
+      "reasoning": "Lower Juba riverine gravity-irrigation district under long-term Al-Shabaab control, chronically inaccessible, with endemic AWD and no formal nutrition services, implying slow exit and elevated incidence. Information is sparse (wide priors); omega reflects recurrent Juba floods and flood displacement.",
+      "p": {
+        "a": 12.583,
+        "b": 64.141
+      },
+      "gamma": {
+        "a": 9.701,
+        "b": 1606.704
+      },
+      "omega": {
+        "a": 5.637,
+        "b": 1183.353
+      }
+    },
+    {
+      "district": "Jariiban",
+      "reasoning": "Mudug Addun and coastal deeh pastoral district, accessible but with limited services and high drought exposure. Omega reflects pastoral seasonality and drought-driven livestock losses.",
+      "p": {
+        "a": 31.551,
+        "b": 136.72
+      },
+      "gamma": {
+        "a": 20.577,
+        "b": 5290.361
+      },
+      "omega": {
+        "a": 11.084,
+        "b": 5007.951
+      }
+    },
+    {
+      "district": "Jilib",
+      "reasoning": "Middle Juba riverine farming district that is a long-standing Al-Shabaab stronghold, chronically inaccessible, with endemic water-borne disease and no international health presence. Information is sparse (wide priors); omega reflects Juba floods and riverine seasonality.",
+      "p": {
+        "a": 12.583,
+        "b": 64.141
+      },
+      "gamma": {
+        "a": 9.701,
+        "b": 1606.704
+      },
+      "omega": {
+        "a": 5.639,
+        "b": 1230.548
+      }
+    },
+    {
+      "district": "Jowhar",
+      "reasoning": "Middle Shabelle riverine gravity-irrigation district and Hirshabelle capital with moderate services, IDP settlements, and endemic AWD in riverine villages. Omega is elevated by recurrent Shabelle floods and breaches that displace farming households, and by insecurity.",
+      "p": {
+        "a": 27.56,
+        "b": 101.227
+      },
+      "gamma": {
+        "a": 13.628,
+        "b": 2223.277
+      },
+      "omega": {
+        "a": 7.672,
+        "b": 1509.561
+      }
+    },
+    {
+      "district": "Kismaayo",
+      "reasoning": "Lower Juba port city with moderate-to-good health services, hosting large IDP and returnee populations (including returns from Dadaab). Omega reflects displacement and return flows and periodic insecurity.",
+      "p": {
+        "a": 36.35,
+        "b": 123.781
+      },
+      "gamma": {
+        "a": 16.589,
+        "b": 4123.614
+      },
+      "omega": {
+        "a": 9.157,
+        "b": 3647.521
+      }
+    },
+    {
+      "district": "Kurtunwaarey",
+      "reasoning": "Lower Shabelle riverine and agropastoral district under Al-Shabaab control, chronically inaccessible, with no formal nutrition services. Information is sparse (wide priors); omega reflects flooding, riverine seasonality, and market isolation.",
+      "p": {
+        "a": 12.583,
+        "b": 64.141
+      },
+      "gamma": {
+        "a": 9.701,
+        "b": 1606.704
+      },
+      "omega": {
+        "a": 5.639,
+        "b": 1238.779
+      }
+    },
+    {
+      "district": "Laas Caanood",
+      "reasoning": "Sool regional centre in Northern Inland/Nugal valley pastoral areas with moderate services, located in territory disputed between Somaliland and Puntland (e.g. Tukaraq clashes, 2018). Omega reflects pastoral seasonality, drought, and episodic conflict.",
+      "p": {
+        "a": 28.547,
+        "b": 115.994
+      },
+      "gamma": {
+        "a": 16.593,
+        "b": 4396.113
+      },
+      "omega": {
+        "a": 9.159,
+        "b": 3856.833
+      }
+    },
+    {
+      "district": "Laasqoray",
+      "reasoning": "Remote Sanaag East Golis frankincense and fishing district with very poor road access and minimal health infrastructure. Information is sparse (wide priors); omega reflects pastoral/fishing seasonality and isolation.",
+      "p": {
+        "a": 15.509,
+        "b": 84.552
+      },
+      "gamma": {
+        "a": 13.664,
+        "b": 3734.352
+      },
+      "omega": {
+        "a": 7.699,
+        "b": 3903.099
+      }
+    },
+    {
+      "district": "Lughaye",
+      "reasoning": "Awdal Guban and West Golis pastoral district with sparse services, extreme heat and high dependence on purchased food. Omega reflects strong Guban seasonality (xays coastal rains vs inland Gu) and drought.",
+      "p": {
+        "a": 24.217,
+        "b": 110.32
+      },
+      "gamma": {
+        "a": 16.6,
+        "b": 4877.216
+      },
+      "omega": {
+        "a": 9.165,
+        "b": 5288.838
+      }
+    },
+    {
+      "district": "Luuq",
+      "reasoning": "Gedo Juba pump-irrigation riverine district with IDP settlements and relatively established nutrition partner presence. Omega reflects displacement flows, Juba floods, and riverine seasonality.",
+      "p": {
+        "a": 38.004,
+        "b": 125.102
+      },
+      "gamma": {
+        "a": 16.56,
+        "b": 2923.943
+      },
+      "omega": {
+        "a": 9.139,
+        "b": 2112.079
+      }
+    },
+    {
+      "district": "Marka",
+      "reasoning": "Lower Shabelle riverine district with contested control and intermittent offensives, limited programme reach, and endemic AWD. Omega reflects flooding, riverine seasonality, and conflict volatility.",
+      "p": {
+        "a": 18.858,
+        "b": 80.918
+      },
+      "gamma": {
+        "a": 11.412,
+        "b": 1805.19
+      },
+      "omega": {
+        "a": 6.536,
+        "b": 1269.973
+      }
+    },
+    {
+      "district": "Owdweyne",
+      "reasoning": "Togdheer agropastoral district with sorghum and livestock, accessible but with limited services. Omega reflects rainfed crop seasonality and drought.",
+      "p": {
+        "a": 31.551,
+        "b": 136.72
+      },
+      "gamma": {
+        "a": 20.609,
+        "b": 8566.545
+      },
+      "omega": {
+        "a": 11.098,
+        "b": 10151.801
+      }
+    },
+    {
+      "district": "Qandala",
+      "reasoning": "Bari East Golis frankincense and fishing district with limited services and high import dependence. Omega reflects fishing and pastoral seasonality.",
+      "p": {
+        "a": 24.217,
+        "b": 110.32
+      },
+      "gamma": {
+        "a": 16.602,
+        "b": 5035.649
+      },
+      "omega": {
+        "a": 9.166,
+        "b": 5406.871
+      }
+    },
+    {
+      "district": "Qansax Dheere",
+      "reasoning": "Bay agropastoral district whose town relies on air access, which was suspended after the 2020 aircraft incidents. Omega reflects Gu-harvest seasonality and siege-related supply shocks.",
+      "p": {
+        "a": 16.775,
+        "b": 77.998
+      },
+      "gamma": {
+        "a": 11.418,
+        "b": 1936.847
+      },
+      "omega": {
+        "a": 6.544,
+        "b": 1588.538
+      }
+    },
+    {
+      "district": "Qardho",
+      "reasoning": "Bari Northern Inland and East Golis pastoral district with a reasonably served town and moderate IDP settlements. Omega reflects pastoral seasonality and drought.",
+      "p": {
+        "a": 42.545,
+        "b": 148.67
+      },
+      "gamma": {
+        "a": 20.588,
+        "b": 6066.001
+      },
+      "omega": {
+        "a": 11.088,
+        "b": 5739.751
+      }
+    },
+    {
+      "district": "Qoryooley",
+      "reasoning": "Lower Shabelle riverine irrigated maize district with contested control, intermittent military operations, and endemic AWD. Omega is elevated by Shabelle floods, conflict-driven displacement, and market disruption.",
+      "p": {
+        "a": 18.858,
+        "b": 80.918
+      },
+      "gamma": {
+        "a": 11.412,
+        "b": 1805.19
+      },
+      "omega": {
+        "a": 6.534,
+        "b": 1217.1
+      }
+    },
+    {
+      "district": "Rab Dhuure",
+      "reasoning": "Bakool low-potential agropastoral district with besieged towns and minimal services. Omega reflects Gu seasonality and blockade-related supply shocks.",
+      "p": {
+        "a": 13.899,
+        "b": 73.241
+      },
+      "gamma": {
+        "a": 11.415,
+        "b": 1859.671
+      },
+      "omega": {
+        "a": 6.542,
+        "b": 1525.456
+      }
+    },
+    {
+      "district": "Saakow",
+      "reasoning": "Middle Juba riverine district under Al-Shabaab control, chronically inaccessible, with endemic disease and no formal nutrition services. Information is sparse (wide priors); omega reflects Juba floods and riverine seasonality.",
+      "p": {
+        "a": 12.583,
+        "b": 64.141
+      },
+      "gamma": {
+        "a": 9.701,
+        "b": 1606.704
+      },
+      "omega": {
+        "a": 5.639,
+        "b": 1230.548
+      }
+    },
+    {
+      "district": "Sablaale",
+      "reasoning": "Lower Shabelle riverine and agropastoral district under Al-Shabaab control, chronically inaccessible. Information is sparse (wide priors); omega reflects Shabelle floods and riverine seasonality.",
+      "p": {
+        "a": 12.583,
+        "b": 64.141
+      },
+      "gamma": {
+        "a": 9.701,
+        "b": 1606.704
+      },
+      "omega": {
+        "a": 5.637,
+        "b": 1183.353
+      }
+    },
+    {
+      "district": "Sheikh",
+      "reasoning": "Togdheer West Golis highland pastoral and agropastoral district with stable access and moderate services. Omega is low, reflecting modest seasonality and stable markets.",
+      "p": {
+        "a": 36.917,
+        "b": 143.166
+      },
+      "gamma": {
+        "a": 20.609,
+        "b": 8566.545
+      },
+      "omega": {
+        "a": 11.1,
+        "b": 11847.634
+      }
+    },
+    {
+      "district": "Taleex",
+      "reasoning": "Remote Sool Nugal-valley pastoral district in disputed territory with minimal health services. Omega reflects pastoral seasonality, drought, and episodic conflict.",
+      "p": {
+        "a": 15.509,
+        "b": 84.552
+      },
+      "gamma": {
+        "a": 13.664,
+        "b": 3769.354
+      },
+      "omega": {
+        "a": 7.696,
+        "b": 3270.09
+      }
+    },
+    {
+      "district": "Tayeeglow",
+      "reasoning": "Bakool low-potential agropastoral district under Al-Shabaab control, chronically inaccessible, with no formal health services. Information is sparse (wide priors); omega reflects Gu seasonality and market isolation.",
+      "p": {
+        "a": 10.955,
+        "b": 61.116
+      },
+      "gamma": {
+        "a": 9.697,
+        "b": 1502.846
+      },
+      "omega": {
+        "a": 5.64,
+        "b": 1307.51
+      }
+    },
+    {
+      "district": "Waajid",
+      "reasoning": "Bakool low-potential agropastoral district whose town relies largely on air access due to Al-Shabaab encirclement. Omega reflects Gu seasonality and siege-related supply and price shocks.",
+      "p": {
+        "a": 16.775,
+        "b": 77.998
+      },
+      "gamma": {
+        "a": 11.411,
+        "b": 1769.981
+      },
+      "omega": {
+        "a": 6.541,
+        "b": 1452.144
+      }
+    },
+    {
+      "district": "Wanla Weyn",
+      "reasoning": "Lower Shabelle Bay-Shabelle high-potential agropastoral district on the Mogadishu-Baidoa road, with contested control and limited programme reach. Omega reflects Gu/Deyr crop seasonality, displacement, and conflict volatility.",
+      "p": {
+        "a": 21.235,
+        "b": 93.86
+      },
+      "gamma": {
+        "a": 13.632,
+        "b": 2325.619
+      },
+      "omega": {
+        "a": 7.679,
+        "b": 1809.959
+      }
+    },
+    {
+      "district": "Xarardheere",
+      "reasoning": "Mudug coastal deeh and Addun pastoral district under long-term Al-Shabaab control, chronically inaccessible. Information is sparse (wide priors); omega reflects pastoral seasonality and drought.",
+      "p": {
+        "a": 10.174,
+        "b": 59.509
+      },
+      "gamma": {
+        "a": 9.713,
+        "b": 1968.285
+      },
+      "omega": {
+        "a": 5.649,
+        "b": 1849.739
+      }
+    },
+    {
+      "district": "Xudun",
+      "reasoning": "Remote Sool-plateau Northern Inland pastoral district in disputed territory with minimal services. Omega reflects pastoral seasonality and drought.",
+      "p": {
+        "a": 15.509,
+        "b": 84.552
+      },
+      "gamma": {
+        "a": 13.664,
+        "b": 3769.354
+      },
+      "omega": {
+        "a": 7.696,
+        "b": 3270.09
+      }
+    },
+    {
+      "district": "Xudur",
+      "reasoning": "Bakool regional capital in low-potential agropastoral areas, with a government-held town dependent on air access and IDP settlements. Omega reflects Gu seasonality and siege-related supply shocks.",
+      "p": {
+        "a": 19.84,
+        "b": 82.165
+      },
+      "gamma": {
+        "a": 11.407,
+        "b": 1688.445
+      },
+      "omega": {
+        "a": 6.539,
+        "b": 1385.498
+      }
+    },
+    {
+      "district": "Zeylac",
+      "reasoning": "Awdal Guban pastoral and coastal district bordering Djibouti, with sparse services and extreme heat, but some cross-border trade income. Omega reflects strong Guban seasonality and drought.",
+      "p": {
+        "a": 24.217,
+        "b": 110.32
+      },
+      "gamma": {
+        "a": 16.6,
+        "b": 4877.216
+      },
+      "omega": {
+        "a": 9.165,
+        "b": 5288.838
+      }
+    }
+  ]
+}

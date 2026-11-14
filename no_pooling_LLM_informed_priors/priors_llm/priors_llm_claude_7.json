@@ -1,0 +1,1188 @@
+{
+  "districts": [
+    {
+      "district": "Adan Yabaal",
+      "reasoning": "Agropastoral district that functioned as an Al-Shabaab stronghold throughout the period, essentially inaccessible to humanitarian programmes, with minimal treatment and immunisation services. Rain-fed crop dependence, taxation and military operations drive high variability.",
+      "p": {
+        "a": 10.835,
+        "b": 44.165
+      },
+      "gamma": {
+        "a": 5.628,
+        "b": 905.007
+      },
+      "omega": {
+        "a": 3.289,
+        "b": 825.609
+      }
+    },
+    {
+      "district": "Afgooye",
+      "reasoning": "Shabelle riverine district and the Afgooye IDP corridor, hosting a very large displaced population with programme presence close to Mogadishu, but with active conflict in surrounding rural areas and riverine AWD exposure. Flooding, conflict displacement and inflows of drought-displaced households drive high variability.",
+      "p": {
+        "a": 25.168,
+        "b": 54.832
+      },
+      "gamma": {
+        "a": 11.038,
+        "b": 1810.368
+      },
+      "omega": {
+        "a": 4.913,
+        "b": 1141.76
+      }
+    },
+    {
+      "district": "Afmadow",
+      "reasoning": "Southern Inland and Juba Pastoral district with cattle/camel herding, a border hub with returnee and IDP settlements and Al-Shabaab presence in rural areas. Pastoral drought exposure and displacement flows drive moderately high variability.",
+      "p": {
+        "a": 18.144,
+        "b": 51.856
+      },
+      "gamma": {
+        "a": 8.111,
+        "b": 1414.878
+      },
+      "omega": {
+        "a": 3.982,
+        "b": 1084.094
+      }
+    },
+    {
+      "district": "Baardheere",
+      "reasoning": "Juba riverine pump-irrigation and agropastoral district with a garrison town surrounded by Al-Shabaab-controlled areas, restricted road access and riverine disease exposure. Juba floods, irrigation costs and blockade-related supply interruptions produce high variability.",
+      "p": {
+        "a": 17.906,
+        "b": 52.094
+      },
+      "gamma": {
+        "a": 8.107,
+        "b": 1303.647
+      },
+      "omega": {
+        "a": 3.979,
+        "b": 923.657
+      }
+    },
+    {
+      "district": "Badhaadhe",
+      "reasoning": "Remote southern pastoral and coastal district with substantial Al-Shabaab presence, poor road access and very limited health services. Drought exposure and conflict-related market isolation drive moderately high variability.",
+      "p": {
+        "a": 11.715,
+        "b": 43.285
+      },
+      "gamma": {
+        "a": 5.63,
+        "b": 961.745
+      },
+      "omega": {
+        "a": 3.29,
+        "b": 895.432
+      }
+    },
+    {
+      "district": "Baki",
+      "reasoning": "Rural Northwest Agropastoral and West Golis Pastoral district with own-crop and milk access, low conflict and consistent access, but thinner health coverage than Borama. Rain-fed cropping and pastoral lean season (Jilaal) create moderate seasonal swings.",
+      "p": {
+        "a": 21.952,
+        "b": 58.048
+      },
+      "gamma": {
+        "a": 11.067,
+        "b": 3012.645
+      },
+      "omega": {
+        "a": 4.928,
+        "b": 2922.295
+      }
+    },
+    {
+      "district": "Balcad",
+      "reasoning": "Shabelle riverine district near Mogadishu with irrigated maize/cash crops and access to Mogadishu markets, but with rural Al-Shabaab presence and riverine AWD exposure. Recurrent flooding and insecurity-driven displacement produce high variability.",
+      "p": {
+        "a": 23.152,
+        "b": 56.848
+      },
+      "gamma": {
+        "a": 11.045,
+        "b": 2011.846
+      },
+      "omega": {
+        "a": 4.915,
+        "b": 1245.321
+      }
+    },
+    {
+      "district": "Banadir",
+      "reasoning": "Mogadishu, with the densest health and treatment network and fully functioning import markets, but hosting the country's largest concentration of IDPs in congested informal sites subject to forced evictions and poor sanitation. Large, repeated displacement inflows and evictions drive moderately high variability despite market stability.",
+      "p": {
+        "a": 29.472,
+        "b": 50.528
+      },
+      "gamma": {
+        "a": 11.046,
+        "b": 2057.575
+      },
+      "omega": {
+        "a": 4.919,
+        "b": 1490.393
+      }
+    },
+    {
+      "district": "Bandarbeyla",
+      "reasoning": "Coastal Deeh pastoral and fishing district with arid conditions, market-dependent diets and sparse services, exposed to Indian Ocean cyclones and flash floods. Cyclone and drought exposure give moderately high variability.",
+      "p": {
+        "a": 16.856,
+        "b": 53.144
+      },
+      "gamma": {
+        "a": 8.117,
+        "b": 1583.36
+      },
+      "omega": {
+        "a": 3.985,
+        "b": 1320.36
+      }
+    },
+    {
+      "district": "Baraawe",
+      "reasoning": "Coastal town enclave surrounded by Al-Shabaab-influenced rural riverine and agropastoral areas, with restricted road links and limited services. Blockade-related supply disruptions and seasonal agricultural shocks drive high variability.",
+      "p": {
+        "a": 16.968,
+        "b": 53.032
+      },
+      "gamma": {
+        "a": 8.109,
+        "b": 1357.015
+      },
+      "omega": {
+        "a": 3.981,
+        "b": 1019.112
+      }
+    },
+    {
+      "district": "Baydhaba",
+      "reasoning": "Bay sorghum-belt hub and state capital that hosts one of the largest IDP populations in Somalia, with dense humanitarian and treatment programmes but crowded sites with poor water and sanitation, and an Al-Shabaab-controlled hinterland. Large displacement inflows tied to rain-fed sorghum failures and conflict produce high variability.",
+      "p": {
+        "a": 25.84,
+        "b": 54.16
+      },
+      "gamma": {
+        "a": 11.035,
+        "b": 1740.523
+      },
+      "omega": {
+        "a": 4.911,
+        "b": 1077.835
+      }
+    },
+    {
+      "district": "Belet Weyne",
+      "reasoning": "Hiraan riverine and agropastoral district on the Shabelle and a key market on the Ethiopia-Mogadishu route, with programme presence and large IDP settlements, but with riverine AWD exposure. Recurrent, severe Shabelle river floods that inundate the town and farmland, plus displacement surges, give very high variability.",
+      "p": {
+        "a": 25.168,
+        "b": 54.832
+      },
+      "gamma": {
+        "a": 11.041,
+        "b": 1885.974
+      },
+      "omega": {
+        "a": 4.911,
+        "b": 1052.435
+      }
+    },
+    {
+      "district": "Belet Xaawo",
+      "reasoning": "Border town at the Kenya-Ethiopia tri-point with cross-border trade and IDP settlements, affected by political confrontation between administrations and Al-Shabaab activity. Displacement flows and conflict episodes drive high variability.",
+      "p": {
+        "a": 22.08,
+        "b": 57.92
+      },
+      "gamma": {
+        "a": 11.044,
+        "b": 1968.084
+      },
+      "omega": {
+        "a": 4.916,
+        "b": 1313.988
+      }
+    },
+    {
+      "district": "Berbera",
+      "reasoning": "Port town with livestock-export and port employment surrounded by arid Guban pastoral hinterland, stable governance and good access. Export-season and hot-season (Hagaa) labour fluctuations create moderate but buffered variability.",
+      "p": {
+        "a": 24.64,
+        "b": 55.36
+      },
+      "gamma": {
+        "a": 11.064,
+        "b": 2825.828
+      },
+      "omega": {
+        "a": 4.928,
+        "b": 2906.699
+      }
+    },
+    {
+      "district": "Borama",
+      "reasoning": "Urban centre within the Northwest Agropastoral zone (sorghum/maize and cattle, Gu and Karan rains) with diversified trade income, a regional hospital and consistent humanitarian and health access, supporting relatively high treatment exit and low structural incidence. Bimodal cropping and stable markets keep month-to-month variation in new cases modest.",
+      "p": {
+        "a": 26.32,
+        "b": 53.68
+      },
+      "gamma": {
+        "a": 11.074,
+        "b": 3607.897
+      },
+      "omega": {
+        "a": 4.931,
+        "b": 4074.736
+      }
+    },
+    {
+      "district": "Bossaso",
+      "reasoning": "Major port city with strong trade and good programme access, but hosting one of the largest IDP and migrant populations in the north living in crowded informal sites with poor water and sanitation. Urban markets buffer seasonality while displacement inflows add moderate variability.",
+      "p": {
+        "a": 27.12,
+        "b": 52.88
+      },
+      "gamma": {
+        "a": 11.052,
+        "b": 2263.073
+      },
+      "omega": {
+        "a": 4.923,
+        "b": 1973.719
+      }
+    },
+    {
+      "district": "Bu'aale",
+      "reasoning": "Juba riverine and agropastoral district within the Al-Shabaab-controlled Middle Juba region, chronically inaccessible to humanitarian programmes, with minimal treatment, low vaccination coverage and riverine AWD exposure. Juba floods, crop-cycle dependence, taxation and military operations drive high variability.",
+      "p": {
+        "a": 10.373,
+        "b": 44.627
+      },
+      "gamma": {
+        "a": 5.625,
+        "b": 838.898
+      },
+      "omega": {
+        "a": 3.285,
+        "b": 669.577
+      }
+    },
+    {
+      "district": "Bulo Burto",
+      "reasoning": "Riverine and southern agropastoral district whose town has been under prolonged Al-Shabaab blockade, with supplies largely by air and very limited rural access. Siege-related price spikes, Shabelle flooding and conflict displacement drive very high variability.",
+      "p": {
+        "a": 17.318,
+        "b": 52.682
+      },
+      "gamma": {
+        "a": 8.103,
+        "b": 1230.939
+      },
+      "omega": {
+        "a": 3.976,
+        "b": 810.891
+      }
+    },
+    {
+      "district": "Burco",
+      "reasoning": "Main northern livestock market hub combining urban trade with Hawd pastoral and Togdheer agropastoral hinterland, good health and programme access, and peri-urban settlements of drought-displaced pastoralists. Livestock price cycles and pastoral drought exposure drive moderate variability.",
+      "p": {
+        "a": 27.12,
+        "b": 52.88
+      },
+      "gamma": {
+        "a": 11.064,
+        "b": 2825.828
+      },
+      "omega": {
+        "a": 4.927,
+        "b": 2526.657
+      }
+    },
+    {
+      "district": "Burtinle",
+      "reasoning": "Hawd and Nugaal pastoral district with camel/shoat herding, market-dependent cereal diets and modest health coverage. Rainfall-driven pasture and water availability give moderate variability.",
+      "p": {
+        "a": 18.032,
+        "b": 51.968
+      },
+      "gamma": {
+        "a": 8.12,
+        "b": 1704.925
+      },
+      "omega": {
+        "a": 3.987,
+        "b": 1487.258
+      }
+    },
+    {
+      "district": "Buuhoodle",
+      "reasoning": "Hawd pastoral district on the contested Somaliland-Puntland-Ethiopia border with recurrent clan conflict, overlapping administrations and limited health services. Pastoral drought exposure plus intermittent insecurity create moderately high variability.",
+      "p": {
+        "a": 17.15,
+        "b": 52.85
+      },
+      "gamma": {
+        "a": 8.119,
+        "b": 1662.402
+      },
+      "omega": {
+        "a": 3.986,
+        "b": 1386.006
+      }
+    },
+    {
+      "district": "Buur Hakaba",
+      "reasoning": "Sorghum high-potential agropastoral district with a besieged town, restricted road access and limited rural services, and IDP presence. Rain-fed sorghum dependence, blockade-driven price instability and displacement give very high variability.",
+      "p": {
+        "a": 17.318,
+        "b": 52.682
+      },
+      "gamma": {
+        "a": 8.103,
+        "b": 1230.939
+      },
+      "omega": {
+        "a": 3.976,
+        "b": 825.432
+      }
+    },
+    {
+      "district": "Cabudwaaq",
+      "reasoning": "Hawd pastoral district on the Ethiopian border with a trading town, programme presence and drought-related IDP settlements. Pasture and water variability plus displacement inflows give moderately high variability.",
+      "p": {
+        "a": 22.752,
+        "b": 57.248
+      },
+      "gamma": {
+        "a": 11.048,
+        "b": 2105.406
+      },
+      "omega": {
+        "a": 4.92,
+        "b": 1558.013
+      }
+    },
+    {
+      "district": "Cadaado",
+      "reasoning": "Hawd and Addun pastoral district serving as an administrative centre with some programme access and IDP settlements, but with market-dependent diets and periodic clan conflict. Pastoral drought and displacement inflows drive moderately high variability.",
+      "p": {
+        "a": 22.752,
+        "b": 57.248
+      },
+      "gamma": {
+        "a": 11.046,
+        "b": 2057.575
+      },
+      "omega": {
+        "a": 4.919,
+        "b": 1490.393
+      }
+    },
+    {
+      "district": "Cadale",
+      "reasoning": "Coastal pastoral/fishing district with significant Al-Shabaab influence, poor roads and few health facilities. Drought exposure and insecurity-related market disruption give moderately high variability.",
+      "p": {
+        "a": 15.68,
+        "b": 54.32
+      },
+      "gamma": {
+        "a": 8.112,
+        "b": 1445.675
+      },
+      "omega": {
+        "a": 3.983,
+        "b": 1154.728
+      }
+    },
+    {
+      "district": "Caluula",
+      "reasoning": "Isolated north-eastern coastal fishing district with very limited road access, imported staple dependence and minimal health coverage. Fishing seasonality and supply-route remoteness drive moderate variability.",
+      "p": {
+        "a": 16.268,
+        "b": 53.732
+      },
+      "gamma": {
+        "a": 8.119,
+        "b": 1662.402
+      },
+      "omega": {
+        "a": 3.987,
+        "b": 1520.837
+      }
+    },
+    {
+      "district": "Caynabo",
+      "reasoning": "Northern Inland/Hawd pastoral district along the Burco-Laas Caanood road with market-dependent diets and limited rural health coverage. Pastoral drought cycles drive moderately high variability.",
+      "p": {
+        "a": 17.444,
+        "b": 52.556
+      },
+      "gamma": {
+        "a": 8.118,
+        "b": 1621.929
+      },
+      "omega": {
+        "a": 3.985,
+        "b": 1352.392
+      }
+    },
+    {
+      "district": "Ceel Afweyn",
+      "reasoning": "Northern Inland Pastoral district (goats, sheep, camels) with high cereal market dependence, poor roads and sparse health facilities, and periodic clan conflict over grazing. Drought-sensitive pastoral income gives moderately high variability.",
+      "p": {
+        "a": 16.856,
+        "b": 53.144
+      },
+      "gamma": {
+        "a": 8.117,
+        "b": 1583.36
+      },
+      "omega": {
+        "a": 3.985,
+        "b": 1320.36
+      }
+    },
+    {
+      "district": "Ceel Barde",
+      "reasoning": "Southern agropastoral district on the Ethiopian border with cross-border trade and some programme access, but within the Bakool blockade context and receiving displaced households. Rain-fed production and conflict-related supply disruption drive high variability.",
+      "p": {
+        "a": 17.85,
+        "b": 52.15
+      },
+      "gamma": {
+        "a": 8.106,
+        "b": 1278.488
+      },
+      "omega": {
+        "a": 3.978,
+        "b": 905.893
+      }
+    },
+    {
+      "district": "Ceel Buur",
+      "reasoning": "Central Cowpea Belt agropastoral district under chronic Al-Shabaab control and classified as hard-to-reach, with minimal treatment services, low vaccination coverage and disrupted markets. Rain-fed cropping failures, blockades and military operations drive high variability.",
+      "p": {
+        "a": 11.297,
+        "b": 43.703
+      },
+      "gamma": {
+        "a": 5.627,
+        "b": 887.535
+      },
+      "omega": {
+        "a": 3.287,
+        "b": 762.932
+      }
+    },
+    {
+      "district": "Ceel Dheere",
+      "reasoning": "Coastal and Cowpea Belt district under chronic Al-Shabaab control with very limited humanitarian access and health services. Drought exposure and conflict-related market disruption drive high variability.",
+      "p": {
+        "a": 11.297,
+        "b": 43.703
+      },
+      "gamma": {
+        "a": 5.628,
+        "b": 905.007
+      },
+      "omega": {
+        "a": 3.288,
+        "b": 793.18
+      }
+    },
+    {
+      "district": "Ceel Waaq",
+      "reasoning": "Southern Inland Pastoral district on the Kenyan border with camel/cattle herding, limited health services and Al-Shabaab presence. Pastoral drought exposure and cross-border insecurity drive moderately high variability.",
+      "p": {
+        "a": 16.968,
+        "b": 53.032
+      },
+      "gamma": {
+        "a": 8.11,
+        "b": 1385.35
+      },
+      "omega": {
+        "a": 3.981,
+        "b": 1061.556
+      }
+    },
+    {
+      "district": "Ceerigaabo",
+      "reasoning": "Regional capital in the Golis highlands with East Golis frankincense/agropastoral livelihoods, modest health services and generally consistent access, though affected by periodic clan tensions. Variability reflects rainfall and frankincense/livestock income cycles.",
+      "p": {
+        "a": 21.28,
+        "b": 58.72
+      },
+      "gamma": {
+        "a": 11.058,
+        "b": 2513.614
+      },
+      "omega": {
+        "a": 4.924,
+        "b": 2084.787
+      }
+    },
+    {
+      "district": "Dhuusamarreeb",
+      "reasoning": "Addun pastoral and Central Cowpea Belt agropastoral district, state capital with programme presence, but affected by recurring armed conflict between administrations and armed groups, and hosting IDPs. Rain-fed cowpea and pasture dependence plus conflict episodes give high variability.",
+      "p": {
+        "a": 22.752,
+        "b": 57.248
+      },
+      "gamma": {
+        "a": 11.044,
+        "b": 1968.084
+      },
+      "omega": {
+        "a": 4.917,
+        "b": 1367.641
+      }
+    },
+    {
+      "district": "Diinsoor",
+      "reasoning": "Bay agropastoral district classified as hard-to-reach with Al-Shabaab control over most of the area and very limited treatment services. Rain-fed sorghum dependence and conflict-related market disruption drive high variability.",
+      "p": {
+        "a": 11.99,
+        "b": 43.01
+      },
+      "gamma": {
+        "a": 5.625,
+        "b": 854.515
+      },
+      "omega": {
+        "a": 3.286,
+        "b": 694.453
+      }
+    },
+    {
+      "district": "Doolow",
+      "reasoning": "Juba riverine pump-irrigation district on the Ethiopian border, a humanitarian hub with strong programme presence and large IDP settlements. Riverine flooding, displacement inflows and cross-border market changes drive high variability.",
+      "p": {
+        "a": 27.52,
+        "b": 52.48
+      },
+      "gamma": {
+        "a": 11.042,
+        "b": 1926.165
+      },
+      "omega": {
+        "a": 4.916,
+        "b": 1311.838
+      }
+    },
+    {
+      "district": "Eyl",
+      "reasoning": "Coastal Deeh pastoral/fishing and Nugaal valley district with arid rangelands, poor roads and limited health services. Drought-sensitive pastoralism and fishing seasonality produce moderate to high variability.",
+      "p": {
+        "a": 17.444,
+        "b": 52.556
+      },
+      "gamma": {
+        "a": 8.117,
+        "b": 1583.36
+      },
+      "omega": {
+        "a": 3.985,
+        "b": 1350.311
+      }
+    },
+    {
+      "district": "Gaalkacyo",
+      "reasoning": "Divided trade hub between Puntland and Galmudug with recurrent inter-clan conflict, large IDP settlements with poor sanitation, and reasonably dense but politically fragmented health services. Conflict flare-ups and displacement flows drive high variability.",
+      "p": {
+        "a": 24.768,
+        "b": 55.232
+      },
+      "gamma": {
+        "a": 11.045,
+        "b": 2011.846
+      },
+      "omega": {
+        "a": 4.918,
+        "b": 1427.054
+      }
+    },
+    {
+      "district": "Galdogob",
+      "reasoning": "Hawd pastoral district on the Ethiopian border with camel-based livelihoods, cross-border livestock trade and limited health coverage. Pastoral drought cycles drive moderate variability.",
+      "p": {
+        "a": 18.032,
+        "b": 51.968
+      },
+      "gamma": {
+        "a": 8.12,
+        "b": 1704.925
+      },
+      "omega": {
+        "a": 3.987,
+        "b": 1487.258
+      }
+    },
+    {
+      "district": "Garbahaarey",
+      "reasoning": "Southern agropastoral and inland pastoral district and regional capital held by government forces, with programme presence in town but Al-Shabaab presence in rural areas. Drought exposure and conflict-related movement restrictions drive high variability.",
+      "p": {
+        "a": 18.732,
+        "b": 51.268
+      },
+      "gamma": {
+        "a": 8.11,
+        "b": 1385.35
+      },
+      "omega": {
+        "a": 3.981,
+        "b": 1019.89
+      }
+    },
+    {
+      "district": "Garoowe",
+      "reasoning": "Puntland capital with functioning markets, health facilities and consistent access, hosting peri-urban IDP settlements of drought-displaced pastoralists. Urban economy buffers seasonality; displacement inflows add moderate variability.",
+      "p": {
+        "a": 27.12,
+        "b": 52.88
+      },
+      "gamma": {
+        "a": 11.061,
+        "b": 2660.671
+      },
+      "omega": {
+        "a": 4.926,
+        "b": 2443.496
+      }
+    },
+    {
+      "district": "Gebiley",
+      "reasoning": "Core of the Northwest Agropastoral zone, Somalia's most productive rain-fed sorghum/maize area, close to Hargeysa and the Wajaale border market, with stable access and services. Variability stems mainly from Gu/Karan rainfall performance on rain-fed crops.",
+      "p": {
+        "a": 23.968,
+        "b": 56.032
+      },
+      "gamma": {
+        "a": 11.074,
+        "b": 3607.897
+      },
+      "omega": {
+        "a": 4.93,
+        "b": 3497.424
+      }
+    },
+    {
+      "district": "Hargeysa",
+      "reasoning": "Capital city with functioning markets, remittance income, dense health facilities and consistent programme access, offset partly by peri-urban IDP settlements that grew after drought displacement. Diversified urban economy smooths seasonal food access, so variability is low to moderate.",
+      "p": {
+        "a": 28.8,
+        "b": 51.2
+      },
+      "gamma": {
+        "a": 11.07,
+        "b": 3225.682
+      },
+      "omega": {
+        "a": 4.929,
+        "b": 3316.181
+      }
+    },
+    {
+      "district": "Hobyo",
+      "reasoning": "Coastal Deeh and Addun pastoral district with partial Al-Shabaab presence in rural areas, poor road access and very limited health services. Drought exposure combined with insecurity and disrupted supply routes produce high variability.",
+      "p": {
+        "a": 16.38,
+        "b": 53.62
+      },
+      "gamma": {
+        "a": 8.111,
+        "b": 1414.878
+      },
+      "omega": {
+        "a": 3.982,
+        "b": 1084.094
+      }
+    },
+    {
+      "district": "Iskushuban",
+      "reasoning": "Remote East Golis frankincense and inland pastoral district with poor road networks and sparse health facilities. Frankincense and livestock income seasonality plus drought exposure drive moderate variability.",
+      "p": {
+        "a": 16.856,
+        "b": 53.144
+      },
+      "gamma": {
+        "a": 8.117,
+        "b": 1583.36
+      },
+      "omega": {
+        "a": 3.986,
+        "b": 1381.642
+      }
+    },
+    {
+      "district": "Jalalaqsi",
+      "reasoning": "Shabelle riverine and agropastoral district with a besieged government-held town, constrained road access and limited health services. Flooding, blockade-driven price instability and conflict displacement drive high variability.",
+      "p": {
+        "a": 16.73,
+        "b": 53.27
+      },
+      "gamma": {
+        "a": 8.106,
+        "b": 1278.488
+      },
+      "omega": {
+        "a": 3.977,
+        "b": 872.857
+      }
+    },
+    {
+      "district": "Jamaame",
+      "reasoning": "Lower Juba riverine gravity-irrigation district largely under Al-Shabaab control and classified as hard-to-reach, with minimal treatment services and riverine AWD exposure. Juba floods, irrigation-dependent harvests and conflict drive high variability.",
+      "p": {
+        "a": 10.835,
+        "b": 44.165
+      },
+      "gamma": {
+        "a": 5.625,
+        "b": 854.515
+      },
+      "omega": {
+        "a": 3.285,
+        "b": 682.002
+      }
+    },
+    {
+      "district": "Jariiban",
+      "reasoning": "Coastal Deeh/Addun pastoral district with arid, poorly watered rangelands, poor roads and sparse health services. Drought and water-price exposure produce moderately high variability.",
+      "p": {
+        "a": 17.15,
+        "b": 52.85
+      },
+      "gamma": {
+        "a": 8.117,
+        "b": 1583.36
+      },
+      "omega": {
+        "a": 3.985,
+        "b": 1320.36
+      }
+    },
+    {
+      "district": "Jilib",
+      "reasoning": "Juba riverine gravity-irrigation district serving as Al-Shabaab's de facto administrative centre, chronically inaccessible to humanitarian programmes with minimal health services. Flooding, irrigated crop dependence and military operations drive high variability.",
+      "p": {
+        "a": 10.373,
+        "b": 44.627
+      },
+      "gamma": {
+        "a": 5.625,
+        "b": 838.898
+      },
+      "omega": {
+        "a": 3.285,
+        "b": 669.577
+      }
+    },
+    {
+      "district": "Jowhar",
+      "reasoning": "Shabelle riverine gravity-irrigation district and state capital with programme presence and IDP settlements, but exposed to riverine AWD and Al-Shabaab activity in rural areas. Recurrent river-breakage floods, irrigation-dependent harvests and displacement give very high variability.",
+      "p": {
+        "a": 24.496,
+        "b": 55.504
+      },
+      "gamma": {
+        "a": 11.044,
+        "b": 1968.084
+      },
+      "omega": {
+        "a": 4.914,
+        "b": 1175.468
+      }
+    },
+    {
+      "district": "Kismaayo",
+      "reasoning": "Port city and Jubaland capital with functioning markets, programme presence and large IDP and refugee-returnee settlements, but an Al-Shabaab-influenced hinterland. Returnee and displacement inflows and supply-route insecurity drive moderately high variability.",
+      "p": {
+        "a": 26.112,
+        "b": 53.888
+      },
+      "gamma": {
+        "a": 11.048,
+        "b": 2105.406
+      },
+      "omega": {
+        "a": 4.919,
+        "b": 1524.904
+      }
+    },
+    {
+      "district": "Kurtunwaarey",
+      "reasoning": "Shabelle riverine district under chronic Al-Shabaab control and inaccessible to most humanitarian programmes, with very limited treatment services, low vaccination coverage and riverine AWD exposure. Flooding, crop-cycle dependence and conflict-driven displacement give high variability.",
+      "p": {
+        "a": 10.835,
+        "b": 44.165
+      },
+      "gamma": {
+        "a": 5.625,
+        "b": 854.515
+      },
+      "omega": {
+        "a": 3.286,
+        "b": 694.453
+      }
+    },
+    {
+      "district": "Laas Caanood",
+      "reasoning": "Nugaal valley/Northern Inland Pastoral district centred on a regional town with health services, but within the disputed Sool area with recurrent armed clashes affecting movement. Pastoral drought exposure and conflict episodes produce moderately high variability.",
+      "p": {
+        "a": 21.28,
+        "b": 58.72
+      },
+      "gamma": {
+        "a": 11.054,
+        "b": 2320.951
+      },
+      "omega": {
+        "a": 4.922,
+        "b": 1754.953
+      }
+    },
+    {
+      "district": "Laasqoray",
+      "reasoning": "Remote coastal East Golis frankincense, goats and fishing district in a disputed administrative area with poor road access and minimal health infrastructure. Fishing seasonality (monsoon closure) and remoteness from markets drive moderate variability.",
+      "p": {
+        "a": 16.268,
+        "b": 53.732
+      },
+      "gamma": {
+        "a": 8.117,
+        "b": 1583.36
+      },
+      "omega": {
+        "a": 3.986,
+        "b": 1381.642
+      }
+    },
+    {
+      "district": "Lughaye",
+      "reasoning": "Remote Guban/West Golis pastoral district with market-dependent diets, low rainfall and sparse health infrastructure but no chronic conflict access barriers. Seasonal coastal migration and dry-season stress produce moderate variability.",
+      "p": {
+        "a": 17.444,
+        "b": 52.556
+      },
+      "gamma": {
+        "a": 8.118,
+        "b": 1621.929
+      },
+      "omega": {
+        "a": 3.987,
+        "b": 1520.942
+      }
+    },
+    {
+      "district": "Luuq",
+      "reasoning": "Juba riverine and agropastoral district with programme presence in town, IDP settlements and Al-Shabaab presence in rural areas, and riverine disease exposure. Flooding, drought-driven displacement and insecurity drive high variability.",
+      "p": {
+        "a": 23.152,
+        "b": 56.848
+      },
+      "gamma": {
+        "a": 11.041,
+        "b": 1885.974
+      },
+      "omega": {
+        "a": 4.915,
+        "b": 1259.357
+      }
+    },
+    {
+      "district": "Marka",
+      "reasoning": "Shabelle riverine gravity-irrigation and coastal district with recurrent Al-Shabaab-government contestation, restricted road access and riverine disease exposure. Floods, irrigation-dependent harvests and conflict-related market disruptions drive high variability.",
+      "p": {
+        "a": 19.082,
+        "b": 50.918
+      },
+      "gamma": {
+        "a": 8.108,
+        "b": 1329.802
+      },
+      "omega": {
+        "a": 3.979,
+        "b": 942.125
+      }
+    },
+    {
+      "district": "Owdweyne",
+      "reasoning": "Togdheer agropastoral and Hawd pastoral district with rain-fed sorghum and livestock, accessible but with limited rural health coverage. Dependence on Gu rainfall for both pasture and crops gives moderate seasonal and inter-annual variability.",
+      "p": {
+        "a": 21.28,
+        "b": 58.72
+      },
+      "gamma": {
+        "a": 11.058,
+        "b": 2513.614
+      },
+      "omega": {
+        "a": 4.924,
+        "b": 2084.787
+      }
+    },
+    {
+      "district": "Qandala",
+      "reasoning": "Remote coastal East Golis fishing/frankincense district near the Golis mountains where armed-group presence has periodically disrupted access, with minimal health infrastructure. Monsoon-driven fishing seasonality and remoteness give moderate variability.",
+      "p": {
+        "a": 16.268,
+        "b": 53.732
+      },
+      "gamma": {
+        "a": 8.118,
+        "b": 1621.929
+      },
+      "omega": {
+        "a": 3.986,
+        "b": 1415.15
+      }
+    },
+    {
+      "district": "Qansax Dheere",
+      "reasoning": "Bay sorghum agropastoral district largely under Al-Shabaab control, with humanitarian air access suspended for part of the period and minimal health services. Rain-fed crop failures and supply interruptions drive high variability.",
+      "p": {
+        "a": 11.99,
+        "b": 43.01
+      },
+      "gamma": {
+        "a": 5.625,
+        "b": 854.515
+      },
+      "omega": {
+        "a": 3.286,
+        "b": 694.453
+      }
+    },
+    {
+      "district": "Qardho",
+      "reasoning": "Town and Karkaar Northern Inland Pastoral hinterland with market-dependent diets, moderate health services and consistent access. Pastoral drought and water-trucking costs give moderate variability.",
+      "p": {
+        "a": 21.952,
+        "b": 58.048
+      },
+      "gamma": {
+        "a": 11.055,
+        "b": 2381.836
+      },
+      "omega": {
+        "a": 4.924,
+        "b": 1975.923
+      }
+    },
+    {
+      "district": "Qoryooley",
+      "reasoning": "Riverine gravity-irrigation district with Al-Shabaab control of much of the rural area, constrained access and limited health services, and riverine AWD exposure. Flooding, military operations and displacement produce high variability.",
+      "p": {
+        "a": 17.906,
+        "b": 52.094
+      },
+      "gamma": {
+        "a": 8.106,
+        "b": 1278.488
+      },
+      "omega": {
+        "a": 3.978,
+        "b": 889.071
+      }
+    },
+    {
+      "district": "Rab Dhuure",
+      "reasoning": "Remote Bakool agropastoral district with a besieged town, minimal road access and very limited health services. Rainfall failures and blockade-driven price instability drive high variability.",
+      "p": {
+        "a": 11.99,
+        "b": 43.01
+      },
+      "gamma": {
+        "a": 5.625,
+        "b": 838.898
+      },
+      "omega": {
+        "a": 3.285,
+        "b": 681.804
+      }
+    },
+    {
+      "district": "Saakow",
+      "reasoning": "Juba riverine and agropastoral district under chronic Al-Shabaab control with essentially no regular humanitarian access or treatment services. Juba floods, rain-fed crop failures and conflict produce high variability.",
+      "p": {
+        "a": 10.373,
+        "b": 44.627
+      },
+      "gamma": {
+        "a": 5.625,
+        "b": 838.898
+      },
+      "omega": {
+        "a": 3.285,
+        "b": 669.577
+      }
+    },
+    {
+      "district": "Sablaale",
+      "reasoning": "Lower Shabelle riverine district under chronic Al-Shabaab control with minimal humanitarian access or health services and riverine disease exposure. Floods, irrigation failures and conflict displacement drive high variability.",
+      "p": {
+        "a": 10.835,
+        "b": 44.165
+      },
+      "gamma": {
+        "a": 5.625,
+        "b": 854.515
+      },
+      "omega": {
+        "a": 3.286,
+        "b": 694.453
+      }
+    },
+    {
+      "district": "Sheikh",
+      "reasoning": "Small Golis highland district with West Golis pastoral and agropastoral livelihoods, relatively higher rainfall and proximity to the Burco-Berbera corridor, stable and accessible. Moderate seasonality with limited shock exposure.",
+      "p": {
+        "a": 21.952,
+        "b": 58.048
+      },
+      "gamma": {
+        "a": 11.067,
+        "b": 3012.645
+      },
+      "omega": {
+        "a": 4.928,
+        "b": 2922.295
+      }
+    },
+    {
+      "district": "Taleex",
+      "reasoning": "Remote Sool plateau pastoral district with poor roads, scarce water, contested administration and very limited health services. High exposure to rainfall failure and water-price spikes gives high variability.",
+      "p": {
+        "a": 16.268,
+        "b": 53.732
+      },
+      "gamma": {
+        "a": 8.114,
+        "b": 1511.424
+      },
+      "omega": {
+        "a": 3.984,
+        "b": 1207.029
+      }
+    },
+    {
+      "district": "Tayeeglow",
+      "reasoning": "Low-potential agropastoral district with a besieged town and Al-Shabaab-controlled rural areas, effectively cut off from road supply and regular programmes. Rainfall dependence and blockade-driven market collapse produce high variability.",
+      "p": {
+        "a": 11.99,
+        "b": 43.01
+      },
+      "gamma": {
+        "a": 5.625,
+        "b": 838.898
+      },
+      "omega": {
+        "a": 3.285,
+        "b": 681.804
+      }
+    },
+    {
+      "district": "Waajid",
+      "reasoning": "Bay-Bakool low-potential agropastoral district with a besieged town reliant on air access and minimal rural services. Rainfall failures, blockade-related price instability and displacement give high variability.",
+      "p": {
+        "a": 17.318,
+        "b": 52.682
+      },
+      "gamma": {
+        "a": 8.102,
+        "b": 1208.45
+      },
+      "omega": {
+        "a": 3.976,
+        "b": 825.191
+      }
+    },
+    {
+      "district": "Wanla Weyn",
+      "reasoning": "Sorghum high-potential agropastoral district with a government-held town, IDP settlements and Al-Shabaab presence in rural areas. Rain-fed sorghum dependence, conflict and displacement flows drive high variability.",
+      "p": {
+        "a": 18.732,
+        "b": 51.268
+      },
+      "gamma": {
+        "a": 8.11,
+        "b": 1385.35
+      },
+      "omega": {
+        "a": 3.981,
+        "b": 1019.89
+      }
+    },
+    {
+      "district": "Xarardheere",
+      "reasoning": "Coastal and Addun pastoral district under chronic Al-Shabaab control, among the districts largely inaccessible to humanitarian programmes, with very limited treatment services and low vaccination coverage. Drought exposure, taxation and blockade of supply routes drive high variability.",
+      "p": {
+        "a": 11.297,
+        "b": 43.703
+      },
+      "gamma": {
+        "a": 5.628,
+        "b": 905.007
+      },
+      "omega": {
+        "a": 3.288,
+        "b": 793.18
+      }
+    },
+    {
+      "district": "Xudun",
+      "reasoning": "Sool plateau Northern Inland Pastoral district with very low rainfall, few permanent water sources, total cereal market dependence and very limited health coverage in a contested area. Strong exposure to rainfall failure and water scarcity drives high variability.",
+      "p": {
+        "a": 16.268,
+        "b": 53.732
+      },
+      "gamma": {
+        "a": 8.114,
+        "b": 1511.424
+      },
+      "omega": {
+        "a": 3.984,
+        "b": 1207.029
+      }
+    },
+    {
+      "district": "Xudur",
+      "reasoning": "Bay-Bakool low-potential agropastoral district whose regional capital has been under long-standing Al-Shabaab blockade, with supplies largely by air and limited services beyond the town. Poor rain-fed production, siege-driven price spikes and displacement give high variability.",
+      "p": {
+        "a": 17.318,
+        "b": 52.682
+      },
+      "gamma": {
+        "a": 8.102,
+        "b": 1208.45
+      },
+      "omega": {
+        "a": 3.976,
+        "b": 825.191
+      }
+    },
+    {
+      "district": "Zeylac",
+      "reasoning": "Guban Pastoral district on the hot, arid coastal plain with very low rainfall, heavy market dependence for cereals and dispersed, remote settlement that limits health-facility reach. Dependence on xays coastal rains and Djibouti/Ethiopia border trade gives moderate variability in food access.",
+      "p": {
+        "a": 18.032,
+        "b": 51.968
+      },
+      "gamma": {
+        "a": 8.117,
+        "b": 1583.36
+      },
+      "omega": {
+        "a": 3.987,
+        "b": 1484.944
+      }
+    }
+  ]
+}

@@ -1,0 +1,522 @@
+{
+"districts": [
+{
+"district": "Adan Yabaal",
+"reasoning": "Structurally inaccessible due to persistent non-state armed group presence, limiting CMAM coverage and lowering the baseline exit probability. An agropastoral livelihood zone with high chronic food insecurity and limited market integration drives a structurally high incidence, with month-to-month variability exacerbated by rainfall dependence and conflict disruptions.",
+"p": {"a": 6.0, "b": 34.0},
+"gamma": {"a": 12.0, "b": 988.0},
+"omega": {"a": 4.0, "b": 996.0}
+},
+{
+"district": "Afgooye",
+"reasoning": "A highly productive but volatile riverine and agropastoral district that structurally hosts large numbers of displaced populations from Mogadishu and surrounding areas. Relatively accessible CMAM services increase exit probability, but recurrent river flooding and volatile displacement flows drive both high structural incidence and high monthly variability.",
+"p": {"a": 12.0, "b": 28.0},
+"gamma": {"a": 15.0, "b": 985.0},
+"omega": {"a": 8.0, "b": 992.0}
+},
+{
+"district": "Afmadow",
+"reasoning": "A predominantly pastoral district with structural reliance on livestock body conditions and cross-border trade. Persistent access constraints lower CMAM service reliability, leading to prolonged recovery times, while incidence variability is tightly linked to seasonal water availability and recurrent drought shocks.",
+"p": {"a": 8.0, "b": 32.0},
+"gamma": {"a": 8.0, "b": 992.0},
+"omega": {"a": 6.0, "b": 994.0}
+},
+{
+"district": "Baardheere",
+"reasoning": "Riverine and agropastoral economy characterized by recurrent seasonal flooding and persistent humanitarian access challenges. Structural disruption of agricultural cycles and limited dietary diversity elevate incidence, while seasonal flood shocks create distinct volatility in month-to-month cases.",
+"p": {"a": 7.0, "b": 33.0},
+"gamma": {"a": 10.0, "b": 990.0},
+"omega": {"a": 7.0, "b": 993.0}
+},
+{
+"district": "Badhaadhe",
+"reasoning": "Coastal and pastoral district with somewhat more diversified food sources including fishing, though structurally isolated. Market access is chronically limited by poor infrastructure and security constraints, leading to lower CMAM coverage but somewhat smoothed incidence variability due to marine resources.",
+"p": {"a": 8.0, "b": 32.0},
+"gamma": {"a": 6.0, "b": 994.0},
+"omega": {"a": 4.0, "b": 996.0}
+},
+{
+"district": "Baki",
+"reasoning": "A relatively stable agropastoral and pastoral district in Somaliland with functional markets and historically lower conflict exposure. Higher structural CMAM accessibility increases the exit probability, while diversified income sources maintain a low baseline incidence and relatively low monthly variability.",
+"p": {"a": 14.0, "b": 26.0},
+"gamma": {"a": 4.0, "b": 996.0},
+"omega": {"a": 2.0, "b": 998.0}
+},
+{
+"district": "Balcad",
+"reasoning": "A riverine district near Mogadishu featuring volatile displacement patterns and structural flood vulnerability. The combination of chronic insecurity, market disruptions, and seasonal agricultural shocks drives high incidence variability, despite some access to humanitarian services.",
+"p": {"a": 10.0, "b": 30.0},
+"gamma": {"a": 12.0, "b": 988.0},
+"omega": {"a": 7.0, "b": 993.0}
+},
+{
+"district": "Banadir",
+"reasoning": "An urban district hosting the country's largest chronically displaced population. Structural access to well-established CMAM and health services increases exit probability, but the dense, highly vulnerable IDP population creates a high structural incidence, with variability driven by continuous, volatile displacement inflows and urban disease outbreaks.",
+"p": {"a": 16.0, "b": 24.0},
+"gamma": {"a": 18.0, "b": 982.0},
+"omega": {"a": 6.0, "b": 994.0}
+},
+{
+"district": "Bandarbeyla",
+"reasoning": "A coastal pastoral district reliant on fishing and livestock, structurally exposed to cyclones and recurrent droughts. Remoteness limits robust health infrastructure, decreasing exit probability, while climatic shocks drive moderate to high variability in livelihood viability and incidence.",
+"p": {"a": 9.0, "b": 31.0},
+"gamma": {"a": 7.0, "b": 993.0},
+"omega": {"a": 5.0, "b": 995.0}
+},
+{
+"district": "Baraawe",
+"reasoning": "A coastal urban area surrounded by agropastoral zones, characterized by a history of isolation and access constraints. While the urban center provides some market stability, the surrounding rural populations face structural barriers to health services and volatile agricultural output.",
+"p": {"a": 9.0, "b": 31.0},
+"gamma": {"a": 8.0, "b": 992.0},
+"omega": {"a": 5.0, "b": 995.0}
+},
+{
+"district": "Baydhaba",
+"reasoning": "A major agropastoral hub and primary destination for displaced populations in the South West State. High IDP density and structural disease burdens elevate both incidence and mortality (increasing exit probability), while heavy reliance on rainfed agriculture and IDP flows causes severe seasonal volatility.",
+"p": {"a": 15.0, "b": 25.0},
+"gamma": {"a": 16.0, "b": 984.0},
+"omega": {"a": 8.0, "b": 992.0}
+},
+{
+"district": "Belet Weyne",
+"reasoning": "A heavily riverine district structurally plagued by recurrent, devastating floods of the Shabelle River. These annual floods destroy crops, drive structural displacement, and trigger endemic waterborne diseases, resulting in highly volatile incidence rates and stretched CMAM capacities.",
+"p": {"a": 11.0, "b": 29.0},
+"gamma": {"a": 14.0, "b": 986.0},
+"omega": {"a": 9.0, "b": 991.0}
+},
+{
+"district": "Belet Xaawo",
+"reasoning": "A border district with a heavily trade-dependent pastoral economy. Market access is structurally volatile due to border closures and cross-border conflict, leading to fluctuating food prices that drive incidence variability, while health infrastructure remains moderately accessible compared to the deep rural interior.",
+"p": {"a": 10.0, "b": 30.0},
+"gamma": {"a": 9.0, "b": 991.0},
+"omega": {"a": 6.0, "b": 994.0}
+},
+{
+"district": "Berbera",
+"reasoning": "A major coastal urban center with strong market integration, diversified trade-based livelihoods, and stable governance. High accessibility to functioning health systems increases exit probability, while stable food availability keeps both chronic incidence and month-to-month variability low.",
+"p": {"a": 15.0, "b": 25.0},
+"gamma": {"a": 3.0, "b": 997.0},
+"omega": {"a": 2.0, "b": 998.0}
+},
+{
+"district": "Borama",
+"reasoning": "A stable agropastoral and urban district with established agricultural markets and reliable health system presence. Structural resilience to shocks is relatively high due to diversified incomes and cross-border trade, resulting in low baseline incidence and minimal seasonal variability.",
+"p": {"a": 14.0, "b": 26.0},
+"gamma": {"a": 3.0, "b": 997.0},
+"omega": {"a": 2.0, "b": 998.0}
+},
+{
+"district": "Bossaso",
+"reasoning": "A major urban and commercial hub structurally hosting substantial IDP populations from the south. The dual economy features stable urban trade alongside highly vulnerable displaced settlements, leading to moderate baseline incidence, high CMAM access, and variability driven mostly by IDP influxes.",
+"p": {"a": 14.0, "b": 26.0},
+"gamma": {"a": 8.0, "b": 992.0},
+"omega": {"a": 5.0, "b": 995.0}
+},
+{
+"district": "Bu'aale",
+"reasoning": "A riverine and agropastoral district that has been chronically inaccessible to humanitarian actors due to non-state armed group control. The total absence of structural CMAM programming drastically reduces exit probability, while dependence on rainfed and flood-recession agriculture creates high incidence and seasonal volatility.",
+"p": {"a": 4.0, "b": 36.0},
+"gamma": {"a": 12.0, "b": 988.0},
+"omega": {"a": 6.0, "b": 994.0}
+},
+{
+"district": "Bulo Burto",
+"reasoning": "An agropastoral district structurally hampered by long-term blockades and severe humanitarian access restrictions. Market isolation inflates food prices and limits dietary diversity, driving up incidence, while poor access to health infrastructure causes prolonged disease durations.",
+"p": {"a": 6.0, "b": 34.0},
+"gamma": {"a": 11.0, "b": 989.0},
+"omega": {"a": 5.0, "b": 995.0}
+},
+{
+"district": "Burco",
+"reasoning": "A massive livestock trading hub in Somaliland, characterized by a predominantly pastoral economy heavily dependent on regional export markets. Good health infrastructure yields a high exit probability, while the incidence variability is structurally tied to drought cycles affecting livestock terms of trade.",
+"p": {"a": 13.0, "b": 27.0},
+"gamma": {"a": 6.0, "b": 994.0},
+"omega": {"a": 4.0, "b": 996.0}
+},
+{
+"district": "Burtinle",
+"reasoning": "A pastoral district with strong market linkages to major transport corridors. Relatively stable access to health services and trade networks smooths food consumption gaps, though pastoralist populations remain structurally exposed to the recurrent Gu and Deyr rainfall variations.",
+"p": {"a": 11.0, "b": 29.0},
+"gamma": {"a": 6.0, "b": 994.0},
+"omega": {"a": 4.0, "b": 996.0}
+},
+{
+"district": "Buuhoodle",
+"reasoning": "A pastoral district characterized by structural border tensions and periodic conflict that disrupt livestock migration routes and market access. Sporadic access to CMAM services results in a moderate exit probability, while conflict-induced mobility and drought sensitivity drive incidence variability.",
+"p": {"a": 9.0, "b": 31.0},
+"gamma": {"a": 8.0, "b": 992.0},
+"omega": {"a": 5.0, "b": 995.0}
+},
+{
+"district": "Buur Hakaba",
+"reasoning": "An agropastoral area with a heavy reliance on rainfed sorghum, structurally vulnerable to erratic rainfall and chronic security constraints. Weak market functionality and limited program access sustain a high baseline incidence and low exit probabilities, with volatility driven by harvest failures.",
+"p": {"a": 7.0, "b": 33.0},
+"gamma": {"a": 11.0, "b": 989.0},
+"omega": {"a": 6.0, "b": 994.0}
+},
+{
+"district": "Cabudwaaq",
+"reasoning": "A pastoral district structurally affected by recurrent droughts and localized clan conflicts over grazing resources. Health access is functionally limited by vast distances and periodic insecurity, leading to prolonged recovery times and moderate to high variability in new cases linked to water access.",
+"p": {"a": 8.0, "b": 32.0},
+"gamma": {"a": 9.0, "b": 991.0},
+"omega": {"a": 6.0, "b": 994.0}
+},
+{
+"district": "Cadaado",
+"reasoning": "A predominantly pastoral and localized urban economy with relatively better stability than its southern neighbors. Market functionality is adequate, and CMAM programs maintain structural presence, providing moderate exit probabilities, though incidence fluctuates with pastoral lean seasons.",
+"p": {"a": 10.0, "b": 30.0},
+"gamma": {"a": 7.0, "b": 993.0},
+"omega": {"a": 5.0, "b": 995.0}
+},
+{
+"district": "Cadale",
+"reasoning": "A coastal agropastoral district where mixed livelihoods (fishing and farming) offer some structural dietary diversity. However, chronic access constraints and weak infrastructure limit the reliability of health services, maintaining a moderate baseline incidence with seasonal volatility linked to monsoon fishing limits.",
+"p": {"a": 8.0, "b": 32.0},
+"gamma": {"a": 8.0, "b": 992.0},
+"omega": {"a": 5.0, "b": 995.0}
+},
+{
+"district": "Caluula",
+"reasoning": "A remote coastal district heavily reliant on frankincense harvesting and fishing, physically isolated by mountainous terrain. This profound structural isolation drastically reduces CMAM coverage, lowering exit probability, while specialized livelihoods create unique but stable seasonal vulnerabilities.",
+"p": {"a": 6.0, "b": 34.0},
+"gamma": {"a": 5.0, "b": 995.0},
+"omega": {"a": 3.0, "b": 997.0}
+},
+{
+"district": "Caynabo",
+"reasoning": "A pastoral district in Somaliland structurally exposed to severe cyclic droughts but benefiting from relatively stable governance and unrestricted humanitarian access. Robust scale-up capacity during droughts improves exit probability, though incidence is highly sensitive to livestock herd depletion.",
+"p": {"a": 12.0, "b": 28.0},
+"gamma": {"a": 7.0, "b": 993.0},
+"omega": {"a": 6.0, "b": 994.0}
+},
+{
+"district": "Ceel Afweyn",
+"reasoning": "A pastoral area that experiences periodic, structural clan conflicts that repeatedly disrupt livestock markets and internal displacement. Humanitarian access is generally permitted but operationally disrupted by these localized clashes, causing moderate variability in both access to food and health services.",
+"p": {"a": 11.0, "b": 29.0},
+"gamma": {"a": 7.0, "b": 993.0},
+"omega": {"a": 5.0, "b": 995.0}
+},
+{
+"district": "Ceel Barde",
+"reasoning": "A border pastoral district characterized by structural aridity, poor groundwater access, and proximity to regional conflicts. Persistent water shortages and limited health infrastructure drive a chronic incidence baseline and limit prompt recovery, with acute volatility tied directly to rainfall performance.",
+"p": {"a": 8.0, "b": 32.0},
+"gamma": {"a": 10.0, "b": 990.0},
+"omega": {"a": 6.0, "b": 994.0}
+},
+{
+"district": "Ceel Buur",
+"reasoning": "A central pastoral district heavily constrained by long-term non-state armed group control and structural blockades. The near-total absence of formal CMAM structures drives exit probability very low, while isolation severely restricts market function, elevating structural incidence and vulnerability to drought.",
+"p": {"a": 5.0, "b": 35.0},
+"gamma": {"a": 11.0, "b": 989.0},
+"omega": {"a": 5.0, "b": 995.0}
+},
+{
+"district": "Ceel Dheere",
+"reasoning": "An agropastoral and pastoral district with profound structural access restrictions due to persistent insecurity. Chronic isolation results in a lack of health infrastructure and poor market integration, leading to extended disease durations and a stable but high baseline of incidence.",
+"p": {"a": 5.0, "b": 35.0},
+"gamma": {"a": 11.0, "b": 989.0},
+"omega": {"a": 5.0, "b": 995.0}
+},
+{
+"district": "Ceel Waaq",
+"reasoning": "A pastoral district on the Kenyan border heavily reliant on cross-border livestock trade. Recurrent border closures, regional insecurity, and structural drought exposure drive high variability in market access and incidence, while health service delivery remains chronically sporadic.",
+"p": {"a": 8.0, "b": 32.0},
+"gamma": {"a": 9.0, "b": 991.0},
+"omega": {"a": 6.0, "b": 994.0}
+},
+{
+"district": "Ceerigaabo",
+"reasoning": "A geographically vast, stable district with mixed pastoral, frankincense, and limited agropastoral livelihoods. While security allows consistent CMAM presence, the rugged terrain limits deep rural coverage; however, livelihood diversity buffers against extreme month-to-month food security volatility.",
+"p": {"a": 12.0, "b": 28.0},
+"gamma": {"a": 5.0, "b": 995.0},
+"omega": {"a": 3.0, "b": 997.0}
+},
+{
+"district": "Dhuusamarreeb",
+"reasoning": "An urban and pastoral administrative center with relatively stable market functioning and accessible health infrastructure. Structural CMAM programs facilitate a higher exit probability, while the pastoral hinterlands drive moderate seasonal fluctuations in incidence during dry seasons.",
+"p": {"a": 12.0, "b": 28.0},
+"gamma": {"a": 7.0, "b": 993.0},
+"omega": {"a": 4.0, "b": 996.0}
+},
+{
+"district": "Diinsoor",
+"reasoning": "An agropastoral district that has suffered from long-term encirclement and structural blockades by non-state armed groups. Profound isolation collapses market-based food access and decimates health system capacity, resulting in low exit probabilities and high incidence tied to local crop failures.",
+"p": {"a": 5.0, "b": 35.0},
+"gamma": {"a": 12.0, "b": 988.0},
+"omega": {"a": 6.0, "b": 994.0}
+},
+{
+"district": "Doolow",
+"reasoning": "A critical border town hosting massive, chronic IDP populations heavily reliant on humanitarian assistance. Robust, long-term NGO presence ensures high CMAM coverage and turnover, while the structural influx of vulnerable displaced persons maintains high incidence and extreme volatility.",
+"p": {"a": 15.0, "b": 25.0},
+"gamma": {"a": 14.0, "b": 986.0},
+"omega": {"a": 7.0, "b": 993.0}
+},
+{
+"district": "Eyl",
+"reasoning": "A coastal pastoral district reliant on fishing and livestock, featuring structural isolation but stable governance. Distance to major markets limits food diversity, keeping incidence moderate, while lack of conflict and predictable seasonal fishing schedules maintain low month-to-month volatility.",
+"p": {"a": 10.0, "b": 30.0},
+"gamma": {"a": 6.0, "b": 994.0},
+"omega": {"a": 3.0, "b": 997.0}
+},
+{
+"district": "Gaalkacyo",
+"reasoning": "A major divided city and commercial hub structurally hosting large numbers of IDPs. Strong health infrastructure and humanitarian presence drive high exit probabilities, while recurrent urban conflict, IDP inflows, and pastoral destitution drive high and volatile incidence.",
+"p": {"a": 14.0, "b": 26.0},
+"gamma": {"a": 11.0, "b": 989.0},
+"omega": {"a": 7.0, "b": 993.0}
+},
+{
+"district": "Galdogob",
+"reasoning": "A pastoral district with strong ties to Ethiopian border trade, providing relatively stable market dynamics. Accessible health facilities offer structural CMAM support, leading to a resilient local food economy with moderate incidence and low seasonal volatility.",
+"p": {"a": 12.0, "b": 28.0},
+"gamma": {"a": 6.0, "b": 994.0},
+"omega": {"a": 3.0, "b": 997.0}
+},
+{
+"district": "Garbahaarey",
+"reasoning": "An agropastoral and pastoral district hampered by chronic access restrictions and poor road infrastructure. Isolated markets and limited presence of humanitarian health services keep exit probabilities low and structural incidence elevated, heavily driven by seasonal rain outcomes.",
+"p": {"a": 7.0, "b": 33.0},
+"gamma": {"a": 10.0, "b": 990.0},
+"omega": {"a": 5.0, "b": 995.0}
+},
+{
+"district": "Garoowe",
+"reasoning": "An urban administrative capital with robust structural health infrastructure and stable markets, yet hosting a large chronic IDP population. High CMAM access ensures rapid case turnover, while the persistent vulnerability of IDPs dictates the baseline incidence.",
+"p": {"a": 15.0, "b": 25.0},
+"gamma": {"a": 7.0, "b": 993.0},
+"omega": {"a": 4.0, "b": 996.0}
+},
+{
+"district": "Gebiley",
+"reasoning": "A highly productive agricultural district in Somaliland with robust structural food availability, strong market linkages, and stable governance. Excellent access to health systems and diversified food sources result in very low baseline incidence, high exit probabilities, and minimal variability.",
+"p": {"a": 15.0, "b": 25.0},
+"gamma": {"a": 2.0, "b": 998.0},
+"omega": {"a": 1.0, "b": 999.0}
+},
+{
+"district": "Hargeysa",
+"reasoning": "The urban capital of Somaliland, characterized by extensive, highly functional health infrastructure and diversified urban livelihoods. Despite hosting structural urban poor and IDP populations, robust market access and service delivery maintain low incidence, high recovery rates, and low volatility.",
+"p": {"a": 16.0, "b": 24.0},
+"gamma": {"a": 3.0, "b": 997.0},
+"omega": {"a": 2.0, "b": 998.0}
+},
+{
+"district": "Hobyo",
+"reasoning": "A coastal and pastoral district exposed to chronic drought and historically weak infrastructure. Sporadic humanitarian access limits CMAM coverage, while structural dependence on rainfall for both livestock and shallow wells drives high seasonal volatility in incidence.",
+"p": {"a": 8.0, "b": 32.0},
+"gamma": {"a": 8.0, "b": 992.0},
+"omega": {"a": 6.0, "b": 994.0}
+},
+{
+"district": "Iskushuban",
+"reasoning": "A remote pastoral district structurally constrained by sparse populations and poor road networks, severely limiting health service reach. The predominant livelihood relies on livestock and limited date farming, leaving the area highly vulnerable to drought shocks and driving incidence volatility.",
+"p": {"a": 7.0, "b": 33.0},
+"gamma": {"a": 7.0, "b": 993.0},
+"omega": {"a": 5.0, "b": 995.0}
+},
+{
+"district": "Jalalaqsi",
+"reasoning": "A riverine district suffering from extreme structural access constraints and multi-year blockades by armed groups. Near-total lack of health programming minimizes exit probability, while dependence on restricted local agriculture creates high incidence and profound vulnerability to river levels.",
+"p": {"a": 5.0, "b": 35.0},
+"gamma": {"a": 12.0, "b": 988.0},
+"omega": {"a": 5.0, "b": 995.0}
+},
+{
+"district": "Jamaame",
+"reasoning": "A highly productive but largely inaccessible riverine district controlled by non-state armed groups. Despite strong structural agricultural potential, the absence of formal CMAM services drastically reduces recovery pathways, embedding a chronic disease burden that fluctuates with seasonal floods.",
+"p": {"a": 4.0, "b": 36.0},
+"gamma": {"a": 11.0, "b": 989.0},
+"omega": {"a": 6.0, "b": 994.0}
+},
+{
+"district": "Jariiban",
+"reasoning": "A vast pastoral district heavily reliant on livestock trade with limited structural water access. Deep rural populations face significant distance barriers to health facilities, lowering the exit probability, while vulnerability to cyclical drought drives the variability in new cases.",
+"p": {"a": 8.0, "b": 32.0},
+"gamma": {"a": 7.0, "b": 993.0},
+"omega": {"a": 5.0, "b": 995.0}
+},
+{
+"district": "Jilib",
+"reasoning": "A predominantly riverine and agropastoral stronghold for non-state armed groups, entirely inaccessible to formal humanitarian presence. The absolute lack of structural CMAM drives the exit probability to its lowest bound, while unmitigated flood risks and market isolation drive persistent incidence.",
+"p": {"a": 3.0, "b": 37.0},
+"gamma": {"a": 12.0, "b": 988.0},
+"omega": {"a": 6.0, "b": 994.0}
+},
+{
+"district": "Jowhar",
+"reasoning": "A major riverine agricultural hub heavily prone to devastating structural flooding from the Shabelle River. While urban centers possess health infrastructure, recurrent floods systematically destroy crops, displace populations, and spread waterborne diseases, driving extreme volatility in incidence.",
+"p": {"a": 12.0, "b": 28.0},
+"gamma": {"a": 13.0, "b": 987.0},
+"omega": {"a": 9.0, "b": 991.0}
+},
+{
+"district": "Kismaayo",
+"reasoning": "A major port city hosting massive, densely populated IDP settlements drawn from the surrounding conflict-affected hinterlands. Robust structural humanitarian infrastructure ensures high exit probabilities via CMAM, but the chronic influx of highly destitute populations maintains immense and volatile incidence.",
+"p": {"a": 15.0, "b": 25.0},
+"gamma": {"a": 15.0, "b": 985.0},
+"omega": {"a": 8.0, "b": 992.0}
+},
+{
+"district": "Kurtunwaarey",
+"reasoning": "A riverine and agropastoral district that has experienced long-term structural occupation and severe access restrictions. Poor infrastructure and absent health services severely depress exit probabilities, while dependence on both rainfall and river irrigation introduces moderate seasonal variability.",
+"p": {"a": 5.0, "b": 35.0},
+"gamma": {"a": 11.0, "b": 989.0},
+"omega": {"a": 6.0, "b": 994.0}
+},
+{
+"district": "Laas Caanood",
+"reasoning": "A pastoral district historically destabilized by structural territorial disputes and periodic armed conflict. Conflict volatility repeatedly disrupts trade routes and displaces populations, creating high incidence variability, while health service access fluctuates with the security environment.",
+"p": {"a": 10.0, "b": 30.0},
+"gamma": {"a": 9.0, "b": 991.0},
+"omega": {"a": 7.0, "b": 993.0}
+},
+{
+"district": "Laasqoray",
+"reasoning": "A coastal and mountainous district characterized by deep physical isolation and reliance on fishing and small-scale livestock. Structural distance from major hubs restricts health service provision, lowering exit probabilities, though coastal livelihoods provide some buffer against extreme monthly volatility.",
+"p": {"a": 7.0, "b": 33.0},
+"gamma": {"a": 6.0, "b": 994.0},
+"omega": {"a": 3.0, "b": 997.0}
+},
+{
+"district": "Lughaye",
+"reasoning": "A remote coastal pastoral district structurally vulnerable to cyclones, recurrent droughts, and limited market integration. Sparsely distributed populations face significant barriers to health access, and the highly shock-prone environment drives marked variability in new cases.",
+"p": {"a": 8.0, "b": 32.0},
+"gamma": {"a": 7.0, "b": 993.0},
+"omega": {"a": 5.0, "b": 995.0}
+},
+{
+"district": "Luuq",
+"reasoning": "A border district with riverine agriculture and substantial chronic IDP populations. Structural humanitarian presence is strong due to IDP camps, ensuring high CMAM throughput and exit probabilities, but the continuous influx of vulnerable populations creates high baseline incidence.",
+"p": {"a": 14.0, "b": 26.0},
+"gamma": {"a": 12.0, "b": 988.0},
+"omega": {"a": 6.0, "b": 994.0}
+},
+{
+"district": "Marka",
+"reasoning": "A coastal and agropastoral district that has suffered from localized chronic clan conflicts and volatile governance. The persistent insecurity periodically severs market access and interrupts health programming, resulting in fluctuating exit probabilities and high incidence volatility.",
+"p": {"a": 10.0, "b": 30.0},
+"gamma": {"a": 10.0, "b": 990.0},
+"omega": {"a": 7.0, "b": 993.0}
+},
+{
+"district": "Owdweyne",
+"reasoning": "An agropastoral district with stable governance but structural vulnerability to erratic rainfall and weak deep-rural infrastructure. Established market networks and reasonable security permit baseline health coverage, maintaining a moderate incidence level and lower volatility compared to the south.",
+"p": {"a": 12.0, "b": 28.0},
+"gamma": {"a": 5.0, "b": 995.0},
+"omega": {"a": 3.0, "b": 997.0}
+},
+{
+"district": "Qandala",
+"reasoning": "A highly remote coastal district defined by rugged topography and limited transport networks. Structural isolation heavily restricts CMAM presence, drastically slowing recovery times, while livelihoods based on frankincense and fishing are relatively stable, suppressing sharp monthly fluctuations.",
+"p": {"a": 6.0, "b": 34.0},
+"gamma": {"a": 6.0, "b": 994.0},
+"omega": {"a": 3.0, "b": 997.0}
+},
+{
+"district": "Qansax Dheere",
+"reasoning": "An agropastoral district deeply impacted by chronic encirclement and access blockades by armed groups. Severe isolation decimates agricultural markets and completely stunts health service delivery, driving a persistent, structural burden with volatility linked solely to local harvests.",
+"p": {"a": 5.0, "b": 35.0},
+"gamma": {"a": 12.0, "b": 988.0},
+"omega": {"a": 5.0, "b": 995.0}
+},
+{
+"district": "Qardho",
+"reasoning": "An urban and pastoral hub situated on major trade routes, providing structural economic stability. Reliable health infrastructure yields robust exit probabilities, while a relatively diversified local economy and strong market links keep chronic incidence and monthly variance low.",
+"p": {"a": 13.0, "b": 27.0},
+"gamma": {"a": 5.0, "b": 995.0},
+"omega": {"a": 3.0, "b": 997.0}
+},
+{
+"district": "Qoryooley",
+"reasoning": "A highly productive riverine agricultural zone structurally hindered by continuous military operations and armed group presence. Frequent conflict disrupts planting seasons and blocks humanitarian health programs, leading to poor recovery rates and highly volatile incidence.",
+"p": {"a": 7.0, "b": 33.0},
+"gamma": {"a": 11.0, "b": 989.0},
+"omega": {"a": 7.0, "b": 993.0}
+},
+{
+"district": "Rab Dhuure",
+"reasoning": "A structurally arid pastoral and agropastoral border district characterized by chronic water scarcity and recurrent access issues. Poor underlying health infrastructure dictates a low exit probability, while dependence on erratic rains heavily drives the variability in month-to-month incidence.",
+"p": {"a": 7.0, "b": 33.0},
+"gamma": {"a": 10.0, "b": 990.0},
+"omega": {"a": 6.0, "b": 994.0}
+},
+{
+"district": "Saakow",
+"reasoning": "A riverine and agropastoral district that has been universally inaccessible to humanitarian actors for years due to rigid non-state armed group control. Complete absence of CMAM ensures very low exit probabilities, while flood and drought cycles unchecked by assistance dictate incidence.",
+"p": {"a": 3.0, "b": 37.0},
+"gamma": {"a": 12.0, "b": 988.0},
+"omega": {"a": 6.0, "b": 994.0}
+},
+{
+"district": "Sablaale",
+"reasoning": "An inaccessible riverine area dominated by non-state armed actors, entirely cut off from formal health and nutrition services. The structural isolation prevents recovery, while reliance on flood-recession agriculture generates moderate to high variability in seasonal incidence.",
+"p": {"a": 4.0, "b": 36.0},
+"gamma": {"a": 11.0, "b": 989.0},
+"omega": {"a": 6.0, "b": 994.0}
+},
+{
+"district": "Sheikh",
+"reasoning": "A mountainous agropastoral district in Somaliland benefiting from favorable microclimates and strong structural security. Consistent access to markets and health services drives a high exit probability and a very low, stable baseline incidence.",
+"p": {"a": 14.0, "b": 26.0},
+"gamma": {"a": 3.0, "b": 997.0},
+"omega": {"a": 2.0, "b": 998.0}
+},
+{
+"district": "Taleex",
+"reasoning": "A remote pastoral district hindered by structural territorial disputes, poor roads, and lack of investment. Chronic underdevelopment limits the reach of CMAM programming, while reliance on highly climate-sensitive pastoral livelihoods drives moderate incidence and monthly volatility.",
+"p": {"a": 8.0, "b": 32.0},
+"gamma": {"a": 8.0, "b": 992.0},
+"omega": {"a": 5.0, "b": 995.0}
+},
+{
+"district": "Tayeeglow",
+"reasoning": "An agropastoral district experiencing persistent encirclement and chronic disruptions to trade routes by armed groups. Severe market isolation restricts dietary diversity and collapses health systems, embedding a chronic, protracted incidence burden heavily linked to local rainfall.",
+"p": {"a": 6.0, "b": 34.0},
+"gamma": {"a": 11.0, "b": 989.0},
+"omega": {"a": 5.0, "b": 995.0}
+},
+{
+"district": "Waajid",
+"reasoning": "An agropastoral center that has endured years of structural blockade, heavily relying on sporadic humanitarian airlifts. The extreme volatility in food access and market prices drives high incidence variability, while the suppressed health infrastructure keeps recovery rates chronically low.",
+"p": {"a": 7.0, "b": 33.0},
+"gamma": {"a": 12.0, "b": 988.0},
+"omega": {"a": 7.0, "b": 993.0}
+},
+{
+"district": "Wanla Weyn",
+"reasoning": "An agropastoral district situated on major transport routes but structurally prone to severe seasonal flooding and localized conflict. Health access is moderate due to infrastructure, but flood-induced displacement and disease outbreaks create massive seasonal swings in incidence.",
+"p": {"a": 11.0, "b": 29.0},
+"gamma": {"a": 10.0, "b": 990.0},
+"omega": {"a": 8.0, "b": 992.0}
+},
+{
+"district": "Xarardheere",
+"reasoning": "A remote coastal and pastoral district that has been historically inaccessible due to non-state armed group control. The complete structural isolation eliminates formal CMAM access, driving low exit probabilities, while dependence on scarce water resources maintains high incidence.",
+"p": {"a": 4.0, "b": 36.0},
+"gamma": {"a": 10.0, "b": 990.0},
+"omega": {"a": 5.0, "b": 995.0}
+},
+{
+"district": "Xudun",
+"reasoning": "A pastoral district characterized by profound physical isolation and recurrent structural water shortages. Access for health services is chronically poor due to terrain and underinvestment, leading to prolonged recovery times and high variability driven by the performance of rainy seasons.",
+"p": {"a": 7.0, "b": 33.0},
+"gamma": {"a": 8.0, "b": 992.0},
+"omega": {"a": 6.0, "b": 994.0}
+},
+{
+"district": "Xudur",
+"reasoning": "An agropastoral administrative center structurally reliant on high-risk transport corridors that are frequently blocked by armed groups. Volatile market access and high commodity prices drive up incidence and monthly variability, though the urban center maintains baseline health services for a moderate exit probability.",
+"p": {"a": 9.0, "b": 31.0},
+"gamma": {"a": 11.0, "b": 989.0},
+"omega": {"a": 6.0, "b": 994.0}
+},
+{
+"district": "Zeylac",
+"reasoning": "A coastal district in Somaliland reliant on trade, fishing, and pastoralism. Structural stability and functional cross-border trade provide a resilient food environment, while accessible health infrastructure ensures high recovery rates, maintaining very low baseline incidence and minimal volatility.",
+"p": {"a": 14.0, "b": 26.0},
+"gamma": {"a": 3.0, "b": 997.0},
+"omega": {"a": 2.0, "b": 998.0}
+}
+]
+}

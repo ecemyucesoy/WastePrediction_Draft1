@@ -1,0 +1,1949 @@
+{
+  "districts": [
+    {
+      "district": "Borama",
+      "reasoning": "Northwest agropastoral and urban district in Somaliland with a diversified food economy: own-cereal production, livestock, cross-border trade with Ethiopia and substantial remittance income, giving multiple food-access pathways and comparatively good dietary diversity. Health-system density is among the highest in Somalia (regional hospital plus a stable NGO/MoH nutrition network), and the district has been continuously accessible across 2017-2021, so treatment-mediated exit is reliable and case fatality low; this supports a moderately high p and a low structural gamma. IDP hosting is real but the smallest of the DTM-profiled districts and structurally stable rather than surging, and seasonal amplitude in food access is damped by remittances and trade, so month-to-month incidence variation is modest. Effective information: the p interval reflects confidence roughly equivalent to 4 months of direct field observation in this district, the gamma interval roughly 3 months, and the omega interval roughly 2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia",
+        "https://www.iom.int/news/iom-identifies-over-430000-internally-displaced-somalia"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.27,
+        "low_90": 0.1485,
+        "high_90": 0.4374
+      },
+      "gamma": {
+        "median": 0.0026,
+        "low_90": 0.00114,
+        "high_90": 0.00585
+      },
+      "omega": {
+        "median": 0.00078,
+        "low_90": 0.0003,
+        "high_90": 0.00195
+      }
+    },
+    {
+      "district": "Baki",
+      "reasoning": "Rural northwest agropastoral zone dependent on rain-fed sorghum and small stock, with thinner market integration than Borama town and sparse static health infrastructure, so treatment coverage is intermittent and exits occur largely through slow spontaneous resolution: this pulls p below the national anchor. Chronic vulnerability is moderate rather than severe, with no structural IDP concentration. Genuine month-to-month variation is driven mainly by the Gu/Deyr rainfall cycle and the associated agricultural lean season, without the flood or conflict volatility of the south. No district-level retrieval was achieved; this rests on general zonal knowledge. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.22,
+        "low_90": 0.1056,
+        "high_90": 0.3916
+      },
+      "gamma": {
+        "median": 0.0032,
+        "low_90": 0.00122,
+        "high_90": 0.00816
+      },
+      "omega": {
+        "median": 0.00112,
+        "low_90": 0.00036,
+        "high_90": 0.00325
+      }
+    },
+    {
+      "district": "Lughaye",
+      "reasoning": "Guban coastal-pastoral zone: an extremely arid strip with a narrow, market-dependent food economy, seasonal transhumance to and from the Golis escarpment, and very sparse fixed health and CMAM infrastructure, so SAM here is chronic-and-persistent rather than acute-and-treated and p sits well below the anchor. Structural dietary diversity is poor and market dependence high, raising gamma above the Somaliland average. Month-to-month variation is driven by the pronounced Guban seasonal migration cycle, erratic coastal rainfall and heat stress, giving moderate omega. No district-level retrieval was achieved. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.21,
+        "low_90": 0.1008,
+        "high_90": 0.3738
+      },
+      "gamma": {
+        "median": 0.0038,
+        "low_90": 0.00144,
+        "high_90": 0.00969
+      },
+      "omega": {
+        "median": 0.0016,
+        "low_90": 0.00051,
+        "high_90": 0.00463
+      }
+    },
+    {
+      "district": "Zeylac",
+      "reasoning": "Guban coastal and fishing zone on the Djibouti border, with a narrow food economy combining small-stock pastoralism, artisanal fishing and cross-border petty trade; cross-border trade provides some buffering but structural dietary diversity remains poor and fixed nutrition services are thin, so exits depend heavily on spontaneous resolution and p is low. No structural IDP hosting and limited conflict exposure keep gamma moderate rather than high. Recurrent variation comes from coastal rainfall failure, heat stress and seasonal migration, not from conflict or displacement surges. No district-level retrieval was achieved. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.21,
+        "low_90": 0.1008,
+        "high_90": 0.3738
+      },
+      "gamma": {
+        "median": 0.0036,
+        "low_90": 0.00137,
+        "high_90": 0.00918
+      },
+      "omega": {
+        "median": 0.00151,
+        "low_90": 0.00048,
+        "high_90": 0.00438
+      }
+    },
+    {
+      "district": "Hargeysa",
+      "reasoning": "Somaliland's capital and the most service-dense urban district in the country: functional markets, high remittance penetration, the strongest concentration of hospitals, MCHs and stabilisation capacity, and uninterrupted programme access across the whole period. High treatment coverage gives fast, treatment-mediated exit and hence the highest p band in this elicitation, while urban market access and dietary diversity give the lowest structural gamma band. Protracted IDP settlements exist but are long-settled rather than volatile, and urban food access is smoothed by markets and remittances, so genuine month-to-month incidence variation is small. Effective information: the p interval reflects confidence roughly equivalent to 4 months of direct field observation in this district, the gamma interval roughly 3 months, and the omega interval roughly 2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.29,
+        "low_90": 0.1595,
+        "high_90": 0.4698
+      },
+      "gamma": {
+        "median": 0.0025,
+        "low_90": 0.0011,
+        "high_90": 0.00562
+      },
+      "omega": {
+        "median": 0.0007,
+        "low_90": 0.00027,
+        "high_90": 0.00175
+      }
+    },
+    {
+      "district": "Berbera",
+      "reasoning": "Coastal urban and port district with a wage-labour and trade-based food economy, reliable market supply and a functioning municipal health system with continuous humanitarian access, so treatment pathways are dependable and p is above the anchor. Structural gamma is low: incomes are cash-based and market access is good, though the Guban hinterland is arid and heat-stressed. Recurrent variation is limited to seasonal heat and price effects and port-labour seasonality, without flood, conflict or displacement volatility, so omega is small. No district-level retrieval was achieved. Effective information: the p interval reflects confidence roughly equivalent to 4 months of direct field observation in this district, the gamma interval roughly 3 months, and the omega interval roughly 2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.27,
+        "low_90": 0.1485,
+        "high_90": 0.4374
+      },
+      "gamma": {
+        "median": 0.0028,
+        "low_90": 0.00123,
+        "high_90": 0.0063
+      },
+      "omega": {
+        "median": 0.0009,
+        "low_90": 0.00034,
+        "high_90": 0.00224
+      }
+    },
+    {
+      "district": "Gebiley",
+      "reasoning": "The highest-potential agropastoral zone in northwestern Somalia, with the country's most reliable rain-fed cereal production, good road access to Hargeysa markets and strong remittance penetration; multiple food-access pathways make this the lowest structural gamma in the elicitation. Health and nutrition services are continuously available and access has never been constrained, supporting reliable treatment-mediated exit and a p above the anchor. Seasonal amplitude follows the Gu cycle but is buffered by own production and trade, so month-to-month incidence variation is low. No district-level retrieval was achieved. Effective information: the p interval reflects confidence roughly equivalent to 4 months of direct field observation in this district, the gamma interval roughly 3 months, and the omega interval roughly 2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.26,
+        "low_90": 0.143,
+        "high_90": 0.4212
+      },
+      "gamma": {
+        "median": 0.0023,
+        "low_90": 0.00101,
+        "high_90": 0.00517
+      },
+      "omega": {
+        "median": 0.00069,
+        "low_90": 0.00026,
+        "high_90": 0.00172
+      }
+    },
+    {
+      "district": "Burco",
+      "reasoning": "Regional capital combining a substantial urban economy with the surrounding Hawd pastoral zone that supplies the Berbera livestock export trade; urban market access and remittances buffer the town while the pastoral hinterland is structurally exposed to rangeland and water scarcity. Continuous humanitarian access and a reasonably dense urban health and nutrition network give reliable treatment exit and p above the anchor, with low-to-moderate gamma. Genuine variation is driven by the Hawd's recurrent dry-season water and pasture stress and by livestock-price and export cycles, giving moderate omega. Effective information: the p interval reflects confidence roughly equivalent to 4 months of direct field observation in this district, the gamma interval roughly 3 months, and the omega interval roughly 2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.27,
+        "low_90": 0.1485,
+        "high_90": 0.4374
+      },
+      "gamma": {
+        "median": 0.0032,
+        "low_90": 0.00141,
+        "high_90": 0.0072
+      },
+      "omega": {
+        "median": 0.00128,
+        "low_90": 0.00049,
+        "high_90": 0.0032
+      }
+    },
+    {
+      "district": "Owdweyne",
+      "reasoning": "Interior Hawd pastoral district with a narrow, highly market-dependent food economy (livestock sales exchanged for imported cereals), structurally limited dietary diversity, and sparse fixed health infrastructure served largely by mobile outreach, so treatment coverage is intermittent and p falls below the anchor. Chronic pastoral vulnerability lifts gamma above the Somaliland urban band. Recurrent drought and rangeland water scarcity, plus livestock terms-of-trade swings, drive genuine month-to-month fluctuation in new cases. No district-level retrieval was achieved. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.22,
+        "low_90": 0.1056,
+        "high_90": 0.3916
+      },
+      "gamma": {
+        "median": 0.004,
+        "low_90": 0.00152,
+        "high_90": 0.0102
+      },
+      "omega": {
+        "median": 0.0018,
+        "low_90": 0.00058,
+        "high_90": 0.00522
+      }
+    },
+    {
+      "district": "Sheikh",
+      "reasoning": "Small Golis escarpment district with cooler highland agropastoral conditions, some horticulture, and a position on the Berbera-Burco corridor giving decent market access; the food economy is comparatively diversified for northern Somalia and the disease environment milder, so structural gamma is low. Service density is modest but access has been continuous, giving a p near the anchor. Limited exposure to flooding, conflict or displacement surges means recurrent variation is largely confined to the ordinary seasonal cycle. No district-level retrieval was achieved. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.24,
+        "low_90": 0.1152,
+        "high_90": 0.4272
+      },
+      "gamma": {
+        "median": 0.0028,
+        "low_90": 0.00106,
+        "high_90": 0.00714
+      },
+      "omega": {
+        "median": 0.0009,
+        "low_90": 0.00029,
+        "high_90": 0.0026
+      }
+    },
+    {
+      "district": "Buuhoodle",
+      "reasoning": "Remote Hawd pastoral district on the contested Togdheer/Sool administrative boundary, with a purely livestock-based and market-dependent food economy, minimal fixed health infrastructure, and chronically thin humanitarian programme presence arising from disputed administration; the absence of a reliable treatment pathway makes SAM persistent rather than rapidly resolving and pushes p to the low band. Structural pastoral vulnerability and recurrent conflict-driven displacement raise gamma. Recurrent drought, water-point failure and episodic clan conflict produce substantial genuine month-to-month variation. No district-level retrieval was achieved. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.2,
+        "low_90": 0.096,
+        "high_90": 0.356
+      },
+      "gamma": {
+        "median": 0.0045,
+        "low_90": 0.00171,
+        "high_90": 0.01147
+      },
+      "omega": {
+        "median": 0.00225,
+        "low_90": 0.00072,
+        "high_90": 0.00652
+      }
+    },
+    {
+      "district": "Ceerigaabo",
+      "reasoning": "Regional capital sitting between the Golis highland agropastoral zone and an arid pastoral hinterland; the highlands provide some horticulture and rain-fed cropping, but poor road infrastructure and long distances to major markets constrain food access and keep service density moderate at best. Contested Somaliland/Puntland administration has kept programme presence uneven across the period, so treatment-mediated exit is only partially reliable and p sits near or just below the anchor. Recurrent variation is driven by highly variable orographic rainfall and by seasonal pastoral migration. No district-level retrieval was achieved. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.23,
+        "low_90": 0.1104,
+        "high_90": 0.4094
+      },
+      "gamma": {
+        "median": 0.0035,
+        "low_90": 0.00133,
+        "high_90": 0.00892
+      },
+      "omega": {
+        "median": 0.0014,
+        "low_90": 0.00045,
+        "high_90": 0.00406
+      }
+    },
+    {
+      "district": "Ceel Afweyn",
+      "reasoning": "Interior Sool-plateau and Hawd pastoral district with a narrow, livestock-and-market-dependent food economy, weak road access and very sparse fixed health facilities; contested administration has left humanitarian programme coverage chronically thin, so recovery pathways are limited and p falls below the anchor. Structural pastoral vulnerability and poor dietary diversity lift gamma above the northern urban band. Recurrent drought and rangeland stress, with periodic clan-based insecurity, drive genuine month-to-month fluctuation. No district-level retrieval was achieved. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.21,
+        "low_90": 0.1008,
+        "high_90": 0.3738
+      },
+      "gamma": {
+        "median": 0.0042,
+        "low_90": 0.0016,
+        "high_90": 0.01071
+      },
+      "omega": {
+        "median": 0.00189,
+        "low_90": 0.0006,
+        "high_90": 0.00548
+      }
+    },
+    {
+      "district": "Laasqoray",
+      "reasoning": "Coastal Sanaag district in the East Golis zone, combining frankincense collection, artisanal fishing and pastoralism; frankincense and fish give some income diversification, but remoteness, poor roads and contested Somaliland/Puntland administration have kept fixed health and CMAM services chronically absent for much of the period, so SAM is persistent rather than rapidly treated and p is low. Gamma is moderate: diversified income partly offsets poor market access. Recurrent variation follows the frankincense tapping calendar, coastal rainfall variability and cyclone exposure. No district-level retrieval was achieved. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.2,
+        "low_90": 0.096,
+        "high_90": 0.356
+      },
+      "gamma": {
+        "median": 0.004,
+        "low_90": 0.00152,
+        "high_90": 0.0102
+      },
+      "omega": {
+        "median": 0.0018,
+        "low_90": 0.00058,
+        "high_90": 0.00522
+      }
+    },
+    {
+      "district": "Laas Caanood",
+      "reasoning": "Regional centre of the Sool plateau pastoral zone, with an urban core that has market access and some health infrastructure but a large, sparsely served pastoral hinterland; contested administration has made humanitarian programme presence intermittent across the period, so treatment-mediated exit is only partially reliable and p sits slightly below the anchor. Livestock dependence and limited dietary diversity in the hinterland raise gamma above the northwestern band. Recurrent drought on the plateau and episodic political/clan insecurity drive genuine month-to-month variation. No district-level retrieval was achieved. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.23,
+        "low_90": 0.1104,
+        "high_90": 0.4094
+      },
+      "gamma": {
+        "median": 0.004,
+        "low_90": 0.00152,
+        "high_90": 0.0102
+      },
+      "omega": {
+        "median": 0.0018,
+        "low_90": 0.00058,
+        "high_90": 0.00522
+      }
+    },
+    {
+      "district": "Caynabo",
+      "reasoning": "Interior Sool/Hawd pastoral district with an almost entirely livestock-based food economy, high dependence on imported cereals and structurally poor dietary diversity; fixed services are minimal and outreach intermittent, so SAM episodes resolve slowly and p sits in the low band. Recurrent rangeland and water-point failure is the dominant chronic vulnerability and lifts gamma. Genuine month-to-month variation is driven by rainfall failure, migration of pastoral households in search of water and pasture, and livestock terms-of-trade swings. No district-level retrieval was achieved. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.21,
+        "low_90": 0.1008,
+        "high_90": 0.3738
+      },
+      "gamma": {
+        "median": 0.0044,
+        "low_90": 0.00167,
+        "high_90": 0.01122
+      },
+      "omega": {
+        "median": 0.00211,
+        "low_90": 0.00068,
+        "high_90": 0.00612
+      }
+    },
+    {
+      "district": "Taleex",
+      "reasoning": "Very remote Nugaal-valley pastoral district with minimal permanent settlement, essentially no fixed health infrastructure, and chronically negligible humanitarian programme presence because of remoteness and contested administration; with no functioning treatment pathway SAM is characteristically chronic-and-persistent, giving the low p band. Total livestock and market dependence with poor dietary diversity gives elevated gamma. Recurrent drought and pastoral mobility drive substantial genuine variation in arrivals. Evidence here is thin and intervals are correspondingly wide; no district-level retrieval was achieved. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.19,
+        "low_90": 0.0912,
+        "high_90": 0.3382
+      },
+      "gamma": {
+        "median": 0.0045,
+        "low_90": 0.00171,
+        "high_90": 0.01147
+      },
+      "omega": {
+        "median": 0.00225,
+        "low_90": 0.00072,
+        "high_90": 0.00652
+      }
+    },
+    {
+      "district": "Xudun",
+      "reasoning": "Sparsely populated interior Sool pastoral district with negligible fixed health infrastructure and chronically minimal programme coverage across the period, so SAM persists without a reliable recovery pathway and p sits in the low band. The food economy is narrow, entirely livestock- and market-dependent, with structurally poor dietary diversity, giving elevated gamma. Recurrent drought, water-point failure and pastoral migration are the genuine drivers of month-to-month fluctuation. Evidence is thin and intervals are widened accordingly; no district-level retrieval was achieved. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.19,
+        "low_90": 0.0912,
+        "high_90": 0.3382
+      },
+      "gamma": {
+        "median": 0.0045,
+        "low_90": 0.00171,
+        "high_90": 0.01147
+      },
+      "omega": {
+        "median": 0.00225,
+        "low_90": 0.00072,
+        "high_90": 0.00652
+      }
+    },
+    {
+      "district": "Bossaso",
+      "reasoning": "Major northern port and commercial hub with a wage-labour and trade economy and the densest health and nutrition service network in Puntland, giving reliable treatment-mediated exit and a p in the upper band; the crowded IDP and mixed-migration settlements also carry a high endemic AWD and respiratory disease burden that shortens episodes through mortality as well as recovery. The city hosts a structurally large and growing displaced population drawn by services and livelihoods, which raises gamma well above the northern rural baseline despite good market access. Continuing in-migration, seasonal labour demand at the port and periodic evictions make displacement flows a genuine recurrent driver of month-to-month incidence variation. Effective information: the p interval reflects confidence roughly equivalent to 4 months of direct field observation in this district, the gamma interval roughly 3 months, and the omega interval roughly 2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia",
+        "https://somalia.un.org/en/node/91498"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.28,
+        "low_90": 0.154,
+        "high_90": 0.4536
+      },
+      "gamma": {
+        "median": 0.0045,
+        "low_90": 0.00198,
+        "high_90": 0.01012
+      },
+      "omega": {
+        "median": 0.00202,
+        "low_90": 0.00077,
+        "high_90": 0.00506
+      }
+    },
+    {
+      "district": "Qardho",
+      "reasoning": "Interior Nugaal-valley pastoral district with an urban centre on the Garoowe-Bossaso corridor, which gives reasonable market integration and moderate health-service density with continuous access, supporting a p near or slightly above the anchor. The pastoral hinterland is livestock- and market-dependent with limited dietary diversity, so gamma is moderate rather than low. Recurrent drought, rangeland stress and livestock price cycles drive genuine month-to-month variation, without flood or conflict volatility. No district-level retrieval was achieved. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.12,
+        "high_90": 0.445
+      },
+      "gamma": {
+        "median": 0.0035,
+        "low_90": 0.00133,
+        "high_90": 0.00892
+      },
+      "omega": {
+        "median": 0.0014,
+        "low_90": 0.00045,
+        "high_90": 0.00406
+      }
+    },
+    {
+      "district": "Bandarbeyla",
+      "reasoning": "Remote coastal Deeh district combining artisanal fishing with East Golis pastoralism; fishing gives some protein and income diversification but market access is poor and fixed health and CMAM services are sparse and intermittently supplied, so exits are slow and p sits below the anchor. Gamma is moderate, held down by fishing income and frankincense-related earnings in the hinterland. Recurrent variation is driven by the monsoon fishing calendar, cyclone exposure along the Indian Ocean coast, and rainfall failure inland. No district-level retrieval was achieved. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.21,
+        "low_90": 0.1008,
+        "high_90": 0.3738
+      },
+      "gamma": {
+        "median": 0.0036,
+        "low_90": 0.00137,
+        "high_90": 0.00918
+      },
+      "omega": {
+        "median": 0.00162,
+        "low_90": 0.00052,
+        "high_90": 0.0047
+      }
+    },
+    {
+      "district": "Iskushuban",
+      "reasoning": "Interior East Golis district whose food economy combines pastoralism with frankincense collection, a supplementary cash income that structurally buffers this zone relative to pure pastoral areas and keeps chronic food-insecurity moderate. Remoteness and very poor road infrastructure leave fixed health and nutrition services largely absent, so SAM is persistent rather than promptly treated and p sits in the low band. Genuine month-to-month variation follows the frankincense tapping season, rainfall variability and pastoral migration. No district-level retrieval was achieved. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.2,
+        "low_90": 0.096,
+        "high_90": 0.356
+      },
+      "gamma": {
+        "median": 0.0036,
+        "low_90": 0.00137,
+        "high_90": 0.00918
+      },
+      "omega": {
+        "median": 0.00151,
+        "low_90": 0.00048,
+        "high_90": 0.00438
+      }
+    },
+    {
+      "district": "Qandala",
+      "reasoning": "Remote Golis coastal district with a narrow fishing-and-pastoral economy supplemented by frankincense, poor road access, and essentially no reliable fixed health or CMAM presence across the period, so exits from SAM depend on slow spontaneous resolution and p is low. Structural food access is constrained but partly offset by fish and frankincense income, giving moderate gamma. Episodic armed-group presence, monsoon and cyclone exposure, and rainfall variability produce genuine month-to-month fluctuation. No district-level retrieval was achieved. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.2,
+        "low_90": 0.096,
+        "high_90": 0.356
+      },
+      "gamma": {
+        "median": 0.0036,
+        "low_90": 0.00137,
+        "high_90": 0.00918
+      },
+      "omega": {
+        "median": 0.00162,
+        "low_90": 0.00052,
+        "high_90": 0.0047
+      }
+    },
+    {
+      "district": "Caluula",
+      "reasoning": "The most remote district at the northeastern tip of the country, with a Guban-type arid coastal and pastoral economy supplemented by fishing and frankincense; extremely poor road access and negligible fixed health infrastructure mean that no dependable treatment pathway existed across the period, giving the low p band. Structural food access is poor but partly buffered by fishing and trade with Yemen and the Gulf, so gamma is moderate. Cyclone landfall, monsoon fishing seasonality and rainfall failure drive genuine variation. Evidence is thin; intervals are widened. No district-level retrieval was achieved. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.19,
+        "low_90": 0.0912,
+        "high_90": 0.3382
+      },
+      "gamma": {
+        "median": 0.0036,
+        "low_90": 0.00137,
+        "high_90": 0.00918
+      },
+      "omega": {
+        "median": 0.00173,
+        "low_90": 0.00055,
+        "high_90": 0.00501
+      }
+    },
+    {
+      "district": "Garoowe",
+      "reasoning": "Puntland's administrative capital, with a functioning urban market economy, high remittance penetration, a regional hospital and a comparatively dense MCH and nutrition network under continuous humanitarian access, so treatment-mediated exit is reliable and p sits in the upper band. Urban food access and dietary diversity keep structural gamma low, although the town hosts a stable protracted IDP population that raises it above the Somaliland urban districts. Displacement is long-settled rather than volatile and urban food access is market-smoothed, so genuine month-to-month incidence variation is limited. No district-level retrieval was achieved. Effective information: the p interval reflects confidence roughly equivalent to 4 months of direct field observation in this district, the gamma interval roughly 3 months, and the omega interval roughly 2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.28,
+        "low_90": 0.154,
+        "high_90": 0.4536
+      },
+      "gamma": {
+        "median": 0.0032,
+        "low_90": 0.00141,
+        "high_90": 0.0072
+      },
+      "omega": {
+        "median": 0.00112,
+        "low_90": 0.00043,
+        "high_90": 0.0028
+      }
+    },
+    {
+      "district": "Burtinle",
+      "reasoning": "Interior Nugaal-valley pastoral district with a livestock- and market-dependent food economy, structurally poor dietary diversity, and sparse fixed health services reliant on periodic outreach, so recovery pathways are intermittent and p sits below the anchor. Chronic pastoral vulnerability and exposure to recurrent rangeland failure lift gamma above the Puntland urban band. Genuine month-to-month variation is driven by rainfall variability, water-point failure and seasonal pastoral migration. No district-level retrieval was achieved. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.21,
+        "low_90": 0.1008,
+        "high_90": 0.3738
+      },
+      "gamma": {
+        "median": 0.0042,
+        "low_90": 0.0016,
+        "high_90": 0.01071
+      },
+      "omega": {
+        "median": 0.00189,
+        "low_90": 0.0006,
+        "high_90": 0.00548
+      }
+    },
+    {
+      "district": "Eyl",
+      "reasoning": "Coastal Deeh district combining artisanal fishing with an Addun pastoral hinterland; fishing gives some dietary and income diversification but market access is poor and fixed nutrition services are thin and irregularly supplied, so exits are slow and p sits below the anchor. Gamma is moderate. Genuine variation follows the monsoon fishing calendar, cyclone and coastal-flood exposure, and inland rainfall failure that periodically drives pastoral households toward the coast. No district-level retrieval was achieved. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.21,
+        "low_90": 0.1008,
+        "high_90": 0.3738
+      },
+      "gamma": {
+        "median": 0.0036,
+        "low_90": 0.00137,
+        "high_90": 0.00918
+      },
+      "omega": {
+        "median": 0.00162,
+        "low_90": 0.00052,
+        "high_90": 0.0047
+      }
+    },
+    {
+      "district": "Gaalkacyo",
+      "reasoning": "A divided but commercially active urban district that functions as the principal service and market hub of central Somalia, with reasonable health and nutrition capacity in the northern town and continuous, if security-constrained, programme access; this supports a p above the anchor. It is a structural destination for drought- and conflict-displaced households from the Mudug and Galgaduud rangelands, so it carries a large and continually replenished displaced population that lifts gamma well above the northern urban baseline. Recurrent drought-driven in-migration, periodic inter-clan tension along the green line and rangeland variability make displacement flow a genuine driver of month-to-month variation. Effective information: the p interval reflects confidence roughly equivalent to 4 months of direct field observation in this district, the gamma interval roughly 3 months, and the omega interval roughly 2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "p": {
+        "median": 0.27,
+        "low_90": 0.1485,
+        "high_90": 0.4374
+      },
+      "gamma": {
+        "median": 0.0048,
+        "low_90": 0.00211,
+        "high_90": 0.0108
+      },
+      "omega": {
+        "median": 0.0024,
+        "low_90": 0.00091,
+        "high_90": 0.006
+      }
+    },
+    {
+      "district": "Galdogob",
+      "reasoning": "Hawd pastoral district on the Ethiopian border with a livestock- and market-dependent food economy, some cross-border trade buffering, and sparse fixed health infrastructure served mainly by outreach, so treatment-mediated exit is unreliable and p sits below the anchor. Structural rangeland dependence and poor dietary diversity give elevated gamma. Recurrent drought, water-point failure, cross-border livestock movement and episodic clan insecurity drive genuine month-to-month fluctuation. No district-level retrieval was achieved. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.21,
+        "low_90": 0.1008,
+        "high_90": 0.3738
+      },
+      "gamma": {
+        "median": 0.0045,
+        "low_90": 0.00171,
+        "high_90": 0.01147
+      },
+      "omega": {
+        "median": 0.00216,
+        "low_90": 0.00069,
+        "high_90": 0.00626
+      }
+    },
+    {
+      "district": "Jariiban",
+      "reasoning": "Sparsely populated Addun and coastal Deeh pastoral district with very poor road access, a narrow livestock-based food economy and negligible fixed health or CMAM presence for most of the period, so SAM is chronic-and-persistent and p sits in the low band. Structural pastoral vulnerability and dependence on purchased cereals give elevated gamma. Genuine variation is driven by recurrent drought and rangeland failure, cyclone exposure on the coast, and long-distance pastoral migration. No district-level retrieval was achieved. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.2,
+        "low_90": 0.096,
+        "high_90": 0.356
+      },
+      "gamma": {
+        "median": 0.0045,
+        "low_90": 0.00171,
+        "high_90": 0.01147
+      },
+      "omega": {
+        "median": 0.00216,
+        "low_90": 0.00069,
+        "high_90": 0.00626
+      }
+    },
+    {
+      "district": "Hobyo",
+      "reasoning": "Coastal Deeh pastoral and fishing district in central Somalia with a narrow food economy, very weak market integration and chronically thin humanitarian presence because of armed-group activity along the central coast, so no dependable recovery pathway existed across the period and p is low. Persistent Phase 3-type food-access stress in the Addun and coastal rangelands gives elevated gamma. Recurrent drought, cyclone landfall, volatile access to markets and assistance, and episodic displacement all drive substantial genuine month-to-month variation. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "p": {
+        "median": 0.19,
+        "low_90": 0.0912,
+        "high_90": 0.3382
+      },
+      "gamma": {
+        "median": 0.0055,
+        "low_90": 0.00209,
+        "high_90": 0.01402
+      },
+      "omega": {
+        "median": 0.00302,
+        "low_90": 0.00097,
+        "high_90": 0.00825
+      }
+    },
+    {
+      "district": "Xarardheere",
+      "reasoning": "Coastal and Addun pastoral district that remained largely under Al-Shabaab influence across 2017-2021, with chronic humanitarian access constraints, essentially no sustained CMAM presence and very weak market integration; the absence of a treatment pathway makes SAM persistent and gives the low p band. Structurally poor dietary diversity, high cereal-purchase dependence and recurrent rangeland failure give high gamma. Conflict volatility, abrupt interruptions to markets and assistance, cyclone and drought exposure, and episodic displacement together drive large genuine month-to-month variation. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "p": {
+        "median": 0.17,
+        "low_90": 0.0816,
+        "high_90": 0.3026
+      },
+      "gamma": {
+        "median": 0.006,
+        "low_90": 0.00228,
+        "high_90": 0.0153
+      },
+      "omega": {
+        "median": 0.0036,
+        "low_90": 0.00115,
+        "high_90": 0.009
+      }
+    },
+    {
+      "district": "Dhuusamarreeb",
+      "reasoning": "Galmudug's administrative centre, combining a small urban market economy with a surrounding Hawd pastoral zone; health and nutrition services are present but modest, and access has been repeatedly interrupted by front-line instability, so treatment-mediated exit is only partly reliable and p sits near the anchor. Structural pastoral dependence, weak market integration and recurrent hosting of displaced households from surrounding rural areas give elevated gamma. Conflict volatility, drought-driven displacement into the town and unstable supply routes drive substantial genuine month-to-month variation. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "p": {
+        "median": 0.23,
+        "low_90": 0.1104,
+        "high_90": 0.4094
+      },
+      "gamma": {
+        "median": 0.0055,
+        "low_90": 0.00209,
+        "high_90": 0.01402
+      },
+      "omega": {
+        "median": 0.00302,
+        "low_90": 0.00097,
+        "high_90": 0.00825
+      }
+    },
+    {
+      "district": "Cadaado",
+      "reasoning": "Hawd pastoral district with a relatively stable administrative situation for central Somalia and a functioning small-town market, giving somewhat better and more continuous programme access than its neighbours and a p near the anchor. The food economy remains livestock- and market-dependent with limited dietary diversity, so gamma is moderately elevated. Recurrent drought and rangeland failure, livestock terms-of-trade swings and drought-driven in-migration from surrounding districts drive genuine month-to-month variation. No district-level retrieval was achieved. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.23,
+        "low_90": 0.1104,
+        "high_90": 0.4094
+      },
+      "gamma": {
+        "median": 0.0048,
+        "low_90": 0.00182,
+        "high_90": 0.01224
+      },
+      "omega": {
+        "median": 0.0024,
+        "low_90": 0.00077,
+        "high_90": 0.00696
+      }
+    },
+    {
+      "district": "Cabudwaaq",
+      "reasoning": "Hawd pastoral district on the Ethiopian border whose cross-border livestock and cereal trade gives better market integration than most of Galgaduud, moderating chronic food-access stress; programme access has been comparatively consistent, supporting a p near the anchor. Livestock dependence and limited dietary diversity keep gamma moderately elevated. Recurrent drought, cross-border trade disruption and pastoral migration drive genuine month-to-month variation. No district-level retrieval was achieved. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.23,
+        "low_90": 0.1104,
+        "high_90": 0.4094
+      },
+      "gamma": {
+        "median": 0.0045,
+        "low_90": 0.00171,
+        "high_90": 0.01147
+      },
+      "omega": {
+        "median": 0.00216,
+        "low_90": 0.00069,
+        "high_90": 0.00626
+      }
+    },
+    {
+      "district": "Ceel Buur",
+      "reasoning": "An Al-Shabaab stronghold throughout 2017-2021 with chronic, near-total humanitarian access constraints, no sustained CMAM presence and heavily taxed, disrupted markets; with no reliable treatment pathway SAM is characteristically chronic-and-persistent, giving the low p band. Structural food-access stress in the surrounding Hawd rangelands, poor dietary diversity and conflict-suppressed livelihood activity give high gamma. Conflict volatility, abrupt market and assistance interruptions, recurrent drought and episodic displacement drive large genuine month-to-month variation. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "p": {
+        "median": 0.17,
+        "low_90": 0.0816,
+        "high_90": 0.3026
+      },
+      "gamma": {
+        "median": 0.006,
+        "low_90": 0.00228,
+        "high_90": 0.0153
+      },
+      "omega": {
+        "median": 0.00348,
+        "low_90": 0.00111,
+        "high_90": 0.009
+      }
+    },
+    {
+      "district": "Ceel Dheere",
+      "reasoning": "Coastal-hinterland and Hawd pastoral district under sustained Al-Shabaab control across the period, chronically inaccessible to humanitarian partners, with no dependable CMAM pathway and heavily constrained markets; this gives the low p band, with SAM persisting rather than resolving quickly. Conflict-suppressed livelihoods, poor dietary diversity and recurrent rangeland failure give high gamma. Recurrent drought, volatile access to markets and assistance, and episodic conflict displacement drive substantial genuine month-to-month variation. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "p": {
+        "median": 0.17,
+        "low_90": 0.0816,
+        "high_90": 0.3026
+      },
+      "gamma": {
+        "median": 0.006,
+        "low_90": 0.00228,
+        "high_90": 0.0153
+      },
+      "omega": {
+        "median": 0.00348,
+        "low_90": 0.00111,
+        "high_90": 0.009
+      }
+    },
+    {
+      "district": "Belet Weyne",
+      "reasoning": "Regional capital straddling the Shabelle with a mixed riverine, agropastoral and pastoral food economy and a large, structurally embedded displaced population; it is one of the most consistently serviced humanitarian hubs in central Somalia, with a dense nutrition partner presence and stabilisation capacity, giving reliable treatment-mediated exit and a p above the anchor, further raised by a high endemic AWD burden in riverine and IDP settings. Structural flood exposure, market dependence and protracted displacement give high gamma. Recurrent Shabelle flooding that repeatedly displaces the town, seasonal riverine cropping cycles, and conflict on the surrounding supply routes make month-to-month arrival variation among the largest in the country. Effective information: the p interval reflects confidence roughly equivalent to 4 months of direct field observation in this district, the gamma interval roughly 3 months, and the omega interval roughly 2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia",
+        "https://www.iom.int/news/iom-identifies-over-430000-internally-displaced-somalia",
+        "https://reliefweb.int/report/somalia/semi-quantitative-evaluation-access-and-coverage-squeac-report-implemented-mataban-district-hiran-region-somalia"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.27,
+        "low_90": 0.1485,
+        "high_90": 0.4374
+      },
+      "gamma": {
+        "median": 0.007,
+        "low_90": 0.00308,
+        "high_90": 0.01575
+      },
+      "omega": {
+        "median": 0.0049,
+        "low_90": 0.00186,
+        "high_90": 0.0105
+      }
+    },
+    {
+      "district": "Bulo Burto",
+      "reasoning": "Riverine and agropastoral district along the Shabelle that remained under Al-Shabaab control for most of 2017-2021, with chronic humanitarian access denial, no sustained CMAM pathway and heavily taxed markets, giving the low p band and a characteristically persistent rather than rapidly resolving SAM profile. Structural flood exposure, conflict-suppressed agriculture and poor market access give high gamma. Recurrent Shabelle flooding and dry-spell cycles, volatile access to assistance and markets, and conflict-driven displacement drive large genuine month-to-month variation. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia",
+        "https://reliefweb.int/report/somalia/semi-quantitative-evaluation-access-and-coverage-squeac-report-implemented-mataban-district-hiran-region-somalia"
+      ],
+      "sources_unavailable": [
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "p": {
+        "median": 0.17,
+        "low_90": 0.0816,
+        "high_90": 0.3026
+      },
+      "gamma": {
+        "median": 0.0075,
+        "low_90": 0.00285,
+        "high_90": 0.018
+      },
+      "omega": {
+        "median": 0.0051,
+        "low_90": 0.00163,
+        "high_90": 0.01125
+      }
+    },
+    {
+      "district": "Jalalaqsi",
+      "reasoning": "Small Shabelle riverine district with irrigated and recession cropping, structurally embedded flood exposure, and only intermittent humanitarian access because of sustained Al-Shabaab presence in the surrounding countryside, so CMAM coverage has been unreliable and p sits below the anchor. Conflict-constrained agriculture, weak market integration and a high riverine disease burden give high gamma. Recurrent river flooding and bank breakage, seasonal cropping cycles, and conflict-driven access and displacement swings drive large genuine month-to-month variation. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia",
+        "https://reliefweb.int/report/somalia/semi-quantitative-evaluation-access-and-coverage-squeac-report-implemented-mataban-district-hiran-region-somalia"
+      ],
+      "sources_unavailable": [
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "p": {
+        "median": 0.19,
+        "low_90": 0.0912,
+        "high_90": 0.3382
+      },
+      "gamma": {
+        "median": 0.0072,
+        "low_90": 0.00274,
+        "high_90": 0.018
+      },
+      "omega": {
+        "median": 0.0049,
+        "low_90": 0.00157,
+        "high_90": 0.0108
+      }
+    },
+    {
+      "district": "Jowhar",
+      "reasoning": "Hirshabelle's capital in the irrigated Shabelle riverine zone, with an agricultural economy built on canal irrigation and a structurally large displaced population concentrated in and around the town; humanitarian presence has been comparatively sustained for southern Somalia, giving moderately reliable treatment exit and a p slightly above the anchor, reinforced by a high endemic AWD and measles burden in riverine and IDP settings. Chronic flood exposure, degraded irrigation infrastructure and displacement give high gamma. Recurrent and severe Shabelle flooding, irrigation-dependent cropping seasonality, and volatile displacement into and out of the town drive large genuine month-to-month variation. Effective information: the p interval reflects confidence roughly equivalent to 4 months of direct field observation in this district, the gamma interval roughly 3 months, and the omega interval roughly 2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia",
+        "https://www.iom.int/news/iom-identifies-over-430000-internally-displaced-somalia"
+      ],
+      "sources_unavailable": [
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.1375,
+        "high_90": 0.405
+      },
+      "gamma": {
+        "median": 0.0068,
+        "low_90": 0.00299,
+        "high_90": 0.0153
+      },
+      "omega": {
+        "median": 0.00462,
+        "low_90": 0.00176,
+        "high_90": 0.0102
+      }
+    },
+    {
+      "district": "Balcad",
+      "reasoning": "Riverine and agropastoral district immediately north of Mogadishu, with irrigated cropping along the Shabelle, strong market linkage to the capital, and a substantial displaced population moving along the Mogadishu corridor; rural areas remained contested or Al-Shabaab-influenced across the period so programme coverage was partial, placing p just below the anchor. Chronic flood exposure and conflict-constrained agriculture give high gamma. Recurrent flooding, seasonal irrigation cycles, volatile displacement flows toward and from Mogadishu, and repeated supply-route disruption drive large genuine month-to-month variation. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia",
+        "https://www.iom.int/news/iom-identifies-over-430000-internally-displaced-somalia"
+      ],
+      "sources_unavailable": [
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "p": {
+        "median": 0.23,
+        "low_90": 0.1104,
+        "high_90": 0.4094
+      },
+      "gamma": {
+        "median": 0.0065,
+        "low_90": 0.00247,
+        "high_90": 0.01657
+      },
+      "omega": {
+        "median": 0.00422,
+        "low_90": 0.00135,
+        "high_90": 0.00975
+      }
+    },
+    {
+      "district": "Adan Yabaal",
+      "reasoning": "Interior agropastoral and pastoral district of Middle Shabelle that remained under sustained Al-Shabaab control across 2017-2021, effectively closed to humanitarian partners, with no functioning CMAM pathway and heavily constrained markets; this gives the low p band and a persistent SAM profile. Conflict-suppressed livelihoods, poor market integration and recurrent rangeland and rainfall failure give high gamma. Recurrent drought and dry-spell cycles, volatile access to markets and assistance, and conflict-driven displacement drive substantial genuine month-to-month variation. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "p": {
+        "median": 0.17,
+        "low_90": 0.0816,
+        "high_90": 0.3026
+      },
+      "gamma": {
+        "median": 0.0068,
+        "low_90": 0.00258,
+        "high_90": 0.01734
+      },
+      "omega": {
+        "median": 0.00422,
+        "low_90": 0.00135,
+        "high_90": 0.0102
+      }
+    },
+    {
+      "district": "Cadale",
+      "reasoning": "Remote coastal Deeh and agropastoral district with very poor road access, a narrow food economy and sustained Al-Shabaab presence that kept humanitarian programmes chronically absent across the period, so SAM persists without a reliable recovery pathway and p sits in the low band. Weak market integration, conflict-suppressed livelihoods and recurrent rainfall failure give high gamma. Recurrent drought, coastal flood and cyclone exposure, and volatile access to markets and assistance drive substantial genuine month-to-month variation. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "p": {
+        "median": 0.17,
+        "low_90": 0.0816,
+        "high_90": 0.3026
+      },
+      "gamma": {
+        "median": 0.0065,
+        "low_90": 0.00247,
+        "high_90": 0.01657
+      },
+      "omega": {
+        "median": 0.0039,
+        "low_90": 0.00125,
+        "high_90": 0.00975
+      }
+    },
+    {
+      "district": "Banadir",
+      "reasoning": "The capital district combines the country's densest concentration of health facilities, stabilisation centres and OTP sites under continuous access with the largest protracted IDP population in Somalia, concentrated in peripheral settlements with poor water and sanitation; both the high treatment coverage and the high endemic AWD, measles and respiratory disease burden in those settlements shorten SAM episodes, giving the highest p in this elicitation. Structural gamma is high despite functional urban markets, because the displaced population is large, chronically impoverished and continually replenished by arrivals from the south. Recurrent drivers of month-to-month variation are displacement inflows following rural shocks, repeated forced evictions that reshuffle the population at risk, and food-price instability in a fully market-dependent economy. Effective information: the p interval reflects confidence roughly equivalent to 5 months of direct field observation in this district, the gamma interval roughly 4 months, and the omega interval roughly 3 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia",
+        "https://www.nutritioncluster.net/country/somalia"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.3,
+        "low_90": 0.186,
+        "high_90": 0.444
+      },
+      "gamma": {
+        "median": 0.007,
+        "low_90": 0.0035,
+        "high_90": 0.014
+      },
+      "omega": {
+        "median": 0.00385,
+        "low_90": 0.00173,
+        "high_90": 0.00847
+      }
+    },
+    {
+      "district": "Afgooye",
+      "reasoning": "The Afgooye corridor hosts one of the largest and most protracted displaced populations in Somalia alongside an irrigated riverine farming economy supplying Mogadishu; sustained nutrition partner presence along the corridor gives moderately reliable treatment exit and a p slightly above the anchor, reinforced by a high endemic diarrhoeal disease burden in dense settlements. Structural displacement, land insecurity, conflict-constrained agriculture and flood exposure give one of the highest gammas in the elicitation. Recurrent flooding, irrigation-dependent cropping seasonality, repeated evictions and highly volatile displacement flows between the corridor and Mogadishu drive large genuine month-to-month variation. Effective information: the p interval reflects confidence roughly equivalent to 4 months of direct field observation in this district, the gamma interval roughly 3 months, and the omega interval roughly 2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia",
+        "https://www.nutritioncluster.net/country/somalia"
+      ],
+      "sources_unavailable": [
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.1375,
+        "high_90": 0.405
+      },
+      "gamma": {
+        "median": 0.008,
+        "low_90": 0.00352,
+        "high_90": 0.018
+      },
+      "omega": {
+        "median": 0.00544,
+        "low_90": 0.00207,
+        "high_90": 0.012
+      }
+    },
+    {
+      "district": "Marka",
+      "reasoning": "Coastal urban centre with a riverine and agropastoral hinterland that was effectively besieged and largely Al-Shabaab-controlled outside the town across the period, with chronically constrained road access and only intermittent CMAM coverage, placing p below the anchor. Conflict-suppressed agriculture, blocked supply routes and displacement give high gamma. Recurrent flooding and cropping seasonality, repeated closure and reopening of the Mogadishu-Marka road, and conflict-driven displacement produce large genuine month-to-month variation. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "p": {
+        "median": 0.19,
+        "low_90": 0.0912,
+        "high_90": 0.3382
+      },
+      "gamma": {
+        "median": 0.0075,
+        "low_90": 0.00285,
+        "high_90": 0.018
+      },
+      "omega": {
+        "median": 0.00487,
+        "low_90": 0.00156,
+        "high_90": 0.01125
+      }
+    },
+    {
+      "district": "Qoryooley",
+      "reasoning": "Irrigated riverine district of Lower Shabelle with high agricultural potential that is chronically underused because rural areas remained under Al-Shabaab control while the town was government-held, fragmenting market access and leaving CMAM coverage partial and interrupted; p therefore sits below the anchor. Structural flood exposure, conflict-constrained farming and displacement give high gamma. Recurrent Shabelle flooding, irrigation cycles, front-line shifts that repeatedly cut market access, and displacement flows drive large genuine month-to-month variation. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "p": {
+        "median": 0.2,
+        "low_90": 0.096,
+        "high_90": 0.356
+      },
+      "gamma": {
+        "median": 0.0078,
+        "low_90": 0.00296,
+        "high_90": 0.018
+      },
+      "omega": {
+        "median": 0.0053,
+        "low_90": 0.0017,
+        "high_90": 0.0117
+      }
+    },
+    {
+      "district": "Wanla Weyn",
+      "reasoning": "Agropastoral and partly riverine district on the Mogadishu-Baidoa corridor where Al-Shabaab controlled most of the rural territory throughout the period, leaving humanitarian coverage confined to the town and frequently interrupted, so no dependable treatment pathway existed and p is low. Conflict-suppressed rain-fed cropping, illegal taxation of trade and poor market access give high gamma. Recurrent drought and dry-spell cycles, repeated supply-route disruption on the corridor, and conflict-driven displacement drive substantial genuine month-to-month variation. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "p": {
+        "median": 0.18,
+        "low_90": 0.0864,
+        "high_90": 0.3204
+      },
+      "gamma": {
+        "median": 0.0072,
+        "low_90": 0.00274,
+        "high_90": 0.018
+      },
+      "omega": {
+        "median": 0.00446,
+        "low_90": 0.00143,
+        "high_90": 0.0108
+      }
+    },
+    {
+      "district": "Kurtunwaarey",
+      "reasoning": "Interior agropastoral district of Lower Shabelle that remained under Al-Shabaab control across 2017-2021 and was effectively inaccessible to humanitarian partners, with no sustained CMAM pathway; SAM is therefore chronic-and-persistent and p sits in the low band. Conflict-suppressed agriculture, heavily taxed and fragmented markets, and poor dietary diversity give high gamma. Recurrent drought and flood cycles, volatile access to markets and assistance, and conflict displacement drive substantial genuine month-to-month variation. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "p": {
+        "median": 0.17,
+        "low_90": 0.0816,
+        "high_90": 0.3026
+      },
+      "gamma": {
+        "median": 0.0075,
+        "low_90": 0.00285,
+        "high_90": 0.018
+      },
+      "omega": {
+        "median": 0.00465,
+        "low_90": 0.00149,
+        "high_90": 0.01125
+      }
+    },
+    {
+      "district": "Sablaale",
+      "reasoning": "Small coastal-hinterland agropastoral district under sustained Al-Shabaab control across the period, chronically closed to humanitarian programmes and with essentially no CMAM presence, giving the low p band and a persistent SAM profile. Conflict-suppressed rain-fed farming, weak market integration and poor dietary diversity give high gamma. Recurrent drought and rainfall variability, volatile access to markets and assistance, and episodic conflict displacement drive substantial genuine month-to-month variation. Evidence is thin; intervals are widened accordingly. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "p": {
+        "median": 0.17,
+        "low_90": 0.0816,
+        "high_90": 0.3026
+      },
+      "gamma": {
+        "median": 0.0072,
+        "low_90": 0.00274,
+        "high_90": 0.018
+      },
+      "omega": {
+        "median": 0.00432,
+        "low_90": 0.00138,
+        "high_90": 0.0108
+      }
+    },
+    {
+      "district": "Baraawe",
+      "reasoning": "Coastal fishing and trading town with an agropastoral hinterland; fishing and coastal trade give some dietary and income diversification relative to interior Lower Shabelle, moderating gamma, but the surrounding countryside remained Al-Shabaab-controlled and the town's access was chronically constrained, so CMAM coverage was intermittent and p sits below the anchor. Recurrent drivers of variation are the monsoon fishing calendar, rainfall variability inland, repeated interruption of road access, and episodic displacement into and out of the town. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "p": {
+        "median": 0.19,
+        "low_90": 0.0912,
+        "high_90": 0.3382
+      },
+      "gamma": {
+        "median": 0.0065,
+        "low_90": 0.00247,
+        "high_90": 0.01657
+      },
+      "omega": {
+        "median": 0.00377,
+        "low_90": 0.00121,
+        "high_90": 0.00975
+      }
+    },
+    {
+      "district": "Xudur",
+      "reasoning": "District capital of the Bay-Bakool low-potential agropastoral zone, a structurally food-insecure sorghum and livestock economy with among the lowest and most variable yields in Somalia; the town was government-held but reachable mainly by air while the rural areas remained Al-Shabaab-controlled, so CMAM coverage was confined and irregular and p sits below the anchor. Chronic Phase 3-type food-access stress, low dietary diversity and blocked trade give high gamma. Recurrent drought, dry-spell-driven crop failure, market blockade and conflict displacement drive large genuine month-to-month variation. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "p": {
+        "median": 0.2,
+        "low_90": 0.096,
+        "high_90": 0.356
+      },
+      "gamma": {
+        "median": 0.008,
+        "low_90": 0.00304,
+        "high_90": 0.018
+      },
+      "omega": {
+        "median": 0.0052,
+        "low_90": 0.00166,
+        "high_90": 0.012
+      }
+    },
+    {
+      "district": "Waajid",
+      "reasoning": "Low-potential agropastoral district of Bakool with structurally marginal rain-fed sorghum production, high dependence on purchased cereals and chronically poor dietary diversity; sustained Al-Shabaab presence in the surrounding areas kept humanitarian access sporadic and CMAM coverage unreliable, giving a p below the anchor. Conflict-suppressed livelihoods and blocked trade routes give high gamma. Recurrent drought and dry-spell crop failure, illegal taxation and blockade of markets, and conflict displacement drive large genuine month-to-month variation. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "p": {
+        "median": 0.19,
+        "low_90": 0.0912,
+        "high_90": 0.3382
+      },
+      "gamma": {
+        "median": 0.008,
+        "low_90": 0.00304,
+        "high_90": 0.018
+      },
+      "omega": {
+        "median": 0.0052,
+        "low_90": 0.00166,
+        "high_90": 0.012
+      }
+    },
+    {
+      "district": "Ceel Barde",
+      "reasoning": "Agropastoral and pastoral district on the Ethiopian border with marginal rain-fed production and some cross-border trade buffering; Al-Shabaab presence in the surrounding countryside kept humanitarian access sporadic across the period and CMAM coverage unreliable, so p sits below the anchor. Structural food-access stress, poor dietary diversity and conflict-constrained livelihoods give high gamma. Recurrent drought, cross-border trade disruption, market blockade and conflict displacement drive large genuine month-to-month variation. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "p": {
+        "median": 0.19,
+        "low_90": 0.0912,
+        "high_90": 0.3382
+      },
+      "gamma": {
+        "median": 0.0078,
+        "low_90": 0.00296,
+        "high_90": 0.018
+      },
+      "omega": {
+        "median": 0.00507,
+        "low_90": 0.00162,
+        "high_90": 0.0117
+      }
+    },
+    {
+      "district": "Rab Dhuure",
+      "reasoning": "Remote low-potential agropastoral district of Bakool that remained under Al-Shabaab control and effectively inaccessible to humanitarian partners across 2017-2021, with no sustained CMAM pathway, giving the low p band and a persistent SAM profile. Marginal rain-fed sorghum production, high cereal-purchase dependence and heavily taxed markets give high gamma. Recurrent drought and crop failure, volatile access to markets and assistance, and conflict displacement drive substantial genuine month-to-month variation. Evidence is thin; intervals are widened. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "p": {
+        "median": 0.17,
+        "low_90": 0.0816,
+        "high_90": 0.3026
+      },
+      "gamma": {
+        "median": 0.008,
+        "low_90": 0.00304,
+        "high_90": 0.018
+      },
+      "omega": {
+        "median": 0.00496,
+        "low_90": 0.00159,
+        "high_90": 0.012
+      }
+    },
+    {
+      "district": "Tayeeglow",
+      "reasoning": "Interior Bakool agropastoral district under sustained Al-Shabaab control across the period, chronically closed to humanitarian programmes with no dependable CMAM pathway, giving the low p band. Marginal rain-fed production, poor market integration and low dietary diversity give high gamma. Recurrent drought and dry-spell crop failure, blockade and taxation of trade routes, and conflict-driven displacement drive substantial genuine month-to-month variation. Evidence is thin; intervals are widened accordingly. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "p": {
+        "median": 0.17,
+        "low_90": 0.0816,
+        "high_90": 0.3026
+      },
+      "gamma": {
+        "median": 0.0078,
+        "low_90": 0.00296,
+        "high_90": 0.018
+      },
+      "omega": {
+        "median": 0.00484,
+        "low_90": 0.00155,
+        "high_90": 0.0117
+      }
+    },
+    {
+      "district": "Baydhaba",
+      "reasoning": "The sorghum high-potential agropastoral zone's principal town, which is simultaneously the largest protracted displacement destination outside Mogadishu, hosting several hundred informal settlements around the periphery; the very dense concentration of nutrition partners and OTP sites in town gives reliable treatment-mediated exit and a p above the anchor, reinforced by a high endemic disease burden in crowded settlements. Structural gamma is the highest band in this elicitation: a chronically impoverished displaced population, conflict-suppressed rural production and Al-Shabaab control of the surrounding countryside. Recurrent drivers of variation are drought- and conflict-driven arrivals from surrounding Bay and Bakool districts, evictions, sorghum harvest seasonality and repeated supply-route blockade. Effective information: the p interval reflects confidence roughly equivalent to 5 months of direct field observation in this district, the gamma interval roughly 4 months, and the omega interval roughly 3 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia",
+        "https://somalia.un.org/en/node/91498"
+      ],
+      "sources_unavailable": [
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "p": {
+        "median": 0.26,
+        "low_90": 0.1612,
+        "high_90": 0.3848
+      },
+      "gamma": {
+        "median": 0.0085,
+        "low_90": 0.00425,
+        "high_90": 0.017
+      },
+      "omega": {
+        "median": 0.00553,
+        "low_90": 0.00249,
+        "high_90": 0.01216
+      }
+    },
+    {
+      "district": "Buur Hakaba",
+      "reasoning": "Sorghum agropastoral district on the Baidoa-Mogadishu corridor where the town was government-held but the surrounding countryside remained Al-Shabaab-controlled, leaving humanitarian access sporadic and CMAM coverage unreliable, so p sits below the anchor. Conflict-suppressed cropping, heavily taxed trade and displacement toward Baidoa and Mogadishu give high gamma. Recurrent drought and dry-spell crop failure, repeated blockade of the corridor, and volatile displacement flows drive large genuine month-to-month variation. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "p": {
+        "median": 0.19,
+        "low_90": 0.0912,
+        "high_90": 0.3382
+      },
+      "gamma": {
+        "median": 0.008,
+        "low_90": 0.00304,
+        "high_90": 0.018
+      },
+      "omega": {
+        "median": 0.0052,
+        "low_90": 0.00166,
+        "high_90": 0.012
+      }
+    },
+    {
+      "district": "Diinsoor",
+      "reasoning": "Bay agropastoral district that remained largely under Al-Shabaab control and effectively inaccessible for most of 2017-2021, with no sustained CMAM pathway, giving the low p band and a characteristically persistent SAM profile. Conflict-suppressed sorghum production, heavily taxed markets, poor dietary diversity and displacement toward Baidoa give high gamma. Recurrent drought and crop failure, volatile access to markets and assistance, and conflict displacement drive substantial genuine month-to-month variation. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "p": {
+        "median": 0.17,
+        "low_90": 0.0816,
+        "high_90": 0.3026
+      },
+      "gamma": {
+        "median": 0.0082,
+        "low_90": 0.00312,
+        "high_90": 0.018
+      },
+      "omega": {
+        "median": 0.00508,
+        "low_90": 0.00163,
+        "high_90": 0.0123
+      }
+    },
+    {
+      "district": "Qansax Dheere",
+      "reasoning": "Interior Bay agropastoral district under sustained Al-Shabaab control across the period and chronically closed to humanitarian partners, with no functioning CMAM pathway; this gives the low p band. Marginal and conflict-suppressed sorghum production, poor market integration and low dietary diversity give high gamma. Recurrent drought and dry-spell crop failure, blockade of trade routes and conflict-driven displacement toward Baidoa drive substantial genuine month-to-month variation. Evidence is thin; intervals are widened. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "p": {
+        "median": 0.17,
+        "low_90": 0.0816,
+        "high_90": 0.3026
+      },
+      "gamma": {
+        "median": 0.008,
+        "low_90": 0.00304,
+        "high_90": 0.018
+      },
+      "omega": {
+        "median": 0.00496,
+        "low_90": 0.00159,
+        "high_90": 0.012
+      }
+    },
+    {
+      "district": "Doolow",
+      "reasoning": "A small border district on the Juba that functions as a major humanitarian hub, hosting long-established displacement settlements and cross-border returnee flows from Ethiopia; humanitarian presence per capita is among the highest in Somalia, with continuous access and a dense nutrition and health service network, giving the upper p band. Structural gamma is high nonetheless, because the resident population is dominated by chronically impoverished displaced households with little productive asset base. Recurrent drivers of variation are Juba flooding, cross-border population movement responding to conditions in Ethiopia's Somali and Liban zones, and riverine cropping seasonality. Effective information: the p interval reflects confidence roughly equivalent to 4 months of direct field observation in this district, the gamma interval roughly 3 months, and the omega interval roughly 2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia",
+        "https://www.iom.int/news/iom-identifies-over-430000-internally-displaced-somalia"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.29,
+        "low_90": 0.1595,
+        "high_90": 0.4698
+      },
+      "gamma": {
+        "median": 0.0065,
+        "low_90": 0.00286,
+        "high_90": 0.01462
+      },
+      "omega": {
+        "median": 0.0039,
+        "low_90": 0.00148,
+        "high_90": 0.00975
+      }
+    },
+    {
+      "district": "Luuq",
+      "reasoning": "Juba riverine district with irrigated and recession cropping on a river bend, giving real agricultural potential but structurally embedded flood exposure; the town has been reasonably accessible with a moderate partner presence, supporting a p near or slightly above the anchor, though rural coverage is thinner. Flood-exposed livelihoods, high market dependence and displacement hosting give high gamma. Recurrent Juba flooding, irrigation and recession cropping cycles, and displacement flows along the Gedo corridor drive large genuine month-to-month variation. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.12,
+        "high_90": 0.445
+      },
+      "gamma": {
+        "median": 0.0068,
+        "low_90": 0.00258,
+        "high_90": 0.01734
+      },
+      "omega": {
+        "median": 0.00442,
+        "low_90": 0.00141,
+        "high_90": 0.0102
+      }
+    },
+    {
+      "district": "Belet Xaawo",
+      "reasoning": "Border district adjoining Mandera whose economy is built on cross-border trade and services, giving better market integration and food access than interior Gedo; access has been comparatively reliable with a moderate health and nutrition presence, supporting a p near the anchor. Gamma is elevated but below the riverine and agropastoral districts because of trade-based food access. Recurrent variation is driven by cross-border trade and closure cycles, rainfall variability in the pastoral hinterland, and displacement flows across the border. No district-level retrieval was achieved. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.12,
+        "high_90": 0.445
+      },
+      "gamma": {
+        "median": 0.006,
+        "low_90": 0.00228,
+        "high_90": 0.0153
+      },
+      "omega": {
+        "median": 0.00348,
+        "low_90": 0.00111,
+        "high_90": 0.009
+      }
+    },
+    {
+      "district": "Garbahaarey",
+      "reasoning": "Gedo's regional capital, combining a small urban centre with an agropastoral and pastoral hinterland; access has been moderate but repeatedly constrained by insecurity on the roads to Luuq and Baardheere, leaving CMAM coverage partial and giving a p slightly below the anchor. Structural food-access stress, high cereal-purchase dependence and hosting of displaced households give elevated gamma. Recurrent drought and rainfall variability, repeated supply-route disruption, and conflict-driven displacement drive genuine month-to-month variation. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "p": {
+        "median": 0.22,
+        "low_90": 0.1056,
+        "high_90": 0.3916
+      },
+      "gamma": {
+        "median": 0.0065,
+        "low_90": 0.00247,
+        "high_90": 0.01657
+      },
+      "omega": {
+        "median": 0.0039,
+        "low_90": 0.00125,
+        "high_90": 0.00975
+      }
+    },
+    {
+      "district": "Ceel Waaq",
+      "reasoning": "Pastoral and agropastoral border district with an Al-Shabaab presence in the surrounding countryside that has kept humanitarian access sporadic across the period, leaving CMAM coverage unreliable and placing p below the anchor. Livestock and market dependence, poor dietary diversity and conflict-suppressed livelihoods give high gamma. Recurrent drought and rangeland failure, cross-border movement, and conflict-driven interruptions to markets and assistance drive substantial genuine month-to-month variation. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "p": {
+        "median": 0.19,
+        "low_90": 0.0912,
+        "high_90": 0.3382
+      },
+      "gamma": {
+        "median": 0.0068,
+        "low_90": 0.00258,
+        "high_90": 0.01734
+      },
+      "omega": {
+        "median": 0.00408,
+        "low_90": 0.00131,
+        "high_90": 0.0102
+      }
+    },
+    {
+      "district": "Baardheere",
+      "reasoning": "Juba riverine and agropastoral district that remained largely under Al-Shabaab control for most of 2017-2021, with chronic access denial, no sustained CMAM pathway and heavily taxed markets, giving the low p band and a persistent SAM profile. Structural flood exposure on the Juba, conflict-suppressed cropping and poor market integration give high gamma. Recurrent Juba flooding and drought cycles, blockade and taxation of trade routes, and conflict-driven displacement drive large genuine month-to-month variation. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "p": {
+        "median": 0.17,
+        "low_90": 0.0816,
+        "high_90": 0.3026
+      },
+      "gamma": {
+        "median": 0.008,
+        "low_90": 0.00304,
+        "high_90": 0.018
+      },
+      "omega": {
+        "median": 0.0052,
+        "low_90": 0.00166,
+        "high_90": 0.012
+      }
+    },
+    {
+      "district": "Jilib",
+      "reasoning": "The de facto administrative centre of Al-Shabaab-controlled territory, closed to humanitarian partners throughout 2017-2021, with no sustained CMAM presence and no alternative recovery pathway, giving the lowest p band in this elicitation and a characteristically chronic-and-persistent SAM profile. The irrigated Juba riverine economy has real productive potential but is heavily taxed, flood-exposed and cut off from wider markets, giving the highest gamma band. Recurrent Juba flooding, irrigation and recession cropping seasonality, conflict volatility and abrupt interruptions to food access drive large genuine month-to-month variation. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia",
+        "https://en.wikipedia.org/wiki/Jilib",
+        "https://www.euaa.europa.eu/somalia-security-situation/212-middle-juba"
+      ],
+      "sources_unavailable": [
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "p": {
+        "median": 0.16,
+        "low_90": 0.0768,
+        "high_90": 0.2848
+      },
+      "gamma": {
+        "median": 0.0085,
+        "low_90": 0.00323,
+        "high_90": 0.018
+      },
+      "omega": {
+        "median": 0.00553,
+        "low_90": 0.00177,
+        "high_90": 0.01275
+      }
+    },
+    {
+      "district": "Bu'aale",
+      "reasoning": "Regional capital of Middle Juba, under continuous Al-Shabaab control and effectively inaccessible to humanitarian partners across the period, with no functioning CMAM pathway, giving the lowest p band. The riverine and agropastoral economy is productive in principle but heavily taxed, flood-exposed and severed from external markets, giving very high gamma. Recurrent Juba flooding, cropping seasonality, conflict volatility and repeated disruption of food access and physical movement drive large genuine month-to-month variation. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia",
+        "https://www.euaa.europa.eu/somalia-security-situation/212-middle-juba"
+      ],
+      "sources_unavailable": [
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "p": {
+        "median": 0.16,
+        "low_90": 0.0768,
+        "high_90": 0.2848
+      },
+      "gamma": {
+        "median": 0.0082,
+        "low_90": 0.00312,
+        "high_90": 0.018
+      },
+      "omega": {
+        "median": 0.00508,
+        "low_90": 0.00163,
+        "high_90": 0.0123
+      }
+    },
+    {
+      "district": "Saakow",
+      "reasoning": "The largest district of Middle Juba by area, with a maize- and cattle-based agropastoral economy along the Juba, under continuous Al-Shabaab control and closed to humanitarian partners across the period; the absence of any treatment pathway gives the lowest p band and a persistent SAM profile. Heavily taxed and severed markets, conflict-suppressed production and flood exposure give very high gamma. Recurrent flooding and drought cycles, conflict volatility and abrupt interruptions to food access drive large genuine month-to-month variation. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia",
+        "https://en.wikipedia.org/wiki/Sakow_District",
+        "https://www.euaa.europa.eu/somalia-security-situation/212-middle-juba"
+      ],
+      "sources_unavailable": [
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "p": {
+        "median": 0.16,
+        "low_90": 0.0768,
+        "high_90": 0.2848
+      },
+      "gamma": {
+        "median": 0.008,
+        "low_90": 0.00304,
+        "high_90": 0.018
+      },
+      "omega": {
+        "median": 0.00496,
+        "low_90": 0.00159,
+        "high_90": 0.012
+      }
+    },
+    {
+      "district": "Kismaayo",
+      "reasoning": "Jubaland's port capital, with a wage-labour, port and trade economy, functional markets and the densest health and nutrition service network in the far south under continuous access, giving a p above the anchor; the very large number of displacement sites around the town also carries a high endemic diarrhoeal disease burden. Structural gamma is elevated by the size and chronic poverty of the hosted displaced population, though moderated by urban market access. Recurrent drivers of variation are displacement inflows from the Juba and Gedo hinterlands, evictions and site consolidation, and food-price instability in a fully market-dependent economy. Effective information: the p interval reflects confidence roughly equivalent to 4 months of direct field observation in this district, the gamma interval roughly 3 months, and the omega interval roughly 2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia",
+        "https://www.iom.int/news/iom-identifies-over-430000-internally-displaced-somalia"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.27,
+        "low_90": 0.1485,
+        "high_90": 0.4374
+      },
+      "gamma": {
+        "median": 0.006,
+        "low_90": 0.00264,
+        "high_90": 0.0135
+      },
+      "omega": {
+        "median": 0.0033,
+        "low_90": 0.00125,
+        "high_90": 0.00825
+      }
+    },
+    {
+      "district": "Afmadow",
+      "reasoning": "Juba pastoral zone dominated by cattle and goats, with a market-dependent food economy, weak dietary diversity, and a town that hosts displaced households while the surrounding countryside remained Al-Shabaab-controlled; access has been sporadic and CMAM coverage unreliable, placing p below the anchor. Conflict-suppressed livestock movement and blocked trade routes give high gamma. Recurrent drought and rangeland failure, repeated supply-route disruption between Kismayo and Afmadow, and volatile displacement flows drive substantial genuine month-to-month variation. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia",
+        "https://www.iom.int/news/iom-identifies-over-430000-internally-displaced-somalia"
+      ],
+      "sources_unavailable": [
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "p": {
+        "median": 0.19,
+        "low_90": 0.0912,
+        "high_90": 0.3382
+      },
+      "gamma": {
+        "median": 0.007,
+        "low_90": 0.00266,
+        "high_90": 0.01785
+      },
+      "omega": {
+        "median": 0.00434,
+        "low_90": 0.00139,
+        "high_90": 0.0105
+      }
+    },
+    {
+      "district": "Jamaame",
+      "reasoning": "Irrigated Juba riverine district under sustained Al-Shabaab control across the period, chronically inaccessible with no functioning CMAM pathway, giving the low p band and a persistent SAM profile. High agricultural potential is offset by heavy taxation, severed markets and structurally embedded flood exposure on the lower Juba, giving very high gamma. Recurrent and severe river flooding, irrigation and recession cropping seasonality, conflict volatility and abrupt interruptions to food access drive among the largest genuine month-to-month variation in the country. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "p": {
+        "median": 0.17,
+        "low_90": 0.0816,
+        "high_90": 0.3026
+      },
+      "gamma": {
+        "median": 0.0082,
+        "low_90": 0.00312,
+        "high_90": 0.018
+      },
+      "omega": {
+        "median": 0.00558,
+        "low_90": 0.00178,
+        "high_90": 0.0123
+      }
+    },
+    {
+      "district": "Badhaadhe",
+      "reasoning": "Remote coastal and agropastoral district in the far south, under sustained Al-Shabaab control and effectively closed to humanitarian partners across the period, with negligible fixed health infrastructure and no dependable CMAM pathway, giving the lowest p band. Weak market integration, conflict-suppressed livelihoods and poor dietary diversity give high gamma, partly offset by coastal fishing. Recurrent drought and rainfall variability, monsoon and cyclone exposure, and conflict-driven displacement drive substantial genuine month-to-month variation. Evidence is thin; intervals are widened. Effective information: the p interval reflects confidence roughly equivalent to 3 months of direct field observation in this district, the gamma interval roughly 2 months, and the omega interval roughly 1-2 months.",
+      "sources_retrieved": [
+        "https://fews.net/east-africa/somalia/food-security-outlook/june-2021",
+        "https://fews.net/east-africa/somalia",
+        "https://reliefweb.int/report/somalia/bottleneck-analysis-integrated-management-acute-malnutrition-services-somalia"
+      ],
+      "sources_unavailable": [
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "p": {
+        "median": 0.16,
+        "low_90": 0.0768,
+        "high_90": 0.2848
+      },
+      "gamma": {
+        "median": 0.0072,
+        "low_90": 0.00274,
+        "high_90": 0.018
+      },
+      "omega": {
+        "median": 0.00432,
+        "low_90": 0.00138,
+        "high_90": 0.0108
+      }
+    }
+  ]
+}

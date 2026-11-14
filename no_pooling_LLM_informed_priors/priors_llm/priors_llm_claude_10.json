@@ -1,0 +1,1188 @@
+{
+  "districts": [
+    {
+      "district": "Adan Yabaal",
+      "reasoning": "Agropastoral cowpea/sorghum district in Middle Shabelle's hinterland, long an insurgent stronghold whose town changed hands in 2019. Livelihood context: Central Cowpea Belt agropastoral zone with low-yield rainfed cowpea/sorghum. Access is sporadic (besieged town or insurgent-held hinterland, road blockades), so treatment coverage and case turnover are limited. Month-to-month variability in new cases is driven by a strongly bimodal gu/deyr harvest cycle with frequent crop failure and repeated blockades that interrupt markets and assistance.",
+      "p": {
+        "a": 19.93,
+        "b": 82.28
+      },
+      "gamma": {
+        "a": 11.07,
+        "b": 3037.73
+      },
+      "omega": {
+        "a": 6.24,
+        "b": 3235.12
+      }
+    },
+    {
+      "district": "Afgooye",
+      "reasoning": "Lower Shabelle riverine farming district on the Afgooye corridor, structurally hosting very large IDP settlements near Mogadishu. Livelihood context: Shabelle/Juba riverine irrigated farming where poor households depend on agricultural labour. Programme presence is concentrated in the district town with partial rural outreach, implying intermediate case turnover; endemic AWD/cholera and measles exposure adds fatality-driven exits. Month-to-month variability in new cases is driven by a bimodal cropping and labour calendar plus AWD/cholera peaks, recurrent river flooding and large, repeated IDP inflows and evictions.",
+      "p": {
+        "a": 33.2,
+        "b": 100.93
+      },
+      "gamma": {
+        "a": 20.56,
+        "b": 4415.42
+      },
+      "omega": {
+        "a": 11.07,
+        "b": 3502.14
+      }
+    },
+    {
+      "district": "Afmadow",
+      "reasoning": "Lower Juba southern inland pastoral district with a government-held town and largely insurgent-influenced rangelands. Livelihood context: Southern Inland/Juba Pastoral zone with mobile cattle/camel herding. Access is sporadic (besieged town or insurgent-held hinterland, road blockades), so treatment coverage and case turnover are limited. Month-to-month variability in new cases is driven by drought-sensitive pastoral milk availability and seasonal herd migration and repeated blockades that interrupt markets and assistance.",
+      "p": {
+        "a": 20.28,
+        "b": 91.46
+      },
+      "gamma": {
+        "a": 11.07,
+        "b": 3133.39
+      },
+      "omega": {
+        "a": 6.24,
+        "b": 3537.65
+      }
+    },
+    {
+      "district": "Baardheere",
+      "reasoning": "Gedo Juba-riverine and agropastoral district whose town has been chronically encircled, with IDPs from surrounding areas. Livelihood context: Shabelle/Juba riverine irrigated farming where poor households depend on agricultural labour. Access is sporadic (besieged town or insurgent-held hinterland, road blockades), so treatment coverage and case turnover are limited; endemic AWD/cholera and measles exposure adds fatality-driven exits. Month-to-month variability in new cases is driven by a bimodal cropping and labour calendar plus AWD/cholera peaks, recurrent river flooding, intermittent displacement inflows and repeated blockades that interrupt markets and assistance.",
+      "p": {
+        "a": 19.27,
+        "b": 68.11
+      },
+      "gamma": {
+        "a": 11.06,
+        "b": 2527.59
+      },
+      "omega": {
+        "a": 6.23,
+        "b": 2096.53
+      }
+    },
+    {
+      "district": "Badhaadhe",
+      "reasoning": "Remote Lower Juba coastal/pastoral district with sparse infrastructure and insurgent presence in the hinterland. Livelihood context: Southern Inland/Juba Pastoral zone with mobile cattle/camel herding. Access is sporadic (besieged town or insurgent-held hinterland, road blockades), so treatment coverage and case turnover are limited. Month-to-month variability in new cases is driven by drought-sensitive pastoral milk availability and seasonal herd migration and repeated blockades that interrupt markets and assistance.",
+      "p": {
+        "a": 20.28,
+        "b": 91.46
+      },
+      "gamma": {
+        "a": 11.07,
+        "b": 3133.39
+      },
+      "omega": {
+        "a": 6.24,
+        "b": 3537.65
+      }
+    },
+    {
+      "district": "Baki",
+      "reasoning": "Awdal agropastoral district with rainfed cereals and livestock in a stable, accessible area. Livelihood context: Northwest Agropastoral zone with rainfed sorghum/maize, livestock and relatively diversified income. Long-standing, consistently accessible health and CMAM delivery supports comparatively fast case turnover. Month-to-month variability in new cases is driven by a gu/karan cropping cycle with a moderate pre-harvest lean period.",
+      "p": {
+        "a": 32.17,
+        "b": 86.99
+      },
+      "gamma": {
+        "a": 20.62,
+        "b": 11436.14
+      },
+      "omega": {
+        "a": 11.1,
+        "b": 17613.47
+      }
+    },
+    {
+      "district": "Balcad",
+      "reasoning": "Middle Shabelle gravity-irrigated riverine district close to Mogadishu, with poor households reliant on farm labour and recurrent river flooding. Livelihood context: Shabelle/Juba riverine irrigated farming where poor households depend on agricultural labour. Programme presence is concentrated in the district town with partial rural outreach, implying intermediate case turnover; endemic AWD/cholera and measles exposure adds fatality-driven exits. Month-to-month variability in new cases is driven by a bimodal cropping and labour calendar plus AWD/cholera peaks, recurrent river flooding and intermittent displacement inflows.",
+      "p": {
+        "a": 33.2,
+        "b": 100.93
+      },
+      "gamma": {
+        "a": 20.57,
+        "b": 5023.26
+      },
+      "omega": {
+        "a": 11.08,
+        "b": 4300.8
+      }
+    },
+    {
+      "district": "Banadir",
+      "reasoning": "Mogadishu's urban economy with good market access but the country's largest concentration of IDPs in crowded informal sites. Livelihood context: urban economy dependent on imported staples and casual labour. Long-standing, consistently accessible health and CMAM delivery supports comparatively fast case turnover; endemic AWD/cholera and measles exposure adds fatality-driven exits. Month-to-month variability in new cases is driven by staple-price swings transmitted from rural lean seasons and large, repeated IDP inflows and evictions.",
+      "p": {
+        "a": 31.36,
+        "b": 77.52
+      },
+      "gamma": {
+        "a": 20.59,
+        "b": 6315.03
+      },
+      "omega": {
+        "a": 11.09,
+        "b": 7574.14
+      }
+    },
+    {
+      "district": "Bandarbeyla",
+      "reasoning": "Bari coastal pastoral/fishing district with remote road links and high dependence on purchased cereals. Livelihood context: Coastal Deeh pastoral/fishing zone with sparse rainfall and thin market links. Programme presence is concentrated in the district town with partial rural outreach, implying intermediate case turnover, tempered by mobile nomadic populations distant from treatment sites. Month-to-month variability in new cases is driven by erratic rainfall and seasonal fishing that create sharp lean periods.",
+      "p": {
+        "a": 35.24,
+        "b": 138.79
+      },
+      "gamma": {
+        "a": 20.59,
+        "b": 6644.2
+      },
+      "omega": {
+        "a": 11.1,
+        "b": 8339.19
+      }
+    },
+    {
+      "district": "Baraawe",
+      "reasoning": "Lower Shabelle coastal town with riverine/agropastoral hinterland, effectively besieged with supply mainly by sea or air. Livelihood context: Shabelle/Juba riverine irrigated farming where poor households depend on agricultural labour. Access is sporadic (besieged town or insurgent-held hinterland, road blockades), so treatment coverage and case turnover are limited; endemic AWD/cholera and measles exposure adds fatality-driven exits. Month-to-month variability in new cases is driven by a bimodal cropping and labour calendar plus AWD/cholera peaks, recurrent river flooding and repeated blockades that interrupt markets and assistance.",
+      "p": {
+        "a": 19.27,
+        "b": 68.11
+      },
+      "gamma": {
+        "a": 11.06,
+        "b": 2782.66
+      },
+      "omega": {
+        "a": 6.23,
+        "b": 2491.73
+      }
+    },
+    {
+      "district": "Baydhaba",
+      "reasoning": "Bay sorghum high-potential agropastoral district whose town is a major humanitarian hub hosting one of the largest IDP populations in Somalia. Livelihood context: Sorghum High Potential agropastoral zone with strong dependence on gu/deyr rainfed harvests. Long-standing, consistently accessible health and CMAM delivery supports comparatively fast case turnover; endemic AWD/cholera and measles exposure adds fatality-driven exits. Month-to-month variability in new cases is driven by a strongly bimodal gu/deyr harvest cycle and sharp pre-harvest lean seasons and large, repeated IDP inflows and evictions.",
+      "p": {
+        "a": 31.36,
+        "b": 77.52
+      },
+      "gamma": {
+        "a": 20.57,
+        "b": 4819.22
+      },
+      "omega": {
+        "a": 11.08,
+        "b": 4730.22
+      }
+    },
+    {
+      "district": "Belet Weyne",
+      "reasoning": "Hiraan Shabelle riverine and agropastoral district with recurrent severe river floods and a large structurally hosted IDP population. Livelihood context: Shabelle/Juba riverine irrigated farming where poor households depend on agricultural labour. Programme presence is concentrated in the district town with partial rural outreach, implying intermediate case turnover; endemic AWD/cholera and measles exposure adds fatality-driven exits. Month-to-month variability in new cases is driven by a bimodal cropping and labour calendar plus AWD/cholera peaks, recurrent river flooding and large, repeated IDP inflows and evictions.",
+      "p": {
+        "a": 33.2,
+        "b": 100.93
+      },
+      "gamma": {
+        "a": 20.56,
+        "b": 4415.42
+      },
+      "omega": {
+        "a": 11.07,
+        "b": 3502.14
+      }
+    },
+    {
+      "district": "Belet Xaawo",
+      "reasoning": "Gedo southern agropastoral border district with Kenya trade links and a moderate displaced population. Livelihood context: Southern Agropastoral zone (goats, camels, sorghum) with frequent rainfed crop failure. Programme presence is concentrated in the district town with partial rural outreach, implying intermediate case turnover. Month-to-month variability in new cases is driven by a bimodal harvest cycle with frequent rainfed crop failure and intermittent displacement inflows.",
+      "p": {
+        "a": 34.22,
+        "b": 117.87
+      },
+      "gamma": {
+        "a": 20.57,
+        "b": 4886.36
+      },
+      "omega": {
+        "a": 11.08,
+        "b": 4977.73
+      }
+    },
+    {
+      "district": "Berbera",
+      "reasoning": "Somaliland port town with diversified urban/port employment set in the arid Guban coastal zone. Livelihood context: urban/peri-urban economy with functioning markets and remittance inflows. Long-standing, consistently accessible health and CMAM delivery supports comparatively fast case turnover. Month-to-month variability in new cases is driven by relatively smooth month-to-month food access.",
+      "p": {
+        "a": 32.17,
+        "b": 86.99
+      },
+      "gamma": {
+        "a": 20.62,
+        "b": 10288.3
+      },
+      "omega": {
+        "a": 11.1,
+        "b": 18495.3
+      }
+    },
+    {
+      "district": "Borama",
+      "reasoning": "Awdal highland agropastoral district with a regional market town and stable access. Livelihood context: Northwest Agropastoral zone with rainfed sorghum/maize, livestock and relatively diversified income. Long-standing, consistently accessible health and CMAM delivery supports comparatively fast case turnover. Month-to-month variability in new cases is driven by a gu/karan cropping cycle with a moderate pre-harvest lean period.",
+      "p": {
+        "a": 32.17,
+        "b": 86.99
+      },
+      "gamma": {
+        "a": 20.62,
+        "b": 11436.14
+      },
+      "omega": {
+        "a": 11.1,
+        "b": 17613.47
+      }
+    },
+    {
+      "district": "Bossaso",
+      "reasoning": "Puntland's main port economy with diversified trade employment but large, structurally hosted IDP settlements. Livelihood context: urban/peri-urban economy with functioning markets and remittance inflows. Long-standing, consistently accessible health and CMAM delivery supports comparatively fast case turnover; endemic AWD/cholera and measles exposure adds fatality-driven exits. Month-to-month variability in new cases is driven by relatively smooth month-to-month food access and large, repeated IDP inflows and evictions.",
+      "p": {
+        "a": 31.36,
+        "b": 77.52
+      },
+      "gamma": {
+        "a": 20.61,
+        "b": 8222.19
+      },
+      "omega": {
+        "a": 11.1,
+        "b": 11087.9
+      }
+    },
+    {
+      "district": "Bu'aale",
+      "reasoning": "Middle Juba riverine farming district under long-term insurgent control with few humanitarian services. Livelihood context: Shabelle/Juba riverine irrigated farming where poor households depend on agricultural labour. The district has been chronically under non-state armed group control with very limited CMAM provision, so cases are expected to persist; endemic AWD/cholera and measles exposure adds fatality-driven exits. Month-to-month variability in new cases is driven by a bimodal cropping and labour calendar plus AWD/cholera peaks, recurrent river flooding and conflict-related market and trade disruption.",
+      "p": {
+        "a": 19.97,
+        "b": 83.23
+      },
+      "gamma": {
+        "a": 11.06,
+        "b": 2592.44
+      },
+      "omega": {
+        "a": 6.23,
+        "b": 2250.03
+      }
+    },
+    {
+      "district": "Bulo Burto",
+      "reasoning": "Hiraan riverine/agropastoral district whose town has been repeatedly blockaded, cutting road trade. Livelihood context: Shabelle/Juba riverine irrigated farming where poor households depend on agricultural labour. Access is sporadic (besieged town or insurgent-held hinterland, road blockades), so treatment coverage and case turnover are limited; endemic AWD/cholera and measles exposure adds fatality-driven exits. Month-to-month variability in new cases is driven by a bimodal cropping and labour calendar plus AWD/cholera peaks, recurrent river flooding, intermittent displacement inflows and repeated blockades that interrupt markets and assistance.",
+      "p": {
+        "a": 19.27,
+        "b": 68.11
+      },
+      "gamma": {
+        "a": 11.06,
+        "b": 2527.59
+      },
+      "omega": {
+        "a": 6.23,
+        "b": 2096.53
+      }
+    },
+    {
+      "district": "Burco",
+      "reasoning": "Togdheer district centred on Somalia's largest livestock market, combining urban trade with Hawd and Togdheer agropastoral hinterland. Livelihood context: urban/peri-urban economy with functioning markets and remittance inflows. Long-standing, consistently accessible health and CMAM delivery supports comparatively fast case turnover. Month-to-month variability in new cases is driven by relatively smooth month-to-month food access and intermittent displacement inflows.",
+      "p": {
+        "a": 32.17,
+        "b": 86.99
+      },
+      "gamma": {
+        "a": 20.61,
+        "b": 9349.16
+      },
+      "omega": {
+        "a": 11.1,
+        "b": 14406.8
+      }
+    },
+    {
+      "district": "Burtinle",
+      "reasoning": "Nugaal Hawd pastoral district with market-dependent camel/shoat herders in an accessible area. Livelihood context: Hawd Pastoral zone (camel/shoat), highly market-dependent for cereals and reliant on berkad water. Long-standing, consistently accessible health and CMAM delivery supports comparatively fast case turnover, tempered by mobile nomadic populations distant from treatment sites. Month-to-month variability in new cases is driven by a pronounced jilaal lean period and drought-driven swings in milk and livestock prices.",
+      "p": {
+        "a": 33.81,
+        "b": 110.68
+      },
+      "gamma": {
+        "a": 20.61,
+        "b": 8222.19
+      },
+      "omega": {
+        "a": 11.1,
+        "b": 11087.9
+      }
+    },
+    {
+      "district": "Buuhoodle",
+      "reasoning": "Togdheer Hawd pastoral border district within the contested Somaliland-Puntland/Khatumo area. Livelihood context: Hawd Pastoral zone (camel/shoat), highly market-dependent for cereals and reliant on berkad water. Programme presence is concentrated in the district town with partial rural outreach, implying intermediate case turnover, tempered by mobile nomadic populations distant from treatment sites. Month-to-month variability in new cases is driven by a pronounced jilaal lean period and drought-driven swings in milk and livestock prices and periodic border/clan clashes.",
+      "p": {
+        "a": 35.24,
+        "b": 138.79
+      },
+      "gamma": {
+        "a": 20.61,
+        "b": 7981.48
+      },
+      "omega": {
+        "a": 11.1,
+        "b": 8966.36
+      }
+    },
+    {
+      "district": "Buur Hakaba",
+      "reasoning": "Bay sorghum high-potential agropastoral district whose town has been isolated by insurgent road blockades. Livelihood context: Sorghum High Potential agropastoral zone with strong dependence on gu/deyr rainfed harvests. Access is sporadic (besieged town or insurgent-held hinterland, road blockades), so treatment coverage and case turnover are limited. Month-to-month variability in new cases is driven by a strongly bimodal gu/deyr harvest cycle and sharp pre-harvest lean seasons, intermittent displacement inflows and repeated blockades that interrupt markets and assistance.",
+      "p": {
+        "a": 19.93,
+        "b": 82.28
+      },
+      "gamma": {
+        "a": 11.06,
+        "b": 2677.63
+      },
+      "omega": {
+        "a": 6.23,
+        "b": 2605.83
+      }
+    },
+    {
+      "district": "Cabudwaaq",
+      "reasoning": "Galgaduud Hawd pastoral border district with water-scarce rangelands and moderate IDP hosting. Livelihood context: Hawd Pastoral zone (camel/shoat), highly market-dependent for cereals and reliant on berkad water. Programme presence is concentrated in the district town with partial rural outreach, implying intermediate case turnover, tempered by mobile nomadic populations distant from treatment sites. Month-to-month variability in new cases is driven by a pronounced jilaal lean period and drought-driven swings in milk and livestock prices and intermittent displacement inflows.",
+      "p": {
+        "a": 35.24,
+        "b": 138.79
+      },
+      "gamma": {
+        "a": 20.6,
+        "b": 7252.06
+      },
+      "omega": {
+        "a": 11.09,
+        "b": 8149.13
+      }
+    },
+    {
+      "district": "Cadaado",
+      "reasoning": "Galgaduud Addun/Hawd pastoral district serving as Galmudug's administrative centre, with moderate IDP hosting. Livelihood context: Addun Pastoral zone with limited water points and high cereal-purchase dependence. Programme presence is concentrated in the district town with partial rural outreach, implying intermediate case turnover, tempered by mobile nomadic populations distant from treatment sites. Month-to-month variability in new cases is driven by recurrent drought and water-trucking cost spikes in jilaal and intermittent displacement inflows.",
+      "p": {
+        "a": 35.24,
+        "b": 138.79
+      },
+      "gamma": {
+        "a": 20.59,
+        "b": 6245.95
+      },
+      "omega": {
+        "a": 11.09,
+        "b": 6740.11
+      }
+    },
+    {
+      "district": "Cadale",
+      "reasoning": "Middle Shabelle coastal deeh pastoral/fishing district with limited road access. Livelihood context: Coastal Deeh pastoral/fishing zone with sparse rainfall and thin market links. Programme presence is concentrated in the district town with partial rural outreach, implying intermediate case turnover, tempered by mobile nomadic populations distant from treatment sites. Month-to-month variability in new cases is driven by erratic rainfall and seasonal fishing that create sharp lean periods.",
+      "p": {
+        "a": 35.24,
+        "b": 138.79
+      },
+      "gamma": {
+        "a": 20.59,
+        "b": 6644.2
+      },
+      "omega": {
+        "a": 11.1,
+        "b": 8339.19
+      }
+    },
+    {
+      "district": "Caluula",
+      "reasoning": "Remote Bari East Golis fishing and frankincense district at the tip of the Horn. Livelihood context: East Golis frankincense, goats and fishing zone with remote mountainous terrain. Programme presence is concentrated in the district town with partial rural outreach, implying intermediate case turnover. Month-to-month variability in new cases is driven by seasonal frankincense/fishing income and isolation during monsoon months.",
+      "p": {
+        "a": 34.22,
+        "b": 117.87
+      },
+      "gamma": {
+        "a": 20.6,
+        "b": 7672.88
+      },
+      "omega": {
+        "a": 11.1,
+        "b": 10096.38
+      }
+    },
+    {
+      "district": "Caynabo",
+      "reasoning": "Sool Hawd/Northern Inland pastoral district along the contested Somaliland-Puntland frontier. Livelihood context: Hawd Pastoral zone (camel/shoat), highly market-dependent for cereals and reliant on berkad water. Programme presence is concentrated in the district town with partial rural outreach, implying intermediate case turnover, tempered by mobile nomadic populations distant from treatment sites. Month-to-month variability in new cases is driven by a pronounced jilaal lean period and drought-driven swings in milk and livestock prices and periodic border/clan clashes.",
+      "p": {
+        "a": 35.24,
+        "b": 138.79
+      },
+      "gamma": {
+        "a": 20.61,
+        "b": 7981.48
+      },
+      "omega": {
+        "a": 11.1,
+        "b": 8966.36
+      }
+    },
+    {
+      "district": "Ceel Afweyn",
+      "reasoning": "Sanaag Northern Inland pastoral district with dispersed nomadic settlement and thin services. Livelihood context: Northern Inland Pastoral zone (sheep/goats/camels) with low rainfall and purchased-cereal diets. Programme presence is concentrated in the district town with partial rural outreach, implying intermediate case turnover, tempered by mobile nomadic populations distant from treatment sites. Month-to-month variability in new cases is driven by a pronounced jilaal lean period and recurrent drought shocks to milk and livestock income.",
+      "p": {
+        "a": 35.24,
+        "b": 138.79
+      },
+      "gamma": {
+        "a": 20.6,
+        "b": 7387.14
+      },
+      "omega": {
+        "a": 11.1,
+        "b": 9268.34
+      }
+    },
+    {
+      "district": "Ceel Barde",
+      "reasoning": "Bakool southern agropastoral/pastoral border district with insecure supply routes after foreign troop withdrawals. Livelihood context: Southern Agropastoral zone (goats, camels, sorghum) with frequent rainfed crop failure. Access is sporadic (besieged town or insurgent-held hinterland, road blockades), so treatment coverage and case turnover are limited. Month-to-month variability in new cases is driven by a bimodal harvest cycle with frequent rainfed crop failure and repeated blockades that interrupt markets and assistance.",
+      "p": {
+        "a": 20.28,
+        "b": 91.46
+      },
+      "gamma": {
+        "a": 11.06,
+        "b": 2706.83
+      },
+      "omega": {
+        "a": 6.23,
+        "b": 2883.92
+      }
+    },
+    {
+      "district": "Ceel Buur",
+      "reasoning": "Galgaduud Cowpea Belt agropastoral district under prolonged insurgent control. Livelihood context: Central Cowpea Belt agropastoral zone with low-yield rainfed cowpea/sorghum. The district has been chronically under non-state armed group control with very limited CMAM provision, so cases are expected to persist. Month-to-month variability in new cases is driven by a strongly bimodal gu/deyr harvest cycle with frequent crop failure and conflict-related market and trade disruption.",
+      "p": {
+        "a": 20.83,
+        "b": 108.94
+      },
+      "gamma": {
+        "a": 11.06,
+        "b": 2830.22
+      },
+      "omega": {
+        "a": 6.23,
+        "b": 2904.76
+      }
+    },
+    {
+      "district": "Ceel Dheere",
+      "reasoning": "Galgaduud Cowpea Belt/coastal agropastoral district under prolonged insurgent control. Livelihood context: Central Cowpea Belt agropastoral zone with low-yield rainfed cowpea/sorghum. The district has been chronically under non-state armed group control with very limited CMAM provision, so cases are expected to persist. Month-to-month variability in new cases is driven by a strongly bimodal gu/deyr harvest cycle with frequent crop failure and conflict-related market and trade disruption.",
+      "p": {
+        "a": 20.83,
+        "b": 108.94
+      },
+      "gamma": {
+        "a": 11.06,
+        "b": 2830.22
+      },
+      "omega": {
+        "a": 6.23,
+        "b": 2904.76
+      }
+    },
+    {
+      "district": "Ceel Waaq",
+      "reasoning": "Gedo southern inland pastoral district on the Kenya border with mobile herding. Livelihood context: Southern Inland/Juba Pastoral zone with mobile cattle/camel herding. Programme presence is concentrated in the district town with partial rural outreach, implying intermediate case turnover, tempered by mobile nomadic populations distant from treatment sites. Month-to-month variability in new cases is driven by drought-sensitive pastoral milk availability and seasonal herd migration.",
+      "p": {
+        "a": 35.24,
+        "b": 138.79
+      },
+      "gamma": {
+        "a": 20.59,
+        "b": 6226.3
+      },
+      "omega": {
+        "a": 11.09,
+        "b": 7468.11
+      }
+    },
+    {
+      "district": "Ceerigaabo",
+      "reasoning": "Sanaag regional town with Northern Inland pastoral and highland hinterland in a contested, clan-conflict-affected area. Livelihood context: Northern Inland Pastoral zone (sheep/goats/camels) with low rainfall and purchased-cereal diets. Programme presence is concentrated in the district town with partial rural outreach, implying intermediate case turnover, tempered by mobile nomadic populations distant from treatment sites. Month-to-month variability in new cases is driven by a pronounced jilaal lean period and recurrent drought shocks to milk and livestock income, intermittent displacement inflows and periodic border/clan clashes.",
+      "p": {
+        "a": 35.24,
+        "b": 138.79
+      },
+      "gamma": {
+        "a": 20.59,
+        "b": 6711.74
+      },
+      "omega": {
+        "a": 11.09,
+        "b": 6829.91
+      }
+    },
+    {
+      "district": "Dhuusamarreeb",
+      "reasoning": "Galgaduud Addun pastoral district with periodic armed clashes over local administration and moderate IDP hosting. Livelihood context: Addun Pastoral zone with limited water points and high cereal-purchase dependence. Programme presence is concentrated in the district town with partial rural outreach, implying intermediate case turnover, tempered by mobile nomadic populations distant from treatment sites. Month-to-month variability in new cases is driven by recurrent drought and water-trucking cost spikes in jilaal and intermittent displacement inflows.",
+      "p": {
+        "a": 35.24,
+        "b": 138.79
+      },
+      "gamma": {
+        "a": 20.59,
+        "b": 6245.95
+      },
+      "omega": {
+        "a": 11.09,
+        "b": 6740.11
+      }
+    },
+    {
+      "district": "Diinsoor",
+      "reasoning": "Bay agropastoral district with a remote town and insurgent-influenced countryside. Livelihood context: Sorghum High Potential agropastoral zone with strong dependence on gu/deyr rainfed harvests. Access is sporadic (besieged town or insurgent-held hinterland, road blockades), so treatment coverage and case turnover are limited. Month-to-month variability in new cases is driven by a strongly bimodal gu/deyr harvest cycle and sharp pre-harvest lean seasons and repeated blockades that interrupt markets and assistance.",
+      "p": {
+        "a": 19.93,
+        "b": 82.28
+      },
+      "gamma": {
+        "a": 11.07,
+        "b": 2947.71
+      },
+      "omega": {
+        "a": 6.24,
+        "b": 3139.58
+      }
+    },
+    {
+      "district": "Doolow",
+      "reasoning": "Gedo Juba pump-irrigation district on the Ethiopian border, a humanitarian hub hosting large IDP settlements. Livelihood context: Shabelle/Juba riverine irrigated farming where poor households depend on agricultural labour. Long-standing, consistently accessible health and CMAM delivery supports comparatively fast case turnover; endemic AWD/cholera and measles exposure adds fatality-driven exits. Month-to-month variability in new cases is driven by a bimodal cropping and labour calendar plus AWD/cholera peaks, recurrent river flooding and large, repeated IDP inflows and evictions.",
+      "p": {
+        "a": 31.36,
+        "b": 77.52
+      },
+      "gamma": {
+        "a": 20.56,
+        "b": 4549.14
+      },
+      "omega": {
+        "a": 11.08,
+        "b": 3775.48
+      }
+    },
+    {
+      "district": "Eyl",
+      "reasoning": "Nugaal coastal deeh pastoral/fishing district with remote access. Livelihood context: Coastal Deeh pastoral/fishing zone with sparse rainfall and thin market links. Programme presence is concentrated in the district town with partial rural outreach, implying intermediate case turnover, tempered by mobile nomadic populations distant from treatment sites. Month-to-month variability in new cases is driven by erratic rainfall and seasonal fishing that create sharp lean periods.",
+      "p": {
+        "a": 35.24,
+        "b": 138.79
+      },
+      "gamma": {
+        "a": 20.59,
+        "b": 6644.2
+      },
+      "omega": {
+        "a": 11.1,
+        "b": 8339.19
+      }
+    },
+    {
+      "district": "Gaalkacyo",
+      "reasoning": "Mudug's divided trade city with Hawd pastoral hinterland, recurrent inter-administration clashes and large IDP settlements. Livelihood context: urban/peri-urban economy with functioning markets and remittance inflows. Programme presence is concentrated in the district town with partial rural outreach, implying intermediate case turnover; endemic AWD/cholera and measles exposure adds fatality-driven exits. Month-to-month variability in new cases is driven by relatively smooth month-to-month food access, large, repeated IDP inflows and evictions and periodic border/clan clashes.",
+      "p": {
+        "a": 33.2,
+        "b": 100.93
+      },
+      "gamma": {
+        "a": 20.61,
+        "b": 7981.48
+      },
+      "omega": {
+        "a": 11.1,
+        "b": 8966.36
+      }
+    },
+    {
+      "district": "Galdogob",
+      "reasoning": "Mudug Hawd pastoral border district with market-dependent herders. Livelihood context: Hawd Pastoral zone (camel/shoat), highly market-dependent for cereals and reliant on berkad water. Programme presence is concentrated in the district town with partial rural outreach, implying intermediate case turnover, tempered by mobile nomadic populations distant from treatment sites. Month-to-month variability in new cases is driven by a pronounced jilaal lean period and drought-driven swings in milk and livestock prices.",
+      "p": {
+        "a": 35.24,
+        "b": 138.79
+      },
+      "gamma": {
+        "a": 20.61,
+        "b": 7981.48
+      },
+      "omega": {
+        "a": 11.1,
+        "b": 10011.66
+      }
+    },
+    {
+      "district": "Garbahaarey",
+      "reasoning": "Gedo southern agropastoral district with insecure trade routes and moderate IDP hosting. Livelihood context: Southern Agropastoral zone (goats, camels, sorghum) with frequent rainfed crop failure. Programme presence is concentrated in the district town with partial rural outreach, implying intermediate case turnover. Month-to-month variability in new cases is driven by a bimodal harvest cycle with frequent rainfed crop failure and intermittent displacement inflows.",
+      "p": {
+        "a": 34.22,
+        "b": 117.87
+      },
+      "gamma": {
+        "a": 20.57,
+        "b": 4886.36
+      },
+      "omega": {
+        "a": 11.08,
+        "b": 4977.73
+      }
+    },
+    {
+      "district": "Garoowe",
+      "reasoning": "Puntland's administrative capital with urban services, Nugaal valley pastoral hinterland and moderate IDP hosting. Livelihood context: urban/peri-urban economy with functioning markets and remittance inflows. Long-standing, consistently accessible health and CMAM delivery supports comparatively fast case turnover. Month-to-month variability in new cases is driven by relatively smooth month-to-month food access and intermittent displacement inflows.",
+      "p": {
+        "a": 32.17,
+        "b": 86.99
+      },
+      "gamma": {
+        "a": 20.61,
+        "b": 9349.16
+      },
+      "omega": {
+        "a": 11.1,
+        "b": 14406.8
+      }
+    },
+    {
+      "district": "Gebiley",
+      "reasoning": "Woqooyi Galbeed's main rainfed cereal-producing agropastoral district, comparatively food-secure and accessible. Livelihood context: Northwest Agropastoral zone with rainfed sorghum/maize, livestock and relatively diversified income. Long-standing, consistently accessible health and CMAM delivery supports comparatively fast case turnover. Month-to-month variability in new cases is driven by a gu/karan cropping cycle with a moderate pre-harvest lean period.",
+      "p": {
+        "a": 32.17,
+        "b": 86.99
+      },
+      "gamma": {
+        "a": 20.62,
+        "b": 11436.14
+      },
+      "omega": {
+        "a": 11.1,
+        "b": 17613.47
+      }
+    },
+    {
+      "district": "Hargeysa",
+      "reasoning": "Somaliland's capital with diversified urban economy and remittances, plus Hawd/agropastoral hinterland and moderate IDP hosting. Livelihood context: urban/peri-urban economy with functioning markets and remittance inflows. Long-standing, consistently accessible health and CMAM delivery supports comparatively fast case turnover. Month-to-month variability in new cases is driven by relatively smooth month-to-month food access and intermittent displacement inflows.",
+      "p": {
+        "a": 32.17,
+        "b": 86.99
+      },
+      "gamma": {
+        "a": 20.61,
+        "b": 9349.16
+      },
+      "omega": {
+        "a": 11.1,
+        "b": 14406.8
+      }
+    },
+    {
+      "district": "Hobyo",
+      "reasoning": "Mudug coastal deeh pastoral/fishing district with insurgent presence inland and poor roads. Livelihood context: Coastal Deeh pastoral/fishing zone with sparse rainfall and thin market links. Access is sporadic (besieged town or insurgent-held hinterland, road blockades), so treatment coverage and case turnover are limited. Month-to-month variability in new cases is driven by erratic rainfall and seasonal fishing that create sharp lean periods and repeated blockades that interrupt markets and assistance.",
+      "p": {
+        "a": 20.28,
+        "b": 91.46
+      },
+      "gamma": {
+        "a": 11.07,
+        "b": 3343.82
+      },
+      "omega": {
+        "a": 6.24,
+        "b": 3932.22
+      }
+    },
+    {
+      "district": "Iskushuban",
+      "reasoning": "Bari East Golis/coastal pastoral district with frankincense and goat-based livelihoods and dispersed settlement. Livelihood context: East Golis frankincense, goats and fishing zone with remote mountainous terrain. Programme presence is concentrated in the district town with partial rural outreach, implying intermediate case turnover, tempered by mobile nomadic populations distant from treatment sites. Month-to-month variability in new cases is driven by seasonal frankincense/fishing income and isolation during monsoon months.",
+      "p": {
+        "a": 35.24,
+        "b": 138.79
+      },
+      "gamma": {
+        "a": 20.6,
+        "b": 7672.88
+      },
+      "omega": {
+        "a": 11.1,
+        "b": 10096.38
+      }
+    },
+    {
+      "district": "Jalalaqsi",
+      "reasoning": "Hiraan Shabelle riverine district whose town has been chronically isolated by road blockades. Livelihood context: Shabelle/Juba riverine irrigated farming where poor households depend on agricultural labour. Access is sporadic (besieged town or insurgent-held hinterland, road blockades), so treatment coverage and case turnover are limited; endemic AWD/cholera and measles exposure adds fatality-driven exits. Month-to-month variability in new cases is driven by a bimodal cropping and labour calendar plus AWD/cholera peaks, recurrent river flooding and repeated blockades that interrupt markets and assistance.",
+      "p": {
+        "a": 19.27,
+        "b": 68.11
+      },
+      "gamma": {
+        "a": 11.06,
+        "b": 2782.66
+      },
+      "omega": {
+        "a": 6.23,
+        "b": 2491.73
+      }
+    },
+    {
+      "district": "Jamaame",
+      "reasoning": "Lower Juba gravity-irrigation riverine district under long-term insurgent control. Livelihood context: Shabelle/Juba riverine irrigated farming where poor households depend on agricultural labour. The district has been chronically under non-state armed group control with very limited CMAM provision, so cases are expected to persist; endemic AWD/cholera and measles exposure adds fatality-driven exits. Month-to-month variability in new cases is driven by a bimodal cropping and labour calendar plus AWD/cholera peaks, recurrent river flooding and conflict-related market and trade disruption.",
+      "p": {
+        "a": 19.97,
+        "b": 83.23
+      },
+      "gamma": {
+        "a": 11.06,
+        "b": 2592.44
+      },
+      "omega": {
+        "a": 6.23,
+        "b": 2250.03
+      }
+    },
+    {
+      "district": "Jariiban",
+      "reasoning": "Mudug coastal deeh/Addun pastoral district with sparse water points. Livelihood context: Coastal Deeh pastoral/fishing zone with sparse rainfall and thin market links. Programme presence is concentrated in the district town with partial rural outreach, implying intermediate case turnover, tempered by mobile nomadic populations distant from treatment sites. Month-to-month variability in new cases is driven by erratic rainfall and seasonal fishing that create sharp lean periods.",
+      "p": {
+        "a": 35.24,
+        "b": 138.79
+      },
+      "gamma": {
+        "a": 20.59,
+        "b": 6644.2
+      },
+      "omega": {
+        "a": 11.1,
+        "b": 8339.19
+      }
+    },
+    {
+      "district": "Jilib",
+      "reasoning": "Middle Juba riverine farming district that has been a core insurgent stronghold throughout the period. Livelihood context: Shabelle/Juba riverine irrigated farming where poor households depend on agricultural labour. The district has been chronically under non-state armed group control with very limited CMAM provision, so cases are expected to persist; endemic AWD/cholera and measles exposure adds fatality-driven exits. Month-to-month variability in new cases is driven by a bimodal cropping and labour calendar plus AWD/cholera peaks, recurrent river flooding and conflict-related market and trade disruption.",
+      "p": {
+        "a": 19.97,
+        "b": 83.23
+      },
+      "gamma": {
+        "a": 11.06,
+        "b": 2592.44
+      },
+      "omega": {
+        "a": 6.23,
+        "b": 2250.03
+      }
+    },
+    {
+      "district": "Jowhar",
+      "reasoning": "Middle Shabelle gravity-irrigation riverine district and state capital, exposed to recurrent Shabelle floods. Livelihood context: Shabelle/Juba riverine irrigated farming where poor households depend on agricultural labour. Programme presence is concentrated in the district town with partial rural outreach, implying intermediate case turnover; endemic AWD/cholera and measles exposure adds fatality-driven exits. Month-to-month variability in new cases is driven by a bimodal cropping and labour calendar plus AWD/cholera peaks, recurrent river flooding and intermittent displacement inflows.",
+      "p": {
+        "a": 33.2,
+        "b": 100.93
+      },
+      "gamma": {
+        "a": 20.57,
+        "b": 5023.26
+      },
+      "omega": {
+        "a": 11.08,
+        "b": 4300.8
+      }
+    },
+    {
+      "district": "Kismaayo",
+      "reasoning": "Lower Juba port city with functioning markets, large IDP and returnee settlements, and insurgent-held hinterland. Livelihood context: urban economy dependent on imported staples and casual labour. Long-standing, consistently accessible health and CMAM delivery supports comparatively fast case turnover; endemic AWD/cholera and measles exposure adds fatality-driven exits. Month-to-month variability in new cases is driven by staple-price swings transmitted from rural lean seasons and large, repeated IDP inflows and evictions.",
+      "p": {
+        "a": 31.36,
+        "b": 77.52
+      },
+      "gamma": {
+        "a": 20.59,
+        "b": 6315.03
+      },
+      "omega": {
+        "a": 11.09,
+        "b": 7574.14
+      }
+    },
+    {
+      "district": "Kurtunwaarey",
+      "reasoning": "Lower Shabelle riverine farming district under insurgent control until 2022. Livelihood context: Shabelle/Juba riverine irrigated farming where poor households depend on agricultural labour. The district has been chronically under non-state armed group control with very limited CMAM provision, so cases are expected to persist; endemic AWD/cholera and measles exposure adds fatality-driven exits. Month-to-month variability in new cases is driven by a bimodal cropping and labour calendar plus AWD/cholera peaks, recurrent river flooding and conflict-related market and trade disruption.",
+      "p": {
+        "a": 19.97,
+        "b": 83.23
+      },
+      "gamma": {
+        "a": 11.06,
+        "b": 2592.44
+      },
+      "omega": {
+        "a": 6.23,
+        "b": 2250.03
+      }
+    },
+    {
+      "district": "Laas Caanood",
+      "reasoning": "Sool regional town with Northern Inland/Hawd pastoral hinterland in the contested Somaliland-Puntland zone, with moderate IDP hosting. Livelihood context: Northern Inland Pastoral zone (sheep/goats/camels) with low rainfall and purchased-cereal diets. Programme presence is concentrated in the district town with partial rural outreach, implying intermediate case turnover, tempered by mobile nomadic populations distant from treatment sites. Month-to-month variability in new cases is driven by a pronounced jilaal lean period and recurrent drought shocks to milk and livestock income, intermittent displacement inflows and periodic border/clan clashes.",
+      "p": {
+        "a": 35.24,
+        "b": 138.79
+      },
+      "gamma": {
+        "a": 20.59,
+        "b": 6711.74
+      },
+      "omega": {
+        "a": 11.09,
+        "b": 6829.91
+      }
+    },
+    {
+      "district": "Laasqoray",
+      "reasoning": "Sanaag East Golis frankincense/fishing district, remote and administratively contested. Livelihood context: East Golis frankincense, goats and fishing zone with remote mountainous terrain. Programme presence is concentrated in the district town with partial rural outreach, implying intermediate case turnover. Month-to-month variability in new cases is driven by seasonal frankincense/fishing income and isolation during monsoon months and periodic border/clan clashes.",
+      "p": {
+        "a": 34.22,
+        "b": 117.87
+      },
+      "gamma": {
+        "a": 20.6,
+        "b": 7672.88
+      },
+      "omega": {
+        "a": 11.1,
+        "b": 8996.43
+      }
+    },
+    {
+      "district": "Lughaye",
+      "reasoning": "Awdal Guban pastoral coastal district with arid conditions and few services. Livelihood context: Guban Pastoral zone, an arid coastal plain dependent on xays rains and purchased cereals. Programme presence is concentrated in the district town with partial rural outreach, implying intermediate case turnover, tempered by mobile nomadic populations distant from treatment sites. Month-to-month variability in new cases is driven by a hot hagaa season and dependence on erratic xays rains.",
+      "p": {
+        "a": 35.24,
+        "b": 138.79
+      },
+      "gamma": {
+        "a": 20.6,
+        "b": 7672.88
+      },
+      "omega": {
+        "a": 11.1,
+        "b": 10096.38
+      }
+    },
+    {
+      "district": "Luuq",
+      "reasoning": "Gedo Juba pump-irrigation and pastoral district with recurrent riverine flooding and moderate IDP hosting. Livelihood context: Shabelle/Juba riverine irrigated farming where poor households depend on agricultural labour. Programme presence is concentrated in the district town with partial rural outreach, implying intermediate case turnover; endemic AWD/cholera and measles exposure adds fatality-driven exits. Month-to-month variability in new cases is driven by a bimodal cropping and labour calendar plus AWD/cholera peaks, recurrent river flooding and intermittent displacement inflows.",
+      "p": {
+        "a": 33.2,
+        "b": 100.93
+      },
+      "gamma": {
+        "a": 20.57,
+        "b": 5023.26
+      },
+      "omega": {
+        "a": 11.08,
+        "b": 4300.8
+      }
+    },
+    {
+      "district": "Marka",
+      "reasoning": "Lower Shabelle coastal riverine district with contested hinterland and repeated road insecurity. Livelihood context: Shabelle/Juba riverine irrigated farming where poor households depend on agricultural labour. Access is sporadic (besieged town or insurgent-held hinterland, road blockades), so treatment coverage and case turnover are limited; endemic AWD/cholera and measles exposure adds fatality-driven exits. Month-to-month variability in new cases is driven by a bimodal cropping and labour calendar plus AWD/cholera peaks, recurrent river flooding, intermittent displacement inflows and repeated blockades that interrupt markets and assistance.",
+      "p": {
+        "a": 19.27,
+        "b": 68.11
+      },
+      "gamma": {
+        "a": 11.06,
+        "b": 2527.59
+      },
+      "omega": {
+        "a": 6.23,
+        "b": 2096.53
+      }
+    },
+    {
+      "district": "Owdweyne",
+      "reasoning": "Togdheer agropastoral/Hawd district on the Burco-Hargeysa corridor with good market access. Livelihood context: Hawd Pastoral zone (camel/shoat), highly market-dependent for cereals and reliant on berkad water. Long-standing, consistently accessible health and CMAM delivery supports comparatively fast case turnover, tempered by mobile nomadic populations distant from treatment sites. Month-to-month variability in new cases is driven by a pronounced jilaal lean period and drought-driven swings in milk and livestock prices.",
+      "p": {
+        "a": 33.81,
+        "b": 110.68
+      },
+      "gamma": {
+        "a": 20.61,
+        "b": 8222.19
+      },
+      "omega": {
+        "a": 11.1,
+        "b": 11087.9
+      }
+    },
+    {
+      "district": "Qandala",
+      "reasoning": "Bari East Golis coastal fishing/frankincense district with remote access. Livelihood context: East Golis frankincense, goats and fishing zone with remote mountainous terrain. Programme presence is concentrated in the district town with partial rural outreach, implying intermediate case turnover. Month-to-month variability in new cases is driven by seasonal frankincense/fishing income and isolation during monsoon months.",
+      "p": {
+        "a": 34.22,
+        "b": 117.87
+      },
+      "gamma": {
+        "a": 20.6,
+        "b": 7672.88
+      },
+      "omega": {
+        "a": 11.1,
+        "b": 10096.38
+      }
+    },
+    {
+      "district": "Qansax Dheere",
+      "reasoning": "Bay low-potential agropastoral district whose air access was suspended for months after 2020 incidents. Livelihood context: Bay-Bakool Low Potential agropastoral zone with poor soils and thin livestock holdings. Access is sporadic (besieged town or insurgent-held hinterland, road blockades), so treatment coverage and case turnover are limited. Month-to-month variability in new cases is driven by a strongly bimodal harvest cycle, frequent crop failure and sharp pre-harvest lean seasons and repeated blockades that interrupt markets and assistance.",
+      "p": {
+        "a": 19.93,
+        "b": 82.28
+      },
+      "gamma": {
+        "a": 11.06,
+        "b": 2566.83
+      },
+      "omega": {
+        "a": 6.23,
+        "b": 2635.38
+      }
+    },
+    {
+      "district": "Qardho",
+      "reasoning": "Bari Karkaar/Northern Inland pastoral district on the main Puntland road with moderate IDP hosting. Livelihood context: Northern Inland Pastoral zone (sheep/goats/camels) with low rainfall and purchased-cereal diets. Long-standing, consistently accessible health and CMAM delivery supports comparatively fast case turnover, tempered by mobile nomadic populations distant from treatment sites. Month-to-month variability in new cases is driven by a pronounced jilaal lean period and recurrent drought shocks to milk and livestock income and intermittent displacement inflows.",
+      "p": {
+        "a": 33.81,
+        "b": 110.68
+      },
+      "gamma": {
+        "a": 20.6,
+        "b": 6914.36
+      },
+      "omega": {
+        "a": 11.09,
+        "b": 8290.38
+      }
+    },
+    {
+      "district": "Qoryooley",
+      "reasoning": "Lower Shabelle riverine farming district with contested control and repeated military operations. Livelihood context: Shabelle/Juba riverine irrigated farming where poor households depend on agricultural labour. Access is sporadic (besieged town or insurgent-held hinterland, road blockades), so treatment coverage and case turnover are limited; endemic AWD/cholera and measles exposure adds fatality-driven exits. Month-to-month variability in new cases is driven by a bimodal cropping and labour calendar plus AWD/cholera peaks, recurrent river flooding and repeated blockades that interrupt markets and assistance.",
+      "p": {
+        "a": 19.27,
+        "b": 68.11
+      },
+      "gamma": {
+        "a": 11.06,
+        "b": 2782.66
+      },
+      "omega": {
+        "a": 6.23,
+        "b": 2491.73
+      }
+    },
+    {
+      "district": "Rab Dhuure",
+      "reasoning": "Bakool low-potential agropastoral district under insurgent control. Livelihood context: Bay-Bakool Low Potential agropastoral zone with poor soils and thin livestock holdings. The district has been chronically under non-state armed group control with very limited CMAM provision, so cases are expected to persist. Month-to-month variability in new cases is driven by a strongly bimodal harvest cycle, frequent crop failure and sharp pre-harvest lean seasons and conflict-related market and trade disruption.",
+      "p": {
+        "a": 20.71,
+        "b": 104.81
+      },
+      "gamma": {
+        "a": 11.06,
+        "b": 2391.24
+      },
+      "omega": {
+        "a": 6.23,
+        "b": 2369.16
+      }
+    },
+    {
+      "district": "Saakow",
+      "reasoning": "Middle Juba riverine/agropastoral district under long-term insurgent control. Livelihood context: Shabelle/Juba riverine irrigated farming where poor households depend on agricultural labour. The district has been chronically under non-state armed group control with very limited CMAM provision, so cases are expected to persist; endemic AWD/cholera and measles exposure adds fatality-driven exits. Month-to-month variability in new cases is driven by a bimodal cropping and labour calendar plus AWD/cholera peaks, recurrent river flooding and conflict-related market and trade disruption.",
+      "p": {
+        "a": 19.97,
+        "b": 83.23
+      },
+      "gamma": {
+        "a": 11.06,
+        "b": 2592.44
+      },
+      "omega": {
+        "a": 6.23,
+        "b": 2250.03
+      }
+    },
+    {
+      "district": "Sablaale",
+      "reasoning": "Lower Shabelle riverine district whose town was retaken in 2018 but whose hinterland remained insurgent-held. Livelihood context: Shabelle/Juba riverine irrigated farming where poor households depend on agricultural labour. Access is sporadic (besieged town or insurgent-held hinterland, road blockades), so treatment coverage and case turnover are limited; endemic AWD/cholera and measles exposure adds fatality-driven exits. Month-to-month variability in new cases is driven by a bimodal cropping and labour calendar plus AWD/cholera peaks, recurrent river flooding and repeated blockades that interrupt markets and assistance.",
+      "p": {
+        "a": 19.27,
+        "b": 68.11
+      },
+      "gamma": {
+        "a": 11.06,
+        "b": 2782.66
+      },
+      "omega": {
+        "a": 6.23,
+        "b": 2491.73
+      }
+    },
+    {
+      "district": "Sheikh",
+      "reasoning": "Togdheer Golis highland pastoral/agropastoral district with comparatively reliable rainfall and road access. Livelihood context: West Golis highland pastoral/agropastoral zone with comparatively reliable rainfall. Long-standing, consistently accessible health and CMAM delivery supports comparatively fast case turnover. Month-to-month variability in new cases is driven by modest seasonal swings buffered by highland rainfall.",
+      "p": {
+        "a": 32.17,
+        "b": 86.99
+      },
+      "gamma": {
+        "a": 20.62,
+        "b": 10832.01
+      },
+      "omega": {
+        "a": 11.1,
+        "b": 17697.86
+      }
+    },
+    {
+      "district": "Taleex",
+      "reasoning": "Sool Northern Inland pastoral district, remote and within the contested zone. Livelihood context: Northern Inland Pastoral zone (sheep/goats/camels) with low rainfall and purchased-cereal diets. Programme presence is concentrated in the district town with partial rural outreach, implying intermediate case turnover, tempered by mobile nomadic populations distant from treatment sites. Month-to-month variability in new cases is driven by a pronounced jilaal lean period and recurrent drought shocks to milk and livestock income and periodic border/clan clashes.",
+      "p": {
+        "a": 35.24,
+        "b": 138.79
+      },
+      "gamma": {
+        "a": 20.6,
+        "b": 7387.14
+      },
+      "omega": {
+        "a": 11.09,
+        "b": 8300.47
+      }
+    },
+    {
+      "district": "Tayeeglow",
+      "reasoning": "Bakool low-potential agropastoral district under insurgent control. Livelihood context: Bay-Bakool Low Potential agropastoral zone with poor soils and thin livestock holdings. The district has been chronically under non-state armed group control with very limited CMAM provision, so cases are expected to persist. Month-to-month variability in new cases is driven by a strongly bimodal harvest cycle, frequent crop failure and sharp pre-harvest lean seasons and conflict-related market and trade disruption.",
+      "p": {
+        "a": 20.71,
+        "b": 104.81
+      },
+      "gamma": {
+        "a": 11.06,
+        "b": 2391.24
+      },
+      "omega": {
+        "a": 6.23,
+        "b": 2369.16
+      }
+    },
+    {
+      "district": "Waajid",
+      "reasoning": "Bakool southern agropastoral district whose town has been encircled, with displaced households from surrounding villages. Livelihood context: Southern Agropastoral zone (goats, camels, sorghum) with frequent rainfed crop failure. Access is sporadic (besieged town or insurgent-held hinterland, road blockades), so treatment coverage and case turnover are limited. Month-to-month variability in new cases is driven by a bimodal harvest cycle with frequent rainfed crop failure, intermittent displacement inflows and repeated blockades that interrupt markets and assistance.",
+      "p": {
+        "a": 19.93,
+        "b": 82.28
+      },
+      "gamma": {
+        "a": 11.06,
+        "b": 2458.65
+      },
+      "omega": {
+        "a": 6.23,
+        "b": 2393.46
+      }
+    },
+    {
+      "district": "Wanla Weyn",
+      "reasoning": "Lower Shabelle sorghum high-potential agropastoral district with insurgent-influenced countryside. Livelihood context: Sorghum High Potential agropastoral zone with strong dependence on gu/deyr rainfed harvests. Access is sporadic (besieged town or insurgent-held hinterland, road blockades), so treatment coverage and case turnover are limited. Month-to-month variability in new cases is driven by a strongly bimodal gu/deyr harvest cycle and sharp pre-harvest lean seasons and repeated blockades that interrupt markets and assistance.",
+      "p": {
+        "a": 19.93,
+        "b": 82.28
+      },
+      "gamma": {
+        "a": 11.07,
+        "b": 2947.71
+      },
+      "omega": {
+        "a": 6.24,
+        "b": 3139.58
+      }
+    },
+    {
+      "district": "Xarardheere",
+      "reasoning": "Mudug coastal deeh pastoral/fishing district under insurgent control. Livelihood context: Coastal Deeh pastoral/fishing zone with sparse rainfall and thin market links. The district has been chronically under non-state armed group control with very limited CMAM provision, so cases are expected to persist. Month-to-month variability in new cases is driven by erratic rainfall and seasonal fishing that create sharp lean periods and conflict-related market and trade disruption.",
+      "p": {
+        "a": 20.83,
+        "b": 108.94
+      },
+      "gamma": {
+        "a": 11.07,
+        "b": 3115.55
+      },
+      "omega": {
+        "a": 6.24,
+        "b": 3517.59
+      }
+    },
+    {
+      "district": "Xudun",
+      "reasoning": "Sool Northern Inland pastoral district, remote and within the contested zone. Livelihood context: Northern Inland Pastoral zone (sheep/goats/camels) with low rainfall and purchased-cereal diets. Programme presence is concentrated in the district town with partial rural outreach, implying intermediate case turnover, tempered by mobile nomadic populations distant from treatment sites. Month-to-month variability in new cases is driven by a pronounced jilaal lean period and recurrent drought shocks to milk and livestock income and periodic border/clan clashes.",
+      "p": {
+        "a": 35.24,
+        "b": 138.79
+      },
+      "gamma": {
+        "a": 20.6,
+        "b": 7387.14
+      },
+      "omega": {
+        "a": 11.09,
+        "b": 8300.47
+      }
+    },
+    {
+      "district": "Xudur",
+      "reasoning": "Bakool low-potential agropastoral district whose town has been blockaded, hosting displaced households. Livelihood context: Bay-Bakool Low Potential agropastoral zone with poor soils and thin livestock holdings. Access is sporadic (besieged town or insurgent-held hinterland, road blockades), so treatment coverage and case turnover are limited. Month-to-month variability in new cases is driven by a strongly bimodal harvest cycle, frequent crop failure and sharp pre-harvest lean seasons, intermittent displacement inflows and repeated blockades that interrupt markets and assistance.",
+      "p": {
+        "a": 19.93,
+        "b": 82.28
+      },
+      "gamma": {
+        "a": 11.05,
+        "b": 2331.38
+      },
+      "omega": {
+        "a": 6.23,
+        "b": 2193.91
+      }
+    },
+    {
+      "district": "Zeylac",
+      "reasoning": "Awdal Guban pastoral district on the Djibouti border with arid conditions and cross-border trade. Livelihood context: Guban Pastoral zone, an arid coastal plain dependent on xays rains and purchased cereals. Programme presence is concentrated in the district town with partial rural outreach, implying intermediate case turnover, tempered by mobile nomadic populations distant from treatment sites. Month-to-month variability in new cases is driven by a hot hagaa season and dependence on erratic xays rains.",
+      "p": {
+        "a": 35.24,
+        "b": 138.79
+      },
+      "gamma": {
+        "a": 20.6,
+        "b": 7672.88
+      },
+      "omega": {
+        "a": 11.1,
+        "b": 10096.38
+      }
+    }
+  ]
+}

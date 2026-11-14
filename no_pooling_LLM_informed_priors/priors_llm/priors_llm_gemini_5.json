@@ -1,0 +1,522 @@
+{
+  "districts": [
+    {
+      "district": "Adan Yabaal",
+      "reasoning": "A predominantly pastoral and agropastoral district in Middle Shabelle with chronic access constraints due to persistent armed conflict. Poor health infrastructure and highly restricted CMAM access lead to prolonged SAM episodes or high mortality, justifying a lower p. High vulnerability to seasonal dry spells and livestock losses drives elevated gamma, while the volatility of conflict and rainfall dictates a higher omega.",
+      "p": {"a": 20.0, "b": 40.0},
+      "gamma": {"a": 3.5, "b": 196.5},
+      "omega": {"a": 4.0, "b": 396.0}
+    },
+    {
+      "district": "Afgooye",
+      "reasoning": "Situated in the riverine and agropastoral Shabelle valley, hosting massive IDP populations fleeing Mogadishu and conflict zones. Structural CMAM presence is moderate but overwhelmed, keeping p at a medium level. Endemic displacement vulnerability and flood risks elevate incidence (gamma), while seasonal river flooding and IDP inflows create severe monthly fluctuations (omega).",
+      "p": {"a": 30.0, "b": 30.0},
+      "gamma": {"a": 5.0, "b": 195.0},
+      "omega": {"a": 5.5, "b": 394.5}
+    },
+    {
+      "district": "Afmadow",
+      "reasoning": "A primarily pastoral district in Lower Juba with long-standing access challenges and sparse health facilities. The remote nature of pastoral livelihoods restricts CMAM access, lowering p. Gamma is moderate, reflecting the inherent resilience but eventual vulnerability of cattle pastoralism to dry seasons, while omega is driven by the cyclical nature of water and pasture availability.",
+      "p": {"a": 25.0, "b": 35.0},
+      "gamma": {"a": 3.0, "b": 197.0},
+      "omega": {"a": 3.5, "b": 396.5}
+    },
+    {
+      "district": "Baardheere",
+      "reasoning": "A riverine and agropastoral district in Gedo where chronic access constraints fluctuate with conflict. CMAM coverage is sporadically compromised, leading to a moderately low p. Riverine flooding and recurrent drought in the hinterland structurally elevate gamma, while alternating flood and drought shocks alongside conflict drive a high omega.",
+      "p": {"a": 25.0, "b": 35.0},
+      "gamma": {"a": 4.0, "b": 196.0},
+      "omega": {"a": 4.5, "b": 395.5}
+    },
+    {
+      "district": "Badhaadhe",
+      "reasoning": "A remote coastal and pastoral district in Lower Juba with severe, structural humanitarian access restrictions. Almost non-existent CMAM access means p is extremely low, with cases resolving largely through natural outcome or mortality. Coastal livelihoods provide marginal buffering against drought, keeping gamma moderate, but conflict volatility dictates a moderately high omega.",
+      "p": {"a": 15.0, "b": 45.0},
+      "gamma": {"a": 3.0, "b": 197.0},
+      "omega": {"a": 3.5, "b": 396.5}
+    },
+    {
+      "district": "Baki",
+      "reasoning": "An agropastoral and pastoral district in Awdal with relatively stable access but remote terrain that limits health infrastructure density. CMAM is present but requires travel, yielding a moderate p. Livelihoods are reasonably stable compared to the south, yielding a lower gamma, and variability is primarily tied to seasonal rains rather than conflict, keeping omega lower.",
+      "p": {"a": 35.0, "b": 25.0},
+      "gamma": {"a": 2.0, "b": 198.0},
+      "omega": {"a": 2.5, "b": 397.5}
+    },
+    {
+      "district": "Balcad",
+      "reasoning": "A riverine district in Middle Shabelle with agricultural potential but significant conflict-related access constraints and chronic flooding. Access limits and health system disruptions depress p. High endemic vulnerability to both floods and conflict keeps incidence (gamma) elevated, while seasonal displacement and flooding create significant monthly variability (omega).",
+      "p": {"a": 25.0, "b": 35.0},
+      "gamma": {"a": 4.0, "b": 196.0},
+      "omega": {"a": 5.0, "b": 395.0}
+    },
+    {
+      "district": "Banadir",
+      "reasoning": "The highly urbanized capital region hosting the country's largest, most entrenched IDP populations. Structural health system density and CMAM coverage are the highest in the country, leading to a high p. However, the extreme density, chronic AWD/cholera risks, and endemic poverty of IDP camps drive a structurally high gamma, while constant new IDP arrivals and disease outbreaks keep omega high.",
+      "p": {"a": 45.0, "b": 15.0},
+      "gamma": {"a": 5.0, "b": 195.0},
+      "omega": {"a": 5.5, "b": 394.5}
+    },
+    {
+      "district": "Bandarbeyla",
+      "reasoning": "A remote coastal fishing and pastoral district in Puntland. Structural stability is high, but remoteness limits CMAM coverage, keeping p moderate. Coastal fishing provides a diversified food source, keeping gamma lower than inland areas, and the lack of severe conflict or massive displacement keeps omega structurally low.",
+      "p": {"a": 35.0, "b": 25.0},
+      "gamma": {"a": 1.8, "b": 198.2},
+      "omega": {"a": 2.0, "b": 398.0}
+    },
+    {
+      "district": "Baraawe",
+      "reasoning": "A coastal urban and agropastoral hub in Lower Shabelle that experiences chronic encirclement and access restrictions by non-state actors. CMAM access is structurally hampered by supply chain blockages, keeping p low. Economic strangulation elevates baseline incidence (gamma), and episodic conflict and access changes create high monthly volatility (omega).",
+      "p": {"a": 20.0, "b": 40.0},
+      "gamma": {"a": 3.8, "b": 196.2},
+      "omega": {"a": 4.5, "b": 395.5}
+    },
+    {
+      "district": "Baydhaba",
+      "reasoning": "A major agropastoral hub in Bay region and a primary destination for drought- and conflict-displaced populations. CMAM programs are well-established due to international presence, driving a high p. However, the massive structural IDP burden and repeated agricultural shocks drive a very high gamma, while seasonal AWD outbreaks and massive displacement surges create a very high omega.",
+      "p": {"a": 40.0, "b": 20.0},
+      "gamma": {"a": 5.5, "b": 194.5},
+      "omega": {"a": 6.0, "b": 394.0}
+    },
+    {
+      "district": "Belet Weyne",
+      "reasoning": "A critical riverine and urban district in Hiraan structurally prone to devastating seasonal flooding from the Shabelle River. CMAM access is moderate but repeatedly interrupted by floods, keeping p moderate. The endemic flood risk and displacement vulnerability drive a high gamma, while the severe bimodality of the Gu and Deyr flood seasons dictates a massive omega.",
+      "p": {"a": 30.0, "b": 30.0},
+      "gamma": {"a": 4.5, "b": 195.5},
+      "omega": {"a": 6.5, "b": 393.5}
+    },
+    {
+      "district": "Belet Xaawo",
+      "reasoning": "A border district in Gedo with significant cross-border trade and pastoral livelihoods, but subject to chronic conflict and displacement. CMAM access is volatile but present, yielding a moderate p. Border dynamics and recurrent drought in the pastoral zones elevate gamma, while conflict volatility and trade disruptions drive a high omega.",
+      "p": {"a": 30.0, "b": 30.0},
+      "gamma": {"a": 3.8, "b": 196.2},
+      "omega": {"a": 4.5, "b": 395.5}
+    },
+    {
+      "district": "Berbera",
+      "reasoning": "A stable coastal and urban district in Somaliland. Access to functional markets, a major port, and health facilities ensures a high p. Diversified income and urban food security keep baseline incidence (gamma) low, and the stable political and economic environment ensures minimal month-to-month variability (omega).",
+      "p": {"a": 45.0, "b": 15.0},
+      "gamma": {"a": 1.5, "b": 198.5},
+      "omega": {"a": 1.5, "b": 398.5}
+    },
+    {
+      "district": "Borama",
+      "reasoning": "An urban and agropastoral district in Awdal characterized by high structural stability and relatively robust health systems. CMAM access is good, driving a high p. Livelihoods are less vulnerable to extreme shocks compared to the south, keeping gamma low. The absence of conflict and stable agricultural cycles maintain a very low omega.",
+      "p": {"a": 45.0, "b": 15.0},
+      "gamma": {"a": 1.5, "b": 198.5},
+      "omega": {"a": 1.5, "b": 398.5}
+    },
+    {
+      "district": "Bossaso",
+      "reasoning": "A major urban and commercial port in Bari, Puntland, hosting significant IDP populations. Structural health access is strong, yielding a high p. However, the chronic economic marginalization of the IDP camps elevates gamma relative to the host population. Variability is driven mostly by seasonal heat and economic fluctuations, resulting in a moderate omega.",
+      "p": {"a": 40.0, "b": 20.0},
+      "gamma": {"a": 3.0, "b": 197.0},
+      "omega": {"a": 2.5, "b": 397.5}
+    },
+    {
+      "district": "Bu'aale",
+      "reasoning": "A riverine and agropastoral district in Middle Juba completely inaccessible to formal humanitarian structures due to non-state actor control. The total absence of formal CMAM means p is extremely low, driven only by natural recovery or mortality. Chronic structural agricultural shocks without mitigation drive a high gamma, and seasonal floods drive a high omega.",
+      "p": {"a": 10.0, "b": 50.0},
+      "gamma": {"a": 4.5, "b": 195.5},
+      "omega": {"a": 4.5, "b": 395.5}
+    },
+    {
+      "district": "Bulo Burto",
+      "reasoning": "A riverine and agropastoral district in Hiraan subject to chronic economic blockade and encirclement. Supply chains for CMAM are structurally broken, lowering p significantly. The siege economy destroys livelihood resilience, driving a highly elevated gamma, and erratic access openings or conflict escalations create severe monthly volatility (omega).",
+      "p": {"a": 18.0, "b": 42.0},
+      "gamma": {"a": 4.5, "b": 195.5},
+      "omega": {"a": 5.0, "b": 395.0}
+    },
+    {
+      "district": "Burco",
+      "reasoning": "A major urban and pastoral trade hub in Togdheer, Somaliland. Structural stability and good health infrastructure support a high p. The strong livestock trade economy buffers against some shocks, keeping gamma moderately low, though vulnerability to deep droughts remains. The stable political environment keeps omega low.",
+      "p": {"a": 40.0, "b": 20.0},
+      "gamma": {"a": 2.0, "b": 198.0},
+      "omega": {"a": 2.0, "b": 398.0}
+    },
+    {
+      "district": "Burtinle",
+      "reasoning": "A pastoral district in Nugaal with stable administration but remote populations. CMAM access is moderate due to the dispersed nature of pastoralism, resulting in a moderate p. Gamma is baseline for pastoral zones dependent on seasonal rains, while omega is driven by the standard Gu/Deyr seasonal rainfall volatility.",
+      "p": {"a": 30.0, "b": 30.0},
+      "gamma": {"a": 2.2, "b": 197.8},
+      "omega": {"a": 2.5, "b": 397.5}
+    },
+    {
+      "district": "Buuhoodle",
+      "reasoning": "A pastoral district in Togdheer subject to periodic administrative disputes but fundamentally pastoral. Access to health services is moderate, keeping p average. Livelihood reliance on livestock makes the district vulnerable to drought, setting a moderate gamma, while seasonal water shortages dictate a moderate omega.",
+      "p": {"a": 30.0, "b": 30.0},
+      "gamma": {"a": 2.5, "b": 197.5},
+      "omega": {"a": 2.8, "b": 397.2}
+    },
+    {
+      "district": "Buur Hakaba",
+      "reasoning": "An agropastoral district in Bay region frequently impacted by conflict and access limitations. CMAM delivery is structurally volatile, lowering p. High reliance on rainfed agriculture in a conflict-prone environment drives a structurally high gamma, and seasonal harvest failures paired with access fluctuations drive a high omega.",
+      "p": {"a": 22.0, "b": 38.0},
+      "gamma": {"a": 4.0, "b": 196.0},
+      "omega": {"a": 4.8, "b": 395.2}
+    },
+    {
+      "district": "Cabudwaaq",
+      "reasoning": "A pastoral district in Galgaduud facing frequent localized conflict and resource-based disputes. CMAM access is sporadically interrupted, yielding a moderate p. Pastoral livelihoods face chronic water stress, elevating gamma, and the intersection of clan conflict with drought cycles drives a moderately high omega.",
+      "p": {"a": 28.0, "b": 32.0},
+      "gamma": {"a": 3.0, "b": 197.0},
+      "omega": {"a": 3.8, "b": 396.2}
+    },
+    {
+      "district": "Cadaado",
+      "reasoning": "An urban and pastoral district in Galgaduud that serves as a regional hub. Better access to markets and health services than surrounding rural areas gives it a higher p. Gamma is moderate due to hub-status buffering, but omega remains elevated due to the vulnerability of the surrounding pastoral catchment to recurrent drought.",
+      "p": {"a": 35.0, "b": 25.0},
+      "gamma": {"a": 2.8, "b": 197.2},
+      "omega": {"a": 3.0, "b": 397.0}
+    },
+    {
+      "district": "Cadale",
+      "reasoning": "A coastal and agropastoral district in Middle Shabelle with periodic conflict disruptions. CMAM coverage is restricted by poor road infrastructure and insecurity, keeping p low-moderate. Livelihood diversity (fishing and farming) slightly mitigates gamma, but seasonal shocks and conflict drive a moderate omega.",
+      "p": {"a": 25.0, "b": 35.0},
+      "gamma": {"a": 3.2, "b": 196.8},
+      "omega": {"a": 3.5, "b": 396.5}
+    },
+    {
+      "district": "Caluula",
+      "reasoning": "A highly remote coastal district in the tip of Bari, Puntland. Severe geographic isolation severely limits health infrastructure and CMAM presence, dropping p significantly. However, the reliable fishing economy and lack of conflict keep gamma structurally low, with omega similarly low due to the absence of volatile shocks.",
+      "p": {"a": 20.0, "b": 40.0},
+      "gamma": {"a": 1.5, "b": 198.5},
+      "omega": {"a": 1.5, "b": 398.5}
+    },
+    {
+      "district": "Caynabo",
+      "reasoning": "A pastoral district in Sool with stable administration but extreme vulnerability to drought. Health access is moderate, keeping p average. Total reliance on livestock in a chronically arid zone elevates gamma, and the stark impact of seasonal rainfall variations on pastoral viability drives a moderately high omega.",
+      "p": {"a": 30.0, "b": 30.0},
+      "gamma": {"a": 2.8, "b": 197.2},
+      "omega": {"a": 3.2, "b": 396.8}
+    },
+    {
+      "district": "Ceel Afweyn",
+      "reasoning": "A pastoral district in Sanaag prone to localized resource conflicts. CMAM presence is moderate but occasionally disrupted by insecurity, leading to an average p. Vulnerability to drought and range degradation sets a moderate gamma, while sporadic conflict and rainfall variability drive omega.",
+      "p": {"a": 30.0, "b": 30.0},
+      "gamma": {"a": 2.8, "b": 197.2},
+      "omega": {"a": 3.5, "b": 396.5}
+    },
+    {
+      "district": "Ceel Barde",
+      "reasoning": "A pastoral and agropastoral district in Bakool subject to heavy access restrictions and blockades. CMAM supplies are frequently cut off, severely depressing p. The crippled local economy and lack of humanitarian buffer drive a high gamma, and volatile access dynamics create a high omega.",
+      "p": {"a": 18.0, "b": 42.0},
+      "gamma": {"a": 4.2, "b": 195.8},
+      "omega": {"a": 4.8, "b": 395.2}
+    },
+    {
+      "district": "Ceel Buur",
+      "reasoning": "A pastoral district in Galgaduud under chronic non-state actor control, rendering formal humanitarian access non-existent. Without CMAM, p is very low, driven entirely by underlying mortality and natural recovery. High reliance on vulnerable pastoralism without structural support drives a high gamma and moderate-high omega.",
+      "p": {"a": 12.0, "b": 48.0},
+      "gamma": {"a": 4.0, "b": 196.0},
+      "omega": {"a": 4.0, "b": 396.0}
+    },
+    {
+      "district": "Ceel Dheere",
+      "reasoning": "A predominantly pastoral district in Galgaduud with severe, persistent access constraints due to insecurity. Complete lack of reliable CMAM lowers p substantially. The population's baseline resilience is eroded by lack of services and market access, raising gamma, with variability (omega) driven by drought cycles.",
+      "p": {"a": 15.0, "b": 45.0},
+      "gamma": {"a": 3.8, "b": 196.2},
+      "omega": {"a": 3.8, "b": 396.2}
+    },
+    {
+      "district": "Ceel Waaq",
+      "reasoning": "A border pastoral district in Gedo where access is frequently disrupted by localized conflict and border closures. CMAM operations are unstable, lowering p. Pastoral vulnerability to cyclical drought and trade restrictions elevates gamma, while sudden market shocks and conflict incidents drive omega.",
+      "p": {"a": 25.0, "b": 35.0},
+      "gamma": {"a": 3.5, "b": 196.5},
+      "omega": {"a": 4.2, "b": 395.8}
+    },
+    {
+      "district": "Ceerigaabo",
+      "reasoning": "A stable pastoral and agropastoral district in Sanaag, though geographically remote. Health services are present in the urban center but sparse in rural areas, yielding a moderate p. High altitude and diverse microclimates provide some resilience, keeping gamma moderate, and stable governance limits omega.",
+      "p": {"a": 32.0, "b": 28.0},
+      "gamma": {"a": 2.2, "b": 197.8},
+      "omega": {"a": 2.2, "b": 397.8}
+    },
+    {
+      "district": "Dhuusamarreeb",
+      "reasoning": "An urban administrative hub in Galgaduud with relatively stable access and structural health investments. CMAM presence is reliable, supporting a high p. Urban buffering and market functionality keep baseline gamma moderate, though the surrounding pastoral catchment's seasonal vulnerability drives a moderate omega.",
+      "p": {"a": 40.0, "b": 20.0},
+      "gamma": {"a": 2.5, "b": 197.5},
+      "omega": {"a": 2.8, "b": 397.2}
+    },
+    {
+      "district": "Diinsoor",
+      "reasoning": "An agropastoral district in Bay subject to severe, chronic blockades and insecurity. Supply chains for CMAM are persistently severed, resulting in a very low p. The inability to trade agricultural goods or access external food assistance drives a highly elevated gamma, and episodic siege tightening drives a high omega.",
+      "p": {"a": 15.0, "b": 45.0},
+      "gamma": {"a": 4.5, "b": 195.5},
+      "omega": {"a": 5.0, "b": 395.0}
+    },
+    {
+      "district": "Doolow",
+      "reasoning": "A border town in Gedo hosting massive, entrenched IDP populations with strong international humanitarian presence. High NGO concentration drives a high p due to robust CMAM availability. However, the chronic vulnerability of massive IDP camps drives a high gamma, and continuous displacement inflows create high monthly variability (omega).",
+      "p": {"a": 42.0, "b": 18.0},
+      "gamma": {"a": 4.8, "b": 195.2},
+      "omega": {"a": 5.5, "b": 394.5}
+    },
+    {
+      "district": "Eyl",
+      "reasoning": "A coastal and pastoral district in Nugaal with stable administration but remote rural populations. CMAM access is moderate, yielding an average p. Livelihood diversification between fishing and pastoralism limits chronic incidence (gamma), and the stable environment results in a low structural omega.",
+      "p": {"a": 32.0, "b": 28.0},
+      "gamma": {"a": 2.0, "b": 198.0},
+      "omega": {"a": 2.0, "b": 398.0}
+    },
+    {
+      "district": "Gaalkacyo",
+      "reasoning": "A major divided urban hub in Mudug hosting huge structural IDP populations. Health infrastructure is highly developed, ensuring a high p. The endemic economic vulnerability and disease burden in the overcrowded IDP settlements drive a high gamma, and volatile displacement flows or localized conflict drive a high omega.",
+      "p": {"a": 42.0, "b": 18.0},
+      "gamma": {"a": 4.5, "b": 195.5},
+      "omega": {"a": 5.0, "b": 395.0}
+    },
+    {
+      "district": "Galdogob",
+      "reasoning": "A pastoral and urban district in Mudug with high structural stability and market access. CMAM access is reliable, resulting in a high p. Strong cross-border trade buffers against food access shocks, keeping gamma low-moderate, and a stable political environment maintains a low omega.",
+      "p": {"a": 38.0, "b": 22.0},
+      "gamma": {"a": 2.2, "b": 197.8},
+      "omega": {"a": 2.0, "b": 398.0}
+    },
+    {
+      "district": "Garbahaarey",
+      "reasoning": "An agropastoral district in Gedo facing persistent access challenges and localized conflict. Health systems are weak and CMAM delivery is volatile, leading to a low p. Chronic disruptions to agricultural livelihoods raise baseline incidence (gamma), and recurrent seasonal and conflict shocks drive a high omega.",
+      "p": {"a": 22.0, "b": 38.0},
+      "gamma": {"a": 4.0, "b": 196.0},
+      "omega": {"a": 4.5, "b": 395.5}
+    },
+    {
+      "district": "Garoowe",
+      "reasoning": "The administrative capital of Puntland, highly stable with well-developed health infrastructure and accessible CMAM services (high p). While hosting IDPs elevates gamma slightly above rural baseline, overall market functionality is strong. Strong institutional stability and predictable seasons keep omega low.",
+      "p": {"a": 45.0, "b": 15.0},
+      "gamma": {"a": 2.5, "b": 197.5},
+      "omega": {"a": 2.0, "b": 398.0}
+    },
+    {
+      "district": "Gebiley",
+      "reasoning": "A highly productive agropastoral district in Somaliland, often considered the breadbasket of the region. Exceptional structural stability and good health access yield a high p. Strong, diversified agricultural output ensures structurally low gamma, and the absence of conflict or massive displacement keeps omega very low.",
+      "p": {"a": 45.0, "b": 15.0},
+      "gamma": {"a": 1.2, "b": 198.8},
+      "omega": {"a": 1.2, "b": 398.8}
+    },
+    {
+      "district": "Hargeysa",
+      "reasoning": "The capital of Somaliland, featuring the region's strongest health infrastructure and market economy. Very high p due to ubiquitous CMAM and hospital access. Despite some urban poor and IDPs, overall dietary diversity and market functionality keep gamma structurally low, with an extremely low omega due to high stability.",
+      "p": {"a": 48.0, "b": 12.0},
+      "gamma": {"a": 1.5, "b": 198.5},
+      "omega": {"a": 1.2, "b": 398.8}
+    },
+    {
+      "district": "Hobyo",
+      "reasoning": "A coastal and pastoral district in Mudug with remote populations and sporadic access issues. Poor road infrastructure limits CMAM expansion, keeping p moderately low. Livelihoods are highly dependent on livestock and minor fishing, making gamma moderate, and vulnerability to cyclical drought drives a moderate omega.",
+      "p": {"a": 28.0, "b": 32.0},
+      "gamma": {"a": 3.0, "b": 197.0},
+      "omega": {"a": 3.2, "b": 396.8}
+    },
+    {
+      "district": "Iskushuban",
+      "reasoning": "A vast, remote pastoral district in Bari with isolated populations. The sheer distance to health facilities restricts CMAM access, resulting in a low p. Pastoral livelihoods are heavily exposed to drought and environmental degradation, elevating gamma, while reliance on highly variable rains sets a moderate-high omega.",
+      "p": {"a": 22.0, "b": 38.0},
+      "gamma": {"a": 3.2, "b": 196.8},
+      "omega": {"a": 3.5, "b": 396.5}
+    },
+    {
+      "district": "Jalalaqsi",
+      "reasoning": "A riverine district in Hiraan under severe, chronic blockade by non-state actors. Humanitarian access is fundamentally broken, dropping p to very low levels. The siege economy prevents market functioning and agricultural trade, driving a very high gamma, while localized conflict and flooding drive a high omega.",
+      "p": {"a": 15.0, "b": 45.0},
+      "gamma": {"a": 4.8, "b": 195.2},
+      "omega": {"a": 5.0, "b": 395.0}
+    },
+    {
+      "district": "Jamaame",
+      "reasoning": "A riverine district in Lower Juba largely inaccessible to formal humanitarian programs. Total absence of CMAM supply lines forces p to extremely low levels, governed by mortality. Heavy reliance on riverine agriculture vulnerable to severe flooding without external buffer drives a high gamma and severe seasonal omega.",
+      "p": {"a": 10.0, "b": 50.0},
+      "gamma": {"a": 4.5, "b": 195.5},
+      "omega": {"a": 5.0, "b": 395.0}
+    },
+    {
+      "district": "Jariiban",
+      "reasoning": "A stable pastoral district in Mudug. While administration is stable, the population is highly dispersed, leading to moderate CMAM access and an average p. Pastoral reliance on the harsh central rangelands makes populations structurally vulnerable to drought, keeping gamma moderate and omega tied strictly to seasonal rains.",
+      "p": {"a": 32.0, "b": 28.0},
+      "gamma": {"a": 2.5, "b": 197.5},
+      "omega": {"a": 2.8, "b": 397.2}
+    },
+    {
+      "district": "Jilib",
+      "reasoning": "A critical riverine and agricultural hub in Middle Juba entirely controlled by non-state actors. Formal CMAM access is zero, resulting in a fundamentally low p. Despite rich agricultural potential, chronic isolation from markets and extreme vulnerability to Juba river floods drive a high gamma and severe seasonal omega.",
+      "p": {"a": 8.0, "b": 52.0},
+      "gamma": {"a": 4.2, "b": 195.8},
+      "omega": {"a": 5.5, "b": 394.5}
+    },
+    {
+      "district": "Jowhar",
+      "reasoning": "A riverine and agropastoral district in Middle Shabelle plagued by massive recurrent flooding and sporadic conflict. CMAM structures exist but are frequently inundated, keeping p moderate. The sheer scale of structural flood destruction heavily elevates gamma, and the bimodal flood seasons create massive month-to-month volatility (omega).",
+      "p": {"a": 30.0, "b": 30.0},
+      "gamma": {"a": 4.8, "b": 195.2},
+      "omega": {"a": 6.5, "b": 393.5}
+    },
+    {
+      "district": "Kismaayo",
+      "reasoning": "A major coastal urban center and port in Lower Juba hosting immense, chronically vulnerable IDP populations. Structural health access is robust, ensuring a high p. However, the squalid conditions, poor WASH, and economic exclusion in IDP camps drive a structurally high gamma, while continuous displacement inflows sustain a high omega.",
+      "p": {"a": 42.0, "b": 18.0},
+      "gamma": {"a": 4.8, "b": 195.2},
+      "omega": {"a": 5.5, "b": 394.5}
+    },
+    {
+      "district": "Kurtunwaarey",
+      "reasoning": "An agropastoral district in Lower Shabelle mostly inaccessible due to non-state actor presence. The inability to deliver CMAM supplies keeps p very low. Chronic inability to access external markets or assistance raises vulnerability (gamma), while conflict volatility and seasonal rainfall shocks drive omega.",
+      "p": {"a": 12.0, "b": 48.0},
+      "gamma": {"a": 4.0, "b": 196.0},
+      "omega": {"a": 4.5, "b": 395.5}
+    },
+    {
+      "district": "Laas Caanood",
+      "reasoning": "An urban and pastoral district in Sool historically subject to severe administrative contestation and urban conflict. CMAM access fluctuates violently with conflict lines, keeping p moderate on average. Chronic instability damages market reliance, elevating gamma, and massive, rapid conflict-induced displacement shocks create a very high omega.",
+      "p": {"a": 28.0, "b": 32.0},
+      "gamma": {"a": 3.8, "b": 196.2},
+      "omega": {"a": 5.8, "b": 394.2}
+    },
+    {
+      "district": "Laasqoray",
+      "reasoning": "A coastal district in Sanaag with stable but highly remote communities. Limited road access restricts health infrastructure, yielding a moderately low p. Coastal livelihoods are fairly resilient, keeping baseline gamma low, and the stable security environment ensures a low omega.",
+      "p": {"a": 25.0, "b": 35.0},
+      "gamma": {"a": 1.8, "b": 198.2},
+      "omega": {"a": 1.8, "b": 398.2}
+    },
+    {
+      "district": "Lughaye",
+      "reasoning": "A coastal and pastoral district in Awdal. While stable, its extreme remoteness and sparse population limit health service delivery, lowering p. Pastoral vulnerability to cyclical coastal dry spells sets a moderate gamma, though lack of conflict limits severe variations (omega).",
+      "p": {"a": 28.0, "b": 32.0},
+      "gamma": {"a": 2.2, "b": 197.8},
+      "omega": {"a": 2.2, "b": 397.8}
+    },
+    {
+      "district": "Luuq",
+      "reasoning": "A border agropastoral district in Gedo hosting large structural IDP populations and frequent cross-border movement. Heavy NGO presence ensures high CMAM coverage, raising p. The persistent IDP burden and exposure to cyclical drought drive a high gamma, while displacement volatility keeps omega high.",
+      "p": {"a": 40.0, "b": 20.0},
+      "gamma": {"a": 4.5, "b": 195.5},
+      "omega": {"a": 5.0, "b": 395.0}
+    },
+    {
+      "district": "Marka",
+      "reasoning": "A coastal and agropastoral district in Lower Shabelle characterized by protracted urban conflict and shifting control lines. CMAM access is highly erratic, depressing p. Chronic destruction of livelihoods and massive intra-regional displacement raise gamma, and sudden conflict escalations create severe monthly fluctuations (omega).",
+      "p": {"a": 25.0, "b": 35.0},
+      "gamma": {"a": 4.2, "b": 195.8},
+      "omega": {"a": 5.5, "b": 394.5}
+    },
+    {
+      "district": "Owdweyne",
+      "reasoning": "A pastoral district in Togdheer with strong structural stability but deep reliance on livestock. Health access is moderate, ensuring an average p. The primary vulnerability is drought, setting a moderate gamma, while the stable governance and absence of conflict keep omega purely tied to standard seasonal cycles.",
+      "p": {"a": 32.0, "b": 28.0},
+      "gamma": {"a": 2.5, "b": 197.5},
+      "omega": {"a": 2.5, "b": 397.5}
+    },
+    {
+      "district": "Qandala",
+      "reasoning": "A highly rugged coastal district in Bari with isolated settlements and occasional localized insecurity. Difficult terrain strictly limits CMAM access, resulting in a low p. Small-scale fishing and frankincense trade provide some livelihood buffer, keeping gamma low-moderate, with moderate omega driven by climatic shocks.",
+      "p": {"a": 22.0, "b": 38.0},
+      "gamma": {"a": 2.0, "b": 198.0},
+      "omega": {"a": 2.5, "b": 397.5}
+    },
+    {
+      "district": "Qansax Dheere",
+      "reasoning": "An agropastoral district in Bay heavily impacted by access restrictions and chronic encirclement by non-state actors. The inability to consistently supply health facilities depresses p. Heavy reliance on rainfed agriculture without market buffers elevates gamma, and intermittent siege conditions drive a high omega.",
+      "p": {"a": 18.0, "b": 42.0},
+      "gamma": {"a": 4.2, "b": 195.8},
+      "omega": {"a": 4.8, "b": 395.2}
+    },
+    {
+      "district": "Qardho",
+      "reasoning": "A stable urban and pastoral district in Bari with good health infrastructure and market access. Robust CMAM presence ensures a high p. Urban economies buffer against severe food insecurity, keeping gamma structurally low, though the pastoral hinterland's exposure to rain variability maintains a low-moderate omega.",
+      "p": {"a": 42.0, "b": 18.0},
+      "gamma": {"a": 2.0, "b": 198.0},
+      "omega": {"a": 2.5, "b": 397.5}
+    },
+    {
+      "district": "Qoryooley",
+      "reasoning": "A riverine and agropastoral district in Lower Shabelle facing chronic armed conflict and agricultural disruption. CMAM access is repeatedly severed by fighting, keeping p low. The destruction of farming infrastructure and displacement elevate baseline incidence (gamma), and violent shifts in control lines drive a high omega.",
+      "p": {"a": 22.0, "b": 38.0},
+      "gamma": {"a": 4.5, "b": 195.5},
+      "omega": {"a": 5.2, "b": 394.8}
+    },
+    {
+      "district": "Rab Dhuure",
+      "reasoning": "A pastoral and agropastoral district in Bakool subject to heavy border and conflict-related access constraints. Health logistics are severely compromised, leading to a low p. Endemic livelihood vulnerability in a harsh environment without external support drives a high gamma, and volatile access dynamics create a high omega.",
+      "p": {"a": 20.0, "b": 40.0},
+      "gamma": {"a": 4.0, "b": 196.0},
+      "omega": {"a": 4.5, "b": 395.5}
+    },
+    {
+      "district": "Saakow",
+      "reasoning": "A riverine and agropastoral district in Middle Juba completely isolated from formal humanitarian networks due to non-state actor control. Total lack of CMAM access guarantees an extremely low p. Vulnerability to extreme Juba river flooding without structural relief drives a high gamma, and severe seasonal floods create massive variability (omega).",
+      "p": {"a": 10.0, "b": 50.0},
+      "gamma": {"a": 4.5, "b": 195.5},
+      "omega": {"a": 5.5, "b": 394.5}
+    },
+    {
+      "district": "Sablaale",
+      "reasoning": "An agropastoral district in Lower Shabelle structurally inaccessible to health and nutrition actors. The chronic absence of treatment keeps p uniformly low. Heavy reliance on vulnerable agriculture in an isolated economy raises baseline incidence (gamma), while seasonal rain failures drive a moderate-high omega.",
+      "p": {"a": 12.0, "b": 48.0},
+      "gamma": {"a": 4.0, "b": 196.0},
+      "omega": {"a": 4.2, "b": 395.8}
+    },
+    {
+      "district": "Sheikh",
+      "reasoning": "A stable agropastoral and pastoral district in Togdheer, Somaliland, benefiting from favorable high-altitude microclimates. Good access to health services ensures a high p. High structural resilience and diverse agriculture keep gamma very low, and the lack of systemic shocks or conflict keeps omega exceptionally low.",
+      "p": {"a": 42.0, "b": 18.0},
+      "gamma": {"a": 1.2, "b": 198.8},
+      "omega": {"a": 1.2, "b": 398.8}
+    },
+    {
+      "district": "Taleex",
+      "reasoning": "A highly remote pastoral district in Sool historically impacted by administrative boundary disputes. Extreme isolation limits CMAM delivery, lowering p significantly. The arid pastoral environment is chronically vulnerable to drought, setting a moderate gamma, while the volatility of rainfall in this zone dictates omega.",
+      "p": {"a": 20.0, "b": 40.0},
+      "gamma": {"a": 3.0, "b": 197.0},
+      "omega": {"a": 3.5, "b": 396.5}
+    },
+    {
+      "district": "Tayeeglow",
+      "reasoning": "An agropastoral district in Bakool characterized by extreme isolation and chronic non-state actor control. Lack of formal health access guarantees a low p. Structural inability to withstand drought shocks without humanitarian buffering drives a high gamma, and the stark impact of dry seasons sets a high omega.",
+      "p": {"a": 12.0, "b": 48.0},
+      "gamma": {"a": 4.2, "b": 195.8},
+      "omega": {"a": 4.5, "b": 395.5}
+    },
+    {
+      "district": "Waajid",
+      "reasoning": "An agropastoral district in Bakool subject to long-term encirclement and siege tactics. CMAM supplies must be airlifted, making access highly constrained and p structurally low. The blockade severely damages local market functionality, causing a high gamma, and sudden access disruptions drive a high omega.",
+      "p": {"a": 18.0, "b": 42.0},
+      "gamma": {"a": 4.5, "b": 195.5},
+      "omega": {"a": 5.0, "b": 395.0}
+    },
+    {
+      "district": "Wanla Weyn",
+      "reasoning": "An agropastoral district in Lower Shabelle experiencing frequent localized conflict and poor infrastructure. CMAM access is moderate but repeatedly interrupted, setting an average p. Vulnerability to agricultural shocks and conflict raises gamma, while volatile displacement and security changes drive a high omega.",
+      "p": {"a": 25.0, "b": 35.0},
+      "gamma": {"a": 3.8, "b": 196.2},
+      "omega": {"a": 4.5, "b": 395.5}
+    },
+    {
+      "district": "Xarardheere",
+      "reasoning": "A coastal and pastoral district in Mudug structurally inaccessible for years due to non-state actor control. Complete lack of CMAM keeps p extraordinarily low. Economic isolation and reliance on vulnerable pastoralism drive a high gamma, with variability (omega) driven primarily by unmitigated seasonal droughts.",
+      "p": {"a": 10.0, "b": 50.0},
+      "gamma": {"a": 4.0, "b": 196.0},
+      "omega": {"a": 4.0, "b": 396.0}
+    },
+    {
+      "district": "Xudun",
+      "reasoning": "A remote pastoral district in Sool with highly dispersed populations and limited health infrastructure, lowering p. Severe geographic aridity makes the pastoral livelihood structurally vulnerable to water stress, maintaining a moderate-high gamma, while total reliance on erratic rainfall drives omega.",
+      "p": {"a": 22.0, "b": 38.0},
+      "gamma": {"a": 3.2, "b": 196.8},
+      "omega": {"a": 3.8, "b": 396.2}
+    },
+    {
+      "district": "Xudur",
+      "reasoning": "The administrative capital of Bakool, historically heavily reliant on airlifted supplies due to road blockades. CMAM is present but logistically constrained, yielding a moderate p. The structural siege economy and massive IDP influxes from surrounding rural areas drive a very high gamma, while supply chain volatility drives omega.",
+      "p": {"a": 30.0, "b": 30.0},
+      "gamma": {"a": 5.0, "b": 195.0},
+      "omega": {"a": 5.5, "b": 394.5}
+    },
+    {
+      "district": "Zeylac",
+      "reasoning": "A remote coastal district in Awdal with stable administration but extreme geographic isolation. Limited health infrastructure keeps p moderately low. Coastal livelihoods provide an essential buffer against inland droughts, ensuring a structurally low gamma, and the highly stable environment ensures minimal month-to-month variability (omega).",
+      "p": {"a": 28.0, "b": 32.0},
+      "gamma": {"a": 1.8, "b": 198.2},
+      "omega": {"a": 1.8, "b": 398.2}
+    }
+  ]
+}

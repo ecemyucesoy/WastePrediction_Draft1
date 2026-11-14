@@ -1,0 +1,17 @@
+8th point,,,
+Model,wRMSE,wMAPE (%),Relative RMSE w/Naïve
+Naïve (B),1719.288,24.767,1
+Hist. Mean (B),1581.793,38.022,1.611
+Pooled priors,1603.531,20.722,0.89
+Density x 0.5,1477.281,20.049,0.821
+Density x 0.25,1419.557,19.113,0.834
+Density x 0.1,1381.604,17.973,0.727
+,,,
+9th point,,,
+Model,wRMSE,wMAPE (%),Relative RMSE w/Naïve
+Naïve (B),6103.64,54.811,1
+Hist. Mean (B),7240.093,62.643,1.007
+Pooled priors,7752.617,57.903,0.902
+Density x 0.5,7596.234,57.701,0.939
+Density x 0.25,7501.292,57.583,0.945
+Density x 0.1,7484.671,57.412,0.967

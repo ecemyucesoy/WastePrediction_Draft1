@@ -1,0 +1,523 @@
+{
+  "tier": "informative",
+  "districts": [
+    {
+      "district": "Adan Yabaal",
+      "reasoning": "Located in Middle Shabelle (Hirshabelle), Adan Yabaal is a Cowpea Belt agropastoral district with recurrent Al-Shabaab presence limiting humanitarian access throughout 2017–2021. The district experienced the 2017 drought shock, flooding along the Shabelle in 2019–2020, and desert locust damage to cowpea crops in late 2020; FSNAU reports consistently flagged the Cowpea Belt as a malnutrition hotspot. Access constraints reduce treatment coverage, keeping p moderate; high multi-shock incidence warrants elevated gamma; episodic shocks and irregular programme presence drive high omega.",
+      "p": {"a": 2.5, "b": 6.0},
+      "gamma": {"a": 2.5, "b": 60.0},
+      "omega": {"a": 2.0, "b": 35.0}
+    },
+    {
+      "district": "Afgooye",
+      "reasoning": "Afgooye (Lower Shabelle) hosts one of Somalia's largest IDP corridor populations, with chronic high SAM burden documented throughout 2017–2021. It is accessible from Mogadishu and receives substantial programme coverage (WFP, UNICEF, NGOs), which supports faster case exit through treatment. Flooding in 2019 and 2020 along the Shabelle repeatedly displaced populations and spiked incidence. High IDP turnover and programme presence elevate p; IDP-driven incidence and shock exposure keep gamma elevated; episodic displacement surges produce high omega.",
+      "p": {"a": 3.5, "b": 6.5},
+      "gamma": {"a": 3.0, "b": 55.0},
+      "omega": {"a": 2.5, "b": 30.0}
+    },
+    {
+      "district": "Afmadow",
+      "reasoning": "Afmadow (Lower Juba) is a pastoral district with contested Al-Shabaab and government control in rural areas, limiting humanitarian reach outside Afmadow town. It was flagged as one of the districts with reduced access during 2017 drought response. Livestock-based livelihoods were severely stressed in 2017 and again in 2021. Moderate programme presence in town supports some exit; but rural inaccessibility means children may remain malnourished longer. Gamma is elevated reflecting pastoral stress and conflict-induced income shocks; omega moderately elevated due to episodic Al-Shabaab disruptions.",
+      "p": {"a": 2.5, "b": 6.5},
+      "gamma": {"a": 2.5, "b": 65.0},
+      "omega": {"a": 2.0, "b": 40.0}
+    },
+    {
+      "district": "Baardheere",
+      "reasoning": "Baardheere (Gedo region) is a riverine and pastoral district in one of Somalia's persistently worst-affected food security zones; North Gedo pastoral/agropastoral had Critical GAM (>15%) documented from 2014 through 2021. The 2017 drought, 2019 flooding along the Juba, 2021 drought resurgence, and Al-Shabaab presence in surrounding rural areas all compounded burden. The town is government-controlled but rural access is severely constrained. Very high gamma reflecting endemic Gedo food insecurity; moderate p given some town-based programme coverage but high morbidity; high omega reflecting episodic flooding and drought shocks.",
+      "p": {"a": 2.5, "b": 6.0},
+      "gamma": {"a": 3.5, "b": 55.0},
+      "omega": {"a": 2.5, "b": 30.0}
+    },
+    {
+      "district": "Badhaadhe",
+      "reasoning": "Badhaadhe (Lower Juba) is a remote coastal and agropastoral district near the Kenya border with historically very limited humanitarian access. Al-Shabaab presence in surrounding areas and poor road infrastructure restrict CMAM programme delivery. The district is in Jubaland and receives some coverage via Kismayo but rural outreach is limited. Gamma is moderately elevated given pastoral livelihood stress during 2017 and 2021 drought; low programme access means cases remain in SAM for longer (lower p); omega moderate reflecting relatively stable but poor baseline.",
+      "p": {"a": 2.0, "b": 6.5},
+      "gamma": {"a": 2.0, "b": 65.0},
+      "omega": {"a": 1.8, "b": 45.0}
+    },
+    {
+      "district": "Baki",
+      "reasoning": "Baki (Awdal, Somaliland) is a rural district in the Guban coastal zone, which experienced Emergency (IPC Phase 4) conditions during late 2018 due to Guban Pastoral livelihood failure and very poor livestock conditions. The Guban Pastoral zone was consistently flagged as a nutrition hotspot in FSNAU surveys during this period. However, Somaliland's governance and programme infrastructure provides better access than south-central; CMAM programmes operate with relative predictability. Moderate-high gamma reflecting Guban Pastoral vulnerability; moderate p reflecting functional health system; moderate omega given seasonal but predictable shocks.",
+      "p": {"a": 3.0, "b": 6.5},
+      "gamma": {"a": 3.0, "b": 60.0},
+      "omega": {"a": 2.0, "b": 38.0}
+    },
+    {
+      "district": "Balcad",
+      "reasoning": "Balcad (Middle Shabelle, Hirshabelle) was one of the few districts where mortality rates exceeded famine thresholds during the 2011 crisis; during 2017–2021 it remained a recurrent malnutrition hotspot under the Shabelle Agropastoral livelihood zone. Flooding in 2019 and 2020 was severe (FAO SWALIM documented >30,000 ha inundated in Jowhar/Balcad area). IDP settlement presence inflates apparent SAM load. Moderate programme access from proximity to Mogadishu supports treatment but flooding episodically disrupts access. High gamma and omega; moderate p reflecting treatment availability offset by high morbidity burden.",
+      "p": {"a": 3.0, "b": 6.0},
+      "gamma": {"a": 3.0, "b": 55.0},
+      "omega": {"a": 2.5, "b": 30.0}
+    },
+    {
+      "district": "Banadir",
+      "reasoning": "Banadir (Mogadishu) has the largest IDP population in Somalia; throughout 2017–2021 it was consistently classified as Crisis (IPC Phase 3), with major IDP settlements (Dharkeynley, Daynile, etc.) in Emergency (IPC Phase 4). The 2017 Post-Gu release cited Mogadishu IDP settlements as critical malnutrition hotspots. Substantial humanitarian presence (WFP, UNICEF, NGOs) means CMAM coverage is higher than most of Somalia, elevating p through faster recovery. However, the enormous IDP population and continuous in-migration from drought/conflict areas maintain persistently high gamma. Omega elevated reflecting large scale periodic displacement surges.",
+      "p": {"a": 4.0, "b": 7.0},
+      "gamma": {"a": 3.5, "b": 50.0},
+      "omega": {"a": 2.5, "b": 28.0}
+    },
+    {
+      "district": "Bandarbeyla",
+      "reasoning": "Bandarbeyla (Bari, Puntland) is a Coastal Deeh pastoral/fishing district in the northeast. It was flagged as a 2017 nutrition survey hotspot (Coastal Deeh Pastoral of Bari had Critical GAM in 2017). Puntland has functional governance and health system; CMAM coverage is better than south-central. Locust infestation in 2020 affected Bari region's pasture. Moderate gamma for a northeast coastal district; moderate p reflecting programme access; omega moderately elevated reflecting erratic fishing-livestock income linkages and episodic drought.",
+      "p": {"a": 3.0, "b": 7.0},
+      "gamma": {"a": 2.0, "b": 65.0},
+      "omega": {"a": 1.8, "b": 42.0}
+    },
+    {
+      "district": "Baraawe",
+      "reasoning": "Baraawe (Lower Shabelle) is a coastal town that transitioned from Al-Shabaab control (held until 2014) and remained contested throughout 2017–2021 with limited humanitarian access. FEWS NET consistently noted access constraints in Baraawe/coastal Lower Shabelle. The district sits in the Shabelle Agropastoral and Fishing livelihood zones with flooding risk along the river. Limited programme delivery means p is low; gamma moderate given livelihood stress and IDP movements; omega moderate-high reflecting access irregularity creating bunched case detection.",
+      "p": {"a": 2.0, "b": 6.5},
+      "gamma": {"a": 2.0, "b": 65.0},
+      "omega": {"a": 2.0, "b": 38.0}
+    },
+    {
+      "district": "Baydhaba",
+      "reasoning": "Baydhaba (Baidoa, Bay region) is the regional capital of Bay and one of Somalia's most critical SAM hotspots throughout 2017–2021: Bay Agropastoral has consistently exhibited Critical or Very Critical GAM (>15-30%). Al-Shabaab blockades around Bay towns including Baidoa were documented (Crisis Group 2021); however, Baidoa itself has government and AMISOM presence enabling substantial humanitarian programme delivery. High incidence from surrounding agropastoral stress; strong CMAM programmes elevate p; episodic blockades and drought/locust shocks produce high omega.",
+      "p": {"a": 3.5, "b": 6.5},
+      "gamma": {"a": 4.0, "b": 45.0},
+      "omega": {"a": 3.0, "b": 28.0}
+    },
+    {
+      "district": "Belet Weyne",
+      "reasoning": "Belet Weyne (Hiraan) experienced the most catastrophic flooding event of 2019, with 273,000 people displaced (40% of town inundated) according to UNHCR/PRMN, and the river reached historical highs again in 2020. NRC staff documented severe humanitarian access gaps due to security risks (Al-Shabaab, armed actors). FSNAU consistently classified Belet Weyne district/Beletweyne urban as Critical to Emergency nutrition status across the period. Extremely high gamma reflecting flooding-induced SAM spikes; very high omega reflecting dramatic inter-seasonal variability; moderate p reflecting constrained access limiting recovery.",
+      "p": {"a": 2.5, "b": 6.0},
+      "gamma": {"a": 4.0, "b": 45.0},
+      "omega": {"a": 3.5, "b": 25.0}
+    },
+    {
+      "district": "Belet Xaawo",
+      "reasoning": "Belet Xaawo (Dolow/Doolow, Gedo region) is a border town with Ethiopia hosting major IDP concentrations. Al-Shabaab controlled El Wak (Ceel Waaq) in west Gedo from 2015. Dolow itself maintained government/AMISOM presence and received humanitarian assistance (WFP, NGOs); the 2017 Post-Gu report noted it as a humanitarian delivery point. The district straddles Gedo Riverine and Pastoral zones with historically Critical SAM. Reasonable town-based programme access elevates p; persistent Gedo-level incidence elevates gamma; border dynamics and episodic conflict produce elevated omega.",
+      "p": {"a": 3.0, "b": 6.5},
+      "gamma": {"a": 3.0, "b": 55.0},
+      "omega": {"a": 2.5, "b": 32.0}
+    },
+    {
+      "district": "Berbera",
+      "reasoning": "Berbera (Woqooyi Galbeed, Somaliland) is a port town with Somaliland's most functional infrastructure. Food security is generally Stressed (IPC Phase 2) or better, with urban poor and IDP settlements driving any Crisis classification. FSNAU listed Berbera IDPs as a 2017 nutrition hotspot. The Guban Pastoral livelihood zone around Berbera experienced Emergency conditions in 2018. Somaliland's health system and CMAM programmes function relatively well. Moderate gamma reflecting urban IDP burden and Guban Pastoral stress; moderate p; lower omega given stable programme presence.",
+      "p": {"a": 3.5, "b": 7.5},
+      "gamma": {"a": 2.0, "b": 68.0},
+      "omega": {"a": 1.5, "b": 45.0}
+    },
+    {
+      "district": "Borama",
+      "reasoning": "Borama (Awdal, Somaliland) is the commercial capital of Awdal region with strong markets, cross-border trade with Ethiopia/Djibouti, and functional Somaliland governance. Food security is generally Stressed to Minimal (IPC Phase 1–2) across the period. The 2017 drought did affect Awdal (105,000 in Crisis), and the Guban zone had stresses. However, humanitarian access is good, CMAM is operational, and malnutrition levels are substantially lower than south-central Somalia. Low gamma reflecting relatively stable livelihoods; higher p reflecting programme coverage; low omega reflecting predictable seasonal pattern.",
+      "p": {"a": 4.0, "b": 8.0},
+      "gamma": {"a": 1.5, "b": 75.0},
+      "omega": {"a": 1.5, "b": 50.0}
+    },
+    {
+      "district": "Bossaso",
+      "reasoning": "Bossaso (Bari, Puntland) is Puntland's commercial hub and port. It hosts a large IDP population from drought-induced displacement in 2017 and subsequent years. IDP settlements were classified as Crisis (IPC Phase 3) with Critical GAM in FSNAU surveys. Puntland governance and programme presence support CMAM delivery. Tropical Cyclone Pawan affected Bari coast in December 2019. Moderate-high gamma given IDP burden; moderate p reflecting functional CMAM; moderate omega reflecting episodic displacement surges and weather events.",
+      "p": {"a": 3.5, "b": 7.0},
+      "gamma": {"a": 2.5, "b": 58.0},
+      "omega": {"a": 2.0, "b": 38.0}
+    },
+    {
+      "district": "Bu'aale",
+      "reasoning": "Bu'aale (Middle Juba) is the regional capital of Middle Juba, the district that falls entirely under Al-Shabaab's de facto control (EUAA 2023). Humanitarian access is severely constrained; independent nutrition surveys are largely impossible, making data quality a major concern. SAM cases likely accumulate without treatment (low p due to poor access, not rapid mortality). Incidence is structurally elevated by Al-Shabaab's taxing of food supply and livelihood disruption, alongside pastoral stress. Very low p reflecting near-absence of CMAM; elevated gamma; very high omega reflecting detection irregularity from access constraints.",
+      "p": {"a": 1.5, "b": 7.0},
+      "gamma": {"a": 2.5, "b": 60.0},
+      "omega": {"a": 3.0, "b": 28.0}
+    },
+    {
+      "district": "Bulo Burto",
+      "reasoning": "Bulo Burto (Hiraan) is besieged by Al-Shabaab, with air access described as the only viable means of reaching the town (OCHA 2021: Al-Shabaab damaged the airport). FEWS NET flagged Bulo Burto access as constrained from at least 2017 onward. The district has Critical malnutrition typical of Hiraan region, compounded by AWD outbreaks. Very constrained programme delivery means p is very low; gamma reflects endemic Hiraan malnutrition; very high omega reflecting severe access irregularity creating heavily bunched case detection.",
+      "p": {"a": 1.5, "b": 7.0},
+      "gamma": {"a": 3.0, "b": 55.0},
+      "omega": {"a": 3.5, "b": 25.0}
+    },
+    {
+      "district": "Burco",
+      "reasoning": "Burco (Togdheer, Somaliland) is the capital of Togdheer region. During 2017, the Hawd Pastoral zone of Togdheer was in crisis; the 2018 Post-Deyr identified NIP of Northwest as Crisis (IPC Phase 3) with expected deterioration in Togdheer Agropastoral into 2019. Somaliland governance enables CMAM programme delivery, though scale is limited relative to the burden. Moderate gamma reflecting Togdheer agropastoral/pastoral stress; moderate p reflecting functional health system; moderate omega reflecting seasonal variability in agropastoral livelihoods.",
+      "p": {"a": 3.5, "b": 7.5},
+      "gamma": {"a": 2.0, "b": 65.0},
+      "omega": {"a": 1.8, "b": 42.0}
+    },
+    {
+      "district": "Burtinle",
+      "reasoning": "Burtinle (Nugaal, Puntland) lies in the Hawd/Addun pastoral zone of Nugaal which improved seasonally in late 2017 but remained below average. The Northern Inland Pastoral zone was cited as a 2017 nutrition hotspot. Puntland's relatively functional governance provides basic CMAM infrastructure. Locust infestation in 2020 affected central regions. Moderate gamma for a Puntland pastoral district; moderate p; omega moderate reflecting pastoral livelihood variability.",
+      "p": {"a": 3.0, "b": 7.5},
+      "gamma": {"a": 2.0, "b": 68.0},
+      "omega": {"a": 1.8, "b": 45.0}
+    },
+    {
+      "district": "Buuhoodle",
+      "reasoning": "Buuhoodle (Togdheer, straddling Somaliland/Puntland) is a contested district with clan tensions (Dhulbahante/Isaaq) limiting governance clarity. The 2017 Post-Gu release noted Buhodle as receiving humanitarian assistance. The Hawd Pastoral zone here was stressed throughout the period. Governance ambiguity limits reliable CMAM programme delivery; moderate p; moderate gamma reflecting pastoral livelihood stress in both Togdheer and adjacent Puntland zones; moderate omega.",
+      "p": {"a": 2.5, "b": 7.0},
+      "gamma": {"a": 2.0, "b": 65.0},
+      "omega": {"a": 2.0, "b": 42.0}
+    },
+    {
+      "district": "Buur Hakaba",
+      "reasoning": "Buur Hakaba (Bay region) is a rural Bay district with predominantly Al-Shabaab rural control; FEWS NET (2017) explicitly listed Buur Hakaba as an area where humanitarian access was expected to remain limited. The Bay Agropastoral livelihood zone is one of the most chronically food insecure in Somalia with Very Critical GAM in multiple surveys. Very constrained access drives very low p; very high gamma reflecting endemic Bay-level malnutrition; very high omega reflecting access-driven case detection irregularity.",
+      "p": {"a": 1.5, "b": 6.5},
+      "gamma": {"a": 4.0, "b": 45.0},
+      "omega": {"a": 3.5, "b": 25.0}
+    },
+    {
+      "district": "Cabudwaaq",
+      "reasoning": "Cabudwaaq (Galgaduud) is in the Addun Pastoral livelihood zone of central Somalia, which experienced severe drought stress in 2017 and remained in Crisis or Emergency classification for much of 2017–2021. Galgaduud (212,000 in Crisis, 73,000 in Emergency per 2017 Post-Gu) is among the most affected central regions. Al-Shabaab presence in rural Galgaduud limits access. Moderate p reflecting some Puntland-adjacent programme spill; high gamma reflecting central Somalia malnutrition burden; high omega reflecting episodic droughts and access disruptions.",
+      "p": {"a": 2.5, "b": 6.5},
+      "gamma": {"a": 3.0, "b": 55.0},
+      "omega": {"a": 2.5, "b": 32.0}
+    },
+    {
+      "district": "Cadaado",
+      "reasoning": "Cadaado (Galgaduud) is the regional capital of Galgaduud and seat of Galmudug state. It has modest government presence and some humanitarian access. The Addun Pastoral and Cowpea Belt Agropastoral livelihood zones around it were severely stressed in 2017 and 2020 (locust damage documented). Cadaado IDP populations were listed as malnutrition hotspots. Moderate p reflecting some programme presence at the state capital; elevated gamma given Galgaduud-level malnutrition burden; moderate-high omega.",
+      "p": {"a": 3.0, "b": 7.0},
+      "gamma": {"a": 3.0, "b": 58.0},
+      "omega": {"a": 2.5, "b": 32.0}
+    },
+    {
+      "district": "Cadale",
+      "reasoning": "Cadale (Middle Shabelle) was explicitly cited as one of two districts (with Balcad) where CDR exceeded famine thresholds during the 2011 crisis, establishing the worst historical baseline in the Shabelle Agropastoral zone. During 2017–2021, it remained a recurrent hotspot, repeatedly flooded (Shabelle River overflow in 2019 and 2020 inundated >54,000 ha in Jowhar/Balcad/Cadale area per FAO SWALIM). Al-Shabaab presence in rural areas restricts access. Very high gamma; high omega; p moderate-low reflecting access constraints and high morbidity burden.",
+      "p": {"a": 2.5, "b": 6.0},
+      "gamma": {"a": 3.5, "b": 50.0},
+      "omega": {"a": 3.0, "b": 28.0}
+    },
+    {
+      "district": "Caluula",
+      "reasoning": "Caluula (Bari, Puntland) is a remote northeastern coastal fishing district with the Coastal Deeh Pastoral/Fishing livelihood zone. The 2017 drought hit Northeast hard; Coastal Deeh Bari was a nutrition hotspot in 2017. Puntland provides basic governance but Caluula's remoteness limits CMAM coverage. Moderate gamma; moderate p with limitations from remoteness; moderate omega.",
+      "p": {"a": 2.5, "b": 7.0},
+      "gamma": {"a": 2.0, "b": 65.0},
+      "omega": {"a": 1.8, "b": 45.0}
+    },
+    {
+      "district": "Caynabo",
+      "reasoning": "Caynabo (Sool, Somaliland-administered) is in the Hawd Pastoral zone of Sool. The 2017 Post-Gu listed Caynabo as receiving humanitarian assistance reaching over 50% of those in need. Sool remained in Crisis (IPC Phase 3) for much of 2017–2021 (82,000 in Stressed, 98,000 in Crisis, 45,000 in Emergency in 2017 alone). Somaliland administration provides partial programme coverage. Moderate gamma for Sool district; moderate p reflecting some humanitarian assistance; moderate omega.",
+      "p": {"a": 3.0, "b": 7.0},
+      "gamma": {"a": 2.5, "b": 62.0},
+      "omega": {"a": 2.0, "b": 40.0}
+    },
+    {
+      "district": "Ceel Afweyn",
+      "reasoning": "Ceel Afweyn (Sanaag, Somaliland) is in the East Golis and Hawd Pastoral livelihood zones of Sanaag, which had Critical GAM in 2017 surveys. Sanaag (127,000 Crisis, 88,000 Emergency in 2017) was one of the most affected northern regions. Ceel Afweyn is remote and mountainous, limiting access; Somaliland administers it but programme reach is modest. Elevated gamma reflecting Sanaag-level malnutrition; moderate p; elevated omega reflecting remote pastoral shock exposure.",
+      "p": {"a": 2.5, "b": 7.0},
+      "gamma": {"a": 2.5, "b": 62.0},
+      "omega": {"a": 2.0, "b": 38.0}
+    },
+    {
+      "district": "Ceel Barde",
+      "reasoning": "Ceel Barde (Bakool) is a rural Bakool district with persistent Al-Shabaab presence and extremely limited humanitarian access; FEWS NET (2017) listed Bakool Pastoral as a zone where access is constrained. The Bakool Pastoral and Low Potential Agropastoral livelihood zones are chronically food insecure. Al-Shabaab blockades on Bakool towns (Waajid, Hudur, Qansax Dheere) documented by Crisis Group and US State Dept. Very low p; very high gamma; very high omega reflecting detection irregularity.",
+      "p": {"a": 1.5, "b": 6.5},
+      "gamma": {"a": 3.5, "b": 50.0},
+      "omega": {"a": 3.5, "b": 25.0}
+    },
+    {
+      "district": "Ceel Buur",
+      "reasoning": "Ceel Buur (Galgaduud) is in the Cowpea Belt and Addun Pastoral zones of central Somalia with EUAA documenting Al-Shabaab control in large swathes around El Buur and El Dher. FEWS NET (2017) listed El Bur as an area with access constraints. Locust damage to Cowpea Belt was documented in 2020 (FEWS NET). Very restricted access limits CMAM delivery; children remain malnourished for extended periods. Very low p; elevated gamma; very high omega.",
+      "p": {"a": 1.5, "b": 7.0},
+      "gamma": {"a": 3.0, "b": 55.0},
+      "omega": {"a": 3.5, "b": 25.0}
+    },
+    {
+      "district": "Ceel Dheere",
+      "reasoning": "Ceel Dheere (Galgaduud/Mudug border area) is in the Cowpea Belt Agropastoral zone with Al-Shabaab de facto control documented by EUAA in surrounding Galgaduud areas (Harardhere, El Dher, El Buur zone). Access is severely constrained. Locust infestation in 2020 severely damaged Cowpea Belt crops. Very low p from near-total absence of CMAM; elevated gamma from chronic Galgaduud-level food insecurity; very high omega from access-driven detection bunching.",
+      "p": {"a": 1.5, "b": 7.0},
+      "gamma": {"a": 2.5, "b": 58.0},
+      "omega": {"a": 3.5, "b": 25.0}
+    },
+    {
+      "district": "Ceel Waaq",
+      "reasoning": "Ceel Waaq (El Wak, Gedo region) is in western Gedo bordering Kenya, where Al-Shabaab controlled El Wak from 2015 (ACAPS 2017) and maintained presence throughout 2017–2021, repeatedly ambushing vehicles along the Ethiopia border (EUAA 2023). North Gedo Pastoral has the worst-documented malnutrition in Somalia from historical surveys. Almost no independent humanitarian access. Very low p; very high gamma reflecting North Gedo endemic malnutrition; very high omega reflecting access irregularity.",
+      "p": {"a": 1.5, "b": 6.5},
+      "gamma": {"a": 4.0, "b": 45.0},
+      "omega": {"a": 3.5, "b": 22.0}
+    },
+    {
+      "district": "Ceerigaabo",
+      "reasoning": "Ceerigaabo (Erigavo, Sanaag) is the capital of Sanaag region, administered by Somaliland. Sanaag was severely affected in 2017 (127,000 Crisis, 88,000 Emergency); East Golis and Hawd Pastoral zones had Critical GAM. However, as a regional capital it has better CMAM programme access than rural Sanaag. The 2017 Post-Gu listed Badhan and Erigavo as receiving >50% coverage. Moderate gamma; moderate p reflecting programme access; moderate omega.",
+      "p": {"a": 3.0, "b": 7.0},
+      "gamma": {"a": 2.5, "b": 60.0},
+      "omega": {"a": 2.0, "b": 40.0}
+    },
+    {
+      "district": "Dhuusamarreeb",
+      "reasoning": "Dhuusamarreeb (Galgaduud) is the capital of Galmudug state with government and international presence. It hosts IDP populations (Dhusamareb IDPs listed as malnutrition hotspot with Critical SAM in 2014/15 FSNAU report). Terms of trade were severely depressed in 2017 (goat bought only 35 kg rice vs 47 kg average). Some CMAM programme delivery occurs here. Moderate p reflecting some treatment access; elevated gamma given Galgaduud burden and IDP presence; moderate omega.",
+      "p": {"a": 3.0, "b": 7.0},
+      "gamma": {"a": 3.0, "b": 56.0},
+      "omega": {"a": 2.5, "b": 35.0}
+    },
+    {
+      "district": "Diinsoor",
+      "reasoning": "Diinsoor (Bay region) is a rural Bay district in the Bay Agropastoral Low Potential livelihood zone with near-total Al-Shabaab rural control documented throughout 2017–2021 (Crisis Group: blockades on Bay towns; FEWS NET listing it among inaccessible areas). Bay/Bakool Low Potential Agropastoral is one of the worst food security zones in Somalia. Very low p from inaccessibility; very high gamma reflecting Bay-level endemic malnutrition; very high omega from access irregularity.",
+      "p": {"a": 1.5, "b": 6.5},
+      "gamma": {"a": 4.0, "b": 45.0},
+      "omega": {"a": 3.5, "b": 22.0}
+    },
+    {
+      "district": "Doolow",
+      "reasoning": "Doolow (Gedo) is the main border crossing point with Ethiopia and hosts major cross-border IDP flows. The 2017 Post-Gu listed Doolow as a humanitarian access point reaching >50% of those in need. Government/AMISOM captured Al-Shabaab bases in Doolow in July 2022 (EUAA), suggesting meaningful Al-Shabaab disruption in 2017–2021. Doolow IDPs had Very High underweight prevalence in 2014/15 FSNAU. The Gedo Riverine zone around Doolow was flooded in 2019. Moderate p reflecting cross-border programme access; very high gamma given Gedo and IDP burden; high omega reflecting flooding and conflict episodics.",
+      "p": {"a": 3.0, "b": 6.5},
+      "gamma": {"a": 3.5, "b": 50.0},
+      "omega": {"a": 3.0, "b": 28.0}
+    },
+    {
+      "district": "Eyl",
+      "reasoning": "Eyl (Nugaal, Puntland) is a remote Coastal Deeh and Hawd Pastoral district. FEWS NET (2017 June) noted water sources were only partially refilled in NIP and Hawd Pastoral of Eyl. Puntland has functional governance but Eyl is remote with limited CMAM infrastructure. Moderate gamma for northeast pastoral district; moderate p from remoteness limiting access; moderate omega.",
+      "p": {"a": 2.5, "b": 7.5},
+      "gamma": {"a": 1.8, "b": 68.0},
+      "omega": {"a": 1.8, "b": 48.0}
+    },
+    {
+      "district": "Gaalkacyo",
+      "reasoning": "Gaalkacyo (Mudug, split Puntland/Galmudug) hosts major IDP settlements with Critical GAM documented throughout 2017–2021. Terms of trade declined sharply in 2017 (goat bought only 55 kg rice vs 74 kg average). Gaalkacyo IDPs were listed as malnutrition hotspots in 2017 Post-Gu. CMAM programmes operate on both sides (Puntland north, Galmudug south) but with access complications from the divided city. Moderate p reflecting some treatment access; high gamma given IDP burden and Mudug-level food insecurity; high omega reflecting conflict-driven displacement surges.",
+      "p": {"a": 3.0, "b": 6.5},
+      "gamma": {"a": 3.0, "b": 55.0},
+      "omega": {"a": 2.5, "b": 32.0}
+    },
+    {
+      "district": "Galdogob",
+      "reasoning": "Galdogob (Mudug) is in the Hawd and Addun Pastoral zones of southern Mudug with documented al-Shabaab presence in southern Mudug portions (EUAA, FEWS NET). The 2017 drought severely affected Mudug (221,000 in Crisis, 54,000 in Emergency). Al-Shabaab presence restricts rural access. Low-moderate p from access constraints; elevated gamma reflecting Mudug drought burden; elevated omega reflecting access irregularity.",
+      "p": {"a": 2.0, "b": 6.5},
+      "gamma": {"a": 2.5, "b": 60.0},
+      "omega": {"a": 2.5, "b": 35.0}
+    },
+    {
+      "district": "Garbahaarey",
+      "reasoning": "Garbahaarey (Gedo capital) is the main government town in Gedo region. Al-Shabaab surrounds it in rural areas but it maintains government/AMISOM/ATMIS presence. North Gedo Pastoral/Agropastoral is the worst-documented malnutrition zone in Somalia historically (GAM >24–25% in 2014/15 surveys; 2019 drought and 2021 resurgence continued the crisis). Some humanitarian programme delivery from the capital. Moderate p reflecting town-based treatment access; very high gamma reflecting endemic Gedo malnutrition; high omega reflecting surrounding conflict and drought variability.",
+      "p": {"a": 3.0, "b": 6.5},
+      "gamma": {"a": 3.5, "b": 50.0},
+      "omega": {"a": 3.0, "b": 28.0}
+    },
+    {
+      "district": "Garoowe",
+      "reasoning": "Garoowe (Nugaal, Puntland capital) is Puntland's administrative capital with the most functional institutions and CMAM programme delivery in northeast Somalia. The 2017 Post-Gu listed Garowe as receiving >50% humanitarian coverage. IDP settlements here had Critical GAM but better access to treatment. Moderate gamma reflecting IDP and urban poor burden; higher p reflecting functional programme delivery; lower omega reflecting more predictable programme delivery.",
+      "p": {"a": 4.0, "b": 8.0},
+      "gamma": {"a": 2.0, "b": 65.0},
+      "omega": {"a": 1.8, "b": 45.0}
+    },
+    {
+      "district": "Gebiley",
+      "reasoning": "Gebiley (Woqooyi Galbeed, Somaliland) is a stable agropastoral district with functional Somaliland governance and market linkages to Hargeisa. Food security is generally Stressed to Minimal. The 2017 northwest harvest failure (87% below average) affected Gebiley agropastoral households. CMAM is functional. Low-moderate gamma; higher p; low omega reflecting predictable seasonal livelihood patterns.",
+      "p": {"a": 3.5, "b": 8.0},
+      "gamma": {"a": 1.5, "b": 75.0},
+      "omega": {"a": 1.3, "b": 52.0}
+    },
+    {
+      "district": "Hargeysa",
+      "reasoning": "Hargeysa (Woqooyi Galbeed, Somaliland capital) has Somalia's most developed humanitarian infrastructure, UN agency presence, and functioning markets. The 2017 Post-Gu listed Hargeisa IDPs as a nutrition hotspot. The Northwest 2017 harvest was 87% below average, stressing urban poor and IDPs. However, Somaliland governance and well-functioning CMAM system mean cases move through treatment quickly. Moderate gamma given IDP concentration; higher p reflecting strong programme delivery; low omega reflecting stable urban environment.",
+      "p": {"a": 4.5, "b": 8.5},
+      "gamma": {"a": 2.0, "b": 65.0},
+      "omega": {"a": 1.3, "b": 50.0}
+    },
+    {
+      "district": "Hobyo",
+      "reasoning": "Hobyo (Mudug/Galgaduud boundary, Cowpea Belt and Coastal Deeh zones) experienced Cowpea Belt crop damage from locusts in 2020 (FEWS NET specifically named Hobyo). Al-Shabaab influence is documented in surrounding Galgaduud. Coastal livelihoods provide some buffer but are weather-dependent. Moderate-low p from access constraints; moderate gamma; elevated omega from locust and drought shocks.",
+      "p": {"a": 2.0, "b": 7.0},
+      "gamma": {"a": 2.5, "b": 62.0},
+      "omega": {"a": 2.5, "b": 35.0}
+    },
+    {
+      "district": "Iskushuban",
+      "reasoning": "Iskushuban (Bari, Puntland) is a remote northeastern district in the Coastal Deeh Pastoral zone. The 2017 Post-Gu listed Bender Belia and Iskushuban (Bari) as receiving >50% humanitarian coverage. The 2017 northeast drought severely stressed Bari Coast. Puntland governance provides some CMAM access but remoteness limits scale. Moderate gamma for northeast coastal district; moderate p; moderate omega.",
+      "p": {"a": 3.0, "b": 7.5},
+      "gamma": {"a": 2.0, "b": 65.0},
+      "omega": {"a": 1.8, "b": 45.0}
+    },
+    {
+      "district": "Jalalaqsi",
+      "reasoning": "Jalalaqsi (Hiraan) is explicitly listed by FEWS NET (2017 June) as a district where access was expected to remain limited even if overall humanitarian assistance continued. FAO SWALIM documented flooding in Jalalaqsi in 2019 (54,000 ha inundated across Jalalaqsi/Jowhar/Balcad). Al-Shabaab presence and flooding create severe access constraints. Very low p; high gamma from Hiraan-level malnutrition burden amplified by flooding; very high omega from extreme access irregularity.",
+      "p": {"a": 1.5, "b": 6.5},
+      "gamma": {"a": 3.5, "b": 50.0},
+      "omega": {"a": 3.5, "b": 25.0}
+    },
+    {
+      "district": "Jamaame",
+      "reasoning": "Jamaame (Jimame, Lower Juba) is a district with Al-Shabaab presence in rural areas; FEWS NET (2017 June) explicitly listed Jimame as an area of constrained access. The district spans Juba Riverine and Juba Cattle Pastoral zones. Kismayo (the regional capital) provides some programme coverage via outreach. Moderate-low p from access constraints; moderate gamma from Lower Juba livelihood stress; elevated omega from Al-Shabaab-driven access variability.",
+      "p": {"a": 2.0, "b": 6.5},
+      "gamma": {"a": 2.5, "b": 62.0},
+      "omega": {"a": 2.5, "b": 35.0}
+    },
+    {
+      "district": "Jariiban",
+      "reasoning": "Jariiban (Mudug, Puntland) is in the Hawd and Coastal Deeh Pastoral zones. FEWS NET (2017) noted water sources were only partially refilled in Addun Pastoral of Jariiban. The 2017 Post-Gu listed Jariban as receiving >50% humanitarian coverage. Puntland administers this district with moderate programme reach. Moderate gamma; moderate p reflecting some programme access; moderate omega.",
+      "p": {"a": 3.0, "b": 7.5},
+      "gamma": {"a": 2.0, "b": 65.0},
+      "omega": {"a": 1.8, "b": 45.0}
+    },
+    {
+      "district": "Jilib",
+      "reasoning": "Jilib (Middle Juba) is effectively Al-Shabaab's 'headquarters town' (EUAA: Al-Shabaab concentrates its governance apparatus in Jilib) — the single highest-access-constraint district in Somalia. Independent humanitarian surveys are impossible; SAM cases cannot be treated; children remain malnourished or die without CMAM access. The lowest possible p; very high structural gamma from absolute food system control by Al-Shabaab; very high omega from total detection irregularity when any data is collected.",
+      "p": {"a": 1.2, "b": 7.0},
+      "gamma": {"a": 2.5, "b": 58.0},
+      "omega": {"a": 4.0, "b": 20.0}
+    },
+    {
+      "district": "Jowhar",
+      "reasoning": "Jowhar (Middle Shabelle, Hirshabelle capital) experienced severe flooding in 2019 (FAO SWALIM: Jowhar/Balcad flooded, >54,000 ha agricultural land inundated) and again in 2020. It is the most accessible district in Middle Shabelle due to Hirshabelle state administration. Large IDP population in and around town. CMAM programmes operate. High gamma from repeated flooding-induced SAM spikes; moderate p reflecting programme access; very high omega reflecting dramatic inter-annual flooding variability.",
+      "p": {"a": 3.0, "b": 6.5},
+      "gamma": {"a": 3.0, "b": 55.0},
+      "omega": {"a": 3.0, "b": 28.0}
+    },
+    {
+      "district": "Kismaayo",
+      "reasoning": "Kismaayo (Kismayo, Lower Juba) is Jubaland's capital and main port, with government/AMISOM presence and the most functional humanitarian infrastructure in Jubaland. Kismayo IDPs were listed as malnutrition hotspots (2017 Post-Gu). The city receives substantial WFP and NGO programming. Large IDP burden keeps gamma elevated but CMAM coverage supports faster exit. Moderate p; elevated gamma from IDP burden; moderate omega reflecting reasonably stable programme environment with some displacement surges.",
+      "p": {"a": 3.5, "b": 7.0},
+      "gamma": {"a": 2.5, "b": 58.0},
+      "omega": {"a": 2.0, "b": 38.0}
+    },
+    {
+      "district": "Kurtunwaarey",
+      "reasoning": "Kurtunwaarey (Lower Shabelle) is a rural district explicitly listed by FEWS NET (2017) as an area of expected access constraints. It lies in the Shabelle Agropastoral zone with Al-Shabaab presence in rural areas. Interclan fighting in Wanlaweyn area (adjacent Lower Shabelle) documented from 2020. Very limited CMAM reach; low p; elevated gamma from Lower Shabelle livelihood stress; high omega from access irregularity.",
+      "p": {"a": 1.8, "b": 6.5},
+      "gamma": {"a": 2.5, "b": 60.0},
+      "omega": {"a": 3.0, "b": 30.0}
+    },
+    {
+      "district": "Laas Caanood",
+      "reasoning": "Laas Caanood (Sool, contested Somaliland/Puntland) has functional (Somaliland-administered for most of 2017–2021) governance and some CMAM delivery. Sool was significantly affected in 2017 (98,000 Crisis, 45,000 Emergency). The Hawd Pastoral zone experienced drought stress throughout the period. Moderate gamma; moderate p reflecting some programme access; moderate omega reflecting pastoral variability.",
+      "p": {"a": 3.0, "b": 7.0},
+      "gamma": {"a": 2.5, "b": 62.0},
+      "omega": {"a": 2.0, "b": 40.0}
+    },
+    {
+      "district": "Laasqoray",
+      "reasoning": "Laasqoray (Sanaag, Puntland-adjacent) is an extremely remote northeastern Sanaag coastal district. Sanaag was one of the most severely food-insecure northern regions in 2017 (127,000 Crisis, 88,000 Emergency). The 2017 Post-Gu listed Badhan (adjacent) as receiving coverage. Remoteness severely limits CMAM reach. Moderate gamma from Sanaag-level stress; low-moderate p from remoteness; moderate omega.",
+      "p": {"a": 2.5, "b": 7.0},
+      "gamma": {"a": 2.5, "b": 63.0},
+      "omega": {"a": 2.0, "b": 42.0}
+    },
+    {
+      "district": "Lughaye",
+      "reasoning": "Lughaye (Awdal, Somaliland) is a small coastal district bordering Djibouti. Awdal had 105,000 in Crisis and 36,000 in Emergency in 2017 but recovered more quickly than other regions due to Somaliland administration and Djibouti trade links. Lughaye has cross-border livelihood opportunities but is small and remote. Low-moderate gamma; moderate p; low omega reflecting relatively predictable coastal/trade-linked livelihoods.",
+      "p": {"a": 3.0, "b": 7.5},
+      "gamma": {"a": 1.8, "b": 70.0},
+      "omega": {"a": 1.5, "b": 50.0}
+    },
+    {
+      "district": "Luuq",
+      "reasoning": "Luuq (Gedo) is a government-controlled riverine town in North Gedo, one of Somalia's worst chronic malnutrition zones (GAM historically >20%). The 2017 Post-Gu listed Luuq as receiving >50% humanitarian coverage (WFP, NGOs). Terms of trade collapsed dramatically in 2017 (goat bought only 63 kg sorghum vs 106 kg average). Juba riverine flooding affected Luuq area in 2019. Al-Shabaab was expelled from Luuq in 2022 but maintained rural presence throughout 2017–2021. Moderate p from town-based programme delivery; very high gamma from endemic Gedo-level burden; high omega from flooding and conflict episodics.",
+      "p": {"a": 3.0, "b": 6.5},
+      "gamma": {"a": 3.5, "b": 50.0},
+      "omega": {"a": 2.5, "b": 30.0}
+    },
+    {
+      "district": "Marka",
+      "reasoning": "Marka (Lower Shabelle) is the Lower Shabelle regional capital, explicitly listed by FEWS NET (2017) as an access-constrained area alongside Brava/Kurtun Warrey/Qorioley. The district is in the Shabelle Agropastoral zone with Al-Shabaab in surrounding rural areas. Conflict in Wanlaweyn/Marka area disrupted cropping activities into 2020 (FEWS NET). Moderate programme delivery in the town but rural areas severely constrained. Low-moderate p; elevated gamma; elevated omega reflecting conflict-driven access variability.",
+      "p": {"a": 2.0, "b": 6.5},
+      "gamma": {"a": 2.5, "b": 60.0},
+      "omega": {"a": 2.5, "b": 35.0}
+    },
+    {
+      "district": "Owdweyne",
+      "reasoning": "Owdweyne (Togdheer, Somaliland) is in the Hawd and East Golis Pastoral zones. FEWS NET (2017 June) noted Elafweyn/Burao/Odweyne conditions were below average in 2017. The 2018 Post-Deyr identified Togdheer Agropastoral as likely to deteriorate. Somaliland governance provides modest CMAM access. Moderate gamma from Togdheer stress; moderate p; moderate omega.",
+      "p": {"a": 3.0, "b": 7.5},
+      "gamma": {"a": 2.0, "b": 65.0},
+      "omega": {"a": 1.8, "b": 45.0}
+    },
+    {
+      "district": "Qandala",
+      "reasoning": "Qandala (Bari, Puntland) is a small remote coastal district. It was briefly captured by ISIS-Somalia in late 2016 and retaken by Puntland forces, with ongoing ISIS presence noted in Bari throughout 2017–2021 (US State Dept). Northeast drought in 2017 was severe. Moderate gamma; low p from remoteness and security constraints; moderate omega.",
+      "p": {"a": 2.5, "b": 7.5},
+      "gamma": {"a": 2.0, "b": 65.0},
+      "omega": {"a": 2.0, "b": 42.0}
+    },
+    {
+      "district": "Qansax Dheere",
+      "reasoning": "Qansax Dheere (Bay region) is explicitly named by the US State Department 2021 report as a district where Al-Shabaab seized main supply routes and limited food/commodity truck movement throughout 2021; also listed by FEWS NET (2017) as access-constrained. The Bay Agropastoral Low Potential zone around it is one of Somalia's worst malnutrition contexts. Near-total rural Al-Shabaab control. Very low p; very high gamma; very high omega.",
+      "p": {"a": 1.5, "b": 6.5},
+      "gamma": {"a": 4.0, "b": 45.0},
+      "omega": {"a": 3.5, "b": 22.0}
+    },
+    {
+      "district": "Qardho",
+      "reasoning": "Qardho (Bari, Puntland) is the administrative center of Bari's interior. The 2017 Post-Gu listed Qardho/Gardo as receiving >50% humanitarian coverage. Bari region (Northern Inland Pastoral) was a 2017 malnutrition hotspot. Puntland CMAM programmes operate from Qardho. Moderate gamma for northeast district; moderate p reflecting programme access; moderate omega.",
+      "p": {"a": 3.0, "b": 7.5},
+      "gamma": {"a": 2.0, "b": 65.0},
+      "omega": {"a": 1.8, "b": 45.0}
+    },
+    {
+      "district": "Qoryooley",
+      "reasoning": "Qoryooley (Lower Shabelle) is explicitly listed by FEWS NET (2017) as an access-constrained area ('Brava, Kurtun Warrey, Qorioley, and Marka'). Conflict disrupted cropping in Qoryoley in 2020 (FEWS NET). Al-Shabaab controls surrounding rural areas. Very limited humanitarian access. Very low p; elevated gamma from Lower Shabelle livelihood stress; very high omega from severe access irregularity.",
+      "p": {"a": 1.8, "b": 6.5},
+      "gamma": {"a": 2.5, "b": 60.0},
+      "omega": {"a": 3.0, "b": 28.0}
+    },
+    {
+      "district": "Rab Dhuure",
+      "reasoning": "Rab Dhuure (Bakool) is listed by FEWS NET (2017) as an access-constrained Bakool district alongside Tieglo. Al-Shabaab blockades in Bakool were documented throughout 2017–2021 (Crisis Group, US State Dept). Bakool Pastoral and Low Potential Agropastoral are chronically food insecure. Very low p; very high gamma; very high omega.",
+      "p": {"a": 1.5, "b": 6.5},
+      "gamma": {"a": 3.5, "b": 50.0},
+      "omega": {"a": 3.5, "b": 25.0}
+    },
+    {
+      "district": "Saakow",
+      "reasoning": "Saakow (Middle Juba) is one of Middle Juba's three districts under Al-Shabaab de facto control (EUAA: Jilib and Saakow documented with most security incidents). Humanitarian access is near-zero. ACLED records violence against civilians in Saakow under Al-Shabaab. SAM cases have virtually no access to treatment. Very low p; elevated gamma from structural food insecurity; very high omega from access-driven detection irregularity.",
+      "p": {"a": 1.2, "b": 7.0},
+      "gamma": {"a": 2.5, "b": 58.0},
+      "omega": {"a": 4.0, "b": 20.0}
+    },
+    {
+      "district": "Sablaale",
+      "reasoning": "Sablaale (Lower Shabelle) is a rural Lower Shabelle district in the Shabelle Agropastoral zone with Al-Shabaab presence and restricted access similar to Kurtunwaarey and Baraawe. US State Dept (2020) noted interclan fighting in Wanlaweyn/Lower Shabelle area. Very limited CMAM reach. Low p; elevated gamma from Lower Shabelle agropastoral stress; high omega from access irregularity.",
+      "p": {"a": 1.8, "b": 6.5},
+      "gamma": {"a": 2.5, "b": 60.0},
+      "omega": {"a": 3.0, "b": 30.0}
+    },
+    {
+      "district": "Sheikh",
+      "reasoning": "Sheikh (Togdheer, Somaliland) is a small mountain district with agropastoral livelihoods. FSNAU (2018 Post-Deyr) identified Togdheer Agropastoral as heading for Crisis conditions. Somaliland governance provides reasonable CMAM access. Lower SAM burden than southern Somalia; moderate gamma for a Somaliland agropastoral district; moderate-higher p; lower omega.",
+      "p": {"a": 3.5, "b": 8.0},
+      "gamma": {"a": 1.8, "b": 68.0},
+      "omega": {"a": 1.5, "b": 48.0}
+    },
+    {
+      "district": "Taleex",
+      "reasoning": "Taleex (Sool, Puntland-administered) is in the Hawd Pastoral zone of Sool. Sool experienced 98,000 in Crisis and 45,000 in Emergency in 2017. The 2017 Post-Gu listed Taleh, Caynabo, and Xudun as receiving >50% humanitarian coverage. Remote but some humanitarian access. Moderate gamma; moderate p; moderate omega.",
+      "p": {"a": 3.0, "b": 7.0},
+      "gamma": {"a": 2.5, "b": 62.0},
+      "omega": {"a": 2.0, "b": 42.0}
+    },
+    {
+      "district": "Tayeeglow",
+      "reasoning": "Tayeeglow (Tieglo, Bakool) is listed by FEWS NET (2017) as one of the access-constrained Bakool districts alongside Rab Dhure. Al-Shabaab blockades in Bakool (Waajid, Hudur, Qansax Dheere explicitly mentioned by Crisis Group/US State Dept) apply to surrounding districts. Bakool Pastoral/Low Potential Agropastoral is chronically food insecure. Very low p; very high gamma; very high omega.",
+      "p": {"a": 1.5, "b": 6.5},
+      "gamma": {"a": 3.5, "b": 50.0},
+      "omega": {"a": 3.5, "b": 25.0}
+    },
+    {
+      "district": "Waajid",
+      "reasoning": "Waajid (Bakool) is explicitly named by the US State Dept (2021) as a district where Al-Shabaab seized supply routes and limited food/commodity movement throughout 2021; OCHA (2021) documented Al-Shabaab confiscating donkey carts carrying goods to Waajid. Crisis Group noted Wajid is subject to Al-Shabaab blockades limiting land resupply. Bakool Pastoral/Low Potential Agropastoral is chronically food insecure. Very low p; very high gamma; very high omega.",
+      "p": {"a": 1.5, "b": 6.5},
+      "gamma": {"a": 3.5, "b": 50.0},
+      "omega": {"a": 3.5, "b": 22.0}
+    },
+    {
+      "district": "Wanla Weyn",
+      "reasoning": "Wanla Weyn (Lower Shabelle) experienced documented interclan fighting from April 2020 through 2021 (US State Dept), disrupting livelihoods and causing population displacement. The district lies in the Shabelle Agropastoral zone. Al-Shabaab operates in surrounding areas. Severe insecurity limits CMAM delivery. Low p; elevated gamma from displacement and livelihood shocks; very high omega from conflict-driven case detection variability.",
+      "p": {"a": 1.8, "b": 6.5},
+      "gamma": {"a": 2.5, "b": 60.0},
+      "omega": {"a": 3.0, "b": 28.0}
+    },
+    {
+      "district": "Xarardheere",
+      "reasoning": "Xarardheere (Mudug/Galgaduud) is a remote coastal district with Cowpea Belt Agropastoral and Coastal Deeh livelihoods. EUAA documents Al-Shabaab de facto control in large swathes around Harardhere. FSNAU rarely surveys this area due to access constraints; locust damage to Cowpea Belt in 2020 was documented (FEWS NET). Very limited CMAM access. Low p; moderate gamma; very high omega from access-driven detection irregularity.",
+      "p": {"a": 1.5, "b": 7.0},
+      "gamma": {"a": 2.5, "b": 60.0},
+      "omega": {"a": 3.5, "b": 25.0}
+    },
+    {
+      "district": "Xudun",
+      "reasoning": "Xudun (Sool, Somaliland-administered) is in the Hawd Pastoral zone of Sool. The 2017 Post-Gu listed Xudun as receiving >50% humanitarian coverage. Sool remained in Crisis for much of the period. Somaliland administration provides modest CMAM coverage. Moderate gamma; moderate p reflecting some programme access; moderate omega.",
+      "p": {"a": 3.0, "b": 7.0},
+      "gamma": {"a": 2.5, "b": 62.0},
+      "omega": {"a": 2.0, "b": 40.0}
+    },
+    {
+      "district": "Xudur",
+      "reasoning": "Xudur (Hudur, Bakool capital) is explicitly named by US State Dept (2021) as one of the districts where Al-Shabaab seized supply routes and limited food/commodity movement. Crisis Group named Hudur among Bakool towns subject to Al-Shabaab blockades. In 2017, the Hudur goat-to-sorghum ToT collapsed 50% below average. Bakool Pastoral/Low Potential Agropastoral is chronically food insecure. Very low p; very high gamma; very high omega.",
+      "p": {"a": 1.5, "b": 6.5},
+      "gamma": {"a": 3.5, "b": 50.0},
+      "omega": {"a": 3.5, "b": 22.0}
+    },
+    {
+      "district": "Zeylac",
+      "reasoning": "Zeylac (Awdal, Somaliland) is a small border district with Djibouti and Ethiopia, with cross-border trade opportunities and Somaliland governance. Awdal food security conditions are among the best in Somalia, though the Guban Pastoral experienced Emergency (IPC Phase 4) in 2018. The district is remote but very small. Low gamma; moderate p from Somaliland programme infrastructure; low omega reflecting stable pastoral livelihood with predictable seasonal pattern.",
+      "p": {"a": 3.0, "b": 8.0},
+      "gamma": {"a": 1.8, "b": 72.0},
+      "omega": {"a": 1.5, "b": 52.0}
+    }
+  ]
+}

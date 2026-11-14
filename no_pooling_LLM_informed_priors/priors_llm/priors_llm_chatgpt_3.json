@@ -1,0 +1,1552 @@
+{
+  "metadata": {
+    "period": "2017-2021",
+    "status": "Research-informed subjective elicitation scenario; absolute rates and prior strength are not empirically calibrated or expert-validated.",
+    "interpretation": "Use these as a conditional high-informativeness analysis scenario, not as measured district parameters. Structural evidence supports mechanisms and broad contrasts much more strongly than the supplied numerical centers.",
+    "outcome_separation": {
+      "basis": "Only livelihood, climate, market, displacement, conflict and health-service context informed the assignments. No observed acute-malnutrition outcomes were used to select centers, concentrations or district rankings.",
+      "handling": "Outcome reports and outcome links encountered in publication indexes or unrelated search hits were excluded. Current 2026 food-security conditions on landing pages were not used to characterize 2017-2021.",
+      "limitation": "This is a documented source-selection rule for this exercise, not a verifiable claim that a pretrained language model has never encountered excluded information."
+    },
+    "units": {
+      "p": "Monthly all-cause exit probability.",
+      "gamma": "Mean monthly arrivals divided by the district under-5 population; fraction, not percent or annual rate.",
+      "omega": "Total standard deviation of monthly arrivals divided by the district under-5 population; fraction, not excess variation or measurement error."
+    },
+    "elicitation": {
+      "numeric_provenance": "Every numerical center and concentration is an analyst-selected modeling assumption. None is a value estimated or reported by the cited contextual sources.",
+      "reference_center": {
+        "p": 0.28,
+        "gamma": 0.008,
+        "omega": 0.005
+      },
+      "reference_center_explanation": "The reference values are explicit elicitation anchors, not a Somalia-wide empirical baseline. They must be varied in sensitivity analysis because contextual information alone does not identify the absolute monthly scale.",
+      "p_means": "Assigned on a coarse 0.20-0.38 scale using assumed recovery access: lower for constrained rural delivery, intermediate for mixed town-rural access, and higher for connected service hubs. These choices assume recovery-access differences dominate otherwise unidentified differences in mortality exits.",
+      "gamma_means": "Assigned on a coarse 0.004-0.014 monthly-fraction scale using livelihood diversification, asset dependence, agricultural disruption and persistent displacement. No observed prevalence, caseload, or unverified district IPC phase was used as a calibration target.",
+      "omega_means": "Assigned on a coarse 0.002-0.009 monthly-fraction scale from recurring production, water, flooding, trade and movement variability. Chronic deprivation or inaccessibility alone does not imply high variability; thin evidence changes prior width rather than the process mean.",
+      "conversion": "For mean m and concentration k: a=m*k and b=(1-m)*k. For specified prior coefficient of variation c: k=(1-m)/(m*c*c)-1. Shapes are rounded to eight decimals.",
+      "strength_settings": {
+        "medium": {
+          "p_concentration": 100,
+          "gamma_cv": 0.25,
+          "omega_cv": 0.35
+        },
+        "low": {
+          "p_concentration": 50,
+          "gamma_cv": 0.4,
+          "omega_cv": 0.5
+        }
+      },
+      "strength_interpretation": "The prior coefficient of variation describes uncertainty about gamma or omega, not variability in monthly arrivals. The latter is omega itself. Concentrations are distributional choices, not counts of observed children or observations.",
+      "evidence_tiers": "medium means some direct contextual information plus regional extrapolation; low means substantial geographic, service-access or population-mix uncertainty. Neither tier means high confidence in absolute monthly epidemiological rates.",
+      "district_evidence_tier": {
+        "Adan Yabaal": "low",
+        "Afgooye": "medium",
+        "Afmadow": "medium",
+        "Baardheere": "medium",
+        "Badhaadhe": "low",
+        "Baki": "medium",
+        "Balcad": "medium",
+        "Banadir": "medium",
+        "Bandarbeyla": "low",
+        "Baraawe": "low",
+        "Baydhaba": "medium",
+        "Belet Weyne": "medium",
+        "Belet Xaawo": "low",
+        "Berbera": "medium",
+        "Borama": "medium",
+        "Bossaso": "medium",
+        "Bu'aale": "low",
+        "Bulo Burto": "medium",
+        "Burco": "medium",
+        "Burtinle": "medium",
+        "Buuhoodle": "low",
+        "Buur Hakaba": "medium",
+        "Cabudwaaq": "medium",
+        "Cadaado": "medium",
+        "Cadale": "low",
+        "Caluula": "low",
+        "Caynabo": "medium",
+        "Ceel Afweyn": "low",
+        "Ceel Barde": "low",
+        "Ceel Buur": "low",
+        "Ceel Dheere": "low",
+        "Ceel Waaq": "low",
+        "Ceerigaabo": "medium",
+        "Dhuusamarreeb": "medium",
+        "Diinsoor": "low",
+        "Doolow": "medium",
+        "Eyl": "medium",
+        "Gaalkacyo": "medium",
+        "Galdogob": "medium",
+        "Garbahaarey": "low",
+        "Garoowe": "medium",
+        "Gebiley": "medium",
+        "Hargeysa": "medium",
+        "Hobyo": "low",
+        "Iskushuban": "low",
+        "Jalalaqsi": "low",
+        "Jamaame": "low",
+        "Jariiban": "low",
+        "Jilib": "low",
+        "Jowhar": "medium",
+        "Kismaayo": "medium",
+        "Kurtunwaarey": "low",
+        "Laas Caanood": "low",
+        "Laasqoray": "low",
+        "Lughaye": "medium",
+        "Luuq": "medium",
+        "Marka": "medium",
+        "Owdweyne": "medium",
+        "Qandala": "low",
+        "Qansax Dheere": "medium",
+        "Qardho": "medium",
+        "Qoryooley": "medium",
+        "Rab Dhuure": "low",
+        "Saakow": "low",
+        "Sablaale": "low",
+        "Sheikh": "medium",
+        "Taleex": "low",
+        "Tayeeglow": "low",
+        "Waajid": "medium",
+        "Wanla Weyn": "medium",
+        "Xarardheere": "low",
+        "Xudun": "low",
+        "Xudur": "medium",
+        "Zeylac": "medium"
+      },
+      "time_invariance": "Centers represent an assumed typical structural environment over the five-year period. Individual droughts, floods, outbreaks, access closures and post-2021 developments were not substituted for the long-run mean.",
+      "aggregation": "Districts may contain several livelihood zones and urban, rural and displaced populations. The priors are qualitative district mixtures, not population-weighted estimates; suitable 2017-2021 under-5 subgroup weights were not available.",
+      "geographic_crosswalk": "User-supplied district names and order are preserved, including Banadir as one aggregate. Source labels such as Baydhaba/Bardaale, Laasqoray/Badhan and Saakow/Salagle may combine areas differently; no exact administrative-boundary or population crosswalk was available."
+    },
+    "unresolved_context": {
+      "district_IPC_AFI_baseline": null,
+      "district_IPC_AFI_explanation": "A consistent district-by-season 2017-2021 AFI series was not established from clearly separated source material. No typical district phase, including a Phase 3+ baseline, is asserted or scored.",
+      "district_CMAM_coverage": null,
+      "district_CMAM_explanation": "No comparable, longitudinal district-specific CMAM coverage or supply-reliability series was verified. General health infrastructure, humanitarian presence and access are explicitly imperfect proxies.",
+      "district_health_facility_density": null,
+      "district_health_facility_density_explanation": "National and zonal health-system context was found, but district density values were not verified.",
+      "district_under5_mortality": null,
+      "acute_fatal_vs_persistent": "Not identifiable from the reviewed contextual evidence. No district is classified as mortality-dominated; lower p in constrained settings is a recovery-limited scenario and must be tested against alternative exit assumptions.",
+      "displacement": "Persistent hosting was documented most clearly for major urban destinations; comparable under-5 IDP shares and flow series for all districts were not verified. Missing flow evidence was not interpreted as proof of stable population movement.",
+      "access": "Five-year district-specific access classifications were not verified uniformly. Some district statements are regional structural extrapolations; lower-confidence assignments have wider priors."
+    },
+    "source_access_audit": [
+      {
+        "requested_source": "https://fsnau.org/resources/tools",
+        "status": "inaccessible through the browser tool",
+        "alternative": "Used the accessible FSNAU baseline catalog, 2016 livelihood compendium and individual profiles; initial www.fsnau.org PDF failures were resolved by using fsnau.org."
+      },
+      {
+        "requested_source": "https://fews.net/east-africa/somalia",
+        "status": "accessible",
+        "alternative": "Used the historical 2015 livelihood-zone page; excluded current landing-page analysis from the historical assessment."
+      },
+      {
+        "requested_source": "https://fsnau.org/publications",
+        "status": "index accessible; mixed seasonal nutrition/food-security releases not used",
+        "alternative": "Used clearly separated January 2017, January 2019 and October 2019 climate publications and structural livelihood calendars. A complete multi-year food-security outlook sequence was not reviewed."
+      },
+      {
+        "requested_source": "Health-system and CMAM assessments",
+        "status": "2016 SARA full PDFs failed: Ministry of Health file exceeded browser retrieval size and alternate archive download failed",
+        "alternative": "Used SARA metadata and indexed service-infrastructure excerpts plus separable historical health-system sections of WHO's Country Cooperation Strategy. No verified district CMAM coverage series was available."
+      },
+      {
+        "requested_source": "https://www.unocha.org/somalia",
+        "status": "inaccessible through the browser tool",
+        "alternative": "Read the OCHA 2020 access report on ecoi.net and the OCHA 2021 Q3 access text reproduced by SONNA."
+      },
+      {
+        "requested_source": "https://dtm.iom.int/node/10452",
+        "status": "direct retrieval returned 403; indexed summary accessible",
+        "alternative": "Did not use the summary as district displacement evidence; it describes settlement/accessibility coverage and omits Middle Juba. Used UNHCR and UN Somalia sources instead."
+      },
+      {
+        "requested_source": "https://data.unhcr.org/en/documents/download/66015",
+        "status": "document metadata accessible; PDF download failed",
+        "alternative": "Used accessible November 2020 UNHCR factsheet and UN Somalia displacement report."
+      },
+      {
+        "requested_source": "UNHCR 2018 year-end page and October 2017 factsheet",
+        "status": "direct retrieval failed; indexed contextual excerpts accessible",
+        "alternative": "Used only the retrieved displacement and office-presence excerpts, explicitly marked D18 and D17; did not claim full-document review."
+      },
+      {
+        "requested_source": "FSNAU nutrition survey reports",
+        "status": "excluded",
+        "alternative": "No survey tables, trends, outcome narratives or prevalence-derived burdens were used."
+      }
+    ],
+    "model_use_notes": [
+      "High informativeness is a requested modeling choice, not evidence that the numerical anchors are known accurately. Compare this scenario with broader priors, alternative absolute incidence/variation scales and different mortality-versus-recovery assumptions before interpreting sparse-district estimates.",
+      "These are marginal Beta priors. Independence is a working implementation assumption; contextual sources do not establish independence of p, gamma and omega.",
+      "The supplied variance expression omits covariance between different months' arrivals. Recurring seasonality can generate such covariance, so these omega assignments describe marginal monthly variation under that model approximation.",
+      "If monthly arrivals are constrained to a fraction in [0,1], valid moments require omega^2 <= gamma*(1-gamma). Independent Beta marginals cannot enforce this bound for every draw. If hard support is required, use a compatible joint prior; conditioning changes the marginals.",
+      "Loss to follow-up is an exit from observation, but need not be a biological exit from the disease state. Its interpretation must agree with the prevalence-count model.",
+      "No likelihood was fitted, and no district posterior, burden estimate or observed-outcome validation was produced."
+    ],
+    "sources": [
+      {
+        "id": "L16",
+        "title": "FSNAU and FEWS NET, Somalia Livelihood Profiles, June 2016",
+        "url": "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "citation": "[FSNAU and FEWS NET, Somalia Livelihood Profiles, June 2016](https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf)",
+        "use": "Read selected livelihood descriptions, market sections and district-to-zone tables. These establish economic geography, not monthly epidemiological rates. Several underlying baselines predate 2016 substantially."
+      },
+      {
+        "id": "MAP15",
+        "title": "FSNAU and FEWS NET, updated livelihood zones map, April 2015",
+        "url": "https://fsnau.org/downloads/FSNAU-FEWSNET-Updated-Somalia-Livelihood-Zones-Map-April-2015.pdf",
+        "citation": "[FSNAU and FEWS NET, updated livelihood zones map, April 2015](https://fsnau.org/downloads/FSNAU-FEWSNET-Updated-Somalia-Livelihood-Zones-Map-April-2015.pdf)",
+        "use": "Read zone legend and district labels; district mixtures were checked against L16 tables rather than inferred from a town's label alone."
+      },
+      {
+        "id": "FEWS15",
+        "title": "FEWS NET, Somalia Livelihoods Zones Map, August 2015",
+        "url": "https://fews.net/east-africa/somalia/livelihood-zone-map/august-2015",
+        "citation": "[FEWS NET, Somalia Livelihoods Zones Map, August 2015](https://fews.net/east-africa/somalia/livelihood-zone-map/august-2015)",
+        "use": "Read map documentation defining zones through shared food, income and market opportunities."
+      },
+      {
+        "id": "ADD",
+        "title": "FSNAU, Addun Pastoral baseline profile, June 2011",
+        "url": "https://fsnau.org/downloads/Addun-Pastoral-Livelihood-Zone-Baseline-Profile-June-2011.pdf",
+        "citation": "[FSNAU, Addun Pastoral baseline profile, June 2011](https://fsnau.org/downloads/Addun-Pastoral-Livelihood-Zone-Baseline-Profile-June-2011.pdf)",
+        "use": "Read livelihood geography, rainfall, water sources, infrastructure and livestock-income descriptions."
+      },
+      {
+        "id": "HAWD",
+        "title": "FSNAU, Hawd Pastoral baseline profile, August 2011",
+        "url": "https://fsnau.org/downloads/Hawd-Pastoral-Livelihood-Zone-Baseline-Profile-August-2011.pdf",
+        "citation": "[FSNAU, Hawd Pastoral baseline profile, August 2011](https://fsnau.org/downloads/Hawd-Pastoral-Livelihood-Zone-Baseline-Profile-August-2011.pdf)",
+        "use": "Read district coverage and recurring rainfall and livestock-production characteristics."
+      },
+      {
+        "id": "NW",
+        "title": "FSNAU, Northwest Agropastoral baseline profile, September 2011",
+        "url": "https://fsnau.org/downloads/Northwest-Agro-Pastoral-Livelihood-Zone-Baseline-Profile-September-2011.pdf",
+        "citation": "[FSNAU, Northwest Agropastoral baseline profile, September 2011](https://fsnau.org/downloads/Northwest-Agro-Pastoral-Livelihood-Zone-Baseline-Profile-September-2011.pdf)",
+        "use": "Read agricultural, livestock, water and seasonal livelihood descriptions."
+      },
+      {
+        "id": "WG",
+        "title": "FSNAU, West Golis Pastoral baseline report, May 2016",
+        "url": "https://fsnau.org/downloads/West-Golis-Pastoral-Livelihood-Zone-Baseline-Report.pdf",
+        "citation": "[FSNAU, West Golis Pastoral baseline report, May 2016](https://fsnau.org/downloads/West-Golis-Pastoral-Livelihood-Zone-Baseline-Report.pdf)",
+        "use": "Read market connections and recurring pasture, livestock-sales and rainfall calendars."
+      },
+      {
+        "id": "GUB",
+        "title": "FSNAU, Guban Pastoral baseline report, May 2016",
+        "url": "https://fsnau.org/downloads/Guban-Pastoral-Livelihood-Zone-Baseline-Report.pdf",
+        "citation": "[FSNAU, Guban Pastoral baseline report, May 2016](https://fsnau.org/downloads/Guban-Pastoral-Livelihood-Zone-Baseline-Report.pdf)",
+        "use": "Read Xays rainfall, seasonal heat, milk supply, imports and market linkages."
+      },
+      {
+        "id": "EG",
+        "title": "FSNAU, East Golis Frankincense, Goat and Fishing baseline report, May 2016",
+        "url": "https://fsnau.org/downloads/East-Golis-Frankincens-Goat-and-Fishing-Livelihood-Zone-Baseline-Report.pdf",
+        "citation": "[FSNAU, East Golis Frankincense, Goat and Fishing baseline report, May 2016](https://fsnau.org/downloads/East-Golis-Frankincens-Goat-and-Fishing-Livelihood-Zone-Baseline-Report.pdf)",
+        "use": "Read livelihood diversification, seasonality, market connections and transport constraints."
+      },
+      {
+        "id": "GAR",
+        "title": "FSNAU, Garowe Urban baseline profile, May 2012",
+        "url": "https://fsnau.org/downloads/Garowe-Urban-Baseline-Profile-May-2012.pdf",
+        "citation": "[FSNAU, Garowe Urban baseline profile, May 2012](https://fsnau.org/downloads/Garowe-Urban-Baseline-Profile-May-2012.pdf)",
+        "use": "Read urban infrastructure, health-institution presence, food purchases and employment descriptions."
+      },
+      {
+        "id": "H",
+        "title": "WHO, Country Cooperation Strategy for Somalia 2021-2025, health-system sections",
+        "url": "https://applications.emro.who.int/docs/9789290211280-eng.pdf",
+        "citation": "[WHO, Country Cooperation Strategy for Somalia 2021-2025, health-system sections](https://applications.emro.who.int/docs/9789290211280-eng.pdf)",
+        "use": "Used only separable historical health infrastructure and supply-chain material in sections 2.4.1, 2.4.2, 2.4.4 and 2.4.5, principally concerning 2016-2019. National rural/urban access differences are contextual proxies, not district CMAM coverage estimates."
+      },
+      {
+        "id": "SARA",
+        "title": "Somali Health Authorities, Service Availability and Readiness Assessment 2016",
+        "url": "https://data-archive.hhfa.online/index.php/catalog/130/related-materials",
+        "citation": "[Somali Health Authorities, Service Availability and Readiness Assessment 2016](https://data-archive.hhfa.online/index.php/catalog/130/related-materials)",
+        "use": "Read archive metadata and indexed health-infrastructure excerpts of the Ministry of Health report. Full-report downloads failed; no district-level coverage numbers were extracted."
+      },
+      {
+        "id": "A20",
+        "title": "OCHA, Somalia 2020 Humanitarian Access Overview, April 2021",
+        "url": "https://www.ecoi.net/en/file/local/2052828/access_snapshot_2020_v4.pdf",
+        "citation": "[OCHA, Somalia 2020 Humanitarian Access Overview, April 2021](https://www.ecoi.net/en/file/local/2052828/access_snapshot_2020_v4.pdf)",
+        "use": "Read the OCHA-authored report hosted by ecoi.net, including regional constraints and Qansax Dheere air-access interruption. It does not establish an individual five-year access classification for every district."
+      },
+      {
+        "id": "A21",
+        "title": "OCHA, Somalia Humanitarian Access Overview, July-September 2021, reproduced by SONNA",
+        "url": "https://sonna.so/en/article/somalia-humanitarian-access-overview-quarter-3-july-september-2021",
+        "citation": "[OCHA, Somalia Humanitarian Access Overview, July-September 2021, reproduced by SONNA](https://sonna.so/en/article/somalia-humanitarian-access-overview-quarter-3-july-september-2021)",
+        "use": "Read the reproduced OCHA text on long-running encirclement, supply-route interruptions and local movement constraints. Distinguish persistent restrictions from individual events."
+      },
+      {
+        "id": "SEC19",
+        "title": "US Department of State, Country Reports on Terrorism 2019",
+        "url": "https://2017-2021.state.gov/reports/country-reports-on-terrorism-2019/",
+        "citation": "[US Department of State, Country Reports on Terrorism 2019](https://2017-2021.state.gov/reports/country-reports-on-terrorism-2019/)",
+        "use": "Retrieved the indexed primary-source passage identifying continued armed-group control of Jilib; used only for structural access context."
+      },
+      {
+        "id": "C17",
+        "title": "FSNAU, January 2017 Climate Update",
+        "url": "https://fsnau.org/downloads/Climate-Data-Update-January-2017.pdf",
+        "citation": "[FSNAU, January 2017 Climate Update](https://fsnau.org/downloads/Climate-Data-Update-January-2017.pdf)",
+        "use": "Read climate, river, water and livestock-movement context, used to corroborate exposure mechanisms rather than anchor means to a drought peak."
+      },
+      {
+        "id": "C19J",
+        "title": "FSNAU, January 2019 Monthly Rainfall and Vegetation Cover",
+        "url": "https://fsnau.org/downloads/Climate-Update-January-2019.pdf",
+        "citation": "[FSNAU, January 2019 Monthly Rainfall and Vegetation Cover](https://fsnau.org/downloads/Climate-Update-January-2019.pdf)",
+        "use": "Consulted the climate-only publication; contributes seasonal climate context, with no numerical mapping from one season to a prior mean."
+      },
+      {
+        "id": "C19",
+        "title": "FSNAU, October 2019 Monthly Rainfall and NDVI",
+        "url": "https://fsnau.org/downloads/Climate-Data-Update-October-2019.pdf",
+        "citation": "[FSNAU, October 2019 Monthly Rainfall and NDVI](https://fsnau.org/downloads/Climate-Data-Update-October-2019.pdf)",
+        "use": "Read rainfall, flooding, cultivation and transport context, including the Shabelle and Juba corridors."
+      },
+      {
+        "id": "DB",
+        "title": "UN Somalia, Social Accountability on Durable Solutions: Baidoa and Bossaso, September 2020",
+        "url": "https://somalia.un.org/en/91498-social-accountability-durable-solutions-perception-survey-baidoa-and-bossaso",
+        "citation": "[UN Somalia, Social Accountability on Durable Solutions: Baidoa and Bossaso, September 2020](https://somalia.un.org/en/91498-social-accountability-durable-solutions-perception-survey-baidoa-and-bossaso)",
+        "use": "Read persistent displacement, livelihood and peripheral-settlement service constraints."
+      },
+      {
+        "id": "D20",
+        "title": "UNHCR, Somalia factsheet, November 2020",
+        "url": "https://data.unhcr.org/en/documents/download/84268",
+        "citation": "[UNHCR, Somalia factsheet, November 2020](https://data.unhcr.org/en/documents/download/84268)",
+        "use": "Read displacement and operational-presence context. Office presence is not evidence of treatment coverage; regional displacement is not a district-specific population weight."
+      },
+      {
+        "id": "D18",
+        "title": "UNHCR, Somalia 2018 year-end report: Issues and Challenges",
+        "url": "https://reporting.unhcr.org/somalia-2018-year-end-report-issues-and-challenges",
+        "citation": "[UNHCR, Somalia 2018 year-end report: Issues and Challenges](https://reporting.unhcr.org/somalia-2018-year-end-report-issues-and-challenges)",
+        "use": "Direct page retrieval failed; used its indexed contextual passage on recurrent displacement to Kismayo, Baidoa and Mogadishu and settlement evictions."
+      },
+      {
+        "id": "D17",
+        "title": "UNHCR, Somalia factsheet, October 2017",
+        "url": "https://data.unhcr.org/en/documents/download/60776",
+        "citation": "[UNHCR, Somalia factsheet, October 2017](https://data.unhcr.org/en/documents/download/60776)",
+        "use": "Direct PDF retrieval failed; used the indexed primary-source office-presence passage identifying Luuq as a field unit. No coverage level was inferred from that fact alone."
+      },
+      {
+        "id": "KIS",
+        "title": "UN Somalia and WHO, Protecting children in Kismayo from measles, November 2020",
+        "url": "https://somalia.un.org/en/102980-protecting-children-kismayo-measles-funding-anticipatory-action-framework-proves-impactful",
+        "citation": "[UN Somalia and WHO, Protecting children in Kismayo from measles, November 2020](https://somalia.un.org/en/102980-protecting-children-kismayo-measles-funding-anticipatory-action-framework-proves-impactful)",
+        "use": "Read immunization and service-access context only. This does not quantify case-fatality contributions to p."
+      }
+    ],
+    "validation": {
+      "district_count": 74,
+      "unique_district_count": 74,
+      "exact_requested_names_and_order": true,
+      "positive_finite_beta_shapes": true,
+      "reasoning_source_ids_resolved": true,
+      "checks": "Validated structure, units, reconstructed means and distribution support; sampled candidate priors without outcome data.",
+      "sampled_draws_per_district": 20000,
+      "sampled_total_draws": 1480000,
+      "sampled_bounded_arrival_moment_violations": 0,
+      "sampled_gamma_greater_than_p": 0,
+      "qualification": "Monte Carlo checks are numerical diagnostics, not empirical validation, and do not guarantee hard joint support."
+    }
+  },
+  "districts": [
+    {
+      "district": "Adan Yabaal",
+      "reasoning": "Cowpea farming and Coastal Deeh herding make food access sensitive to rainfall and livestock earnings, supporting an elevated gamma assumption [L16]. Restricted rural service delivery supports a lower p scenario, while seasonal production and interrupted trade support a higher omega [A20, H].",
+      "p": {
+        "a": 11,
+        "b": 39
+      },
+      "gamma": {
+        "a": 6.163,
+        "b": 507.42033333
+      },
+      "omega": {
+        "a": 3.9625,
+        "b": 524.37083333
+      }
+    },
+    {
+      "district": "Afgooye",
+      "reasoning": "Shabelle irrigation and access to Mogadishu markets diversify food supplies, but displacement along the urban corridor adds vulnerability, supporting elevated gamma with intermediate p [L16, D20]. Flooding, agricultural labor cycles and recurring movement of households support higher omega [C19, D20].",
+      "p": {
+        "a": 30,
+        "b": 70
+      },
+      "gamma": {
+        "a": 15.813,
+        "b": 1421.73245455
+      },
+      "omega": {
+        "a": 8.09912245,
+        "b": 1148.91837026
+      }
+    },
+    {
+      "district": "Afmadow",
+      "reasoning": "Cattle pastoralism and limited cropping link purchasing power to herd assets and milk sales, supporting above-baseline gamma [L16]. A dispersed rural population motivates intermediate-low p; rainfall-sensitive pasture, livestock trade and insecurity motivate higher omega [H, A20, C17].",
+      "p": {
+        "a": 26,
+        "b": 74
+      },
+      "gamma": {
+        "a": 15.83,
+        "b": 1567.17
+      },
+      "omega": {
+        "a": 8.10370408,
+        "b": 1238.62000078
+      }
+    },
+    {
+      "district": "Baardheere",
+      "reasoning": "Upper Juba irrigation coexists with rainfed farming and herding, combining agricultural opportunities with flood exposure and rural service barriers [L16, H]. These support elevated gamma and intermediate-low p, while river fluctuations and transport interruptions support high omega [C19, A20].",
+      "p": {
+        "a": 26,
+        "b": 74
+      },
+      "gamma": {
+        "a": 15.813,
+        "b": 1421.73245455
+      },
+      "omega": {
+        "a": 8.09454082,
+        "b": 1071.17756803
+      }
+    },
+    {
+      "district": "Badhaadhe",
+      "reasoning": "Southern cattle pastoralism, rainfed maize and coastal activities provide several income sources but remain exposed to rainfall and restricted transport [L16, A20]. The working assumptions are elevated gamma and lower p, with higher omega from livestock production cycles and interruptions to market access [H, C17].",
+      "p": {
+        "a": 11,
+        "b": 39
+      },
+      "gamma": {
+        "a": 6.17025,
+        "b": 554.76156818
+      },
+      "omega": {
+        "a": 3.965,
+        "b": 562.46357143
+      }
+    },
+    {
+      "district": "Baki",
+      "reasoning": "West Golis herding and connections to northwestern markets support a lower gamma assumption, although rural travel limits reliable treatment access and motivates intermediate p [WG, H]. Seasonal pasture and livestock sales support moderate omega despite comparatively diversified market connections [WG].",
+      "p": {
+        "a": 30,
+        "b": 70
+      },
+      "gamma": {
+        "a": 15.898,
+        "b": 2633.76866667
+      },
+      "omega": {
+        "a": 8.13119388,
+        "b": 2315.06705685
+      }
+    },
+    {
+      "district": "Balcad",
+      "reasoning": "Irrigated farming, sorghum production and access to the Mogadishu market provide food and income, while rural access constraints motivate elevated gamma and intermediate p [L16, A20]. River flooding and interruptions to cultivation and transport support higher omega [C19, D20].",
+      "p": {
+        "a": 28,
+        "b": 72
+      },
+      "gamma": {
+        "a": 15.83,
+        "b": 1567.17
+      },
+      "omega": {
+        "a": 8.09912245,
+        "b": 1148.91837026
+      }
+    },
+    {
+      "district": "Banadir",
+      "reasoning": "Mogadishu combines a concentrated urban service economy with persistent displacement and precarious settlement livelihoods, supporting relatively higher p alongside elevated gamma [D20, DB, H]. Recurrent arrivals, evictions and disruptions to urban earnings motivate higher omega than in more stable urban settings [D18, A20].",
+      "p": {
+        "a": 34,
+        "b": 66
+      },
+      "gamma": {
+        "a": 15.813,
+        "b": 1421.73245455
+      },
+      "omega": {
+        "a": 8.10370408,
+        "b": 1238.62000078
+      }
+    },
+    {
+      "district": "Bandarbeyla",
+      "reasoning": "Coastal fishing and inland small-stock pastoralism diversify income imperfectly because both depend on seasonal conditions and distant markets [L16, EG]. Remote service access motivates intermediate-low p and baseline gamma, while fishing seasons, pasture changes and transport costs motivate moderately high omega [H, C17].",
+      "p": {
+        "a": 13,
+        "b": 37
+      },
+      "gamma": {
+        "a": 6.192,
+        "b": 767.808
+      },
+      "omega": {
+        "a": 3.9725,
+        "b": 718.30022727
+      }
+    },
+    {
+      "district": "Baraawe",
+      "reasoning": "Coastal commerce overlaps with southern rainfed and irrigated farming, supporting a moderately elevated gamma assumption [L16]. Uneven access beyond town motivates intermediate-low p; crop calendars and disruptions to road-based food supplies motivate higher omega [A20, C19, H].",
+      "p": {
+        "a": 13,
+        "b": 37
+      },
+      "gamma": {
+        "a": 6.18475,
+        "b": 681.00969444
+      },
+      "omega": {
+        "a": 3.97,
+        "b": 657.69666667
+      }
+    },
+    {
+      "district": "Baydhaba",
+      "reasoning": "Baydhaba combines sorghum farming with a major displaced population whose peripheral settlements have constrained livelihoods and sanitation [L16, DB]. Urban services support a relatively higher p scenario, while settlement vulnerability raises gamma and recurring rural arrivals and harvest cycles raise omega [H, D18, C19].",
+      "p": {
+        "a": 32,
+        "b": 68
+      },
+      "gamma": {
+        "a": 15.762,
+        "b": 1110.09514286
+      },
+      "omega": {
+        "a": 8.08079592,
+        "b": 889.78541723
+      }
+    },
+    {
+      "district": "Belet Weyne",
+      "reasoning": "The Shabelle corridor combines irrigated agriculture, rural herding and a service town, motivating elevated gamma but intermediate p rather than the most restricted-access scenario [L16, H]. Recurrent flooding, interrupted harvests and displacement support particularly high omega [C19, D20].",
+      "p": {
+        "a": 30,
+        "b": 70
+      },
+      "gamma": {
+        "a": 15.796,
+        "b": 1300.53733333
+      },
+      "omega": {
+        "a": 8.08079592,
+        "b": 889.78541723
+      }
+    },
+    {
+      "district": "Belet Xaawo",
+      "reasoning": "Border trade supplements Southern Agropastoral livelihoods and creates potential food-access alternatives, supporting moderately elevated gamma [L16]. Assuming intermittent rather than absent service access gives intermediate p; livestock seasonality and cross-border transport disruption motivate higher omega [A20, H].",
+      "p": {
+        "a": 14,
+        "b": 36
+      },
+      "gamma": {
+        "a": 6.18475,
+        "b": 681.00969444
+      },
+      "omega": {
+        "a": 3.97,
+        "b": 657.69666667
+      }
+    },
+    {
+      "district": "Berbera",
+      "reasoning": "Port-related livelihoods provide food-purchase opportunities alongside a Guban pastoral hinterland, supporting lower gamma and a relatively higher p scenario for access to services [GUB, H]. Trade buffers local production shocks, although hot-season water stress and shipping seasonality retain a nonzero omega [GUB].",
+      "p": {
+        "a": 36,
+        "b": 64
+      },
+      "gamma": {
+        "a": 15.915,
+        "b": 3167.085
+      },
+      "omega": {
+        "a": 8.14035714,
+        "b": 3248.0025
+      }
+    },
+    {
+      "district": "Borama",
+      "reasoning": "Northwestern crop-livestock systems and urban trade offer several food-access pathways, supporting a low gamma assumption and relatively higher p under better service access [NW, WG, H]. Crop seasonality still contributes to omega, but livelihood diversification motivates a lower center [NW].",
+      "p": {
+        "a": 36,
+        "b": 64
+      },
+      "gamma": {
+        "a": 15.932,
+        "b": 3967.068
+      },
+      "omega": {
+        "a": 8.14493878,
+        "b": 4064.32444898
+      }
+    },
+    {
+      "district": "Bossaso",
+      "reasoning": "The port economy offers market access while longstanding displacement creates uneven access to livelihoods and services, supporting baseline gamma and relatively higher p [DB, D20, EG]. Changes in imported-food costs, casual work and household movements support moderate omega [EG, DB].",
+      "p": {
+        "a": 34,
+        "b": 66
+      },
+      "gamma": {
+        "a": 15.864,
+        "b": 1967.136
+      },
+      "omega": {
+        "a": 8.12203061,
+        "b": 1796.773661
+      }
+    },
+    {
+      "district": "Bu'aale",
+      "reasoning": "Juba irrigation, cattle livelihoods and sorghum production operate within a constrained delivery environment, motivating elevated gamma and lower p [L16, A20]. Flood exposure and seasonal production support high omega; persistent access restriction itself informs p rather than automatically increasing omega [C19].",
+      "p": {
+        "a": 11,
+        "b": 39
+      },
+      "gamma": {
+        "a": 6.15575,
+        "b": 467.36348077
+      },
+      "omega": {
+        "a": 3.96,
+        "b": 491.04
+      }
+    },
+    {
+      "district": "Bulo Burto",
+      "reasoning": "Riverine and agropastoral livelihoods coexist with long-running restrictions on overland supply, motivating elevated gamma and lower p [L16, A21]. Floods and interruptions even to air access support high omega through changes in food supplies and assistance continuity [C19, A21].",
+      "p": {
+        "a": 22,
+        "b": 78
+      },
+      "gamma": {
+        "a": 15.796,
+        "b": 1300.53733333
+      },
+      "omega": {
+        "a": 8.08995918,
+        "b": 1003.15493878
+      }
+    },
+    {
+      "district": "Burco",
+      "reasoning": "Livestock commerce and a Hawd-agropastoral hinterland provide mixed food-access opportunities, supporting moderately low gamma and relatively higher p in the service town [HAWD, L16, H]. Milk production and livestock-market seasons retain moderate omega despite urban income diversification [HAWD].",
+      "p": {
+        "a": 34,
+        "b": 66
+      },
+      "gamma": {
+        "a": 15.881,
+        "b": 2252.83328571
+      },
+      "omega": {
+        "a": 8.12661224,
+        "b": 2023.52644898
+      }
+    },
+    {
+      "district": "Burtinle",
+      "reasoning": "Hawd pastoral livelihoods link food purchasing to livestock assets, motivating baseline gamma [L16, HAWD]. Assuming some town services but substantial rural travel barriers gives intermediate p; rainfall, milk production and purchased-water costs motivate moderate omega [H, C17].",
+      "p": {
+        "a": 28,
+        "b": 72
+      },
+      "gamma": {
+        "a": 15.864,
+        "b": 1967.136
+      },
+      "omega": {
+        "a": 8.11744898,
+        "b": 1615.37234694
+      }
+    },
+    {
+      "district": "Buuhoodle",
+      "reasoning": "Hawd herding and market purchases make household diets dependent on livestock earnings, supporting moderately elevated gamma [HAWD]. A dispersed population motivates intermediate-low p, while pasture fluctuations and seasonal movement support higher omega [H, C17].",
+      "p": {
+        "a": 13,
+        "b": 37
+      },
+      "gamma": {
+        "a": 6.18475,
+        "b": 681.00969444
+      },
+      "omega": {
+        "a": 3.97,
+        "b": 657.69666667
+      }
+    },
+    {
+      "district": "Buur Hakaba",
+      "reasoning": "Sorghum farming and livestock production span higher- and lower-potential agricultural areas, with poorer households exposed to seasonal labor dependence [L16]. Rural service barriers motivate intermediate-low p and elevated gamma; rainfall variation and road disruption motivate high omega [H, A20, C19].",
+      "p": {
+        "a": 26,
+        "b": 74
+      },
+      "gamma": {
+        "a": 15.796,
+        "b": 1300.53733333
+      },
+      "omega": {
+        "a": 8.09454082,
+        "b": 1071.17756803
+      }
+    },
+    {
+      "district": "Cabudwaaq",
+      "reasoning": "Hawd pastoralism links food purchasing to herd productivity, while town-based trade offers partial diversification [HAWD]. Intermediate p and moderately elevated gamma are assumed; milk seasonality and recurring insecurity affecting local movement support higher omega [H, A21].",
+      "p": {
+        "a": 28,
+        "b": 72
+      },
+      "gamma": {
+        "a": 15.847,
+        "b": 1744.93077778
+      },
+      "omega": {
+        "a": 8.10828571,
+        "b": 1343.27266667
+      }
+    },
+    {
+      "district": "Cadaado",
+      "reasoning": "Hawd and Addun herding create reliance on livestock sales and purchased staples, supporting moderately elevated gamma [HAWD, ADD]. Town services partly offset rural distance barriers in the intermediate p assumption, while seasonal water and pasture conditions motivate moderately high omega [H, ADD].",
+      "p": {
+        "a": 28,
+        "b": 72
+      },
+      "gamma": {
+        "a": 15.847,
+        "b": 1744.93077778
+      },
+      "omega": {
+        "a": 8.11286735,
+        "b": 1466.95392301
+      }
+    },
+    {
+      "district": "Cadale",
+      "reasoning": "Cowpea-belt agriculture and Coastal Deeh livelihoods combine variable cropping, herding and coastal opportunities [L16]. Limited rural infrastructure motivates lower p and elevated gamma; rainfall-sensitive harvests, milk supply and transport access motivate higher omega [H, A20, C17].",
+      "p": {
+        "a": 12,
+        "b": 38
+      },
+      "gamma": {
+        "a": 6.1775,
+        "b": 611.5725
+      },
+      "omega": {
+        "a": 3.9675,
+        "b": 606.41711538
+      }
+    },
+    {
+      "district": "Caluula",
+      "reasoning": "Fishing, goats and frankincense provide partly distinct income streams, supporting a moderately low gamma assumption [EG]. Remoteness motivates intermediate-low p; fishing conditions, resin earnings and livestock seasons sustain moderate omega despite diversification [EG, H].",
+      "p": {
+        "a": 13,
+        "b": 37
+      },
+      "gamma": {
+        "a": 6.19925,
+        "b": 879.40789286
+      },
+      "omega": {
+        "a": 3.9775,
+        "b": 879.91138889
+      }
+    },
+    {
+      "district": "Caynabo",
+      "reasoning": "Northern Inland Pastoral livelihoods depend on livestock assets and purchased food, motivating baseline gamma [L16]. Rural service-distance assumptions give intermediate p, while water availability, animal productivity and changing terms of trade motivate moderate omega [H, C17].",
+      "p": {
+        "a": 28,
+        "b": 72
+      },
+      "gamma": {
+        "a": 15.864,
+        "b": 1967.136
+      },
+      "omega": {
+        "a": 8.11744898,
+        "b": 1615.37234694
+      }
+    },
+    {
+      "district": "Ceel Afweyn",
+      "reasoning": "Northern inland herding creates dependence on livestock income and market-bought cereals, motivating moderately elevated gamma [L16]. Rural access barriers support intermediate-low p; pasture variability and insecurity-related movement constraints support higher omega [H, A20, C17].",
+      "p": {
+        "a": 13,
+        "b": 37
+      },
+      "gamma": {
+        "a": 6.18475,
+        "b": 681.00969444
+      },
+      "omega": {
+        "a": 3.97,
+        "b": 657.69666667
+      }
+    },
+    {
+      "district": "Ceel Barde",
+      "reasoning": "Southern Inland Pastoral livelihoods depend on livestock assets and food purchases, with sparse rural infrastructure motivating elevated gamma and intermediate-low p [L16, H]. Recurrent water shortages, livestock migration and changes in trading conditions motivate higher omega [C17, A20].",
+      "p": {
+        "a": 13,
+        "b": 37
+      },
+      "gamma": {
+        "a": 6.1775,
+        "b": 611.5725
+      },
+      "omega": {
+        "a": 3.9675,
+        "b": 606.41711538
+      }
+    },
+    {
+      "district": "Ceel Buur",
+      "reasoning": "Addun pastoralism and cowpea-belt agriculture leave households exposed to rainfall-dependent earnings [ADD, L16]. Restricted service access motivates lower p and elevated gamma, while milk seasonality, crop cycles and trade interruptions motivate higher omega [A20, H].",
+      "p": {
+        "a": 11,
+        "b": 39
+      },
+      "gamma": {
+        "a": 6.163,
+        "b": 507.42033333
+      },
+      "omega": {
+        "a": 3.965,
+        "b": 562.46357143
+      }
+    },
+    {
+      "district": "Ceel Dheere",
+      "reasoning": "Cowpea farming and Coastal Deeh herding combine weak rainfed production with purchased-food dependence [L16]. A constrained rural-delivery scenario motivates lower p and elevated gamma; harvest variability, seasonal milk supply and unstable transport motivate higher omega [A20, H, C17].",
+      "p": {
+        "a": 11,
+        "b": 39
+      },
+      "gamma": {
+        "a": 6.17025,
+        "b": 554.76156818
+      },
+      "omega": {
+        "a": 3.965,
+        "b": 562.46357143
+      }
+    },
+    {
+      "district": "Ceel Waaq",
+      "reasoning": "Southern pastoral livelihoods and small agropastoral pockets make livestock income central to food access [L16]. Intermediate-low p reflects assumed rural service barriers, elevated gamma reflects livelihood exposure, and higher omega reflects water scarcity and variable border-market access [H, A20, C17].",
+      "p": {
+        "a": 13,
+        "b": 37
+      },
+      "gamma": {
+        "a": 6.1775,
+        "b": 611.5725
+      },
+      "omega": {
+        "a": 3.9675,
+        "b": 606.41711538
+      }
+    },
+    {
+      "district": "Ceerigaabo",
+      "reasoning": "Northern Inland and East Golis livelihoods connect to a regional market town, combining herd dependence with additional trading opportunities [L16, EG]. Intermediate p and moderately low gamma are assumed; rainfall, livestock earnings and transport constraints maintain moderate omega [H, A20].",
+      "p": {
+        "a": 30,
+        "b": 70
+      },
+      "gamma": {
+        "a": 15.881,
+        "b": 2252.83328571
+      },
+      "omega": {
+        "a": 8.12203061,
+        "b": 1796.773661
+      }
+    },
+    {
+      "district": "Dhuusamarreeb",
+      "reasoning": "Hawd and Addun livelihoods surround a service town, supporting moderately elevated gamma with intermediate p [HAWD, ADD, H]. Seasonal milk and water availability, together with recurring interruptions along regional roads, support higher omega [ADD, A21].",
+      "p": {
+        "a": 30,
+        "b": 70
+      },
+      "gamma": {
+        "a": 15.847,
+        "b": 1744.93077778
+      },
+      "omega": {
+        "a": 8.10828571,
+        "b": 1343.27266667
+      }
+    },
+    {
+      "district": "Diinsoor",
+      "reasoning": "Sorghum and livestock livelihoods span contrasting agricultural potential, but difficult rural delivery limits recovery opportunities in the lower p scenario [L16, A20]. Rainfall dependence motivates elevated gamma, while harvest cycles and changes in transport availability motivate high omega [C17, C19].",
+      "p": {
+        "a": 12,
+        "b": 38
+      },
+      "gamma": {
+        "a": 6.163,
+        "b": 507.42033333
+      },
+      "omega": {
+        "a": 3.9625,
+        "b": 524.37083333
+      }
+    },
+    {
+      "district": "Doolow",
+      "reasoning": "Riverine and pastoral livelihoods coexist with an established humanitarian presence, supporting relatively higher p but elevated gamma where displaced households have limited assets [L16, D20]. River fluctuations, livestock seasons and recurrent household movements motivate higher omega [C19, D20].",
+      "p": {
+        "a": 32,
+        "b": 68
+      },
+      "gamma": {
+        "a": 15.813,
+        "b": 1421.73245455
+      },
+      "omega": {
+        "a": 8.09912245,
+        "b": 1148.91837026
+      }
+    },
+    {
+      "district": "Eyl",
+      "reasoning": "Addun and northern pastoral livelihoods overlap with coastal fishing, providing some diversification while retaining dependence on herd productivity [ADD, L16]. Rural remoteness motivates intermediate-low p and moderately elevated gamma; pasture, water and fishing seasons motivate higher omega [H, ADD].",
+      "p": {
+        "a": 26,
+        "b": 74
+      },
+      "gamma": {
+        "a": 15.847,
+        "b": 1744.93077778
+      },
+      "omega": {
+        "a": 8.10828571,
+        "b": 1343.27266667
+      }
+    },
+    {
+      "district": "Gaalkacyo",
+      "reasoning": "An urban trading and humanitarian center serves a Hawd-Addun hinterland, supporting relatively higher p while livelihood disruption and displacement motivate elevated gamma [HAWD, ADD, D20]. Pastoral seasons and recurrent interruptions to movement motivate higher omega [ADD, A20].",
+      "p": {
+        "a": 32,
+        "b": 68
+      },
+      "gamma": {
+        "a": 15.83,
+        "b": 1567.17
+      },
+      "omega": {
+        "a": 8.10370408,
+        "b": 1238.62000078
+      }
+    },
+    {
+      "district": "Galdogob",
+      "reasoning": "Hawd livestock production and border-linked trading opportunities provide mixed food-access pathways, supporting baseline gamma and intermediate p [HAWD, H]. Rainfall-sensitive milk supply and livestock trading conditions support moderate omega despite some commercial diversification [HAWD].",
+      "p": {
+        "a": 30,
+        "b": 70
+      },
+      "gamma": {
+        "a": 15.864,
+        "b": 1967.136
+      },
+      "omega": {
+        "a": 8.11744898,
+        "b": 1615.37234694
+      }
+    },
+    {
+      "district": "Garbahaarey",
+      "reasoning": "Southern pastoral and agropastoral livelihoods create dependence on livestock earnings, motivating elevated gamma [L16]. Regional delivery constraints support intermediate-low p, while pasture seasonality and interruptions to transport and assistance motivate higher omega [A20, H, C17].",
+      "p": {
+        "a": 13,
+        "b": 37
+      },
+      "gamma": {
+        "a": 6.1775,
+        "b": 611.5725
+      },
+      "omega": {
+        "a": 3.9675,
+        "b": 606.41711538
+      }
+    },
+    {
+      "district": "Garoowe",
+      "reasoning": "Established urban trade, a highway connection and health institutions support lower gamma and relatively higher p, with pastoral hinterland exposure retained in the district assessment [GAR, L16]. Seasonal food prices and variable casual earnings keep omega above zero despite urban buffering [GAR].",
+      "p": {
+        "a": 36,
+        "b": 64
+      },
+      "gamma": {
+        "a": 15.898,
+        "b": 2633.76866667
+      },
+      "omega": {
+        "a": 8.13119388,
+        "b": 2315.06705685
+      }
+    },
+    {
+      "district": "Gebiley",
+      "reasoning": "Northwestern sorghum, maize and cattle livelihoods provide both own-produced food and market income, supporting lower gamma [NW]. Relatively connected farming settlements motivate higher p than remote pastoral settings; harvest timing and rainfall variation retain moderate-low omega [NW, H].",
+      "p": {
+        "a": 34,
+        "b": 66
+      },
+      "gamma": {
+        "a": 15.915,
+        "b": 3167.085
+      },
+      "omega": {
+        "a": 8.13577551,
+        "b": 2703.78939456
+      }
+    },
+    {
+      "district": "Hargeysa",
+      "reasoning": "Urban trade and a northwestern farming-pastoral hinterland support multiple food-access pathways and a relatively higher p assumption [NW, HAWD, H]. Displacement prevents treating all households as well served, but diversified earnings motivate low gamma and lower omega than rural settings [D20].",
+      "p": {
+        "a": 38,
+        "b": 62
+      },
+      "gamma": {
+        "a": 15.9235,
+        "b": 3522.63205556
+      },
+      "omega": {
+        "a": 8.14493878,
+        "b": 4064.32444898
+      }
+    },
+    {
+      "district": "Hobyo",
+      "reasoning": "Addun herding, coastal fishing and cowpea-belt pockets diversify income but leave many households dependent on rainfall and seasonal markets [ADD, L16]. Remoteness motivates lower p and elevated gamma; milk fluctuations, fishing seasons and disrupted transport motivate higher omega [H, A20].",
+      "p": {
+        "a": 12,
+        "b": 38
+      },
+      "gamma": {
+        "a": 6.1775,
+        "b": 611.5725
+      },
+      "omega": {
+        "a": 3.9675,
+        "b": 606.41711538
+      }
+    },
+    {
+      "district": "Iskushuban",
+      "reasoning": "Northern Inland and East Golis livelihoods combine livestock, frankincense and some coastal opportunities, supporting baseline gamma [L16, EG]. Dispersed settlements motivate intermediate-low p, while pasture, resin-income and transport seasonality motivate moderately high omega [H, EG].",
+      "p": {
+        "a": 13,
+        "b": 37
+      },
+      "gamma": {
+        "a": 6.192,
+        "b": 767.808
+      },
+      "omega": {
+        "a": 3.9725,
+        "b": 718.30022727
+      }
+    },
+    {
+      "district": "Jalalaqsi",
+      "reasoning": "Shabelle pump irrigation and agropastoral livelihoods create agricultural opportunities alongside flood and rural-access exposure [L16]. These motivate elevated gamma and lower p; river fluctuations, crop calendars and interrupted road supplies motivate high omega [C19, A20, H].",
+      "p": {
+        "a": 12,
+        "b": 38
+      },
+      "gamma": {
+        "a": 6.17025,
+        "b": 554.76156818
+      },
+      "omega": {
+        "a": 3.9625,
+        "b": 524.37083333
+      }
+    },
+    {
+      "district": "Jamaame",
+      "reasoning": "Lower Juba irrigated and rainfed farming provides productive land but exposes households to flooding and interrupted agricultural livelihoods [L16]. Constrained rural services motivate lower p and elevated gamma; river variability and harvest disruption motivate high omega [A20, C19, H].",
+      "p": {
+        "a": 11,
+        "b": 39
+      },
+      "gamma": {
+        "a": 6.163,
+        "b": 507.42033333
+      },
+      "omega": {
+        "a": 3.96,
+        "b": 491.04
+      }
+    },
+    {
+      "district": "Jariiban",
+      "reasoning": "Addun herding and Coastal Deeh fishing create dependence on seasonal livestock earnings and distant food markets [ADD, L16]. Rural remoteness supports lower p and moderately elevated gamma; rainfall, milk availability and fishing conditions support higher omega [ADD, H].",
+      "p": {
+        "a": 12,
+        "b": 38
+      },
+      "gamma": {
+        "a": 6.18475,
+        "b": 681.00969444
+      },
+      "omega": {
+        "a": 3.97,
+        "b": 657.69666667
+      }
+    },
+    {
+      "district": "Jilib",
+      "reasoning": "Juba farming and cattle livelihoods operate under persistent armed-group control, supporting elevated gamma and the lowest p access scenario [L16, SEC19]. Floods and agricultural seasonality motivate high omega; chronic restriction alone is not treated as evidence of fluctuating incidence [C19].",
+      "p": {
+        "a": 10,
+        "b": 40
+      },
+      "gamma": {
+        "a": 6.15575,
+        "b": 467.36348077
+      },
+      "omega": {
+        "a": 3.96,
+        "b": 491.04
+      }
+    },
+    {
+      "district": "Jowhar",
+      "reasoning": "Shabelle irrigation and sorghum farming support food production, while recurring flood exposure and rural service barriers motivate elevated gamma and intermediate p [L16, H]. Changes in river levels, cultivation and household displacement motivate high omega [C19, D20].",
+      "p": {
+        "a": 28,
+        "b": 72
+      },
+      "gamma": {
+        "a": 15.813,
+        "b": 1421.73245455
+      },
+      "omega": {
+        "a": 8.08995918,
+        "b": 1003.15493878
+      }
+    },
+    {
+      "district": "Kismaayo",
+      "reasoning": "Urban-port livelihoods coexist with pastoral surroundings and persistent displaced and returning populations, supporting elevated gamma with relatively higher p [L16, D18, D20]. Seasonal earnings and recurrent arrivals motivate higher omega, while documented immunization gaps do not establish a mortality-driven increase in p [KIS].",
+      "p": {
+        "a": 34,
+        "b": 66
+      },
+      "gamma": {
+        "a": 15.813,
+        "b": 1421.73245455
+      },
+      "omega": {
+        "a": 8.10370408,
+        "b": 1238.62000078
+      }
+    },
+    {
+      "district": "Kurtunwaarey",
+      "reasoning": "Irrigated, rainfed and pastoral livelihoods give several food sources but expose households to agricultural disruption [L16]. Constrained rural treatment access motivates lower p and elevated gamma; floods, seasonal labor and interruptions to trade motivate high omega [A20, C19, H].",
+      "p": {
+        "a": 11,
+        "b": 39
+      },
+      "gamma": {
+        "a": 6.163,
+        "b": 507.42033333
+      },
+      "omega": {
+        "a": 3.9625,
+        "b": 524.37083333
+      }
+    },
+    {
+      "district": "Laas Caanood",
+      "reasoning": "Northern Inland and Hawd pastoral livelihoods connect with an urban market, supporting baseline gamma and intermediate p [L16, HAWD, H]. Pasture, water and livestock-movement seasonality motivate moderately high omega without importing post-2021 conflict developments [C17].",
+      "p": {
+        "a": 15,
+        "b": 35
+      },
+      "gamma": {
+        "a": 6.192,
+        "b": 767.808
+      },
+      "omega": {
+        "a": 3.9725,
+        "b": 718.30022727
+      }
+    },
+    {
+      "district": "Laasqoray",
+      "reasoning": "East Golis and northern pastoral livelihoods combine livestock, frankincense and fishing, supporting baseline gamma rather than assuming coastal food security [EG, L16]. Remote settlements motivate intermediate-low p; seasonal marine access, resin earnings and pasture variability motivate moderately high omega [EG, H].",
+      "p": {
+        "a": 13,
+        "b": 37
+      },
+      "gamma": {
+        "a": 6.192,
+        "b": 767.808
+      },
+      "omega": {
+        "a": 3.9725,
+        "b": 718.30022727
+      }
+    },
+    {
+      "district": "Lughaye",
+      "reasoning": "Guban pastoral livelihoods rely on livestock-financed food purchases, with limited rainfall buffering, supporting baseline gamma and intermediate-low p [GUB, H]. Xays rainfall, hot-season milk reductions and seasonal import conditions motivate moderately high omega [GUB].",
+      "p": {
+        "a": 26,
+        "b": 74
+      },
+      "gamma": {
+        "a": 15.864,
+        "b": 1967.136
+      },
+      "omega": {
+        "a": 8.11286735,
+        "b": 1466.95392301
+      }
+    },
+    {
+      "district": "Luuq",
+      "reasoning": "Upper Juba irrigation and Southern Agropastoral livelihoods create mixed food-access pathways but retain flood exposure [L16]. Humanitarian presence supports intermediate p, while livelihood vulnerability motivates elevated gamma and river fluctuations and transport disruption motivate high omega [D17, C19, A20].",
+      "p": {
+        "a": 28,
+        "b": 72
+      },
+      "gamma": {
+        "a": 15.813,
+        "b": 1421.73245455
+      },
+      "omega": {
+        "a": 8.09454082,
+        "b": 1071.17756803
+      }
+    },
+    {
+      "district": "Marka",
+      "reasoning": "Coastal commerce, Shabelle irrigation and rainfed farming provide multiple income sources, supporting moderately elevated gamma [L16]. Uneven rural access motivates intermediate-low p; flooding, cropping seasons and interruptions to commerce motivate higher omega [C19, A20, H].",
+      "p": {
+        "a": 26,
+        "b": 74
+      },
+      "gamma": {
+        "a": 15.83,
+        "b": 1567.17
+      },
+      "omega": {
+        "a": 8.09912245,
+        "b": 1148.91837026
+      }
+    },
+    {
+      "district": "Owdweyne",
+      "reasoning": "Hawd herding and Togdheer agropastoral pockets link household food access to rain and livestock assets, supporting baseline gamma [HAWD, L16]. Rural service distance motivates intermediate p, while milk seasonality and variable crop and pasture conditions motivate moderately high omega [H, C17].",
+      "p": {
+        "a": 28,
+        "b": 72
+      },
+      "gamma": {
+        "a": 15.864,
+        "b": 1967.136
+      },
+      "omega": {
+        "a": 8.11286735,
+        "b": 1466.95392301
+      }
+    },
+    {
+      "district": "Qandala",
+      "reasoning": "East Golis goats, frankincense and fishing offer income diversification alongside difficult physical access [EG]. Remoteness motivates lower p and baseline gamma; seasonal resin and fishing earnings, pasture changes and transport interruptions motivate moderately high omega [EG, H, A20].",
+      "p": {
+        "a": 12,
+        "b": 38
+      },
+      "gamma": {
+        "a": 6.192,
+        "b": 767.808
+      },
+      "omega": {
+        "a": 3.9725,
+        "b": 718.30022727
+      }
+    },
+    {
+      "district": "Qansax Dheere",
+      "reasoning": "Bay sorghum and livestock livelihoods combine productive potential with restricted supply routes, supporting elevated gamma and lower p [L16, A20]. Harvest cycles and documented suspension and restoration of air services motivate high omega through interrupted assistance and commodity supply [A20].",
+      "p": {
+        "a": 22,
+        "b": 78
+      },
+      "gamma": {
+        "a": 15.796,
+        "b": 1300.53733333
+      },
+      "omega": {
+        "a": 8.08995918,
+        "b": 1003.15493878
+      }
+    },
+    {
+      "district": "Qardho",
+      "reasoning": "A trading town serves Northern Inland pastoral livelihoods, motivating moderately low gamma and relatively higher p under better town access [L16, H]. Livestock seasons and recurrent rain-related transport disruption support moderate omega despite commercial buffering [C17, A21].",
+      "p": {
+        "a": 32,
+        "b": 68
+      },
+      "gamma": {
+        "a": 15.881,
+        "b": 2252.83328571
+      },
+      "omega": {
+        "a": 8.12203061,
+        "b": 1796.773661
+      }
+    },
+    {
+      "district": "Qoryooley",
+      "reasoning": "Shabelle irrigation overlaps with sorghum and livestock production, but flood and rural-access exposure motivate elevated gamma and intermediate-low p [L16, H]. River fluctuations, crop-labor seasons and interruptions to road trade motivate high omega [C19, A20].",
+      "p": {
+        "a": 26,
+        "b": 74
+      },
+      "gamma": {
+        "a": 15.813,
+        "b": 1421.73245455
+      },
+      "omega": {
+        "a": 8.09454082,
+        "b": 1071.17756803
+      }
+    },
+    {
+      "district": "Rab Dhuure",
+      "reasoning": "The district is provisionally represented by the northern Bakool pastoral economy because the reviewed livelihood tables do not resolve its boundaries consistently [L16]. Assumed rural access barriers motivate lower p and elevated gamma; pasture seasonality and market disruption motivate higher omega, with wider priors reflecting the geographic evidence gap [H, A20, C17].",
+      "p": {
+        "a": 11,
+        "b": 39
+      },
+      "gamma": {
+        "a": 6.17025,
+        "b": 554.76156818
+      },
+      "omega": {
+        "a": 3.965,
+        "b": 562.46357143
+      }
+    },
+    {
+      "district": "Saakow",
+      "reasoning": "Upper Juba irrigation, sorghum farming and agropastoral livelihoods combine food production with river and rural-access exposure [L16]. Constrained service delivery motivates lower p and elevated gamma; river changes, seasonal harvests and interruptions to transport motivate high omega [A20, C19, H].",
+      "p": {
+        "a": 11,
+        "b": 39
+      },
+      "gamma": {
+        "a": 6.163,
+        "b": 507.42033333
+      },
+      "omega": {
+        "a": 3.96,
+        "b": 491.04
+      }
+    },
+    {
+      "district": "Sablaale",
+      "reasoning": "Lower Shabelle irrigation and smaller rainfed-pastoral components remain exposed to disruption of farming and food purchases [L16]. A constrained rural-service scenario supports lower p and elevated gamma; floods, harvest timing and unstable transport support high omega [A20, C19, H].",
+      "p": {
+        "a": 11,
+        "b": 39
+      },
+      "gamma": {
+        "a": 6.163,
+        "b": 507.42033333
+      },
+      "omega": {
+        "a": 3.9625,
+        "b": 524.37083333
+      }
+    },
+    {
+      "district": "Sheikh",
+      "reasoning": "Golis livestock livelihoods and connections to northern trading towns support a lower gamma assumption [WG, L16]. Relatively connected settlements motivate moderately higher p, while pasture and livestock-sale seasonality keep omega moderate-low rather than negligible [WG, H].",
+      "p": {
+        "a": 32,
+        "b": 68
+      },
+      "gamma": {
+        "a": 15.898,
+        "b": 2633.76866667
+      },
+      "omega": {
+        "a": 8.13119388,
+        "b": 2315.06705685
+      }
+    },
+    {
+      "district": "Taleex",
+      "reasoning": "Northern Inland pastoralism creates reliance on livestock assets and purchased food in dispersed settlements [L16]. Travel barriers motivate lower p and moderately elevated gamma; seasonal water costs, milk production and herd movement motivate higher omega [H, C17].",
+      "p": {
+        "a": 12,
+        "b": 38
+      },
+      "gamma": {
+        "a": 6.18475,
+        "b": 681.00969444
+      },
+      "omega": {
+        "a": 3.97,
+        "b": 657.69666667
+      }
+    },
+    {
+      "district": "Tayeeglow",
+      "reasoning": "Southern Agropastoral and Bay-Bakool low-potential farming combine livestock dependence with uncertain rainfed harvests [L16]. Restricted rural delivery motivates lower p and elevated gamma; crop cycles, water shortages and interruptions to market supply motivate high omega [A20, C17, H].",
+      "p": {
+        "a": 11,
+        "b": 39
+      },
+      "gamma": {
+        "a": 6.163,
+        "b": 507.42033333
+      },
+      "omega": {
+        "a": 3.9625,
+        "b": 524.37083333
+      }
+    },
+    {
+      "district": "Waajid",
+      "reasoning": "Bakool farming and livestock livelihoods coexist with long-running encirclement of the town, supporting elevated gamma and lower p [L16, A21]. Seasonal harvests and repeated interference with commodity transport motivate high omega through fluctuating access to food and assistance [A21, C19].",
+      "p": {
+        "a": 24,
+        "b": 76
+      },
+      "gamma": {
+        "a": 15.796,
+        "b": 1300.53733333
+      },
+      "omega": {
+        "a": 8.08995918,
+        "b": 1003.15493878
+      }
+    },
+    {
+      "district": "Wanla Weyn",
+      "reasoning": "Sorghum farming and Southern Inland pastoralism make food access sensitive to both harvests and livestock earnings [L16]. Rural service barriers motivate intermediate-low p and elevated gamma; agricultural cycles and disruptions to regional roads motivate higher omega [H, A20, C19].",
+      "p": {
+        "a": 26,
+        "b": 74
+      },
+      "gamma": {
+        "a": 15.813,
+        "b": 1421.73245455
+      },
+      "omega": {
+        "a": 8.09912245,
+        "b": 1148.91837026
+      }
+    },
+    {
+      "district": "Xarardheere",
+      "reasoning": "Cowpea-belt and Coastal Deeh livelihoods depend on variable farming, herding and coastal earnings [L16]. A constrained service-access scenario motivates lower p and elevated gamma; rainfall, fishing seasons and interruptions to market access motivate higher omega [A20, H, C17].",
+      "p": {
+        "a": 11,
+        "b": 39
+      },
+      "gamma": {
+        "a": 6.17025,
+        "b": 554.76156818
+      },
+      "omega": {
+        "a": 3.965,
+        "b": 562.46357143
+      }
+    },
+    {
+      "district": "Xudun",
+      "reasoning": "Northern Inland pastoral livelihoods make food purchases dependent on herd assets, supporting moderately elevated gamma [L16]. Dispersed settlement and rural travel barriers motivate lower p; pasture, milk and water-price seasonality motivate moderately high omega [H, C17].",
+      "p": {
+        "a": 12,
+        "b": 38
+      },
+      "gamma": {
+        "a": 6.18475,
+        "b": 681.00969444
+      },
+      "omega": {
+        "a": 3.9725,
+        "b": 718.30022727
+      }
+    },
+    {
+      "district": "Xudur",
+      "reasoning": "Bakool low-potential farming and Southern Agropastoral livelihoods combine rainfed food supply with livestock-financed purchases [L16]. Restricted overland delivery motivates lower p and elevated gamma; harvest cycles and changing access to commodities motivate high omega [A20, C17, C19].",
+      "p": {
+        "a": 24,
+        "b": 76
+      },
+      "gamma": {
+        "a": 15.796,
+        "b": 1300.53733333
+      },
+      "omega": {
+        "a": 8.09454082,
+        "b": 1071.17756803
+      }
+    },
+    {
+      "district": "Zeylac",
+      "reasoning": "Guban herding and cross-border market links provide livestock income and imported foods, supporting moderately low gamma and intermediate p [GUB, H]. Xays rainfall, hot-season water demand and seasonal import conditions motivate moderate omega despite trading opportunities [GUB].",
+      "p": {
+        "a": 28,
+        "b": 72
+      },
+      "gamma": {
+        "a": 15.881,
+        "b": 2252.83328571
+      },
+      "omega": {
+        "a": 8.12203061,
+        "b": 1796.773661
+      }
+    }
+  ]
+}

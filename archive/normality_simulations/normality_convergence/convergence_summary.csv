@@ -1,0 +1,4 @@
+arrivals,skewness_decay_slope (theory -0.5),E[P] for |skew| < 0.10,E[P] for |kurtosis| < 0.20,E[P] for KS < 0.02,E[P] for 90% coverage within 0.01
+Poisson (exponential gaps),-0.6648568962262823,165.81195,6.98585,312.10855,24.80375
+"Gamma(0.5) gaps, bursty",-0.5512708490931244,311.83815,13.10395,311.83815,24.83365
+"Beta(2,2) gaps, regular",-0.4804777374584155,46.6991,3.74485,311.98,165.76765

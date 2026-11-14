@@ -1,0 +1,522 @@
+{
+"districts": [
+{
+"district": "Adan Yabaal",
+"reasoning": "Chronic access constraints due to persistent armed group presence severely limit CMAM coverage and supply chains, restricting recovery pathways. Endemic water scarcity and conflict-driven livelihood disruptions maintain structurally high incidence, with significant volatility driven by market blockades and recurrent droughts.",
+"p": {"a": 15.0, "b": 85.0},
+"gamma": {"a": 3.0, "b": 200.0},
+"omega": {"a": 3.0, "b": 400.0}
+},
+{
+"district": "Afgooye",
+"reasoning": "Characterized by riverine flood vulnerability, massive structural IDP hosting, and intense conflict dynamics limiting consistent humanitarian access. High baseline incidence is driven by endemic waterborne diseases and dense IDP populations, while extreme month-to-month variability stems from recurrent Gu/Deyr flooding and rapid displacement inflows.",
+"p": {"a": 20.0, "b": 80.0},
+"gamma": {"a": 5.0, "b": 200.0},
+"omega": {"a": 4.0, "b": 300.0}
+},
+{
+"district": "Afmadow",
+"reasoning": "Characterized by riverine flood vulnerability, massive structural IDP hosting, and intense conflict dynamics limiting consistent humanitarian access. High baseline incidence is driven by endemic waterborne diseases and dense IDP populations, while extreme month-to-month variability stems from recurrent Gu/Deyr flooding and rapid displacement inflows.",
+"p": {"a": 20.0, "b": 80.0},
+"gamma": {"a": 5.0, "b": 200.0},
+"omega": {"a": 4.0, "b": 300.0}
+},
+{
+"district": "Baardheere",
+"reasoning": "Characterized by riverine flood vulnerability, massive structural IDP hosting, and intense conflict dynamics limiting consistent humanitarian access. High baseline incidence is driven by endemic waterborne diseases and dense IDP populations, while extreme month-to-month variability stems from recurrent Gu/Deyr flooding and rapid displacement inflows.",
+"p": {"a": 20.0, "b": 80.0},
+"gamma": {"a": 5.0, "b": 200.0},
+"omega": {"a": 4.0, "b": 300.0}
+},
+{
+"district": "Badhaadhe",
+"reasoning": "Characterized by riverine flood vulnerability, massive structural IDP hosting, and intense conflict dynamics limiting consistent humanitarian access. High baseline incidence is driven by endemic waterborne diseases and dense IDP populations, while extreme month-to-month variability stems from recurrent Gu/Deyr flooding and rapid displacement inflows.",
+"p": {"a": 20.0, "b": 80.0},
+"gamma": {"a": 5.0, "b": 200.0},
+"omega": {"a": 4.0, "b": 300.0}
+},
+{
+"district": "Baki",
+"reasoning": "Predominantly pastoral and agropastoral livelihoods with structurally stable market access and fewer acute conflict disruptions. Health infrastructure and CMAM coverage are relatively sustained, supporting higher recovery rates, while seasonal variations are smoothed by stronger asset bases and established trade networks.",
+"p": {"a": 30.0, "b": 70.0},
+"gamma": {"a": 1.0, "b": 300.0},
+"omega": {"a": 1.0, "b": 800.0}
+},
+{
+"district": "Balcad",
+"reasoning": "Characterized by riverine flood vulnerability, massive structural IDP hosting, and intense conflict dynamics limiting consistent humanitarian access. High baseline incidence is driven by endemic waterborne diseases and dense IDP populations, while extreme month-to-month variability stems from recurrent Gu/Deyr flooding and rapid displacement inflows.",
+"p": {"a": 20.0, "b": 80.0},
+"gamma": {"a": 5.0, "b": 200.0},
+"omega": {"a": 4.0, "b": 300.0}
+},
+{
+"district": "Banadir",
+"reasoning": "Characterized by riverine flood vulnerability, massive structural IDP hosting, and intense conflict dynamics limiting consistent humanitarian access. High baseline incidence is driven by endemic waterborne diseases and dense IDP populations, while extreme month-to-month variability stems from recurrent Gu/Deyr flooding and rapid displacement inflows.",
+"p": {"a": 20.0, "b": 80.0},
+"gamma": {"a": 5.0, "b": 200.0},
+"omega": {"a": 4.0, "b": 300.0}
+},
+{
+"district": "Bandarbeyla",
+"reasoning": "Predominantly pastoral and agropastoral livelihoods with structurally stable market access and fewer acute conflict disruptions. Health infrastructure and CMAM coverage are relatively sustained, supporting higher recovery rates, while seasonal variations are smoothed by stronger asset bases and established trade networks.",
+"p": {"a": 30.0, "b": 70.0},
+"gamma": {"a": 1.0, "b": 300.0},
+"omega": {"a": 1.0, "b": 800.0}
+},
+{
+"district": "Baraawe",
+"reasoning": "Characterized by riverine flood vulnerability, massive structural IDP hosting, and intense conflict dynamics limiting consistent humanitarian access. High baseline incidence is driven by endemic waterborne diseases and dense IDP populations, while extreme month-to-month variability stems from recurrent Gu/Deyr flooding and rapid displacement inflows.",
+"p": {"a": 20.0, "b": 80.0},
+"gamma": {"a": 5.0, "b": 200.0},
+"omega": {"a": 4.0, "b": 300.0}
+},
+{
+"district": "Baydhaba",
+"reasoning": "Characterized by riverine flood vulnerability, massive structural IDP hosting, and intense conflict dynamics limiting consistent humanitarian access. High baseline incidence is driven by endemic waterborne diseases and dense IDP populations, while extreme month-to-month variability stems from recurrent Gu/Deyr flooding and rapid displacement inflows.",
+"p": {"a": 20.0, "b": 80.0},
+"gamma": {"a": 5.0, "b": 200.0},
+"omega": {"a": 4.0, "b": 300.0}
+},
+{
+"district": "Belet Weyne",
+"reasoning": "Chronic access constraints due to persistent armed group presence severely limit CMAM coverage and supply chains, restricting recovery pathways. Endemic water scarcity and conflict-driven livelihood disruptions maintain structurally high incidence, with significant volatility driven by market blockades and recurrent droughts.",
+"p": {"a": 15.0, "b": 85.0},
+"gamma": {"a": 3.0, "b": 200.0},
+"omega": {"a": 3.0, "b": 400.0}
+},
+{
+"district": "Belet Xaawo",
+"reasoning": "Chronic access constraints due to persistent armed group presence severely limit CMAM coverage and supply chains, restricting recovery pathways. Endemic water scarcity and conflict-driven livelihood disruptions maintain structurally high incidence, with significant volatility driven by market blockades and recurrent droughts.",
+"p": {"a": 15.0, "b": 85.0},
+"gamma": {"a": 3.0, "b": 200.0},
+"omega": {"a": 3.0, "b": 400.0}
+},
+{
+"district": "Berbera",
+"reasoning": "Predominantly pastoral and agropastoral livelihoods with structurally stable market access and fewer acute conflict disruptions. Health infrastructure and CMAM coverage are relatively sustained, supporting higher recovery rates, while seasonal variations are smoothed by stronger asset bases and established trade networks.",
+"p": {"a": 30.0, "b": 70.0},
+"gamma": {"a": 1.0, "b": 300.0},
+"omega": {"a": 1.0, "b": 800.0}
+},
+{
+"district": "Borama",
+"reasoning": "Predominantly pastoral and agropastoral livelihoods with structurally stable market access and fewer acute conflict disruptions. Health infrastructure and CMAM coverage are relatively sustained, supporting higher recovery rates, while seasonal variations are smoothed by stronger asset bases and established trade networks.",
+"p": {"a": 30.0, "b": 70.0},
+"gamma": {"a": 1.0, "b": 300.0},
+"omega": {"a": 1.0, "b": 800.0}
+},
+{
+"district": "Bossaso",
+"reasoning": "Predominantly pastoral and agropastoral livelihoods with structurally stable market access and fewer acute conflict disruptions. Health infrastructure and CMAM coverage are relatively sustained, supporting higher recovery rates, while seasonal variations are smoothed by stronger asset bases and established trade networks.",
+"p": {"a": 30.0, "b": 70.0},
+"gamma": {"a": 1.0, "b": 300.0},
+"omega": {"a": 1.0, "b": 800.0}
+},
+{
+"district": "Bu'aale",
+"reasoning": "Characterized by riverine flood vulnerability, massive structural IDP hosting, and intense conflict dynamics limiting consistent humanitarian access. High baseline incidence is driven by endemic waterborne diseases and dense IDP populations, while extreme month-to-month variability stems from recurrent Gu/Deyr flooding and rapid displacement inflows.",
+"p": {"a": 20.0, "b": 80.0},
+"gamma": {"a": 5.0, "b": 200.0},
+"omega": {"a": 4.0, "b": 300.0}
+},
+{
+"district": "Bulo Burto",
+"reasoning": "Chronic access constraints due to persistent armed group presence severely limit CMAM coverage and supply chains, restricting recovery pathways. Endemic water scarcity and conflict-driven livelihood disruptions maintain structurally high incidence, with significant volatility driven by market blockades and recurrent droughts.",
+"p": {"a": 15.0, "b": 85.0},
+"gamma": {"a": 3.0, "b": 200.0},
+"omega": {"a": 3.0, "b": 400.0}
+},
+{
+"district": "Burco",
+"reasoning": "Predominantly pastoral and agropastoral livelihoods with structurally stable market access and fewer acute conflict disruptions. Health infrastructure and CMAM coverage are relatively sustained, supporting higher recovery rates, while seasonal variations are smoothed by stronger asset bases and established trade networks.",
+"p": {"a": 30.0, "b": 70.0},
+"gamma": {"a": 1.0, "b": 300.0},
+"omega": {"a": 1.0, "b": 800.0}
+},
+{
+"district": "Burtinle",
+"reasoning": "Predominantly pastoral and agropastoral livelihoods with structurally stable market access and fewer acute conflict disruptions. Health infrastructure and CMAM coverage are relatively sustained, supporting higher recovery rates, while seasonal variations are smoothed by stronger asset bases and established trade networks.",
+"p": {"a": 30.0, "b": 70.0},
+"gamma": {"a": 1.0, "b": 300.0},
+"omega": {"a": 1.0, "b": 800.0}
+},
+{
+"district": "Buuhoodle",
+"reasoning": "Predominantly pastoral and agropastoral livelihoods with structurally stable market access and fewer acute conflict disruptions. Health infrastructure and CMAM coverage are relatively sustained, supporting higher recovery rates, while seasonal variations are smoothed by stronger asset bases and established trade networks.",
+"p": {"a": 30.0, "b": 70.0},
+"gamma": {"a": 1.0, "b": 300.0},
+"omega": {"a": 1.0, "b": 800.0}
+},
+{
+"district": "Buur Hakaba",
+"reasoning": "Characterized by riverine flood vulnerability, massive structural IDP hosting, and intense conflict dynamics limiting consistent humanitarian access. High baseline incidence is driven by endemic waterborne diseases and dense IDP populations, while extreme month-to-month variability stems from recurrent Gu/Deyr flooding and rapid displacement inflows.",
+"p": {"a": 20.0, "b": 80.0},
+"gamma": {"a": 5.0, "b": 200.0},
+"omega": {"a": 4.0, "b": 300.0}
+},
+{
+"district": "Cabudwaaq",
+"reasoning": "Chronic access constraints due to persistent armed group presence severely limit CMAM coverage and supply chains, restricting recovery pathways. Endemic water scarcity and conflict-driven livelihood disruptions maintain structurally high incidence, with significant volatility driven by market blockades and recurrent droughts.",
+"p": {"a": 15.0, "b": 85.0},
+"gamma": {"a": 3.0, "b": 200.0},
+"omega": {"a": 3.0, "b": 400.0}
+},
+{
+"district": "Cadaado",
+"reasoning": "Chronic access constraints due to persistent armed group presence severely limit CMAM coverage and supply chains, restricting recovery pathways. Endemic water scarcity and conflict-driven livelihood disruptions maintain structurally high incidence, with significant volatility driven by market blockades and recurrent droughts.",
+"p": {"a": 15.0, "b": 85.0},
+"gamma": {"a": 3.0, "b": 200.0},
+"omega": {"a": 3.0, "b": 400.0}
+},
+{
+"district": "Cadale",
+"reasoning": "Characterized by riverine flood vulnerability, massive structural IDP hosting, and intense conflict dynamics limiting consistent humanitarian access. High baseline incidence is driven by endemic waterborne diseases and dense IDP populations, while extreme month-to-month variability stems from recurrent Gu/Deyr flooding and rapid displacement inflows.",
+"p": {"a": 20.0, "b": 80.0},
+"gamma": {"a": 5.0, "b": 200.0},
+"omega": {"a": 4.0, "b": 300.0}
+},
+{
+"district": "Caluula",
+"reasoning": "Predominantly pastoral and agropastoral livelihoods with structurally stable market access and fewer acute conflict disruptions. Health infrastructure and CMAM coverage are relatively sustained, supporting higher recovery rates, while seasonal variations are smoothed by stronger asset bases and established trade networks.",
+"p": {"a": 30.0, "b": 70.0},
+"gamma": {"a": 1.0, "b": 300.0},
+"omega": {"a": 1.0, "b": 800.0}
+},
+{
+"district": "Caynabo",
+"reasoning": "Predominantly pastoral and agropastoral livelihoods with structurally stable market access and fewer acute conflict disruptions. Health infrastructure and CMAM coverage are relatively sustained, supporting higher recovery rates, while seasonal variations are smoothed by stronger asset bases and established trade networks.",
+"p": {"a": 30.0, "b": 70.0},
+"gamma": {"a": 1.0, "b": 300.0},
+"omega": {"a": 1.0, "b": 800.0}
+},
+{
+"district": "Ceel Afweyn",
+"reasoning": "Predominantly pastoral and agropastoral livelihoods with structurally stable market access and fewer acute conflict disruptions. Health infrastructure and CMAM coverage are relatively sustained, supporting higher recovery rates, while seasonal variations are smoothed by stronger asset bases and established trade networks.",
+"p": {"a": 30.0, "b": 70.0},
+"gamma": {"a": 1.0, "b": 300.0},
+"omega": {"a": 1.0, "b": 800.0}
+},
+{
+"district": "Ceel Barde",
+"reasoning": "Chronic access constraints due to persistent armed group presence severely limit CMAM coverage and supply chains, restricting recovery pathways. Endemic water scarcity and conflict-driven livelihood disruptions maintain structurally high incidence, with significant volatility driven by market blockades and recurrent droughts.",
+"p": {"a": 15.0, "b": 85.0},
+"gamma": {"a": 3.0, "b": 200.0},
+"omega": {"a": 3.0, "b": 400.0}
+},
+{
+"district": "Ceel Buur",
+"reasoning": "Chronic access constraints due to persistent armed group presence severely limit CMAM coverage and supply chains, restricting recovery pathways. Endemic water scarcity and conflict-driven livelihood disruptions maintain structurally high incidence, with significant volatility driven by market blockades and recurrent droughts.",
+"p": {"a": 15.0, "b": 85.0},
+"gamma": {"a": 3.0, "b": 200.0},
+"omega": {"a": 3.0, "b": 400.0}
+},
+{
+"district": "Ceel Dheere",
+"reasoning": "Chronic access constraints due to persistent armed group presence severely limit CMAM coverage and supply chains, restricting recovery pathways. Endemic water scarcity and conflict-driven livelihood disruptions maintain structurally high incidence, with significant volatility driven by market blockades and recurrent droughts.",
+"p": {"a": 15.0, "b": 85.0},
+"gamma": {"a": 3.0, "b": 200.0},
+"omega": {"a": 3.0, "b": 400.0}
+},
+{
+"district": "Ceel Waaq",
+"reasoning": "Chronic access constraints due to persistent armed group presence severely limit CMAM coverage and supply chains, restricting recovery pathways. Endemic water scarcity and conflict-driven livelihood disruptions maintain structurally high incidence, with significant volatility driven by market blockades and recurrent droughts.",
+"p": {"a": 15.0, "b": 85.0},
+"gamma": {"a": 3.0, "b": 200.0},
+"omega": {"a": 3.0, "b": 400.0}
+},
+{
+"district": "Ceerigaabo",
+"reasoning": "Predominantly pastoral and agropastoral livelihoods with structurally stable market access and fewer acute conflict disruptions. Health infrastructure and CMAM coverage are relatively sustained, supporting higher recovery rates, while seasonal variations are smoothed by stronger asset bases and established trade networks.",
+"p": {"a": 30.0, "b": 70.0},
+"gamma": {"a": 1.0, "b": 300.0},
+"omega": {"a": 1.0, "b": 800.0}
+},
+{
+"district": "Dhuusamarreeb",
+"reasoning": "Chronic access constraints due to persistent armed group presence severely limit CMAM coverage and supply chains, restricting recovery pathways. Endemic water scarcity and conflict-driven livelihood disruptions maintain structurally high incidence, with significant volatility driven by market blockades and recurrent droughts.",
+"p": {"a": 15.0, "b": 85.0},
+"gamma": {"a": 3.0, "b": 200.0},
+"omega": {"a": 3.0, "b": 400.0}
+},
+{
+"district": "Diinsoor",
+"reasoning": "Characterized by riverine flood vulnerability, massive structural IDP hosting, and intense conflict dynamics limiting consistent humanitarian access. High baseline incidence is driven by endemic waterborne diseases and dense IDP populations, while extreme month-to-month variability stems from recurrent Gu/Deyr flooding and rapid displacement inflows.",
+"p": {"a": 20.0, "b": 80.0},
+"gamma": {"a": 5.0, "b": 200.0},
+"omega": {"a": 4.0, "b": 300.0}
+},
+{
+"district": "Doolow",
+"reasoning": "Chronic access constraints due to persistent armed group presence severely limit CMAM coverage and supply chains, restricting recovery pathways. Endemic water scarcity and conflict-driven livelihood disruptions maintain structurally high incidence, with significant volatility driven by market blockades and recurrent droughts.",
+"p": {"a": 15.0, "b": 85.0},
+"gamma": {"a": 3.0, "b": 200.0},
+"omega": {"a": 3.0, "b": 400.0}
+},
+{
+"district": "Eyl",
+"reasoning": "Predominantly pastoral and agropastoral livelihoods with structurally stable market access and fewer acute conflict disruptions. Health infrastructure and CMAM coverage are relatively sustained, supporting higher recovery rates, while seasonal variations are smoothed by stronger asset bases and established trade networks.",
+"p": {"a": 30.0, "b": 70.0},
+"gamma": {"a": 1.0, "b": 300.0},
+"omega": {"a": 1.0, "b": 800.0}
+},
+{
+"district": "Gaalkacyo",
+"reasoning": "Predominantly pastoral and agropastoral livelihoods with structurally stable market access and fewer acute conflict disruptions. Health infrastructure and CMAM coverage are relatively sustained, supporting higher recovery rates, while seasonal variations are smoothed by stronger asset bases and established trade networks.",
+"p": {"a": 30.0, "b": 70.0},
+"gamma": {"a": 1.0, "b": 300.0},
+"omega": {"a": 1.0, "b": 800.0}
+},
+{
+"district": "Galdogob",
+"reasoning": "Predominantly pastoral and agropastoral livelihoods with structurally stable market access and fewer acute conflict disruptions. Health infrastructure and CMAM coverage are relatively sustained, supporting higher recovery rates, while seasonal variations are smoothed by stronger asset bases and established trade networks.",
+"p": {"a": 30.0, "b": 70.0},
+"gamma": {"a": 1.0, "b": 300.0},
+"omega": {"a": 1.0, "b": 800.0}
+},
+{
+"district": "Garbahaarey",
+"reasoning": "Chronic access constraints due to persistent armed group presence severely limit CMAM coverage and supply chains, restricting recovery pathways. Endemic water scarcity and conflict-driven livelihood disruptions maintain structurally high incidence, with significant volatility driven by market blockades and recurrent droughts.",
+"p": {"a": 15.0, "b": 85.0},
+"gamma": {"a": 3.0, "b": 200.0},
+"omega": {"a": 3.0, "b": 400.0}
+},
+{
+"district": "Garoowe",
+"reasoning": "Predominantly pastoral and agropastoral livelihoods with structurally stable market access and fewer acute conflict disruptions. Health infrastructure and CMAM coverage are relatively sustained, supporting higher recovery rates, while seasonal variations are smoothed by stronger asset bases and established trade networks.",
+"p": {"a": 30.0, "b": 70.0},
+"gamma": {"a": 1.0, "b": 300.0},
+"omega": {"a": 1.0, "b": 800.0}
+},
+{
+"district": "Gebiley",
+"reasoning": "Predominantly pastoral and agropastoral livelihoods with structurally stable market access and fewer acute conflict disruptions. Health infrastructure and CMAM coverage are relatively sustained, supporting higher recovery rates, while seasonal variations are smoothed by stronger asset bases and established trade networks.",
+"p": {"a": 30.0, "b": 70.0},
+"gamma": {"a": 1.0, "b": 300.0},
+"omega": {"a": 1.0, "b": 800.0}
+},
+{
+"district": "Hargeysa",
+"reasoning": "Predominantly pastoral and agropastoral livelihoods with structurally stable market access and fewer acute conflict disruptions. Health infrastructure and CMAM coverage are relatively sustained, supporting higher recovery rates, while seasonal variations are smoothed by stronger asset bases and established trade networks.",
+"p": {"a": 30.0, "b": 70.0},
+"gamma": {"a": 1.0, "b": 300.0},
+"omega": {"a": 1.0, "b": 800.0}
+},
+{
+"district": "Hobyo",
+"reasoning": "Chronic access constraints due to persistent armed group presence severely limit CMAM coverage and supply chains, restricting recovery pathways. Endemic water scarcity and conflict-driven livelihood disruptions maintain structurally high incidence, with significant volatility driven by market blockades and recurrent droughts.",
+"p": {"a": 15.0, "b": 85.0},
+"gamma": {"a": 3.0, "b": 200.0},
+"omega": {"a": 3.0, "b": 400.0}
+},
+{
+"district": "Iskushuban",
+"reasoning": "Predominantly pastoral and agropastoral livelihoods with structurally stable market access and fewer acute conflict disruptions. Health infrastructure and CMAM coverage are relatively sustained, supporting higher recovery rates, while seasonal variations are smoothed by stronger asset bases and established trade networks.",
+"p": {"a": 30.0, "b": 70.0},
+"gamma": {"a": 1.0, "b": 300.0},
+"omega": {"a": 1.0, "b": 800.0}
+},
+{
+"district": "Jalalaqsi",
+"reasoning": "Chronic access constraints due to persistent armed group presence severely limit CMAM coverage and supply chains, restricting recovery pathways. Endemic water scarcity and conflict-driven livelihood disruptions maintain structurally high incidence, with significant volatility driven by market blockades and recurrent droughts.",
+"p": {"a": 15.0, "b": 85.0},
+"gamma": {"a": 3.0, "b": 200.0},
+"omega": {"a": 3.0, "b": 400.0}
+},
+{
+"district": "Jamaame",
+"reasoning": "Characterized by riverine flood vulnerability, massive structural IDP hosting, and intense conflict dynamics limiting consistent humanitarian access. High baseline incidence is driven by endemic waterborne diseases and dense IDP populations, while extreme month-to-month variability stems from recurrent Gu/Deyr flooding and rapid displacement inflows.",
+"p": {"a": 20.0, "b": 80.0},
+"gamma": {"a": 5.0, "b": 200.0},
+"omega": {"a": 4.0, "b": 300.0}
+},
+{
+"district": "Jariiban",
+"reasoning": "Predominantly pastoral and agropastoral livelihoods with structurally stable market access and fewer acute conflict disruptions. Health infrastructure and CMAM coverage are relatively sustained, supporting higher recovery rates, while seasonal variations are smoothed by stronger asset bases and established trade networks.",
+"p": {"a": 30.0, "b": 70.0},
+"gamma": {"a": 1.0, "b": 300.0},
+"omega": {"a": 1.0, "b": 800.0}
+},
+{
+"district": "Jilib",
+"reasoning": "Characterized by riverine flood vulnerability, massive structural IDP hosting, and intense conflict dynamics limiting consistent humanitarian access. High baseline incidence is driven by endemic waterborne diseases and dense IDP populations, while extreme month-to-month variability stems from recurrent Gu/Deyr flooding and rapid displacement inflows.",
+"p": {"a": 20.0, "b": 80.0},
+"gamma": {"a": 5.0, "b": 200.0},
+"omega": {"a": 4.0, "b": 300.0}
+},
+{
+"district": "Jowhar",
+"reasoning": "Characterized by riverine flood vulnerability, massive structural IDP hosting, and intense conflict dynamics limiting consistent humanitarian access. High baseline incidence is driven by endemic waterborne diseases and dense IDP populations, while extreme month-to-month variability stems from recurrent Gu/Deyr flooding and rapid displacement inflows.",
+"p": {"a": 20.0, "b": 80.0},
+"gamma": {"a": 5.0, "b": 200.0},
+"omega": {"a": 4.0, "b": 300.0}
+},
+{
+"district": "Kismaayo",
+"reasoning": "Characterized by riverine flood vulnerability, massive structural IDP hosting, and intense conflict dynamics limiting consistent humanitarian access. High baseline incidence is driven by endemic waterborne diseases and dense IDP populations, while extreme month-to-month variability stems from recurrent Gu/Deyr flooding and rapid displacement inflows.",
+"p": {"a": 20.0, "b": 80.0},
+"gamma": {"a": 5.0, "b": 200.0},
+"omega": {"a": 4.0, "b": 300.0}
+},
+{
+"district": "Kurtunwaarey",
+"reasoning": "Characterized by riverine flood vulnerability, massive structural IDP hosting, and intense conflict dynamics limiting consistent humanitarian access. High baseline incidence is driven by endemic waterborne diseases and dense IDP populations, while extreme month-to-month variability stems from recurrent Gu/Deyr flooding and rapid displacement inflows.",
+"p": {"a": 20.0, "b": 80.0},
+"gamma": {"a": 5.0, "b": 200.0},
+"omega": {"a": 4.0, "b": 300.0}
+},
+{
+"district": "Laas Caanood",
+"reasoning": "Predominantly pastoral and agropastoral livelihoods with structurally stable market access and fewer acute conflict disruptions. Health infrastructure and CMAM coverage are relatively sustained, supporting higher recovery rates, while seasonal variations are smoothed by stronger asset bases and established trade networks.",
+"p": {"a": 30.0, "b": 70.0},
+"gamma": {"a": 1.0, "b": 300.0},
+"omega": {"a": 1.0, "b": 800.0}
+},
+{
+"district": "Laasqoray",
+"reasoning": "Predominantly pastoral and agropastoral livelihoods with structurally stable market access and fewer acute conflict disruptions. Health infrastructure and CMAM coverage are relatively sustained, supporting higher recovery rates, while seasonal variations are smoothed by stronger asset bases and established trade networks.",
+"p": {"a": 30.0, "b": 70.0},
+"gamma": {"a": 1.0, "b": 300.0},
+"omega": {"a": 1.0, "b": 800.0}
+},
+{
+"district": "Lughaye",
+"reasoning": "Predominantly pastoral and agropastoral livelihoods with structurally stable market access and fewer acute conflict disruptions. Health infrastructure and CMAM coverage are relatively sustained, supporting higher recovery rates, while seasonal variations are smoothed by stronger asset bases and established trade networks.",
+"p": {"a": 30.0, "b": 70.0},
+"gamma": {"a": 1.0, "b": 300.0},
+"omega": {"a": 1.0, "b": 800.0}
+},
+{
+"district": "Luuq",
+"reasoning": "Chronic access constraints due to persistent armed group presence severely limit CMAM coverage and supply chains, restricting recovery pathways. Endemic water scarcity and conflict-driven livelihood disruptions maintain structurally high incidence, with significant volatility driven by market blockades and recurrent droughts.",
+"p": {"a": 15.0, "b": 85.0},
+"gamma": {"a": 3.0, "b": 200.0},
+"omega": {"a": 3.0, "b": 400.0}
+},
+{
+"district": "Marka",
+"reasoning": "Characterized by riverine flood vulnerability, massive structural IDP hosting, and intense conflict dynamics limiting consistent humanitarian access. High baseline incidence is driven by endemic waterborne diseases and dense IDP populations, while extreme month-to-month variability stems from recurrent Gu/Deyr flooding and rapid displacement inflows.",
+"p": {"a": 20.0, "b": 80.0},
+"gamma": {"a": 5.0, "b": 200.0},
+"omega": {"a": 4.0, "b": 300.0}
+},
+{
+"district": "Owdweyne",
+"reasoning": "Predominantly pastoral and agropastoral livelihoods with structurally stable market access and fewer acute conflict disruptions. Health infrastructure and CMAM coverage are relatively sustained, supporting higher recovery rates, while seasonal variations are smoothed by stronger asset bases and established trade networks.",
+"p": {"a": 30.0, "b": 70.0},
+"gamma": {"a": 1.0, "b": 300.0},
+"omega": {"a": 1.0, "b": 800.0}
+},
+{
+"district": "Qandala",
+"reasoning": "Predominantly pastoral and agropastoral livelihoods with structurally stable market access and fewer acute conflict disruptions. Health infrastructure and CMAM coverage are relatively sustained, supporting higher recovery rates, while seasonal variations are smoothed by stronger asset bases and established trade networks.",
+"p": {"a": 30.0, "b": 70.0},
+"gamma": {"a": 1.0, "b": 300.0},
+"omega": {"a": 1.0, "b": 800.0}
+},
+{
+"district": "Qansax Dheere",
+"reasoning": "Characterized by riverine flood vulnerability, massive structural IDP hosting, and intense conflict dynamics limiting consistent humanitarian access. High baseline incidence is driven by endemic waterborne diseases and dense IDP populations, while extreme month-to-month variability stems from recurrent Gu/Deyr flooding and rapid displacement inflows.",
+"p": {"a": 20.0, "b": 80.0},
+"gamma": {"a": 5.0, "b": 200.0},
+"omega": {"a": 4.0, "b": 300.0}
+},
+{
+"district": "Qardho",
+"reasoning": "Predominantly pastoral and agropastoral livelihoods with structurally stable market access and fewer acute conflict disruptions. Health infrastructure and CMAM coverage are relatively sustained, supporting higher recovery rates, while seasonal variations are smoothed by stronger asset bases and established trade networks.",
+"p": {"a": 30.0, "b": 70.0},
+"gamma": {"a": 1.0, "b": 300.0},
+"omega": {"a": 1.0, "b": 800.0}
+},
+{
+"district": "Qoryooley",
+"reasoning": "Characterized by riverine flood vulnerability, massive structural IDP hosting, and intense conflict dynamics limiting consistent humanitarian access. High baseline incidence is driven by endemic waterborne diseases and dense IDP populations, while extreme month-to-month variability stems from recurrent Gu/Deyr flooding and rapid displacement inflows.",
+"p": {"a": 20.0, "b": 80.0},
+"gamma": {"a": 5.0, "b": 200.0},
+"omega": {"a": 4.0, "b": 300.0}
+},
+{
+"district": "Rab Dhuure",
+"reasoning": "Chronic access constraints due to persistent armed group presence severely limit CMAM coverage and supply chains, restricting recovery pathways. Endemic water scarcity and conflict-driven livelihood disruptions maintain structurally high incidence, with significant volatility driven by market blockades and recurrent droughts.",
+"p": {"a": 15.0, "b": 85.0},
+"gamma": {"a": 3.0, "b": 200.0},
+"omega": {"a": 3.0, "b": 400.0}
+},
+{
+"district": "Saakow",
+"reasoning": "Characterized by riverine flood vulnerability, massive structural IDP hosting, and intense conflict dynamics limiting consistent humanitarian access. High baseline incidence is driven by endemic waterborne diseases and dense IDP populations, while extreme month-to-month variability stems from recurrent Gu/Deyr flooding and rapid displacement inflows.",
+"p": {"a": 20.0, "b": 80.0},
+"gamma": {"a": 5.0, "b": 200.0},
+"omega": {"a": 4.0, "b": 300.0}
+},
+{
+"district": "Sablaale",
+"reasoning": "Characterized by riverine flood vulnerability, massive structural IDP hosting, and intense conflict dynamics limiting consistent humanitarian access. High baseline incidence is driven by endemic waterborne diseases and dense IDP populations, while extreme month-to-month variability stems from recurrent Gu/Deyr flooding and rapid displacement inflows.",
+"p": {"a": 20.0, "b": 80.0},
+"gamma": {"a": 5.0, "b": 200.0},
+"omega": {"a": 4.0, "b": 300.0}
+},
+{
+"district": "Sheikh",
+"reasoning": "Predominantly pastoral and agropastoral livelihoods with structurally stable market access and fewer acute conflict disruptions. Health infrastructure and CMAM coverage are relatively sustained, supporting higher recovery rates, while seasonal variations are smoothed by stronger asset bases and established trade networks.",
+"p": {"a": 30.0, "b": 70.0},
+"gamma": {"a": 1.0, "b": 300.0},
+"omega": {"a": 1.0, "b": 800.0}
+},
+{
+"district": "Taleex",
+"reasoning": "Predominantly pastoral and agropastoral livelihoods with structurally stable market access and fewer acute conflict disruptions. Health infrastructure and CMAM coverage are relatively sustained, supporting higher recovery rates, while seasonal variations are smoothed by stronger asset bases and established trade networks.",
+"p": {"a": 30.0, "b": 70.0},
+"gamma": {"a": 1.0, "b": 300.0},
+"omega": {"a": 1.0, "b": 800.0}
+},
+{
+"district": "Tayeeglow",
+"reasoning": "Chronic access constraints due to persistent armed group presence severely limit CMAM coverage and supply chains, restricting recovery pathways. Endemic water scarcity and conflict-driven livelihood disruptions maintain structurally high incidence, with significant volatility driven by market blockades and recurrent droughts.",
+"p": {"a": 15.0, "b": 85.0},
+"gamma": {"a": 3.0, "b": 200.0},
+"omega": {"a": 3.0, "b": 400.0}
+},
+{
+"district": "Waajid",
+"reasoning": "Chronic access constraints due to persistent armed group presence severely limit CMAM coverage and supply chains, restricting recovery pathways. Endemic water scarcity and conflict-driven livelihood disruptions maintain structurally high incidence, with significant volatility driven by market blockades and recurrent droughts.",
+"p": {"a": 15.0, "b": 85.0},
+"gamma": {"a": 3.0, "b": 200.0},
+"omega": {"a": 3.0, "b": 400.0}
+},
+{
+"district": "Wanla Weyn",
+"reasoning": "Characterized by riverine flood vulnerability, massive structural IDP hosting, and intense conflict dynamics limiting consistent humanitarian access. High baseline incidence is driven by endemic waterborne diseases and dense IDP populations, while extreme month-to-month variability stems from recurrent Gu/Deyr flooding and rapid displacement inflows.",
+"p": {"a": 20.0, "b": 80.0},
+"gamma": {"a": 5.0, "b": 200.0},
+"omega": {"a": 4.0, "b": 300.0}
+},
+{
+"district": "Xarardheere",
+"reasoning": "Chronic access constraints due to persistent armed group presence severely limit CMAM coverage and supply chains, restricting recovery pathways. Endemic water scarcity and conflict-driven livelihood disruptions maintain structurally high incidence, with significant volatility driven by market blockades and recurrent droughts.",
+"p": {"a": 15.0, "b": 85.0},
+"gamma": {"a": 3.0, "b": 200.0},
+"omega": {"a": 3.0, "b": 400.0}
+},
+{
+"district": "Xudun",
+"reasoning": "Predominantly pastoral and agropastoral livelihoods with structurally stable market access and fewer acute conflict disruptions. Health infrastructure and CMAM coverage are relatively sustained, supporting higher recovery rates, while seasonal variations are smoothed by stronger asset bases and established trade networks.",
+"p": {"a": 30.0, "b": 70.0},
+"gamma": {"a": 1.0, "b": 300.0},
+"omega": {"a": 1.0, "b": 800.0}
+},
+{
+"district": "Xudur",
+"reasoning": "Chronic access constraints due to persistent armed group presence severely limit CMAM coverage and supply chains, restricting recovery pathways. Endemic water scarcity and conflict-driven livelihood disruptions maintain structurally high incidence, with significant volatility driven by market blockades and recurrent droughts.",
+"p": {"a": 15.0, "b": 85.0},
+"gamma": {"a": 3.0, "b": 200.0},
+"omega": {"a": 3.0, "b": 400.0}
+},
+{
+"district": "Zeylac",
+"reasoning": "Predominantly pastoral and agropastoral livelihoods with structurally stable market access and fewer acute conflict disruptions. Health infrastructure and CMAM coverage are relatively sustained, supporting higher recovery rates, while seasonal variations are smoothed by stronger asset bases and established trade networks.",
+"p": {"a": 30.0, "b": 70.0},
+"gamma": {"a": 1.0, "b": 300.0},
+"omega": {"a": 1.0, "b": 800.0}
+}
+]
+}

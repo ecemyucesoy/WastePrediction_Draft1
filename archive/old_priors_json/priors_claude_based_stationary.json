@@ -1,0 +1,1924 @@
+{
+  "districts": [
+    {
+      "district": "Banadir",
+      "reasoning": "Capital: best-surveyed district (low omega), functional urban markets and diversified food access, but a chronically large IDP population sustains non-trivial incidence; services give relatively fast case turnover. Livelihood/vulnerability archetype: urban capital (Banadir). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 6 months of direct field observation in this district for each of p, gamma and omega (evidence tier: strong).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://reliefweb.int/report/somalia/fsnau-nutrition-update-july-2018",
+        "https://scalingupnutrition.org/sites/default/files/2022-06/national-nutrition-plan-somalia.pdf"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.34,
+        "low_90": 0.221,
+        "high_90": 0.459
+      },
+      "gamma": {
+        "median": 0.0085,
+        "low_90": 0.0055,
+        "high_90": 0.0115
+      },
+      "omega": {
+        "median": 0.003,
+        "low_90": 0.0005,
+        "high_90": 0.0055
+      }
+    },
+    {
+      "district": "Afgooye",
+      "reasoning": "Afgooye corridor hosts one of Somalia's largest chronic IDP concentrations with endemic nutritional vulnerability; mixed agropastoral/riverine hinterland and periodic access constraints. Livelihood/vulnerability archetype: idp hub (Lower Shabelle). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 4 months of direct field observation in this district for each of p, gamma and omega (evidence tier: medium).",
+      "sources_retrieved": [
+        "https://reliefweb.int/report/somalia/fsnau-nutrition-update-july-2018",
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://scalingupnutrition.org/sites/default/files/2022-06/national-nutrition-plan-somalia.pdf"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.3,
+        "low_90": 0.15,
+        "high_90": 0.45
+      },
+      "gamma": {
+        "median": 0.0135,
+        "low_90": 0.00675,
+        "high_90": 0.02025
+      },
+      "omega": {
+        "median": 0.008,
+        "low_90": 0.004,
+        "high_90": 0.012
+      }
+    },
+    {
+      "district": "Marka",
+      "reasoning": "Coastal agropastoral town with chronic Al-Shabaab contestation on supply routes; endemic wasting, irregular survey access raises omega. Livelihood/vulnerability archetype: s agropast mod (Lower Shabelle). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 4 months of direct field observation in this district for each of p, gamma and omega (evidence tier: medium).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020",
+        "https://www.unocha.org/attachments/873a590b-9947-47fc-941b-d057f7cebbf9/Somalia_HNRP_2025_v9.10.pdf"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.27,
+        "low_90": 0.135,
+        "high_90": 0.405
+      },
+      "gamma": {
+        "median": 0.0105,
+        "low_90": 0.00525,
+        "high_90": 0.01575
+      },
+      "omega": {
+        "median": 0.009,
+        "low_90": 0.0045,
+        "high_90": 0.0135
+      }
+    },
+    {
+      "district": "Qoryooley",
+      "reasoning": "Shabelle riverine/agropastoral with recurrent flood vulnerability and contested access; chronic-persistent wasting lowers p, heterogeneity raises omega. Livelihood/vulnerability archetype: riverine (Lower Shabelle). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 4 months of direct field observation in this district for each of p, gamma and omega (evidence tier: medium).",
+      "sources_retrieved": [
+        "https://reliefweb.int/report/somalia/famine-thresholds-surpassed-three-new-areas-southern-somalia",
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.24,
+        "low_90": 0.12,
+        "high_90": 0.36
+      },
+      "gamma": {
+        "median": 0.012,
+        "low_90": 0.006,
+        "high_90": 0.018
+      },
+      "omega": {
+        "median": 0.009,
+        "low_90": 0.0045,
+        "high_90": 0.0135
+      }
+    },
+    {
+      "district": "Wanla Weyn",
+      "reasoning": "Shabelle agropastoral, chronically contested rural access; limited direct survey coverage so interval widened. Livelihood/vulnerability archetype: s agropast mod (Lower Shabelle). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020",
+        "https://www.unocha.org/attachments/873a590b-9947-47fc-941b-d057f7cebbf9/Somalia_HNRP_2025_v9.10.pdf"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.27,
+        "low_90": 0.081,
+        "high_90": 0.459
+      },
+      "gamma": {
+        "median": 0.0105,
+        "low_90": 0.00315,
+        "high_90": 0.01785
+      },
+      "omega": {
+        "median": 0.008,
+        "low_90": 0.0024,
+        "high_90": 0.0136
+      }
+    },
+    {
+      "district": "Sablaale",
+      "reasoning": "Small Lower Shabelle agropastoral/coastal district with sparse survey coverage and chronic access constraints. Livelihood/vulnerability archetype: s agropast mod (Lower Shabelle). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020",
+        "https://www.unocha.org/attachments/873a590b-9947-47fc-941b-d057f7cebbf9/Somalia_HNRP_2025_v9.10.pdf"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.27,
+        "low_90": 0.081,
+        "high_90": 0.459
+      },
+      "gamma": {
+        "median": 0.0105,
+        "low_90": 0.00315,
+        "high_90": 0.01785
+      },
+      "omega": {
+        "median": 0.008,
+        "low_90": 0.0024,
+        "high_90": 0.0136
+      }
+    },
+    {
+      "district": "Kurtunwaarey",
+      "reasoning": "Lower Shabelle agropastoral, deep-rural and chronically hard to reach; thin evidence widens interval. Livelihood/vulnerability archetype: s agropast mod (Lower Shabelle). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020",
+        "https://www.unocha.org/attachments/873a590b-9947-47fc-941b-d057f7cebbf9/Somalia_HNRP_2025_v9.10.pdf"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.27,
+        "low_90": 0.081,
+        "high_90": 0.459
+      },
+      "gamma": {
+        "median": 0.0105,
+        "low_90": 0.00315,
+        "high_90": 0.01785
+      },
+      "omega": {
+        "median": 0.008,
+        "low_90": 0.0024,
+        "high_90": 0.0136
+      }
+    },
+    {
+      "district": "Baraawe",
+      "reasoning": "Coastal fishing town with some marine food access but remote and Al-Shabaab contested; sparse surveys raise omega. Livelihood/vulnerability archetype: coastal fishing (Lower Shabelle). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://fsnau.org/downloads/FSNAU-FEWSNET-Updated-Somalia-Livelihood-Zones-Map-April-2015.pdf"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.29,
+        "low_90": 0.087,
+        "high_90": 0.493
+      },
+      "gamma": {
+        "median": 0.0065,
+        "low_90": 0.00195,
+        "high_90": 0.01105
+      },
+      "omega": {
+        "median": 0.0065,
+        "low_90": 0.00195,
+        "high_90": 0.01105
+      }
+    },
+    {
+      "district": "Jowhar",
+      "reasoning": "Shabelle riverine breadbasket with chronic flood exposure and endemic disease burden; persistent wasting, moderate access. Livelihood/vulnerability archetype: riverine (Middle Shabelle). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 4 months of direct field observation in this district for each of p, gamma and omega (evidence tier: medium).",
+      "sources_retrieved": [
+        "https://reliefweb.int/report/somalia/famine-thresholds-surpassed-three-new-areas-southern-somalia",
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.24,
+        "low_90": 0.12,
+        "high_90": 0.36
+      },
+      "gamma": {
+        "median": 0.012,
+        "low_90": 0.006,
+        "high_90": 0.018
+      },
+      "omega": {
+        "median": 0.009,
+        "low_90": 0.0045,
+        "high_90": 0.0135
+      }
+    },
+    {
+      "district": "Balcad",
+      "reasoning": "Shabelle riverine/agropastoral near Banadir; historically famine-prone (2011), chronic flood and access vulnerability. Livelihood/vulnerability archetype: riverine (Middle Shabelle). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 4 months of direct field observation in this district for each of p, gamma and omega (evidence tier: medium).",
+      "sources_retrieved": [
+        "https://reliefweb.int/report/somalia/famine-thresholds-surpassed-three-new-areas-southern-somalia",
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.24,
+        "low_90": 0.12,
+        "high_90": 0.36
+      },
+      "gamma": {
+        "median": 0.012,
+        "low_90": 0.006,
+        "high_90": 0.018
+      },
+      "omega": {
+        "median": 0.009,
+        "low_90": 0.0045,
+        "high_90": 0.0135
+      }
+    },
+    {
+      "district": "Cadale",
+      "reasoning": "Coastal/agropastoral Middle Shabelle, chronically hard to reach with thin survey coverage. Livelihood/vulnerability archetype: s agropast mod (Middle Shabelle). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020",
+        "https://www.unocha.org/attachments/873a590b-9947-47fc-941b-d057f7cebbf9/Somalia_HNRP_2025_v9.10.pdf"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.27,
+        "low_90": 0.081,
+        "high_90": 0.459
+      },
+      "gamma": {
+        "median": 0.0105,
+        "low_90": 0.00315,
+        "high_90": 0.01785
+      },
+      "omega": {
+        "median": 0.008,
+        "low_90": 0.0024,
+        "high_90": 0.0136
+      }
+    },
+    {
+      "district": "Adan Yabaal",
+      "reasoning": "Middle Shabelle agropastoral, Al-Shabaab contested and rarely surveyed; interval widened for sparse evidence. Livelihood/vulnerability archetype: s agropast mod (Middle Shabelle). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020",
+        "https://www.unocha.org/attachments/873a590b-9947-47fc-941b-d057f7cebbf9/Somalia_HNRP_2025_v9.10.pdf"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.27,
+        "low_90": 0.081,
+        "high_90": 0.459
+      },
+      "gamma": {
+        "median": 0.0105,
+        "low_90": 0.00315,
+        "high_90": 0.01785
+      },
+      "omega": {
+        "median": 0.008,
+        "low_90": 0.0024,
+        "high_90": 0.0136
+      }
+    },
+    {
+      "district": "Belet Weyne",
+      "reasoning": "Shabelle riverine town with recurrent severe flooding and sustained critical GAM across surveys; chronic displacement, elevated incidence. Livelihood/vulnerability archetype: riverine (Hiraan). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 4 months of direct field observation in this district for each of p, gamma and omega (evidence tier: medium).",
+      "sources_retrieved": [
+        "https://reliefweb.int/report/somalia/famine-thresholds-surpassed-three-new-areas-southern-somalia",
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.24,
+        "low_90": 0.12,
+        "high_90": 0.36
+      },
+      "gamma": {
+        "median": 0.012,
+        "low_90": 0.006,
+        "high_90": 0.018
+      },
+      "omega": {
+        "median": 0.009,
+        "low_90": 0.0045,
+        "high_90": 0.0135
+      }
+    },
+    {
+      "district": "Bulo Burto",
+      "reasoning": "Hiraan agropastoral, long Al-Shabaab presence and difficult access to outlying villages; thin coverage widens interval. Livelihood/vulnerability archetype: s agropast mod (Hiraan). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020",
+        "https://www.unocha.org/attachments/873a590b-9947-47fc-941b-d057f7cebbf9/Somalia_HNRP_2025_v9.10.pdf"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.27,
+        "low_90": 0.081,
+        "high_90": 0.459
+      },
+      "gamma": {
+        "median": 0.0105,
+        "low_90": 0.00315,
+        "high_90": 0.01785
+      },
+      "omega": {
+        "median": 0.008,
+        "low_90": 0.0024,
+        "high_90": 0.0136
+      }
+    },
+    {
+      "district": "Jalalaqsi",
+      "reasoning": "Shabelle riverine Hiraan district with flood vulnerability and constrained access; limited direct surveys. Livelihood/vulnerability archetype: riverine (Hiraan). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://reliefweb.int/report/somalia/famine-thresholds-surpassed-three-new-areas-southern-somalia",
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.24,
+        "low_90": 0.072,
+        "high_90": 0.408
+      },
+      "gamma": {
+        "median": 0.012,
+        "low_90": 0.0036,
+        "high_90": 0.0204
+      },
+      "omega": {
+        "median": 0.009,
+        "low_90": 0.0027,
+        "high_90": 0.0153
+      }
+    },
+    {
+      "district": "Baydhaba",
+      "reasoning": "Bay agropastoral: among the most persistently elevated GAM/SAM belts in Somalia (2011 famine epicentre) with a very large chronic IDP caseload in Baidoa town; high endemic incidence, chronic wasting. Livelihood/vulnerability archetype: s agropast high (Bay). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 6 months of direct field observation in this district for each of p, gamma and omega (evidence tier: strong).",
+      "sources_retrieved": [
+        "https://reliefweb.int/report/somalia/famine-thresholds-surpassed-three-new-areas-southern-somalia",
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://www.unocha.org/attachments/873a590b-9947-47fc-941b-d057f7cebbf9/Somalia_HNRP_2025_v9.10.pdf",
+        "https://scalingupnutrition.org/sites/default/files/2022-06/national-nutrition-plan-somalia.pdf"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.26,
+        "low_90": 0.169,
+        "high_90": 0.351
+      },
+      "gamma": {
+        "median": 0.0125,
+        "low_90": 0.00813,
+        "high_90": 0.01688
+      },
+      "omega": {
+        "median": 0.0085,
+        "low_90": 0.00553,
+        "high_90": 0.01148
+      }
+    },
+    {
+      "district": "Buur Hakaba",
+      "reasoning": "Bay agropastoral, chronically high-burden and drought-prone with contested rural access. Livelihood/vulnerability archetype: s agropast high (Bay). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 4 months of direct field observation in this district for each of p, gamma and omega (evidence tier: medium).",
+      "sources_retrieved": [
+        "https://reliefweb.int/report/somalia/famine-thresholds-surpassed-three-new-areas-southern-somalia",
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://www.unocha.org/attachments/873a590b-9947-47fc-941b-d057f7cebbf9/Somalia_HNRP_2025_v9.10.pdf",
+        "https://scalingupnutrition.org/sites/default/files/2022-06/national-nutrition-plan-somalia.pdf"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.26,
+        "low_90": 0.13,
+        "high_90": 0.39
+      },
+      "gamma": {
+        "median": 0.0125,
+        "low_90": 0.00625,
+        "high_90": 0.01875
+      },
+      "omega": {
+        "median": 0.0085,
+        "low_90": 0.00425,
+        "high_90": 0.01275
+      }
+    },
+    {
+      "district": "Diinsoor",
+      "reasoning": "Bay agropastoral flagged with severe/very-severe access constraints and inter-clan conflict; chronic high wasting, irregular surveys raise omega. Livelihood/vulnerability archetype: s agropast high (Bay). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 4 months of direct field observation in this district for each of p, gamma and omega (evidence tier: medium).",
+      "sources_retrieved": [
+        "https://reliefweb.int/report/somalia/famine-thresholds-surpassed-three-new-areas-southern-somalia",
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://www.unocha.org/attachments/873a590b-9947-47fc-941b-d057f7cebbf9/Somalia_HNRP_2025_v9.10.pdf",
+        "https://scalingupnutrition.org/sites/default/files/2022-06/national-nutrition-plan-somalia.pdf"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.26,
+        "low_90": 0.13,
+        "high_90": 0.39
+      },
+      "gamma": {
+        "median": 0.0125,
+        "low_90": 0.00625,
+        "high_90": 0.01875
+      },
+      "omega": {
+        "median": 0.0095,
+        "low_90": 0.00475,
+        "high_90": 0.01425
+      }
+    },
+    {
+      "district": "Qansax Dheere",
+      "reasoning": "Bay agropastoral with severe access constraints and sparse survey coverage; high chronic burden, widened interval. Livelihood/vulnerability archetype: s agropast high (Bay). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://reliefweb.int/report/somalia/famine-thresholds-surpassed-three-new-areas-southern-somalia",
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://www.unocha.org/attachments/873a590b-9947-47fc-941b-d057f7cebbf9/Somalia_HNRP_2025_v9.10.pdf",
+        "https://scalingupnutrition.org/sites/default/files/2022-06/national-nutrition-plan-somalia.pdf"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.26,
+        "low_90": 0.078,
+        "high_90": 0.442
+      },
+      "gamma": {
+        "median": 0.0125,
+        "low_90": 0.00375,
+        "high_90": 0.02125
+      },
+      "omega": {
+        "median": 0.0095,
+        "low_90": 0.00285,
+        "high_90": 0.01615
+      }
+    },
+    {
+      "district": "Xudur",
+      "reasoning": "Bakool agropastoral (2011 famine zone) with chronic insecurity and periodically severed supply routes; high persistent wasting. Livelihood/vulnerability archetype: s agropast high (Bakool). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 4 months of direct field observation in this district for each of p, gamma and omega (evidence tier: medium).",
+      "sources_retrieved": [
+        "https://reliefweb.int/report/somalia/famine-thresholds-surpassed-three-new-areas-southern-somalia",
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://www.unocha.org/attachments/873a590b-9947-47fc-941b-d057f7cebbf9/Somalia_HNRP_2025_v9.10.pdf",
+        "https://scalingupnutrition.org/sites/default/files/2022-06/national-nutrition-plan-somalia.pdf"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.26,
+        "low_90": 0.13,
+        "high_90": 0.39
+      },
+      "gamma": {
+        "median": 0.0125,
+        "low_90": 0.00625,
+        "high_90": 0.01875
+      },
+      "omega": {
+        "median": 0.0085,
+        "low_90": 0.00425,
+        "high_90": 0.01275
+      }
+    },
+    {
+      "district": "Waajid",
+      "reasoning": "Bakool agropastoral, historically WFP-suspended and hard to reach; high chronic burden, thin surveys. Livelihood/vulnerability archetype: s agropast high (Bakool). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://reliefweb.int/report/somalia/famine-thresholds-surpassed-three-new-areas-southern-somalia",
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://www.unocha.org/attachments/873a590b-9947-47fc-941b-d057f7cebbf9/Somalia_HNRP_2025_v9.10.pdf",
+        "https://scalingupnutrition.org/sites/default/files/2022-06/national-nutrition-plan-somalia.pdf"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.26,
+        "low_90": 0.078,
+        "high_90": 0.442
+      },
+      "gamma": {
+        "median": 0.0125,
+        "low_90": 0.00375,
+        "high_90": 0.02125
+      },
+      "omega": {
+        "median": 0.0085,
+        "low_90": 0.00255,
+        "high_90": 0.01445
+      }
+    },
+    {
+      "district": "Ceel Barde",
+      "reasoning": "Bakool agropastoral near the Ethiopia border, chronically insecure and rarely surveyed; interval widened. Livelihood/vulnerability archetype: s agropast high (Bakool). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://reliefweb.int/report/somalia/famine-thresholds-surpassed-three-new-areas-southern-somalia",
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://www.unocha.org/attachments/873a590b-9947-47fc-941b-d057f7cebbf9/Somalia_HNRP_2025_v9.10.pdf",
+        "https://scalingupnutrition.org/sites/default/files/2022-06/national-nutrition-plan-somalia.pdf"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.26,
+        "low_90": 0.078,
+        "high_90": 0.442
+      },
+      "gamma": {
+        "median": 0.0125,
+        "low_90": 0.00375,
+        "high_90": 0.02125
+      },
+      "omega": {
+        "median": 0.0085,
+        "low_90": 0.00255,
+        "high_90": 0.01445
+      }
+    },
+    {
+      "district": "Rab Dhuure",
+      "reasoning": "Remote Bakool agropastoral, deep-rural and chronically inaccessible; sparse evidence widens interval. Livelihood/vulnerability archetype: s agropast high (Bakool). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://reliefweb.int/report/somalia/famine-thresholds-surpassed-three-new-areas-southern-somalia",
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://www.unocha.org/attachments/873a590b-9947-47fc-941b-d057f7cebbf9/Somalia_HNRP_2025_v9.10.pdf",
+        "https://scalingupnutrition.org/sites/default/files/2022-06/national-nutrition-plan-somalia.pdf"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.26,
+        "low_90": 0.078,
+        "high_90": 0.442
+      },
+      "gamma": {
+        "median": 0.0125,
+        "low_90": 0.00375,
+        "high_90": 0.02125
+      },
+      "omega": {
+        "median": 0.0085,
+        "low_90": 0.00255,
+        "high_90": 0.01445
+      }
+    },
+    {
+      "district": "Tayeeglow",
+      "reasoning": "Bakool agropastoral, largely Al-Shabaab-controlled hinterland with very limited survey access. Livelihood/vulnerability archetype: s agropast mod (Bakool). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020",
+        "https://www.unocha.org/attachments/873a590b-9947-47fc-941b-d057f7cebbf9/Somalia_HNRP_2025_v9.10.pdf"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.27,
+        "low_90": 0.081,
+        "high_90": 0.459
+      },
+      "gamma": {
+        "median": 0.0105,
+        "low_90": 0.00315,
+        "high_90": 0.01785
+      },
+      "omega": {
+        "median": 0.008,
+        "low_90": 0.0024,
+        "high_90": 0.0136
+      }
+    },
+    {
+      "district": "Garbahaarey",
+      "reasoning": "Gedo agropastoral: North/South Gedo repeatedly record Somalia's highest livelihood-zone GAM; chronic critical wasting, contested access. Livelihood/vulnerability archetype: s agropast high (Gedo). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 4 months of direct field observation in this district for each of p, gamma and omega (evidence tier: medium).",
+      "sources_retrieved": [
+        "https://reliefweb.int/report/somalia/famine-thresholds-surpassed-three-new-areas-southern-somalia",
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://www.unocha.org/attachments/873a590b-9947-47fc-941b-d057f7cebbf9/Somalia_HNRP_2025_v9.10.pdf",
+        "https://scalingupnutrition.org/sites/default/files/2022-06/national-nutrition-plan-somalia.pdf"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.26,
+        "low_90": 0.13,
+        "high_90": 0.39
+      },
+      "gamma": {
+        "median": 0.0125,
+        "low_90": 0.00625,
+        "high_90": 0.01875
+      },
+      "omega": {
+        "median": 0.0085,
+        "low_90": 0.00425,
+        "high_90": 0.01275
+      }
+    },
+    {
+      "district": "Luuq",
+      "reasoning": "Gedo agropastoral/riverine (Juba) with recurrent flooding, inter-clan land conflict displacement, and chronic high GAM. Livelihood/vulnerability archetype: s agropast high (Gedo). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 4 months of direct field observation in this district for each of p, gamma and omega (evidence tier: medium).",
+      "sources_retrieved": [
+        "https://reliefweb.int/report/somalia/famine-thresholds-surpassed-three-new-areas-southern-somalia",
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://www.unocha.org/attachments/873a590b-9947-47fc-941b-d057f7cebbf9/Somalia_HNRP_2025_v9.10.pdf",
+        "https://scalingupnutrition.org/sites/default/files/2022-06/national-nutrition-plan-somalia.pdf"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.26,
+        "low_90": 0.13,
+        "high_90": 0.39
+      },
+      "gamma": {
+        "median": 0.0125,
+        "low_90": 0.00625,
+        "high_90": 0.01875
+      },
+      "omega": {
+        "median": 0.0085,
+        "low_90": 0.00425,
+        "high_90": 0.01275
+      }
+    },
+    {
+      "district": "Doolow",
+      "reasoning": "Border district hosting large, chronic IDP settlements (Kabasa/Qansaxley) with repeatedly critical IDP GAM; endemic displaced-population vulnerability. Livelihood/vulnerability archetype: idp hub (Gedo). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 4 months of direct field observation in this district for each of p, gamma and omega (evidence tier: medium).",
+      "sources_retrieved": [
+        "https://reliefweb.int/report/somalia/fsnau-nutrition-update-july-2018",
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://scalingupnutrition.org/sites/default/files/2022-06/national-nutrition-plan-somalia.pdf"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.3,
+        "low_90": 0.15,
+        "high_90": 0.45
+      },
+      "gamma": {
+        "median": 0.0135,
+        "low_90": 0.00675,
+        "high_90": 0.02025
+      },
+      "omega": {
+        "median": 0.008,
+        "low_90": 0.004,
+        "high_90": 0.012
+      }
+    },
+    {
+      "district": "Belet Xaawo",
+      "reasoning": "Gedo border agropastoral with chronic critical wasting and constrained access; thin direct surveys. Livelihood/vulnerability archetype: s agropast high (Gedo). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://reliefweb.int/report/somalia/famine-thresholds-surpassed-three-new-areas-southern-somalia",
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://www.unocha.org/attachments/873a590b-9947-47fc-941b-d057f7cebbf9/Somalia_HNRP_2025_v9.10.pdf",
+        "https://scalingupnutrition.org/sites/default/files/2022-06/national-nutrition-plan-somalia.pdf"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.26,
+        "low_90": 0.078,
+        "high_90": 0.442
+      },
+      "gamma": {
+        "median": 0.0125,
+        "low_90": 0.00375,
+        "high_90": 0.02125
+      },
+      "omega": {
+        "median": 0.0085,
+        "low_90": 0.00255,
+        "high_90": 0.01445
+      }
+    },
+    {
+      "district": "Ceel Waaq",
+      "reasoning": "Gedo border agropastoral/pastoral, remote and chronically insecure; sparse survey coverage widens interval. Livelihood/vulnerability archetype: s agropast mod (Gedo). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020",
+        "https://www.unocha.org/attachments/873a590b-9947-47fc-941b-d057f7cebbf9/Somalia_HNRP_2025_v9.10.pdf"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.27,
+        "low_90": 0.081,
+        "high_90": 0.459
+      },
+      "gamma": {
+        "median": 0.0105,
+        "low_90": 0.00315,
+        "high_90": 0.01785
+      },
+      "omega": {
+        "median": 0.008,
+        "low_90": 0.0024,
+        "high_90": 0.0136
+      }
+    },
+    {
+      "district": "Baardheere",
+      "reasoning": "Gedo agropastoral/riverine, long Al-Shabaab presence and difficult access; high chronic burden, thin evidence. Livelihood/vulnerability archetype: s agropast high (Gedo). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://reliefweb.int/report/somalia/famine-thresholds-surpassed-three-new-areas-southern-somalia",
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://www.unocha.org/attachments/873a590b-9947-47fc-941b-d057f7cebbf9/Somalia_HNRP_2025_v9.10.pdf",
+        "https://scalingupnutrition.org/sites/default/files/2022-06/national-nutrition-plan-somalia.pdf"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.26,
+        "low_90": 0.078,
+        "high_90": 0.442
+      },
+      "gamma": {
+        "median": 0.0125,
+        "low_90": 0.00375,
+        "high_90": 0.02125
+      },
+      "omega": {
+        "median": 0.0085,
+        "low_90": 0.00255,
+        "high_90": 0.01445
+      }
+    },
+    {
+      "district": "Bu'aale",
+      "reasoning": "Middle Juba is Al-Shabaab's near-total-control 'centre of gravity': chronic access denial means SAM cases exit largely by mortality/default rather than recovery (raising observed p) and reliable surveys are almost absent (very high omega); riverine/Bantu farming base with high endemic incidence. Livelihood/vulnerability archetype: as stronghold (Middle Juba). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 4 months of direct field observation in this district for each of p, gamma and omega (evidence tier: medium).",
+      "sources_retrieved": [
+        "https://www.euaa.europa.eu/coi/somalia/2025/security-situation/21-jubbaland/212-middle-juba",
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020",
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.3,
+        "low_90": 0.15,
+        "high_90": 0.45
+      },
+      "gamma": {
+        "median": 0.013,
+        "low_90": 0.0065,
+        "high_90": 0.0195
+      },
+      "omega": {
+        "median": 0.011,
+        "low_90": 0.0055,
+        "high_90": 0.0165
+      }
+    },
+    {
+      "district": "Jilib",
+      "reasoning": "Al-Shabaab stronghold on the Juba with chronic access denial and near-absent survey coverage; riverine flood/disease burden drives high endemic incidence, turnover dominated by mortality/default. Livelihood/vulnerability archetype: as stronghold (Middle Juba). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 4 months of direct field observation in this district for each of p, gamma and omega (evidence tier: medium).",
+      "sources_retrieved": [
+        "https://www.euaa.europa.eu/coi/somalia/2025/security-situation/21-jubbaland/212-middle-juba",
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020",
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.3,
+        "low_90": 0.15,
+        "high_90": 0.45
+      },
+      "gamma": {
+        "median": 0.013,
+        "low_90": 0.0065,
+        "high_90": 0.0195
+      },
+      "omega": {
+        "median": 0.011,
+        "low_90": 0.0055,
+        "high_90": 0.0165
+      }
+    },
+    {
+      "district": "Saakow",
+      "reasoning": "Al-Shabaab-controlled Juba district, chronically inaccessible with essentially no reliable survey series; high endemic incidence, very wide interval. Livelihood/vulnerability archetype: as stronghold (Middle Juba). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://www.euaa.europa.eu/coi/somalia/2025/security-situation/21-jubbaland/212-middle-juba",
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020",
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.3,
+        "low_90": 0.09,
+        "high_90": 0.51
+      },
+      "gamma": {
+        "median": 0.013,
+        "low_90": 0.0039,
+        "high_90": 0.0221
+      },
+      "omega": {
+        "median": 0.011,
+        "low_90": 0.0033,
+        "high_90": 0.0187
+      }
+    },
+    {
+      "district": "Kismaayo",
+      "reasoning": "Port city with functional markets, CMAM presence and a chronic IDP caseload; better services give faster turnover, urban survey base lowers omega. Livelihood/vulnerability archetype: urban regional (Lower Juba). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 4 months of direct field observation in this district for each of p, gamma and omega (evidence tier: medium).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://reliefweb.int/report/somalia/fsnau-nutrition-update-july-2018"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.32,
+        "low_90": 0.16,
+        "high_90": 0.48
+      },
+      "gamma": {
+        "median": 0.0075,
+        "low_90": 0.00375,
+        "high_90": 0.01125
+      },
+      "omega": {
+        "median": 0.0038,
+        "low_90": 0.0013,
+        "high_90": 0.0063
+      }
+    },
+    {
+      "district": "Afmadow",
+      "reasoning": "Juba pastoral/agropastoral flagged with severe access constraints and long Al-Shabaab presence; sparse surveys widen interval. Livelihood/vulnerability archetype: s agropast mod (Lower Juba). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020",
+        "https://www.unocha.org/attachments/873a590b-9947-47fc-941b-d057f7cebbf9/Somalia_HNRP_2025_v9.10.pdf"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.27,
+        "low_90": 0.081,
+        "high_90": 0.459
+      },
+      "gamma": {
+        "median": 0.0105,
+        "low_90": 0.00315,
+        "high_90": 0.01785
+      },
+      "omega": {
+        "median": 0.008,
+        "low_90": 0.0024,
+        "high_90": 0.0136
+      }
+    },
+    {
+      "district": "Jamaame",
+      "reasoning": "Juba riverine agropastoral with chronic flood vulnerability, inter-clan conflict and severe access constraints; persistent wasting, thin coverage. Livelihood/vulnerability archetype: riverine (Lower Juba). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://reliefweb.int/report/somalia/famine-thresholds-surpassed-three-new-areas-southern-somalia",
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.24,
+        "low_90": 0.072,
+        "high_90": 0.408
+      },
+      "gamma": {
+        "median": 0.012,
+        "low_90": 0.0036,
+        "high_90": 0.0204
+      },
+      "omega": {
+        "median": 0.009,
+        "low_90": 0.0027,
+        "high_90": 0.0153
+      }
+    },
+    {
+      "district": "Badhaadhe",
+      "reasoning": "Remote Lower Juba coastal/pastoral district, chronically inaccessible and rarely surveyed. Livelihood/vulnerability archetype: coastal fishing (Lower Juba). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://fsnau.org/downloads/FSNAU-FEWSNET-Updated-Somalia-Livelihood-Zones-Map-April-2015.pdf"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.29,
+        "low_90": 0.087,
+        "high_90": 0.493
+      },
+      "gamma": {
+        "median": 0.0065,
+        "low_90": 0.00195,
+        "high_90": 0.01105
+      },
+      "omega": {
+        "median": 0.0065,
+        "low_90": 0.00195,
+        "high_90": 0.01105
+      }
+    },
+    {
+      "district": "Dhuusamarreeb",
+      "reasoning": "Central Hawd pastoral hub (Galmudug seat) with chronic Phase2-3, drought exposure and a standing IDP caseload; dispersed pastoral surveys raise omega. Livelihood/vulnerability archetype: central pastoral (Galgaduud). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 4 months of direct field observation in this district for each of p, gamma and omega (evidence tier: medium).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.28,
+        "low_90": 0.14,
+        "high_90": 0.42
+      },
+      "gamma": {
+        "median": 0.0095,
+        "low_90": 0.00475,
+        "high_90": 0.01425
+      },
+      "omega": {
+        "median": 0.007,
+        "low_90": 0.0035,
+        "high_90": 0.0105
+      }
+    },
+    {
+      "district": "Cadaado",
+      "reasoning": "Central Hawd pastoral, drought-exposed and market-dependent with sporadic surveys; interval widened. Livelihood/vulnerability archetype: central pastoral (Galgaduud). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.28,
+        "low_90": 0.084,
+        "high_90": 0.476
+      },
+      "gamma": {
+        "median": 0.0095,
+        "low_90": 0.00285,
+        "high_90": 0.01615
+      },
+      "omega": {
+        "median": 0.007,
+        "low_90": 0.0021,
+        "high_90": 0.0119
+      }
+    },
+    {
+      "district": "Cabudwaaq",
+      "reasoning": "Central pastoral/agropastoral near Ethiopia, chronic drought and clan-conflict exposure; thin coverage. Livelihood/vulnerability archetype: central pastoral (Galgaduud). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.28,
+        "low_90": 0.084,
+        "high_90": 0.476
+      },
+      "gamma": {
+        "median": 0.0095,
+        "low_90": 0.00285,
+        "high_90": 0.01615
+      },
+      "omega": {
+        "median": 0.007,
+        "low_90": 0.0021,
+        "high_90": 0.0119
+      }
+    },
+    {
+      "district": "Ceel Buur",
+      "reasoning": "Central Hawd pastoral, long Al-Shabaab contestation and limited access; sparse surveys widen interval. Livelihood/vulnerability archetype: central pastoral (Galgaduud). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.28,
+        "low_90": 0.084,
+        "high_90": 0.476
+      },
+      "gamma": {
+        "median": 0.0095,
+        "low_90": 0.00285,
+        "high_90": 0.01615
+      },
+      "omega": {
+        "median": 0.007,
+        "low_90": 0.0021,
+        "high_90": 0.0119
+      }
+    },
+    {
+      "district": "Ceel Dheere",
+      "reasoning": "Central pastoral/coastal-deeh, remote and Al-Shabaab contested with very limited survey coverage. Livelihood/vulnerability archetype: central pastoral (Galgaduud). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.28,
+        "low_90": 0.084,
+        "high_90": 0.476
+      },
+      "gamma": {
+        "median": 0.0095,
+        "low_90": 0.00285,
+        "high_90": 0.01615
+      },
+      "omega": {
+        "median": 0.007,
+        "low_90": 0.0021,
+        "high_90": 0.0119
+      }
+    },
+    {
+      "district": "Gaalkacyo",
+      "reasoning": "Divided regional city with markets and CMAM presence but a chronic IDP caseload and repeatedly critical IDP GAM; urban survey base moderates omega. Livelihood/vulnerability archetype: urban regional (Mudug). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 4 months of direct field observation in this district for each of p, gamma and omega (evidence tier: medium).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://reliefweb.int/report/somalia/fsnau-nutrition-update-july-2018"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.32,
+        "low_90": 0.16,
+        "high_90": 0.48
+      },
+      "gamma": {
+        "median": 0.0085,
+        "low_90": 0.00425,
+        "high_90": 0.01275
+      },
+      "omega": {
+        "median": 0.0038,
+        "low_90": 0.0013,
+        "high_90": 0.0063
+      }
+    },
+    {
+      "district": "Galdogob",
+      "reasoning": "Mudug pastoral near Ethiopia, drought-exposed and dispersed; sporadic surveys widen interval. Livelihood/vulnerability archetype: central pastoral (Mudug). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-snapshot-jan-mar-2020-11-may-2020"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.28,
+        "low_90": 0.084,
+        "high_90": 0.476
+      },
+      "gamma": {
+        "median": 0.0095,
+        "low_90": 0.00285,
+        "high_90": 0.01615
+      },
+      "omega": {
+        "median": 0.007,
+        "low_90": 0.0021,
+        "high_90": 0.0119
+      }
+    },
+    {
+      "district": "Hobyo",
+      "reasoning": "Coastal Deeh/fishing Mudug district, remote with diversified marine access but very thin survey coverage. Livelihood/vulnerability archetype: coastal fishing (Mudug). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://fsnau.org/downloads/FSNAU-FEWSNET-Updated-Somalia-Livelihood-Zones-Map-April-2015.pdf"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.29,
+        "low_90": 0.087,
+        "high_90": 0.493
+      },
+      "gamma": {
+        "median": 0.0065,
+        "low_90": 0.00195,
+        "high_90": 0.01105
+      },
+      "omega": {
+        "median": 0.0065,
+        "low_90": 0.00195,
+        "high_90": 0.01105
+      }
+    },
+    {
+      "district": "Xarardheere",
+      "reasoning": "Coastal Deeh Mudug district flagged for inter-clan fighting and chronic inaccessibility; sparse surveys, wide interval. Livelihood/vulnerability archetype: coastal fishing (Mudug). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://fsnau.org/downloads/FSNAU-FEWSNET-Updated-Somalia-Livelihood-Zones-Map-April-2015.pdf"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.29,
+        "low_90": 0.087,
+        "high_90": 0.493
+      },
+      "gamma": {
+        "median": 0.0065,
+        "low_90": 0.00195,
+        "high_90": 0.01105
+      },
+      "omega": {
+        "median": 0.0065,
+        "low_90": 0.00195,
+        "high_90": 0.01105
+      }
+    },
+    {
+      "district": "Jariiban",
+      "reasoning": "Coastal/pastoral Mudug district, remote and rarely surveyed; diversified access but high sampling uncertainty. Livelihood/vulnerability archetype: coastal fishing (Mudug). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://fsnau.org/downloads/FSNAU-FEWSNET-Updated-Somalia-Livelihood-Zones-Map-April-2015.pdf"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.29,
+        "low_90": 0.087,
+        "high_90": 0.493
+      },
+      "gamma": {
+        "median": 0.0065,
+        "low_90": 0.00195,
+        "high_90": 0.01105
+      },
+      "omega": {
+        "median": 0.0065,
+        "low_90": 0.00195,
+        "high_90": 0.01105
+      }
+    },
+    {
+      "district": "Garoowe",
+      "reasoning": "Puntland administrative capital with functional services, CMAM presence and a chronic IDP caseload; relatively strong survey base lowers omega. Livelihood/vulnerability archetype: urban regional (Nugaal). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 4 months of direct field observation in this district for each of p, gamma and omega (evidence tier: medium).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://reliefweb.int/report/somalia/fsnau-nutrition-update-july-2018"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.32,
+        "low_90": 0.16,
+        "high_90": 0.48
+      },
+      "gamma": {
+        "median": 0.0075,
+        "low_90": 0.00375,
+        "high_90": 0.01125
+      },
+      "omega": {
+        "median": 0.0038,
+        "low_90": 0.0013,
+        "high_90": 0.0063
+      }
+    },
+    {
+      "district": "Eyl",
+      "reasoning": "Nugaal coastal/pastoral district, remote with fishing access but sparse survey coverage. Livelihood/vulnerability archetype: coastal fishing (Nugaal). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://fsnau.org/downloads/FSNAU-FEWSNET-Updated-Somalia-Livelihood-Zones-Map-April-2015.pdf"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.29,
+        "low_90": 0.087,
+        "high_90": 0.493
+      },
+      "gamma": {
+        "median": 0.0065,
+        "low_90": 0.00195,
+        "high_90": 0.01105
+      },
+      "omega": {
+        "median": 0.0065,
+        "low_90": 0.00195,
+        "high_90": 0.01105
+      }
+    },
+    {
+      "district": "Burtinle",
+      "reasoning": "Nugaal Valley pastoral, drought-exposed and dispersed; sporadic surveys widen interval. Livelihood/vulnerability archetype: ne pastoral (Nugaal). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://reliefweb.int/report/somalia/fsnau-nutrition-update-july-2018"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.29,
+        "low_90": 0.087,
+        "high_90": 0.493
+      },
+      "gamma": {
+        "median": 0.008,
+        "low_90": 0.0024,
+        "high_90": 0.0136
+      },
+      "omega": {
+        "median": 0.006,
+        "low_90": 0.0018,
+        "high_90": 0.0102
+      }
+    },
+    {
+      "district": "Bossaso",
+      "reasoning": "Puntland's commercial port with markets and CMAM presence but very large chronic IDP settlements repeatedly at critical GAM; urban base moderates omega, IDP load raises incidence. Livelihood/vulnerability archetype: urban regional (Bari). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 4 months of direct field observation in this district for each of p, gamma and omega (evidence tier: medium).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://reliefweb.int/report/somalia/fsnau-nutrition-update-july-2018"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.32,
+        "low_90": 0.16,
+        "high_90": 0.48
+      },
+      "gamma": {
+        "median": 0.0085,
+        "low_90": 0.00425,
+        "high_90": 0.01275
+      },
+      "omega": {
+        "median": 0.0038,
+        "low_90": 0.0013,
+        "high_90": 0.0063
+      }
+    },
+    {
+      "district": "Qardho",
+      "reasoning": "Bari pastoral town, repeatedly critical IDP/pastoral GAM in surveys; dispersed pastoral base raises omega. Livelihood/vulnerability archetype: ne pastoral (Bari). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 4 months of direct field observation in this district for each of p, gamma and omega (evidence tier: medium).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://reliefweb.int/report/somalia/fsnau-nutrition-update-july-2018"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.29,
+        "low_90": 0.145,
+        "high_90": 0.435
+      },
+      "gamma": {
+        "median": 0.008,
+        "low_90": 0.004,
+        "high_90": 0.012
+      },
+      "omega": {
+        "median": 0.006,
+        "low_90": 0.003,
+        "high_90": 0.009
+      }
+    },
+    {
+      "district": "Iskushuban",
+      "reasoning": "Bari interior pastoral (Karkaar), remote and dispersed with thin survey coverage. Livelihood/vulnerability archetype: ne pastoral (Bari). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://reliefweb.int/report/somalia/fsnau-nutrition-update-july-2018"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.29,
+        "low_90": 0.087,
+        "high_90": 0.493
+      },
+      "gamma": {
+        "median": 0.008,
+        "low_90": 0.0024,
+        "high_90": 0.0136
+      },
+      "omega": {
+        "median": 0.006,
+        "low_90": 0.0018,
+        "high_90": 0.0102
+      }
+    },
+    {
+      "district": "Caluula",
+      "reasoning": "Cape Guardafui coastal/fishing district, extremely remote with very sparse surveys; diversified marine access. Livelihood/vulnerability archetype: coastal fishing (Bari). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://fsnau.org/downloads/FSNAU-FEWSNET-Updated-Somalia-Livelihood-Zones-Map-April-2015.pdf"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.29,
+        "low_90": 0.087,
+        "high_90": 0.493
+      },
+      "gamma": {
+        "median": 0.0065,
+        "low_90": 0.00195,
+        "high_90": 0.01105
+      },
+      "omega": {
+        "median": 0.0065,
+        "low_90": 0.00195,
+        "high_90": 0.01105
+      }
+    },
+    {
+      "district": "Qandala",
+      "reasoning": "Bari coastal fishing district, remote with thin survey coverage; marine access moderates incidence. Livelihood/vulnerability archetype: coastal fishing (Bari). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://fsnau.org/downloads/FSNAU-FEWSNET-Updated-Somalia-Livelihood-Zones-Map-April-2015.pdf"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.29,
+        "low_90": 0.087,
+        "high_90": 0.493
+      },
+      "gamma": {
+        "median": 0.0065,
+        "low_90": 0.00195,
+        "high_90": 0.01105
+      },
+      "omega": {
+        "median": 0.0065,
+        "low_90": 0.00195,
+        "high_90": 0.01105
+      }
+    },
+    {
+      "district": "Bandarbeyla",
+      "reasoning": "Bari coastal fishing district, remote and rarely surveyed; diversified access, high sampling uncertainty. Livelihood/vulnerability archetype: coastal fishing (Bari). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://fsnau.org/downloads/FSNAU-FEWSNET-Updated-Somalia-Livelihood-Zones-Map-April-2015.pdf"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.29,
+        "low_90": 0.087,
+        "high_90": 0.493
+      },
+      "gamma": {
+        "median": 0.0065,
+        "low_90": 0.00195,
+        "high_90": 0.01105
+      },
+      "omega": {
+        "median": 0.0065,
+        "low_90": 0.00195,
+        "high_90": 0.01105
+      }
+    },
+    {
+      "district": "Laas Caanood",
+      "reasoning": "Sool pastoral regional town, contested Somaliland/Puntland zone with drought exposure; moderate services, dispersed pastoral surveys. Livelihood/vulnerability archetype: ne pastoral (Sool). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 4 months of direct field observation in this district for each of p, gamma and omega (evidence tier: medium).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://reliefweb.int/report/somalia/fsnau-nutrition-update-july-2018"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.29,
+        "low_90": 0.145,
+        "high_90": 0.435
+      },
+      "gamma": {
+        "median": 0.008,
+        "low_90": 0.004,
+        "high_90": 0.012
+      },
+      "omega": {
+        "median": 0.006,
+        "low_90": 0.003,
+        "high_90": 0.009
+      }
+    },
+    {
+      "district": "Taleex",
+      "reasoning": "Sool interior pastoral, remote and contested with very sparse survey coverage. Livelihood/vulnerability archetype: ne pastoral (Sool). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://reliefweb.int/report/somalia/fsnau-nutrition-update-july-2018"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.29,
+        "low_90": 0.087,
+        "high_90": 0.493
+      },
+      "gamma": {
+        "median": 0.008,
+        "low_90": 0.0024,
+        "high_90": 0.0136
+      },
+      "omega": {
+        "median": 0.006,
+        "low_90": 0.0018,
+        "high_90": 0.0102
+      }
+    },
+    {
+      "district": "Xudun",
+      "reasoning": "Sool pastoral, remote dispersed and rarely surveyed; interval widened for thin evidence. Livelihood/vulnerability archetype: ne pastoral (Sool). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://reliefweb.int/report/somalia/fsnau-nutrition-update-july-2018"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.29,
+        "low_90": 0.087,
+        "high_90": 0.493
+      },
+      "gamma": {
+        "median": 0.008,
+        "low_90": 0.0024,
+        "high_90": 0.0136
+      },
+      "omega": {
+        "median": 0.006,
+        "low_90": 0.0018,
+        "high_90": 0.0102
+      }
+    },
+    {
+      "district": "Caynabo",
+      "reasoning": "Sool/Togdheer-border pastoral, drought-exposed and dispersed; sporadic surveys. Livelihood/vulnerability archetype: ne pastoral (Sool). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://reliefweb.int/report/somalia/fsnau-nutrition-update-july-2018"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.29,
+        "low_90": 0.087,
+        "high_90": 0.493
+      },
+      "gamma": {
+        "median": 0.008,
+        "low_90": 0.0024,
+        "high_90": 0.0136
+      },
+      "omega": {
+        "median": 0.006,
+        "low_90": 0.0018,
+        "high_90": 0.0102
+      }
+    },
+    {
+      "district": "Ceerigaabo",
+      "reasoning": "Sanaag highland/East Golis mixed agropastoral; comparatively diversified but East Golis shows periodic wasting peaks; moderate survey coverage. Livelihood/vulnerability archetype: nw highland agropast (Sanaag). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://fsnau.org/downloads/FSNAU-FEWSNET-Updated-Somalia-Livelihood-Zones-Map-April-2015.pdf"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.3,
+        "low_90": 0.09,
+        "high_90": 0.51
+      },
+      "gamma": {
+        "median": 0.006,
+        "low_90": 0.0018,
+        "high_90": 0.0102
+      },
+      "omega": {
+        "median": 0.0045,
+        "low_90": 0.00135,
+        "high_90": 0.00765
+      }
+    },
+    {
+      "district": "Ceel Afweyn",
+      "reasoning": "Sanaag pastoral, remote and dispersed with thin survey coverage. Livelihood/vulnerability archetype: ne pastoral (Sanaag). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://reliefweb.int/report/somalia/fsnau-nutrition-update-july-2018"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.29,
+        "low_90": 0.087,
+        "high_90": 0.493
+      },
+      "gamma": {
+        "median": 0.008,
+        "low_90": 0.0024,
+        "high_90": 0.0136
+      },
+      "omega": {
+        "median": 0.006,
+        "low_90": 0.0018,
+        "high_90": 0.0102
+      }
+    },
+    {
+      "district": "Laasqoray",
+      "reasoning": "Sanaag coastal/East Golis district, remote with fishing access but sparse surveys. Livelihood/vulnerability archetype: coastal fishing (Sanaag). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://fsnau.org/downloads/FSNAU-FEWSNET-Updated-Somalia-Livelihood-Zones-Map-April-2015.pdf"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.29,
+        "low_90": 0.087,
+        "high_90": 0.493
+      },
+      "gamma": {
+        "median": 0.0065,
+        "low_90": 0.00195,
+        "high_90": 0.01105
+      },
+      "omega": {
+        "median": 0.0065,
+        "low_90": 0.00195,
+        "high_90": 0.01105
+      }
+    },
+    {
+      "district": "Burco",
+      "reasoning": "Somaliland's second city with functional markets, services and CMAM; diversified access lowers incidence, urban base lowers omega. Livelihood/vulnerability archetype: urban regional (Togdheer). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 4 months of direct field observation in this district for each of p, gamma and omega (evidence tier: medium).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://reliefweb.int/report/somalia/fsnau-nutrition-update-july-2018"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.32,
+        "low_90": 0.16,
+        "high_90": 0.48
+      },
+      "gamma": {
+        "median": 0.0075,
+        "low_90": 0.00375,
+        "high_90": 0.01125
+      },
+      "omega": {
+        "median": 0.0038,
+        "low_90": 0.0013,
+        "high_90": 0.0063
+      }
+    },
+    {
+      "district": "Buuhoodle",
+      "reasoning": "Togdheer/Sool-border pastoral flagged for inter-clan displacement; drought-exposed, dispersed, thin surveys. Livelihood/vulnerability archetype: ne pastoral (Togdheer). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://reliefweb.int/report/somalia/fsnau-nutrition-update-july-2018"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.29,
+        "low_90": 0.087,
+        "high_90": 0.493
+      },
+      "gamma": {
+        "median": 0.008,
+        "low_90": 0.0024,
+        "high_90": 0.0136
+      },
+      "omega": {
+        "median": 0.006,
+        "low_90": 0.0018,
+        "high_90": 0.0102
+      }
+    },
+    {
+      "district": "Owdweyne",
+      "reasoning": "Togdheer Hawd/highland agropastoral, comparatively stable Somaliland zone; moderate coverage. Livelihood/vulnerability archetype: nw highland agropast (Togdheer). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://fsnau.org/downloads/FSNAU-FEWSNET-Updated-Somalia-Livelihood-Zones-Map-April-2015.pdf"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.3,
+        "low_90": 0.09,
+        "high_90": 0.51
+      },
+      "gamma": {
+        "median": 0.006,
+        "low_90": 0.0018,
+        "high_90": 0.0102
+      },
+      "omega": {
+        "median": 0.0045,
+        "low_90": 0.00135,
+        "high_90": 0.00765
+      }
+    },
+    {
+      "district": "Hargeysa",
+      "reasoning": "Somaliland capital: functional markets, comparatively strong health system and CMAM, diversified food access; well surveyed (low omega) though hosting some chronic IDP caseload with periodic wasting peaks. Livelihood/vulnerability archetype: urban regional (Woqooyi Galbeed). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 6 months of direct field observation in this district for each of p, gamma and omega (evidence tier: strong).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://reliefweb.int/report/somalia/fsnau-nutrition-update-july-2018"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.32,
+        "low_90": 0.208,
+        "high_90": 0.432
+      },
+      "gamma": {
+        "median": 0.0075,
+        "low_90": 0.0045,
+        "high_90": 0.0105
+      },
+      "omega": {
+        "median": 0.0038,
+        "low_90": 0.0013,
+        "high_90": 0.0063
+      }
+    },
+    {
+      "district": "Berbera",
+      "reasoning": "Somaliland port town with markets and services; Guban/coastal hinterland, comparatively stable, moderate coverage. Livelihood/vulnerability archetype: urban regional (Woqooyi Galbeed). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://reliefweb.int/report/somalia/fsnau-nutrition-update-july-2018"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.32,
+        "low_90": 0.096,
+        "high_90": 0.544
+      },
+      "gamma": {
+        "median": 0.0075,
+        "low_90": 0.00225,
+        "high_90": 0.01275
+      },
+      "omega": {
+        "median": 0.0038,
+        "low_90": 0.00114,
+        "high_90": 0.00646
+      }
+    },
+    {
+      "district": "Gebiley",
+      "reasoning": "Northwest agropastoral breadbasket, one of Somaliland's more food-secure and diversified zones; comparatively low chronic incidence. Livelihood/vulnerability archetype: nw highland agropast (Woqooyi Galbeed). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://fsnau.org/downloads/FSNAU-FEWSNET-Updated-Somalia-Livelihood-Zones-Map-April-2015.pdf"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.3,
+        "low_90": 0.09,
+        "high_90": 0.51
+      },
+      "gamma": {
+        "median": 0.006,
+        "low_90": 0.0018,
+        "high_90": 0.0102
+      },
+      "omega": {
+        "median": 0.0045,
+        "low_90": 0.00135,
+        "high_90": 0.00765
+      }
+    },
+    {
+      "district": "Borama",
+      "reasoning": "Awdal regional town with markets, services and diaspora support; comparatively stable Northwest, moderate survey coverage. Livelihood/vulnerability archetype: urban regional (Awdal). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://reliefweb.int/report/somalia/fsnau-nutrition-update-july-2018"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.32,
+        "low_90": 0.096,
+        "high_90": 0.544
+      },
+      "gamma": {
+        "median": 0.0075,
+        "low_90": 0.00225,
+        "high_90": 0.01275
+      },
+      "omega": {
+        "median": 0.0038,
+        "low_90": 0.00114,
+        "high_90": 0.00646
+      }
+    },
+    {
+      "district": "Baki",
+      "reasoning": "Awdal highland agropastoral, comparatively diversified Somaliland zone; thin direct surveys widen interval. Livelihood/vulnerability archetype: nw highland agropast (Awdal). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://fsnau.org/downloads/FSNAU-FEWSNET-Updated-Somalia-Livelihood-Zones-Map-April-2015.pdf"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.3,
+        "low_90": 0.09,
+        "high_90": 0.51
+      },
+      "gamma": {
+        "median": 0.006,
+        "low_90": 0.0018,
+        "high_90": 0.0102
+      },
+      "omega": {
+        "median": 0.0045,
+        "low_90": 0.00135,
+        "high_90": 0.00765
+      }
+    },
+    {
+      "district": "Lughaye",
+      "reasoning": "Awdal Guban coastal/pastoral district, remote with fishing access but sparse surveys. Livelihood/vulnerability archetype: coastal fishing (Awdal). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://fsnau.org/downloads/FSNAU-FEWSNET-Updated-Somalia-Livelihood-Zones-Map-April-2015.pdf"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.29,
+        "low_90": 0.087,
+        "high_90": 0.493
+      },
+      "gamma": {
+        "median": 0.0065,
+        "low_90": 0.00195,
+        "high_90": 0.01105
+      },
+      "omega": {
+        "median": 0.0065,
+        "low_90": 0.00195,
+        "high_90": 0.01105
+      }
+    },
+    {
+      "district": "Zeylac",
+      "reasoning": "Awdal coastal/Guban pastoral border district, remote and rarely surveyed; diversified marine access. Livelihood/vulnerability archetype: coastal fishing (Awdal). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://fsnau.org/downloads/FSNAU-FEWSNET-Updated-Somalia-Livelihood-Zones-Map-April-2015.pdf"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.29,
+        "low_90": 0.087,
+        "high_90": 0.493
+      },
+      "gamma": {
+        "median": 0.0065,
+        "low_90": 0.00195,
+        "high_90": 0.01105
+      },
+      "omega": {
+        "median": 0.0065,
+        "low_90": 0.00195,
+        "high_90": 0.01105
+      }
+    },
+    {
+      "district": "Sheikh",
+      "reasoning": "Golis highland agropastoral town between Berbera and Burco, comparatively stable Somaliland zone; thin coverage. Livelihood/vulnerability archetype: nw highland agropast (Togdheer). Judgments are anchored on the recurring 2017-2021 baseline rather than any single shock. p reflects case turnover (recovery vs. mortality/default), gamma the chronic monthly SAM incidence in the under-5 population, omega the structural month-to-month noise from survey sparseness and within-district livelihood heterogeneity. This interval reflects confidence roughly equivalent to 2 months of direct field observation in this district for each of p, gamma and omega (evidence tier: weak).",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://fsnau.org/downloads/FSNAU-FEWSNET-Updated-Somalia-Livelihood-Zones-Map-April-2015.pdf"
+      ],
+      "sources_unavailable": [
+        "https://fsnau.org/sectors/nutrition (per-district 2017-2021 survey tables not individually retrievable)"
+      ],
+      "p": {
+        "median": 0.3,
+        "low_90": 0.09,
+        "high_90": 0.51
+      },
+      "gamma": {
+        "median": 0.006,
+        "low_90": 0.0018,
+        "high_90": 0.0102
+      },
+      "omega": {
+        "median": 0.0045,
+        "low_90": 0.00135,
+        "high_90": 0.00765
+      }
+    }
+  ]
+}

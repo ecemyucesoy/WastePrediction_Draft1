@@ -1,0 +1,4 @@
+model_id,Model,scheme,fit_minutes,divergences,max_treedepth_hits,low_bfmi_chains,max_rhat,min_n_eff
+hierarchical,hierarchical,full,9.23,0,0,0,1.0140162000911048,341.23895557853905
+hierarchical,hierarchical,llo2,8.78,3,0,0,1.022004737739708,387.6423215872429
+hierarchical,hierarchical,llo3,11.34,24,0,0,1.0144507468764778,299.929195449938

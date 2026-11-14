@@ -1,0 +1,522 @@
+{
+"districts": [
+{
+"district": "Adan Yabaal",
+"reasoning": "Agropastoral livelihoods heavily dependent on rainfed agriculture, complicated by long-run non-state armed group presence that structurally limits humanitarian access. Chronic exposure to drought cycles and market disruptions yields a highly vulnerable background state with significant seasonal fluctuations.",
+"p": {"a": 16.0, "b": 24.0},
+"gamma": {"a": 10.0, "b": 490.0},
+"omega": {"a": 8.0, "b": 992.0}
+},
+{
+"district": "Afgooye",
+"reasoning": "Riverine and agropastoral livelihood zone experiencing recurrent flood shocks and chronic conflict-related access constraints. Limited structural CMAM continuity and a persistent IPC Acute Food Insecurity Phase 3+ baseline elevate endemic vulnerability, while seasonal riverine flooding drives high month-to-month volatility.",
+"p": {"a": 14.0, "b": 26.0},
+"gamma": {"a": 12.0, "b": 488.0},
+"omega": {"a": 10.0, "b": 990.0}
+},
+{
+"district": "Afmadow",
+"reasoning": "Predominantly pastoral livelihoods heavily dependent on livestock assets, complicated by regional armed group presence that periodically limits humanitarian access. Chronic exposure to drought cycles and market disruptions yields a vulnerable background state with prominent seasonal fluctuations in food availability.",
+"p": {"a": 16.0, "b": 24.0},
+"gamma": {"a": 10.0, "b": 490.0},
+"omega": {"a": 8.0, "b": 992.0}
+},
+{
+"district": "Baardheere",
+"reasoning": "Riverine and agropastoral livelihood zone experiencing recurrent flood shocks along the Juba river and chronic armed group access constraints. Constrained structural CMAM presence and persistent baseline food insecurity elevate endemic vulnerability, while seasonal flooding drives high month-to-month displacement and market volatility.",
+"p": {"a": 14.0, "b": 26.0},
+"gamma": {"a": 12.0, "b": 488.0},
+"omega": {"a": 10.0, "b": 990.0}
+},
+{
+"district": "Badhaadhe",
+"reasoning": "Coastal and pastoral communities with chronic physical isolation limiting robust health infrastructure and market integration. The structural baseline is relatively stable but vulnerable to seasonal maritime disruptions and localized cyclical dry spells, leading to moderate variability in food systems.",
+"p": {"a": 18.0, "b": 22.0},
+"gamma": {"a": 6.0, "b": 494.0},
+"omega": {"a": 4.0, "b": 996.0}
+},
+{
+"district": "Baki",
+"reasoning": "Predominantly pastoral and agropastoral livelihoods with structurally stable market access and relatively well-functioning, consistent health services. The population faces lower baseline food insecurity, though periodic rainfall deficits drive moderate seasonal variability in food access and the disease environment.",
+"p": {"a": 26.0, "b": 14.0},
+"gamma": {"a": 4.0, "b": 496.0},
+"omega": {"a": 3.0, "b": 997.0}
+},
+{
+"district": "Balcad",
+"reasoning": "Riverine livelihood zone experiencing recurrent flood shocks and chronic conflict-related access constraints near the Shabelle river. Limited structural CMAM presence and persistent IPC Acute Food Insecurity elevate endemic vulnerability, while seasonal flooding drives high month-to-month volatility.",
+"p": {"a": 14.0, "b": 26.0},
+"gamma": {"a": 12.0, "b": 488.0},
+"omega": {"a": 10.0, "b": 990.0}
+},
+{
+"district": "Banadir",
+"reasoning": "Highly urbanized zone characterized by structurally massive and persistent IDP hosting patterns, placing chronic strain on food and health systems. While health facility density is high, the endemic disease burden and continuous, volatile influxes of displaced populations create extreme baseline vulnerability and high month-to-month instability.",
+"p": {"a": 22.0, "b": 18.0},
+"gamma": {"a": 18.0, "b": 482.0},
+"omega": {"a": 15.0, "b": 985.0}
+},
+{
+"district": "Bandarbeyla",
+"reasoning": "Coastal fishing and pastoral communities with chronic physical isolation limiting robust health infrastructure and market integration. The structural baseline is relatively stable but vulnerable to seasonal maritime disruptions and cyclone-induced localized cyclical dry spells, leading to moderate variability.",
+"p": {"a": 18.0, "b": 22.0},
+"gamma": {"a": 6.0, "b": 494.0},
+"omega": {"a": 4.0, "b": 996.0}
+},
+{
+"district": "Baraawe",
+"reasoning": "Coastal and urban communities facing chronic physical isolation by land due to surrounding non-state armed groups, limiting robust health infrastructure and market integration. The structural baseline relies heavily on sea transport, leaving it vulnerable to seasonal maritime disruptions and supply chain volatility.",
+"p": {"a": 18.0, "b": 22.0},
+"gamma": {"a": 10.0, "b": 490.0},
+"omega": {"a": 8.0, "b": 992.0}
+},
+{
+"district": "Baydhaba",
+"reasoning": "Major agropastoral hub characterized by structurally massive and persistent IDP hosting patterns from surrounding conflict and drought-affected areas. While health facility density is moderate, continuous volatile influxes of displaced populations create extreme baseline vulnerability and high month-to-month instability in local food access.",
+"p": {"a": 22.0, "b": 18.0},
+"gamma": {"a": 18.0, "b": 482.0},
+"omega": {"a": 15.0, "b": 985.0}
+},
+{
+"district": "Belet Weyne",
+"reasoning": "Riverine and agropastoral livelihood zone experiencing recurrent extreme flood shocks along the Shabelle river alongside chronic conflict dynamics. Disrupted structural CMAM presence and persistent baseline food insecurity elevate endemic vulnerability, while severe seasonal flooding drives high month-to-month displacement and disease volatility.",
+"p": {"a": 14.0, "b": 26.0},
+"gamma": {"a": 12.0, "b": 488.0},
+"omega": {"a": 10.0, "b": 990.0}
+},
+{
+"district": "Belet Xaawo",
+"reasoning": "Border agropastoral livelihoods heavily dependent on cross-border trade and rainfed agriculture, complicated by historical armed group presence limiting humanitarian access. Chronic exposure to drought cycles and border closure market disruptions yields a highly vulnerable background state with significant seasonal fluctuations.",
+"p": {"a": 16.0, "b": 24.0},
+"gamma": {"a": 10.0, "b": 490.0},
+"omega": {"a": 8.0, "b": 992.0}
+},
+{
+"district": "Berbera",
+"reasoning": "Coastal and urban livelihoods with structurally stable market access, diversified port income, and well-functioning health services. The population faces lower baseline food insecurity, though periodic extreme heat and rainfall deficits drive minor seasonal variability in the endemic disease environment.",
+"p": {"a": 26.0, "b": 14.0},
+"gamma": {"a": 4.0, "b": 496.0},
+"omega": {"a": 3.0, "b": 997.0}
+},
+{
+"district": "Borama",
+"reasoning": "Predominantly urban and agropastoral livelihoods with structurally stable market access and relatively well-functioning, consistent health services. The population faces lower baseline food insecurity, though periodic rainfall deficits drive moderate seasonal variability in agricultural food access.",
+"p": {"a": 26.0, "b": 14.0},
+"gamma": {"a": 4.0, "b": 496.0},
+"omega": {"a": 3.0, "b": 997.0}
+},
+{
+"district": "Bossaso",
+"reasoning": "Highly urbanized coastal zone functioning as a major economic hub and structural host to substantial IDP populations. While health facility density is high, the endemic disease burden in informal settlements and volatile seasonal trade patterns create elevated baseline vulnerability and instability.",
+"p": {"a": 22.0, "b": 18.0},
+"gamma": {"a": 12.0, "b": 488.0},
+"omega": {"a": 10.0, "b": 990.0}
+},
+{
+"district": "Bu'aale",
+"reasoning": "Riverine and agropastoral zone under chronic, long-term control by non-state armed groups, resulting in a near-total absence of structural CMAM and humanitarian presence. Recurrent flood shocks and severe access constraints drive extreme structural vulnerability and unmitigated seasonal volatility.",
+"p": {"a": 10.0, "b": 30.0},
+"gamma": {"a": 15.0, "b": 485.0},
+"omega": {"a": 12.0, "b": 988.0}
+},
+{
+"district": "Bulo Burto",
+"reasoning": "Riverine and agropastoral livelihood zone experiencing recurrent flood shocks and chronic conflict-related access constraints, often relying on restricted supply routes. Limited structural CMAM presence and persistent IPC Acute Food Insecurity elevate endemic vulnerability, while seasonal flooding drives high month-to-month volatility.",
+"p": {"a": 14.0, "b": 26.0},
+"gamma": {"a": 12.0, "b": 488.0},
+"omega": {"a": 10.0, "b": 990.0}
+},
+{
+"district": "Burco",
+"reasoning": "Predominantly pastoral and urban livelihoods with structurally stable market access and relatively well-functioning health services, acting as a major livestock hub. The population faces lower baseline food insecurity, though cyclical pastoral droughts drive moderate seasonal variability in livestock terms of trade.",
+"p": {"a": 26.0, "b": 14.0},
+"gamma": {"a": 6.0, "b": 494.0},
+"omega": {"a": 5.0, "b": 995.0}
+},
+{
+"district": "Burtinle",
+"reasoning": "Predominantly pastoral livelihoods with structurally stable market access and relatively consistent health services along main transport corridors. The population faces lower baseline food insecurity, though periodic rainfall deficits drive moderate seasonal variability in food access and the disease environment.",
+"p": {"a": 26.0, "b": 14.0},
+"gamma": {"a": 4.0, "b": 496.0},
+"omega": {"a": 3.0, "b": 997.0}
+},
+{
+"district": "Buuhoodle",
+"reasoning": "Predominantly pastoral livelihoods with moderate market access and baseline health services, occasionally disrupted by localized political tensions. The population faces moderate baseline food insecurity, with cyclical pastoral droughts driving seasonal variability in food access and disease dynamics.",
+"p": {"a": 22.0, "b": 18.0},
+"gamma": {"a": 6.0, "b": 494.0},
+"omega": {"a": 5.0, "b": 995.0}
+},
+{
+"district": "Buur Hakaba",
+"reasoning": "Agropastoral livelihoods heavily dependent on rainfed agriculture, complicated by long-run non-state armed group presence that structurally limits humanitarian access and restricts movement. Chronic exposure to drought cycles and market disruptions yields a highly vulnerable background state with significant seasonal fluctuations.",
+"p": {"a": 16.0, "b": 24.0},
+"gamma": {"a": 10.0, "b": 490.0},
+"omega": {"a": 8.0, "b": 992.0}
+},
+{
+"district": "Cabudwaaq",
+"reasoning": "Pastoral livelihood zone subject to recurrent severe drought cycles and periodic localized conflict, degrading long-term livestock assets. Moderate to constrained structural CMAM access and persistent exposure to climatic shocks yield a highly vulnerable background state with significant seasonal fluctuations.",
+"p": {"a": 16.0, "b": 24.0},
+"gamma": {"a": 10.0, "b": 490.0},
+"omega": {"a": 8.0, "b": 992.0}
+},
+{
+"district": "Cadaado",
+"reasoning": "Pastoral livelihood zone experiencing recurrent drought shocks that deplete livestock assets, complicated by periodic localized access constraints. Sporadic structural CMAM presence and a persistent baseline of poor food access elevate endemic vulnerability, while seasonal dry spells drive high month-to-month volatility.",
+"p": {"a": 16.0, "b": 24.0},
+"gamma": {"a": 10.0, "b": 490.0},
+"omega": {"a": 8.0, "b": 992.0}
+},
+{
+"district": "Cadale",
+"reasoning": "Coastal and agropastoral communities with chronic physical isolation and historical armed group activity limiting robust health infrastructure and market integration. The structural baseline is vulnerable to seasonal maritime disruptions and erratic rainfall, leading to moderate to high variability in local food systems.",
+"p": {"a": 16.0, "b": 24.0},
+"gamma": {"a": 8.0, "b": 492.0},
+"omega": {"a": 6.0, "b": 994.0}
+},
+{
+"district": "Caluula",
+"reasoning": "Coastal fishing and pastoral communities with chronic physical isolation limiting robust health infrastructure and market integration. The structural baseline is relatively stable but vulnerable to seasonal maritime disruptions and localized cyclical dry spells, leading to moderate variability.",
+"p": {"a": 18.0, "b": 22.0},
+"gamma": {"a": 6.0, "b": 494.0},
+"omega": {"a": 4.0, "b": 996.0}
+},
+{
+"district": "Caynabo",
+"reasoning": "Predominantly pastoral livelihoods with structurally stable market access and relatively well-functioning, consistent health services. The population faces lower baseline food insecurity, though periodic rainfall deficits drive moderate seasonal variability in livestock condition and household food access.",
+"p": {"a": 26.0, "b": 14.0},
+"gamma": {"a": 4.0, "b": 496.0},
+"omega": {"a": 3.0, "b": 997.0}
+},
+{
+"district": "Ceel Afweyn",
+"reasoning": "Predominantly pastoral livelihoods with structurally stable market access and relatively consistent baseline health services. The population faces lower baseline food insecurity, though cyclical pastoral droughts and localized clan dynamics drive moderate seasonal variability in food access and trade.",
+"p": {"a": 26.0, "b": 14.0},
+"gamma": {"a": 4.0, "b": 496.0},
+"omega": {"a": 3.0, "b": 997.0}
+},
+{
+"district": "Ceel Barde",
+"reasoning": "Agropastoral livelihoods heavily dependent on rainfed agriculture, complicated by long-run border insecurity and armed group presence that structurally limits humanitarian access. Chronic exposure to drought cycles and market disruptions yields a highly vulnerable background state with significant seasonal fluctuations.",
+"p": {"a": 16.0, "b": 24.0},
+"gamma": {"a": 10.0, "b": 490.0},
+"omega": {"a": 8.0, "b": 992.0}
+},
+{
+"district": "Ceel Buur",
+"reasoning": "Pastoral and agropastoral zone under chronic control by non-state armed groups, resulting in a near-total absence of structural CMAM and humanitarian presence. Recurrent drought shocks and severe access constraints drive extreme structural vulnerability and unmitigated seasonal volatility.",
+"p": {"a": 10.0, "b": 30.0},
+"gamma": {"a": 15.0, "b": 485.0},
+"omega": {"a": 12.0, "b": 988.0}
+},
+{
+"district": "Ceel Dheere",
+"reasoning": "Agropastoral and pastoral livelihoods heavily influenced by chronic armed group presence that structurally limits humanitarian access and market functioning. Endemic exposure to drought cycles yields a highly vulnerable background state with significant seasonal fluctuations in resource availability.",
+"p": {"a": 16.0, "b": 24.0},
+"gamma": {"a": 10.0, "b": 490.0},
+"omega": {"a": 8.0, "b": 992.0}
+},
+{
+"district": "Ceel Waaq",
+"reasoning": "Border pastoral and agropastoral livelihoods heavily dependent on cross-border trade, complicated by long-run non-state armed group presence that structurally limits humanitarian access. Chronic exposure to drought cycles and market disruptions yields a highly vulnerable background state with significant seasonal fluctuations.",
+"p": {"a": 16.0, "b": 24.0},
+"gamma": {"a": 10.0, "b": 490.0},
+"omega": {"a": 8.0, "b": 992.0}
+},
+{
+"district": "Ceerigaabo",
+"reasoning": "Predominantly pastoral and localized agricultural livelihoods with structurally stable market access and relatively well-functioning, consistent health services. The population faces lower baseline food insecurity, though periodic rainfall deficits drive moderate seasonal variability in food access across the mountainous terrain.",
+"p": {"a": 26.0, "b": 14.0},
+"gamma": {"a": 4.0, "b": 496.0},
+"omega": {"a": 3.0, "b": 997.0}
+},
+{
+"district": "Dhuusamarreeb",
+"reasoning": "Central pastoral and agropastoral livelihoods heavily dependent on livestock, occasionally complicated by political and armed conflict that disrupt market access. Chronic exposure to recurrent drought cycles yields a vulnerable background state with prominent seasonal fluctuations in household food availability.",
+"p": {"a": 16.0, "b": 24.0},
+"gamma": {"a": 10.0, "b": 490.0},
+"omega": {"a": 8.0, "b": 992.0}
+},
+{
+"district": "Diinsoor",
+"reasoning": "Agropastoral livelihoods highly constrained by long-run non-state armed group presence creating functional blockades on major trade routes, heavily limiting humanitarian access. Chronic exposure to drought cycles and severe market isolation yields an extremely vulnerable background state with high seasonal volatility.",
+"p": {"a": 14.0, "b": 26.0},
+"gamma": {"a": 12.0, "b": 488.0},
+"omega": {"a": 10.0, "b": 990.0}
+},
+{
+"district": "Doolow",
+"reasoning": "Riverine and border agropastoral hub functioning as a major destination for internally displaced persons fleeing regional shocks. While structural CMAM presence exists due to cross-border aid channels, the massive endemic vulnerability of IDP populations and recurrent flood risks drive high structural incidence and seasonal volatility.",
+"p": {"a": 20.0, "b": 20.0},
+"gamma": {"a": 15.0, "b": 485.0},
+"omega": {"a": 12.0, "b": 988.0}
+},
+{
+"district": "Eyl",
+"reasoning": "Coastal fishing and pastoral communities with chronic physical isolation limiting robust health infrastructure and market integration. The structural baseline is relatively stable but vulnerable to seasonal maritime disruptions and localized cyclical dry spells, leading to moderate variability.",
+"p": {"a": 18.0, "b": 22.0},
+"gamma": {"a": 6.0, "b": 494.0},
+"omega": {"a": 4.0, "b": 996.0}
+},
+{
+"district": "Gaalkacyo",
+"reasoning": "Major urban and pastoral trade hub characterized by structurally massive and persistent IDP hosting patterns from recurring central region droughts and conflicts. While health facility density is moderate, the endemic disease burden and continuous, volatile influxes of displaced populations create extreme baseline vulnerability and high month-to-month instability.",
+"p": {"a": 22.0, "b": 18.0},
+"gamma": {"a": 18.0, "b": 482.0},
+"omega": {"a": 15.0, "b": 985.0}
+},
+{
+"district": "Galdogob",
+"reasoning": "Pastoral livelihood zone highly dependent on cross-border trade, experiencing recurrent drought shocks that degrade livestock assets. Sporadic structural CMAM presence and a persistent baseline of environmental fragility elevate endemic vulnerability, while seasonal dry spells drive notable month-to-month volatility.",
+"p": {"a": 16.0, "b": 24.0},
+"gamma": {"a": 10.0, "b": 490.0},
+"omega": {"a": 8.0, "b": 992.0}
+},
+{
+"district": "Garbahaarey",
+"reasoning": "Agropastoral livelihoods heavily dependent on rainfed agriculture, complicated by long-run non-state armed group presence that structurally limits humanitarian access and market flow. Chronic exposure to drought cycles and supply chain disruptions yields a highly vulnerable background state with significant seasonal fluctuations.",
+"p": {"a": 16.0, "b": 24.0},
+"gamma": {"a": 10.0, "b": 490.0},
+"omega": {"a": 8.0, "b": 992.0}
+},
+{
+"district": "Garoowe",
+"reasoning": "Predominantly urban and pastoral livelihoods with structurally stable market access, functioning as an administrative hub with relatively well-functioning health services. The population faces lower baseline food insecurity, though periodic influxes of drought-affected pastoralists drive moderate seasonal variability.",
+"p": {"a": 26.0, "b": 14.0},
+"gamma": {"a": 6.0, "b": 494.0},
+"omega": {"a": 4.0, "b": 996.0}
+},
+{
+"district": "Gebiley",
+"reasoning": "Major agropastoral and agricultural livelihood zone with structurally stable market access and well-functioning, consistent health services. The population benefits from higher baseline food security and dietary diversity, minimizing structural vulnerability and limiting seasonal volatility to standard agricultural cycles.",
+"p": {"a": 26.0, "b": 14.0},
+"gamma": {"a": 4.0, "b": 496.0},
+"omega": {"a": 2.0, "b": 998.0}
+},
+{
+"district": "Hargeysa",
+"reasoning": "Highly urbanized and stable administrative capital with diversified livelihoods, strong market integration, and the highest structural density of well-functioning health services. The population faces very low baseline food insecurity, with only minor seasonal variability driven by broader regional economic cycles rather than acute environmental shocks.",
+"p": {"a": 28.0, "b": 12.0},
+"gamma": {"a": 3.0, "b": 497.0},
+"omega": {"a": 2.0, "b": 998.0}
+},
+{
+"district": "Hobyo",
+"reasoning": "Coastal fishing and central pastoral communities with chronic physical isolation limiting robust health infrastructure and market integration. The structural baseline is relatively stable but vulnerable to seasonal maritime disruptions and localized cyclical dry spells affecting inland pastoralists, leading to moderate variability.",
+"p": {"a": 18.0, "b": 22.0},
+"gamma": {"a": 6.0, "b": 494.0},
+"omega": {"a": 4.0, "b": 996.0}
+},
+{
+"district": "Iskushuban",
+"reasoning": "Pastoral communities in rugged terrain with chronic physical isolation limiting robust health infrastructure and market integration. The structural baseline is relatively stable but heavily dependent on seasonal rains for pasture, leaving it vulnerable to localized cyclical dry spells and moderate variability.",
+"p": {"a": 18.0, "b": 22.0},
+"gamma": {"a": 6.0, "b": 494.0},
+"omega": {"a": 4.0, "b": 996.0}
+},
+{
+"district": "Jalalaqsi",
+"reasoning": "Riverine and agropastoral livelihood zone experiencing recurrent flood shocks along the Shabelle river and chronic conflict-related access constraints. Limited structural CMAM presence and persistent baseline food access disruptions elevate endemic vulnerability, while seasonal flooding drives high month-to-month volatility.",
+"p": {"a": 14.0, "b": 26.0},
+"gamma": {"a": 12.0, "b": 488.0},
+"omega": {"a": 10.0, "b": 990.0}
+},
+{
+"district": "Jamaame",
+"reasoning": "Riverine and agropastoral zone under chronic, long-term control by non-state armed groups, resulting in a near-total absence of structural CMAM and humanitarian presence. Recurrent Juba river flood shocks and severe access constraints drive extreme structural vulnerability and unmitigated seasonal volatility.",
+"p": {"a": 10.0, "b": 30.0},
+"gamma": {"a": 15.0, "b": 485.0},
+"omega": {"a": 12.0, "b": 988.0}
+},
+{
+"district": "Jariiban",
+"reasoning": "Coastal and pastoral livelihoods with structurally stable baseline conditions but persistent physical isolation that limits rapid health service scale-up. The population faces moderate baseline food insecurity, with cyclical coastal weather patterns driving seasonal variability in food access and disease.",
+"p": {"a": 18.0, "b": 22.0},
+"gamma": {"a": 6.0, "b": 494.0},
+"omega": {"a": 4.0, "b": 996.0}
+},
+{
+"district": "Jilib",
+"reasoning": "Riverine and agropastoral zone serving as a major hub for non-state armed groups, resulting in a prolonged, near-total absence of structural CMAM and humanitarian presence. Recurrent flood shocks and severe access constraints drive extreme structural vulnerability and unmitigated seasonal volatility.",
+"p": {"a": 10.0, "b": 30.0},
+"gamma": {"a": 15.0, "b": 485.0},
+"omega": {"a": 12.0, "b": 988.0}
+},
+{
+"district": "Jowhar",
+"reasoning": "Riverine and agropastoral livelihood zone experiencing recurrent extreme flood shocks along the Shabelle river and periodic conflict dynamics. Despite moderate structural CMAM presence in the town center, persistent baseline food insecurity in surrounding areas and severe seasonal flooding drive high month-to-month displacement and disease volatility.",
+"p": {"a": 16.0, "b": 24.0},
+"gamma": {"a": 12.0, "b": 488.0},
+"omega": {"a": 12.0, "b": 988.0}
+},
+{
+"district": "Kismaayo",
+"reasoning": "Highly urbanized coastal zone functioning as a major economic hub and structural host to massive, persistent IDP populations from the Juba regions. While health facility density is high in the center, the endemic disease burden in informal settlements and continuous, volatile influxes of displaced populations create extreme baseline vulnerability.",
+"p": {"a": 22.0, "b": 18.0},
+"gamma": {"a": 18.0, "b": 482.0},
+"omega": {"a": 15.0, "b": 985.0}
+},
+{
+"district": "Kurtunwaarey",
+"reasoning": "Riverine and agropastoral livelihood zone heavily influenced by chronic armed group presence that structurally limits humanitarian access and restricts market flow. Endemic exposure to Shabelle river flooding and drought cycles yields a highly vulnerable background state with significant seasonal fluctuations.",
+"p": {"a": 14.0, "b": 26.0},
+"gamma": {"a": 12.0, "b": 488.0},
+"omega": {"a": 10.0, "b": 990.0}
+},
+{
+"district": "Laas Caanood",
+"reasoning": "Predominantly pastoral and urban livelihoods historically possessing stable market access, but disrupted by cyclical political conflict affecting baseline health services. The population faces moderate baseline food insecurity, with rainfall deficits and localized displacement driving seasonal variability in household access.",
+"p": {"a": 20.0, "b": 20.0},
+"gamma": {"a": 8.0, "b": 492.0},
+"omega": {"a": 6.0, "b": 994.0}
+},
+{
+"district": "Laasqoray",
+"reasoning": "Coastal fishing and pastoral communities in rugged terrain with chronic physical isolation limiting robust health infrastructure and market integration. The structural baseline is relatively stable but vulnerable to seasonal maritime disruptions and localized cyclical dry spells, leading to moderate variability.",
+"p": {"a": 18.0, "b": 22.0},
+"gamma": {"a": 6.0, "b": 494.0},
+"omega": {"a": 4.0, "b": 996.0}
+},
+{
+"district": "Lughaye",
+"reasoning": "Coastal and pastoral livelihoods with structurally stable baseline conditions but significant physical isolation limiting consistent health service access. The population faces lower baseline food insecurity, though coastal weather patterns and cyclical droughts drive moderate seasonal variability in livestock dependent food systems.",
+"p": {"a": 20.0, "b": 20.0},
+"gamma": {"a": 5.0, "b": 495.0},
+"omega": {"a": 4.0, "b": 996.0}
+},
+{
+"district": "Luuq",
+"reasoning": "Riverine and agropastoral border zone acting as a conduit for internal displacement and cross-border movement, prone to severe flood shocks along the Juba river. Moderately constrained structural CMAM presence and massive endemic vulnerability of transient populations drive high structural incidence and seasonal volatility.",
+"p": {"a": 16.0, "b": 24.0},
+"gamma": {"a": 12.0, "b": 488.0},
+"omega": {"a": 10.0, "b": 990.0}
+},
+{
+"district": "Marka",
+"reasoning": "Coastal and agropastoral urban center heavily impacted by localized conflict and structural access constraints due to non-state armed groups in surrounding rural areas. Persistent IPC Acute Food Insecurity Phase 3+ baseline in the hinterlands elevates endemic vulnerability, while seasonal shocks drive high month-to-month volatility.",
+"p": {"a": 16.0, "b": 24.0},
+"gamma": {"a": 12.0, "b": 488.0},
+"omega": {"a": 10.0, "b": 990.0}
+},
+{
+"district": "Owdweyne",
+"reasoning": "Predominantly pastoral livelihoods with structurally stable market access and relatively well-functioning, consistent baseline health services. The population faces lower baseline food insecurity, though periodic rainfall deficits drive moderate seasonal variability in livestock terms of trade and disease environment.",
+"p": {"a": 26.0, "b": 14.0},
+"gamma": {"a": 4.0, "b": 496.0},
+"omega": {"a": 3.0, "b": 997.0}
+},
+{
+"district": "Qandala",
+"reasoning": "Coastal fishing and mountainous pastoral communities with chronic physical isolation and rough terrain limiting robust health infrastructure integration. The structural baseline is relatively stable but vulnerable to seasonal maritime disruptions and localized cyclical dry spells, leading to moderate variability.",
+"p": {"a": 18.0, "b": 22.0},
+"gamma": {"a": 6.0, "b": 494.0},
+"omega": {"a": 4.0, "b": 996.0}
+},
+{
+"district": "Qansax Dheere",
+"reasoning": "Agropastoral livelihoods heavily dependent on rainfed agriculture, complicated by long-run non-state armed group presence that structurally limits humanitarian access. Chronic exposure to recurrent drought cycles and persistent market disruptions yields a highly vulnerable background state with significant seasonal fluctuations.",
+"p": {"a": 16.0, "b": 24.0},
+"gamma": {"a": 10.0, "b": 490.0},
+"omega": {"a": 8.0, "b": 992.0}
+},
+{
+"district": "Qardho",
+"reasoning": "Predominantly pastoral and urban livelihoods with structurally stable market access and relatively consistent health services along main transport corridors. The population faces lower baseline food insecurity, though periodic rainfall deficits and flash flooding risks drive moderate seasonal variability in food access and trade.",
+"p": {"a": 26.0, "b": 14.0},
+"gamma": {"a": 5.0, "b": 495.0},
+"omega": {"a": 4.0, "b": 996.0}
+},
+{
+"district": "Qoryooley",
+"reasoning": "Riverine and agropastoral livelihood zone experiencing recurrent flood shocks and chronic armed group access constraints heavily limiting rural market integration. Constrained structural CMAM presence and persistent baseline food insecurity elevate endemic vulnerability, while seasonal flooding drives high month-to-month displacement.",
+"p": {"a": 14.0, "b": 26.0},
+"gamma": {"a": 12.0, "b": 488.0},
+"omega": {"a": 10.0, "b": 990.0}
+},
+{
+"district": "Rab Dhuure",
+"reasoning": "Agropastoral livelihoods near the border, heavily constrained by long-run non-state armed group presence that structurally limits humanitarian access and restricts essential supply chains. Chronic exposure to severe drought cycles yields a highly vulnerable background state with significant seasonal fluctuations.",
+"p": {"a": 14.0, "b": 26.0},
+"gamma": {"a": 12.0, "b": 488.0},
+"omega": {"a": 10.0, "b": 990.0}
+},
+{
+"district": "Saakow",
+"reasoning": "Riverine and agropastoral zone under chronic, long-term control by non-state armed groups, resulting in a near-total absence of structural CMAM and routine humanitarian presence. Recurrent flood shocks along the Juba river and severe access constraints drive extreme structural vulnerability and unmitigated seasonal volatility.",
+"p": {"a": 10.0, "b": 30.0},
+"gamma": {"a": 15.0, "b": 485.0},
+"omega": {"a": 12.0, "b": 988.0}
+},
+{
+"district": "Sablaale",
+"reasoning": "Riverine and agropastoral zone under chronic control by non-state armed groups, resulting in massive disruptions to structural CMAM and humanitarian presence. Recurrent flood shocks and severe access blockages drive extreme structural vulnerability and unmitigated seasonal volatility.",
+"p": {"a": 10.0, "b": 30.0},
+"gamma": {"a": 15.0, "b": 485.0},
+"omega": {"a": 12.0, "b": 988.0}
+},
+{
+"district": "Sheikh",
+"reasoning": "Predominantly pastoral and localized agricultural livelihoods in mountainous terrain with structurally stable market access and well-functioning, consistent health services. The population faces lower baseline food insecurity, with structural resilience smoothing seasonal variations in food access and minimizing monthly volatility.",
+"p": {"a": 26.0, "b": 14.0},
+"gamma": {"a": 3.0, "b": 497.0},
+"omega": {"a": 2.0, "b": 998.0}
+},
+{
+"district": "Taleex",
+"reasoning": "Pastoral communities structurally distant from major urban markets, with physical isolation periodically limiting robust health infrastructure maintenance. The structural baseline is moderately stable but highly dependent on unpredictable rainfall for pasture, leaving it vulnerable to cyclical dry spells and driving moderate variability.",
+"p": {"a": 20.0, "b": 20.0},
+"gamma": {"a": 6.0, "b": 494.0},
+"omega": {"a": 4.0, "b": 996.0}
+},
+{
+"district": "Tayeeglow",
+"reasoning": "Agropastoral livelihoods heavily dependent on rainfed agriculture, complicated by long-run non-state armed group presence that creates structural blockades on humanitarian access. Chronic exposure to drought cycles and isolation yields a highly vulnerable background state with significant seasonal fluctuations.",
+"p": {"a": 14.0, "b": 26.0},
+"gamma": {"a": 12.0, "b": 488.0},
+"omega": {"a": 10.0, "b": 990.0}
+},
+{
+"district": "Waajid",
+"reasoning": "Agropastoral urban enclave subjected to long-run siege-like conditions by non-state armed groups, requiring air supply for humanitarian commodities. These chronic, severe access constraints create massive reliance on erratic harvests, driving extreme structural vulnerability and high seasonal volatility in food systems.",
+"p": {"a": 16.0, "b": 24.0},
+"gamma": {"a": 15.0, "b": 485.0},
+"omega": {"a": 12.0, "b": 988.0}
+},
+{
+"district": "Wanla Weyn",
+"reasoning": "Riverine and agropastoral livelihood zone experiencing recurrent extreme flood shocks and complicated by periodic localized access constraints. Limited structural CMAM presence and a persistent baseline of volatile agricultural yields elevate endemic vulnerability, while seasonal flooding drives high month-to-month instability.",
+"p": {"a": 16.0, "b": 24.0},
+"gamma": {"a": 12.0, "b": 488.0},
+"omega": {"a": 10.0, "b": 990.0}
+},
+{
+"district": "Xarardheere",
+"reasoning": "Coastal and pastoral zone under chronic, long-term control by non-state armed groups, resulting in a near-total absence of structural CMAM and humanitarian presence. Cyclical drought shocks and severe access constraints drive extreme structural vulnerability and unmitigated seasonal volatility in pastoral livelihoods.",
+"p": {"a": 10.0, "b": 30.0},
+"gamma": {"a": 15.0, "b": 485.0},
+"omega": {"a": 12.0, "b": 988.0}
+},
+{
+"district": "Xudun",
+"reasoning": "Predominantly pastoral livelihoods structurally distant from main supply routes, slightly restricting rapid scale-up of health services. The population faces lower baseline food insecurity, though dependence on cyclical pastoral environments drives moderate seasonal variability in food access and trade.",
+"p": {"a": 22.0, "b": 18.0},
+"gamma": {"a": 5.0, "b": 495.0},
+"omega": {"a": 4.0, "b": 996.0}
+},
+{
+"district": "Xudur",
+"reasoning": "Agropastoral urban enclave facing severe, long-term road blockades by non-state armed groups, severely restricting structural market integration and consistent CMAM supplies. These chronic constraints and reliance on local rainfed agriculture yield an extremely vulnerable background state with significant seasonal fluctuations.",
+"p": {"a": 16.0, "b": 24.0},
+"gamma": {"a": 15.0, "b": 485.0},
+"omega": {"a": 12.0, "b": 988.0}
+},
+{
+"district": "Zeylac",
+"reasoning": "Coastal and pastoral livelihoods with structurally stable market access linked to border trade, featuring consistent health services in urban centers. The population faces lower baseline food insecurity, though periodic extreme heat and coastal rainfall deficits drive minor seasonal variability in the endemic disease environment.",
+"p": {"a": 26.0, "b": 14.0},
+"gamma": {"a": 4.0, "b": 496.0},
+"omega": {"a": 3.0, "b": 997.0}
+}
+]
+}

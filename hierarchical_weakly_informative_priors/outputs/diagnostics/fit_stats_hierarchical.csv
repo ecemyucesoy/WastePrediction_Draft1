@@ -1,0 +1,2 @@
+model_id,Model,scheme,n_draws,fit_minutes,divergences,max_treedepth_hits,low_bfmi_chains,max_rhat,min_n_eff,elpd_loo,se_elpd_loo,p_loo,n_pareto_k_bad,elpd_note
+hierarchical,hierarchical,full,20000,9.23,0,0,0,1.0140162000911048,341.23895557853905,-5327.432480942002,34.60060676154515,174.94931333542803,59,exploratory only: LOO assumes exchangeable data (not true for this AR model)

@@ -1,0 +1,2 @@
+model_id,Model,scheme,n_draws,fit_minutes,divergences,max_treedepth_hits,low_bfmi_chains,max_rhat,min_n_eff,elpd_loo,se_elpd_loo,p_loo,n_pareto_k_bad,elpd_note
+claude_run09,claude_run09,full,20000,7.98,0,0,0,1.0094686692641268,768.9518667754663,-5649.702484717217,78.28279389283233,445.4570323977911,95,exploratory only: LOO assumes exchangeable data (not true for this AR model)

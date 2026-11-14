@@ -1,0 +1,1188 @@
+{
+  "districts": [
+    {
+      "district": "Adan Yabaal",
+      "reasoning": "Inland agropastoral district under chronic Al-Shabaab control over the period with minimal humanitarian access. Exit probability reflects chronically inaccessible conditions; incidence reflects rainfed agropastoralism, a chronic IPC AFI Phase 3 background, persistent insecurity. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, episodic conflict disruption.",
+      "p": {
+        "a": 14.4,
+        "b": 45.6
+      },
+      "gamma": {
+        "a": 9.729,
+        "b": 2851.748
+      },
+      "omega": {
+        "a": 4.929,
+        "b": 3216.761
+      }
+    },
+    {
+      "district": "Afgooye",
+      "reasoning": "Shabelle riverine irrigated breadbasket and major IDP corridor, with recurrent flooding, river-breakage, and repeated offensives and blockades. Exit probability reflects intermittent, town-centred access, recurrent AWD/cholera/measles raising case fatality; incidence reflects riverine farming, structurally large IDP populations, a chronic IPC AFI Phase 3 background, persistent insecurity. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent flooding, volatile displacement flows, sieges and repeated access openings and closures.",
+      "p": {
+        "a": 27.9,
+        "b": 62.1
+      },
+      "gamma": {
+        "a": 12.695,
+        "b": 2872.437
+      },
+      "omega": {
+        "a": 6.224,
+        "b": 1718.788
+      }
+    },
+    {
+      "district": "Afmadow",
+      "reasoning": "Juba cattle-pastoral and southern rainfed district with government-held towns (incl. Dhobley) and insecure rural areas. Exit probability reflects intermittent, town-centred access; incidence reflects market-dependent pastoralism, moderate IDP hosting, a chronic IPC AFI Phase 3 background, persistent insecurity. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent rainfall failure, volatile displacement flows, episodic conflict disruption.",
+      "p": {
+        "a": 26.1,
+        "b": 63.9
+      },
+      "gamma": {
+        "a": 12.706,
+        "b": 3516.623
+      },
+      "omega": {
+        "a": 6.233,
+        "b": 2657.457
+      }
+    },
+    {
+      "district": "Baardheere",
+      "reasoning": "Juba riverine and agropastoral district repeatedly flooded (2019-2020) with contested control of rural areas. Exit probability reflects intermittent, town-centred access; incidence reflects riverine farming, moderate IDP hosting, a chronic IPC AFI Phase 3 background, persistent insecurity. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent flooding, volatile displacement flows, sieges and repeated access openings and closures.",
+      "p": {
+        "a": 26.1,
+        "b": 63.9
+      },
+      "gamma": {
+        "a": 12.701,
+        "b": 3244.082
+      },
+      "omega": {
+        "a": 6.228,
+        "b": 2067.774
+      }
+    },
+    {
+      "district": "Badhaadhe",
+      "reasoning": "Coastal pastoral district near the Kenyan border with Al-Shabaab presence and very limited humanitarian access. Exit probability reflects chronically inaccessible conditions; incidence reflects coastal pastoral-fishing livelihoods, a chronic IPC AFI Phase 3 background, persistent insecurity. Month-to-month variability is driven by moderate seasonal swings, recurrent rainfall failure, episodic conflict disruption.",
+      "p": {
+        "a": 14.4,
+        "b": 45.6
+      },
+      "gamma": {
+        "a": 9.731,
+        "b": 3031.261
+      },
+      "omega": {
+        "a": 4.929,
+        "b": 3075.553
+      }
+    },
+    {
+      "district": "Baki",
+      "reasoning": "Northwest Agropastoral / West Golis highland with rainfed sorghum-maize and small-stock, stable Somaliland administration. Exit probability reflects consistent programme access; incidence reflects diversified highland agropastoralism. Month-to-month variability is driven by moderate seasonal swings.",
+      "p": {
+        "a": 39.6,
+        "b": 80.4
+      },
+      "gamma": {
+        "a": 15.971,
+        "b": 9378.794
+      },
+      "omega": {
+        "a": 8.158,
+        "b": 13702.453
+      }
+    },
+    {
+      "district": "Balcad",
+      "reasoning": "Shabelle riverine irrigated farming near Mogadishu with casual-labour income, recurrent flooding and contested rural areas. Exit probability reflects intermittent, town-centred access; incidence reflects riverine farming, moderate IDP hosting, persistent insecurity. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent flooding, volatile displacement flows, episodic conflict disruption.",
+      "p": {
+        "a": 26.1,
+        "b": 63.9
+      },
+      "gamma": {
+        "a": 12.711,
+        "b": 3959.503
+      },
+      "omega": {
+        "a": 6.234,
+        "b": 2776.695
+      }
+    },
+    {
+      "district": "Banadir",
+      "reasoning": "Mogadishu, the country's largest urban economy and densest health/CMAM network, hosting the largest concentration of protracted IDPs with forced evictions and recurrent AWD/cholera. Exit probability reflects consistent programme access, a long-run CMAM/referral hub shortening episodes, recurrent AWD/cholera/measles raising case fatality; incidence reflects urban market economy, structurally large IDP populations, a chronic IPC AFI Phase 3 background, persistent insecurity. Month-to-month variability is driven by market-buffered seasonality, volatile displacement flows, episodic conflict disruption.",
+      "p": {
+        "a": 46.8,
+        "b": 73.2
+      },
+      "gamma": {
+        "a": 15.947,
+        "b": 5128.343
+      },
+      "omega": {
+        "a": 8.15,
+        "b": 5834.489
+      }
+    },
+    {
+      "district": "Bandarbeyla",
+      "reasoning": "Coastal Deeh pastoral-fishing district on the Indian Ocean, remote but stable, exposed to cyclones and dry-season fishing lulls. Exit probability reflects consistent programme access; incidence reflects coastal pastoral-fishing livelihoods. Month-to-month variability is driven by moderate seasonal swings, recurrent rainfall failure.",
+      "p": {
+        "a": 39.6,
+        "b": 80.4
+      },
+      "gamma": {
+        "a": 15.963,
+        "b": 7239.765
+      },
+      "omega": {
+        "a": 8.154,
+        "b": 8228.405
+      }
+    },
+    {
+      "district": "Baraawe",
+      "reasoning": "Coastal town enclave surrounded by Al-Shabaab-controlled countryside, dependent on sea and air supply, hosting IDPs. Exit probability reflects intermittent, town-centred access; incidence reflects coastal pastoral-fishing livelihoods, moderate IDP hosting, a chronic IPC AFI Phase 3 background, persistent insecurity. Month-to-month variability is driven by moderate seasonal swings, volatile displacement flows, episodic conflict disruption.",
+      "p": {
+        "a": 26.1,
+        "b": 63.9
+      },
+      "gamma": {
+        "a": 12.714,
+        "b": 4225.232
+      },
+      "omega": {
+        "a": 6.239,
+        "b": 4153.178
+      }
+    },
+    {
+      "district": "Baydhaba",
+      "reasoning": "Bay sorghum high-potential agropastoral zone (SO15) whose town is a major displacement destination and service hub under Al-Shabaab encirclement, with flash flooding of IDP sites and recurrent AWD/measles. Exit probability reflects intermittent, town-centred access, a long-run CMAM/referral hub shortening episodes, recurrent AWD/cholera/measles raising case fatality; incidence reflects rainfed agropastoralism, structurally large IDP populations, a chronic IPC AFI Phase 3 background, persistent insecurity. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent flooding, recurrent rainfall failure, volatile displacement flows, episodic conflict disruption.",
+      "p": {
+        "a": 31.5,
+        "b": 58.5
+      },
+      "gamma": {
+        "a": 12.696,
+        "b": 2939.852
+      },
+      "omega": {
+        "a": 6.224,
+        "b": 1696.513
+      }
+    },
+    {
+      "district": "Belet Weyne",
+      "reasoning": "Shabelle riverine and Hawd/inland pastoral district whose town was repeatedly inundated (2018-2020), a trade node hosting large flood- and drought-IDP populations, rural areas contested. Exit probability reflects intermittent, town-centred access, a long-run CMAM/referral hub shortening episodes; incidence reflects riverine farming, structurally large IDP populations, a chronic IPC AFI Phase 3 background, persistent insecurity. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent flooding, recurrent rainfall failure, volatile displacement flows, episodic conflict disruption.",
+      "p": {
+        "a": 29.7,
+        "b": 60.3
+      },
+      "gamma": {
+        "a": 12.695,
+        "b": 2872.437
+      },
+      "omega": {
+        "a": 6.223,
+        "b": 1657.65
+      }
+    },
+    {
+      "district": "Belet Xaawo",
+      "reasoning": "Border trading town on the Dawa River with agropastoral hinterland, recurrent Dawa flooding and 2020 inter-administration fighting. Exit probability reflects intermittent, town-centred access; incidence reflects rainfed agropastoralism, moderate IDP hosting, a chronic IPC AFI Phase 3 background, persistent insecurity. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent flooding, recurrent rainfall failure, volatile displacement flows, sieges and repeated access openings and closures.",
+      "p": {
+        "a": 26.1,
+        "b": 63.9
+      },
+      "gamma": {
+        "a": 12.7,
+        "b": 3162.32
+      },
+      "omega": {
+        "a": 6.225,
+        "b": 1782.502
+      }
+    },
+    {
+      "district": "Berbera",
+      "reasoning": "Port town anchoring Somaliland's livestock export trade with a Guban pastoral hinterland, good market integration. Exit probability reflects consistent programme access, a long-run CMAM/referral hub shortening episodes; incidence reflects urban market economy. Month-to-month variability is driven by market-buffered seasonality.",
+      "p": {
+        "a": 44.4,
+        "b": 75.6
+      },
+      "gamma": {
+        "a": 15.973,
+        "b": 9967.027
+      },
+      "omega": {
+        "a": 8.159,
+        "b": 16989.481
+      }
+    },
+    {
+      "district": "Borama",
+      "reasoning": "Northwest Agropastoral (SO03) highland district with Borama town as a regional market and referral centre, karan rains adding a third cropping window. Exit probability reflects consistent programme access, a long-run CMAM/referral hub shortening episodes; incidence reflects diversified highland agropastoralism. Month-to-month variability is driven by moderate seasonal swings.",
+      "p": {
+        "a": 44.4,
+        "b": 75.6
+      },
+      "gamma": {
+        "a": 15.971,
+        "b": 9378.794
+      },
+      "omega": {
+        "a": 8.158,
+        "b": 13702.453
+      }
+    },
+    {
+      "district": "Bossaso",
+      "reasoning": "Main Puntland port and commercial city hosting large protracted IDP and migrant settlements alongside a functioning referral system. Exit probability reflects consistent programme access, a long-run CMAM/referral hub shortening episodes; incidence reflects urban market economy, structurally large IDP populations, a chronic IPC AFI Phase 3 background. Month-to-month variability is driven by market-buffered seasonality, volatile displacement flows.",
+      "p": {
+        "a": 44.4,
+        "b": 75.6
+      },
+      "gamma": {
+        "a": 15.951,
+        "b": 5484.291
+      },
+      "omega": {
+        "a": 8.153,
+        "b": 7019.982
+      }
+    },
+    {
+      "district": "Bu'aale",
+      "reasoning": "Middle Juba riverine district under Al-Shabaab control with recurrent Juba flooding. Exit probability reflects chronically inaccessible conditions; incidence reflects riverine farming, a chronic IPC AFI Phase 3 background, persistent insecurity. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent flooding, episodic conflict disruption.",
+      "p": {
+        "a": 14.4,
+        "b": 45.6
+      },
+      "gamma": {
+        "a": 9.726,
+        "b": 2618.867
+      },
+      "omega": {
+        "a": 4.925,
+        "b": 2213.583
+      }
+    },
+    {
+      "district": "Bulo Burto",
+      "reasoning": "Shabelle riverine and agropastoral district with a town under long-running Al-Shabaab blockade, supplied largely by air. Exit probability reflects intermittent, town-centred access; incidence reflects riverine farming, moderate IDP hosting, a chronic IPC AFI Phase 3 background, persistent insecurity. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent flooding, volatile displacement flows, sieges and repeated access openings and closures.",
+      "p": {
+        "a": 26.1,
+        "b": 63.9
+      },
+      "gamma": {
+        "a": 12.701,
+        "b": 3244.082
+      },
+      "omega": {
+        "a": 6.228,
+        "b": 2067.774
+      }
+    },
+    {
+      "district": "Burco",
+      "reasoning": "Burao livestock market hub (largest in the country) with Togdheer agropastoral and Hawd hinterland, hosting moderate drought-IDP populations. Exit probability reflects consistent programme access, a long-run CMAM/referral hub shortening episodes; incidence reflects urban market economy, moderate IDP hosting. Month-to-month variability is driven by market-buffered seasonality, volatile displacement flows.",
+      "p": {
+        "a": 44.4,
+        "b": 75.6
+      },
+      "gamma": {
+        "a": 15.968,
+        "b": 8388.085
+      },
+      "omega": {
+        "a": 8.157,
+        "b": 12258.266
+      }
+    },
+    {
+      "district": "Burtinle",
+      "reasoning": "Nugal Valley and Hawd pastoral district with camel-goat economy, highly dependent on purchased cereals and rainfall-driven pasture. Exit probability reflects consistent programme access; incidence reflects market-dependent pastoralism. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent rainfall failure.",
+      "p": {
+        "a": 39.6,
+        "b": 80.4
+      },
+      "gamma": {
+        "a": 15.956,
+        "b": 6120.89
+      },
+      "omega": {
+        "a": 8.151,
+        "b": 6262.12
+      }
+    },
+    {
+      "district": "Buuhoodle",
+      "reasoning": "Hawd/Nugal pastoral border district contested between Somaliland and Puntland, with recurrent clan tensions and thin service presence. Exit probability reflects intermittent, town-centred access; incidence reflects market-dependent pastoralism, persistent insecurity. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent rainfall failure, episodic conflict disruption.",
+      "p": {
+        "a": 26.1,
+        "b": 63.9
+      },
+      "gamma": {
+        "a": 12.717,
+        "b": 4528.922
+      },
+      "omega": {
+        "a": 6.238,
+        "b": 3706.75
+      }
+    },
+    {
+      "district": "Buur Hakaba",
+      "reasoning": "Bay agropastoral district with a besieged town on the Mogadishu-Baidoa supply route and flash-flood exposure. Exit probability reflects intermittent, town-centred access; incidence reflects rainfed agropastoralism, moderate IDP hosting, a chronic IPC AFI Phase 3 background, persistent insecurity. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent flooding, recurrent rainfall failure, volatile displacement flows, sieges and repeated access openings and closures.",
+      "p": {
+        "a": 26.1,
+        "b": 63.9
+      },
+      "gamma": {
+        "a": 12.7,
+        "b": 3162.32
+      },
+      "omega": {
+        "a": 6.225,
+        "b": 1782.502
+      }
+    },
+    {
+      "district": "Cabudwaaq",
+      "reasoning": "Hawd pastoral border district with an active cross-border market, relatively accessible, hosting drought-displaced pastoralists. Exit probability reflects consistent programme access; incidence reflects market-dependent pastoralism, moderate IDP hosting. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent rainfall failure, volatile displacement flows.",
+      "p": {
+        "a": 39.6,
+        "b": 80.4
+      },
+      "gamma": {
+        "a": 15.951,
+        "b": 5484.291
+      },
+      "omega": {
+        "a": 8.149,
+        "b": 5100.723
+      }
+    },
+    {
+      "district": "Cadaado",
+      "reasoning": "Addun pastoral and Cowpea Belt district with a government-held town, Al-Shabaab presence nearby and moderate IDP inflows. Exit probability reflects intermittent, town-centred access; incidence reflects market-dependent pastoralism, moderate IDP hosting, a chronic IPC AFI Phase 3 background, persistent insecurity. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent rainfall failure, volatile displacement flows, episodic conflict disruption.",
+      "p": {
+        "a": 26.1,
+        "b": 63.9
+      },
+      "gamma": {
+        "a": 12.706,
+        "b": 3516.623
+      },
+      "omega": {
+        "a": 6.233,
+        "b": 2657.457
+      }
+    },
+    {
+      "district": "Cadale",
+      "reasoning": "Coastal pastoral-fishing district with Al-Shabaab presence in rural areas and weak road links. Exit probability reflects intermittent, town-centred access; incidence reflects coastal pastoral-fishing livelihoods, persistent insecurity. Month-to-month variability is driven by moderate seasonal swings, recurrent rainfall failure, episodic conflict disruption.",
+      "p": {
+        "a": 26.1,
+        "b": 63.9
+      },
+      "gamma": {
+        "a": 12.722,
+        "b": 5288.149
+      },
+      "omega": {
+        "a": 6.24,
+        "b": 4721.358
+      }
+    },
+    {
+      "district": "Caluula",
+      "reasoning": "Gulf of Aden coastal fishing district at the northern tip, isolated by poor roads with limited fixed services. Exit probability reflects intermittent, town-centred access; incidence reflects coastal pastoral-fishing livelihoods. Month-to-month variability is driven by moderate seasonal swings.",
+      "p": {
+        "a": 26.1,
+        "b": 63.9
+      },
+      "gamma": {
+        "a": 12.728,
+        "b": 6351.068
+      },
+      "omega": {
+        "a": 6.244,
+        "b": 7799.006
+      }
+    },
+    {
+      "district": "Caynabo",
+      "reasoning": "Hawd and Northern Inland pastoral district on the Burco-Laas Caanood road with recurrent localized clan conflict. Exit probability reflects consistent programme access; incidence reflects market-dependent pastoralism, persistent insecurity. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent rainfall failure, episodic conflict disruption.",
+      "p": {
+        "a": 39.6,
+        "b": 80.4
+      },
+      "gamma": {
+        "a": 15.952,
+        "b": 5681.333
+      },
+      "omega": {
+        "a": 8.149,
+        "b": 5283.509
+      }
+    },
+    {
+      "district": "Ceel Afweyn",
+      "reasoning": "Gebi Valley / Northern Inland Pastoral (SO06) small-stock economy, highly exposed to drought and recurrent clan conflict. Exit probability reflects consistent programme access; incidence reflects market-dependent pastoralism, a chronic IPC AFI Phase 3 background, persistent insecurity. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent rainfall failure, episodic conflict disruption.",
+      "p": {
+        "a": 39.6,
+        "b": 80.4
+      },
+      "gamma": {
+        "a": 15.944,
+        "b": 4815.541
+      },
+      "omega": {
+        "a": 8.147,
+        "b": 4480.357
+      }
+    },
+    {
+      "district": "Ceel Barde",
+      "reasoning": "Bakool pastoral-agropastoral border district that changed hands after the 2017 withdrawal, with volatile cross-border movement. Exit probability reflects chronically inaccessible conditions; incidence reflects market-dependent pastoralism, a chronic IPC AFI Phase 3 background, persistent insecurity. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent rainfall failure, sieges and repeated access openings and closures.",
+      "p": {
+        "a": 14.4,
+        "b": 45.6
+      },
+      "gamma": {
+        "a": 9.725,
+        "b": 2549.411
+      },
+      "omega": {
+        "a": 4.924,
+        "b": 2085.178
+      }
+    },
+    {
+      "district": "Ceel Buur",
+      "reasoning": "Cowpea Belt agropastoral and Addun pastoral district under chronic Al-Shabaab control with negligible programme access. Exit probability reflects chronically inaccessible conditions; incidence reflects rainfed agropastoralism, a chronic IPC AFI Phase 3 background, persistent insecurity. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent rainfall failure, episodic conflict disruption.",
+      "p": {
+        "a": 14.4,
+        "b": 45.6
+      },
+      "gamma": {
+        "a": 9.727,
+        "b": 2692.181
+      },
+      "omega": {
+        "a": 4.927,
+        "b": 2483.212
+      }
+    },
+    {
+      "district": "Ceel Dheere",
+      "reasoning": "Coastal Deeh pastoral district under chronic Al-Shabaab control with restricted trade and almost no humanitarian presence. Exit probability reflects chronically inaccessible conditions; incidence reflects coastal pastoral-fishing livelihoods, a chronic IPC AFI Phase 3 background, persistent insecurity. Month-to-month variability is driven by moderate seasonal swings, recurrent rainfall failure, episodic conflict disruption.",
+      "p": {
+        "a": 14.4,
+        "b": 45.6
+      },
+      "gamma": {
+        "a": 9.731,
+        "b": 3031.261
+      },
+      "omega": {
+        "a": 4.929,
+        "b": 3075.553
+      }
+    },
+    {
+      "district": "Ceel Waaq",
+      "reasoning": "Southern inland pastoral border district with Kenya, remote with intermittent insecurity and thin services. Exit probability reflects intermittent, town-centred access; incidence reflects market-dependent pastoralism, a chronic IPC AFI Phase 3 background, persistent insecurity. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent rainfall failure, episodic conflict disruption.",
+      "p": {
+        "a": 26.1,
+        "b": 63.9
+      },
+      "gamma": {
+        "a": 12.71,
+        "b": 3838.718
+      },
+      "omega": {
+        "a": 6.236,
+        "b": 3143.08
+      }
+    },
+    {
+      "district": "Ceerigaabo",
+      "reasoning": "East Golis highland agropastoral and Gebi Valley pastoral district with regional hospital in town, but recurrent clan disputes and drought exposure in the lowlands. Exit probability reflects consistent programme access, a long-run CMAM/referral hub shortening episodes; incidence reflects rainfed agropastoralism, persistent insecurity. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent rainfall failure, episodic conflict disruption.",
+      "p": {
+        "a": 44.4,
+        "b": 75.6
+      },
+      "gamma": {
+        "a": 15.952,
+        "b": 5681.333
+      },
+      "omega": {
+        "a": 8.149,
+        "b": 5283.509
+      }
+    },
+    {
+      "district": "Dhuusamarreeb",
+      "reasoning": "Cowpea-belt agropastoral and Addun pastoral district whose capital saw repeated armed confrontations over 2017-2019, hosting drought IDPs. Exit probability reflects intermittent, town-centred access; incidence reflects market-dependent pastoralism, moderate IDP hosting, a chronic IPC AFI Phase 3 background, persistent insecurity. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent rainfall failure, volatile displacement flows, sieges and repeated access openings and closures.",
+      "p": {
+        "a": 26.1,
+        "b": 63.9
+      },
+      "gamma": {
+        "a": 12.703,
+        "b": 3330.148
+      },
+      "omega": {
+        "a": 6.23,
+        "b": 2270.877
+      }
+    },
+    {
+      "district": "Diinsoor",
+      "reasoning": "Bay agropastoral district with a garrison town surrounded by Al-Shabaab-held countryside and recurrent displacement. Exit probability reflects intermittent, town-centred access; incidence reflects rainfed agropastoralism, moderate IDP hosting, a chronic IPC AFI Phase 3 background, persistent insecurity. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent rainfall failure, volatile displacement flows, sieges and repeated access openings and closures.",
+      "p": {
+        "a": 26.1,
+        "b": 63.9
+      },
+      "gamma": {
+        "a": 12.703,
+        "b": 3330.148
+      },
+      "omega": {
+        "a": 6.23,
+        "b": 2270.877
+      }
+    },
+    {
+      "district": "Doolow",
+      "reasoning": "Juba-Dawa pump-irrigation zone at the Ethiopian border hosting large protracted IDP camps with sustained agency presence, flood-exposed. Exit probability reflects consistent programme access, a long-run CMAM/referral hub shortening episodes; incidence reflects riverine farming, structurally large IDP populations, a chronic IPC AFI Phase 3 background. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent flooding, recurrent rainfall failure, volatile displacement flows.",
+      "p": {
+        "a": 44.4,
+        "b": 75.6
+      },
+      "gamma": {
+        "a": 15.929,
+        "b": 3776.595
+      },
+      "omega": {
+        "a": 8.134,
+        "b": 2574.215
+      }
+    },
+    {
+      "district": "Eyl",
+      "reasoning": "Coastal Deeh pastoral-fishing district (SO08) with poor road access, dependent on small-stock and seasonal fishing. Exit probability reflects consistent programme access; incidence reflects coastal pastoral-fishing livelihoods, a chronic IPC AFI Phase 3 background. Month-to-month variability is driven by moderate seasonal swings, recurrent rainfall failure.",
+      "p": {
+        "a": 39.6,
+        "b": 80.4
+      },
+      "gamma": {
+        "a": 15.954,
+        "b": 5892.972
+      },
+      "omega": {
+        "a": 8.152,
+        "b": 6701.421
+      }
+    },
+    {
+      "district": "Gaalkacyo",
+      "reasoning": "Divided commercial city on the Puntland-Galmudug line, hosting large protracted IDP settlements, with episodic inter-administration fighting. Exit probability reflects consistent programme access, a long-run CMAM/referral hub shortening episodes; incidence reflects urban market economy, structurally large IDP populations, a chronic IPC AFI Phase 3 background, persistent insecurity. Month-to-month variability is driven by market-buffered seasonality, volatile displacement flows, episodic conflict disruption.",
+      "p": {
+        "a": 44.4,
+        "b": 75.6
+      },
+      "gamma": {
+        "a": 15.947,
+        "b": 5128.343
+      },
+      "omega": {
+        "a": 8.15,
+        "b": 5834.489
+      }
+    },
+    {
+      "district": "Galdogob",
+      "reasoning": "Hawd pastoral border district with camel-based economy and cross-border trade with Ethiopia. Exit probability reflects consistent programme access; incidence reflects market-dependent pastoralism. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent rainfall failure.",
+      "p": {
+        "a": 39.6,
+        "b": 80.4
+      },
+      "gamma": {
+        "a": 15.956,
+        "b": 6120.89
+      },
+      "omega": {
+        "a": 8.151,
+        "b": 6262.12
+      }
+    },
+    {
+      "district": "Garbahaarey",
+      "reasoning": "Southern agropastoral and inland pastoral district with a government-held regional capital and insecure rural areas. Exit probability reflects intermittent, town-centred access; incidence reflects rainfed agropastoralism, moderate IDP hosting, a chronic IPC AFI Phase 3 background, persistent insecurity. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent rainfall failure, volatile displacement flows, episodic conflict disruption.",
+      "p": {
+        "a": 26.1,
+        "b": 63.9
+      },
+      "gamma": {
+        "a": 12.706,
+        "b": 3516.623
+      },
+      "omega": {
+        "a": 6.233,
+        "b": 2657.457
+      }
+    },
+    {
+      "district": "Garoowe",
+      "reasoning": "Puntland capital with regional hospital and stable administration, hosting moderate IDP settlements. Exit probability reflects consistent programme access, a long-run CMAM/referral hub shortening episodes; incidence reflects urban market economy, moderate IDP hosting. Month-to-month variability is driven by market-buffered seasonality, volatile displacement flows.",
+      "p": {
+        "a": 44.4,
+        "b": 75.6
+      },
+      "gamma": {
+        "a": 15.968,
+        "b": 8388.085
+      },
+      "omega": {
+        "a": 8.157,
+        "b": 12258.266
+      }
+    },
+    {
+      "district": "Gebiley",
+      "reasoning": "Northwest Agropastoral cereal-surplus district (SO03) with diversified crop-livestock income and good road links to Hargeysa. Exit probability reflects consistent programme access; incidence reflects diversified highland agropastoralism. Month-to-month variability is driven by moderate seasonal swings.",
+      "p": {
+        "a": 39.6,
+        "b": 80.4
+      },
+      "gamma": {
+        "a": 15.971,
+        "b": 9378.794
+      },
+      "omega": {
+        "a": 8.158,
+        "b": 13702.453
+      }
+    },
+    {
+      "district": "Hargeysa",
+      "reasoning": "Capital city with diversified urban income, remittances and the densest northern health network, hosting moderate drought-IDP settlements. Exit probability reflects consistent programme access, a long-run CMAM/referral hub shortening episodes; incidence reflects urban market economy, moderate IDP hosting. Month-to-month variability is driven by market-buffered seasonality, volatile displacement flows.",
+      "p": {
+        "a": 44.4,
+        "b": 75.6
+      },
+      "gamma": {
+        "a": 15.968,
+        "b": 8388.085
+      },
+      "omega": {
+        "a": 8.157,
+        "b": 12258.266
+      }
+    },
+    {
+      "district": "Hobyo",
+      "reasoning": "Coastal Deeh / Addun pastoral-fishing district with Al-Shabaab presence in the hinterland restricting movement and assistance. Exit probability reflects intermittent, town-centred access; incidence reflects coastal pastoral-fishing livelihoods, a chronic IPC AFI Phase 3 background, persistent insecurity. Month-to-month variability is driven by moderate seasonal swings, recurrent rainfall failure, episodic conflict disruption.",
+      "p": {
+        "a": 26.1,
+        "b": 63.9
+      },
+      "gamma": {
+        "a": 12.715,
+        "b": 4371.841
+      },
+      "omega": {
+        "a": 6.238,
+        "b": 3905.007
+      }
+    },
+    {
+      "district": "Iskushuban",
+      "reasoning": "East Golis / Dharoor valley pastoral-frankincense district, remote with insecurity linked to armed groups in the Bari mountains. Exit probability reflects intermittent, town-centred access; incidence reflects market-dependent pastoralism, persistent insecurity. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent rainfall failure, episodic conflict disruption.",
+      "p": {
+        "a": 26.1,
+        "b": 63.9
+      },
+      "gamma": {
+        "a": 12.717,
+        "b": 4528.922
+      },
+      "omega": {
+        "a": 6.238,
+        "b": 3706.75
+      }
+    },
+    {
+      "district": "Jalalaqsi",
+      "reasoning": "Shabelle riverine and agropastoral district with besieged town, recurrent riverine flooding and road blockades. Exit probability reflects intermittent, town-centred access; incidence reflects riverine farming, a chronic IPC AFI Phase 3 background, persistent insecurity. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent flooding, sieges and repeated access openings and closures.",
+      "p": {
+        "a": 26.1,
+        "b": 63.9
+      },
+      "gamma": {
+        "a": 12.706,
+        "b": 3516.623
+      },
+      "omega": {
+        "a": 6.231,
+        "b": 2397.784
+      }
+    },
+    {
+      "district": "Jamaame",
+      "reasoning": "Lower Juba gravity-irrigation district largely under Al-Shabaab control, low-lying and flood-prone with recurrent AWD. Exit probability reflects chronically inaccessible conditions, recurrent AWD/cholera/measles raising case fatality; incidence reflects riverine farming, a chronic IPC AFI Phase 3 background, persistent insecurity. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent flooding, episodic conflict disruption.",
+      "p": {
+        "a": 15.6,
+        "b": 44.4
+      },
+      "gamma": {
+        "a": 9.726,
+        "b": 2618.867
+      },
+      "omega": {
+        "a": 4.925,
+        "b": 2213.583
+      }
+    },
+    {
+      "district": "Jariiban",
+      "reasoning": "Addun and Coastal Deeh pastoral district with sparse water, remote settlements and a heavily market-dependent diet. Exit probability reflects consistent programme access; incidence reflects market-dependent pastoralism, a chronic IPC AFI Phase 3 background. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent rainfall failure.",
+      "p": {
+        "a": 39.6,
+        "b": 80.4
+      },
+      "gamma": {
+        "a": 15.947,
+        "b": 5128.343
+      },
+      "omega": {
+        "a": 8.149,
+        "b": 5249.31
+      }
+    },
+    {
+      "district": "Jilib",
+      "reasoning": "Juba gravity-irrigation zone (SO14) at the centre of Al-Shabaab territory with recurrent flooding, AWD exposure and no regular humanitarian access. Exit probability reflects chronically inaccessible conditions, recurrent AWD/cholera/measles raising case fatality; incidence reflects riverine farming, a chronic IPC AFI Phase 3 background, persistent insecurity. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent flooding, episodic conflict disruption.",
+      "p": {
+        "a": 15.6,
+        "b": 44.4
+      },
+      "gamma": {
+        "a": 9.726,
+        "b": 2618.867
+      },
+      "omega": {
+        "a": 4.925,
+        "b": 2213.583
+      }
+    },
+    {
+      "district": "Jowhar",
+      "reasoning": "Shabelle gravity-irrigation zone (SO14) and regional capital with hospital, repeatedly flooded via open river breakages (2018-2020). Exit probability reflects intermittent, town-centred access, a long-run CMAM/referral hub shortening episodes; incidence reflects riverine farming, moderate IDP hosting, persistent insecurity. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent flooding, volatile displacement flows, episodic conflict disruption.",
+      "p": {
+        "a": 29.7,
+        "b": 60.3
+      },
+      "gamma": {
+        "a": 12.711,
+        "b": 3959.503
+      },
+      "omega": {
+        "a": 6.234,
+        "b": 2776.695
+      }
+    },
+    {
+      "district": "Kismaayo",
+      "reasoning": "Jubaland capital and port with a functioning referral system, hosting large IDP and returnee populations and recurrent cholera. Exit probability reflects consistent programme access, a long-run CMAM/referral hub shortening episodes, recurrent AWD/cholera/measles raising case fatality; incidence reflects urban market economy, structurally large IDP populations, a chronic IPC AFI Phase 3 background, persistent insecurity. Month-to-month variability is driven by market-buffered seasonality, volatile displacement flows, episodic conflict disruption.",
+      "p": {
+        "a": 46.8,
+        "b": 73.2
+      },
+      "gamma": {
+        "a": 15.947,
+        "b": 5128.343
+      },
+      "omega": {
+        "a": 8.15,
+        "b": 5834.489
+      }
+    },
+    {
+      "district": "Kurtunwaarey",
+      "reasoning": "Lower Shabelle riverine district largely under Al-Shabaab control with recurrent flooding and almost no humanitarian access. Exit probability reflects chronically inaccessible conditions; incidence reflects riverine farming, a chronic IPC AFI Phase 3 background, persistent insecurity. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent flooding, sieges and repeated access openings and closures.",
+      "p": {
+        "a": 14.4,
+        "b": 45.6
+      },
+      "gamma": {
+        "a": 9.724,
+        "b": 2483.517
+      },
+      "omega": {
+        "a": 4.923,
+        "b": 1879.025
+      }
+    },
+    {
+      "district": "Laas Caanood",
+      "reasoning": "Nugal Valley / Sool plateau pastoral district contested between Somaliland and Puntland, hosting drought-displaced pastoralists and exposed to recurrent dry seasons. Exit probability reflects intermittent, town-centred access; incidence reflects market-dependent pastoralism, moderate IDP hosting, a chronic IPC AFI Phase 3 background, persistent insecurity. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent rainfall failure, volatile displacement flows, episodic conflict disruption.",
+      "p": {
+        "a": 26.1,
+        "b": 63.9
+      },
+      "gamma": {
+        "a": 12.706,
+        "b": 3516.623
+      },
+      "omega": {
+        "a": 6.233,
+        "b": 2657.457
+      }
+    },
+    {
+      "district": "Laasqoray",
+      "reasoning": "East Golis frankincense, goats and fishing zone (SO07), remote coastal district contested between administrations with weak road access. Exit probability reflects intermittent, town-centred access; incidence reflects coastal pastoral-fishing livelihoods, persistent insecurity. Month-to-month variability is driven by moderate seasonal swings, episodic conflict disruption.",
+      "p": {
+        "a": 26.1,
+        "b": 63.9
+      },
+      "gamma": {
+        "a": 12.725,
+        "b": 5771.294
+      },
+      "omega": {
+        "a": 6.243,
+        "b": 6299.638
+      }
+    },
+    {
+      "district": "Lughaye",
+      "reasoning": "Guban and West Golis pastoral (SO01/SO02) with hot arid coastal plain, sparse services and heavy market dependence for cereals. Exit probability reflects consistent programme access; incidence reflects market-dependent pastoralism. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent rainfall failure.",
+      "p": {
+        "a": 39.6,
+        "b": 80.4
+      },
+      "gamma": {
+        "a": 15.956,
+        "b": 6120.89
+      },
+      "omega": {
+        "a": 8.151,
+        "b": 6262.12
+      }
+    },
+    {
+      "district": "Luuq",
+      "reasoning": "Juba pump-irrigation riverine district with large IDP camps, recurrent flooding and insecure surroundings. Exit probability reflects intermittent, town-centred access; incidence reflects riverine farming, structurally large IDP populations, a chronic IPC AFI Phase 3 background, persistent insecurity. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent flooding, recurrent rainfall failure, volatile displacement flows, episodic conflict disruption.",
+      "p": {
+        "a": 26.1,
+        "b": 63.9
+      },
+      "gamma": {
+        "a": 12.695,
+        "b": 2872.437
+      },
+      "omega": {
+        "a": 6.223,
+        "b": 1657.65
+      }
+    },
+    {
+      "district": "Marka",
+      "reasoning": "Shabelle riverine and coastal district with high agricultural potential but repeated control changes and road insecurity. Exit probability reflects intermittent, town-centred access; incidence reflects riverine farming, moderate IDP hosting, persistent insecurity. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent flooding, volatile displacement flows, sieges and repeated access openings and closures.",
+      "p": {
+        "a": 26.1,
+        "b": 63.9
+      },
+      "gamma": {
+        "a": 12.708,
+        "b": 3725.037
+      },
+      "omega": {
+        "a": 6.231,
+        "b": 2373.838
+      }
+    },
+    {
+      "district": "Owdweyne",
+      "reasoning": "Togdheer Agropastoral / West Golis zone with small rainfed plots and small-stock, exposed to rainfall failure. Exit probability reflects consistent programme access; incidence reflects rainfed agropastoralism. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent rainfall failure.",
+      "p": {
+        "a": 39.6,
+        "b": 80.4
+      },
+      "gamma": {
+        "a": 15.956,
+        "b": 6120.89
+      },
+      "omega": {
+        "a": 8.151,
+        "b": 6262.12
+      }
+    },
+    {
+      "district": "Qandala",
+      "reasoning": "East Golis frankincense and fishing coast with episodic armed-group occupation and remoteness limiting programme continuity. Exit probability reflects intermittent, town-centred access; incidence reflects coastal pastoral-fishing livelihoods, persistent insecurity. Month-to-month variability is driven by moderate seasonal swings, episodic conflict disruption.",
+      "p": {
+        "a": 26.1,
+        "b": 63.9
+      },
+      "gamma": {
+        "a": 12.725,
+        "b": 5771.294
+      },
+      "omega": {
+        "a": 6.243,
+        "b": 6299.638
+      }
+    },
+    {
+      "district": "Qansax Dheere",
+      "reasoning": "Bay agropastoral district with Al-Shabaab-controlled rural areas, return flows after displacement and flash-flood exposure. Exit probability reflects intermittent, town-centred access; incidence reflects rainfed agropastoralism, moderate IDP hosting, a chronic IPC AFI Phase 3 background, persistent insecurity. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent flooding, recurrent rainfall failure, volatile displacement flows, sieges and repeated access openings and closures.",
+      "p": {
+        "a": 26.1,
+        "b": 63.9
+      },
+      "gamma": {
+        "a": 12.7,
+        "b": 3162.32
+      },
+      "omega": {
+        "a": 6.225,
+        "b": 1782.502
+      }
+    },
+    {
+      "district": "Qardho",
+      "reasoning": "Karkaar-Dharoor pastoral district with a market town on the Bossaso-Garoowe road and moderate IDP presence. Exit probability reflects consistent programme access; incidence reflects market-dependent pastoralism, moderate IDP hosting. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent rainfall failure, volatile displacement flows.",
+      "p": {
+        "a": 39.6,
+        "b": 80.4
+      },
+      "gamma": {
+        "a": 15.951,
+        "b": 5484.291
+      },
+      "omega": {
+        "a": 8.149,
+        "b": 5100.723
+      }
+    },
+    {
+      "district": "Qoryooley",
+      "reasoning": "Shabelle gravity-irrigation district with displacement from military operations and recurrent flooding. Exit probability reflects intermittent, town-centred access; incidence reflects riverine farming, moderate IDP hosting, persistent insecurity. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent flooding, volatile displacement flows, sieges and repeated access openings and closures.",
+      "p": {
+        "a": 26.1,
+        "b": 63.9
+      },
+      "gamma": {
+        "a": 12.708,
+        "b": 3725.037
+      },
+      "omega": {
+        "a": 6.231,
+        "b": 2373.838
+      }
+    },
+    {
+      "district": "Rab Dhuure",
+      "reasoning": "Bakool low-potential agropastoral district under Al-Shabaab control with negligible programme access. Exit probability reflects chronically inaccessible conditions; incidence reflects rainfed agropastoralism, a chronic IPC AFI Phase 3 background, persistent insecurity. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent rainfall failure, episodic conflict disruption.",
+      "p": {
+        "a": 14.4,
+        "b": 45.6
+      },
+      "gamma": {
+        "a": 9.727,
+        "b": 2692.181
+      },
+      "omega": {
+        "a": 4.927,
+        "b": 2483.212
+      }
+    },
+    {
+      "district": "Saakow",
+      "reasoning": "Middle Juba riverine and agropastoral district under Al-Shabaab control with flood exposure. Exit probability reflects chronically inaccessible conditions; incidence reflects riverine farming, a chronic IPC AFI Phase 3 background, persistent insecurity. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent flooding, episodic conflict disruption.",
+      "p": {
+        "a": 14.4,
+        "b": 45.6
+      },
+      "gamma": {
+        "a": 9.726,
+        "b": 2618.867
+      },
+      "omega": {
+        "a": 4.925,
+        "b": 2213.583
+      }
+    },
+    {
+      "district": "Sablaale",
+      "reasoning": "Lower Shabelle riverine district under chronic Al-Shabaab control with negligible programme presence. Exit probability reflects chronically inaccessible conditions; incidence reflects riverine farming, a chronic IPC AFI Phase 3 background, persistent insecurity. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent flooding, episodic conflict disruption.",
+      "p": {
+        "a": 14.4,
+        "b": 45.6
+      },
+      "gamma": {
+        "a": 9.726,
+        "b": 2618.867
+      },
+      "omega": {
+        "a": 4.925,
+        "b": 2213.583
+      }
+    },
+    {
+      "district": "Sheikh",
+      "reasoning": "Golis highland agropastoral district with relatively reliable rainfall and proximity to the Burco-Berbera trade corridor. Exit probability reflects consistent programme access; incidence reflects diversified highland agropastoralism. Month-to-month variability is driven by moderate seasonal swings.",
+      "p": {
+        "a": 39.6,
+        "b": 80.4
+      },
+      "gamma": {
+        "a": 15.971,
+        "b": 9378.794
+      },
+      "omega": {
+        "a": 8.158,
+        "b": 13702.453
+      }
+    },
+    {
+      "district": "Taleex",
+      "reasoning": "Sool plateau Northern Inland Pastoral district, remote, water-scarce, with heavy reliance on water trucking and purchased cereals. Exit probability reflects intermittent, town-centred access; incidence reflects market-dependent pastoralism, a chronic IPC AFI Phase 3 background. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent rainfall failure.",
+      "p": {
+        "a": 26.1,
+        "b": 63.9
+      },
+      "gamma": {
+        "a": 12.712,
+        "b": 4088.081
+      },
+      "omega": {
+        "a": 6.238,
+        "b": 3652.202
+      }
+    },
+    {
+      "district": "Tayeeglow",
+      "reasoning": "Bakool agropastoral district under Al-Shabaab control after 2016 troop withdrawal, with very limited humanitarian presence. Exit probability reflects chronically inaccessible conditions; incidence reflects rainfed agropastoralism, a chronic IPC AFI Phase 3 background, persistent insecurity. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent rainfall failure, episodic conflict disruption.",
+      "p": {
+        "a": 14.4,
+        "b": 45.6
+      },
+      "gamma": {
+        "a": 9.727,
+        "b": 2692.181
+      },
+      "omega": {
+        "a": 4.927,
+        "b": 2483.212
+      }
+    },
+    {
+      "district": "Waajid",
+      "reasoning": "Bay-Bakool low-potential agropastoral district with a besieged town and recurrent displacement after troop withdrawals. Exit probability reflects intermittent, town-centred access; incidence reflects rainfed agropastoralism, moderate IDP hosting, a chronic IPC AFI Phase 3 background, persistent insecurity. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent rainfall failure, volatile displacement flows, sieges and repeated access openings and closures.",
+      "p": {
+        "a": 26.1,
+        "b": 63.9
+      },
+      "gamma": {
+        "a": 12.703,
+        "b": 3330.148
+      },
+      "omega": {
+        "a": 6.23,
+        "b": 2270.877
+      }
+    },
+    {
+      "district": "Wanla Weyn",
+      "reasoning": "Bay-Shabelle high-potential agropastoral district on the Mogadishu-Baidoa road with insecure rural areas and moderate IDP presence. Exit probability reflects intermittent, town-centred access; incidence reflects rainfed agropastoralism, moderate IDP hosting, persistent insecurity. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, volatile displacement flows, episodic conflict disruption.",
+      "p": {
+        "a": 26.1,
+        "b": 63.9
+      },
+      "gamma": {
+        "a": 12.715,
+        "b": 4371.841
+      },
+      "omega": {
+        "a": 6.238,
+        "b": 3905.007
+      }
+    },
+    {
+      "district": "Xarardheere",
+      "reasoning": "Coastal Deeh pastoral district under chronic Al-Shabaab control, with minimal humanitarian presence and taxed trade. Exit probability reflects chronically inaccessible conditions; incidence reflects coastal pastoral-fishing livelihoods, a chronic IPC AFI Phase 3 background, persistent insecurity. Month-to-month variability is driven by moderate seasonal swings, recurrent rainfall failure, episodic conflict disruption.",
+      "p": {
+        "a": 14.4,
+        "b": 45.6
+      },
+      "gamma": {
+        "a": 9.731,
+        "b": 3031.261
+      },
+      "omega": {
+        "a": 4.929,
+        "b": 3075.553
+      }
+    },
+    {
+      "district": "Xudun",
+      "reasoning": "Sool plateau pastoral district with severe water scarcity, distant markets and very sparse health facilities. Exit probability reflects intermittent, town-centred access; incidence reflects market-dependent pastoralism, a chronic IPC AFI Phase 3 background. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent rainfall failure.",
+      "p": {
+        "a": 26.1,
+        "b": 63.9
+      },
+      "gamma": {
+        "a": 12.712,
+        "b": 4088.081
+      },
+      "omega": {
+        "a": 6.238,
+        "b": 3652.202
+      }
+    },
+    {
+      "district": "Xudur",
+      "reasoning": "Bay-Bakool low-potential agropastoral zone (SO16) with a town under prolonged Al-Shabaab blockade and air-dependent supply. Exit probability reflects intermittent, town-centred access; incidence reflects rainfed agropastoralism, moderate IDP hosting, a chronic IPC AFI Phase 3 background, persistent insecurity. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent rainfall failure, volatile displacement flows, sieges and repeated access openings and closures.",
+      "p": {
+        "a": 26.1,
+        "b": 63.9
+      },
+      "gamma": {
+        "a": 12.703,
+        "b": 3330.148
+      },
+      "omega": {
+        "a": 6.23,
+        "b": 2270.877
+      }
+    },
+    {
+      "district": "Zeylac",
+      "reasoning": "Guban pastoral (SO01) coastal desert bordering Djibouti, reliant on xays coastal rains, cross-border trade and purchased cereals, with sparse fixed health infrastructure. Exit probability reflects consistent programme access; incidence reflects market-dependent pastoralism. Month-to-month variability is driven by pronounced jilaal/gu lean-season swings, recurrent rainfall failure.",
+      "p": {
+        "a": 39.6,
+        "b": 80.4
+      },
+      "gamma": {
+        "a": 15.956,
+        "b": 6120.89
+      },
+      "omega": {
+        "a": 8.151,
+        "b": 6262.12
+      }
+    }
+  ]
+}

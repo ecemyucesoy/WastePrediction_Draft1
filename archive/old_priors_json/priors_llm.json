@@ -1,0 +1,1188 @@
+{
+  "districts": [
+    {
+      "district": "Adan Yabaal",
+      "reasoning": "Rural Middle Shabelle, predominantly AS-controlled, virtually no humanitarian access during much of 2017-2021; nutrition data largely extrapolated, very high uncertainty.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 25.2,
+        "b": 1774.8
+      },
+      "omega": {
+        "a": 19.2,
+        "b": 1180.8
+      }
+    },
+    {
+      "district": "Afgooye",
+      "reasoning": "Afgoye corridor hosts one of the largest IDP concentrations near Mogadishu; sustained Serious-Critical GAM; mixed access; relatively strong NGO presence near capital.",
+      "p": {
+        "a": 17.6,
+        "b": 62.4
+      },
+      "gamma": {
+        "a": 28.5,
+        "b": 1471.5
+      },
+      "omega": {
+        "a": 16.0,
+        "b": 1984.0
+      }
+    },
+    {
+      "district": "Afmadow",
+      "reasoning": "Lower Juba mostly rural with AS presence (historical Afmadow exactions); mixed access; agropastoral and livestock-dependent.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 25.2,
+        "b": 1774.8
+      },
+      "omega": {
+        "a": 18.0,
+        "b": 1482.0
+      }
+    },
+    {
+      "district": "Baardheere",
+      "reasoning": "Gedo riverine; severely flood-affected 2019 (~55,000 displaced, town partially inundated); North Gedo Riverine had 31.1% GAM in 2020 Deyr; AS rural; mixed access.",
+      "p": {
+        "a": 17.6,
+        "b": 62.4
+      },
+      "gamma": {
+        "a": 28.5,
+        "b": 1471.5
+      },
+      "omega": {
+        "a": 18.0,
+        "b": 1482.0
+      }
+    },
+    {
+      "district": "Badhaadhe",
+      "reasoning": "Remote southern coastal Lower Juba, very low population density, pastoral; almost no representative survey data through 2017-2021; substantially extrapolated.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 18.0,
+        "b": 1982.0
+      },
+      "omega": {
+        "a": 19.2,
+        "b": 1180.8
+      }
+    },
+    {
+      "district": "Baki",
+      "reasoning": "Awdal agropastoral district with limited markets. Moderate stress through 2017-21 with poor 2017 Gu/Karan harvest (87% below average). Stable Somaliland governance gives access; no major shocks but modest treatment infrastructure.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 18.0,
+        "b": 1982.0
+      },
+      "omega": {
+        "a": 16.0,
+        "b": 1984.0
+      }
+    },
+    {
+      "district": "Balcad",
+      "reasoning": "Middle Shabelle district close to Mogadishu, mixed government/AS control; flood-exposed; relatively better access than rural ML Shabelle.",
+      "p": {
+        "a": 17.6,
+        "b": 62.4
+      },
+      "gamma": {
+        "a": 25.2,
+        "b": 1774.8
+      },
+      "omega": {
+        "a": 16.0,
+        "b": 1984.0
+      }
+    },
+    {
+      "district": "Banadir",
+      "reasoning": "Mogadishu - largest IDP-hosting area in Somalia (Mogadishu IDPs Critical GAM 16.7% in 2020 Deyr, sustained Critical since 2016); huge caseload; very strong treatment infrastructure and the most reliable surveillance in country, raising p substantially via both recovery and CFR pathways.",
+      "p": {
+        "a": 23.1,
+        "b": 46.9
+      },
+      "gamma": {
+        "a": 31.2,
+        "b": 1268.8
+      },
+      "omega": {
+        "a": 7.5,
+        "b": 2492.5
+      }
+    },
+    {
+      "district": "Bandarbeyla",
+      "reasoning": "Remote coastal Bari, Coastal Deeh livelihood zone, severe drought 2017 and ongoing pastoral stress 2018-2021. Small samples, poor access.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 18.0,
+        "b": 1982.0
+      },
+      "omega": {
+        "a": 18.0,
+        "b": 1482.0
+      }
+    },
+    {
+      "district": "Baraawe",
+      "reasoning": "Coastal Lower Shabelle, official South West State capital but with strong AS presence; remote with mixed access.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 25.2,
+        "b": 1774.8
+      },
+      "omega": {
+        "a": 18.0,
+        "b": 1482.0
+      }
+    },
+    {
+      "district": "Baydhaba",
+      "reasoning": "Baidoa, epicenter of 2017 famine risk and 2022 Risk of Famine; massive IDP camps with sustained Critical GAM (~16-17%); huge caseload but intensive WFP/UNICEF programs and the AWD/cholera outbreak (half of all 2017 cases in Baidoa town) drive case fatality up. Strong surveillance.",
+      "p": {
+        "a": 23.1,
+        "b": 46.9
+      },
+      "gamma": {
+        "a": 31.2,
+        "b": 1268.8
+      },
+      "omega": {
+        "a": 11.0,
+        "b": 2189.0
+      }
+    },
+    {
+      "district": "Belet Weyne",
+      "reasoning": "Epicenter of October-November 2019 Shabelle floods (~273,000 displaced, 85% of town inundated); 2020 Deyr flagged Beletweyne urban and IDPs as Critical GAM; 2021 drought; chronic conflict. High caseload but heavy NGO presence.",
+      "p": {
+        "a": 22.4,
+        "b": 57.6
+      },
+      "gamma": {
+        "a": 31.2,
+        "b": 1268.8
+      },
+      "omega": {
+        "a": 18.0,
+        "b": 1482.0
+      }
+    },
+    {
+      "district": "Belet Xaawo",
+      "reasoning": "Gedo border town with mixed control; 2021 drought; partial humanitarian access.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 25.2,
+        "b": 1774.8
+      },
+      "omega": {
+        "a": 18.0,
+        "b": 1482.0
+      }
+    },
+    {
+      "district": "Berbera",
+      "reasoning": "Major port city, urban Somaliland, functional services. Stable food security and lower nutrition stress; some Hargeysa-IDP overflow. Treatment programs operational.",
+      "p": {
+        "a": 17.6,
+        "b": 62.4
+      },
+      "gamma": {
+        "a": 12.0,
+        "b": 1988.0
+      },
+      "omega": {
+        "a": 11.0,
+        "b": 2189.0
+      }
+    },
+    {
+      "district": "Borama",
+      "reasoning": "Awdal regional capital, urban Somaliland with functional health system and regular FSNAU surveys. Relatively stable food security throughout 2017-21; treatment programs moderate to good. GAM rates have been Acceptable to Alert.",
+      "p": {
+        "a": 17.6,
+        "b": 62.4
+      },
+      "gamma": {
+        "a": 12.0,
+        "b": 1988.0
+      },
+      "omega": {
+        "a": 11.0,
+        "b": 2189.0
+      }
+    },
+    {
+      "district": "Bossaso",
+      "reasoning": "Large port city and major IDP hub in Puntland. Bossaso IDPs have shown persistent Critical GAM (15.8% in 2020 Deyr; ~21.9% earlier periods); however strong NGO/UNICEF treatment infrastructure raises p. Good surveillance.",
+      "p": {
+        "a": 22.4,
+        "b": 57.6
+      },
+      "gamma": {
+        "a": 28.5,
+        "b": 1471.5
+      },
+      "omega": {
+        "a": 11.0,
+        "b": 2189.0
+      }
+    },
+    {
+      "district": "Bu'aale",
+      "reasoning": "Middle Juba is the only Somali region fully and exclusively under AS control. Bu'aale entirely AS, no humanitarian access; chronic SAM endemic; nutrition data essentially absent and extrapolated; case durations very long without treatment.",
+      "p": {
+        "a": 10.4,
+        "b": 69.6
+      },
+      "gamma": {
+        "a": 28.5,
+        "b": 1471.5
+      },
+      "omega": {
+        "a": 19.2,
+        "b": 1180.8
+      }
+    },
+    {
+      "district": "Bulo Burto",
+      "reasoning": "Hiraan rural, AS-besieged with periodic blockades (Wajid/Bulo-Burte/Hudur cited by HRW); persistent Critical GAM zone; severely restricted humanitarian access.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 28.5,
+        "b": 1471.5
+      },
+      "omega": {
+        "a": 18.0,
+        "b": 1482.0
+      }
+    },
+    {
+      "district": "Burco",
+      "reasoning": "Major urban Somaliland centre with strong health/nutrition surveillance and treatment programs. IDP settlements moderate. Good regular FSNAU surveys.",
+      "p": {
+        "a": 22.4,
+        "b": 57.6
+      },
+      "gamma": {
+        "a": 12.0,
+        "b": 1988.0
+      },
+      "omega": {
+        "a": 7.5,
+        "b": 2492.5
+      }
+    },
+    {
+      "district": "Burtinle",
+      "reasoning": "Inland Nugaal, NIP livelihood, severe 2017 drought with persistent livestock stress. Moderate access from Garowe.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 18.0,
+        "b": 1982.0
+      },
+      "omega": {
+        "a": 16.0,
+        "b": 1984.0
+      }
+    },
+    {
+      "district": "Buuhoodle",
+      "reasoning": "Contested district on Togdheer/Sool/Cayn boundary, recurrent inter-clan tensions and mixed governance. Northern Inland Pastoral stress; remote with irregular nutrition data.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 18.0,
+        "b": 1982.0
+      },
+      "omega": {
+        "a": 18.0,
+        "b": 1482.0
+      }
+    },
+    {
+      "district": "Buur Hakaba",
+      "reasoning": "Bay rural agropastoral - the Bay-Bakool Low Potential Agropastoral livelihood zone classified Emergency (IPC4) in 2017 and again at risk in 2021-2022; AS-influenced rural areas with severely restricted access. Very high incidence, sparse data.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 31.2,
+        "b": 1268.8
+      },
+      "omega": {
+        "a": 18.0,
+        "b": 1482.0
+      }
+    },
+    {
+      "district": "Cabudwaaq",
+      "reasoning": "Galgaduud Hawd Pastoral, similar profile to Cadaado; 2021 drought-displaced populations atypical.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 25.2,
+        "b": 1774.8
+      },
+      "omega": {
+        "a": 16.0,
+        "b": 1984.0
+      }
+    },
+    {
+      "district": "Cadaado",
+      "reasoning": "Galgaduud Hawd Pastoral, drought 2017 and severe drought 2021 with locust 2020. Moderate access.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 25.2,
+        "b": 1774.8
+      },
+      "omega": {
+        "a": 16.0,
+        "b": 1984.0
+      }
+    },
+    {
+      "district": "Cadale",
+      "reasoning": "Coastal Middle Shabelle, AS influence, agropastoral; flood and conflict exposure. Limited access.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 25.2,
+        "b": 1774.8
+      },
+      "omega": {
+        "a": 18.0,
+        "b": 1482.0
+      }
+    },
+    {
+      "district": "Caluula",
+      "reasoning": "Extreme tip of Horn of Africa, very remote coastal pastoral. Almost no representative survey data; data substantially extrapolated. Persistent NE pastoral stress with very high data uncertainty.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 18.0,
+        "b": 1982.0
+      },
+      "omega": {
+        "a": 19.2,
+        "b": 1180.8
+      }
+    },
+    {
+      "district": "Caynabo",
+      "reasoning": "Sool district in Northern Inland Pastoral livelihood zone, extreme drought 2017 with Critical GAM; chronic livestock loss without rapid recovery. Limited treatment infrastructure.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 18.0,
+        "b": 1982.0
+      },
+      "omega": {
+        "a": 16.0,
+        "b": 1984.0
+      }
+    },
+    {
+      "district": "Ceel Afweyn",
+      "reasoning": "Sanaag East Golis Pastoral, severely affected by 2016-17 drought with persistent pastoral stress. Limited rural treatment programs.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 18.0,
+        "b": 1982.0
+      },
+      "omega": {
+        "a": 16.0,
+        "b": 1984.0
+      }
+    },
+    {
+      "district": "Ceel Barde",
+      "reasoning": "Southern Inland Pastoral of Elberde recorded the highest GAM in 2020 Deyr at 20.9% (Critical IPC4); severe and persistent crisis. AS-influenced rural with limited access.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 31.2,
+        "b": 1268.8
+      },
+      "omega": {
+        "a": 18.0,
+        "b": 1482.0
+      }
+    },
+    {
+      "district": "Ceel Buur",
+      "reasoning": "Galgaduud rural with strong AS presence; 2020 locust epicentre; 2021 drought; very limited humanitarian access reduces both incidence detection and exits.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 25.2,
+        "b": 1774.8
+      },
+      "omega": {
+        "a": 18.0,
+        "b": 1482.0
+      }
+    },
+    {
+      "district": "Ceel Dheere",
+      "reasoning": "Galgaduud rural with AS presence; 2020 locust impact; 2021 drought. Limited access, small surveys.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 25.2,
+        "b": 1774.8
+      },
+      "omega": {
+        "a": 18.0,
+        "b": 1482.0
+      }
+    },
+    {
+      "district": "Ceel Waaq",
+      "reasoning": "Gedo border with Kenya; AS influence in El Wak rural; 2019 Kenya border closure disrupted markets; limited rural access.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 25.2,
+        "b": 1774.8
+      },
+      "omega": {
+        "a": 18.0,
+        "b": 1482.0
+      }
+    },
+    {
+      "district": "Ceerigaabo",
+      "reasoning": "Sanaag regional capital, hit hard by 2017 northern drought (East Golis Pastoral); GAM was Critical (15-30%) in post-Jilaal 2017. Mixed treatment access; recovery 2018-19 then renewed pastoral stress.",
+      "p": {
+        "a": 17.6,
+        "b": 62.4
+      },
+      "gamma": {
+        "a": 18.0,
+        "b": 1982.0
+      },
+      "omega": {
+        "a": 16.0,
+        "b": 1984.0
+      }
+    },
+    {
+      "district": "Dhuusamarreeb",
+      "reasoning": "Galgaduud capital and IDP-hosting urban centre. Classified Crisis (IPC3) in early 2021; 2022 Risk of Famine flagged for Dhusamareb IDPs. Moderate treatment via NGOs.",
+      "p": {
+        "a": 17.6,
+        "b": 62.4
+      },
+      "gamma": {
+        "a": 25.2,
+        "b": 1774.8
+      },
+      "omega": {
+        "a": 16.0,
+        "b": 1984.0
+      }
+    },
+    {
+      "district": "Diinsoor",
+      "reasoning": "Bay agropastoral, AS-influenced; persistent Sorghum-belt failure 2017 and 2021. Very limited rural humanitarian access.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 28.5,
+        "b": 1471.5
+      },
+      "omega": {
+        "a": 18.0,
+        "b": 1482.0
+      }
+    },
+    {
+      "district": "Doolow",
+      "reasoning": "Major IDP hub on Ethiopian border; Dolow IDPs Critical GAM persistent (~26.4% in 2015, sustained since); strong NGO presence including LWF, GREDO; good surveillance and treatment.",
+      "p": {
+        "a": 22.4,
+        "b": 57.6
+      },
+      "gamma": {
+        "a": 28.5,
+        "b": 1471.5
+      },
+      "omega": {
+        "a": 11.0,
+        "b": 2189.0
+      }
+    },
+    {
+      "district": "Eyl",
+      "reasoning": "Coastal Nugaal, Coastal Deeh / NIP livelihood, severe 2017 drought, partial water-source recovery only. Remote, small samples.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 18.0,
+        "b": 1982.0
+      },
+      "omega": {
+        "a": 18.0,
+        "b": 1482.0
+      }
+    },
+    {
+      "district": "Gaalkacyo",
+      "reasoning": "Split city (Puntland north / Galmudug south), one of the largest IDP hubs. Galkacyo IDPs persistently Critical GAM (~21.8%); 2022 Risk of Famine flagged. Strong programs but persistent caseload.",
+      "p": {
+        "a": 22.4,
+        "b": 57.6
+      },
+      "gamma": {
+        "a": 28.5,
+        "b": 1471.5
+      },
+      "omega": {
+        "a": 11.0,
+        "b": 2189.0
+      }
+    },
+    {
+      "district": "Galdogob",
+      "reasoning": "North Mudug, Hawd Pastoral, drought-affected 2017 and 2021. Moderate access from Gaalkacyo.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 18.0,
+        "b": 1982.0
+      },
+      "omega": {
+        "a": 16.0,
+        "b": 1984.0
+      }
+    },
+    {
+      "district": "Garbahaarey",
+      "reasoning": "Gedo regional capital, mixed access; 2017 drought-related distress migration to Doolow/Banadir; 2021 drought severe. Moderate treatment infrastructure.",
+      "p": {
+        "a": 17.6,
+        "b": 62.4
+      },
+      "gamma": {
+        "a": 25.2,
+        "b": 1774.8
+      },
+      "omega": {
+        "a": 16.0,
+        "b": 1984.0
+      }
+    },
+    {
+      "district": "Garoowe",
+      "reasoning": "Puntland capital and major IDP centre. Garowe IDPs persistently Critical GAM (15.8% in 2020 Deyr, 17.6% in 2017 Deyr); strong treatment programs and good surveillance lift p above national norm.",
+      "p": {
+        "a": 22.4,
+        "b": 57.6
+      },
+      "gamma": {
+        "a": 28.5,
+        "b": 1471.5
+      },
+      "omega": {
+        "a": 11.0,
+        "b": 2189.0
+      }
+    },
+    {
+      "district": "Gebiley",
+      "reasoning": "Stable Somaliland agropastoral district near Hargeysa with good road access and treatment availability. Low chronic stress.",
+      "p": {
+        "a": 17.6,
+        "b": 62.4
+      },
+      "gamma": {
+        "a": 12.0,
+        "b": 1988.0
+      },
+      "omega": {
+        "a": 11.0,
+        "b": 2189.0
+      }
+    },
+    {
+      "district": "Hargeysa",
+      "reasoning": "Largest urban centre in Somaliland with the strongest health and nutrition system, strong NGO presence, and high-quality regular surveillance. IDP populations show Serious GAM but treatment coverage is high, accelerating exits.",
+      "p": {
+        "a": 22.4,
+        "b": 57.6
+      },
+      "gamma": {
+        "a": 12.0,
+        "b": 1988.0
+      },
+      "omega": {
+        "a": 7.5,
+        "b": 2492.5
+      }
+    },
+    {
+      "district": "Hobyo",
+      "reasoning": "South Mudug coastal, partially Al-Shabaab influenced (Harardhere/Hobyo coastal swathes). Drought, locust 2020, remote. Limited treatment access.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 25.2,
+        "b": 1774.8
+      },
+      "omega": {
+        "a": 18.0,
+        "b": 1482.0
+      }
+    },
+    {
+      "district": "Iskushuban",
+      "reasoning": "Remote eastern Bari, very low population density, pastoral livelihood, severe NE drought 2017. Sparse, irregular surveys.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 18.0,
+        "b": 1982.0
+      },
+      "omega": {
+        "a": 18.0,
+        "b": 1482.0
+      }
+    },
+    {
+      "district": "Jalalaqsi",
+      "reasoning": "Hiraan rural Shabelle riverine, mostly AS-controlled, flood-affected 2019; specifically named in 2018 Post-Gu as area of concern. Very limited treatment access.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 28.5,
+        "b": 1471.5
+      },
+      "omega": {
+        "a": 18.0,
+        "b": 1482.0
+      }
+    },
+    {
+      "district": "Jamaame",
+      "reasoning": "Lower Juba riverine, 2019 flood-affected and 2020 Deyr Juba Riverine flagged Critical GAM; AS-influenced rural; limited access.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 28.5,
+        "b": 1471.5
+      },
+      "omega": {
+        "a": 18.0,
+        "b": 1482.0
+      }
+    },
+    {
+      "district": "Jariiban",
+      "reasoning": "Coastal/Addun pastoral Mudug, severe drought 2017 with only partial water-source recovery. Remote, irregular surveys.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 18.0,
+        "b": 1982.0
+      },
+      "omega": {
+        "a": 18.0,
+        "b": 1482.0
+      }
+    },
+    {
+      "district": "Jilib",
+      "reasoning": "Middle Juba, key AS economic hub, fully AS-controlled; riverine; no humanitarian access; chronic endemic SAM with effectively no treatment exits.",
+      "p": {
+        "a": 10.4,
+        "b": 69.6
+      },
+      "gamma": {
+        "a": 28.5,
+        "b": 1471.5
+      },
+      "omega": {
+        "a": 19.2,
+        "b": 1180.8
+      }
+    },
+    {
+      "district": "Jowhar",
+      "reasoning": "Middle Shabelle capital, severe 2019 flooding (10,000+ ha cropland damaged in Jowhar/Mahaday Weyne); riverine livelihood zones in 2020 Deyr classified Critical GAM (15.4%). Mixed access, regional capital.",
+      "p": {
+        "a": 17.6,
+        "b": 62.4
+      },
+      "gamma": {
+        "a": 28.5,
+        "b": 1471.5
+      },
+      "omega": {
+        "a": 16.0,
+        "b": 1984.0
+      }
+    },
+    {
+      "district": "Kismaayo",
+      "reasoning": "Lower Juba regional capital, IJA-controlled with major IDP populations (Dhobley/Kismayo IDPs); 2021 drought severe; functional treatment programs and decent surveillance.",
+      "p": {
+        "a": 22.4,
+        "b": 57.6
+      },
+      "gamma": {
+        "a": 28.5,
+        "b": 1471.5
+      },
+      "omega": {
+        "a": 11.0,
+        "b": 2189.0
+      }
+    },
+    {
+      "district": "Kurtunwaarey",
+      "reasoning": "Remote Lower Shabelle, AS-controlled with very poor access; nutrition data largely extrapolated.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 25.2,
+        "b": 1774.8
+      },
+      "omega": {
+        "a": 19.2,
+        "b": 1180.8
+      }
+    },
+    {
+      "district": "Laas Caanood",
+      "reasoning": "Sool regional centre and contested capital, NIP severe drought 2017 caused Critical GAM; moderate urban services; FSNAU surveys regular.",
+      "p": {
+        "a": 17.6,
+        "b": 62.4
+      },
+      "gamma": {
+        "a": 18.0,
+        "b": 1982.0
+      },
+      "omega": {
+        "a": 16.0,
+        "b": 1984.0
+      }
+    },
+    {
+      "district": "Laasqoray",
+      "reasoning": "Coastal Sanaag, contested between Somaliland and Puntland claims; remote with very poor road access and small/irregular surveys.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 18.0,
+        "b": 1982.0
+      },
+      "omega": {
+        "a": 18.0,
+        "b": 1482.0
+      }
+    },
+    {
+      "district": "Lughaye",
+      "reasoning": "Coastal Awdal in Guban Pastoral livelihood zone, classified Emergency (IPC4) in 2018 Deyr from 4-6 consecutive failed seasons. Remote, small population, limited surveys. Persistent pastoral stress drives steady incidence.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 18.0,
+        "b": 1982.0
+      },
+      "omega": {
+        "a": 18.0,
+        "b": 1482.0
+      }
+    },
+    {
+      "district": "Luuq",
+      "reasoning": "Gedo border riverine town, 2019 flood-affected, 2021 severe drought; moderate access; some NGO presence.",
+      "p": {
+        "a": 17.6,
+        "b": 62.4
+      },
+      "gamma": {
+        "a": 25.2,
+        "b": 1774.8
+      },
+      "omega": {
+        "a": 16.0,
+        "b": 1984.0
+      }
+    },
+    {
+      "district": "Marka",
+      "reasoning": "Lower Shabelle regional capital, mixed AS/government control; 2019 flash floods damaged 200+ ha; chronic IDP burden. Mixed humanitarian access, conflict-driven displacement.",
+      "p": {
+        "a": 17.6,
+        "b": 62.4
+      },
+      "gamma": {
+        "a": 28.5,
+        "b": 1471.5
+      },
+      "omega": {
+        "a": 18.0,
+        "b": 1482.0
+      }
+    },
+    {
+      "district": "Owdweyne",
+      "reasoning": "Togdheer agropastoral, deteriorated to Crisis (IPC3) in late 2018 / early 2019 from poor Deyr. Limited treatment outside larger settlements. Moderate data variability.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 18.0,
+        "b": 1982.0
+      },
+      "omega": {
+        "a": 16.0,
+        "b": 1984.0
+      }
+    },
+    {
+      "district": "Qandala",
+      "reasoning": "Remote coastal Bari, similar profile to Bandarbeyla; poor access, small irregular surveys.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 18.0,
+        "b": 1982.0
+      },
+      "omega": {
+        "a": 18.0,
+        "b": 1482.0
+      }
+    },
+    {
+      "district": "Qansax Dheere",
+      "reasoning": "Bay rural agropastoral, AS-influenced; same crisis profile as Diinsoor. Limited access.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 28.5,
+        "b": 1471.5
+      },
+      "omega": {
+        "a": 18.0,
+        "b": 1482.0
+      }
+    },
+    {
+      "district": "Qardho",
+      "reasoning": "Major Puntland urban centre, Qardho IDPs persistently Critical GAM through 2017-2018 (~21.9%); functional treatment though smaller than Bossaso. Regular surveys.",
+      "p": {
+        "a": 22.4,
+        "b": 57.6
+      },
+      "gamma": {
+        "a": 25.2,
+        "b": 1774.8
+      },
+      "omega": {
+        "a": 16.0,
+        "b": 1984.0
+      }
+    },
+    {
+      "district": "Qoryooley",
+      "reasoning": "Lower Shabelle riverine, AS-influenced; 2020 Q1 clashes between AS and clan militias caused asset losses; persistent crisis. Limited access.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 28.5,
+        "b": 1471.5
+      },
+      "omega": {
+        "a": 18.0,
+        "b": 1482.0
+      }
+    },
+    {
+      "district": "Rab Dhuure",
+      "reasoning": "Remote Bakool, AS-controlled, very limited access; data largely extrapolated.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 28.5,
+        "b": 1471.5
+      },
+      "omega": {
+        "a": 19.2,
+        "b": 1180.8
+      }
+    },
+    {
+      "district": "Saakow",
+      "reasoning": "Middle Juba, fully AS-controlled, riverine; no humanitarian access through 2017-2021; data largely extrapolated.",
+      "p": {
+        "a": 10.4,
+        "b": 69.6
+      },
+      "gamma": {
+        "a": 28.5,
+        "b": 1471.5
+      },
+      "omega": {
+        "a": 19.2,
+        "b": 1180.8
+      }
+    },
+    {
+      "district": "Sablaale",
+      "reasoning": "Remote Lower Shabelle, AS-controlled; data largely extrapolated. Persistent agropastoral stress.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 25.2,
+        "b": 1774.8
+      },
+      "omega": {
+        "a": 19.2,
+        "b": 1180.8
+      }
+    },
+    {
+      "district": "Sheikh",
+      "reasoning": "Small mountainous district in Sahil/Togdheer, relatively low population. Generally stable but small samples cause moderate variability in survey results.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 12.0,
+        "b": 1988.0
+      },
+      "omega": {
+        "a": 16.0,
+        "b": 1984.0
+      }
+    },
+    {
+      "district": "Taleex",
+      "reasoning": "Remote Sool district with very poor road access (rendered impassable in 2019 floods); contested governance and small/irregular nutrition surveys cause high data variability.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 18.0,
+        "b": 1982.0
+      },
+      "omega": {
+        "a": 18.0,
+        "b": 1482.0
+      }
+    },
+    {
+      "district": "Tayeeglow",
+      "reasoning": "Bakool rural, predominantly AS-controlled with very poor humanitarian access; nutrition data sparse and uncertain.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 28.5,
+        "b": 1471.5
+      },
+      "omega": {
+        "a": 19.2,
+        "b": 1180.8
+      }
+    },
+    {
+      "district": "Waajid",
+      "reasoning": "Bakool, AS-besieged historically (cited alongside Hudur and Bulo-Burte); 2014 cereal prices quadrupled; persistent crisis profile through 2017-2021.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 28.5,
+        "b": 1471.5
+      },
+      "omega": {
+        "a": 18.0,
+        "b": 1482.0
+      }
+    },
+    {
+      "district": "Wanla Weyn",
+      "reasoning": "Lower Shabelle rural, AS heavy presence; 2021 clashes; agropastoral stress. Limited humanitarian access.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 25.2,
+        "b": 1774.8
+      },
+      "omega": {
+        "a": 18.0,
+        "b": 1482.0
+      }
+    },
+    {
+      "district": "Xarardheere",
+      "reasoning": "South Mudug coastal under historic AS influence; 2020 desert locust impact; chronic pastoral stress. Limited access.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 25.2,
+        "b": 1774.8
+      },
+      "omega": {
+        "a": 18.0,
+        "b": 1482.0
+      }
+    },
+    {
+      "district": "Xudun",
+      "reasoning": "Among the most remote contested Sool districts; FAO/SWALIM 2019 study explicitly noted Xudun was 'largely inaccessible' due to roads. Sparse data, persistent pastoral stress.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 18.0,
+        "b": 1982.0
+      },
+      "omega": {
+        "a": 18.0,
+        "b": 1482.0
+      }
+    },
+    {
+      "district": "Xudur",
+      "reasoning": "Hudur, Bakool capital, AS-besieged with periodic blockades; Hudur urban/IDPs Critical GAM 16.4% in 2020 Deyr; classified Crisis (IPC3). Some humanitarian access in town but severe rural inaccessibility.",
+      "p": {
+        "a": 17.6,
+        "b": 62.4
+      },
+      "gamma": {
+        "a": 28.5,
+        "b": 1471.5
+      },
+      "omega": {
+        "a": 18.0,
+        "b": 1482.0
+      }
+    },
+    {
+      "district": "Zeylac",
+      "reasoning": "Far-northwest border district in Guban Pastoral, severely drought-affected 2017-2018. Very remote, sparse data quality, limited treatment access despite Somaliland governance.",
+      "p": {
+        "a": 13.6,
+        "b": 66.4
+      },
+      "gamma": {
+        "a": 18.0,
+        "b": 1982.0
+      },
+      "omega": {
+        "a": 18.0,
+        "b": 1482.0
+      }
+    }
+  ]
+}

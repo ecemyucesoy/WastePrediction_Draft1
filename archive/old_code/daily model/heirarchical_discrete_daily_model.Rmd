@@ -1,0 +1,734 @@
+library(rstan)
+library(dplyr)
+library(ggplot2)
+library(bayesplot)
+library(loo)
+library(tidyr)
+library(readr)
+library(sf)
+library(viridis)
+
+# ----------------------------- Data work -----------------------------
+# Read and clean data
+df <- read.csv("C:/Users/ecemy/Desktop/Waste prediction/Datasets/Final_Clean_Dataset.csv")
+
+df_filtered <- df[!( (df$Year == 2016 & df$Month == 1) |
+                     (df$Year == 2016 & df$Month == 7) |
+                     (df$Year == 2017 & df$Month == 1)), ]
+
+# Fill missing SAM in Rab Dhuure
+rab_dhuure_data <- df_filtered[df_filtered$District == "Rab Dhuure", ]
+avg_sam <- mean(rab_dhuure_data$SAM, na.rm = TRUE)
+rab_dhuure_data$SAM[is.na(rab_dhuure_data$SAM)] <- avg_sam
+
+df_filtered <- df_filtered %>%
+  filter(District != "Rab Dhuure") %>%
+  bind_rows(rab_dhuure_data)
+  
+# Fix the time series 
+df_filtered <- df_filtered %>%
+  arrange(District, Year, Month)
+  
+# Create district ID - for hierarchical model
+df_filtered$district_id <- as.numeric(as.factor(df_filtered$District))
+district_names <- levels(as.factor(df_filtered$District))
+
+head(df_filtered)
+
+# Step 1: Prepare timepoint variable
+sam_df <- df_filtered %>%
+  mutate(Timepoint = paste(Year, Month, sep = "-"))
+
+# Ensure correct factor ordering for time
+sam_df$Timepoint <- factor(sam_df$Timepoint, levels = unique(sam_df$Timepoint))
+
+# Step 2: Plot
+#p_sam <- ggplot(sam_df, aes(x = Timepoint, y = SAM, group = District)) +
+#  geom_line(color = "black") +
+#  facet_wrap(~District, scales = "free_y") +
+#  labs(
+#    title = "Observed SAM Over Time",
+#    x = "Time",
+#    y = "SAM (Observed)"
+#  ) +
+#  theme_minimal() +
+#  theme(
+#    axis.text.x = element_text(angle = 45, hjust = 1, size = 6),
+#    strip.text = element_text(size = 8)
+#  )
+# Save to file
+# ggsave("plots/sam_time_series_per_district.jpg", plot = p_sam, width = 14, height = 10, dpi = 300)
+
+
+# ----------------------------- Stan model -----------------------------
+# Prepare Stan data
+stan_data <- list(
+  N = nrow(df_filtered),
+  D = length(unique(df_filtered$District)),
+  district_id = df_filtered$district_id,
+  y = df_filtered$SAM,
+  p_hyperprior = c(1, 100),       # daily p ~ Beta(1, 100)
+  gamma_hyperprior = c(5, 2.5),   # same
+  alpha_hyperprior = c(5,2.5),     # same
+  start_index = which(!duplicated(df_filtered$district_id))
+)
+
+  
+print(df_filtered)
+
+df_filtered <- df_filtered[!is.na(df_filtered$District), ]
+tail(df_filtered)
+nrow(df_filtered)  # Should be 666
+
+district_starts <- which(!duplicated(df_filtered$district_id))
+print(district_starts)
+stan_data$start_index = district_starts
+
+
+# Run the model
+setwd("C:/Users/ecemy/Desktop/Waste prediction/Code/Hierarchical model/daily model")
+
+fit <- stan(
+  file = "hierarchical_discrete_model_daily.stan",
+  data = stan_data,
+  chains = 4,
+  warmup = 5000,
+  iter = 10000,
+  cores = 4,
+  seed = 123
+)
+
+# Extract posterior samples
+posterior <- rstan::extract(fit)
+
+print(fit)
+
+posterior_array <- as.array(fit)
+
+# ----------------------------- RESULTS AND ANALYSIS -----------------------------
+
+#---------  Print the prior and posterior distributions of parameters ---------
+plot_param_by_district_with_prior <- function(samples, param_name, district_names, prior_fn = NULL, output_dir = "plots") {
+  dir.create(output_dir, showWarnings = FALSE)
+
+  if (is.null(dim(samples))) {
+    samples <- matrix(samples, ncol = 1)
+  }
+
+  param_df <- as.data.frame(samples)
+  colnames(param_df) <- district_names[1:ncol(param_df)]
+  param_df_long <- pivot_longer(param_df, everything(), names_to = "District", values_to = "value")
+
+  # Set x-axis values for prior curves
+  if (param_name %in% c("p", "beta1")) {
+    x_vals <- seq(0, 1, length.out = 200)
+    prior_df <- expand.grid(value = x_vals, District = unique(param_df_long$District)) %>%
+      mutate(density = if (!is.null(prior_fn)) prior_fn(value) else NA_real_)
+  } else if (!is.null(prior_fn)) {
+    prior_df <- param_df_long %>%
+      group_by(District) %>%
+      summarise(min_x = min(value), max_x = max(value), .groups = "drop") %>%
+      rowwise() %>%
+      mutate(prior_curve = list({
+        x_vals_local <- seq(min_x, max_x, length.out = 200)
+        tibble(value = x_vals_local, density = prior_fn(x_vals_local), District = District)
+      })) %>%
+      pull(prior_curve) %>%
+      bind_rows()
+  }
+
+  # Plot
+  p <- ggplot(param_df_long, aes(x = value)) +
+    geom_density(aes(y = after_stat(density)), fill = "skyblue", alpha = 0.6)
+
+  if (!is.null(prior_fn)) {
+    p <- p + geom_line(data = prior_df, aes(x = value, y = density), color = "red", linetype = "dashed")
+  }
+
+  facet_mode <- if (param_name %in% c("p", "beta1")) "free_y" else "free"
+
+  p <- p + facet_wrap(~District, scales = facet_mode) +
+    labs(
+      title = paste("Posterior", if (!is.null(prior_fn)) "vs Prior", "", "for", param_name),
+      x = paste(param_name, "value"),
+      y = "Density"
+    ) +
+    theme_minimal()
+
+  ggsave(
+    filename = paste0(output_dir, "/", param_name, "_posterior", if (!is.null(prior_fn)) "_vs_prior", "_all_districts.jpg"),
+    plot = p, width = 14, height = 10, dpi = 300
+  )
+}
+
+# For each parameter
+plot_param_by_district_with_prior(
+  samples = posterior$p,
+  param_name = "p",
+  district_names = district_names,
+  prior_fn = function(x) dbeta(x, 3, 2)
+)
+
+plot_param_by_district_with_prior(
+  samples = posterior$gamma,
+  param_name = "gamma",
+  district_names = district_names,
+  prior_fn = function(x) dlnorm(x, 5, 2.5)
+)
+
+plot_param_by_district_with_prior(
+  samples = posterior$alpha,
+  param_name = "alpha",
+  district_names = district_names,
+  prior_fn = function(x) dlnorm(x, 0, 5)
+)
+
+plot_param_by_district_with_prior(posterior$beta0, "beta0", district_names)
+plot_param_by_district_with_prior(posterior$beta1, "beta1", district_names)
+
+
+# -------  Time varying K ------- 
+# Step 1: Prepare K_long with iteration-level data
+K_long <- posterior$K %>%
+  as.data.frame() %>%
+  mutate(iteration = row_number()) %>%
+  pivot_longer(
+    cols = -iteration,
+    names_to = "Index",
+    values_to = "K"
+  ) %>%
+  mutate(Index = as.integer(gsub("V", "", Index))) %>%
+  left_join(
+    df_filtered %>% mutate(Index = row_number()) %>%
+      select(Index, District, Month, Year),
+    by = "Index"
+  ) %>%
+  mutate(Timepoint = paste(Year, Month, sep = "-"))
+
+# Ensure proper factor levels for time
+K_long$Timepoint <- factor(K_long$Timepoint, levels = unique(K_long$Timepoint))
+
+# Step 2: Summarise to get median and 95% CI
+K_summary <- K_long %>%
+  group_by(District, Timepoint) %>%
+  summarise(
+    K_median = median(K),
+    K_lower = quantile(K, 0.025),
+    K_upper = quantile(K, 0.975),
+    .groups = "drop"
+  )
+
+# Step 3: Plot
+p <- ggplot(K_summary, aes(x = Timepoint, y = K_median, group = District)) +
+  geom_ribbon(aes(ymin = K_lower, ymax = K_upper), fill = "skyblue", alpha = 0.3) +
+  geom_line(color = "steelblue") +
+  facet_wrap(~District, scales = "free_y") +
+  labs(
+    title = "Time-varying K with 95% Credible Intervals",
+    x = "Time",
+    y = "K"
+  ) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1, size = 6),
+    strip.text = element_text(size = 8)
+  )
+
+# Save to file
+ggsave("plots/K_time_series_per_district.jpg", plot = p, width = 14, height = 10, dpi = 300)
+# Also display in RStudio
+#print(p)
+
+
+# -------  Time-series burden ------- 
+burden_long <- posterior$burden %>%
+  as.data.frame() %>%
+  mutate(iteration = row_number()) %>%
+  pivot_longer(
+    cols = -iteration,
+    names_to = "Index",
+    values_to = "burden"
+  ) %>%
+  mutate(Index = as.integer(gsub("V", "", Index))) %>%
+  left_join(
+    df_filtered %>% mutate(Index = row_number()) %>%
+      select(Index, District, Month, Year),
+    by = "Index"
+  ) %>%
+  mutate(Timepoint = paste(Year, Month, sep = "-"))
+
+# Ensure proper factor levels for time
+burden_long$Timepoint <- factor(burden_long$Timepoint, levels = unique(burden_long$Timepoint))
+
+# Step 2: Summarise to get median and 95% CI
+burden_summary <- burden_long %>%
+  group_by(District, Timepoint) %>%
+  summarise(
+    burden_median = median(burden),
+    burden_lower = quantile(burden, 0.025),
+    burden_upper = quantile(burden, 0.975),
+    .groups = "drop"
+  )
+
+# Step 3: Plot
+p <- ggplot(burden_summary, aes(x = Timepoint, y = burden_median, group = District)) +
+  geom_ribbon(aes(ymin = burden_lower, ymax = burden_upper), fill = "skyblue", alpha = 0.3) +
+  geom_line(color = "steelblue") +
+  facet_wrap(~District, scales = "free_y") +
+  labs(
+    title = "Time-varying burden with 95% Credible Intervals",
+    x = "Time",
+    y = "burden"
+  ) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1, size = 6),
+    strip.text = element_text(size = 8)
+  )
+
+# Save to file
+ggsave("plots/burden_time_series_per_district.jpg", plot = p, width = 14, height = 10, dpi = 300)
+# Also display in RStudio
+#print(p)
+
+#---------  End of printing the prior and posterior distributions of parameters ---------
+
+# -------  Check if P0 makes sense ------- 
+# Summarise P0 from posterior
+summary_P0 <- data.frame(
+  District = district_names,
+  Mean = apply(posterior$P0, 2, mean),
+  Median = apply(posterior$P0, 2, median),
+  SD = apply(posterior$P0, 2, sd),
+  `2.5%` = apply(posterior$P0, 2, quantile, probs = 0.025),
+  `97.5%` = apply(posterior$P0, 2, quantile, probs = 0.975)
+)
+
+# Get first observed SAM per district
+first_obs_y <- df_filtered %>%
+  group_by(District) %>%
+  slice(1) %>%
+  select(District, SAM) %>%
+  ungroup()
+
+# Merge for plotting
+P0_check <- summary_P0 %>%
+  left_join(first_obs_y, by = "District")
+
+# Plot
+p_p0_check <- ggplot(P0_check, aes(x = SAM, y = Mean, label = District)) +
+  geom_point() +
+  geom_text(vjust = -0.7, size = 2.5) +
+  geom_abline(intercept = 0, slope = 1, color = "red", linetype = "dashed") +
+  labs(
+    title = "Posterior Mean P0 vs First Observed SAM",
+    x = "First observed SAM (y[0])",
+    y = "Posterior Mean of P0"
+  ) +
+  theme_minimal()
+
+# Save plot
+ggsave("plots/p0_vs_first_sam_with_labels.jpg", plot = p_p0_check, width = 10, height = 8, dpi = 300)
+
+# Add posterior-prior plot for P0
+plot_param_by_district_with_prior(
+  samples = posterior$P0,
+  param_name = "P0",
+  district_names = district_names,
+  prior_fn = function(x) dlnorm(x, 5, 2.5)  # same prior as in Stan model
+)
+# -------  End of checking if P0 makes sense ------- 
+
+# -------  Log-likelihoods ------- 
+log_lik_matrix <- posterior$log_lik  # list format from extract(fit)
+loo_result <- loo(log_lik_matrix)
+print(loo_result)
+# -------  End of Log-likelihoods ------- 
+
+# ------- chain and model convergence stats ------- 
+# chain’s progression across iterations
+# Trace plot
+trace_plot <- mcmc_trace(posterior_array, pars = c("p[1]", "gamma[1]", "alpha[1]", "P0[1]"))
+ggsave("plots/trace_plot_p_gamma_alpha_P0.jpg", trace_plot, width = 12, height = 6, dpi = 300)
+
+# Density overlays: see if chains produce consistent posteriors
+density_plot <- mcmc_dens_overlay(posterior_array, pars = c("p[1]", "gamma[1]", "alpha[1]", "P0[1]"))
+ggsave("plots/density_overlay_p_gamma_alpha_P0.jpg", density_plot, width = 8, height = 6, dpi = 300)
+
+
+# R-hat Values (Gelman-Rubin Diagnostic)
+summary(fit)$summary[, "Rhat"]
+
+# Effective Sample Size (ESS): Low ESS → low precision
+summary(fit)$summary[, "n_eff"]
+
+param_summary <- summary(fit)$summary
+rhat_values <- param_summary[, "Rhat"]
+ess_values <- param_summary[, "n_eff"]
+
+# Print or save key ones
+print(rhat_values[c("p[1]", "gamma[1]", "alpha[1]", "P0[1]")])
+print(ess_values[c("p[1]", "gamma[1]", "alpha[1]", "P0[1]")])
+
+# --------- Parameter Shrinkage Plot: gamma[d] vs gamma_global ---------
+# Compute median gamma[d] and global gamma
+gamma_district_medians <- apply(posterior$gamma, 2, median)
+gamma_global_median <- median(posterior$gamma_global)
+
+# Create data frame for plotting
+gamma_df <- data.frame(
+  District = district_names,
+  gamma_district = gamma_district_medians,
+  gamma_global = gamma_global_median
+)
+
+# Plot
+p_gamma_shrinkage <- ggplot(gamma_df, aes(x = reorder(District, gamma_district), y = gamma_district)) +
+  geom_point(color = "steelblue", size = 2) +
+  geom_hline(aes(yintercept = gamma_global), color = "red", linetype = "dashed") +
+  coord_flip() +
+  labs(
+    title = "District-level gamma vs Global Mean (Shrinkage Effect)",
+    x = "District",
+    y = "gamma"
+  ) +
+  theme_minimal()
+
+# Save
+ggsave("plots/gamma_shrinkage_plot.jpg", plot = p_gamma_shrinkage, width = 10, height = 8, dpi = 300)
+
+# --------- Shrinkage Plot: p[d] vs p_global ---------
+p_district_medians <- apply(posterior$p, 2, median)
+p_global_median <- median(posterior$p_global)
+
+p_df <- data.frame(
+  District = district_names,
+  p_district = p_district_medians,
+  p_global = p_global_median
+)
+
+p_p_shrinkage <- ggplot(p_df, aes(x = reorder(District, p_district), y = p_district)) +
+  geom_point(color = "darkgreen", size = 2) +
+  geom_hline(aes(yintercept = p_global), color = "red", linetype = "dashed") +
+  coord_flip() +
+  labs(
+    title = "District-level p vs Global Mean (Shrinkage Effect)",
+    x = "District",
+    y = "p"
+  ) +
+  theme_minimal()
+
+ggsave("plots/p_shrinkage_plot.jpg", plot = p_p_shrinkage, width = 10, height = 8, dpi = 300)
+
+# --------- Shrinkage Plot: alpha[d] vs alpha_global ---------
+alpha_district_medians <- apply(posterior$alpha, 2, median)
+alpha_global_median <- median(posterior$alpha_global)
+
+alpha_df <- data.frame(
+  District = district_names,
+  alpha_district = alpha_district_medians,
+  alpha_global = alpha_global_median
+)
+
+p_alpha_shrinkage <- ggplot(alpha_df, aes(x = reorder(District, alpha_district), y = alpha_district)) +
+  geom_point(color = "purple", size = 2) +
+  geom_hline(aes(yintercept = alpha_global), color = "red", linetype = "dashed") +
+  coord_flip() +
+  labs(
+    title = "District-level alpha vs Global Mean (Shrinkage Effect)",
+    x = "District",
+    y = "alpha"
+  ) +
+  theme_minimal()
+
+ggsave("plots/alpha_shrinkage_plot.jpg", plot = p_alpha_shrinkage, width = 10, height = 8, dpi = 300)
+
+# ------- End of chain and model convergence stats -------
+
+# ------- export parameters to csv ------- 
+# Step 1: Extract per-district medians
+param_medians <- tibble(
+  District = district_names,
+  beta0 = apply(posterior$beta0, 2, median),
+  beta1 = apply(posterior$beta1, 2, median),
+  p = apply(posterior$p, 2, median),
+  gamma = apply(posterior$gamma, 2, median),
+  alpha = apply(posterior$alpha, 2, median)
+)
+
+# Step 2: Add district info to K values
+K_long <- posterior$K %>%
+  as.data.frame() %>%
+  mutate(iteration = row_number()) %>%
+  pivot_longer(cols = -iteration, names_to = "Index", values_to = "K") %>%
+  mutate(Index = as.integer(gsub("V", "", Index)))
+
+df_filtered_indexed <- df_filtered %>%
+  mutate(Index = row_number()) %>%
+  select(Index, District)
+
+K_long <- K_long %>%
+  left_join(df_filtered_indexed, by = "Index")
+
+# Step 3: Median K per district & collapse into string
+K_medians_vector <- K_long %>%
+  group_by(District, Index) %>%
+  summarise(K_median = median(K), .groups = "drop") %>%
+  group_by(District) %>%
+  summarise(K_series = paste0("[", paste(format(round(K_median, 2), nsmall = 2), collapse = ", "), "]"))
+
+# Step 4: Merge with parameter medians
+final_summary <- param_medians %>%
+  left_join(K_medians_vector, by = "District")
+
+# Step 5: Save to CSV
+write_csv(final_summary, "outputs/parameter_and_K_series_summary.csv")
+# ------- end of export parameters to csv ------- 
+
+#------------ SANITY CHECK --------------
+# Step 2: Read in admissions data
+admissions_df <- read_csv("C:/Users/ecemy/Desktop/Waste prediction/Datasets/admissions_data_somalia_processed.csv")
+admissions_df <- admissions_df %>%
+  rename(District = district)
+
+# Step 3: Merge gamma with admissions data
+admissions_with_gamma <- admissions_df %>%
+  left_join(param_medians %>% select(District, gamma), by = "District")
+
+# Step 4: Filter rows where SAM_admissions is available and higher than gamma
+suspicious_admissions <- admissions_with_gamma %>%
+  filter(!is.na(SAM_admissions)) %>%
+  mutate(gamma_times_30 = gamma * 30) %>%
+  filter(SAM_admissions > gamma_times_30) %>%
+  select(year, month, District, SAM_admissions, gamma, gamma_times_30, everything())
+
+write_csv(suspicious_admissions, "outputs/admissions_above_incidence.csv")
+
+
+# Step 5: Print or inspect
+print(suspicious_admissions)
+write_csv(suspicious_admissions, "outputs/admissions_above_incidence.csv")
+
+#------------------------------------- Visualization -------------------------------------
+
+district_name_mapping <- c(
+  "Adan Yabaal" = "Aadan", "Afgooye" = "Afgooye", "Afmadow" = "Afmadow",
+  "Baardheere" = "Baar-Dheere", "Badhaadhe" = "Badhaadhe", "Baki" = "Baki",
+  "Balcad" = "Balcad", "Banadir" = "Mogadisho", "Bandarbeyla" = "Bander-Beyla",
+  "Baraawe" = "Baraawe", "Baydhaba" = "Baydhabo", "Belet Weyne" = "Beled Weyn",
+  "Belet Xaawo" = "Beled Xaawo", "Berbera" = "Berbera", "Borama" = "Boorama",
+  "Bossaso" = "Bosaaso", "Bu'aale" = "Bu'aale", "Bulo Burto" = "Buulo Burdo",
+  "Burco" = "Burao", "Burtinle" = "Burtinle", "Buuhoodle" = "Buuhoodle",
+  "Buur Hakaba" = "Buur Xakaba", "Cabudwaaq" = "Caabudwaaq", "Cadaado" = "Cadaado",
+  "Cadale" = "Cadale", "Caluula" = "Calawla", "Caynabo" = "Caynabo",
+  "Ceel Afweyn" = "Ceel-Afwein", "Ceel Barde" = "Ceel Barde", "Ceel Buur" = "Ceel Buur",
+  "Ceel Dheere" = "Ceel Dheer", "Ceel Waaq" = "Ceel Waaq", "Ceerigaabo" = "Ceerigaabo",
+  "Dhuusamarreeb" = "Dhuusamareeb", "Diinsoor" = "Diinsoor", "Doolow" = "Dolow",
+  "Eyl" = "Eyl", "Gaalkacyo" = "Gaalkacayo", "Galdogob" = "Goldogob",
+  "Garbahaarey" = "Garbahaaray", "Garoowe" = "Garoowe", "Gebiley" = "Gabiley",
+  "Hargeysa" = "Hargeysa", "Hobyo" = "Hobyo", "Iskushuban" = "Iskushuban",
+  "Jalalaqsi" = "Jalalaqsi", "Jamaame" = "Jamaame", "Jariiban" = "Jariiban",
+  "Jilib" = "Jilib", "Jowhar" = "Jawhar", "Kismaayo" = "Kismaayo",
+  "Kurtunwaarey" = "Kuntuwaaray", "Laas Caanood" = "Lascaanod", "Laasqoray" = "Badhan",
+  "Lughaye" = "Lughaya", "Luuq" = "Luuk", "Marka" = "Marka", "Owdweyne" = "Oodweyne",
+  "Qandala" = "Qandala", "Qansax Dheere" = "Qansax Dheere", "Qardho" = "Qardho",
+  "Qoryooley" = "Qoryooley", "Saakow" = "Saakow", "Sablaale" = "Sablale",
+  "Sheikh" = "Sheekh", "Taleex" = "Taleex", "Tayeeglow" = "Tiyeeglow",
+  "Waajid" = "Wajid", "Wanla Weyn" = "Wanla Weyn", "Xarardheere" = "Xarardheere",
+  "Xudun" = "Xudun", "Xudur" = "Xudur", "Zeylac" = "Zeylac",
+  "Rab Dhuure" = "Rab Dhuure"
+)
+
+# ---- Load shapefile
+shapefile_path <- "C:/Users/ecemy/Desktop/Waste prediction/Code/SOM_adm_2015_July/SOM_adm2.shp"
+somalia_map <- st_read(shapefile_path)
+somalia_map <- somalia_map %>%
+  rename(Shapefile_District_Name = NAME_2)
+
+
+# ---- Add compatible names to K and burden summaries ----
+K_summary$Shapefile_District_Name <- district_name_mapping[K_summary$District]
+burden_summary$Shapefile_District_Name <- district_name_mapping[burden_summary$District]
+
+# ---- Merge shapefile with data ----
+map_K_all <- left_join(somalia_map, K_summary, by = "Shapefile_District_Name") %>%
+  filter(!is.na(K_median))
+
+map_burden_all <- left_join(somalia_map, burden_summary, by = "Shapefile_District_Name") %>%
+  filter(!is.na(burden_median))
+
+# ---- Faceted map for K ----
+# ------- Faceted map for K with shared burden color palette -------
+
+# Step 1: Define breaks and labels for K
+K_breaks <- c(0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, Inf)
+K_labels <- c(
+  "0–2", "2–3", "3–4", "4–5", "5–6",
+  "6–7", "7–8", "8–9", "9–10", "10–11", ">11"
+)
+
+# Step 2: Assign bins to K
+map_K_all <- map_K_all %>%
+  mutate(K_bin = cut(
+    K_median,
+    breaks = K_breaks,
+    labels = K_labels,
+    right = FALSE,
+    include.lowest = TRUE
+  ))
+
+# Step 3: Define K color palette (reuse burden colors)
+K_colors <- c(
+  "0–2" = "#ffffcc",
+  "2–3" = "#d9f0a3",
+  "3–4" = "#addd8e",
+  "4–5" = "#78c679",
+  "5–6" = "#41ab5d",
+  "6–7" = "#238443",
+  "7–8" = "#006837",
+  "8–9" = "#005a32",
+  "9–10" = "#004529",
+  "10–11" = "#00351f",
+  ">11" = "red"
+)
+
+# Step 4: Plot
+p_K_binned <- ggplot(map_K_all) +
+  geom_sf(aes(fill = K_bin), color = NA) +
+  facet_wrap(~Timepoint, ncol = 4) +
+  scale_fill_manual(
+    values = K_colors,
+    na.value = "grey80",
+    drop = FALSE
+  ) +
+  labs(
+    title = "K per District (Binned)",
+    fill = "K Bin"
+  ) +
+  theme_minimal() +
+  theme(
+    strip.text = element_text(size = 7),
+    axis.text = element_blank(),
+    axis.ticks = element_blank(),
+    panel.grid = element_blank()
+  )
+
+# Step 5: Save
+ggsave("plots/K_faceted_binned.jpg", plot = p_K_binned, width = 16, height = 10, dpi = 300)
+
+
+
+
+# ---- Faceted map for burden ----
+# ---- STEP 1: Create burden bins in 5K increments up to 50K ----
+map_burden_all <- map_burden_all %>%
+  mutate(burden_bin = cut(
+    burden_median,
+    breaks = c(0, seq(5000, 50000, by = 5000), Inf),
+    labels = c(
+      "0–5k", "5k–10k", "10k–15k", "15k–20k", "20k–25k",
+      "25k–30k", "30k–35k", "35k–40k", "40k–45k", "45k–50k", ">50k"
+    ),
+    right = FALSE,
+    include.lowest = TRUE
+  ))
+
+# ---- STEP 2: Define a manual color scale (last color = red) ----
+burden_colors <- c(
+  "0–5k" = "#ffffcc",
+  "5k–10k" = "#d9f0a3",
+  "10k–15k" = "#addd8e",
+  "15k–20k" = "#78c679",
+  "20k–25k" = "#41ab5d",
+  "25k–30k" = "#238443",
+  "30k–35k" = "#006837",
+  "35k–40k" = "#005a32",
+  "40k–45k" = "#004529",
+  "45k–50k" = "#00351f",
+  ">50k" = "red"
+)
+
+# ---- STEP 3: Plot burden with custom bins and color ----
+p_burden_binned <- ggplot(map_burden_all) +
+  geom_sf(aes(fill = burden_bin), color = "black", size=0.1) +
+  facet_wrap(~Timepoint, ncol = 4) +
+  scale_fill_manual(
+    values = burden_colors,
+    na.value = "grey80",
+    drop = FALSE
+  ) +
+  labs(
+    title = "Burden per District",
+    fill = "Burden Range"
+  ) +
+  theme_minimal() +
+  theme(
+    strip.text = element_text(size = 7),
+    axis.text = element_blank(),
+    axis.ticks = element_blank(),
+    panel.grid = element_blank()
+  )
+
+ggsave("plots/burden_faceted_binned_5k.jpg", plot = p_burden_binned, width = 16, height = 10, dpi = 300)
+
+# --------- Map of Duration ---------
+
+# --------- Map of Duration (Daily Model, Matched Style) ---------
+
+# Step 1: Compute median duration (convert from days to months)
+duration_df_daily <- tibble(
+  District = district_names,
+  duration = (1 / apply(posterior$p, 2, median)) / 30  # Convert from days to months
+)
+
+# Step 2: Add shapefile-compatible names
+duration_df_daily$Shapefile_District_Name <- district_name_mapping[duration_df_daily$District]
+
+# Step 3: Join with shapefile
+map_duration_daily <- left_join(somalia_map, duration_df_daily, by = "Shapefile_District_Name") %>%
+  filter(!is.na(duration))
+
+# Step 4: Define fixed bins and colors (same as original)
+duration_breaks <- c(0, 3.5, 4, 4.5, 5, Inf)
+duration_labels <- c("0-3.5", "3.5-4", "4-4.5", "4.5-5", "5<")
+
+duration_colors <- c(
+  "0-3.5" = "#ffffcc",
+  "3.5-4" = "#c2e699",
+  "4-4.5" = "#78c679",
+  "4.5-5" = "#238443",
+  "5<"    = "red"
+)
+
+map_duration_daily <- map_duration_daily %>%
+  mutate(duration_bin = cut(
+    duration,
+    breaks = duration_breaks,
+    labels = duration_labels,
+    right = FALSE,
+    include.lowest = TRUE
+  ))
+
+# Step 5: Plot
+p_duration_daily <- ggplot(map_duration_daily) +
+  geom_sf(aes(fill = duration_bin), color = "black", size = 0.1) +
+  scale_fill_manual(
+    values = duration_colors,
+    na.value = "grey80",
+    drop = FALSE
+  ) +
+  labs(
+    title = "Mean Duration per District (Daily Model, Months)",
+    fill = "Duration (Months)"
+  ) +
+  theme_minimal() +
+  theme(
+    axis.text = element_blank(),
+    axis.ticks = element_blank(),
+    panel.grid = element_blank()
+  )
+
+# Step 6: Save
+ggsave("plots/duration_map_binned_daily.jpg", plot = p_duration_daily, width = 10, height = 8, dpi = 300)
+
+

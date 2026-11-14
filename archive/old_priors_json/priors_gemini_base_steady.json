@@ -1,0 +1,670 @@
+{
+"districts": [
+{
+"district": "Adan Yabaal",
+"reasoning": "Chronically inaccessible due to Al-Shabaab presence, leading to absent CMAM services, prolonged SAM states, and high baseline vulnerability in this agropastoral zone. Process volatility is driven by unmitigated seasonal shocks and restricted food access. This interval reflects confidence roughly equivalent to 1 month of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.18, "low_90": 0.10, "high_90": 0.28},
+"gamma": {"median": 0.012, "low_90": 0.007, "high_90": 0.018},
+"omega": {"median": 0.006, "low_90": 0.003, "high_90": 0.010}
+},
+{
+"district": "Afgooye",
+"reasoning": "Structurally hosts large displaced populations in a conflict-affected riverine zone, creating chronic vulnerability, though proximity to Mogadishu affords moderate CMAM access. Month-to-month variability is heavily driven by episodic displacement and seasonal flooding. This interval reflects confidence roughly equivalent to 3 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.25, "low_90": 0.18, "high_90": 0.35},
+"gamma": {"median": 0.014, "low_90": 0.009, "high_90": 0.021},
+"omega": {"median": 0.007, "low_90": 0.004, "high_90": 0.012}
+},
+{
+"district": "Afmadow",
+"reasoning": "Pastoral livelihood zone with structural dependence on livestock markets and limited health infrastructure, resulting in moderate chronic SAM. Genuine month-to-month variability stems from seasonal dry spells and cross-border livestock movements rather than severe conflict. This interval reflects confidence roughly equivalent to 3 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.22, "low_90": 0.15, "high_90": 0.32},
+"gamma": {"median": 0.009, "low_90": 0.005, "high_90": 0.015},
+"omega": {"median": 0.005, "low_90": 0.002, "high_90": 0.008}
+},
+{
+"district": "Baardheere",
+"reasoning": "Riverine and agropastoral district with volatile humanitarian access and endemic vulnerability due to localized conflict. Process variability in incident arrivals is driven by recurrent flooding of the Juba river and shifting access constraints. This interval reflects confidence roughly equivalent to 2 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.20, "low_90": 0.12, "high_90": 0.30},
+"gamma": {"median": 0.013, "low_90": 0.008, "high_90": 0.020},
+"omega": {"median": 0.006, "low_90": 0.003, "high_90": 0.010}
+},
+{
+"district": "Badhaadhe",
+"reasoning": "Coastal and pastoral district with persistent structural access constraints due to non-state armed group presence, significantly limiting formal health services. Seasonal fluctuations in fishing and livestock, alongside access blockages, drive genuine month-to-month incidence variation. This interval reflects confidence roughly equivalent to 1 month of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.19, "low_90": 0.10, "high_90": 0.29},
+"gamma": {"median": 0.010, "low_90": 0.005, "high_90": 0.017},
+"omega": {"median": 0.005, "low_90": 0.002, "high_90": 0.009}
+},
+{
+"district": "Baki",
+"reasoning": "Historically stable agropastoral and mountainous district in Somaliland with diversified food access and relatively consistent health system functionality. Volatility is low, driven primarily by standard seasonal rainfall rather than conflict or displacement. This interval reflects confidence roughly equivalent to 4 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.28, "low_90": 0.20, "high_90": 0.38},
+"gamma": {"median": 0.006, "low_90": 0.003, "high_90": 0.010},
+"omega": {"median": 0.003, "low_90": 0.001, "high_90": 0.006}
+},
+{
+"district": "Balcad",
+"reasoning": "Riverine district on the Shabelle river with structural flood vulnerability disrupting local agriculture and food markets. Recurrent seasonal flooding and localized insecurity create significant month-to-month fluctuations in incident SAM arrivals. This interval reflects confidence roughly equivalent to 3 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.24, "low_90": 0.16, "high_90": 0.33},
+"gamma": {"median": 0.012, "low_90": 0.007, "high_90": 0.018},
+"omega": {"median": 0.007, "low_90": 0.003, "high_90": 0.011}
+},
+{
+"district": "Banadir",
+"reasoning": "Urban hub hosting a structurally massive, chronically vulnerable IDP population, offset by the highest structural CMAM and health facility density in the country. Process volatility is driven not by climate, but by volatile displacement inflows and urban food price shocks. This interval reflects confidence roughly equivalent to 5 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.35, "low_90": 0.26, "high_90": 0.45},
+"gamma": {"median": 0.015, "low_90": 0.010, "high_90": 0.022},
+"omega": {"median": 0.005, "low_90": 0.003, "high_90": 0.009}
+},
+{
+"district": "Bandarbeyla",
+"reasoning": "Stable coastal district in Puntland where livelihoods mix fishing and pastoralism, resulting in lower structural vulnerability. Variability is primarily tied to seasonal coastal weather events (e.g., cyclones) and dry periods affecting livestock. This interval reflects confidence roughly equivalent to 3 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.26, "low_90": 0.18, "high_90": 0.35},
+"gamma": {"median": 0.007, "low_90": 0.003, "high_90": 0.012},
+"omega": {"median": 0.004, "low_90": 0.001, "high_90": 0.007}
+},
+{
+"district": "Baraawe",
+"reasoning": "Coastal urban center with a garrisoned population, structurally isolated by surrounding Al-Shabaab territory, creating chronic supply chain and food access constraints. Month-to-month variability stems from sporadic clashes and disruptions to the few open supply routes. This interval reflects confidence roughly equivalent to 2 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.23, "low_90": 0.14, "high_90": 0.32},
+"gamma": {"median": 0.011, "low_90": 0.006, "high_90": 0.017},
+"omega": {"median": 0.005, "low_90": 0.002, "high_90": 0.009}
+},
+{
+"district": "Baydhaba",
+"reasoning": "Major regional hub hosting an immense, structurally permanent IDP population from the surrounding agropastoral zones, with well-established but stretched CMAM services. High volatility in incident arrivals is driven by recurrent influxes of displaced persons fleeing conflict and drought. This interval reflects confidence roughly equivalent to 4 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.30, "low_90": 0.22, "high_90": 0.40},
+"gamma": {"median": 0.016, "low_90": 0.011, "high_90": 0.024},
+"omega": {"median": 0.008, "low_90": 0.004, "high_90": 0.012}
+},
+{
+"district": "Belet Weyne",
+"reasoning": "Structurally vulnerable riverine hub that experiences recurrent, severe seasonal flooding of the Shabelle river, displacing populations and disrupting markets. These massive, repeated flood events drive exceptionally high genuine month-to-month variability in incidence. This interval reflects confidence roughly equivalent to 4 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.27, "low_90": 0.19, "high_90": 0.36},
+"gamma": {"median": 0.014, "low_90": 0.009, "high_90": 0.020},
+"omega": {"median": 0.009, "low_90": 0.005, "high_90": 0.014}
+},
+{
+"district": "Belet Xaawo",
+"reasoning": "Border district in Gedo with chronic pastoral vulnerability and frequent cross-border displacement, though proximity to Kenya allows some supply and health access. Incidence variability is heavily influenced by cross-border dynamics, localized conflict, and drought cycles. This interval reflects confidence roughly equivalent to 3 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.24, "low_90": 0.16, "high_90": 0.34},
+"gamma": {"median": 0.012, "low_90": 0.007, "high_90": 0.018},
+"omega": {"median": 0.006, "low_90": 0.003, "high_90": 0.010}
+},
+{
+"district": "Berbera",
+"reasoning": "Stable coastal and port district with functional market access and relatively low baseline SAM, supported by structured Somaliland health systems. Minor variability arises from seasonal pastoral movements and intense summer coastal heat affecting livelihoods. This interval reflects confidence roughly equivalent to 4 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.31, "low_90": 0.22, "high_90": 0.42},
+"gamma": {"median": 0.005, "low_90": 0.002, "high_90": 0.009},
+"omega": {"median": 0.003, "low_90": 0.001, "high_90": 0.006}
+},
+{
+"district": "Borama",
+"reasoning": "Highly stable, agropastoral district in Somaliland with diversified income, reliable cross-border trade, and robust structural health system capacity. Incidence remains chronically low with minimal month-to-month variation. This interval reflects confidence roughly equivalent to 5 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.32, "low_90": 0.24, "high_90": 0.42},
+"gamma": {"median": 0.004, "low_90": 0.002, "high_90": 0.007},
+"omega": {"median": 0.002, "low_90": 0.001, "high_90": 0.004}
+},
+{
+"district": "Bossaso",
+"reasoning": "Major urban port in Puntland hosting a significant structural IDP population, offset by established humanitarian programs and commercial food stability. Volatility is moderate, driven by IDP movements and seasonal climatic stressors in surrounding pastoral areas. This interval reflects confidence roughly equivalent to 4 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.30, "low_90": 0.22, "high_90": 0.40},
+"gamma": {"median": 0.009, "low_90": 0.005, "high_90": 0.014},
+"omega": {"median": 0.004, "low_90": 0.002, "high_90": 0.007}
+},
+{
+"district": "Bu'aale",
+"reasoning": "Chronically inaccessible riverine district under persistent Al-Shabaab control, meaning CMAM is virtually absent and structural vulnerability remains unmitigated. Extreme month-to-month volatility occurs due to unchecked flooding and seasonal shocks without external smoothing. This interval reflects confidence roughly equivalent to 1 month of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.16, "low_90": 0.09, "high_90": 0.26},
+"gamma": {"median": 0.013, "low_90": 0.008, "high_90": 0.021},
+"omega": {"median": 0.007, "low_90": 0.003, "high_90": 0.012}
+},
+{
+"district": "Bulo Burto",
+"reasoning": "Historically besieged riverine town in Hiraan with restricted structural access, severely limiting food markets and humanitarian programs. Volatility is high due to shifting conflict perimeters and recurrent flooding of the Shabelle. This interval reflects confidence roughly equivalent to 2 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.21, "low_90": 0.13, "high_90": 0.30},
+"gamma": {"median": 0.013, "low_90": 0.008, "high_90": 0.020},
+"omega": {"median": 0.006, "low_90": 0.003, "high_90": 0.010}
+},
+{
+"district": "Burco",
+"reasoning": "Major livestock trading hub in Somaliland; structurally stable with good health access, though vulnerable to broader pastoral drought trends. Incidence variations follow seasonal livestock export cycles and periodic dry spells. This interval reflects confidence roughly equivalent to 4 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.29, "low_90": 0.21, "high_90": 0.39},
+"gamma": {"median": 0.006, "low_90": 0.003, "high_90": 0.010},
+"omega": {"median": 0.003, "low_90": 0.001, "high_90": 0.006}
+},
+{
+"district": "Burtinle",
+"reasoning": "Pastoral district in Puntland experiencing recurrent drought stress, with a baseline moderated by relatively open physical access. Variability is driven by seasonal pasture degradation rather than acute conflict. This interval reflects confidence roughly equivalent to 3 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.25, "low_90": 0.17, "high_90": 0.34},
+"gamma": {"median": 0.008, "low_90": 0.004, "high_90": 0.014},
+"omega": {"median": 0.004, "low_90": 0.002, "high_90": 0.008}
+},
+{
+"district": "Buuhoodle",
+"reasoning": "Disputed pastoral territory with fragmented health service administration and structural vulnerability to recurrent drought. Periodic localized political tensions and seasonal water scarcity drive moderate month-to-month incidence variation. This interval reflects confidence roughly equivalent to 2 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.23, "low_90": 0.15, "high_90": 0.32},
+"gamma": {"median": 0.010, "low_90": 0.005, "high_90": 0.016},
+"omega": {"median": 0.005, "low_90": 0.002, "high_90": 0.009}
+},
+{
+"district": "Buur Hakaba",
+"reasoning": "Agropastoral district in Bay with strong structural vulnerability due to Al-Shabaab presence limiting formal humanitarian coverage and market access. Variations are driven by seasonal rain failures directly impacting rain-fed agriculture. This interval reflects confidence roughly equivalent to 2 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.20, "low_90": 0.12, "high_90": 0.29},
+"gamma": {"median": 0.013, "low_90": 0.008, "high_90": 0.019},
+"omega": {"median": 0.006, "low_90": 0.003, "high_90": 0.010}
+},
+{
+"district": "Cabudwaaq",
+"reasoning": "Central pastoral district with complex clan dynamics and high structural IDP hosting, resulting in chronic vulnerability but accessible markets. Month-to-month variability tracks with pastoral drought cycles and localized clan conflicts. This interval reflects confidence roughly equivalent to 3 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.24, "low_90": 0.16, "high_90": 0.33},
+"gamma": {"median": 0.011, "low_90": 0.006, "high_90": 0.017},
+"omega": {"median": 0.005, "low_90": 0.002, "high_90": 0.009}
+},
+{
+"district": "Cadaado",
+"reasoning": "Central pastoral and urban hub in Galmudug with a structurally large IDP population, offset by moderate health access. Volatility is heavily linked to seasonal pastoral shocks and intermittent political instability. This interval reflects confidence roughly equivalent to 3 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.25, "low_90": 0.17, "high_90": 0.35},
+"gamma": {"median": 0.011, "low_90": 0.006, "high_90": 0.017},
+"omega": {"median": 0.005, "low_90": 0.002, "high_90": 0.009}
+},
+{
+"district": "Cadale",
+"reasoning": "Coastal agropastoral district in Middle Shabelle experiencing sporadic conflict and mixed access to health services. Fluctuations arise from localized clashes and seasonal agricultural performance. This interval reflects confidence roughly equivalent to 2 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.22, "low_90": 0.14, "high_90": 0.31},
+"gamma": {"median": 0.010, "low_90": 0.005, "high_90": 0.016},
+"omega": {"median": 0.005, "low_90": 0.002, "high_90": 0.009}
+},
+{
+"district": "Caluula",
+"reasoning": "Remote coastal district in Puntland relying on fishing and frankincense, structurally isolated from central markets but largely peaceful. Genuine variability is primarily driven by seasonal coastal storms and monsoon impacts on fishing. This interval reflects confidence roughly equivalent to 3 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.24, "low_90": 0.16, "high_90": 0.33},
+"gamma": {"median": 0.007, "low_90": 0.003, "high_90": 0.012},
+"omega": {"median": 0.003, "low_90": 0.001, "high_90": 0.007}
+},
+{
+"district": "Caynabo",
+"reasoning": "Pastoral district in Somaliland prone to recurrent drought, though structural health coverage mitigates extreme outcomes. Seasonal variations in water access directly drive month-to-month fluctuations in incidence. This interval reflects confidence roughly equivalent to 3 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.26, "low_90": 0.18, "high_90": 0.35},
+"gamma": {"median": 0.007, "low_90": 0.003, "high_90": 0.012},
+"omega": {"median": 0.004, "low_90": 0.001, "high_90": 0.008}
+},
+{
+"district": "Ceel Afweyn",
+"reasoning": "Somaliland pastoral district with historical inter-clan localized tensions compounding standard pastoral vulnerability. Month-to-month variability reflects localized security incidents and seasonal drought cycles. This interval reflects confidence roughly equivalent to 3 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.25, "low_90": 0.17, "high_90": 0.34},
+"gamma": {"median": 0.008, "low_90": 0.004, "high_90": 0.013},
+"omega": {"median": 0.004, "low_90": 0.002, "high_90": 0.008}
+},
+{
+"district": "Ceel Barde",
+"reasoning": "Border agropastoral district in Bakool with chronic vulnerability and constrained humanitarian access. Process variability in incident cases is driven by localized cross-border dynamics and seasonal rain failures. This interval reflects confidence roughly equivalent to 2 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.22, "low_90": 0.14, "high_90": 0.31},
+"gamma": {"median": 0.012, "low_90": 0.007, "high_90": 0.018},
+"omega": {"median": 0.006, "low_90": 0.003, "high_90": 0.010}
+},
+{
+"district": "Ceel Buur",
+"reasoning": "Central district in Galgaduud under persistent Al-Shabaab control throughout much of the period, structurally lacking formal CMAM. High vulnerability and variability stem from the inability to cushion seasonal drought and localized clashes. This interval reflects confidence roughly equivalent to 1 month of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.17, "low_90": 0.10, "high_90": 0.27},
+"gamma": {"median": 0.013, "low_90": 0.007, "high_90": 0.020},
+"omega": {"median": 0.006, "low_90": 0.003, "high_90": 0.011}
+},
+{
+"district": "Ceel Dheere",
+"reasoning": "Coastal pastoral district in Galgaduud with intermittent access constraints and high vulnerability to dry spells. Occasional conflict and seasonal pasture depletion drive the genuine fluctuations in SAM arrivals. This interval reflects confidence roughly equivalent to 2 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.21, "low_90": 0.13, "high_90": 0.30},
+"gamma": {"median": 0.011, "low_90": 0.006, "high_90": 0.017},
+"omega": {"median": 0.005, "low_90": 0.002, "high_90": 0.010}
+},
+{
+"district": "Ceel Waaq",
+"reasoning": "Border pastoral district in Gedo where structural vulnerability is tied to regional drought cycles and porous border dynamics. Variability is predominantly driven by seasonal water scarcity and cross-border livestock movements. This interval reflects confidence roughly equivalent to 3 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.24, "low_90": 0.16, "high_90": 0.33},
+"gamma": {"median": 0.011, "low_90": 0.006, "high_90": 0.017},
+"omega": {"median": 0.005, "low_90": 0.002, "high_90": 0.009}
+},
+{
+"district": "Ceerigaabo",
+"reasoning": "Remote, mountainous pastoral district in Somaliland, generally stable but with fragmented health infrastructure due to its vast size. Low baseline incidence fluctuates mildly with seasonal climatic variations. This interval reflects confidence roughly equivalent to 3 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.27, "low_90": 0.19, "high_90": 0.36},
+"gamma": {"median": 0.006, "low_90": 0.003, "high_90": 0.011},
+"omega": {"median": 0.003, "low_90": 0.001, "high_90": 0.007}
+},
+{
+"district": "Dhuusamarreeb",
+"reasoning": "Administrative hub in Galmudug with a structurally large IDP presence and accessible, though stressed, health systems. Genuine variability is primarily linked to political volatility and seasonal pastoral shocks. This interval reflects confidence roughly equivalent to 3 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.26, "low_90": 0.18, "high_90": 0.35},
+"gamma": {"median": 0.010, "low_90": 0.005, "high_90": 0.016},
+"omega": {"median": 0.005, "low_90": 0.002, "high_90": 0.009}
+},
+{
+"district": "Diinsoor",
+"reasoning": "Agropastoral district in Bay structurally constrained by surrounding non-state armed group territory, leading to high baseline malnutrition and fragile markets. Extreme variability is caused by disrupted supply chains and reliance on erratic rainfall. This interval reflects confidence roughly equivalent to 2 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.21, "low_90": 0.13, "high_90": 0.30},
+"gamma": {"median": 0.014, "low_90": 0.008, "high_90": 0.021},
+"omega": {"median": 0.007, "low_90": 0.003, "high_90": 0.012}
+},
+{
+"district": "Doolow",
+"reasoning": "Border riverine district structurally functioning as a massive, permanent IDP hosting hub with strong international humanitarian presence. High turnover (p) occurs due to dense CMAM coverage, while incidence volatility tracks cross-border displacement inflows and Juba river flooding. This interval reflects confidence roughly equivalent to 4 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.32, "low_90": 0.24, "high_90": 0.42},
+"gamma": {"median": 0.014, "low_90": 0.009, "high_90": 0.021},
+"omega": {"median": 0.006, "low_90": 0.003, "high_90": 0.011}
+},
+{
+"district": "Eyl",
+"reasoning": "Coastal pastoral district in Puntland, structurally stable but chronically exposed to cyclones and drought. Baseline vulnerability is moderate, with variability tied almost exclusively to marine and climatic seasonality. This interval reflects confidence roughly equivalent to 3 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.26, "low_90": 0.18, "high_90": 0.35},
+"gamma": {"median": 0.007, "low_90": 0.003, "high_90": 0.012},
+"omega": {"median": 0.004, "low_90": 0.002, "high_90": 0.008}
+},
+{
+"district": "Gaalkacyo",
+"reasoning": "Divided urban hub hosting structurally immense IDP populations from surrounding conflict and drought zones, with extensive but overburdened CMAM infrastructure. High volatility stems from recurrent localized clashes and sudden displacement surges. This interval reflects confidence roughly equivalent to 4 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.29, "low_90": 0.21, "high_90": 0.39},
+"gamma": {"median": 0.013, "low_90": 0.008, "high_90": 0.020},
+"omega": {"median": 0.006, "low_90": 0.003, "high_90": 0.011}
+},
+{
+"district": "Galdogob",
+"reasoning": "Stable pastoral border district in Puntland with structural reliance on livestock trade and moderate health access. Month-to-month incidence variations are primarily driven by the seasonal performance of Gu and Deyr rains. This interval reflects confidence roughly equivalent to 3 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.27, "low_90": 0.19, "high_90": 0.36},
+"gamma": {"median": 0.008, "low_90": 0.004, "high_90": 0.013},
+"omega": {"median": 0.004, "low_90": 0.001, "high_90": 0.008}
+},
+{
+"district": "Garbahaarey",
+"reasoning": "Agropastoral district in Gedo with a history of persistent access constraints and localized conflict, embedding a high baseline SAM rate. Volatility is elevated due to shifting security perimeters and recurrent seasonal droughts. This interval reflects confidence roughly equivalent to 2 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.22, "low_90": 0.14, "high_90": 0.31},
+"gamma": {"median": 0.013, "low_90": 0.008, "high_90": 0.019},
+"omega": {"median": 0.006, "low_90": 0.003, "high_90": 0.011}
+},
+{
+"district": "Garoowe",
+"reasoning": "Administrative capital of Puntland with structurally functional markets, strong health infrastructure, and a steady IDP presence. Lower baseline incidence is accompanied by relatively low variability, buffered by urban food systems. This interval reflects confidence roughly equivalent to 4 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.31, "low_90": 0.23, "high_90": 0.41},
+"gamma": {"median": 0.007, "low_90": 0.004, "high_90": 0.011},
+"omega": {"median": 0.003, "low_90": 0.001, "high_90": 0.006}
+},
+{
+"district": "Gebiley",
+"reasoning": "Highly productive agropastoral district in Somaliland functioning as a regional breadbasket, characterized by structural food security and reliable health systems. Month-to-month variation is exceptionally low, tied strictly to standard agricultural cycles. This interval reflects confidence roughly equivalent to 4 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.33, "low_90": 0.25, "high_90": 0.43},
+"gamma": {"median": 0.004, "low_90": 0.002, "high_90": 0.007},
+"omega": {"median": 0.002, "low_90": 0.001, "high_90": 0.004}
+},
+{
+"district": "Hargeysa",
+"reasoning": "Capital and major urban center of Somaliland with the strongest structural health infrastructure, high dietary diversity, and stable food markets. Extremely low baseline vulnerability, with minor variability mostly from surrounding pastoral IDP inflows. This interval reflects confidence roughly equivalent to 5 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.36, "low_90": 0.28, "high_90": 0.46},
+"gamma": {"median": 0.005, "low_90": 0.002, "high_90": 0.009},
+"omega": {"median": 0.002, "low_90": 0.001, "high_90": 0.005}
+},
+{
+"district": "Hobyo",
+"reasoning": "Coastal pastoral district in Galmudug with a structurally vulnerable baseline due to cyclical droughts and fragile remote health infrastructure. Variations in SAM arrivals follow seasonal pasture degradation and fishing constraints. This interval reflects confidence roughly equivalent to 3 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.24, "low_90": 0.16, "high_90": 0.33},
+"gamma": {"median": 0.009, "low_90": 0.005, "high_90": 0.015},
+"omega": {"median": 0.004, "low_90": 0.002, "high_90": 0.008}
+},
+{
+"district": "Iskushuban",
+"reasoning": "Remote pastoral and frankincense-producing district in Puntland with chronic access challenges due to terrain, maintaining a moderate structural baseline. Volatility corresponds to seasonal dry periods affecting water access. This interval reflects confidence roughly equivalent to 3 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.25, "low_90": 0.17, "high_90": 0.34},
+"gamma": {"median": 0.007, "low_90": 0.003, "high_90": 0.012},
+"omega": {"median": 0.004, "low_90": 0.002, "high_90": 0.007}
+},
+{
+"district": "Jalalaqsi",
+"reasoning": "Riverine district in Hiraan structurally constrained by Al-Shabaab encirclement, severely restricting market functioning and CMAM access. Exceptionally high volatility due to the dual shocks of seasonal Shabelle flooding and conflict blockades. This interval reflects confidence roughly equivalent to 2 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.19, "low_90": 0.11, "high_90": 0.29},
+"gamma": {"median": 0.013, "low_90": 0.008, "high_90": 0.020},
+"omega": {"median": 0.007, "low_90": 0.003, "high_90": 0.012}
+},
+{
+"district": "Jamaame",
+"reasoning": "Chronically inaccessible riverine district under strict Al-Shabaab control, with an absent formal CMAM program leading to prolonged SAM episodes. Process volatility stems from unmitigated recurrent flooding of the Juba river. This interval reflects confidence roughly equivalent to 1 month of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.16, "low_90": 0.09, "high_90": 0.25},
+"gamma": {"median": 0.014, "low_90": 0.008, "high_90": 0.021},
+"omega": {"median": 0.007, "low_90": 0.003, "high_90": 0.013}
+},
+{
+"district": "Jariiban",
+"reasoning": "Pastoral district in Puntland structurally dependent on livestock with moderate health access. Genuine month-to-month variability relates closely to the seasonal impacts of drought on livestock body conditions rather than conflict. This interval reflects confidence roughly equivalent to 3 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.25, "low_90": 0.17, "high_90": 0.34},
+"gamma": {"median": 0.008, "low_90": 0.004, "high_90": 0.014},
+"omega": {"median": 0.004, "low_90": 0.001, "high_90": 0.008}
+},
+{
+"district": "Jilib",
+"reasoning": "Major operational hub for Al-Shabaab, structurally entirely inaccessible to formal humanitarian CMAM programs, creating deeply entrenched vulnerability. High volatility stems from unchecked seasonal shocks and Juba river flooding. This interval reflects confidence roughly equivalent to 1 month of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.15, "low_90": 0.08, "high_90": 0.24},
+"gamma": {"median": 0.015, "low_90": 0.009, "high_90": 0.023},
+"omega": {"median": 0.007, "low_90": 0.003, "high_90": 0.013}
+},
+{
+"district": "Jowhar",
+"reasoning": "Riverine agricultural hub structurally plagued by severe, recurrent Shabelle river flooding and localized inter-clan tensions. These repeated flood events drive extremely high genuine month-to-month variability in incident malnutrition cases. This interval reflects confidence roughly equivalent to 3 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.25, "low_90": 0.17, "high_90": 0.35},
+"gamma": {"median": 0.013, "low_90": 0.008, "high_90": 0.020},
+"omega": {"median": 0.008, "low_90": 0.004, "high_90": 0.014}
+},
+{
+"district": "Kismaayo",
+"reasoning": "Major urban center hosting a structurally large IDP population fleeing surrounding conflict and drought, with established humanitarian CMAM access mitigating the baseline. Volatility is predominantly driven by episodic conflict-induced displacement inflows from Middle and Lower Juba. This interval reflects confidence roughly equivalent to 4 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.31, "low_90": 0.23, "high_90": 0.41},
+"gamma": {"median": 0.014, "low_90": 0.009, "high_90": 0.021},
+"omega": {"median": 0.006, "low_90": 0.003, "high_90": 0.011}
+},
+{
+"district": "Kurtunwaarey",
+"reasoning": "Lower Shabelle agropastoral district chronically inaccessible due to Al-Shabaab control, leading to high baseline malnutrition and an absence of formal CMAM structures. Variability is closely tied to seasonal rain failures directly impacting unsupported agriculture. This interval reflects confidence roughly equivalent to 1 month of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.17, "low_90": 0.10, "high_90": 0.26},
+"gamma": {"median": 0.013, "low_90": 0.008, "high_90": 0.020},
+"omega": {"median": 0.006, "low_90": 0.003, "high_90": 0.011}
+},
+{
+"district": "Laas Caanood",
+"reasoning": "Disputed urban and pastoral district with structurally fragmented health administration and underlying political tension. Volatility is driven by sporadic political conflict and regional pastoral drought cycles. This interval reflects confidence roughly equivalent to 2 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.24, "low_90": 0.16, "high_90": 0.33},
+"gamma": {"median": 0.009, "low_90": 0.005, "high_90": 0.015},
+"omega": {"median": 0.005, "low_90": 0.002, "high_90": 0.009}
+},
+{
+"district": "Laasqoray",
+"reasoning": "Remote coastal district characterized by structural isolation, limited formal health infrastructure, and a reliance on fishing/pastoralism. Fluctuations are moderate, driven primarily by seasonal coastal weather rather than active conflict. This interval reflects confidence roughly equivalent to 2 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.23, "low_90": 0.15, "high_90": 0.32},
+"gamma": {"median": 0.007, "low_90": 0.003, "high_90": 0.012},
+"omega": {"median": 0.004, "low_90": 0.001, "high_90": 0.008}
+},
+{
+"district": "Lughaye",
+"reasoning": "Coastal pastoral district in Somaliland, generally stable but structurally vulnerable to harsh arid conditions and limited water infrastructure. Incidence variability directly correlates with standard seasonal dry spells. This interval reflects confidence roughly equivalent to 3 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.25, "low_90": 0.17, "high_90": 0.34},
+"gamma": {"median": 0.006, "low_90": 0.003, "high_90": 0.011},
+"omega": {"median": 0.003, "low_90": 0.001, "high_90": 0.007}
+},
+{
+"district": "Luuq",
+"reasoning": "Riverine border district in Gedo functioning as a structural IDP transit and hosting site, heavily supported by cross-border humanitarian access. Month-to-month variability is notably high due to Juba river flooding and recurrent displacement waves. This interval reflects confidence roughly equivalent to 3 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.28, "low_90": 0.20, "high_90": 0.37},
+"gamma": {"median": 0.013, "low_90": 0.008, "high_90": 0.019},
+"omega": {"median": 0.007, "low_90": 0.004, "high_90": 0.012}
+},
+{
+"district": "Marka",
+"reasoning": "Coastal urban district in Lower Shabelle plagued by structurally entrenched localized conflict and erratic humanitarian access. High genuine variability stems from volatile supply lines, recurrent clashes, and sudden population displacements. This interval reflects confidence roughly equivalent to 2 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.23, "low_90": 0.15, "high_90": 0.32},
+"gamma": {"median": 0.012, "low_90": 0.007, "high_90": 0.018},
+"omega": {"median": 0.006, "low_90": 0.003, "high_90": 0.011}
+},
+{
+"district": "Owdweyne",
+"reasoning": "Pastoral district in Somaliland that is structurally stable with reliable health systems and minimal conflict. Minor variations in SAM incidence are tied purely to seasonal grazing and water availability cycles. This interval reflects confidence roughly equivalent to 4 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.29, "low_90": 0.21, "high_90": 0.39},
+"gamma": {"median": 0.005, "low_90": 0.002, "high_90": 0.010},
+"omega": {"median": 0.003, "low_90": 0.001, "high_90": 0.006}
+},
+{
+"district": "Qandala",
+"reasoning": "Mountainous and coastal district in Puntland with persistent structural access issues due to terrain and localized insurgent presence. Genuine month-to-month variation is driven by access cut-offs and coastal storm impacts on fishing livelihoods. This interval reflects confidence roughly equivalent to 2 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.22, "low_90": 0.14, "high_90": 0.31},
+"gamma": {"median": 0.008, "low_90": 0.004, "high_90": 0.013},
+"omega": {"median": 0.004, "low_90": 0.002, "high_90": 0.008}
+},
+{
+"district": "Qansax Dheere",
+"reasoning": "Agropastoral district in Bay heavily restricted by Al-Shabaab encirclement, structurally limiting food flows and health coverage. High volatility results from the dependence on rain-fed agriculture in a context of choked markets. This interval reflects confidence roughly equivalent to 2 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.20, "low_90": 0.12, "high_90": 0.29},
+"gamma": {"median": 0.013, "low_90": 0.008, "high_90": 0.019},
+"omega": {"median": 0.006, "low_90": 0.003, "high_90": 0.011}
+},
+{
+"district": "Qardho",
+"reasoning": "Stable pastoral and administrative district in Puntland with functional markets and health infrastructure. Month-to-month variability is moderate, driven entirely by the regional impact of seasonal drought on pastoralist populations. This interval reflects confidence roughly equivalent to 4 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.28, "low_90": 0.20, "high_90": 0.37},
+"gamma": {"median": 0.007, "low_90": 0.003, "high_90": 0.012},
+"omega": {"median": 0.003, "low_90": 0.001, "high_90": 0.007}
+},
+{
+"district": "Qoryooley",
+"reasoning": "Riverine agricultural district in Lower Shabelle experiencing chronic instability and shifting territorial control, embedding high baseline vulnerability. Volatility in incidence is driven by a combination of recurrent Shabelle flooding and active conflict disruptions. This interval reflects confidence roughly equivalent to 2 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.22, "low_90": 0.14, "high_90": 0.31},
+"gamma": {"median": 0.014, "low_90": 0.009, "high_90": 0.021},
+"omega": {"median": 0.007, "low_90": 0.004, "high_90": 0.012}
+},
+{
+"district": "Rab Dhuure",
+"reasoning": "Agropastoral district in Bakool structurally marginalized by access constraints and localized conflict, with very weak health infrastructure. High genuine variability stems from seasonal rain dependency and unpredictable cross-border disruptions. This interval reflects confidence roughly equivalent to 2 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.21, "low_90": 0.13, "high_90": 0.30},
+"gamma": {"median": 0.012, "low_90": 0.007, "high_90": 0.018},
+"omega": {"median": 0.006, "low_90": 0.003, "high_90": 0.011}
+},
+{
+"district": "Saakow",
+"reasoning": "Middle Juba riverine district fully and chronically inaccessible due to Al-Shabaab control, resulting in absent CMAM and structurally unmitigated baseline SAM. Extreme process variability occurs due to unmanaged Juba river floods and seasonal agricultural shocks. This interval reflects confidence roughly equivalent to 1 month of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.15, "low_90": 0.08, "high_90": 0.24},
+"gamma": {"median": 0.014, "low_90": 0.008, "high_90": 0.022},
+"omega": {"median": 0.007, "low_90": 0.004, "high_90": 0.013}
+},
+{
+"district": "Sablaale",
+"reasoning": "Chronically inaccessible district in Lower Shabelle with absent formal humanitarian services, resulting in prolonged malnutrition states and a highly vulnerable baseline. Month-to-month incidence swings heavily with unmitigated seasonal dry spells and localized floods. This interval reflects confidence roughly equivalent to 1 month of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.16, "low_90": 0.09, "high_90": 0.25},
+"gamma": {"median": 0.013, "low_90": 0.008, "high_90": 0.020},
+"omega": {"median": 0.006, "low_90": 0.003, "high_90": 0.011}
+},
+{
+"district": "Sheikh",
+"reasoning": "Mountainous pastoral district in Somaliland characterized by historical stability, reliable health access, and a diversified local economy. Very low baseline vulnerability with minimal volatility, dictated purely by standard seasonal changes. This interval reflects confidence roughly equivalent to 4 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.31, "low_90": 0.23, "high_90": 0.41},
+"gamma": {"median": 0.005, "low_90": 0.002, "high_90": 0.009},
+"omega": {"median": 0.002, "low_90": 0.001, "high_90": 0.005}
+},
+{
+"district": "Taleex",
+"reasoning": "Disputed and remote pastoral district with structurally fragmented health services and high exposure to regional droughts. Incidence variations are driven by seasonal water scarcity and occasional localized political flare-ups. This interval reflects confidence roughly equivalent to 2 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.23, "low_90": 0.15, "high_90": 0.32},
+"gamma": {"median": 0.009, "low_90": 0.004, "high_90": 0.015},
+"omega": {"median": 0.004, "low_90": 0.002, "high_90": 0.009}
+},
+{
+"district": "Tayeeglow",
+"reasoning": "Bakool agropastoral district that experienced chronic access restrictions and isolation during the period, deeply limiting formal CMAM capacity. Genuine volatility relates closely to the failure of seasonal rains affecting un-irrigated agriculture. This interval reflects confidence roughly equivalent to 1 month of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.18, "low_90": 0.10, "high_90": 0.27},
+"gamma": {"median": 0.013, "low_90": 0.008, "high_90": 0.019},
+"omega": {"median": 0.006, "low_90": 0.003, "high_90": 0.011}
+},
+{
+"district": "Waajid",
+"reasoning": "Structurally besieged agropastoral town in Bakool reliant on airlifted supplies, embedding chronically fragile food access and moderate but constrained CMAM. Extreme variability arises from sudden disruptions to the limited supply chain and seasonal rain failures. This interval reflects confidence roughly equivalent to 2 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.21, "low_90": 0.13, "high_90": 0.30},
+"gamma": {"median": 0.014, "low_90": 0.009, "high_90": 0.022},
+"omega": {"median": 0.007, "low_90": 0.003, "high_90": 0.012}
+},
+{
+"district": "Wanla Weyn",
+"reasoning": "Lower Shabelle agropastoral and riverine district acting as a major displacement transit route with frequent localized clashes. Volatility is predominantly driven by displacement flows and recurrent seasonal Shabelle flooding. This interval reflects confidence roughly equivalent to 3 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.24, "low_90": 0.16, "high_90": 0.33},
+"gamma": {"median": 0.013, "low_90": 0.008, "high_90": 0.020},
+"omega": {"median": 0.006, "low_90": 0.003, "high_90": 0.011}
+},
+{
+"district": "Xarardheere",
+"reasoning": "Coastal pastoral district in Galmudug largely under persistent Al-Shabaab control throughout the period, meaning an absence of formal CMAM and structurally unmitigated vulnerability. Variability follows cyclical droughts and coastal seasonality without humanitarian buffer. This interval reflects confidence roughly equivalent to 1 month of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.17, "low_90": 0.10, "high_90": 0.26},
+"gamma": {"median": 0.012, "low_90": 0.007, "high_90": 0.018},
+"omega": {"median": 0.005, "low_90": 0.002, "high_90": 0.010}
+},
+{
+"district": "Xudun",
+"reasoning": "Disputed pastoral district characterized by structural isolation, limited health infrastructure, and high vulnerability to region-wide drought. Month-to-month variation tracks seasonal grazing availability and localized water scarcity. This interval reflects confidence roughly equivalent to 2 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.24, "low_90": 0.16, "high_90": 0.33},
+"gamma": {"median": 0.009, "low_90": 0.005, "high_90": 0.015},
+"omega": {"median": 0.004, "low_90": 0.002, "high_90": 0.009}
+},
+{
+"district": "Xudur",
+"reasoning": "Agropastoral capital of Bakool, structurally besieged and reliant on a heavily constrained supply chain, keeping baseline malnutrition high despite some CMAM presence. High genuine variability is tied directly to the sporadic functioning of supply flights and seasonal agricultural shocks. This interval reflects confidence roughly equivalent to 2 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.22, "low_90": 0.14, "high_90": 0.31},
+"gamma": {"median": 0.014, "low_90": 0.009, "high_90": 0.021},
+"omega": {"median": 0.007, "low_90": 0.003, "high_90": 0.012}
+},
+{
+"district": "Zeylac",
+"reasoning": "Remote coastal district in Somaliland structurally dependent on cross-border trade and pastoralism, with generally stable but thin health infrastructure. Incidence variation is low, mostly driven by extreme summer coastal weather and seasonal pastoral cycles. This interval reflects confidence roughly equivalent to 3 months of direct observation in this district.",
+"sources_retrieved": [],
+"sources_unavailable": [],
+"p": {"median": 0.26, "low_90": 0.18, "high_90": 0.35},
+"gamma": {"median": 0.006, "low_90": 0.003, "high_90": 0.011},
+"omega": {"median": 0.003, "low_90": 0.001, "high_90": 0.007}
+}
+]
+}

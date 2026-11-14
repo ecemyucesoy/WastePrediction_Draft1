@@ -1,0 +1,1188 @@
+{
+  "districts": [
+    {
+      "district": "Adan Yabaal",
+      "reasoning": "Agropastoral district under Al-Shabaab control throughout 2017-2021, chronically inaccessible and on an active front line. Exit probability reflects essentially absent CMAM/health coverage, chronically inaccessible programme access and moderate endemic disease pressure; incidence reflects the livelihood vulnerability and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings, recurrent drought/flood shocks, unstable conflict and access and unstable market supply and prices. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 20.19,
+        "b": 88.945
+      },
+      "gamma": {
+        "a": 9.128,
+        "b": 1694.489
+      },
+      "omega": {
+        "a": 6.219,
+        "b": 1426.599
+      }
+    },
+    {
+      "district": "Afgooye",
+      "reasoning": "Shabelle gravity-irrigation breadbasket and Afgooye corridor IDP settlements, with flood exposure, endemic waterborne disease and frequent military operations. Exit probability reflects moderate CMAM/health coverage, only sporadically or partially accessible (garrison town/road blockades) programme access and high endemic disease pressure; incidence reflects the livelihood vulnerability, structural IDP hosting and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings, recurrent drought/flood shocks, volatile displacement flows and unstable conflict and access.",
+      "p": {
+        "a": 32.174,
+        "b": 86.99
+      },
+      "gamma": {
+        "a": 15.918,
+        "b": 3267.261
+      },
+      "omega": {
+        "a": 11.062,
+        "b": 2738.02
+      }
+    },
+    {
+      "district": "Afmadow",
+      "reasoning": "Southern Inland/Juba Pastoral district on the Kenyan border including Dhobley, with refugee-returnee inflows, contested rural areas and limited services. Exit probability reflects thin CMAM/health coverage, only sporadically or partially accessible (garrison town/road blockades) programme access and moderate endemic disease pressure; incidence reflects the livelihood vulnerability, structural IDP hosting and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings, recurrent drought/flood shocks, volatile displacement flows and unstable conflict and access. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 19.41,
+        "b": 70.869
+      },
+      "gamma": {
+        "a": 9.14,
+        "b": 2181.239
+      },
+      "omega": {
+        "a": 6.225,
+        "b": 1791.053
+      }
+    },
+    {
+      "district": "Baardheere",
+      "reasoning": "Juba riverine pump-irrigation town encircled by Al-Shabaab, receiving IDP arrivals, with flood exposure and road-blockaded markets. Exit probability reflects thin CMAM/health coverage, only sporadically or partially accessible (garrison town/road blockades) programme access and high endemic disease pressure; incidence reflects the livelihood vulnerability, structural IDP hosting and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings, recurrent drought/flood shocks, volatile displacement flows, unstable conflict and access and unstable market supply and prices. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 18.76,
+        "b": 59.407
+      },
+      "gamma": {
+        "a": 9.115,
+        "b": 1356.059
+      },
+      "omega": {
+        "a": 6.208,
+        "b": 1062.521
+      }
+    },
+    {
+      "district": "Badhaadhe",
+      "reasoning": "Remote Juba/coastal pastoral district under Al-Shabaab control, chronically inaccessible with very poor infrastructure. Exit probability reflects essentially absent CMAM/health coverage, chronically inaccessible programme access and moderate endemic disease pressure; incidence reflects the livelihood vulnerability and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings, recurrent drought/flood shocks and unstable market supply and prices. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 20.19,
+        "b": 88.945
+      },
+      "gamma": {
+        "a": 9.128,
+        "b": 1694.489
+      },
+      "omega": {
+        "a": 6.221,
+        "b": 1541.802
+      }
+    },
+    {
+      "district": "Baki",
+      "reasoning": "Rural Awdal district split between Northwest Agropastoral and West Golis Pastoral livelihoods, secure and accessible but with thinner health coverage than Borama. Exit probability reflects moderate CMAM/health coverage, consistently accessible programme access and low endemic disease pressure; incidence reflects the livelihood vulnerability. Month-to-month variability is expected to be comparatively low given stable markets, security and livelihoods.",
+      "p": {
+        "a": 34.447,
+        "b": 122.129
+      },
+      "gamma": {
+        "a": 15.959,
+        "b": 6612.783
+      },
+      "omega": {
+        "a": 11.098,
+        "b": 10465.652
+      }
+    },
+    {
+      "district": "Balcad",
+      "reasoning": "Shabelle riverine district close to Mogadishu markets, with recurrent flooding, endemic waterborne disease and periodic Al-Shabaab attacks. Exit probability reflects moderate CMAM/health coverage, only sporadically or partially accessible (garrison town/road blockades) programme access and high endemic disease pressure; incidence reflects the livelihood vulnerability, structural IDP hosting and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings, recurrent drought/flood shocks and volatile displacement flows.",
+      "p": {
+        "a": 32.174,
+        "b": 86.99
+      },
+      "gamma": {
+        "a": 15.929,
+        "b": 3801.331
+      },
+      "omega": {
+        "a": 11.072,
+        "b": 3434.843
+      }
+    },
+    {
+      "district": "Banadir",
+      "reasoning": "Mogadishu: diversified urban economy and the densest CMAM/health network in the country, but the largest concentration of IDPs with repeated forced evictions, crowding and endemic cholera/measles risk. Exit probability reflects dense, long-running CMAM/health coverage, consistently accessible programme access and high endemic disease pressure; incidence reflects the livelihood vulnerability, structural IDP hosting and conflict constraints on livelihoods. Month-to-month variability is driven by volatile displacement flows.",
+      "p": {
+        "a": 30.811,
+        "b": 71.893
+      },
+      "gamma": {
+        "a": 15.939,
+        "b": 4421.836
+      },
+      "omega": {
+        "a": 11.084,
+        "b": 4966.471
+      }
+    },
+    {
+      "district": "Bandarbeyla",
+      "reasoning": "Coastal Deeh Pastoral and Fishing district with fish income that is strongly seasonal, cyclone exposure and few health facilities. Exit probability reflects thin CMAM/health coverage, consistently accessible programme access and low endemic disease pressure; incidence reflects the livelihood vulnerability. Month-to-month variability is driven by pronounced lean-season swings and recurrent drought/flood shocks. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 20.06,
+        "b": 85.519
+      },
+      "gamma": {
+        "a": 9.158,
+        "b": 3794.79
+      },
+      "omega": {
+        "a": 6.24,
+        "b": 4386.499
+      }
+    },
+    {
+      "district": "Baraawe",
+      "reasoning": "Coastal town encircled by Al-Shabaab-held territory, supplied largely by sea and air, with a riverine/agropastoral hinterland and minimal services. Exit probability reflects thin CMAM/health coverage, only sporadically or partially accessible (garrison town/road blockades) programme access and moderate endemic disease pressure; incidence reflects the livelihood vulnerability, structural IDP hosting and conflict constraints on livelihoods. Month-to-month variability is driven by unstable conflict and access and unstable market supply and prices. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 19.41,
+        "b": 70.869
+      },
+      "gamma": {
+        "a": 9.124,
+        "b": 1578.629
+      },
+      "omega": {
+        "a": 6.223,
+        "b": 1634.399
+      }
+    },
+    {
+      "district": "Baydhaba",
+      "reasoning": "Sorghum High Potential Agropastoral hub and South West capital hosting one of the largest IDP concentrations, with dense partner and CMAM presence in town but road-blockaded, Al-Shabaab-held rural surroundings. Exit probability reflects dense, long-running CMAM/health coverage, only sporadically or partially accessible (garrison town/road blockades) programme access and high endemic disease pressure; incidence reflects the livelihood vulnerability, structural IDP hosting and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings, recurrent drought/flood shocks, volatile displacement flows and unstable market supply and prices.",
+      "p": {
+        "a": 30.811,
+        "b": 71.893
+      },
+      "gamma": {
+        "a": 15.897,
+        "b": 2615.558
+      },
+      "omega": {
+        "a": 11.052,
+        "b": 2247.46
+      }
+    },
+    {
+      "district": "Belet Weyne",
+      "reasoning": "Shabelle riverine and Southern Agropastoral district whose town floods repeatedly (2018-2020), hosting large IDP sites and endemic waterborne disease, with partners present in town but Al-Shabaab-held rural areas. Exit probability reflects moderate CMAM/health coverage, only sporadically or partially accessible (garrison town/road blockades) programme access and high endemic disease pressure; incidence reflects the livelihood vulnerability, structural IDP hosting and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings, recurrent drought/flood shocks and volatile displacement flows.",
+      "p": {
+        "a": 32.174,
+        "b": 86.99
+      },
+      "gamma": {
+        "a": 15.897,
+        "b": 2615.558
+      },
+      "omega": {
+        "a": 11.055,
+        "b": 2365.412
+      }
+    },
+    {
+      "district": "Belet Xaawo",
+      "reasoning": "Border trade town in the Mandera triangle with sizeable IDP sites and repeated clashes between federal and Jubaland forces. Exit probability reflects moderate CMAM/health coverage, only sporadically or partially accessible (garrison town/road blockades) programme access and moderate endemic disease pressure; incidence reflects the livelihood vulnerability, structural IDP hosting and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings, recurrent drought/flood shocks, volatile displacement flows and unstable conflict and access. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 18.63,
+        "b": 57.411
+      },
+      "gamma": {
+        "a": 9.133,
+        "b": 1874.725
+      },
+      "omega": {
+        "a": 6.221,
+        "b": 1539.7
+      }
+    },
+    {
+      "district": "Berbera",
+      "reasoning": "Port town with livestock-export and casual-labour income and a Guban Pastoral hinterland, stable and accessible with moderate health coverage. Exit probability reflects moderate CMAM/health coverage, consistently accessible programme access and low endemic disease pressure; incidence reflects the livelihood vulnerability, structural IDP hosting. Month-to-month variability is expected to be comparatively low given stable markets, security and livelihoods.",
+      "p": {
+        "a": 34.447,
+        "b": 122.129
+      },
+      "gamma": {
+        "a": 15.952,
+        "b": 5687.091
+      },
+      "omega": {
+        "a": 11.098,
+        "b": 9907.423
+      }
+    },
+    {
+      "district": "Borama",
+      "reasoning": "Awdal regional centre in the Northwest Agropastoral zone (sorghum/maize plus livestock and dairy sales) with stable Somaliland governance and a long-established referral health network. Exit probability reflects dense, long-running CMAM/health coverage, consistently accessible programme access and low endemic disease pressure; incidence reflects the livelihood vulnerability. Month-to-month variability is expected to be comparatively low given stable markets, security and livelihoods.",
+      "p": {
+        "a": 33.083,
+        "b": 99.25
+      },
+      "gamma": {
+        "a": 15.967,
+        "b": 8248.138
+      },
+      "omega": {
+        "a": 11.101,
+        "b": 13046.714
+      }
+    },
+    {
+      "district": "Bossaso",
+      "reasoning": "Main north-eastern port with diversified trade income and strong health/CMAM presence, but a large structurally poor IDP and migrant population in crowded settlements. Exit probability reflects dense, long-running CMAM/health coverage, consistently accessible programme access and moderate endemic disease pressure; incidence reflects the livelihood vulnerability, structural IDP hosting. Month-to-month variability is expected to be comparatively low given stable markets, security and livelihoods.",
+      "p": {
+        "a": 31.947,
+        "b": 84.224
+      },
+      "gamma": {
+        "a": 15.956,
+        "b": 6101.838
+      },
+      "omega": {
+        "a": 11.097,
+        "b": 9238.256
+      }
+    },
+    {
+      "district": "Bu'aale",
+      "reasoning": "Middle Juba riverine district under Al-Shabaab control, chronically inaccessible, with flood exposure and endemic waterborne disease. Exit probability reflects essentially absent CMAM/health coverage, chronically inaccessible programme access and high endemic disease pressure; incidence reflects the livelihood vulnerability and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings, recurrent drought/flood shocks, volatile displacement flows, unstable conflict and access and unstable market supply and prices. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 19.54,
+        "b": 73.508
+      },
+      "gamma": {
+        "a": 9.128,
+        "b": 1694.489
+      },
+      "omega": {
+        "a": 6.216,
+        "b": 1327.287
+      }
+    },
+    {
+      "district": "Bulo Burto",
+      "reasoning": "Riverine/agropastoral garrison town under prolonged Al-Shabaab blockade, supplied largely by air, with flood exposure and minimal services. Exit probability reflects thin CMAM/health coverage, only sporadically or partially accessible (garrison town/road blockades) programme access and high endemic disease pressure; incidence reflects the livelihood vulnerability, structural IDP hosting and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings, recurrent drought/flood shocks, volatile displacement flows, unstable conflict and access and unstable market supply and prices. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 18.76,
+        "b": 59.407
+      },
+      "gamma": {
+        "a": 9.124,
+        "b": 1578.629
+      },
+      "omega": {
+        "a": 6.214,
+        "b": 1236.646
+      }
+    },
+    {
+      "district": "Burco",
+      "reasoning": "Largest livestock market in the north with a Togdheer Agropastoral/Hawd hinterland, good regional health services and a sizeable IDP population drawn in during droughts. Exit probability reflects dense, long-running CMAM/health coverage, consistently accessible programme access and moderate endemic disease pressure; incidence reflects the livelihood vulnerability, structural IDP hosting. Month-to-month variability is expected to be comparatively low given stable markets, security and livelihoods.",
+      "p": {
+        "a": 31.947,
+        "b": 84.224
+      },
+      "gamma": {
+        "a": 15.952,
+        "b": 5687.091
+      },
+      "omega": {
+        "a": 11.094,
+        "b": 7921.3
+      }
+    },
+    {
+      "district": "Burtinle",
+      "reasoning": "Hawd/Nugaal valley pastoral district dependent on livestock sales and purchased cereals, with limited services and drought-driven migration. Exit probability reflects thin CMAM/health coverage, consistently accessible programme access and low endemic disease pressure; incidence reflects the livelihood vulnerability. Month-to-month variability is driven by pronounced lean-season swings and recurrent drought/flood shocks. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 20.06,
+        "b": 85.519
+      },
+      "gamma": {
+        "a": 9.152,
+        "b": 3041.577
+      },
+      "omega": {
+        "a": 6.236,
+        "b": 3191.642
+      }
+    },
+    {
+      "district": "Buuhoodle",
+      "reasoning": "Hawd Pastoral district on the Ethiopian border contested between Somaliland and Puntland, with water-trucking dependence, recurrent drought migration and limited services. Exit probability reflects thin CMAM/health coverage, only sporadically or partially accessible (garrison town/road blockades) programme access and low endemic disease pressure; incidence reflects the livelihood vulnerability, structural IDP hosting and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings, recurrent drought/flood shocks and volatile displacement flows. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 20.06,
+        "b": 85.519
+      },
+      "gamma": {
+        "a": 9.14,
+        "b": 2181.239
+      },
+      "omega": {
+        "a": 6.227,
+        "b": 1931.663
+      }
+    },
+    {
+      "district": "Buur Hakaba",
+      "reasoning": "Bay agropastoral district with a besieged garrison town, blockaded roads, recurrent drought-driven displacement and minimal services. Exit probability reflects thin CMAM/health coverage, only sporadically or partially accessible (garrison town/road blockades) programme access and high endemic disease pressure; incidence reflects the livelihood vulnerability, structural IDP hosting and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings, recurrent drought/flood shocks, volatile displacement flows, unstable conflict and access and unstable market supply and prices. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 18.76,
+        "b": 59.407
+      },
+      "gamma": {
+        "a": 9.124,
+        "b": 1578.629
+      },
+      "omega": {
+        "a": 6.214,
+        "b": 1236.646
+      }
+    },
+    {
+      "district": "Cabudwaaq",
+      "reasoning": "Hawd Pastoral district on the Ethiopian border with water-trucking dependence, intermittent clan conflict and limited services. Exit probability reflects thin CMAM/health coverage, consistently accessible programme access and low endemic disease pressure; incidence reflects the livelihood vulnerability, structural IDP hosting and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings and recurrent drought/flood shocks. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 20.06,
+        "b": 85.519
+      },
+      "gamma": {
+        "a": 9.144,
+        "b": 2364.515
+      },
+      "omega": {
+        "a": 6.23,
+        "b": 2271.733
+      }
+    },
+    {
+      "district": "Cadaado",
+      "reasoning": "Addun Pastoral district with high cereal purchase dependence, clan tensions and limited health services. Exit probability reflects thin CMAM/health coverage, consistently accessible programme access and low endemic disease pressure; incidence reflects the livelihood vulnerability, structural IDP hosting and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings and recurrent drought/flood shocks. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 20.06,
+        "b": 85.519
+      },
+      "gamma": {
+        "a": 9.144,
+        "b": 2364.515
+      },
+      "omega": {
+        "a": 6.23,
+        "b": 2271.733
+      }
+    },
+    {
+      "district": "Cadale",
+      "reasoning": "Coastal Deeh pastoral and fishing district with Al-Shabaab influence, sparse services and seasonal fishing income. Exit probability reflects thin CMAM/health coverage, only sporadically or partially accessible (garrison town/road blockades) programme access and moderate endemic disease pressure; incidence reflects the livelihood vulnerability and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 19.41,
+        "b": 70.869
+      },
+      "gamma": {
+        "a": 9.146,
+        "b": 2537.36
+      },
+      "omega": {
+        "a": 6.234,
+        "b": 2748.653
+      }
+    },
+    {
+      "district": "Caluula",
+      "reasoning": "Remote East Golis Frankincense and Fishing coast at the Horn's tip, with seasonal fishing income, sea-dependent supply and minimal health services. Exit probability reflects thin CMAM/health coverage, consistently accessible programme access and low endemic disease pressure; incidence reflects the livelihood vulnerability. Month-to-month variability is driven by pronounced lean-season swings and unstable market supply and prices. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 20.06,
+        "b": 85.519
+      },
+      "gamma": {
+        "a": 9.158,
+        "b": 3794.79
+      },
+      "omega": {
+        "a": 6.24,
+        "b": 4706.497
+      }
+    },
+    {
+      "district": "Caynabo",
+      "reasoning": "Hawd/Nugaal pastoral district on the Sool-Togdheer boundary exposed to recurrent clan and territorial clashes, with limited services. Exit probability reflects thin CMAM/health coverage, consistently accessible programme access and low endemic disease pressure; incidence reflects the livelihood vulnerability and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings and recurrent drought/flood shocks. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 20.06,
+        "b": 85.519
+      },
+      "gamma": {
+        "a": 9.149,
+        "b": 2750.296
+      },
+      "omega": {
+        "a": 6.233,
+        "b": 2641.556
+      }
+    },
+    {
+      "district": "Ceel Afweyn",
+      "reasoning": "Northern Inland/Hawd pastoral district with repeated inter-clan conflict over land and water, and sparse health services. Exit probability reflects thin CMAM/health coverage, consistently accessible programme access and low endemic disease pressure; incidence reflects the livelihood vulnerability and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings and recurrent drought/flood shocks. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 20.06,
+        "b": 85.519
+      },
+      "gamma": {
+        "a": 9.149,
+        "b": 2750.296
+      },
+      "omega": {
+        "a": 6.233,
+        "b": 2641.556
+      }
+    },
+    {
+      "district": "Ceel Barde",
+      "reasoning": "Southern Agropastoral/pastoral district on the Ethiopian border with cross-border trade but insecure surroundings and limited services. Exit probability reflects thin CMAM/health coverage, only sporadically or partially accessible (garrison town/road blockades) programme access and moderate endemic disease pressure; incidence reflects the livelihood vulnerability, structural IDP hosting and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings, recurrent drought/flood shocks and volatile displacement flows. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 19.41,
+        "b": 70.869
+      },
+      "gamma": {
+        "a": 9.13,
+        "b": 1746.68
+      },
+      "omega": {
+        "a": 6.221,
+        "b": 1547.54
+      }
+    },
+    {
+      "district": "Ceel Buur",
+      "reasoning": "Cowpea Belt agropastoral district under long-run Al-Shabaab control, chronically inaccessible with taxed and restricted trade. Exit probability reflects essentially absent CMAM/health coverage, chronically inaccessible programme access and moderate endemic disease pressure; incidence reflects the livelihood vulnerability and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings, recurrent drought/flood shocks and unstable market supply and prices. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 20.19,
+        "b": 88.945
+      },
+      "gamma": {
+        "a": 9.128,
+        "b": 1694.489
+      },
+      "omega": {
+        "a": 6.221,
+        "b": 1541.802
+      }
+    },
+    {
+      "district": "Ceel Dheere",
+      "reasoning": "Cowpea Belt/Coastal Deeh district under long-run Al-Shabaab control, chronically inaccessible to programmes. Exit probability reflects essentially absent CMAM/health coverage, chronically inaccessible programme access and moderate endemic disease pressure; incidence reflects the livelihood vulnerability and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings, recurrent drought/flood shocks and unstable market supply and prices. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 20.19,
+        "b": 88.945
+      },
+      "gamma": {
+        "a": 9.128,
+        "b": 1694.489
+      },
+      "omega": {
+        "a": 6.221,
+        "b": 1541.802
+      }
+    },
+    {
+      "district": "Ceel Waaq",
+      "reasoning": "Southern Inland Pastoral district on the Kenyan border with insecure surroundings and sparse services. Exit probability reflects thin CMAM/health coverage, only sporadically or partially accessible (garrison town/road blockades) programme access and moderate endemic disease pressure; incidence reflects the livelihood vulnerability, structural IDP hosting and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings and recurrent drought/flood shocks. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 19.41,
+        "b": 70.869
+      },
+      "gamma": {
+        "a": 9.14,
+        "b": 2181.239
+      },
+      "omega": {
+        "a": 6.229,
+        "b": 2096.039
+      }
+    },
+    {
+      "district": "Ceerigaabo",
+      "reasoning": "Sanaag regional centre in the Golis highlands mixing frankincense, pastoralism and some rainfed cropping, with recurrent clan land disputes and moderate health coverage. Exit probability reflects moderate CMAM/health coverage, consistently accessible programme access and low endemic disease pressure; incidence reflects the livelihood vulnerability, structural IDP hosting and conflict constraints on livelihoods. Month-to-month variability is expected to be comparatively low given stable markets, security and livelihoods.",
+      "p": {
+        "a": 34.447,
+        "b": 122.129
+      },
+      "gamma": {
+        "a": 15.947,
+        "b": 5142.762
+      },
+      "omega": {
+        "a": 11.09,
+        "b": 6395.089
+      }
+    },
+    {
+      "district": "Dhuusamarreeb",
+      "reasoning": "Galmudug capital in the Addun/Cowpea Belt area with moderate services but large IDP sites and repeated armed contestation during 2017-2021. Exit probability reflects moderate CMAM/health coverage, consistently accessible programme access and low endemic disease pressure; incidence reflects the livelihood vulnerability, structural IDP hosting and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings, recurrent drought/flood shocks, volatile displacement flows and unstable conflict and access.",
+      "p": {
+        "a": 34.447,
+        "b": 122.129
+      },
+      "gamma": {
+        "a": 15.924,
+        "b": 3542.116
+      },
+      "omega": {
+        "a": 11.066,
+        "b": 2967.988
+      }
+    },
+    {
+      "district": "Diinsoor",
+      "reasoning": "Bay agropastoral garrison town surrounded by Al-Shabaab-held countryside, with blockaded trade and recurrent displacement. Exit probability reflects thin CMAM/health coverage, only sporadically or partially accessible (garrison town/road blockades) programme access and high endemic disease pressure; incidence reflects the livelihood vulnerability, structural IDP hosting and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings, recurrent drought/flood shocks, volatile displacement flows, unstable conflict and access and unstable market supply and prices. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 18.76,
+        "b": 59.407
+      },
+      "gamma": {
+        "a": 9.124,
+        "b": 1578.629
+      },
+      "omega": {
+        "a": 6.214,
+        "b": 1236.646
+      }
+    },
+    {
+      "district": "Doolow",
+      "reasoning": "Juba riverine pump-irrigation town on the Ethiopian border, a long-standing humanitarian hub with large IDP settlements and repeated drought- and conflict-driven arrivals. Exit probability reflects dense, long-running CMAM/health coverage, consistently accessible programme access and high endemic disease pressure; incidence reflects the livelihood vulnerability, structural IDP hosting. Month-to-month variability is driven by pronounced lean-season swings, recurrent drought/flood shocks and volatile displacement flows.",
+      "p": {
+        "a": 30.811,
+        "b": 71.893
+      },
+      "gamma": {
+        "a": 15.931,
+        "b": 3918.099
+      },
+      "omega": {
+        "a": 11.073,
+        "b": 3540.155
+      }
+    },
+    {
+      "district": "Eyl",
+      "reasoning": "Remote Coastal Deeh Pastoral and Fishing district with high market dependence, seasonal fishing and sparse health facilities. Exit probability reflects thin CMAM/health coverage, consistently accessible programme access and low endemic disease pressure; incidence reflects the livelihood vulnerability. Month-to-month variability is driven by pronounced lean-season swings and recurrent drought/flood shocks. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 20.06,
+        "b": 85.519
+      },
+      "gamma": {
+        "a": 9.152,
+        "b": 3041.577
+      },
+      "omega": {
+        "a": 6.237,
+        "b": 3517.586
+      }
+    },
+    {
+      "district": "Gaalkacyo",
+      "reasoning": "Divided city on the Puntland-Galmudug line, a major market hub with moderate health services but large IDP settlements and repeated armed clashes between administrations. Exit probability reflects moderate CMAM/health coverage, consistently accessible programme access and moderate endemic disease pressure; incidence reflects the livelihood vulnerability, structural IDP hosting and conflict constraints on livelihoods. Month-to-month variability is driven by volatile displacement flows and unstable conflict and access.",
+      "p": {
+        "a": 33.311,
+        "b": 102.651
+      },
+      "gamma": {
+        "a": 15.939,
+        "b": 4421.836
+      },
+      "omega": {
+        "a": 11.082,
+        "b": 4526.209
+      }
+    },
+    {
+      "district": "Galdogob",
+      "reasoning": "Hawd Pastoral district on the Ethiopian border with high cereal purchase dependence, water scarcity and sparse services. Exit probability reflects thin CMAM/health coverage, consistently accessible programme access and low endemic disease pressure; incidence reflects the livelihood vulnerability. Month-to-month variability is driven by pronounced lean-season swings and recurrent drought/flood shocks. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 20.06,
+        "b": 85.519
+      },
+      "gamma": {
+        "a": 9.152,
+        "b": 3041.577
+      },
+      "omega": {
+        "a": 6.235,
+        "b": 2920.788
+      }
+    },
+    {
+      "district": "Garbahaarey",
+      "reasoning": "Gedo regional centre in Southern Agropastoral/Inland Pastoral zones with Al-Shabaab-held rural areas and limited services. Exit probability reflects thin CMAM/health coverage, only sporadically or partially accessible (garrison town/road blockades) programme access and moderate endemic disease pressure; incidence reflects the livelihood vulnerability, structural IDP hosting and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings, recurrent drought/flood shocks and volatile displacement flows. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 19.41,
+        "b": 70.869
+      },
+      "gamma": {
+        "a": 9.13,
+        "b": 1746.68
+      },
+      "omega": {
+        "a": 6.221,
+        "b": 1547.54
+      }
+    },
+    {
+      "district": "Garoowe",
+      "reasoning": "Puntland capital with diversified urban economy and good health/CMAM services, hosting protracted IDP settlements. Exit probability reflects dense, long-running CMAM/health coverage, consistently accessible programme access and low endemic disease pressure; incidence reflects the livelihood vulnerability, structural IDP hosting. Month-to-month variability is expected to be comparatively low given stable markets, security and livelihoods.",
+      "p": {
+        "a": 33.083,
+        "b": 99.25
+      },
+      "gamma": {
+        "a": 15.956,
+        "b": 6101.838
+      },
+      "omega": {
+        "a": 11.097,
+        "b": 9238.256
+      }
+    },
+    {
+      "district": "Gebiley",
+      "reasoning": "High-potential Northwest Agropastoral zone with gu and karan cereal harvests and proximity to Hargeysa markets, structurally among the most food-secure rural districts. Exit probability reflects moderate CMAM/health coverage, consistently accessible programme access and low endemic disease pressure; incidence reflects the livelihood vulnerability. Month-to-month variability is expected to be comparatively low given stable markets, security and livelihoods.",
+      "p": {
+        "a": 34.447,
+        "b": 122.129
+      },
+      "gamma": {
+        "a": 15.967,
+        "b": 8248.138
+      },
+      "omega": {
+        "a": 11.102,
+        "b": 14353.706
+      }
+    },
+    {
+      "district": "Hargeysa",
+      "reasoning": "Somaliland capital with diversified urban income and the densest health and CMAM infrastructure in the north, but hosting large protracted IDP settlements with crowded sanitation. Exit probability reflects dense, long-running CMAM/health coverage, consistently accessible programme access and moderate endemic disease pressure; incidence reflects the livelihood vulnerability, structural IDP hosting. Month-to-month variability is expected to be comparatively low given stable markets, security and livelihoods.",
+      "p": {
+        "a": 31.947,
+        "b": 84.224
+      },
+      "gamma": {
+        "a": 15.956,
+        "b": 6101.838
+      },
+      "omega": {
+        "a": 11.098,
+        "b": 9884.404
+      }
+    },
+    {
+      "district": "Hobyo",
+      "reasoning": "Addun and Coastal Deeh pastoral district bordering Al-Shabaab-held areas, with recurrent drought-driven displacement, clan conflict and poorly supplied markets. Exit probability reflects thin CMAM/health coverage, only sporadically or partially accessible (garrison town/road blockades) programme access and low endemic disease pressure; incidence reflects the livelihood vulnerability, structural IDP hosting and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings, recurrent drought/flood shocks, volatile displacement flows, unstable conflict and access and unstable market supply and prices. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 20.06,
+        "b": 85.519
+      },
+      "gamma": {
+        "a": 9.13,
+        "b": 1746.68
+      },
+      "omega": {
+        "a": 6.217,
+        "b": 1368.118
+      }
+    },
+    {
+      "district": "Iskushuban",
+      "reasoning": "Karkaar-Dharoor pastoral and coastal district with poor roads, sparse services and armed-group activity in nearby mountains. Exit probability reflects thin CMAM/health coverage, consistently accessible programme access and low endemic disease pressure; incidence reflects the livelihood vulnerability. Month-to-month variability is driven by pronounced lean-season swings and recurrent drought/flood shocks. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 20.06,
+        "b": 85.519
+      },
+      "gamma": {
+        "a": 9.152,
+        "b": 3041.577
+      },
+      "omega": {
+        "a": 6.235,
+        "b": 2920.788
+      }
+    },
+    {
+      "district": "Jalalaqsi",
+      "reasoning": "Shabelle riverine/agropastoral district with besieged-town dynamics, road blockades, flood exposure and minimal health services. Exit probability reflects thin CMAM/health coverage, only sporadically or partially accessible (garrison town/road blockades) programme access and high endemic disease pressure; incidence reflects the livelihood vulnerability, structural IDP hosting and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings, recurrent drought/flood shocks, volatile displacement flows, unstable conflict and access and unstable market supply and prices. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 18.76,
+        "b": 59.407
+      },
+      "gamma": {
+        "a": 9.124,
+        "b": 1578.629
+      },
+      "omega": {
+        "a": 6.214,
+        "b": 1236.646
+      }
+    },
+    {
+      "district": "Jamaame",
+      "reasoning": "Lower Juba gravity-irrigation riverine district under Al-Shabaab control, chronically inaccessible with flood exposure. Exit probability reflects essentially absent CMAM/health coverage, chronically inaccessible programme access and high endemic disease pressure; incidence reflects the livelihood vulnerability and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings, recurrent drought/flood shocks, volatile displacement flows, unstable conflict and access and unstable market supply and prices. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 19.54,
+        "b": 73.508
+      },
+      "gamma": {
+        "a": 9.128,
+        "b": 1694.489
+      },
+      "omega": {
+        "a": 6.216,
+        "b": 1327.287
+      }
+    },
+    {
+      "district": "Jariiban",
+      "reasoning": "Addun Pastoral and Coastal Deeh district with high market dependence, recurrent drought and very limited health infrastructure. Exit probability reflects thin CMAM/health coverage, consistently accessible programme access and low endemic disease pressure; incidence reflects the livelihood vulnerability. Month-to-month variability is driven by pronounced lean-season swings and recurrent drought/flood shocks. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 20.06,
+        "b": 85.519
+      },
+      "gamma": {
+        "a": 9.152,
+        "b": 3041.577
+      },
+      "omega": {
+        "a": 6.235,
+        "b": 2920.788
+      }
+    },
+    {
+      "district": "Jilib",
+      "reasoning": "Juba gravity-irrigation riverine district and Al-Shabaab's de facto administrative centre, chronically inaccessible to humanitarian programmes. Exit probability reflects essentially absent CMAM/health coverage, chronically inaccessible programme access and high endemic disease pressure; incidence reflects the livelihood vulnerability and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings, recurrent drought/flood shocks, volatile displacement flows, unstable conflict and access and unstable market supply and prices. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 19.54,
+        "b": 73.508
+      },
+      "gamma": {
+        "a": 9.128,
+        "b": 1694.489
+      },
+      "omega": {
+        "a": 6.216,
+        "b": 1327.287
+      }
+    },
+    {
+      "district": "Jowhar",
+      "reasoning": "Shabelle gravity/pump irrigation zone and HirShabelle capital, exposed to repeated river breakages and flood displacement, with partners in town and insecure rural areas. Exit probability reflects moderate CMAM/health coverage, only sporadically or partially accessible (garrison town/road blockades) programme access and high endemic disease pressure; incidence reflects the livelihood vulnerability, structural IDP hosting and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings, recurrent drought/flood shocks and volatile displacement flows.",
+      "p": {
+        "a": 32.174,
+        "b": 86.99
+      },
+      "gamma": {
+        "a": 15.912,
+        "b": 3044.154
+      },
+      "omega": {
+        "a": 11.063,
+        "b": 2751.958
+      }
+    },
+    {
+      "district": "Kismaayo",
+      "reasoning": "Jubaland capital and port with diversified urban income and good partner presence, hosting large IDP and refugee-returnee populations. Exit probability reflects dense, long-running CMAM/health coverage, consistently accessible programme access and moderate endemic disease pressure; incidence reflects the livelihood vulnerability, structural IDP hosting and conflict constraints on livelihoods. Month-to-month variability is driven by volatile displacement flows.",
+      "p": {
+        "a": 31.947,
+        "b": 84.224
+      },
+      "gamma": {
+        "a": 15.939,
+        "b": 4421.836
+      },
+      "omega": {
+        "a": 11.084,
+        "b": 4966.471
+      }
+    },
+    {
+      "district": "Kurtunwaarey",
+      "reasoning": "Riverine/agropastoral district under Al-Shabaab control, chronically inaccessible, with flood exposure and endemic waterborne disease. Exit probability reflects essentially absent CMAM/health coverage, chronically inaccessible programme access and high endemic disease pressure; incidence reflects the livelihood vulnerability and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings, recurrent drought/flood shocks, volatile displacement flows, unstable conflict and access and unstable market supply and prices. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 19.54,
+        "b": 73.508
+      },
+      "gamma": {
+        "a": 9.128,
+        "b": 1694.489
+      },
+      "omega": {
+        "a": 6.216,
+        "b": 1327.287
+      }
+    },
+    {
+      "district": "Laas Caanood",
+      "reasoning": "Northern Inland/Nugaal valley pastoral regional centre in contested Sool, dependent on livestock exports and purchased staples, with intermittent clan and territorial tensions. Exit probability reflects moderate CMAM/health coverage, only sporadically or partially accessible (garrison town/road blockades) programme access and low endemic disease pressure; incidence reflects the livelihood vulnerability, structural IDP hosting and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings and recurrent drought/flood shocks.",
+      "p": {
+        "a": 34.447,
+        "b": 122.129
+      },
+      "gamma": {
+        "a": 15.929,
+        "b": 3801.331
+      },
+      "omega": {
+        "a": 11.075,
+        "b": 3727.068
+      }
+    },
+    {
+      "district": "Laasqoray",
+      "reasoning": "Remote East Golis Frankincense, Goats and Fishing coast in the contested area, supplied mainly by sea, with very limited health infrastructure. Exit probability reflects thin CMAM/health coverage, only sporadically or partially accessible (garrison town/road blockades) programme access and low endemic disease pressure; incidence reflects the livelihood vulnerability and conflict constraints on livelihoods. Month-to-month variability is driven by unstable market supply and prices. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 20.06,
+        "b": 85.519
+      },
+      "gamma": {
+        "a": 9.153,
+        "b": 3166.494
+      },
+      "omega": {
+        "a": 6.237,
+        "b": 3600.439
+      }
+    },
+    {
+      "district": "Lughaye",
+      "reasoning": "Arid Guban Pastoral coastal plain with high market dependence for staples, very sparse fixed health services and strong seasonal herd migration toward the coast in the xays season. Exit probability reflects thin CMAM/health coverage, consistently accessible programme access and low endemic disease pressure; incidence reflects the livelihood vulnerability. Month-to-month variability is driven by pronounced lean-season swings and recurrent drought/flood shocks. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 20.06,
+        "b": 85.519
+      },
+      "gamma": {
+        "a": 9.152,
+        "b": 3041.577
+      },
+      "omega": {
+        "a": 6.236,
+        "b": 3191.642
+      }
+    },
+    {
+      "district": "Luuq",
+      "reasoning": "Juba riverine pump-irrigation district with IDP settlements, flood exposure and accessible town-based services. Exit probability reflects moderate CMAM/health coverage, consistently accessible programme access and high endemic disease pressure; incidence reflects the livelihood vulnerability, structural IDP hosting and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings, recurrent drought/flood shocks and volatile displacement flows.",
+      "p": {
+        "a": 32.174,
+        "b": 86.99
+      },
+      "gamma": {
+        "a": 15.924,
+        "b": 3542.116
+      },
+      "omega": {
+        "a": 11.069,
+        "b": 3201.062
+      }
+    },
+    {
+      "district": "Marka",
+      "reasoning": "Riverine/coastal district with government-held town and Al-Shabaab-held countryside, frequent clashes, river-flood exposure and limited services. Exit probability reflects thin CMAM/health coverage, only sporadically or partially accessible (garrison town/road blockades) programme access and high endemic disease pressure; incidence reflects the livelihood vulnerability, structural IDP hosting and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings, recurrent drought/flood shocks, volatile displacement flows, unstable conflict and access and unstable market supply and prices. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 18.76,
+        "b": 59.407
+      },
+      "gamma": {
+        "a": 9.124,
+        "b": 1578.629
+      },
+      "omega": {
+        "a": 6.214,
+        "b": 1236.646
+      }
+    },
+    {
+      "district": "Owdweyne",
+      "reasoning": "Togdheer Agropastoral and Hawd Pastoral district near Burco, secure but with limited fixed health facilities. Exit probability reflects thin CMAM/health coverage, consistently accessible programme access and low endemic disease pressure; incidence reflects the livelihood vulnerability. Month-to-month variability is expected to be comparatively low given stable markets, security and livelihoods. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 20.06,
+        "b": 85.519
+      },
+      "gamma": {
+        "a": 9.158,
+        "b": 3794.79
+      },
+      "omega": {
+        "a": 6.242,
+        "b": 5886.492
+      }
+    },
+    {
+      "district": "Qandala",
+      "reasoning": "East Golis Frankincense and Fishing coast with seasonal income, sparse services and episodic armed-group insecurity. Exit probability reflects thin CMAM/health coverage, consistently accessible programme access and low endemic disease pressure; incidence reflects the livelihood vulnerability and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 20.06,
+        "b": 85.519
+      },
+      "gamma": {
+        "a": 9.156,
+        "b": 3431.83
+      },
+      "omega": {
+        "a": 6.239,
+        "b": 4107.479
+      }
+    },
+    {
+      "district": "Qansax Dheere",
+      "reasoning": "Bay agropastoral district whose air access was suspended for most of 2020-21 after attacks on aircraft, with blockaded roads and minimal services. Exit probability reflects thin CMAM/health coverage, only sporadically or partially accessible (garrison town/road blockades) programme access and high endemic disease pressure; incidence reflects the livelihood vulnerability, structural IDP hosting and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings, recurrent drought/flood shocks, volatile displacement flows, unstable conflict and access and unstable market supply and prices. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 18.76,
+        "b": 59.407
+      },
+      "gamma": {
+        "a": 9.124,
+        "b": 1578.629
+      },
+      "omega": {
+        "a": 6.214,
+        "b": 1236.646
+      }
+    },
+    {
+      "district": "Qardho",
+      "reasoning": "Karkaar-Dharoor Pastoral market town on the Garoowe-Bossaso road with moderate services and drought-prone pastoral hinterland. Exit probability reflects moderate CMAM/health coverage, consistently accessible programme access and low endemic disease pressure; incidence reflects the livelihood vulnerability, structural IDP hosting. Month-to-month variability is driven by pronounced lean-season swings and recurrent drought/flood shocks.",
+      "p": {
+        "a": 34.447,
+        "b": 122.129
+      },
+      "gamma": {
+        "a": 15.952,
+        "b": 5687.091
+      },
+      "omega": {
+        "a": 11.089,
+        "b": 6087.958
+      }
+    },
+    {
+      "district": "Qoryooley",
+      "reasoning": "Shabelle gravity-irrigation district with contested rural areas, recurrent flooding, endemic waterborne disease and disrupted markets. Exit probability reflects thin CMAM/health coverage, only sporadically or partially accessible (garrison town/road blockades) programme access and high endemic disease pressure; incidence reflects the livelihood vulnerability, structural IDP hosting and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings, recurrent drought/flood shocks, volatile displacement flows, unstable conflict and access and unstable market supply and prices. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 18.76,
+        "b": 59.407
+      },
+      "gamma": {
+        "a": 9.124,
+        "b": 1578.629
+      },
+      "omega": {
+        "a": 6.214,
+        "b": 1236.646
+      }
+    },
+    {
+      "district": "Rab Dhuure",
+      "reasoning": "Bay-Bakool Low Potential Agropastoral district under Al-Shabaab control, chronically inaccessible with blockaded trade. Exit probability reflects essentially absent CMAM/health coverage, chronically inaccessible programme access and high endemic disease pressure; incidence reflects the livelihood vulnerability and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings, recurrent drought/flood shocks, volatile displacement flows, unstable conflict and access and unstable market supply and prices. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 19.54,
+        "b": 73.508
+      },
+      "gamma": {
+        "a": 9.115,
+        "b": 1356.059
+      },
+      "omega": {
+        "a": 6.208,
+        "b": 1062.521
+      }
+    },
+    {
+      "district": "Saakow",
+      "reasoning": "Middle Juba riverine/agropastoral district under Al-Shabaab control, chronically inaccessible, with recurrent flood and drought displacement. Exit probability reflects essentially absent CMAM/health coverage, chronically inaccessible programme access and high endemic disease pressure; incidence reflects the livelihood vulnerability and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings, recurrent drought/flood shocks, volatile displacement flows, unstable conflict and access and unstable market supply and prices. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 19.54,
+        "b": 73.508
+      },
+      "gamma": {
+        "a": 9.128,
+        "b": 1694.489
+      },
+      "omega": {
+        "a": 6.216,
+        "b": 1327.287
+      }
+    },
+    {
+      "district": "Sablaale",
+      "reasoning": "Lower Shabelle riverine district under Al-Shabaab control, chronically inaccessible, with flood exposure and endemic waterborne disease. Exit probability reflects essentially absent CMAM/health coverage, chronically inaccessible programme access and high endemic disease pressure; incidence reflects the livelihood vulnerability and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings, recurrent drought/flood shocks, volatile displacement flows, unstable conflict and access and unstable market supply and prices. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 19.54,
+        "b": 73.508
+      },
+      "gamma": {
+        "a": 9.128,
+        "b": 1694.489
+      },
+      "omega": {
+        "a": 6.216,
+        "b": 1327.287
+      }
+    },
+    {
+      "district": "Sheikh",
+      "reasoning": "Small Golis highland district with agropastoral livelihoods on the Burco-Berbera corridor, secure with modest health services. Exit probability reflects moderate CMAM/health coverage, consistently accessible programme access and low endemic disease pressure; incidence reflects the livelihood vulnerability. Month-to-month variability is expected to be comparatively low given stable markets, security and livelihoods. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 19.28,
+        "b": 68.356
+      },
+      "gamma": {
+        "a": 9.158,
+        "b": 3794.79
+      },
+      "omega": {
+        "a": 6.242,
+        "b": 5886.492
+      }
+    },
+    {
+      "district": "Taleex",
+      "reasoning": "Remote Northern Inland Pastoral district with poor road access, high cereal and water purchase dependence and minimal health services. Exit probability reflects thin CMAM/health coverage, only sporadically or partially accessible (garrison town/road blockades) programme access and low endemic disease pressure; incidence reflects the livelihood vulnerability. Month-to-month variability is driven by pronounced lean-season swings and recurrent drought/flood shocks. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 20.06,
+        "b": 85.519
+      },
+      "gamma": {
+        "a": 9.15,
+        "b": 2806.246
+      },
+      "omega": {
+        "a": 6.233,
+        "b": 2695.191
+      }
+    },
+    {
+      "district": "Tayeeglow",
+      "reasoning": "Bay-Bakool Low Potential Agropastoral district under Al-Shabaab control after the 2016 troop withdrawal, chronically inaccessible with high out-migration. Exit probability reflects essentially absent CMAM/health coverage, chronically inaccessible programme access and high endemic disease pressure; incidence reflects the livelihood vulnerability and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings, recurrent drought/flood shocks, volatile displacement flows, unstable conflict and access and unstable market supply and prices. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 19.54,
+        "b": 73.508
+      },
+      "gamma": {
+        "a": 9.115,
+        "b": 1356.059
+      },
+      "omega": {
+        "a": 6.208,
+        "b": 1062.521
+      }
+    },
+    {
+      "district": "Waajid",
+      "reasoning": "Bay-Bakool Low Potential Agropastoral garrison town under siege, with blockaded markets, recurrent drought displacement and minimal services. Exit probability reflects thin CMAM/health coverage, only sporadically or partially accessible (garrison town/road blockades) programme access and high endemic disease pressure; incidence reflects the livelihood vulnerability, structural IDP hosting and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings, recurrent drought/flood shocks, volatile displacement flows, unstable conflict and access and unstable market supply and prices. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 18.76,
+        "b": 59.407
+      },
+      "gamma": {
+        "a": 9.11,
+        "b": 1263.081
+      },
+      "omega": {
+        "a": 6.205,
+        "b": 989.782
+      }
+    },
+    {
+      "district": "Wanla Weyn",
+      "reasoning": "Sorghum High Potential Agropastoral district on the Mogadishu-Baidoa road, contested with recurrent displacement and sporadic access. Exit probability reflects thin CMAM/health coverage, only sporadically or partially accessible (garrison town/road blockades) programme access and moderate endemic disease pressure; incidence reflects the livelihood vulnerability, structural IDP hosting and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings, recurrent drought/flood shocks, volatile displacement flows and unstable conflict and access. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 19.41,
+        "b": 70.869
+      },
+      "gamma": {
+        "a": 9.14,
+        "b": 2181.239
+      },
+      "omega": {
+        "a": 6.225,
+        "b": 1791.053
+      }
+    },
+    {
+      "district": "Xarardheere",
+      "reasoning": "Coastal Deeh/Addun pastoral district under long-run Al-Shabaab control, chronically inaccessible to humanitarian programmes and with restricted trade. Exit probability reflects essentially absent CMAM/health coverage, chronically inaccessible programme access and moderate endemic disease pressure; incidence reflects the livelihood vulnerability and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings, recurrent drought/flood shocks and unstable market supply and prices. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 20.19,
+        "b": 88.945
+      },
+      "gamma": {
+        "a": 9.128,
+        "b": 1694.489
+      },
+      "omega": {
+        "a": 6.221,
+        "b": 1541.802
+      }
+    },
+    {
+      "district": "Xudun",
+      "reasoning": "Remote Northern Inland Pastoral (Sool plateau) district in the contested zone, with high water and cereal purchase dependence and very few health facilities. Exit probability reflects thin CMAM/health coverage, only sporadically or partially accessible (garrison town/road blockades) programme access and low endemic disease pressure; incidence reflects the livelihood vulnerability and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings and recurrent drought/flood shocks. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 20.06,
+        "b": 85.519
+      },
+      "gamma": {
+        "a": 9.146,
+        "b": 2537.36
+      },
+      "omega": {
+        "a": 6.232,
+        "b": 2437.429
+      }
+    },
+    {
+      "district": "Xudur",
+      "reasoning": "Bay-Bakool Low Potential Agropastoral regional centre under long-term Al-Shabaab siege, supplied largely by air, with a regional hospital but highly restricted rural access. Exit probability reflects moderate CMAM/health coverage, only sporadically or partially accessible (garrison town/road blockades) programme access and high endemic disease pressure; incidence reflects the livelihood vulnerability, structural IDP hosting and conflict constraints on livelihoods. Month-to-month variability is driven by pronounced lean-season swings, recurrent drought/flood shocks, volatile displacement flows, unstable conflict and access and unstable market supply and prices. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 17.98,
+        "b": 48.613
+      },
+      "gamma": {
+        "a": 9.11,
+        "b": 1263.081
+      },
+      "omega": {
+        "a": 6.205,
+        "b": 989.782
+      }
+    },
+    {
+      "district": "Zeylac",
+      "reasoning": "Remote Guban Pastoral district on the Djibouti border, reliant on purchased cereals and cross-border trade, with sparse health facilities and strong xays-driven seasonal mobility. Exit probability reflects thin CMAM/health coverage, consistently accessible programme access and low endemic disease pressure; incidence reflects the livelihood vulnerability. Month-to-month variability is driven by pronounced lean-season swings and recurrent drought/flood shocks. Structural information is thin, so priors are widened rather than shifted.",
+      "p": {
+        "a": 20.06,
+        "b": 85.519
+      },
+      "gamma": {
+        "a": 9.152,
+        "b": 3041.577
+      },
+      "omega": {
+        "a": 6.236,
+        "b": 3191.642
+      }
+    }
+  ]
+}

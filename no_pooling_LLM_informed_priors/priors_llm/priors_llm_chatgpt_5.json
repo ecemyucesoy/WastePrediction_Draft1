@@ -1,0 +1,2142 @@
+{
+  "districts": [
+    {
+      "district": "Adan Yabaal",
+      "reasoning": "Cowpea farming and coastal pastoral livelihoods provide fragile food access, while persistent insecurity supports a lower p and higher gamma. Rainfall-dependent production, seasonal milk supply and recurring trade interruptions support a relatively high omega.",
+      "p": {
+        "a": 10.8,
+        "b": 49.2
+      },
+      "gamma": {
+        "a": 27,
+        "b": 2973
+      },
+      "omega": {
+        "a": 20,
+        "b": 4980
+      }
+    },
+    {
+      "district": "Afgooye",
+      "reasoning": "Shabelle irrigation and access to Mogadishu markets provide food and income options, but displacement settlements and insecure rural supply routes raise gamma and limit the upward adjustment to p. Flood cycles, farm-labour seasonality and population movements support an elevated omega.",
+      "p": {
+        "a": 31.2,
+        "b": 88.8
+      },
+      "gamma": {
+        "a": 48,
+        "b": 5952
+      },
+      "omega": {
+        "a": 38,
+        "b": 9962
+      }
+    },
+    {
+      "district": "Afmadow",
+      "reasoning": "Cattle pastoralism, inland livestock production and some riverine farming expose poorer households to asset and purchasing-power constraints, supporting elevated gamma. Rural treatment distances motivate a modest p, while seasonal pasture, livestock prices and insecure trading routes support elevated omega.",
+      "p": {
+        "a": 13.8,
+        "b": 46.2
+      },
+      "gamma": {
+        "a": 22.5,
+        "b": 2977.5
+      },
+      "omega": {
+        "a": 17.5,
+        "b": 4982.5
+      }
+    },
+    {
+      "district": "Baardheere",
+      "reasoning": "Juba pump irrigation and livestock production offer complementary livelihoods, but insecure access and dependence on irrigation inputs motivate elevated gamma and a restrained p. River-level changes, floods, crop calendars and transport disruptions support a high omega.",
+      "p": {
+        "a": 27.6,
+        "b": 92.4
+      },
+      "gamma": {
+        "a": 48,
+        "b": 5952
+      },
+      "omega": {
+        "a": 40,
+        "b": 9960
+      }
+    },
+    {
+      "district": "Badhaadhe",
+      "reasoning": "Cattle pastoralism, rainfed farming and coastal activities diversify production, but remoteness and persistent insecurity motivate elevated gamma and a lower p. Seasonal livestock and crop income, rainfall variability and disrupted trade support elevated omega.",
+      "p": {
+        "a": 11.4,
+        "b": 48.6
+      },
+      "gamma": {
+        "a": 24,
+        "b": 2976
+      },
+      "omega": {
+        "a": 17.5,
+        "b": 4982.5
+      }
+    },
+    {
+      "district": "Baki",
+      "reasoning": "West Golis pastoralism and northwestern agropastoral production offer several food pathways, supporting a relatively lower gamma. Rural distances restrain p, while seasonal grazing, crop production and purchased-grain prices imply moderate omega.",
+      "p": {
+        "a": 30,
+        "b": 90
+      },
+      "gamma": {
+        "a": 30,
+        "b": 5970
+      },
+      "omega": {
+        "a": 20,
+        "b": 9980
+      }
+    },
+    {
+      "district": "Balcad",
+      "reasoning": "Shabelle irrigation, cowpea farming and proximity to Mogadishu create income options, but insecure road access and exposed agricultural households motivate elevated gamma and a moderate p. River flooding, harvest cycles and recurrent supply-route disruptions support elevated omega.",
+      "p": {
+        "a": 30,
+        "b": 90
+      },
+      "gamma": {
+        "a": 45,
+        "b": 5955
+      },
+      "omega": {
+        "a": 37,
+        "b": 9963
+      }
+    },
+    {
+      "district": "Banadir",
+      "reasoning": "Mogadishu's markets and concentration of health providers support a relatively higher p, while established displacement settlements and insecure livelihoods keep gamma elevated. Repeated arrivals, evictions, food-price movements and interruptions to household income support elevated omega despite urban diversification.",
+      "p": {
+        "a": 36,
+        "b": 84
+      },
+      "gamma": {
+        "a": 42,
+        "b": 5958
+      },
+      "omega": {
+        "a": 30,
+        "b": 9970
+      }
+    },
+    {
+      "district": "Bandarbeyla",
+      "reasoning": "Coastal Deeh and inland pastoral livelihoods combine fishing opportunities with purchased-staple dependence, motivating an intermediate gamma. Remoteness restrains p, while monsoon effects on fishing, rainfall-dependent livestock production and transport costs support elevated omega.",
+      "p": {
+        "a": 13.2,
+        "b": 46.8
+      },
+      "gamma": {
+        "a": 18,
+        "b": 2982
+      },
+      "omega": {
+        "a": 15,
+        "b": 4985
+      }
+    },
+    {
+      "district": "Baraawe",
+      "reasoning": "Coastal trade, fishing and surrounding rainfed and irrigated agriculture offer diverse food pathways, but insecure hinterland access motivates an intermediate gamma and a restrained p. Fishing seasons, harvest labour, rainfall variability and road disruptions support elevated omega.",
+      "p": {
+        "a": 14.4,
+        "b": 45.6
+      },
+      "gamma": {
+        "a": 19.5,
+        "b": 2980.5
+      },
+      "omega": {
+        "a": 15.5,
+        "b": 4984.5
+      }
+    },
+    {
+      "district": "Baydhaba",
+      "reasoning": "Baydhaba combines an agropastoral hinterland with a major, persistent displacement-hosting role, motivating a higher gamma despite its urban markets. Urban service access supports a moderately higher p, while seasonal farm income, repeated arrivals and evictions support high omega.",
+      "p": {
+        "a": 33.6,
+        "b": 86.4
+      },
+      "gamma": {
+        "a": 63,
+        "b": 5937
+      },
+      "omega": {
+        "a": 45,
+        "b": 9955
+      }
+    },
+    {
+      "district": "Belet Weyne",
+      "reasoning": "Shabelle pump irrigation, agropastoral livelihoods and town-based services support an intermediate p, while flood-exposed households and displacement pressures motivate higher gamma. Recurrent river flooding, seasonal farm work and repeated population movements support a particularly high omega.",
+      "p": {
+        "a": 31.2,
+        "b": 88.8
+      },
+      "gamma": {
+        "a": 51,
+        "b": 5949
+      },
+      "omega": {
+        "a": 48,
+        "b": 9952
+      }
+    },
+    {
+      "district": "Belet Xaawo",
+      "reasoning": "Border commerce and pastoral livelihoods offer income pathways, but recurrent restrictions on movement and insecurity motivate elevated gamma and a moderate p. Border interruptions, livestock-market seasonality and conflict-related movements support elevated omega.",
+      "p": {
+        "a": 30,
+        "b": 90
+      },
+      "gamma": {
+        "a": 45,
+        "b": 5955
+      },
+      "omega": {
+        "a": 38,
+        "b": 9962
+      }
+    },
+    {
+      "district": "Berbera",
+      "reasoning": "Port commerce and urban health access support higher p and relatively lower gamma, while the Guban pastoral hinterland retains asset vulnerability. Imported-food prices and seasonal livestock income imply some omega, moderated by the port economy's multiple supply pathways.",
+      "p": {
+        "a": 39.6,
+        "b": 80.4
+      },
+      "gamma": {
+        "a": 27,
+        "b": 5973
+      },
+      "omega": {
+        "a": 18,
+        "b": 9982
+      }
+    },
+    {
+      "district": "Borama",
+      "reasoning": "Urban commerce and surrounding northwestern agropastoral livelihoods support relatively lower gamma, while proximity to town-based health services motivates higher p. Rainfed crop cycles and staple prices sustain some omega, with economic diversification smoothing monthly changes.",
+      "p": {
+        "a": 40.8,
+        "b": 79.2
+      },
+      "gamma": {
+        "a": 24,
+        "b": 5976
+      },
+      "omega": {
+        "a": 15,
+        "b": 9985
+      }
+    },
+    {
+      "district": "Bossaso",
+      "reasoning": "Port-linked commerce and urban health access support higher p, while established displacement settlements with constrained livelihoods motivate an upward gamma adjustment. Repeated migration, precarious urban incomes and imported-food prices support elevated omega, partly buffered by the port economy.",
+      "p": {
+        "a": 37.2,
+        "b": 82.8
+      },
+      "gamma": {
+        "a": 39,
+        "b": 5961
+      },
+      "omega": {
+        "a": 28,
+        "b": 9972
+      }
+    },
+    {
+      "district": "Bu'aale",
+      "reasoning": "Juba irrigation and cattle livelihoods face persistent access restrictions, motivating higher gamma and lower p through constrained recovery opportunities. Seasonal river conditions, crop and livestock cycles and insecure trade routes support high omega.",
+      "p": {
+        "a": 10.8,
+        "b": 49.2
+      },
+      "gamma": {
+        "a": 28.5,
+        "b": 2971.5
+      },
+      "omega": {
+        "a": 21.5,
+        "b": 4978.5
+      }
+    },
+    {
+      "district": "Bulo Burto",
+      "reasoning": "Riverine farming and inland pastoralism coexist with a longstanding blockade pattern, motivating higher gamma and a lower p despite a town-based service presence. Shabelle flooding, crop cycles and repeated disruption of essential supplies support high omega.",
+      "p": {
+        "a": 25.2,
+        "b": 94.8
+      },
+      "gamma": {
+        "a": 54,
+        "b": 5946
+      },
+      "omega": {
+        "a": 45,
+        "b": 9955
+      }
+    },
+    {
+      "district": "Burco",
+      "reasoning": "Urban livestock commerce and mixed Hawd, Golis and agropastoral surroundings support an intermediate gamma and relatively higher p through town access. Seasonal livestock sales, milk production and rainfed harvests support moderate omega, with urban trade providing some smoothing.",
+      "p": {
+        "a": 37.2,
+        "b": 82.8
+      },
+      "gamma": {
+        "a": 33,
+        "b": 5967
+      },
+      "omega": {
+        "a": 24,
+        "b": 9976
+      }
+    },
+    {
+      "district": "Burtinle",
+      "reasoning": "Hawd pastoral livelihoods and road-linked town commerce support an intermediate gamma and p rather than the assumptions used for isolated pastoral areas. Seasonal milk and livestock income, water availability and cereal purchasing power support moderately elevated omega.",
+      "p": {
+        "a": 31.2,
+        "b": 88.8
+      },
+      "gamma": {
+        "a": 36,
+        "b": 5964
+      },
+      "omega": {
+        "a": 27,
+        "b": 9973
+      }
+    },
+    {
+      "district": "Buuhoodle",
+      "reasoning": "Hawd pastoralism creates dependence on livestock assets and purchased staples, motivating elevated gamma and a restrained p for dispersed households. Seasonal water and milk availability, livestock movements and insecurity in contested surroundings support elevated omega.",
+      "p": {
+        "a": 14.4,
+        "b": 45.6
+      },
+      "gamma": {
+        "a": 19.5,
+        "b": 2980.5
+      },
+      "omega": {
+        "a": 15,
+        "b": 4985
+      }
+    },
+    {
+      "district": "Buur Hakaba",
+      "reasoning": "Low-potential agropastoral areas and market-dependent poorer households motivate higher gamma despite access to the Bay sorghum economy. Rural service barriers restrain p, while crop cycles, rainfall variation and insecure transport support high omega.",
+      "p": {
+        "a": 27.6,
+        "b": 92.4
+      },
+      "gamma": {
+        "a": 54,
+        "b": 5946
+      },
+      "omega": {
+        "a": 40,
+        "b": 9960
+      }
+    },
+    {
+      "district": "Cabudwaaq",
+      "reasoning": "Hawd livestock livelihoods and town commerce support an intermediate p, while dependence on animal income and purchased staples motivates elevated gamma. Seasonal pasture and milk availability, livestock movements and recurring resource conflicts support elevated omega.",
+      "p": {
+        "a": 31.2,
+        "b": 88.8
+      },
+      "gamma": {
+        "a": 39,
+        "b": 5961
+      },
+      "omega": {
+        "a": 32,
+        "b": 9968
+      }
+    },
+    {
+      "district": "Cadaado",
+      "reasoning": "Pastoral livelihoods and town-based trade support an intermediate p, while poor households' reliance on livestock income motivates elevated gamma. Rainfall-dependent milk supply, seasonal market demand and recurring clan and resource disputes support elevated omega.",
+      "p": {
+        "a": 32.4,
+        "b": 87.6
+      },
+      "gamma": {
+        "a": 39,
+        "b": 5961
+      },
+      "omega": {
+        "a": 32,
+        "b": 9968
+      }
+    },
+    {
+      "district": "Cadale",
+      "reasoning": "Cowpea farming and Coastal Deeh livelihoods provide several activities but remain exposed to weak market connections and insecurity, motivating elevated gamma and restrained p. Rainfall-dependent crops, pastoral seasons, fishing conditions and trade interruptions support elevated omega.",
+      "p": {
+        "a": 12.6,
+        "b": 47.4
+      },
+      "gamma": {
+        "a": 22.5,
+        "b": 2977.5
+      },
+      "omega": {
+        "a": 17.5,
+        "b": 4982.5
+      }
+    },
+    {
+      "district": "Caluula",
+      "reasoning": "East Golis goats, frankincense and fishing provide distinct income streams, supporting an intermediate gamma despite purchased-staple dependence. Remote settlements restrain p, while fishing seasons, livestock conditions and commodity-market changes support moderately elevated omega.",
+      "p": {
+        "a": 13.2,
+        "b": 46.8
+      },
+      "gamma": {
+        "a": 16.5,
+        "b": 2983.5
+      },
+      "omega": {
+        "a": 13.5,
+        "b": 4986.5
+      }
+    },
+    {
+      "district": "Caynabo",
+      "reasoning": "Northern Inland and Hawd pastoral livelihoods depend on livestock income and purchased cereals, motivating an intermediate gamma. Dispersed settlement restrains p, while rainfall-dependent milk production, water costs and livestock prices support moderately elevated omega.",
+      "p": {
+        "a": 15,
+        "b": 45
+      },
+      "gamma": {
+        "a": 18,
+        "b": 2982
+      },
+      "omega": {
+        "a": 13.5,
+        "b": 4986.5
+      }
+    },
+    {
+      "district": "Ceel Afweyn",
+      "reasoning": "Northern Inland and Golis livelihoods combine livestock with some frankincense income, but remoteness motivates elevated gamma and a restrained p. Seasonal pasture, milk availability, commodity prices and insecurity in the wider Sanaag setting support elevated omega.",
+      "p": {
+        "a": 13.8,
+        "b": 46.2
+      },
+      "gamma": {
+        "a": 19.5,
+        "b": 2980.5
+      },
+      "omega": {
+        "a": 16,
+        "b": 4984
+      }
+    },
+    {
+      "district": "Ceel Barde",
+      "reasoning": "Southern Inland pastoralism and agropastoral activities expose households to livestock-asset and cereal-purchasing constraints, motivating elevated gamma. Rural service distances restrain p, while rainfall, seasonal livestock sales and disrupted regional trade support elevated omega.",
+      "p": {
+        "a": 14.4,
+        "b": 45.6
+      },
+      "gamma": {
+        "a": 22.5,
+        "b": 2977.5
+      },
+      "omega": {
+        "a": 17.5,
+        "b": 4982.5
+      }
+    },
+    {
+      "district": "Ceel Buur",
+      "reasoning": "Cowpea and inland pastoral livelihoods are exposed to persistent insecurity and constrained programme access, motivating higher gamma and lower p. Crop and milk seasonality, rainfall variability and interruptions to markets and assistance support high omega.",
+      "p": {
+        "a": 10.8,
+        "b": 49.2
+      },
+      "gamma": {
+        "a": 27,
+        "b": 2973
+      },
+      "omega": {
+        "a": 20,
+        "b": 4980
+      }
+    },
+    {
+      "district": "Ceel Dheere",
+      "reasoning": "Cowpea and Coastal Deeh livelihoods combine rainfed production with livestock and fishing, while restricted access motivates elevated gamma and lower p. Variable rainfall, seasonal food income and insecure trade support elevated omega.",
+      "p": {
+        "a": 10.8,
+        "b": 49.2
+      },
+      "gamma": {
+        "a": 25.5,
+        "b": 2974.5
+      },
+      "omega": {
+        "a": 19,
+        "b": 4981
+      }
+    },
+    {
+      "district": "Ceel Waaq",
+      "reasoning": "Southern Inland pastoralism and border trading offer food-access pathways but retain dependence on livestock assets, motivating elevated gamma. Rural and security barriers restrain p, while livestock seasonality, rainfall variability and border disruptions support elevated omega.",
+      "p": {
+        "a": 14.4,
+        "b": 45.6
+      },
+      "gamma": {
+        "a": 21,
+        "b": 2979
+      },
+      "omega": {
+        "a": 16.5,
+        "b": 4983.5
+      }
+    },
+    {
+      "district": "Ceerigaabo",
+      "reasoning": "A town economy surrounded by Northern Inland and East Golis livelihoods supports an intermediate gamma and moderately higher p through service proximity. Seasonal milk and frankincense income, transport costs and insecurity in surrounding areas support moderate omega.",
+      "p": {
+        "a": 32.4,
+        "b": 87.6
+      },
+      "gamma": {
+        "a": 33,
+        "b": 5967
+      },
+      "omega": {
+        "a": 26,
+        "b": 9974
+      }
+    },
+    {
+      "district": "Dhuusamarreeb",
+      "reasoning": "Hawd, Addun and inland pastoral livelihoods rely on livestock earnings, while the administrative town provides comparatively better service access, motivating elevated gamma and intermediate p. Rainfall-dependent production, livestock movements and recurring resource conflicts support elevated omega.",
+      "p": {
+        "a": 32.4,
+        "b": 87.6
+      },
+      "gamma": {
+        "a": 39,
+        "b": 5961
+      },
+      "omega": {
+        "a": 32,
+        "b": 9968
+      }
+    },
+    {
+      "district": "Diinsoor",
+      "reasoning": "Mixed high- and low-potential agropastoral livelihoods face recurring blockade-related supply constraints, motivating higher gamma and lower p. Harvest and farm-labour seasons, rainfall variability and interruptions to road access support high omega.",
+      "p": {
+        "a": 25.2,
+        "b": 94.8
+      },
+      "gamma": {
+        "a": 54,
+        "b": 5946
+      },
+      "omega": {
+        "a": 42,
+        "b": 9958
+      }
+    },
+    {
+      "district": "Doolow",
+      "reasoning": "Pastoral, agropastoral and riverine livelihoods combine with a displacement-receiving border-town role, motivating higher gamma. Town-based humanitarian access supports a moderately higher p, while population movements, seasonal food access and river variability support elevated omega.",
+      "p": {
+        "a": 33.6,
+        "b": 86.4
+      },
+      "gamma": {
+        "a": 51,
+        "b": 5949
+      },
+      "omega": {
+        "a": 38,
+        "b": 9962
+      }
+    },
+    {
+      "district": "Eyl",
+      "reasoning": "Coastal Deeh fishing and Northern Inland and Hawd pastoralism provide complementary activities but retain purchased-staple dependence, motivating intermediate gamma. Remoteness restrains p, while monsoon fishing conditions, seasonal milk supply and rainfall variability support elevated omega.",
+      "p": {
+        "a": 13.8,
+        "b": 46.2
+      },
+      "gamma": {
+        "a": 18,
+        "b": 2982
+      },
+      "omega": {
+        "a": 15,
+        "b": 4985
+      }
+    },
+    {
+      "district": "Gaalkacyo",
+      "reasoning": "Urban trade and surrounding Hawd and Addun pastoralism provide several food-access pathways, supporting intermediate p and gamma assumptions. Rainfall-dependent livestock income, insecurity and population movements in the wider Mudug setting support elevated omega.",
+      "p": {
+        "a": 33.6,
+        "b": 86.4
+      },
+      "gamma": {
+        "a": 42,
+        "b": 5958
+      },
+      "omega": {
+        "a": 33,
+        "b": 9967
+      }
+    },
+    {
+      "district": "Galdogob",
+      "reasoning": "Hawd pastoralism and border-linked town commerce offer more purchasing opportunities than isolated livestock settlements, motivating intermediate gamma and moderately higher p. Seasonal livestock production, water costs and trading conditions support moderate omega.",
+      "p": {
+        "a": 32.4,
+        "b": 87.6
+      },
+      "gamma": {
+        "a": 33,
+        "b": 5967
+      },
+      "omega": {
+        "a": 25,
+        "b": 9975
+      }
+    },
+    {
+      "district": "Garbahaarey",
+      "reasoning": "Southern Inland pastoralism and riverine pockets coexist with recurrent restrictions on supplies, motivating elevated gamma and restrained p. Rainfall-dependent livestock production, river conditions and recurring access interruptions support elevated omega.",
+      "p": {
+        "a": 27.6,
+        "b": 92.4
+      },
+      "gamma": {
+        "a": 48,
+        "b": 5952
+      },
+      "omega": {
+        "a": 38,
+        "b": 9962
+      }
+    },
+    {
+      "district": "Garoowe",
+      "reasoning": "Administrative employment, commerce and urban service proximity support higher p and relatively lower gamma despite a pastoral hinterland. Seasonal livestock earnings and food-price changes sustain moderate omega, partly buffered by nonfarm income and established transport links.",
+      "p": {
+        "a": 38.4,
+        "b": 81.6
+      },
+      "gamma": {
+        "a": 30,
+        "b": 5970
+      },
+      "omega": {
+        "a": 20,
+        "b": 9980
+      }
+    },
+    {
+      "district": "Gebiley",
+      "reasoning": "Northwestern agropastoral production and access to highland markets support relatively lower gamma and moderately higher p. Rainfed harvests, agricultural wages and staple prices imply some omega, moderated by mixed crop and livestock income.",
+      "p": {
+        "a": 34.8,
+        "b": 85.2
+      },
+      "gamma": {
+        "a": 27,
+        "b": 5973
+      },
+      "omega": {
+        "a": 18,
+        "b": 9982
+      }
+    },
+    {
+      "district": "Hargeysa",
+      "reasoning": "A diversified urban economy and concentration of health providers support higher p and relatively lower gamma, while surrounding pastoral and farming households remain asset-dependent. Seasonal rural earnings and food prices sustain some omega, with urban income diversity providing a buffer.",
+      "p": {
+        "a": 40.8,
+        "b": 79.2
+      },
+      "gamma": {
+        "a": 27,
+        "b": 5973
+      },
+      "omega": {
+        "a": 18,
+        "b": 9982
+      }
+    },
+    {
+      "district": "Hobyo",
+      "reasoning": "Coastal Deeh, Addun and cowpea livelihoods provide different activities but face remoteness and fragile purchasing power, motivating elevated gamma and restrained p. Monsoon fishing conditions, crop and milk seasonality and variable rainfall support elevated omega.",
+      "p": {
+        "a": 13.2,
+        "b": 46.8
+      },
+      "gamma": {
+        "a": 19.5,
+        "b": 2980.5
+      },
+      "omega": {
+        "a": 16,
+        "b": 4984
+      }
+    },
+    {
+      "district": "Iskushuban",
+      "reasoning": "East Golis, Northern Inland and coastal livelihoods combine goats, frankincense and fishing with market dependence, motivating intermediate gamma. Dispersed settlements restrain p, while seasonal livestock and fishing income and variable rainfall support elevated omega.",
+      "p": {
+        "a": 13.2,
+        "b": 46.8
+      },
+      "gamma": {
+        "a": 18,
+        "b": 2982
+      },
+      "omega": {
+        "a": 15,
+        "b": 4985
+      }
+    },
+    {
+      "district": "Jalalaqsi",
+      "reasoning": "Riverine and inland pastoral livelihoods face insecure trade routes and constrained rural services, motivating higher gamma and restrained p. Shabelle flooding, farm-labour seasonality and repeated commercial supply interruptions support high omega.",
+      "p": {
+        "a": 26.4,
+        "b": 93.6
+      },
+      "gamma": {
+        "a": 51,
+        "b": 5949
+      },
+      "omega": {
+        "a": 42,
+        "b": 9958
+      }
+    },
+    {
+      "district": "Jamaame",
+      "reasoning": "Juba irrigation and rainfed recession farming offer agricultural resources, but persistent insecurity and restricted programme access motivate higher gamma and lower p. River flooding, seasonal labour demand and displacement towards Kismaayo support high omega.",
+      "p": {
+        "a": 10.8,
+        "b": 49.2
+      },
+      "gamma": {
+        "a": 27,
+        "b": 2973
+      },
+      "omega": {
+        "a": 21.5,
+        "b": 4978.5
+      }
+    },
+    {
+      "district": "Jariiban",
+      "reasoning": "Addun, Hawd and Coastal Deeh livelihoods retain dependence on livestock assets and purchased cereals, motivating elevated gamma. Dispersed rural service access restrains p, while milk seasonality, rainfall variability and fishing conditions support elevated omega.",
+      "p": {
+        "a": 13.8,
+        "b": 46.2
+      },
+      "gamma": {
+        "a": 19.5,
+        "b": 2980.5
+      },
+      "omega": {
+        "a": 15,
+        "b": 4985
+      }
+    },
+    {
+      "district": "Jilib",
+      "reasoning": "Juba irrigation and cattle pastoralism combine with persistent access restrictions, motivating higher gamma and lower p through limited recovery pathways. Seasonal river conditions, farm and livestock income and insecure movement of goods support high omega.",
+      "p": {
+        "a": 10.8,
+        "b": 49.2
+      },
+      "gamma": {
+        "a": 28.5,
+        "b": 2971.5
+      },
+      "omega": {
+        "a": 21.5,
+        "b": 4978.5
+      }
+    },
+    {
+      "district": "Jowhar",
+      "reasoning": "Irrigated farming, cowpea production and town commerce provide food pathways, but insecure supply routes and exposed rural livelihoods motivate elevated gamma. Town services support intermediate p, while recurrent Shabelle floods, harvest cycles and road disruptions support high omega.",
+      "p": {
+        "a": 31.2,
+        "b": 88.8
+      },
+      "gamma": {
+        "a": 48,
+        "b": 5952
+      },
+      "omega": {
+        "a": 42,
+        "b": 9958
+      }
+    },
+    {
+      "district": "Kismaayo",
+      "reasoning": "Port-linked trade, fishing and surrounding agriculture provide diversified food access, while displacement-receiving neighbourhoods motivate elevated gamma. Urban services support relatively higher p, while repeated arrivals, seasonal rural income and food prices support elevated omega.",
+      "p": {
+        "a": 36,
+        "b": 84
+      },
+      "gamma": {
+        "a": 45,
+        "b": 5955
+      },
+      "omega": {
+        "a": 34,
+        "b": 9966
+      }
+    },
+    {
+      "district": "Kurtunwaarey",
+      "reasoning": "Shabelle irrigation and inland pastoralism provide production opportunities, but restricted rural access motivates higher gamma and lower p. Flood exposure, crop and agricultural wage seasonality and insecure supply routes support high omega.",
+      "p": {
+        "a": 11.4,
+        "b": 48.6
+      },
+      "gamma": {
+        "a": 27,
+        "b": 2973
+      },
+      "omega": {
+        "a": 21,
+        "b": 4979
+      }
+    },
+    {
+      "district": "Laas Caanood",
+      "reasoning": "Town commerce and surrounding Northern Inland and Hawd pastoralism support intermediate gamma and p assumptions. Seasonal livestock earnings, rainfall variability and insecurity in the contested Sool setting during 2017–2021 support elevated omega.",
+      "p": {
+        "a": 16.2,
+        "b": 43.8
+      },
+      "gamma": {
+        "a": 18,
+        "b": 2982
+      },
+      "omega": {
+        "a": 15,
+        "b": 4985
+      }
+    },
+    {
+      "district": "Laasqoray",
+      "reasoning": "East Golis and inland pastoral livelihoods combine fishing, frankincense and livestock with purchased-staple dependence, motivating intermediate gamma. Remote mountain and coastal settlements restrain p, while fishing seasons, rainfall and commodity-market changes support elevated omega.",
+      "p": {
+        "a": 13.2,
+        "b": 46.8
+      },
+      "gamma": {
+        "a": 18,
+        "b": 2982
+      },
+      "omega": {
+        "a": 15,
+        "b": 4985
+      }
+    },
+    {
+      "district": "Lughaye",
+      "reasoning": "Guban pastoralism with some coastal income retains dependence on livestock assets and purchased food, motivating elevated gamma and restrained p. Unreliable coastal rains, seasonal milk and water availability and livestock purchasing power support elevated omega.",
+      "p": {
+        "a": 27.6,
+        "b": 92.4
+      },
+      "gamma": {
+        "a": 39,
+        "b": 5961
+      },
+      "omega": {
+        "a": 32,
+        "b": 9968
+      }
+    },
+    {
+      "district": "Luuq",
+      "reasoning": "Juba pump irrigation, agropastoralism and livestock production provide complementary livelihoods, while difficult regional access motivates elevated gamma and moderate p. River variability, crop and milk seasons and disrupted trade support high omega.",
+      "p": {
+        "a": 30,
+        "b": 90
+      },
+      "gamma": {
+        "a": 48,
+        "b": 5952
+      },
+      "omega": {
+        "a": 40,
+        "b": 9960
+      }
+    },
+    {
+      "district": "Marka",
+      "reasoning": "Irrigated and rainfed farming, coastal activities and town trade diversify food access, but recurring supply restrictions motivate elevated gamma and restrained p. Flooding, agricultural wages, fishing seasons and transport interruptions support elevated omega.",
+      "p": {
+        "a": 28.8,
+        "b": 91.2
+      },
+      "gamma": {
+        "a": 45,
+        "b": 5955
+      },
+      "omega": {
+        "a": 38,
+        "b": 9962
+      }
+    },
+    {
+      "district": "Owdweyne",
+      "reasoning": "Hawd pastoralism and smaller agropastoral and Golis areas retain livestock and purchased-grain dependence, motivating intermediate gamma. Rural treatment distances restrain p, while seasonal water, milk production and rainfed harvests support moderately elevated omega.",
+      "p": {
+        "a": 14.4,
+        "b": 45.6
+      },
+      "gamma": {
+        "a": 18,
+        "b": 2982
+      },
+      "omega": {
+        "a": 14,
+        "b": 4986
+      }
+    },
+    {
+      "district": "Qandala",
+      "reasoning": "East Golis goats, frankincense and fishing offer several income streams, but remote settlements and insecurity in the wider Bari setting motivate intermediate gamma and lower p. Fishing seasons, rainfall-dependent livestock production and disrupted coastal trade support elevated omega.",
+      "p": {
+        "a": 12.6,
+        "b": 47.4
+      },
+      "gamma": {
+        "a": 18,
+        "b": 2982
+      },
+      "omega": {
+        "a": 15.5,
+        "b": 4984.5
+      }
+    },
+    {
+      "district": "Qansax Dheere",
+      "reasoning": "Bay agropastoral livelihoods face recurring road restrictions and fragile resupply, motivating higher gamma and lower p. Rainfall-dependent harvests, seasonal labour demand and documented interruptions to air as well as road access support high omega.",
+      "p": {
+        "a": 24,
+        "b": 96
+      },
+      "gamma": {
+        "a": 57,
+        "b": 5943
+      },
+      "omega": {
+        "a": 45,
+        "b": 9955
+      }
+    },
+    {
+      "district": "Qardho",
+      "reasoning": "Town commerce and Northern Inland pastoral livelihoods support intermediate gamma and moderately higher p through improved service proximity. Seasonal livestock earnings, imported-food prices and rainfall variability support moderate omega.",
+      "p": {
+        "a": 33.6,
+        "b": 86.4
+      },
+      "gamma": {
+        "a": 33,
+        "b": 5967
+      },
+      "omega": {
+        "a": 25,
+        "b": 9975
+      }
+    },
+    {
+      "district": "Qoryooley",
+      "reasoning": "Shabelle irrigation and inland pastoralism provide production potential, but insecure rural access motivates higher gamma and restrained p. River flooding, harvest and farm-labour cycles and repeated trade interruptions support high omega.",
+      "p": {
+        "a": 13.2,
+        "b": 46.8
+      },
+      "gamma": {
+        "a": 25.5,
+        "b": 2974.5
+      },
+      "omega": {
+        "a": 20,
+        "b": 4980
+      }
+    },
+    {
+      "district": "Rab Dhuure",
+      "reasoning": "Bakool agropastoral and pastoral livelihoods depend on uncertain production and livestock income, while regional insecurity motivates higher gamma and lower p. Seasonal crop and milk availability, rainfall variability and insecure trade support high omega.",
+      "p": {
+        "a": 11.4,
+        "b": 48.6
+      },
+      "gamma": {
+        "a": 27,
+        "b": 2973
+      },
+      "omega": {
+        "a": 20,
+        "b": 4980
+      }
+    },
+    {
+      "district": "Saakow",
+      "reasoning": "Juba pump irrigation, agropastoralism and livestock production coexist with persistent access restrictions, motivating higher gamma and lower p. Seasonal river levels, crop income, rainfall variability and interrupted market access support high omega.",
+      "p": {
+        "a": 10.8,
+        "b": 49.2
+      },
+      "gamma": {
+        "a": 28.5,
+        "b": 2971.5
+      },
+      "omega": {
+        "a": 21.5,
+        "b": 4978.5
+      }
+    },
+    {
+      "district": "Sablaale",
+      "reasoning": "Shabelle irrigation and southern rainfed farming offer several crops, but restricted rural services and insecure trade motivate elevated gamma and lower p. Flood cycles, agricultural wages and recurrent supply interruptions support high omega.",
+      "p": {
+        "a": 11.4,
+        "b": 48.6
+      },
+      "gamma": {
+        "a": 25.5,
+        "b": 2974.5
+      },
+      "omega": {
+        "a": 20,
+        "b": 4980
+      }
+    },
+    {
+      "district": "Sheikh",
+      "reasoning": "West Golis pastoralism and access to the Berbera–Burco trade corridor support relatively lower gamma and moderately higher p. Seasonal livestock and milk income, rainfall and cereal prices support moderate omega, with corridor commerce providing some smoothing.",
+      "p": {
+        "a": 33.6,
+        "b": 86.4
+      },
+      "gamma": {
+        "a": 30,
+        "b": 5970
+      },
+      "omega": {
+        "a": 21,
+        "b": 9979
+      }
+    },
+    {
+      "district": "Taleex",
+      "reasoning": "Northern Inland pastoralism creates dependence on goats, sheep and purchased cereals, motivating elevated gamma. Remote service access restrains p, while rainfall-dependent grazing, water costs and seasonal livestock purchasing power support elevated omega.",
+      "p": {
+        "a": 13.8,
+        "b": 46.2
+      },
+      "gamma": {
+        "a": 19.5,
+        "b": 2980.5
+      },
+      "omega": {
+        "a": 15,
+        "b": 4985
+      }
+    },
+    {
+      "district": "Tayeeglow",
+      "reasoning": "Low-potential and southern agropastoral livelihoods face constrained market and programme access in the wider Bakool setting, motivating higher gamma and lower p. Gu and Deyr harvest cycles, livestock income and recurrent trade disruption support high omega.",
+      "p": {
+        "a": 10.8,
+        "b": 49.2
+      },
+      "gamma": {
+        "a": 28.5,
+        "b": 2971.5
+      },
+      "omega": {
+        "a": 21,
+        "b": 4979
+      }
+    },
+    {
+      "district": "Waajid",
+      "reasoning": "Low-potential and southern agropastoral production coexist with recurring blockade-related constraints, motivating higher gamma and lower p despite a town-based service presence. Rainfall, harvest labour and repeatedly interrupted supply routes support high omega.",
+      "p": {
+        "a": 25.2,
+        "b": 94.8
+      },
+      "gamma": {
+        "a": 54,
+        "b": 5946
+      },
+      "omega": {
+        "a": 42,
+        "b": 9958
+      }
+    },
+    {
+      "district": "Wanla Weyn",
+      "reasoning": "Agropastoral production and the Mogadishu–Baydhaba trade route offer income, but insecure commerce and resource conflict motivate elevated gamma and restrained p. Crop and livestock seasons, variable rainfall and recurring disruption of roads and settlements support elevated omega.",
+      "p": {
+        "a": 27.6,
+        "b": 92.4
+      },
+      "gamma": {
+        "a": 48,
+        "b": 5952
+      },
+      "omega": {
+        "a": 38,
+        "b": 9962
+      }
+    },
+    {
+      "district": "Xarardheere",
+      "reasoning": "Cowpea farming, Addun pastoralism and coastal activities diversify production but face restricted access and fragile purchasing power, motivating elevated gamma and lower p. Rainfall-dependent crops and livestock, fishing seasons and insecure trade support elevated omega.",
+      "p": {
+        "a": 10.8,
+        "b": 49.2
+      },
+      "gamma": {
+        "a": 25.5,
+        "b": 2974.5
+      },
+      "omega": {
+        "a": 19,
+        "b": 4981
+      }
+    },
+    {
+      "district": "Xudun",
+      "reasoning": "Northern Inland pastoralism and dependence on purchased staples motivate elevated gamma, while dispersed rural settlement restrains p. Seasonal milk and water availability, rainfall variability and insecurity in the wider Sool setting support elevated omega.",
+      "p": {
+        "a": 13.8,
+        "b": 46.2
+      },
+      "gamma": {
+        "a": 19.5,
+        "b": 2980.5
+      },
+      "omega": {
+        "a": 15,
+        "b": 4985
+      }
+    },
+    {
+      "district": "Xudur",
+      "reasoning": "Low-potential and southern agropastoral livelihoods face longstanding supply restrictions, motivating higher gamma and lower p despite town-based services. Harvest and livestock seasonality, variable rainfall and recurring blockade-related price changes support high omega.",
+      "p": {
+        "a": 25.2,
+        "b": 94.8
+      },
+      "gamma": {
+        "a": 54,
+        "b": 5946
+      },
+      "omega": {
+        "a": 42,
+        "b": 9958
+      }
+    },
+    {
+      "district": "Zeylac",
+      "reasoning": "Guban pastoralism and coastal and border commerce offer several income pathways, but sparse rural services and dependence on purchased food motivate intermediate gamma and restrained p. Unreliable coastal rainfall, seasonal milk supply and border trading conditions support elevated omega.",
+      "p": {
+        "a": 28.8,
+        "b": 91.2
+      },
+      "gamma": {
+        "a": 36,
+        "b": 5964
+      },
+      "omega": {
+        "a": 30,
+        "b": 9970
+      }
+    }
+  ],
+  "_metadata": {
+    "filename": "priors_llm_chatgpt_5.json",
+    "period": "2017–2021",
+    "district_count": 74,
+    "status": "Subjective structural elicitation scenario; not empirically calibrated district rate estimates.",
+    "interpretation": {
+      "p": "Monthly probability of leaving the modeled state for any reason; service access is used only as a proxy for recovery opportunity. It is not a treatment success probability.",
+      "gamma": "Monthly new arrivals divided by the under-5 population, expressed as a fraction.",
+      "omega": "Total standard deviation of monthly new arrivals divided by the under-5 population, expressed as a fraction; no additional baseline variance is to be added to this parameter.",
+      "time_invariance": "Each district has one constant parameter triple representing background conditions across 2017–2021; seasonal and shock-driven departures belong to the likelihood.",
+      "scope": "Each entry represents the historical district as a whole, including urban and rural populations; mixed livelihood descriptions are qualitative and are not population-weighted zone estimates."
+    },
+    "elicitation": {
+      "numeric_basis": "The contextual sources motivate relative differences. They do not identify absolute monthly incidence, duration or arrival standard deviations. All numerical centres and concentrations below are explicit analyst-selected assumptions, not quantities estimated from those documents.",
+      "p_centres": "Centres range from 0.18 for severely constrained settings to 0.34 for major accessible urban service environments, corresponding approximately to 5.6 to 2.9 months under the stipulated 1/p convention. No mortality-related upward adjustment or spontaneous-recovery adjustment was imposed without independent evidence.",
+      "gamma_centres": "Centres range from 0.0040 to 0.0105 per month. Higher assumptions reflect persistent displacement exposure, insecure livelihoods, restricted access or flood-exposed food systems; diversification motivates lower assumptions. These anchors were not obtained by multiplying an observed stock by an exit rate.",
+      "omega_centres": "Centres range from 0.0015 to 0.0048, selected for recurring seasonal, climatic, movement and market mechanisms. Thin evidence changes concentration only and does not increase the centre.",
+      "beta_conversion": "For centre m and concentration k, a=m*k and b=(1-m)*k; mean=a/(a+b), variance=m*(1-m)/(k+1).",
+      "concentrations": {
+        "standard": {
+          "p": 120,
+          "gamma": 6000,
+          "omega": 10000
+        },
+        "limited": {
+          "p": 60,
+          "gamma": 3000,
+          "omega": 5000
+        }
+      },
+      "informativeness": "Concentrations intentionally impose informative marginals as requested. Their strength is a modeling choice, not a claim that the structural evidence warrants this degree of numerical confidence. Large a+b for small-scale fractions is not equivalent to equally many observed children.",
+      "independence": "Only marginal priors are elicited. A product of the three Betas additionally assumes prior independence, which is not established by the sources.",
+      "model_fit_limit": "A single omega averages recurring process variability across the period. The supplied six-month variance formula additionally requires assumptions about cross-month arrival covariance; recurring seasonality can create dependence not represented by independent monthly shocks."
+    },
+    "outcome_separation": {
+      "used_for_calibration": "Structural context only; no observed or reported acute-malnutrition outcomes were used to choose centres or concentrations.",
+      "retrieval_incident": "Some broad search responses incidentally exposed prohibited outcome snippets. Those snippets and their outcome descriptions were discarded; the associated material was not used as evidence. This is not a claim of an exposure-free retrieval process.",
+      "restricted_reports": "Nutrition survey reports and their tables, maps, classifications and burden estimates were not intentionally opened or used.",
+      "programme_endogeneity": "No programme allocation, facility count selected by nutritional need, or treatment-admission total was used as a proxy for incidence. Generic health-system access and humanitarian movement constraints were used qualitatively."
+    },
+    "evidence_limits": {
+      "chronic_afi_baseline": "A comparable district-by-district typical IPC Acute Food Insecurity phase for all seasons in 2017–2021 was not verified. No district was assigned a chronic phase from a single seasonal classification, and no numeric phase uplift was applied.",
+      "cmam_and_health": "District CMAM coverage, supply continuity, skilled attendance, health-facility density and chronic under-5 mortality were not verified comprehensively. p differences are qualitative urban/rural/access inferences, not measured coverage effects.",
+      "exit_mechanisms": "The available context does not identify the relative roles of recovery and death in district exit probabilities. A district-specific acute-and-fatal versus chronic-and-persistent phenotype is therefore unverified; lower p in restricted settings encodes an assumed persistence mechanism, not a measured natural history.",
+      "displacement": "Primary contextual evidence verifies several receiving centres, but complete historical district IDP population shares were not retrieved. No large-hosting claim or incidence uplift was applied to every district merely because it contains a town.",
+      "livelihood_age": "The 2016 profiles consolidate baselines from different, sometimes much earlier reference years. They establish broad structural patterns but do not verify that every detail remained constant through 2021.",
+      "district_detail": "Several smaller or remote districts rely on broad zone and regional context rather than direct district programme evidence. Their prior concentrations are reduced, and district-specific claims should be treated as inferences.",
+      "validation_needed": "Absolute rate calibration and the imposed informativeness remain unvalidated. Sensitivity to lower concentration and alternative absolute anchors is required before treating these priors as operationally established."
+    },
+    "source_access_audit": [
+      {
+        "requested": "FSNAU resources/tools",
+        "status": "Inaccessible through browser.",
+        "alternative": "Read the 2016 consolidated livelihood profiles, the 2015 joint livelihood map and separable Guban/East Golis descriptions. Standalone West Golis and several older profile downloads failed; S01 supplied their structural alternatives."
+      },
+      {
+        "requested": "FEWS NET Somalia country page and livelihood pages",
+        "status": "Country page and direct livelihood landing page returned HTTP 403.",
+        "alternative": "Read the joint FSNAU–FEWS NET profile and map on FSNAU, plus separable contextual excerpts from the FEWS NET-hosted May 2021 brief."
+      },
+      {
+        "requested": "FSNAU publications and multiyear seasonal sequence",
+        "status": "Publications index accessible; a complete 2017–2021 sequence of safe contextual sections was not reviewed. Several climate bulletin downloads were inaccessible.",
+        "alternative": "Used pre-period livelihood seasonality and separable 2021 climate, conflict and market mechanisms, corroborated by 2018 and 2020 access evidence. Did not assert a calculated multiyear food-insecurity baseline."
+      },
+      {
+        "requested": "Health system and CMAM assessments",
+        "status": "SARA catalogue accessible, full PDF downloads unavailable or verification-blocked; comprehensive district CMAM assessment unavailable.",
+        "alternative": "Read WHO's health-system section and its discussion of the 2016 assessment, using rural access and urban provider concentration only as qualitative proxies."
+      },
+      {
+        "requested": "OCHA Somalia access reports",
+        "status": "OCHA country page returned HTTP 403.",
+        "alternative": "Read primary OCHA documents through mirrors: 2020 access overview and the separable December 2018 access section."
+      },
+      {
+        "requested": "UNHCR/IOM displacement data",
+        "status": "The attempted UNHCR May 2021 displacement PDF and 2020 CCCM annual PDF were inaccessible. Some IOM pages and Doolow's direct report also failed.",
+        "alternative": "Read UN-hosted IOM displacement context, UN Somalia's 2020 hosting context and IOM's 2019 Kismaayo movement summary; use the indexed IOM Doolow summary only as limited corroboration. No post-2021 displacement totals were projected backward."
+      }
+    ],
+    "sources": [
+      {
+        "id": "S01",
+        "title": "FSNAU and FEWS NET, Somalia Livelihood Profiles, June 2016",
+        "url": "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "status": "read_selected_structural_sections",
+        "used": "Livelihood descriptions, food and income pathways, seasonality, markets, and district-to-zone population crosswalks; no nutritional outcome sections used.",
+        "browser_citation": "genui{\"citation\":{\"ref\":\"turn6view0\"}}"
+      },
+      {
+        "id": "S02",
+        "title": "FSNAU and FEWS NET, Updated Somalia Livelihood Zones Map, April 2015",
+        "url": "https://fsnau.org/downloads/FSNAU-FEWSNET-Updated-Somalia-Livelihood-Zones-Map-April-2015.pdf",
+        "status": "read_and_visually_inspected",
+        "used": "Broad livelihood-zone geography on the historical district frame; districts can contain multiple zones.",
+        "browser_citation": "genui{\"citation\":{\"ref\":\"turn4view1\"}}"
+      },
+      {
+        "id": "S03",
+        "title": "WHO, Country Cooperation Strategy for WHO and Somalia 2021–2025, health-system section",
+        "url": "https://applications.emro.who.int/docs/9789290211280-eng.pdf?ua=1",
+        "status": "read_health_system_section_pages_14_to_16",
+        "used": "General rural and nomadic access barriers, urban provider concentration, workforce shortages and medicine supply constraints; these are contextual proxies, not measured district CMAM coverage.",
+        "browser_citation": "genui{\"citation\":{\"ref\":\"turn21view1\"}}"
+      },
+      {
+        "id": "S04",
+        "title": "OCHA, Somalia 2020 Humanitarian Access Overview, April 2021",
+        "url": "https://www.ecoi.net/en/file/local/2052828/access_snapshot_2020_v4.pdf",
+        "status": "read_two_page_primary_document_via_mirror",
+        "used": "Regional restrictions on movement and services, insecure transport, town encirclement and interruption of air access; regional evidence does not establish identical conditions throughout each district.",
+        "browser_citation": "genui{\"citation\":{\"ref\":\"turn14view0\"}}"
+      },
+      {
+        "id": "S05",
+        "title": "OCHA, Somalia Humanitarian Bulletin, December 2018, access section",
+        "url": "https://www.ecoi.net/en/file/local/1456392/1788_1547565974_3112.pdf",
+        "status": "read_access_excerpt_only_pages_5_to_6",
+        "used": "Recurring blockades affecting named towns, Belet Xaawo road restrictions and the longstanding Bulo Burto blockade; source administrative-label errors were not adopted.",
+        "browser_citation": "genui{\"citation\":{\"ref\":\"turn23view1\"}}"
+      },
+      {
+        "id": "S06",
+        "title": "United Nations Somalia, Social Accountability on Durable Solutions: Perception Survey in Baidoa and Bossaso, September 2020",
+        "url": "https://somalia.un.org/en/91498-social-accountability-durable-solutions-perception-survey-baidoa-and-bossaso",
+        "status": "read_context_section",
+        "used": "Persistent displacement hosting, insecure housing, constrained livelihoods and limited services in peripheral settlements in Baydhaba, Bossaso and Mogadishu.",
+        "browser_citation": "genui{\"citation\":{\"ref\":\"turn14view2\"}}"
+      },
+      {
+        "id": "S07",
+        "title": "IOM via United Nations Somalia, Finding Durable Solutions to Somalia's Internal Displacement, March 2021",
+        "url": "https://somalia.un.org/en/123704-finding-durable-solutions-somalia%E2%80%99s-internal-displacement",
+        "status": "read_displacement_context",
+        "used": "Baydhaba's protracted hosting role, movement from rural Bay, repeated evictions and site hygiene risks.",
+        "browser_citation": "genui{\"citation\":{\"ref\":\"turn14view3\"}}"
+      },
+      {
+        "id": "S08",
+        "title": "FSNAU and FEWS NET, Quarterly Brief, May 2021",
+        "url": "https://fews.net/sites/default/files/documents/reports/FSNAU-Quarterly-Brief-May-2021.pdf",
+        "status": "read_separable_climate_civil_insecurity_and_food_economy_excerpts",
+        "used": "Seasonal river and rainfall mechanisms, named transport disruptions, resource conflicts and agricultural labour seasonality; one seasonal food-insecurity classification was not treated as a chronic baseline.",
+        "browser_citation": "genui{\"citation\":{\"ref\":\"turn23view2\"}}"
+      },
+      {
+        "id": "S09",
+        "title": "FAO SWALIM, Status of River Breakages Along Juba and Shabelle Rivers, March 2021",
+        "url": "https://faoswalim.org/content/status-river-breakages-along-juba-and-shabelle-rivers-issued-march-2021",
+        "status": "indexed_abstract_only_full_page_fetch_timed_out",
+        "used": "Corroboration only: recurrent flooding and weak embankments; primary livelihood profiles and S08 supply the main riverine evidence.",
+        "browser_citation": "genui{\"citation\":{\"ref\":\"turn17search3\"}}"
+      },
+      {
+        "id": "S10",
+        "title": "FSNAU, Guban Pastoral Livelihood Baseline Report, May 2016",
+        "url": "https://fsnau.org/downloads/Guban-Pastoral-Livelihood-Zone-Baseline-Report.pdf",
+        "status": "read_separable_livelihood_description",
+        "used": "Guban coastal pastoral geography; detailed structural mechanisms also checked against S01.",
+        "browser_citation": "genui{\"citation\":{\"ref\":\"turn6view2\"}}"
+      },
+      {
+        "id": "S11",
+        "title": "FSNAU, East Golis Frankincense, Goats and Fishing Livelihood Zone Baseline Report, May 2016",
+        "url": "https://fsnau.org/downloads/East-Golis-Frankincens-Goat-and-Fishing-Livelihood-Zone-Baseline-Report.pdf",
+        "status": "read_separable_livelihood_description",
+        "used": "East Golis district coverage and its mixed economic activities; detailed structural mechanisms also checked against S01.",
+        "browser_citation": "genui{\"citation\":{\"ref\":\"turn6view3\"}}"
+      },
+      {
+        "id": "S12",
+        "title": "IOM DTM, indexed Somalia report listing for 2019 movement trend tracking",
+        "url": "https://dtm.iom.int/somalia?body=&field_component1_target_id_verf=All&field_component2_target_id_verf=All&field_report_regional_report=All&field_snapshot_date_value=&field_snapshot_date_value_1=&field_summary_value=&page=16&sort_by=field_published_date_value&sort_order=DESC&title=",
+        "status": "indexed_dollow_summary_only_direct_report_unavailable",
+        "used": "Doolow received movements associated with insecurity and food access; no full district displacement stock or repeated annual hosting series was verified.",
+        "browser_citation": "genui{\"citation\":{\"ref\":\"turn22search1\"}}"
+      },
+      {
+        "id": "S13",
+        "title": "IOM, DTM Somalia — Kismayo Movement Trend Tracking Report (Annual Report 2019), published April 2020",
+        "url": "https://dtm.iom.int/reports/somalia-%E2%80%94-kismayo-movement-trend-tracking-report-annual-report-2019",
+        "status": "read_movement_summary",
+        "used": "Displacement-receiving role of Kismaayo and variable movements from Jamaame associated with insecurity and food access.",
+        "browser_citation": "genui{\"citation\":{\"ref\":\"turn24view1\"}}"
+      },
+      {
+        "id": "S14",
+        "title": "Somali Health Authorities and WHO, SARA Somalia 2016 catalogue",
+        "url": "https://data-archive.hhfa.online/index.php/catalog/130/related-materials",
+        "status": "read_catalogue_full_report_download_unavailable",
+        "used": "Assessment scope and existence; no unverified district facility densities or coverage estimates were entered.",
+        "browser_citation": "genui{\"citation\":{\"ref\":\"turn2view1\"}}"
+      }
+    ],
+    "district_evidence": {
+      "Adan Yabaal": {
+        "precision_tier": "limited",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Afgooye": {
+        "precision_tier": "standard",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S08"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Afmadow": {
+        "precision_tier": "limited",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Baardheere": {
+        "precision_tier": "standard",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S09"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Badhaadhe": {
+        "precision_tier": "limited",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Baki": {
+        "precision_tier": "standard",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Balcad": {
+        "precision_tier": "standard",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S08"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Banadir": {
+        "precision_tier": "standard",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S06"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Bandarbeyla": {
+        "precision_tier": "limited",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Baraawe": {
+        "precision_tier": "limited",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Baydhaba": {
+        "precision_tier": "standard",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S06",
+          "S07"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Belet Weyne": {
+        "precision_tier": "standard",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S05",
+          "S08",
+          "S09"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Belet Xaawo": {
+        "precision_tier": "standard",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S05"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Berbera": {
+        "precision_tier": "standard",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S10"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Borama": {
+        "precision_tier": "standard",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Bossaso": {
+        "precision_tier": "standard",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S06"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Bu'aale": {
+        "precision_tier": "limited",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S09"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Bulo Burto": {
+        "precision_tier": "standard",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S05",
+          "S08"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Burco": {
+        "precision_tier": "standard",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Burtinle": {
+        "precision_tier": "standard",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Buuhoodle": {
+        "precision_tier": "limited",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Buur Hakaba": {
+        "precision_tier": "standard",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Cabudwaaq": {
+        "precision_tier": "standard",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S08"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Cadaado": {
+        "precision_tier": "standard",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S08"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Cadale": {
+        "precision_tier": "limited",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Caluula": {
+        "precision_tier": "limited",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S11"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Caynabo": {
+        "precision_tier": "limited",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Ceel Afweyn": {
+        "precision_tier": "limited",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S11"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Ceel Barde": {
+        "precision_tier": "limited",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Ceel Buur": {
+        "precision_tier": "limited",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Ceel Dheere": {
+        "precision_tier": "limited",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Ceel Waaq": {
+        "precision_tier": "limited",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Ceerigaabo": {
+        "precision_tier": "standard",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S11"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Dhuusamarreeb": {
+        "precision_tier": "standard",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S08"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Diinsoor": {
+        "precision_tier": "standard",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S05",
+          "S08"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Doolow": {
+        "precision_tier": "standard",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S12"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Eyl": {
+        "precision_tier": "limited",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Gaalkacyo": {
+        "precision_tier": "standard",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Galdogob": {
+        "precision_tier": "standard",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Garbahaarey": {
+        "precision_tier": "standard",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S05"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Garoowe": {
+        "precision_tier": "standard",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Gebiley": {
+        "precision_tier": "standard",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Hargeysa": {
+        "precision_tier": "standard",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Hobyo": {
+        "precision_tier": "limited",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Iskushuban": {
+        "precision_tier": "limited",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S11"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Jalalaqsi": {
+        "precision_tier": "standard",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S08"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Jamaame": {
+        "precision_tier": "limited",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S13"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Jariiban": {
+        "precision_tier": "limited",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Jilib": {
+        "precision_tier": "limited",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S09"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Jowhar": {
+        "precision_tier": "standard",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S08",
+          "S09"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Kismaayo": {
+        "precision_tier": "standard",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S13"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Kurtunwaarey": {
+        "precision_tier": "limited",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S09"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Laas Caanood": {
+        "precision_tier": "limited",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Laasqoray": {
+        "precision_tier": "limited",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S11"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Lughaye": {
+        "precision_tier": "standard",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S10"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Luuq": {
+        "precision_tier": "standard",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S09"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Marka": {
+        "precision_tier": "standard",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S05",
+          "S09"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Owdweyne": {
+        "precision_tier": "limited",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Qandala": {
+        "precision_tier": "limited",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S11"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Qansax Dheere": {
+        "precision_tier": "standard",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S05",
+          "S08"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Qardho": {
+        "precision_tier": "standard",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Qoryooley": {
+        "precision_tier": "limited",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S09"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Rab Dhuure": {
+        "precision_tier": "limited",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Saakow": {
+        "precision_tier": "limited",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S09"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Sablaale": {
+        "precision_tier": "limited",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S09"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Sheikh": {
+        "precision_tier": "standard",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Taleex": {
+        "precision_tier": "limited",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Tayeeglow": {
+        "precision_tier": "limited",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Waajid": {
+        "precision_tier": "standard",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S05",
+          "S08"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Wanla Weyn": {
+        "precision_tier": "standard",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S08"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Xarardheere": {
+        "precision_tier": "limited",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Xudun": {
+        "precision_tier": "limited",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Xudur": {
+        "precision_tier": "standard",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S05",
+          "S08"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      },
+      "Zeylac": {
+        "precision_tier": "standard",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S10"
+        ],
+        "interpretation": "Sources support contextual drivers; numerical priors and district extrapolations are analyst inferences."
+      }
+    }
+  }
+}

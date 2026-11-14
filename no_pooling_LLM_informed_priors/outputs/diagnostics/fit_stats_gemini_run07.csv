@@ -1,0 +1,2 @@
+model_id,Model,scheme,n_draws,fit_minutes,divergences,max_treedepth_hits,low_bfmi_chains,max_rhat,min_n_eff,elpd_loo,se_elpd_loo,p_loo,n_pareto_k_bad,elpd_note
+gemini_run07,gemini_run07,full,20000,8.04,0,0,0,1.0068552877088544,689.816245487373,-5428.6715937127065,52.54991579423785,343.48208474265755,95,exploratory only: LOO assumes exchangeable data (not true for this AR model)

@@ -1,0 +1,1189 @@
+{
+  "tier": "weak",
+  "districts": [
+    {
+      "district": "Adan Yabaal",
+      "reasoning": "Middle Shabelle agropastoral district with limited data (absent from admissions). Moderate flood risk from Shabelle river, some Al-Shabaab presence restricting humanitarian access. Moderate alarms (2.4) with limited treatment programme coverage.",
+      "p": {
+        "a": 0.8,
+        "b": 3.2
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 5.0106,
+        "sigma": 1.1
+      }
+    },
+    {
+      "district": "Afgooye",
+      "reasoning": "Major IDP corridor between Mogadishu and agricultural hinterland. Very high insecurity (22 incidents/mo), high SAM admissions (~931/mo) indicating strong programme presence. Severely affected by 2017 drought, 2019-2020 flooding, and conflict displacement throughout the period.",
+      "p": {
+        "a": 1.68,
+        "b": 4.32
+      },
+      "gamma": {
+        "a": 0.1,
+        "b": 9.9
+      },
+      "alpha": {
+        "mu": 5.5984,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Afmadow",
+      "reasoning": "Lower Juba pastoral/agropastoral district. Affected by 2017 drought, 2019 Deyr flooding, and persistent Al-Shabaab control of rural areas. Moderate SAM admissions (~420/mo) with moderate treatment coverage. Insecurity limits both access and data quality.",
+      "p": {
+        "a": 0.92,
+        "b": 3.08
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 4.8283,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Baardheere",
+      "reasoning": "Gedo region riverine/agropastoral. Flood-prone along Juba river, high AWD burden (117 cases/mo). Affected by 2017 drought, 2019 floods, and 2021 drought resurgence. Moderate admissions (~199/mo) with variable programme coverage.",
+      "p": {
+        "a": 1.0,
+        "b": 3.0
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 4.6052,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Badhaadhe",
+      "reasoning": "Remote Lower Juba coastal district near Kenya border. Very high CV in admissions (1.26) suggesting highly variable data quality and programme coverage. Affected by 2017 drought and periodic flooding. Limited humanitarian access.",
+      "p": {
+        "a": 0.6,
+        "b": 2.4
+      },
+      "gamma": {
+        "a": 0.04,
+        "b": 3.96
+      },
+      "alpha": {
+        "mu": 5.2983,
+        "sigma": 1.1
+      }
+    },
+    {
+      "district": "Baki",
+      "reasoning": "Awdal region, northwest Somaliland. Relatively stable with lower food insecurity compared to south-central. Very low alarms (0.68) but surprisingly high AWD cases. Low SAM admissions (~39/mo) reflecting lower burden and smaller population.",
+      "p": {
+        "a": 1.0,
+        "b": 3.0
+      },
+      "gamma": {
+        "a": 0.1,
+        "b": 9.9
+      },
+      "alpha": {
+        "mu": 3.2189,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Balcad",
+      "reasoning": "Middle Shabelle riverine district north of Mogadishu. Severely flood-prone, high conflict impact (6.2 insecurity incidents/mo). Very high CV in admissions (0.82) reflecting flood-driven variability. Affected by all major shocks 2017-2021.",
+      "p": {
+        "a": 0.96,
+        "b": 3.04
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 5.5013,
+        "sigma": 1.1
+      }
+    },
+    {
+      "district": "Banadir",
+      "reasoning": "Mogadishu urban district, largest IDP concentration in Somalia. Highest absolute SAM admissions (~5015/mo) reflecting massive population and strong treatment infrastructure. Highest insecurity (51 incidents/mo), highest disease burden (AWD 276, measles 212/mo). Major IDP influx during 2017 drought and all subsequent shocks.",
+      "p": {
+        "a": 1.8,
+        "b": 4.2
+      },
+      "gamma": {
+        "a": 0.1,
+        "b": 9.9
+      },
+      "alpha": {
+        "mu": 6.7912,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Bandarbeyla",
+      "reasoning": "Remote Bari region coastal district in Puntland. Very low SAM admissions (~24/mo), small population. Limited shock exposure compared to south-central but affected by 2017 and 2021 pastoral droughts. Sparse programme coverage.",
+      "p": {
+        "a": 0.66,
+        "b": 2.34
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 2.4849,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Baraawe",
+      "reasoning": "Lower Shabelle coastal town. Extremely high CV in admissions (1.38) suggesting severe data quality issues or intermittent programme access. Al-Shabaab controlled hinterland with periodic government offensives disrupting services.",
+      "p": {
+        "a": 0.66,
+        "b": 2.34
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 5.2204,
+        "sigma": 1.1
+      }
+    },
+    {
+      "district": "Baydhaba",
+      "reasoning": "Bay region capital, second-highest SAM admissions (~1461/mo). Epicenter of food crises - IPC 4 in 2017 drought, major IDP hub. High programme coverage but persistent agropastoral stress. Approached famine conditions in 2017 and again post-2021. High disease burden and displacement.",
+      "p": {
+        "a": 1.68,
+        "b": 4.32
+      },
+      "gamma": {
+        "a": 0.12,
+        "b": 9.88
+      },
+      "alpha": {
+        "mu": 5.7991,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Belet Weyne",
+      "reasoning": "Hiraan region capital on Shabelle river. Third-highest SAM admissions (~1022/mo). Catastrophic flooding in 2019 and 2020 displacing hundreds of thousands. High insecurity (8.6/mo), high disease burden. Strong programme presence but repeated shock exposure.",
+      "p": {
+        "a": 1.62,
+        "b": 4.38
+      },
+      "gamma": {
+        "a": 0.11,
+        "b": 9.89
+      },
+      "alpha": {
+        "mu": 5.9915,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Belet Xaawo",
+      "reasoning": "Gedo border town with Ethiopia/Kenya. Trade disruption from Kenya border closure in 2019. High food prices, drought in 2017 and 2021. Moderate admissions (~383/mo) with fair programme coverage. Sorghum prices among highest in country by 2021.",
+      "p": {
+        "a": 1.0,
+        "b": 3.0
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 5.0752,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Berbera",
+      "reasoning": "Somaliland port city on Gulf of Aden. Relatively stable, functioning port economy. Low food insecurity, very low alarms (0.65). Low SAM admissions (~77/mo). Affected by Guban pastoral drought in 2017 and 2021 but urban population more resilient.",
+      "p": {
+        "a": 1.12,
+        "b": 2.88
+      },
+      "gamma": {
+        "a": 0.1,
+        "b": 9.9
+      },
+      "alpha": {
+        "mu": 3.6376,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Borama",
+      "reasoning": "Awdal region capital in Somaliland. Moderate stability with functioning markets. Surprisingly high AWD burden (210/mo). Moderate SAM admissions (~219/mo) suggesting decent treatment coverage. Less affected by major shocks than south-central.",
+      "p": {
+        "a": 1.08,
+        "b": 2.92
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 4.7449,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Bossaso",
+      "reasoning": "Puntland commercial capital and port. High alarms (6.9) driven by IDP influx, trade disruption, and urban poverty. Moderate SAM admissions (~485/mo) with good programme infrastructure. Affected by cyclone Gati (Nov 2020) and persistent drought in Bari pastoral areas.",
+      "p": {
+        "a": 1.68,
+        "b": 4.32
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 4.7449,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Bu'aale",
+      "reasoning": "Middle Juba riverine district, deep in Al-Shabaab-controlled territory. No admissions data available indicating severe access constraints. Flood-prone (high rainfall 53mm), high alarms (4.75). Programme coverage likely very low making p driven by mortality and spontaneous recovery.",
+      "p": {
+        "a": 0.54,
+        "b": 2.46
+      },
+      "gamma": {
+        "a": 0.04,
+        "b": 3.96
+      },
+      "alpha": {
+        "mu": 5.2983,
+        "sigma": 1.1
+      }
+    },
+    {
+      "district": "Bulo Burto",
+      "reasoning": "Hiraan riverine district, flood-prone on Shabelle. Very high CV (1.28) in admissions suggesting intermittent access. Al-Shabaab siege conditions reported in 2021. Low mean admissions (~69/mo) but high max (473) indicating sporadic programme surges.",
+      "p": {
+        "a": 0.84,
+        "b": 3.16
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 4.4773,
+        "sigma": 1.1
+      }
+    },
+    {
+      "district": "Burco",
+      "reasoning": "Togdheer region capital in Somaliland. Moderate stability with pastoral hinterland drought-affected in 2017 and 2021. Moderate SAM admissions (~182/mo) with reasonable programme coverage. High measles cases (38/mo) and AWD (59/mo) for Somaliland context.",
+      "p": {
+        "a": 1.08,
+        "b": 2.92
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 4.4427,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Burtinle",
+      "reasoning": "Nugaal pastoral district in Puntland. Drought-affected but moderate food insecurity. Low to moderate SAM admissions (~116/mo) with consistent programme (CV 0.34). Limited conflict but recurring pastoral stress.",
+      "p": {
+        "a": 1.0,
+        "b": 3.0
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 3.6889,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Buuhoodle",
+      "reasoning": "Disputed Sool region pastoral district between Somaliland and Puntland. High CV (0.95) in admissions reflecting variable access. Drought-affected in 2017 and 2021. Clan conflict and territorial disputes limit consistent humanitarian access.",
+      "p": {
+        "a": 0.66,
+        "b": 2.34
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 5.2204,
+        "sigma": 1.1
+      }
+    },
+    {
+      "district": "Buur Hakaba",
+      "reasoning": "Bay region agropastoral district. One of the most food-insecure areas - IPC 4 during 2017 drought, approached famine conditions. High alarms (4.9), moderate admissions (~229/mo). Persistent conflict and Al-Shabaab presence. 2021 drought resurgence hit this area hard.",
+      "p": {
+        "a": 0.96,
+        "b": 3.04
+      },
+      "gamma": {
+        "a": 0.1,
+        "b": 9.9
+      },
+      "alpha": {
+        "mu": 4.5218,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Cabudwaaq",
+      "reasoning": "Galgaduud pastoral district. Extremely high measles burden (107/mo) and AWD (156/mo) driving elevated mortality. Moderate admissions (~161/mo) with incomplete coverage (only 26 obs). Drought-affected throughout the period.",
+      "p": {
+        "a": 1.04,
+        "b": 2.96
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 4.8283,
+        "sigma": 1.1
+      }
+    },
+    {
+      "district": "Cadaado",
+      "reasoning": "Galgaduud district, pastoral/agropastoral. Low admissions (~67/mo) with high CV (0.89) suggesting variable access. Moderate disease burden. Affected by 2017 and 2021 droughts. Limited but present programme coverage.",
+      "p": {
+        "a": 0.88,
+        "b": 3.12
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 4.0943,
+        "sigma": 1.1
+      }
+    },
+    {
+      "district": "Cadale",
+      "reasoning": "Middle Shabelle riverine district. Very high CV (1.41) - highest variability in dataset - suggesting severe data quality issues. Flood-prone along Shabelle. Low mean admissions (~76/mo) but spikes to 367 during programme surges. Limited coverage with only 28 observations.",
+      "p": {
+        "a": 0.63,
+        "b": 2.37
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 4.6728,
+        "sigma": 1.1
+      }
+    },
+    {
+      "district": "Caluula",
+      "reasoning": "Bari region tip of Horn of Africa. Remote, small population, low SAM admissions (~42/mo) with low CV (0.29). Pastoral livelihoods affected by drought but moderate food insecurity. Limited but consistent programme.",
+      "p": {
+        "a": 0.96,
+        "b": 3.04
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 2.4849,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Caynabo",
+      "reasoning": "Sool region pastoral district in disputed territory. Low alarms (0.88), low SAM admissions (~86/mo). Drought-affected but lower severity than Bay/Bakool. Limited humanitarian access due to contested governance.",
+      "p": {
+        "a": 0.96,
+        "b": 3.04
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 3.6636,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Ceel Afweyn",
+      "reasoning": "Sanaag pastoral district. High CV in admissions (1.06) with low mean (~46/mo) suggesting highly variable programme access. Drought-affected, especially in 2017 when northern pastoral areas were severely hit. Disputed governance between Somaliland and Puntland.",
+      "p": {
+        "a": 0.66,
+        "b": 2.34
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 3.8918,
+        "sigma": 1.1
+      }
+    },
+    {
+      "district": "Ceel Barde",
+      "reasoning": "Bakool region, one of most food-insecure districts. High alarms (5.27), high SAM admissions (~342/mo). Al-Shabaab-controlled with siege conditions disrupting trade. Severely affected by 2017 drought and 2021 resurgence. Some humanitarian access maintained unlike other Bakool districts.",
+      "p": {
+        "a": 0.96,
+        "b": 3.04
+      },
+      "gamma": {
+        "a": 0.11,
+        "b": 9.89
+      },
+      "alpha": {
+        "mu": 5.0752,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Ceel Buur",
+      "reasoning": "Galgaduud pastoral district. Very high AWD burden (178/mo), high CV (0.67) in admissions. Only 29 observations indicating access gaps. Affected by drought cycles and limited treatment infrastructure. Moderate admissions (~218/mo).",
+      "p": {
+        "a": 0.92,
+        "b": 3.08
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 4.9904,
+        "sigma": 1.1
+      }
+    },
+    {
+      "district": "Ceel Dheere",
+      "reasoning": "Bakool/Bay border agropastoral area. Moderate admissions (~120/mo) with moderate CV (0.43). Drought and conflict affected. Part of the Bay-Bakool low-potential agropastoral zone that faced severe food insecurity throughout 2017-2021.",
+      "p": {
+        "a": 0.92,
+        "b": 3.08
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 3.9512,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Ceel Waaq",
+      "reasoning": "Gedo border district with Kenya. Extreme CV (1.35) in admissions with massive spike to 1625. Trade severely disrupted by Kenya border closure. Drought-affected in 2017 and 2021. Al-Shabaab siege conditions reported. Highly volatile programme delivery.",
+      "p": {
+        "a": 0.69,
+        "b": 2.31
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 6.0403,
+        "sigma": 1.1
+      }
+    },
+    {
+      "district": "Ceerigaabo",
+      "reasoning": "Sanaag region capital in Somaliland. Moderate stability but pastoral hinterland severely drought-affected in 2017. Moderate SAM admissions (~133/mo) with reasonable programme. Mountain terrain limits access to rural populations.",
+      "p": {
+        "a": 1.0,
+        "b": 3.0
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 4.4067,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Dhuusamarreeb",
+      "reasoning": "Galgaduud region capital. Moderate alarms (3.8) with high CV admissions (0.82). Clan conflict epicenter. Affected by pastoral drought throughout period. Moderate admissions (~299/mo) with 33 observations suggesting some access gaps.",
+      "p": {
+        "a": 0.96,
+        "b": 3.04
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 5.5013,
+        "sigma": 1.1
+      }
+    },
+    {
+      "district": "Diinsoor",
+      "reasoning": "Bay region, deep Al-Shabaab controlled territory. Highest AWD burden (352/mo) in dataset. High CV (1.11) in admissions. Siege conditions with food aid burned by Al-Shabaab. Very high alarms (5.65). Among most access-constrained districts.",
+      "p": {
+        "a": 0.66,
+        "b": 2.34
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 5.5134,
+        "sigma": 1.1
+      }
+    },
+    {
+      "district": "Doolow",
+      "reasoning": "Gedo border town at Ethiopia/Kenya/Somalia tripoint. Major refugee and IDP hub. Remarkably consistent admissions (CV 0.19, ~500/mo) indicating strong and stable programme infrastructure. High programme coverage drives high p through treatment recovery.",
+      "p": {
+        "a": 1.8,
+        "b": 4.2
+      },
+      "gamma": {
+        "a": 0.1,
+        "b": 9.9
+      },
+      "alpha": {
+        "mu": 4.5326,
+        "sigma": 0.7
+      }
+    },
+    {
+      "district": "Eyl",
+      "reasoning": "Nugaal coastal pastoral district. Moderate admissions (~226/mo) with moderate CV (0.43). Less conflict-affected but drought-hit in 2017 and 2021. Reasonable programme coverage for Puntland context.",
+      "p": {
+        "a": 1.0,
+        "b": 3.0
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 4.5747,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Gaalkacyo",
+      "reasoning": "Major urban center split between Puntland and Galmudug. High alarms (5.67), clan conflict. High measles (94/mo). Moderate SAM admissions (~354/mo) with reasonable programme coverage. IDP concentration from surrounding pastoral areas during drought.",
+      "p": {
+        "a": 1.08,
+        "b": 2.92
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 4.8675,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Galdogob",
+      "reasoning": "Mudug pastoral district. Low admissions (~89/mo) with low CV (0.33). Small population, moderate drought impact. Limited programme but relatively consistent coverage.",
+      "p": {
+        "a": 0.96,
+        "b": 3.04
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 3.4012,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Garbahaarey",
+      "reasoning": "Gedo region capital. Al-Shabaab siege conditions reported, with aid delivery disrupted. High AWD (137/mo). Moderate admissions (~288/mo) but only 32 observations. Drought and conflict co-drivers throughout the period.",
+      "p": {
+        "a": 0.96,
+        "b": 3.04
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 4.9345,
+        "sigma": 1.1
+      }
+    },
+    {
+      "district": "Garoowe",
+      "reasoning": "Puntland state capital. Good programme infrastructure, functioning markets. High alarms (5.85) primarily driven by IDP influx from drought-affected pastoral areas. Moderate admissions (~190/mo) with fair CV (0.40).",
+      "p": {
+        "a": 1.12,
+        "b": 2.88
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 4.3307,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Gebiley",
+      "reasoning": "Somaliland agropastoral district. Moderate stability, moderate admissions (~188/mo). Drought-affected in 2017 (northwest harvest 87% below average). Reasonable programme coverage for Somaliland.",
+      "p": {
+        "a": 1.04,
+        "b": 2.96
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 4.6634,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Hargeysa",
+      "reasoning": "Somaliland capital, largest city in northwest. Strong programme infrastructure, moderate SAM admissions (~595/mo). IDP hub during drought periods. Lower food insecurity than south-central but urban poverty pockets. Measles (27/mo) and AWD (52/mo) notable.",
+      "p": {
+        "a": 1.74,
+        "b": 4.26
+      },
+      "gamma": {
+        "a": 0.1,
+        "b": 9.9
+      },
+      "alpha": {
+        "mu": 5.1818,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Hobyo",
+      "reasoning": "Mudug coastal pastoral district. Drought-affected throughout period, moderate alarms (3.88). High measles (36/mo). Moderate admissions (~198/mo) with high CV (0.63). Variable programme access in pastoral areas.",
+      "p": {
+        "a": 0.92,
+        "b": 3.08
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 4.8283,
+        "sigma": 1.1
+      }
+    },
+    {
+      "district": "Iskushuban",
+      "reasoning": "Bari region pastoral district. Moderate admissions (~84/mo), high measles (33/mo) for the area. Drought-affected in 2017, cyclone Gati impact in 2020. Limited programme coverage.",
+      "p": {
+        "a": 0.96,
+        "b": 3.04
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 3.8501,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Jalalaqsi",
+      "reasoning": "Hiraan district with no admissions data. Riverine/agropastoral, flood-prone. Moderate alarms (3.95). Affected by 2019-2020 Shabelle flooding and conflict. Limited programme coverage inferred from data absence.",
+      "p": {
+        "a": 0.6,
+        "b": 2.4
+      },
+      "gamma": {
+        "a": 0.04,
+        "b": 3.96
+      },
+      "alpha": {
+        "mu": 5.0106,
+        "sigma": 1.1
+      }
+    },
+    {
+      "district": "Jamaame",
+      "reasoning": "Lower Juba riverine district. No admissions data but moderate alarms (4.13). Flood-prone, Al-Shabaab-affected. Agricultural area with conflict-driven displacement. Inferred moderate-high incidence with poor access.",
+      "p": {
+        "a": 0.57,
+        "b": 2.43
+      },
+      "gamma": {
+        "a": 0.04,
+        "b": 3.96
+      },
+      "alpha": {
+        "mu": 5.1648,
+        "sigma": 1.1
+      }
+    },
+    {
+      "district": "Jariiban",
+      "reasoning": "Nugaal pastoral district. Low-moderate admissions (~70/mo) with high CV (0.81). Remote pastoral area, drought cycles. Limited programme with variable access.",
+      "p": {
+        "a": 0.92,
+        "b": 3.08
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 4.0431,
+        "sigma": 1.1
+      }
+    },
+    {
+      "district": "Jilib",
+      "reasoning": "Middle Juba, Al-Shabaab stronghold. No admissions data despite high alarms (5.28) and high measles (33/mo). Virtually no humanitarian access. Flood-prone. Among most severely access-constrained districts in Somalia.",
+      "p": {
+        "a": 0.54,
+        "b": 2.46
+      },
+      "gamma": {
+        "a": 0.04,
+        "b": 3.96
+      },
+      "alpha": {
+        "mu": 5.5215,
+        "sigma": 1.1
+      }
+    },
+    {
+      "district": "Jowhar",
+      "reasoning": "Hirshabelle state capital. High insecurity (9.0/mo), severe Shabelle flooding. Very high CV (0.82) with admissions ~439/mo. High AWD (117/mo). Major flooding in 2019-2020 displaced tens of thousands. Conflict and flood dual drivers.",
+      "p": {
+        "a": 1.0,
+        "b": 3.0
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 5.8861,
+        "sigma": 1.1
+      }
+    },
+    {
+      "district": "Kismaayo",
+      "reasoning": "Jubaland state capital and port. High insecurity (11.3/mo), high alarms (6.67). High SAM admissions (~895/mo) with variable CV (0.63). Strong programme presence but conflict disruption. AWD (126/mo) and measles (28/mo). IDP hub, particularly during 2017 drought.",
+      "p": {
+        "a": 1.08,
+        "b": 2.92
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 6.3368,
+        "sigma": 1.1
+      }
+    },
+    {
+      "district": "Kurtunwaarey",
+      "reasoning": "Lower Shabelle agropastoral/riverine. No admissions data. Moderate alarms (3.72), high NDVI (0.49) indicating agricultural potential. Al-Shabaab-controlled with limited access. Flood-prone.",
+      "p": {
+        "a": 0.6,
+        "b": 2.4
+      },
+      "gamma": {
+        "a": 0.04,
+        "b": 3.96
+      },
+      "alpha": {
+        "mu": 5.0752,
+        "sigma": 1.1
+      }
+    },
+    {
+      "district": "Laas Caanood",
+      "reasoning": "Sool region capital, disputed between Somaliland and Puntland. Moderate admissions (~197/mo) with low CV (0.31). Pastoral drought impact in 2017, 2021. Clan conflict and contested governance but reasonable programme coverage.",
+      "p": {
+        "a": 1.04,
+        "b": 2.96
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 4.1271,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Laasqoray",
+      "reasoning": "Sanaag coastal district. Moderate admissions (~131/mo) with fair CV (0.43). Less severely affected by drought than inland areas. Moderate programme coverage. Disputed governance.",
+      "p": {
+        "a": 1.0,
+        "b": 3.0
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 4.0254,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Lughaye",
+      "reasoning": "Awdal region, northwest Somaliland near Djibouti border. Low admissions (~89/mo) with moderate CV (0.70). Guban pastoral livelihoods affected by drought. Lower food insecurity than south-central.",
+      "p": {
+        "a": 1.0,
+        "b": 3.0
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 4.1431,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Luuq",
+      "reasoning": "Gedo riverine/agropastoral district. High AWD (115/mo), moderate alarms (3.23). Moderate admissions (~297/mo) with high CV (0.63). Flood and drought alternating impacts. Kenya border closure effects on trade.",
+      "p": {
+        "a": 0.96,
+        "b": 3.04
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 5.2311,
+        "sigma": 1.1
+      }
+    },
+    {
+      "district": "Marka",
+      "reasoning": "Lower Shabelle region capital. Very high insecurity (13.7/mo), high alarms (6.98). Moderate-high SAM admissions (~601/mo). Frontline of government-Al-Shabaab conflict. Flood and conflict dual drivers. Moderate CV (0.35) suggesting fairly consistent programme despite conflict.",
+      "p": {
+        "a": 1.04,
+        "b": 2.96
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 5.3375,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Owdweyne",
+      "reasoning": "Togdheer pastoral district in Somaliland. Very low alarms (0.75), low admissions (~60/mo). Relatively stable pastoral area with moderate drought impact. Limited but consistent programme.",
+      "p": {
+        "a": 1.0,
+        "b": 3.0
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 3.6109,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Qandala",
+      "reasoning": "Bari coastal district. Low alarms (0.87), low admissions (~50/mo) with high CV (0.67). Remote, small population. Affected by cyclone Gati in 2020. Limited programme coverage.",
+      "p": {
+        "a": 0.92,
+        "b": 3.08
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 3.4965,
+        "sigma": 1.1
+      }
+    },
+    {
+      "district": "Qansax Dheere",
+      "reasoning": "Bay region agropastoral, Al-Shabaab-controlled. Highest CV in admissions (1.62) with massive spike to 2217. High alarms (5.68). Among most access-constrained in Bay region. Severe food insecurity throughout 2017-2021 with siege conditions.",
+      "p": {
+        "a": 0.63,
+        "b": 2.37
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 5.9789,
+        "sigma": 1.1
+      }
+    },
+    {
+      "district": "Qardho",
+      "reasoning": "Bari pastoral district. Low alarms (0.87), moderate admissions (~84/mo). Drought-affected in 2017 but better recovery. High AWD (64/mo) for the area. Reasonable programme coverage.",
+      "p": {
+        "a": 1.0,
+        "b": 3.0
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 3.912,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Qoryooley",
+      "reasoning": "Lower Shabelle agropastoral. High alarms (5.33), high insecurity (4.6/mo). Moderate admissions (~172/mo) with low CV (0.39). Conflict-affected, flood-prone. Sorghum prices doubled by late 2021.",
+      "p": {
+        "a": 1.0,
+        "b": 3.0
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 4.2195,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Rab Dhuure",
+      "reasoning": "Bakool pastoral/agropastoral. Remarkably low alarms (0.47) despite being in food-insecure Bakool. Moderate admissions (~196/mo). Possibly reflects data gaps in monitoring rather than true low risk. Limited access.",
+      "p": {
+        "a": 0.69,
+        "b": 2.31
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 4.654,
+        "sigma": 1.1
+      }
+    },
+    {
+      "district": "Saakow",
+      "reasoning": "Middle Juba riverine, deep Al-Shabaab territory. No admissions data. High alarms (4.7), flood-prone (50mm rainfall). Virtually no humanitarian access. Among most severe access constraints in Somalia.",
+      "p": {
+        "a": 0.54,
+        "b": 2.46
+      },
+      "gamma": {
+        "a": 0.04,
+        "b": 3.96
+      },
+      "alpha": {
+        "mu": 5.4161,
+        "sigma": 1.1
+      }
+    },
+    {
+      "district": "Sablaale",
+      "reasoning": "Lower Shabelle, Al-Shabaab-controlled. No admissions data despite high agricultural potential (highest NDVI 0.51). Very low alarms (0.58) likely reflecting monitoring gaps rather than low risk. Severely access-constrained.",
+      "p": {
+        "a": 0.57,
+        "b": 2.43
+      },
+      "gamma": {
+        "a": 0.04,
+        "b": 3.96
+      },
+      "alpha": {
+        "mu": 5.1648,
+        "sigma": 1.1
+      }
+    },
+    {
+      "district": "Sheikh",
+      "reasoning": "Togdheer highland district in Somaliland. Extremely low SAM admissions (~5/mo) - lowest in dataset. Very low alarms (0.57). Small population, relatively food-secure. Minimal programme presence needed.",
+      "p": {
+        "a": 1.08,
+        "b": 2.92
+      },
+      "gamma": {
+        "a": 0.1,
+        "b": 9.9
+      },
+      "alpha": {
+        "mu": 1.6094,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Taleex",
+      "reasoning": "Sool pastoral district. Low alarms (0.77), low admissions (~47/mo). Remote, drought-affected in 2017 and 2021. Disputed governance between Somaliland and Puntland. Limited programme.",
+      "p": {
+        "a": 0.92,
+        "b": 3.08
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 3.1781,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Tayeeglow",
+      "reasoning": "Bakool agropastoral district. Moderate alarms (2.55), very high AWD (103/mo). Low admissions (~61/mo) with low CV (0.24) suggesting consistent but limited programme. High disease co-morbidity may increase mortality-driven exits.",
+      "p": {
+        "a": 1.0,
+        "b": 3.0
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 2.6391,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Waajid",
+      "reasoning": "Bakool region, Al-Shabaab siege conditions. Aid trucks burned in 2021. High AWD (174/mo), high alarms (4.28). Moderate-high admissions (~329/mo). Severe food insecurity throughout period. Among highest sorghum prices by 2021. Food aid disrupted.",
+      "p": {
+        "a": 0.96,
+        "b": 3.04
+      },
+      "gamma": {
+        "a": 0.11,
+        "b": 9.89
+      },
+      "alpha": {
+        "mu": 4.804,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Wanla Weyn",
+      "reasoning": "Lower Shabelle agropastoral. Moderate-high admissions (~332/mo) with moderate CV (0.42). Conflict frontline with villages burned by insurgents in 2021. High alarms (4.9). Flood and conflict dual drivers.",
+      "p": {
+        "a": 1.0,
+        "b": 3.0
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 4.9345,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Xarardheere",
+      "reasoning": "Mudug coastal district. Low admissions (~65/mo) with low CV (0.32). Pastoral, drought-affected. Limited but consistent programme. Lower conflict than other central districts.",
+      "p": {
+        "a": 0.96,
+        "b": 3.04
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 3.0445,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Xudun",
+      "reasoning": "Sool pastoral district, disputed territory. Low admissions (~66/mo) with moderate CV (0.41). Drought-affected, especially 2017. Contested governance limits consistent programme delivery.",
+      "p": {
+        "a": 0.92,
+        "b": 3.08
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 3.2958,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Xudur",
+      "reasoning": "Bakool region capital, heavily besieged by Al-Shabaab. Very high SAM admissions (~800/mo) with low CV (0.21) suggesting strong programme presence despite siege. Aid trucks burned in 2021. Highest food prices in country. Severe food insecurity throughout period.",
+      "p": {
+        "a": 1.56,
+        "b": 4.44
+      },
+      "gamma": {
+        "a": 0.13,
+        "b": 9.87
+      },
+      "alpha": {
+        "mu": 5.118,
+        "sigma": 0.9
+      }
+    },
+    {
+      "district": "Zeylac",
+      "reasoning": "Awdal coastal/Guban district. Moderate admissions (~101/mo) with high CV (0.69). Guban pastoral drought in 2017 and 2021. Remote with limited infrastructure. Cross-border trade with Djibouti provides some resilience.",
+      "p": {
+        "a": 0.96,
+        "b": 3.04
+      },
+      "gamma": {
+        "a": 0.07,
+        "b": 6.93
+      },
+      "alpha": {
+        "mu": 4.2485,
+        "sigma": 0.9
+      }
+    }
+  ]
+}

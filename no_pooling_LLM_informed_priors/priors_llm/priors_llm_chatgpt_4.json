@@ -1,0 +1,1188 @@
+{
+  "districts": [
+    {
+      "district": "Adan Yabaal",
+      "reasoning": "Coastal Deeh, cowpea-belt, and pastoral livelihoods combine high staple-market dependence with sparse rural services and chronically constrained access. Gu-Deyr rainfall swings, coastal drought, conflict-related road disruption, and movement toward safer towns create strong monthly incidence variation.",
+      "p": {
+        "a": 35,
+        "b": 105
+      },
+      "gamma": {
+        "a": 33,
+        "b": 1967
+      },
+      "omega": {
+        "a": 18,
+        "b": 1782
+      }
+    },
+    {
+      "district": "Afgooye",
+      "reasoning": "Afgooye combines productive Lower Shabelle riverine and high-potential agropastoral farming with a large peri-urban and displaced population; proximity to Mogadishu improves service reach, but rural access remains uneven. River flooding, two crop seasons, food-price changes, and repeated displacement along the Mogadishu corridor produce pronounced monthly variation.",
+      "p": {
+        "a": 44.8,
+        "b": 95.2
+      },
+      "gamma": {
+        "a": 32,
+        "b": 1968
+      },
+      "omega": {
+        "a": 23.1,
+        "b": 2176.9
+      }
+    },
+    {
+      "district": "Afmadow",
+      "reasoning": "Afmadow spans southern cattle pastoral, rainfed, riverine, and agropastoral systems with high market dependence and limited rural programme reach. Rainfall and pasture cycles, Juba flooding, cross-border livestock movements, and recurrent insecurity make incidence highly variable month to month.",
+      "p": {
+        "a": 37.8,
+        "b": 102.2
+      },
+      "gamma": {
+        "a": 36,
+        "b": 1964
+      },
+      "omega": {
+        "a": 22,
+        "b": 1978
+      }
+    },
+    {
+      "district": "Baardheere",
+      "reasoning": "Baardheere combines Juba riverine pump irrigation, high-potential agropastoral land, and extensive inland pastoral areas, while insecurity and road constraints limit reliable rural services. Floods, crop calendars, rainfall-driven pasture conditions, border trade, and displacement repeatedly shift food access and monthly incidence.",
+      "p": {
+        "a": 40.6,
+        "b": 99.4
+      },
+      "gamma": {
+        "a": 37,
+        "b": 1963
+      },
+      "omega": {
+        "a": 25.3,
+        "b": 2174.7
+      }
+    },
+    {
+      "district": "Badhaadhe",
+      "reasoning": "Badhaadhe is a remote border district dominated by cattle pastoral and southern rainfed livelihoods, with long travel distances and weak, intermittently reachable services. Rainfall and pasture shocks, livestock disease, trade disruptions at the Kenya border, and conflict-driven movements generate large monthly fluctuations.",
+      "p": {
+        "a": 35,
+        "b": 105
+      },
+      "gamma": {
+        "a": 36,
+        "b": 1964
+      },
+      "omega": {
+        "a": 19.8,
+        "b": 1780.2
+      }
+    },
+    {
+      "district": "Baki",
+      "reasoning": "Baki mixes relatively productive northwest agropastoral land with West Golis and Guban pastoral areas, supported by comparatively stable Somaliland markets and service networks. Gu-Karan rainfall, crop harvests, dry-season water stress, and livestock-price cycles create moderate rather than extreme variability.",
+      "p": {
+        "a": 46.2,
+        "b": 93.8
+      },
+      "gamma": {
+        "a": 19,
+        "b": 1981
+      },
+      "omega": {
+        "a": 14.3,
+        "b": 2185.7
+      }
+    },
+    {
+      "district": "Balcad",
+      "reasoning": "Balcad combines Shabelle gravity irrigation, high-potential agropastoral farming, cowpea production, and coastal pastoralism; access to Mogadishu helps programme reach but conflict and displacement remain structural constraints. River floods, crop and labor seasons, road insecurity, and population movements drive substantial month-to-month variation.",
+      "p": {
+        "a": 42,
+        "b": 98
+      },
+      "gamma": {
+        "a": 33,
+        "b": 1967
+      },
+      "omega": {
+        "a": 24.2,
+        "b": 2175.8
+      }
+    },
+    {
+      "district": "Banadir",
+      "reasoning": "Banadir has Somalia's deepest concentration of hospitals, markets, and long-running humanitarian programmes, but it also hosts a very large, persistent informal-settlement population with weak assets and sanitation. Food-price shocks, disease seasonality, evictions, repeated inflows from rural districts, and conflict episodes keep monthly incidence variable despite diversified urban markets.",
+      "p": {
+        "a": 56,
+        "b": 84
+      },
+      "gamma": {
+        "a": 34,
+        "b": 1966
+      },
+      "omega": {
+        "a": 24,
+        "b": 2376
+      }
+    },
+    {
+      "district": "Bandarbeyla",
+      "reasoning": "Bandarbeyla is a sparsely populated Coastal Deeh and northern pastoral district reliant on livestock, fishing, imported staples, and distant markets, with limited rural health access. Monsoon conditions, irregular rains, pasture and water availability, fish catches, and transport costs produce moderate seasonal variability.",
+      "p": {
+        "a": 40.6,
+        "b": 99.4
+      },
+      "gamma": {
+        "a": 21,
+        "b": 1979
+      },
+      "omega": {
+        "a": 11.9,
+        "b": 1688.1
+      }
+    },
+    {
+      "district": "Baraawe",
+      "reasoning": "Baraawe combines a small coastal town with gravity-irrigated and southern rainfed farming under persistently uneven humanitarian access. Crop and lean seasons, flash or river flooding, market-road disruption, and conflict-related displacement produce high monthly incidence variability.",
+      "p": {
+        "a": 39.2,
+        "b": 100.8
+      },
+      "gamma": {
+        "a": 33,
+        "b": 1967
+      },
+      "omega": {
+        "a": 19.95,
+        "b": 1880.05
+      }
+    },
+    {
+      "district": "Baydhaba",
+      "reasoning": "Baydhaba is the main service and market hub for Bay's high- and low-potential agropastoral zones and has a structurally very large displaced population supported by long-running programmes. Rainfall-dependent sorghum production, lean seasons, food prices, conflict on approach roads, and repeated displacement inflows cause large monthly fluctuations.",
+      "p": {
+        "a": 50.4,
+        "b": 89.6
+      },
+      "gamma": {
+        "a": 38,
+        "b": 1962
+      },
+      "omega": {
+        "a": 26.4,
+        "b": 2373.6
+      }
+    },
+    {
+      "district": "Belet Weyne",
+      "reasoning": "Belet Weyne is a regional market and service centre surrounded by Shabelle pump irrigation, agropastoral, and Hawd pastoral livelihoods, and it persistently hosts displaced households. Recurrent river floods, crop and labor seasons, pasture cycles, food-price changes, and conflict-related movements create very high month-to-month variability.",
+      "p": {
+        "a": 49,
+        "b": 91
+      },
+      "gamma": {
+        "a": 35,
+        "b": 1965
+      },
+      "omega": {
+        "a": 28.8,
+        "b": 2371.2
+      }
+    },
+    {
+      "district": "Belet Xaawo",
+      "reasoning": "Belet Xaawo is a border market serving inland pastoral and southern agropastoral populations; town services are more available than in surrounding rural areas but access corridors are repeatedly constrained. Cross-border trade and price changes, rainfall-driven livestock conditions, conflict, and displacement make monthly incidence highly variable.",
+      "p": {
+        "a": 43.4,
+        "b": 96.6
+      },
+      "gamma": {
+        "a": 31,
+        "b": 1969
+      },
+      "omega": {
+        "a": 21,
+        "b": 1979
+      }
+    },
+    {
+      "district": "Berbera",
+      "reasoning": "Berbera's port, urban market, road links, and comparatively stable Somaliland service system diversify food access beyond the surrounding Guban and West Golis pastoral economy. Extreme coastal heat and dry-season water stress matter, but port trade and stable access smooth most monthly fluctuations.",
+      "p": {
+        "a": 53.2,
+        "b": 86.8
+      },
+      "gamma": {
+        "a": 15,
+        "b": 1985
+      },
+      "omega": {
+        "a": 10.8,
+        "b": 2389.2
+      }
+    },
+    {
+      "district": "Borama",
+      "reasoning": "Borama combines a well-connected urban centre with northwest agropastoral and West Golis production, comparatively dense services, and diversified trade with Ethiopia and Djibouti. Gu-Karan harvests, localized drought, water shortages, and border-price movements cause only moderate monthly variability.",
+      "p": {
+        "a": 51.8,
+        "b": 88.2
+      },
+      "gamma": {
+        "a": 15,
+        "b": 1985
+      },
+      "omega": {
+        "a": 10.8,
+        "b": 2389.2
+      }
+    },
+    {
+      "district": "Bossaso",
+      "reasoning": "Bossaso is a major port and health-service hub with strong imported-food markets, but it also hosts persistent displaced communities and serves remote East Golis and northern pastoral populations. Port prices, hot-season disease and water stress, pastoral migration, and variable displacement inflows create moderate monthly variability.",
+      "p": {
+        "a": 53.2,
+        "b": 86.8
+      },
+      "gamma": {
+        "a": 22,
+        "b": 1978
+      },
+      "omega": {
+        "a": 17.25,
+        "b": 2282.75
+      }
+    },
+    {
+      "district": "Bu'aale",
+      "reasoning": "Bu'aale lies in the Juba gravity-irrigation and mixed agropastoral belt, but chronic armed-group control, seasonal isolation, and minimal reliable programme access constrain recovery pathways. River floods, crop and labor seasons, market blockages, conflict, and displacement create exceptionally high monthly incidence variability.",
+      "p": {
+        "a": 32.2,
+        "b": 107.8
+      },
+      "gamma": {
+        "a": 44,
+        "b": 1956
+      },
+      "omega": {
+        "a": 23.4,
+        "b": 1776.6
+      }
+    },
+    {
+      "district": "Bulo Burto",
+      "reasoning": "Bulo Burto combines Shabelle pump irrigation, southern agropastoral, and inland pastoral livelihoods with persistent conflict and weak rural service reach. River levels, floods, crop calendars, rainfall and pasture conditions, road closures, and displacement drive very high monthly variability.",
+      "p": {
+        "a": 36.4,
+        "b": 103.6
+      },
+      "gamma": {
+        "a": 38,
+        "b": 1962
+      },
+      "omega": {
+        "a": 22.8,
+        "b": 1877.2
+      }
+    },
+    {
+      "district": "Burco",
+      "reasoning": "Burco is a major Somaliland livestock market and urban service centre embedded in Hawd and West Golis pastoral systems. Pasture and milk seasonality and livestock-export prices create moderate variation, while relatively stable access and urban markets provide smoothing.",
+      "p": {
+        "a": 49,
+        "b": 91
+      },
+      "gamma": {
+        "a": 18,
+        "b": 1982
+      },
+      "omega": {
+        "a": 14.4,
+        "b": 2385.6
+      }
+    },
+    {
+      "district": "Burtinle",
+      "reasoning": "Burtinle is a remote Hawd pastoral district reliant on livestock, milk, imported staples, and water infrastructure, with thinner services than Puntland's main towns. Gu-Deyr rainfall, Jilaal water costs, pasture migration, and livestock prices generate moderate seasonal incidence variation.",
+      "p": {
+        "a": 43.4,
+        "b": 96.6
+      },
+      "gamma": {
+        "a": 23,
+        "b": 1977
+      },
+      "omega": {
+        "a": 14.7,
+        "b": 2085.3
+      }
+    },
+    {
+      "district": "Buuhoodle",
+      "reasoning": "Buuhoodle is a contested Hawd pastoral border district with thin services and recurrent limits on movement and programme continuity. Rainfall and water scarcity, livestock migration and prices, localized conflict, and displacement create high month-to-month variability.",
+      "p": {
+        "a": 39.2,
+        "b": 100.8
+      },
+      "gamma": {
+        "a": 26,
+        "b": 1974
+      },
+      "omega": {
+        "a": 16.15,
+        "b": 1683.85
+      }
+    },
+    {
+      "district": "Buur Hakaba",
+      "reasoning": "Buur Hakaba combines high- and low-potential Bay agropastoral farming with inland pastoral areas, while insecurity along trade routes limits consistent rural services. Gu-Deyr crop and labor seasons, drought, food-price changes, road disruption, and displacement cause high monthly variability.",
+      "p": {
+        "a": 37.8,
+        "b": 102.2
+      },
+      "gamma": {
+        "a": 35,
+        "b": 1965
+      },
+      "omega": {
+        "a": 21,
+        "b": 1979
+      }
+    },
+    {
+      "district": "Cabudwaaq",
+      "reasoning": "Cabudwaaq is a Hawd pastoral border district with an established town market and somewhat better service reach than remote Galgaduud areas, but livelihoods remain livestock- and import-dependent. Rainfall, water and pasture conditions, cross-border trade prices, clan conflict, and mobility produce substantial monthly variation.",
+      "p": {
+        "a": 44.8,
+        "b": 95.2
+      },
+      "gamma": {
+        "a": 25,
+        "b": 1975
+      },
+      "omega": {
+        "a": 17.85,
+        "b": 2082.15
+      }
+    },
+    {
+      "district": "Cadaado",
+      "reasoning": "Cadaado combines an urban market with Hawd and Addun pastoral livelihoods and has a sustained administrative and humanitarian presence relative to eastern Galgaduud. Rainfall-driven milk and livestock cycles, water prices, trade disruption, and conflict-related movements create substantial monthly variability.",
+      "p": {
+        "a": 44.8,
+        "b": 95.2
+      },
+      "gamma": {
+        "a": 26,
+        "b": 1974
+      },
+      "omega": {
+        "a": 18.7,
+        "b": 2181.3
+      }
+    },
+    {
+      "district": "Cadale",
+      "reasoning": "Cadale spans Coastal Deeh, the cowpea belt, and small pastoral areas, with high market dependence and structurally difficult rural humanitarian access. Erratic rains, crop and livestock cycles, coastal transport costs, conflict, and displacement produce high monthly variability.",
+      "p": {
+        "a": 36.4,
+        "b": 103.6
+      },
+      "gamma": {
+        "a": 33,
+        "b": 1967
+      },
+      "omega": {
+        "a": 18.9,
+        "b": 1781.1
+      }
+    },
+    {
+      "district": "Caluula",
+      "reasoning": "Caluula is a remote East Golis district where frankincense, goats, fishing, and imported staples provide a narrow and market-dependent food economy with sparse services. Irregular rain, monsoon fishing conditions, resin and livestock prices, and long transport links cause moderate-to-high monthly variability.",
+      "p": {
+        "a": 37.8,
+        "b": 102.2
+      },
+      "gamma": {
+        "a": 23,
+        "b": 1977
+      },
+      "omega": {
+        "a": 12.75,
+        "b": 1687.25
+      }
+    },
+    {
+      "district": "Caynabo",
+      "reasoning": "Caynabo is primarily a northern inland pastoral district with smaller Hawd and West Golis areas, dependent on livestock and imported cereals with limited rural health density. Rainfall, water and pasture cycles, livestock prices, and periodic territorial tension produce moderate monthly variability.",
+      "p": {
+        "a": 42,
+        "b": 98
+      },
+      "gamma": {
+        "a": 22,
+        "b": 1978
+      },
+      "omega": {
+        "a": 14.25,
+        "b": 1885.75
+      }
+    },
+    {
+      "district": "Ceel Afweyn",
+      "reasoning": "Ceel Afweyn crosses Guban, West and East Golis, and northern inland pastoral zones, creating several livelihood pathways but also long distances to services and recurrent local conflict. Different rain calendars, pasture migration, frankincense and livestock prices, and access interruptions generate substantial monthly variability.",
+      "p": {
+        "a": 39.2,
+        "b": 100.8
+      },
+      "gamma": {
+        "a": 25,
+        "b": 1975
+      },
+      "omega": {
+        "a": 15.3,
+        "b": 1784.7
+      }
+    },
+    {
+      "district": "Ceel Barde",
+      "reasoning": "Ceel Barde is a remote southern inland pastoral border district with weak service density, poor roads, and high reliance on livestock and imported staples. Drought and water stress, cross-border livestock movement, market prices, and conflict-related access changes drive high monthly variability.",
+      "p": {
+        "a": 37.8,
+        "b": 102.2
+      },
+      "gamma": {
+        "a": 33,
+        "b": 1967
+      },
+      "omega": {
+        "a": 17.1,
+        "b": 1782.9
+      }
+    },
+    {
+      "district": "Ceel Buur",
+      "reasoning": "Ceel Buur combines Addun, Hawd, cowpea-belt, and inland pastoral livelihoods but has chronically constrained access and very sparse formal services. Rainfall and pasture shifts, crop failure, road and market disruption, conflict, and displacement create very high monthly variability.",
+      "p": {
+        "a": 32.2,
+        "b": 107.8
+      },
+      "gamma": {
+        "a": 37,
+        "b": 1963
+      },
+      "omega": {
+        "a": 18.7,
+        "b": 1681.3
+      }
+    },
+    {
+      "district": "Ceel Dheere",
+      "reasoning": "Ceel Dheere combines cowpea-belt farming with Coastal Deeh and is structurally isolated by insecurity, poor roads, and limited programme presence. Erratic rainfall, crop and livestock seasons, coastal and inland market disruption, and displacement cause very high monthly variability.",
+      "p": {
+        "a": 32.2,
+        "b": 107.8
+      },
+      "gamma": {
+        "a": 38,
+        "b": 1962
+      },
+      "omega": {
+        "a": 19.55,
+        "b": 1680.45
+      }
+    },
+    {
+      "district": "Ceel Waaq",
+      "reasoning": "Ceel Waaq is a border district dominated by southern inland pastoral livelihoods with small agropastoral pockets and thin rural services. Rainfall, pasture and water availability, livestock trade at the Kenya border, food prices, and insecurity produce high month-to-month variation.",
+      "p": {
+        "a": 39.2,
+        "b": 100.8
+      },
+      "gamma": {
+        "a": 32,
+        "b": 1968
+      },
+      "omega": {
+        "a": 19,
+        "b": 1881
+      }
+    },
+    {
+      "district": "Ceerigaabo",
+      "reasoning": "Ceerigaabo is a regional service and market centre linking East Golis frankincense, northern inland pastoral, and highland livelihoods, with better programme reach than surrounding rural Sanaag. Rainfall and pasture cycles, resin and livestock prices, road distance, and periodic conflict create moderate variability.",
+      "p": {
+        "a": 46.2,
+        "b": 93.8
+      },
+      "gamma": {
+        "a": 20,
+        "b": 1980
+      },
+      "omega": {
+        "a": 15.4,
+        "b": 2184.6
+      }
+    },
+    {
+      "district": "Dhuusamarreeb",
+      "reasoning": "Dhuusamarreeb is an administrative and service hub surrounded by Addun, Hawd, and inland pastoral livelihoods, improving treatment access relative to rural Galgaduud. Rainfall, water and livestock-price cycles, conflict episodes, and population movements still generate substantial monthly variability.",
+      "p": {
+        "a": 47.6,
+        "b": 92.4
+      },
+      "gamma": {
+        "a": 26,
+        "b": 1974
+      },
+      "omega": {
+        "a": 18.7,
+        "b": 2181.3
+      }
+    },
+    {
+      "district": "Diinsoor",
+      "reasoning": "Diinsoor is an agropastoral district spanning high- and low-potential Bay systems, but chronic insecurity and road constraints weaken programme continuity outside town. Crop and lean seasons, erratic rainfall, food prices, conflict, and displacement produce very high monthly incidence variability.",
+      "p": {
+        "a": 35,
+        "b": 105
+      },
+      "gamma": {
+        "a": 38,
+        "b": 1962
+      },
+      "omega": {
+        "a": 19.8,
+        "b": 1780.2
+      }
+    },
+    {
+      "district": "Doolow",
+      "reasoning": "Doolow is a border and humanitarian logistics hub serving pastoral, agropastoral, and small riverine populations and hosting long-established displacement sites. Cross-border movements, rainfall and pasture cycles, river conditions, trade prices, and episodic insecurity create high monthly variability.",
+      "p": {
+        "a": 49,
+        "b": 91
+      },
+      "gamma": {
+        "a": 31,
+        "b": 1969
+      },
+      "omega": {
+        "a": 22,
+        "b": 2178
+      }
+    },
+    {
+      "district": "Eyl",
+      "reasoning": "Eyl combines northern inland, Hawd, Addun, and Coastal Deeh livelihoods, relying on livestock, fishing, imported staples, and long market routes with sparse rural services. Rainfall and water conditions, pasture migration, monsoon fishing, and food and livestock prices create moderate-to-high variability.",
+      "p": {
+        "a": 40.6,
+        "b": 99.4
+      },
+      "gamma": {
+        "a": 23,
+        "b": 1977
+      },
+      "omega": {
+        "a": 13.5,
+        "b": 1786.5
+      }
+    },
+    {
+      "district": "Gaalkacyo",
+      "reasoning": "Gaalkacyo is a major divided urban market and service centre surrounded by Hawd and Addun pastoral systems and hosts persistent displaced populations. Pastoral rainfall and price cycles, trade-route insecurity, clan tension, and displacement flows produce high monthly variability.",
+      "p": {
+        "a": 51.8,
+        "b": 88.2
+      },
+      "gamma": {
+        "a": 29,
+        "b": 1971
+      },
+      "omega": {
+        "a": 20.7,
+        "b": 2279.3
+      }
+    },
+    {
+      "district": "Galdogob",
+      "reasoning": "Galdogob is a Hawd pastoral border district with functioning town markets but limited rural service density and high dependence on livestock and imported cereals. Rainfall and water stress, cross-border trade, pasture migration, and localized conflict create substantial monthly variation.",
+      "p": {
+        "a": 43.4,
+        "b": 96.6
+      },
+      "gamma": {
+        "a": 25,
+        "b": 1975
+      },
+      "omega": {
+        "a": 16.8,
+        "b": 2083.2
+      }
+    },
+    {
+      "district": "Garbahaarey",
+      "reasoning": "Garbahaarey is an administrative centre surrounded by southern inland pastoral, agropastoral, and Juba riverine livelihoods; services exist in town but road access is repeatedly constrained. Rainfall, river and crop conditions, border trade, conflict, and displacement generate high monthly variability.",
+      "p": {
+        "a": 42,
+        "b": 98
+      },
+      "gamma": {
+        "a": 33,
+        "b": 1967
+      },
+      "omega": {
+        "a": 19.95,
+        "b": 1880.05
+      }
+    },
+    {
+      "district": "Garoowe",
+      "reasoning": "Garoowe is Puntland's administrative and service hub with diversified urban markets and stronger health infrastructure than surrounding Hawd and northern pastoral areas. Pastoral rainfall and food-price cycles affect the hinterland, but stable access and institutions keep monthly variability comparatively low.",
+      "p": {
+        "a": 54.6,
+        "b": 85.4
+      },
+      "gamma": {
+        "a": 17,
+        "b": 1983
+      },
+      "omega": {
+        "a": 12,
+        "b": 2388
+      }
+    },
+    {
+      "district": "Gebiley",
+      "reasoning": "Gebiley lies in the relatively productive northwest agropastoral belt and benefits from close Hargeysa markets, stable roads, and comparatively strong Somaliland services. Gu-Karan crop and labor seasons and localized rainfall failure create modest monthly variability.",
+      "p": {
+        "a": 50.4,
+        "b": 89.6
+      },
+      "gamma": {
+        "a": 15,
+        "b": 1985
+      },
+      "omega": {
+        "a": 12,
+        "b": 2388
+      }
+    },
+    {
+      "district": "Hargeysa",
+      "reasoning": "Hargeysa has diversified urban food markets, remittance networks, and the strongest concentration of health and humanitarian services in Somaliland, while also hosting some displaced households. Imported-food prices, dry-season water costs, disease seasonality, and pastoral inflows create only moderate monthly variation.",
+      "p": {
+        "a": 56,
+        "b": 84
+      },
+      "gamma": {
+        "a": 17,
+        "b": 1983
+      },
+      "omega": {
+        "a": 13.2,
+        "b": 2386.8
+      }
+    },
+    {
+      "district": "Hobyo",
+      "reasoning": "Hobyo combines Addun pastoral, cowpea-belt, and Coastal Deeh livelihoods with long transport routes, thin services, and recurrent insecurity. Erratic rainfall, pasture and crop conditions, fishing and livestock prices, road disruption, and conflict cause high monthly variability.",
+      "p": {
+        "a": 37.8,
+        "b": 102.2
+      },
+      "gamma": {
+        "a": 29,
+        "b": 1971
+      },
+      "omega": {
+        "a": 17.1,
+        "b": 1782.9
+      }
+    },
+    {
+      "district": "Iskushuban",
+      "reasoning": "Iskushuban spans East Golis, northern inland pastoral, and Coastal Deeh systems, with frankincense, livestock, fishing, and imported food but limited rural health access. Irregular rain, monsoon conditions, pasture movements, resin and livestock prices, and long supply routes create moderate-to-high variability.",
+      "p": {
+        "a": 40.6,
+        "b": 99.4
+      },
+      "gamma": {
+        "a": 23,
+        "b": 1977
+      },
+      "omega": {
+        "a": 13.5,
+        "b": 1786.5
+      }
+    },
+    {
+      "district": "Jalalaqsi",
+      "reasoning": "Jalalaqsi combines Shabelle pump irrigation, southern agropastoral, and inland pastoral livelihoods under persistent insecurity and weak rural service reach. River flooding, crop and labor seasons, rainfall and pasture changes, road disruption, and displacement produce very high monthly variability.",
+      "p": {
+        "a": 36.4,
+        "b": 103.6
+      },
+      "gamma": {
+        "a": 37,
+        "b": 1963
+      },
+      "omega": {
+        "a": 21.85,
+        "b": 1878.15
+      }
+    },
+    {
+      "district": "Jamaame",
+      "reasoning": "Jamaame is heavily riverine and rainfed, with productive potential constrained by chronic insecurity, weak programme access, and recurrent displacement. Juba floods, crop and labor seasons, rainfall shocks, market blockages, and conflict cause exceptionally high monthly variability.",
+      "p": {
+        "a": 35,
+        "b": 105
+      },
+      "gamma": {
+        "a": 42,
+        "b": 1958
+      },
+      "omega": {
+        "a": 22.5,
+        "b": 1777.5
+      }
+    },
+    {
+      "district": "Jariiban",
+      "reasoning": "Jariiban combines Addun pastoral and Coastal Deeh livelihoods, with sparse settlement, long market routes, and limited service density. Rainfall and water stress, pasture migration, coastal transport and fishing conditions, livestock prices, and local conflict create high monthly variation.",
+      "p": {
+        "a": 39.2,
+        "b": 100.8
+      },
+      "gamma": {
+        "a": 27,
+        "b": 1973
+      },
+      "omega": {
+        "a": 16.2,
+        "b": 1783.8
+      }
+    },
+    {
+      "district": "Jilib",
+      "reasoning": "Jilib combines Juba gravity irrigation, southern rainfed farming, and inland pastoralism but is among the most chronically inaccessible districts for sustained programme delivery. Floods, crop and lean seasons, rainfall, market blockades, armed conflict, and displacement produce exceptionally high month-to-month variation.",
+      "p": {
+        "a": 30.8,
+        "b": 109.2
+      },
+      "gamma": {
+        "a": 45,
+        "b": 1955
+      },
+      "omega": {
+        "a": 24.3,
+        "b": 1775.7
+      }
+    },
+    {
+      "district": "Jowhar",
+      "reasoning": "Jowhar is a regional market and service centre surrounded by Shabelle gravity irrigation, high-potential agropastoral, cowpea, and pastoral livelihoods, with a persistent displaced population. River floods, irrigation failures, crop and labor seasons, food prices, conflict, and displacement generate very high monthly variability.",
+      "p": {
+        "a": 46.2,
+        "b": 93.8
+      },
+      "gamma": {
+        "a": 33,
+        "b": 1967
+      },
+      "omega": {
+        "a": 26.45,
+        "b": 2273.55
+      }
+    },
+    {
+      "district": "Kismaayo",
+      "reasoning": "Kismaayo is a major port and service hub with diversified markets and long-running programmes, but it also hosts a large displaced population drawn from conflict- and flood-affected Juba districts. Rainfall, Juba flooding, food prices, conflict, and repeated population movements create high monthly variability.",
+      "p": {
+        "a": 51.8,
+        "b": 88.2
+      },
+      "gamma": {
+        "a": 34,
+        "b": 1966
+      },
+      "omega": {
+        "a": 25.3,
+        "b": 2274.7
+      }
+    },
+    {
+      "district": "Kurtunwaarey",
+      "reasoning": "Kurtunwaarey is dominated by Lower Shabelle gravity-irrigated and rainfed farming with inland pastoral pockets, while insecurity and poor roads chronically constrain programme access. Floods, crop and labor seasons, rainfall failure, market blockages, and displacement produce very high monthly variability.",
+      "p": {
+        "a": 35,
+        "b": 105
+      },
+      "gamma": {
+        "a": 39,
+        "b": 1961
+      },
+      "omega": {
+        "a": 21.6,
+        "b": 1778.4
+      }
+    },
+    {
+      "district": "Laas Caanood",
+      "reasoning": "Laas Caanood is an urban market serving Hawd and northern inland pastoral populations, with more services than its rural hinterland but persistent territorial contestation. Rainfall, pasture and livestock prices, conflict episodes, and displacement flows generate high monthly variation.",
+      "p": {
+        "a": 43.4,
+        "b": 96.6
+      },
+      "gamma": {
+        "a": 25,
+        "b": 1975
+      },
+      "omega": {
+        "a": 17.1,
+        "b": 1882.9
+      }
+    },
+    {
+      "district": "Laasqoray",
+      "reasoning": "Laasqoray combines remote East Golis and northern inland pastoral livelihoods with fishing, frankincense, livestock, and imported staples, and has sparse service access. Irregular rains, monsoon seas, pasture movement, resin and livestock prices, and difficult mountain roads create substantial monthly variability.",
+      "p": {
+        "a": 37.8,
+        "b": 102.2
+      },
+      "gamma": {
+        "a": 23,
+        "b": 1977
+      },
+      "omega": {
+        "a": 13.6,
+        "b": 1686.4
+      }
+    },
+    {
+      "district": "Lughaye",
+      "reasoning": "Lughaye is mainly Guban and West Golis pastoral with coastal and Djibouti-linked trade, limited rural services, and relatively stable Somaliland access. Xays and Gu-Karan rainfall, dry-season water stress, pasture migration, and border prices create moderate monthly variability.",
+      "p": {
+        "a": 42,
+        "b": 98
+      },
+      "gamma": {
+        "a": 21,
+        "b": 1979
+      },
+      "omega": {
+        "a": 13.3,
+        "b": 1886.7
+      }
+    },
+    {
+      "district": "Luuq",
+      "reasoning": "Luuq combines Juba pump irrigation, southern agropastoral, and inland pastoral livelihoods and serves as a border-linked market with uneven rural access. River conditions, crop and labor seasons, rainfall and pasture cycles, cross-border prices, conflict, and displacement create high monthly variability.",
+      "p": {
+        "a": 43.4,
+        "b": 96.6
+      },
+      "gamma": {
+        "a": 32,
+        "b": 1968
+      },
+      "omega": {
+        "a": 21,
+        "b": 1979
+      }
+    },
+    {
+      "district": "Marka",
+      "reasoning": "Marka combines an urban coastal market with Lower Shabelle gravity irrigation, high-potential agropastoral, rainfed, and Coastal Deeh livelihoods; service presence is offset by chronic insecurity and displacement. River and flash floods, crop seasons, food prices, conflict, and population movements generate very high monthly variability.",
+      "p": {
+        "a": 43.4,
+        "b": 96.6
+      },
+      "gamma": {
+        "a": 34,
+        "b": 1966
+      },
+      "omega": {
+        "a": 23.1,
+        "b": 2076.9
+      }
+    },
+    {
+      "district": "Owdweyne",
+      "reasoning": "Owdweyne mixes Hawd, West Golis, and Togdheer agropastoral livelihoods within a comparatively stable Somaliland service and market environment. Gu-Deyr rainfall, sorghum and fodder harvests, pasture and water conditions, and livestock prices create moderate variability.",
+      "p": {
+        "a": 44.8,
+        "b": 95.2
+      },
+      "gamma": {
+        "a": 19,
+        "b": 1981
+      },
+      "omega": {
+        "a": 14.3,
+        "b": 2185.7
+      }
+    },
+    {
+      "district": "Qandala",
+      "reasoning": "Qandala spans East Golis and northern inland pastoral areas with frankincense, goats, fishing, and imported-food dependence, while settlements are remote from higher-level care. Irregular rainfall, monsoon fishing, pasture movement, resin and livestock prices, and difficult roads create moderate-to-high variation.",
+      "p": {
+        "a": 39.2,
+        "b": 100.8
+      },
+      "gamma": {
+        "a": 23,
+        "b": 1977
+      },
+      "omega": {
+        "a": 12.75,
+        "b": 1687.25
+      }
+    },
+    {
+      "district": "Qansax Dheere",
+      "reasoning": "Qansax Dheere is a Bay agropastoral district spanning high- and low-potential systems, with insecure roads and limited continuity of rural programmes. Gu-Deyr harvest and labor cycles, drought, food prices, conflict, and displacement generate very high monthly variability.",
+      "p": {
+        "a": 35,
+        "b": 105
+      },
+      "gamma": {
+        "a": 37,
+        "b": 1963
+      },
+      "omega": {
+        "a": 19.8,
+        "b": 1780.2
+      }
+    },
+    {
+      "district": "Qardho",
+      "reasoning": "Qardho is a well-connected Puntland market and service town serving northern inland pastoral populations and benefiting from the Bossaso-Garoowe corridor. Rainfall, pasture and livestock prices still shape rural food access, but stable trade and access keep monthly variation moderate.",
+      "p": {
+        "a": 49,
+        "b": 91
+      },
+      "gamma": {
+        "a": 19,
+        "b": 1981
+      },
+      "omega": {
+        "a": 13.8,
+        "b": 2286.2
+      }
+    },
+    {
+      "district": "Qoryooley",
+      "reasoning": "Qoryooley is dominated by Lower Shabelle gravity irrigation and high-potential farming with substantial pastoral areas, but chronic insecurity limits reliable rural programme delivery. River flooding, crop and labor seasons, rainfall failure, road blockades, food prices, and displacement create exceptionally high variability.",
+      "p": {
+        "a": 35,
+        "b": 105
+      },
+      "gamma": {
+        "a": 40,
+        "b": 1960
+      },
+      "omega": {
+        "a": 22.8,
+        "b": 1877.2
+      }
+    },
+    {
+      "district": "Rab Dhuure",
+      "reasoning": "Rab Dhuure is a remote low-potential southern agropastoral district with poor roads, sparse services, and persistent insecurity. Erratic rains, crop failure, water and pasture stress, market isolation, conflict, and displacement produce very high monthly incidence variation.",
+      "p": {
+        "a": 33.6,
+        "b": 106.4
+      },
+      "gamma": {
+        "a": 39,
+        "b": 1961
+      },
+      "omega": {
+        "a": 19.55,
+        "b": 1680.45
+      }
+    },
+    {
+      "district": "Saakow",
+      "reasoning": "Saakow combines Juba pump irrigation, high-potential and southern agropastoral systems, and inland pastoralism under chronic armed-group control and minimal reliable programme reach. River floods, crop cycles, rainfall and pasture shocks, market blockades, conflict, and displacement create exceptionally high monthly variability.",
+      "p": {
+        "a": 30.8,
+        "b": 109.2
+      },
+      "gamma": {
+        "a": 44,
+        "b": 1956
+      },
+      "omega": {
+        "a": 22.1,
+        "b": 1677.9
+      }
+    },
+    {
+      "district": "Sablaale",
+      "reasoning": "Sablaale combines Lower Shabelle riverine, rainfed, and inland pastoral livelihoods with thin services and chronically difficult humanitarian access. Floods, crop and lean seasons, erratic rainfall, road insecurity, food prices, and displacement cause very high monthly variation.",
+      "p": {
+        "a": 33.6,
+        "b": 106.4
+      },
+      "gamma": {
+        "a": 39,
+        "b": 1961
+      },
+      "omega": {
+        "a": 20.4,
+        "b": 1679.6
+      }
+    },
+    {
+      "district": "Sheikh",
+      "reasoning": "Sheikh is a small West Golis and Togdheer agropastoral district with comparatively stable Somaliland access, mountain water sources, and links to Berbera and Burco markets. Rainfall, sorghum and fodder seasons, and livestock prices create relatively modest monthly variability.",
+      "p": {
+        "a": 47.6,
+        "b": 92.4
+      },
+      "gamma": {
+        "a": 17,
+        "b": 1983
+      },
+      "omega": {
+        "a": 12.1,
+        "b": 2187.9
+      }
+    },
+    {
+      "district": "Taleex",
+      "reasoning": "Taleex is a remote northern inland pastoral district with sparse services, difficult roads, and recurrent territorial contestation. Rainfall and water availability, livestock migration and prices, and episodic conflict create substantial monthly variability.",
+      "p": {
+        "a": 37.8,
+        "b": 102.2
+      },
+      "gamma": {
+        "a": 25,
+        "b": 1975
+      },
+      "omega": {
+        "a": 14.45,
+        "b": 1685.55
+      }
+    },
+    {
+      "district": "Tayeeglow",
+      "reasoning": "Tayeeglow combines low-potential agropastoral and inland pastoral livelihoods but has been chronically inaccessible to sustained food and health programmes. Erratic rainfall, crop and pasture failure, market blockades, conflict, and displacement produce exceptionally high month-to-month variability.",
+      "p": {
+        "a": 32.2,
+        "b": 107.8
+      },
+      "gamma": {
+        "a": 41,
+        "b": 1959
+      },
+      "omega": {
+        "a": 21.25,
+        "b": 1678.75
+      }
+    },
+    {
+      "district": "Waajid",
+      "reasoning": "Waajid is mainly low-potential agropastoral with smaller inland pastoral areas, and town-based services cannot fully offset constrained rural access and poor roads. Gu-Deyr crop and labor seasons, drought, water and pasture stress, food prices, and conflict cause high monthly variability.",
+      "p": {
+        "a": 37.8,
+        "b": 102.2
+      },
+      "gamma": {
+        "a": 37,
+        "b": 1963
+      },
+      "omega": {
+        "a": 19.95,
+        "b": 1880.05
+      }
+    },
+    {
+      "district": "Wanla Weyn",
+      "reasoning": "Wanla Weyn combines high-potential agropastoral and inland pastoral livelihoods on the Mogadishu-Baidoa corridor, with market access but persistent insecurity outside town. Crop and labor seasons, erratic rainfall, road disruption, food prices, conflict, and displacement produce high monthly variability.",
+      "p": {
+        "a": 39.2,
+        "b": 100.8
+      },
+      "gamma": {
+        "a": 35,
+        "b": 1965
+      },
+      "omega": {
+        "a": 19.95,
+        "b": 1880.05
+      }
+    },
+    {
+      "district": "Xarardheere",
+      "reasoning": "Xarardheere combines cowpea-belt and Coastal Deeh livelihoods with remote settlements, weak services, and chronic insecurity. Erratic rain, crop and pasture conditions, coastal transport and fishing, market disruption, conflict, and displacement produce very high monthly variability.",
+      "p": {
+        "a": 33.6,
+        "b": 106.4
+      },
+      "gamma": {
+        "a": 36,
+        "b": 1964
+      },
+      "omega": {
+        "a": 19.55,
+        "b": 1680.45
+      }
+    },
+    {
+      "district": "Xudun",
+      "reasoning": "Xudun is a remote northern inland pastoral district dependent on livestock and imported cereals, with sparse services and long road access. Rainfall, water and pasture cycles, livestock prices, and periodic territorial tension create substantial monthly variation.",
+      "p": {
+        "a": 37.8,
+        "b": 102.2
+      },
+      "gamma": {
+        "a": 24,
+        "b": 1976
+      },
+      "omega": {
+        "a": 14.4,
+        "b": 1785.6
+      }
+    },
+    {
+      "district": "Xudur",
+      "reasoning": "Xudur is Bakool's main administrative and service town, but surrounding low-potential agropastoral areas remain poorly connected and exposed to persistent insecurity. Crop and pasture seasons, drought, food prices, road access, conflict, and displacement generate high monthly variability.",
+      "p": {
+        "a": 43.4,
+        "b": 96.6
+      },
+      "gamma": {
+        "a": 35,
+        "b": 1965
+      },
+      "omega": {
+        "a": 20,
+        "b": 1980
+      }
+    },
+    {
+      "district": "Zeylac",
+      "reasoning": "Zeylac is a Guban and West Golis pastoral border district with coastal and Djibouti trade links, relatively stable access, but limited rural health density. Xays and Gu-Karan rainfall, extreme dry-season water stress, livestock migration, and border prices create moderate monthly variability.",
+      "p": {
+        "a": 43.4,
+        "b": 96.6
+      },
+      "gamma": {
+        "a": 21,
+        "b": 1979
+      },
+      "omega": {
+        "a": 13.3,
+        "b": 1886.7
+      }
+    }
+  ]
+}

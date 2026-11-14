@@ -1,0 +1,522 @@
+{
+"districts": [
+{
+"district": "Adan Yabaal",
+"reasoning": "Structurally inaccessible due to chronic conflict and long-run Al-Shabaab presence, severely limiting formal health and CMAM coverage (depressing p). Livelihoods are highly dependent on rain-fed agropastoralism, driving high baseline incidence (gamma) amid chronic structural vulnerability. Significant exposure to recurrent drought and volatile local conflict drives intense month-to-month variability (omega).",
+"p": {"a": 5.0, "b": 15.0},
+"gamma": {"a": 3.0, "b": 197.0},
+"omega": {"a": 2.0, "b": 198.0}
+},
+{
+"district": "Afgooye",
+"reasoning": "Riverine livelihood systems face structurally endemic vulnerabilities due to recurrent Shabelle river flooding and chronic IDP hosting, which disrupts food access and drives waterborne diseases, elevating baseline incidence (gamma). Severe and volatile seasonal flood cycles, alongside displacement shifts, cause profound month-to-month fluctuations in incidence (omega). Health access and CMAM coverage are present due to proximity to Mogadishu but intermittently disrupted by both floods and insecurity (moderate p).",
+"p": {"a": 9.0, "b": 11.0},
+"gamma": {"a": 3.0, "b": 247.0},
+"omega": {"a": 2.2, "b": 197.8}
+},
+{
+"district": "Afmadow",
+"reasoning": "Pastoral economies here suffer from compounded structural vulnerabilities: chronic conflict disruptions, erratic rainfall, and diminished access to traditional grazing areas, yielding high baseline incidence (gamma). CMAM scale and supply chains are structurally impeded by persistent road blockades and localized insecurity, depressing recovery rates (p). Sharp seasonal changes and erratic Gu/Deyr rains spur high month-to-month variability (omega).",
+"p": {"a": 7.0, "b": 13.0},
+"gamma": {"a": 2.0, "b": 198.0},
+"omega": {"a": 2.0, "b": 283.7}
+},
+{
+"district": "Baardheere",
+"reasoning": "Agropastoral and pastoral economies here suffer from compounded structural vulnerabilities: chronic conflict disruptions, erratic rainfall, and diminished crop production, yielding high baseline incidence (gamma). CMAM scale and supply chains are structurally impeded by persistent road blockades and localized insecurity, depressing recovery (p). Sharp seasonal changes, erratic rains, and localized displacement spur high month-to-month variability (omega).",
+"p": {"a": 7.0, "b": 13.0},
+"gamma": {"a": 2.0, "b": 198.0},
+"omega": {"a": 2.0, "b": 283.7}
+},
+{
+"district": "Badhaadhe",
+"reasoning": "Pastoral economies here suffer from compounded structural vulnerabilities: chronic conflict disruptions, erratic rainfall, and diminished access to traditional grazing areas, yielding high baseline incidence (gamma). CMAM scale and supply chains are structurally impeded by persistent road blockades and localized insecurity, depressing recovery rates (p). Sharp seasonal changes and erratic Gu/Deyr rains spur high month-to-month variability (omega).",
+"p": {"a": 7.0, "b": 13.0},
+"gamma": {"a": 2.0, "b": 198.0},
+"omega": {"a": 2.0, "b": 283.7}
+},
+{
+"district": "Baki",
+"reasoning": "Predominantly pastoral livelihoods characterized by structural vulnerability to recurrent droughts, fragile water access, and market dependence for cereals, driving moderate baseline incidence (gamma). Sparse populations and vast geography structurally constrain CMAM scale-up, keeping recovery rates moderate (p). Month-to-month variability (omega) is driven heavily by the bi-modal rainfall performance and seasonal depletion of livestock assets.",
+"p": {"a": 8.0, "b": 12.0},
+"gamma": {"a": 2.0, "b": 248.0},
+"omega": {"a": 2.0, "b": 331.3}
+},
+{
+"district": "Balcad",
+"reasoning": "Riverine livelihood systems face structurally endemic vulnerabilities due to recurrent Shabelle river flooding, which disrupts food access and drives waterborne diseases, elevating baseline incidence (gamma). Severe and volatile seasonal flood cycles cause profound month-to-month fluctuations in incidence (omega). Health access and CMAM coverage are present but intermittently disrupted by both floods and insecurity (moderate p).",
+"p": {"a": 9.0, "b": 11.0},
+"gamma": {"a": 3.0, "b": 247.0},
+"omega": {"a": 2.2, "b": 197.8}
+},
+{
+"district": "Banadir",
+"reasoning": "Characterized by massive, structurally persistent IDP populations with intense nutritional vulnerability and poor sanitation, driving high baseline incidence (gamma) despite urban setting. However, extreme concentration of humanitarian agencies and static health facilities provides structurally high CMAM coverage, elevating turnover (p). Incidence fluctuates significantly due to volatile displacement inflows and seasonal disease outbreaks (omega).",
+"p": {"a": 11.0, "b": 9.0},
+"gamma": {"a": 3.0, "b": 247.0},
+"omega": {"a": 2.0, "b": 248.0}
+},
+{
+"district": "Bandarbeyla",
+"reasoning": "Predominantly coastal and pastoral livelihoods characterized by structural vulnerability to recurrent droughts, fragile water access, and market dependence for cereals, driving moderate baseline incidence (gamma). Sparse populations and vast geography structurally constrain CMAM scale-up, keeping recovery rates moderate (p). Month-to-month variability (omega) is driven heavily by the bi-modal rainfall performance and seasonal depletion of livestock assets.",
+"p": {"a": 8.0, "b": 12.0},
+"gamma": {"a": 2.0, "b": 248.0},
+"omega": {"a": 2.0, "b": 331.3}
+},
+{
+"district": "Baraawe",
+"reasoning": "Agropastoral and coastal economies here suffer from compounded structural vulnerabilities: chronic conflict disruptions, erratic rainfall, and diminished crop production, yielding high baseline incidence (gamma). CMAM scale and supply chains are structurally impeded by persistent road blockades and localized insecurity, depressing recovery rates (p). Sharp seasonal changes and erratic rains spur high month-to-month variability (omega).",
+"p": {"a": 7.0, "b": 13.0},
+"gamma": {"a": 2.0, "b": 198.0},
+"omega": {"a": 2.0, "b": 283.7}
+},
+{
+"district": "Baydhaba",
+"reasoning": "Characterized by massive, structurally persistent IDP populations fleeing rural agropastoral shocks, presenting intense nutritional vulnerability and poor sanitation, driving high baseline incidence (gamma). However, concentration of humanitarian agencies provides structurally high CMAM coverage, elevating turnover (p). Incidence fluctuates significantly due to volatile displacement inflows and recurrent drought impacts on the hinterland (omega).",
+"p": {"a": 11.0, "b": 9.0},
+"gamma": {"a": 3.0, "b": 247.0},
+"omega": {"a": 2.0, "b": 248.0}
+},
+{
+"district": "Belet Weyne",
+"reasoning": "Riverine livelihood systems face structurally endemic vulnerabilities due to recurrent Shabelle river flooding, which submerges crops and drives massive AWD/cholera outbreaks, elevating baseline incidence (gamma). Severe and volatile seasonal flood cycles cause profound month-to-month fluctuations in incidence (omega). Health access and CMAM coverage are relatively developed but repeatedly submerged and disrupted by flooding (moderate p).",
+"p": {"a": 9.0, "b": 11.0},
+"gamma": {"a": 3.0, "b": 247.0},
+"omega": {"a": 2.2, "b": 197.8}
+},
+{
+"district": "Belet Xaawo",
+"reasoning": "Agropastoral economies here suffer from compounded structural vulnerabilities: chronic conflict, border-trade disruptions, and erratic rainfall, yielding high baseline incidence (gamma). CMAM scale and supply chains are structurally impeded by insecurity and vast pastoral expanses, depressing recovery rates (p). Sharp seasonal changes, erratic Gu/Deyr rains, and cross-border movements spur high month-to-month variability (omega).",
+"p": {"a": 7.0, "b": 13.0},
+"gamma": {"a": 2.0, "b": 198.0},
+"omega": {"a": 2.0, "b": 283.7}
+},
+{
+"district": "Berbera",
+"reasoning": "Structurally stable urban, coastal, and port economy with diversified food access pathways and functional markets, keeping baseline incidence (gamma) relatively low. The presence of a functioning health system and consistent humanitarian access sustains high CMAM coverage and swift exit rates (p). Relative stability and lower exposure to severe inland climatic shocks dampen month-to-month volatility (omega).",
+"p": {"a": 13.0, "b": 7.0},
+"gamma": {"a": 2.0, "b": 398.0},
+"omega": {"a": 2.0, "b": 998.0}
+},
+{
+"district": "Borama",
+"reasoning": "Structurally stable urban and peri-urban economies with relatively diversified food access and functional markets, keeping baseline incidence (gamma) low. The presence of a functioning health system and consistent access sustains high CMAM coverage and swift exit rates (p). Relative stability and lower exposure to severe climatic shocks compared to pastoral regions dampen month-to-month volatility (omega).",
+"p": {"a": 13.0, "b": 7.0},
+"gamma": {"a": 2.0, "b": 398.0},
+"omega": {"a": 2.0, "b": 998.0}
+},
+{
+"district": "Bossaso",
+"reasoning": "Structurally stable urban and port economy with relatively diversified food access and functional markets, keeping baseline incidence (gamma) low, though hosting some vulnerable IDPs. The presence of a functioning health system and consistent humanitarian access sustains high CMAM coverage and swift exit rates (p). General economic stability and lack of severe agropastoral shocks dampen month-to-month volatility (omega).",
+"p": {"a": 13.0, "b": 7.0},
+"gamma": {"a": 2.0, "b": 398.0},
+"omega": {"a": 2.0, "b": 998.0}
+},
+{
+"district": "Bu'aale",
+"reasoning": "Structurally inaccessible due to chronic conflict and Al-Shabaab presence, eliminating formal CMAM coverage and lowering p. Livelihoods are highly dependent on rain-fed agropastoralism and riverine agriculture, driving high baseline incidence (gamma). Significant vulnerability to both drought and Juba river flooding drives intense month-to-month variability (omega).",
+"p": {"a": 5.0, "b": 15.0},
+"gamma": {"a": 3.0, "b": 197.0},
+"omega": {"a": 2.0, "b": 198.0}
+},
+{
+"district": "Bulo Burto",
+"reasoning": "Agropastoral economies here suffer from compounded structural vulnerabilities: chronic conflict, siege-like road blockades, and erratic rainfall, yielding high baseline incidence (gamma). CMAM scale and supply chains are severely impeded by persistent encirclement, depressing recovery rates (p). Sharp seasonal changes and logistical access volatility spur high month-to-month variability (omega).",
+"p": {"a": 7.0, "b": 13.0},
+"gamma": {"a": 2.0, "b": 198.0},
+"omega": {"a": 2.0, "b": 283.7}
+},
+{
+"district": "Burco",
+"reasoning": "Predominantly pastoral livelihoods characterized by structural vulnerability to recurrent droughts and market dependence for cereals, driving moderate baseline incidence (gamma). Although urban centers have health infrastructure, vast geography structurally constrains broad CMAM scale-up, keeping recovery rates moderate (p). Month-to-month variability (omega) is driven heavily by the bi-modal rainfall performance and livestock trade cycles.",
+"p": {"a": 8.0, "b": 12.0},
+"gamma": {"a": 2.0, "b": 248.0},
+"omega": {"a": 2.0, "b": 331.3}
+},
+{
+"district": "Burtinle",
+"reasoning": "Predominantly pastoral livelihoods characterized by structural vulnerability to recurrent droughts, fragile water access, and market dependence, driving moderate baseline incidence (gamma). Sparse populations and vast geography structurally constrain CMAM scale-up, keeping recovery rates moderate (p). Month-to-month variability (omega) is driven heavily by the bi-modal rainfall performance and seasonal depletion of livestock assets.",
+"p": {"a": 8.0, "b": 12.0},
+"gamma": {"a": 2.0, "b": 248.0},
+"omega": {"a": 2.0, "b": 331.3}
+},
+{
+"district": "Buuhoodle",
+"reasoning": "Predominantly pastoral livelihoods characterized by structural vulnerability to recurrent droughts and localized political tensions, driving moderate baseline incidence (gamma). Vast geography and periodic administrative disputes constrain CMAM scale-up, keeping recovery rates moderate (p). Month-to-month variability (omega) is driven heavily by the bi-modal rainfall performance and seasonal depletion of livestock assets.",
+"p": {"a": 8.0, "b": 12.0},
+"gamma": {"a": 2.0, "b": 248.0},
+"omega": {"a": 2.0, "b": 331.3}
+},
+{
+"district": "Buur Hakaba",
+"reasoning": "Agropastoral economies here suffer from compounded structural vulnerabilities: chronic conflict disruptions, erratic rainfall, and diminished crop production, yielding high baseline incidence (gamma). CMAM scale and supply chains are structurally impeded by persistent road blockades and localized insecurity, depressing recovery rates (p). Sharp seasonal changes, erratic Gu/Deyr rains, and agricultural shocks spur high month-to-month variability (omega).",
+"p": {"a": 7.0, "b": 13.0},
+"gamma": {"a": 2.0, "b": 198.0},
+"omega": {"a": 2.0, "b": 283.7}
+},
+{
+"district": "Cabudwaaq",
+"reasoning": "Predominantly pastoral livelihoods characterized by structural vulnerability to recurrent droughts, fragile water access, and market dependence for cereals, driving moderate baseline incidence (gamma). Sparse populations and vast geography structurally constrain CMAM scale-up, keeping recovery rates moderate (p). Month-to-month variability (omega) is driven heavily by the bi-modal rainfall performance and seasonal depletion of livestock assets.",
+"p": {"a": 8.0, "b": 12.0},
+"gamma": {"a": 2.0, "b": 248.0},
+"omega": {"a": 2.0, "b": 331.3}
+},
+{
+"district": "Cadaado",
+"reasoning": "Predominantly pastoral livelihoods characterized by structural vulnerability to recurrent droughts, fragile water access, and market dependence, driving moderate baseline incidence (gamma). Sparse populations and vast geography structurally constrain CMAM scale-up, keeping recovery rates moderate (p). Month-to-month variability (omega) is driven heavily by the bi-modal rainfall performance and seasonal depletion of livestock assets.",
+"p": {"a": 8.0, "b": 12.0},
+"gamma": {"a": 2.0, "b": 248.0},
+"omega": {"a": 2.0, "b": 331.3}
+},
+{
+"district": "Cadale",
+"reasoning": "Agropastoral and coastal economies here suffer from structural vulnerabilities: chronic conflict disruptions, erratic rainfall, and poor infrastructure, yielding high baseline incidence (gamma). CMAM scale and supply chains are structurally impeded by persistent road blockades and localized insecurity, depressing recovery rates (p). Sharp seasonal changes and erratic rains spur high month-to-month variability (omega).",
+"p": {"a": 7.0, "b": 13.0},
+"gamma": {"a": 2.0, "b": 198.0},
+"omega": {"a": 2.0, "b": 283.7}
+},
+{
+"district": "Caluula",
+"reasoning": "Predominantly pastoral and coastal livelihoods characterized by structural vulnerability to recurrent droughts, fragile water access, and market dependence, driving moderate baseline incidence (gamma). Sparse populations and remote geography structurally constrain CMAM scale-up, keeping recovery rates moderate (p). Month-to-month variability (omega) is driven heavily by the bi-modal rainfall performance and seasonal cyclonic disruptions.",
+"p": {"a": 8.0, "b": 12.0},
+"gamma": {"a": 2.0, "b": 248.0},
+"omega": {"a": 2.0, "b": 331.3}
+},
+{
+"district": "Caynabo",
+"reasoning": "Predominantly pastoral livelihoods characterized by structural vulnerability to recurrent droughts, fragile water access, and market dependence for cereals, driving moderate baseline incidence (gamma). Sparse populations and vast geography structurally constrain CMAM scale-up, keeping recovery rates moderate (p). Month-to-month variability (omega) is driven heavily by the bi-modal rainfall performance and seasonal depletion of livestock assets.",
+"p": {"a": 8.0, "b": 12.0},
+"gamma": {"a": 2.0, "b": 248.0},
+"omega": {"a": 2.0, "b": 331.3}
+},
+{
+"district": "Ceel Afweyn",
+"reasoning": "Predominantly pastoral livelihoods characterized by structural vulnerability to recurrent droughts, fragile water access, and market dependence for cereals, driving moderate baseline incidence (gamma). Sparse populations and vast geography structurally constrain CMAM scale-up, keeping recovery rates moderate (p). Month-to-month variability (omega) is driven heavily by the bi-modal rainfall performance and seasonal depletion of livestock assets.",
+"p": {"a": 8.0, "b": 12.0},
+"gamma": {"a": 2.0, "b": 248.0},
+"omega": {"a": 2.0, "b": 331.3}
+},
+{
+"district": "Ceel Barde",
+"reasoning": "Agropastoral and pastoral economies here suffer from compounded structural vulnerabilities: chronic conflict disruptions, erratic rainfall, and diminished crop production, yielding high baseline incidence (gamma). CMAM scale and supply chains are structurally impeded by persistent road blockades and localized insecurity, depressing recovery rates (p). Sharp seasonal changes and erratic Gu/Deyr rains spur high month-to-month variability (omega).",
+"p": {"a": 7.0, "b": 13.0},
+"gamma": {"a": 2.0, "b": 198.0},
+"omega": {"a": 2.0, "b": 283.7}
+},
+{
+"district": "Ceel Buur",
+"reasoning": "Structurally inaccessible due to chronic conflict and Al-Shabaab presence, effectively eliminating formal health and CMAM coverage and drastically lowering p. Livelihoods are highly dependent on pastoralism in a volatile environment, driving high baseline incidence (gamma). Significant exposure to recurrent drought and shifting conflict lines drives intense month-to-month variability (omega).",
+"p": {"a": 5.0, "b": 15.0},
+"gamma": {"a": 3.0, "b": 197.0},
+"omega": {"a": 2.0, "b": 198.0}
+},
+{
+"district": "Ceel Dheere",
+"reasoning": "Structurally inaccessible due to chronic conflict and Al-Shabaab presence, eliminating formal CMAM coverage and lowering p. Livelihoods are highly dependent on fragile agropastoralism and coastal trade, driving high baseline incidence (gamma) amid chronic structural vulnerability. Significant vulnerability to drought and economic isolation drives intense month-to-month variability (omega).",
+"p": {"a": 5.0, "b": 15.0},
+"gamma": {"a": 3.0, "b": 197.0},
+"omega": {"a": 2.0, "b": 198.0}
+},
+{
+"district": "Ceel Waaq",
+"reasoning": "Pastoral economies here suffer from compounded structural vulnerabilities: chronic conflict, border-trade disruptions, and erratic rainfall, yielding high baseline incidence (gamma). CMAM scale and supply chains are structurally impeded by persistent insecurity and poor infrastructure, depressing recovery rates (p). Sharp seasonal changes, erratic Gu/Deyr rains, and localized displacement spur high month-to-month variability (omega).",
+"p": {"a": 7.0, "b": 13.0},
+"gamma": {"a": 2.0, "b": 198.0},
+"omega": {"a": 2.0, "b": 283.7}
+},
+{
+"district": "Ceerigaabo",
+"reasoning": "Predominantly pastoral livelihoods characterized by structural vulnerability to recurrent droughts, fragile water access, and market dependence for cereals, driving moderate baseline incidence (gamma). Sparse populations, rugged terrain, and vast geography structurally constrain CMAM scale-up, keeping recovery rates moderate (p). Month-to-month variability (omega) is driven heavily by the bi-modal rainfall performance and seasonal depletion of livestock assets.",
+"p": {"a": 8.0, "b": 12.0},
+"gamma": {"a": 2.0, "b": 248.0},
+"omega": {"a": 2.0, "b": 331.3}
+},
+{
+"district": "Dhuusamarreeb",
+"reasoning": "Predominantly pastoral livelihoods characterized by structural vulnerability to recurrent droughts, fragile water access, and market dependence, driving moderate baseline incidence (gamma). Sparse populations and vast geography structurally constrain CMAM scale-up, keeping recovery rates moderate (p). Month-to-month variability (omega) is driven heavily by the bi-modal rainfall performance and seasonal depletion of livestock assets.",
+"p": {"a": 8.0, "b": 12.0},
+"gamma": {"a": 2.0, "b": 248.0},
+"omega": {"a": 2.0, "b": 331.3}
+},
+{
+"district": "Diinsoor",
+"reasoning": "Agropastoral economies here suffer from compounded structural vulnerabilities: chronic conflict blockades, erratic rainfall, and diminished crop production, yielding high baseline incidence (gamma). CMAM scale and supply chains are structurally impeded by persistent encirclement and localized insecurity, severely depressing recovery rates (p). Sharp seasonal changes and market volatility spur high month-to-month variability (omega).",
+"p": {"a": 7.0, "b": 13.0},
+"gamma": {"a": 2.0, "b": 198.0},
+"omega": {"a": 2.0, "b": 283.7}
+},
+{
+"district": "Doolow",
+"reasoning": "Characterized by massive, structurally persistent IDP populations driven by border dynamics and rural shocks, leading to intense nutritional vulnerability and driving high baseline incidence (gamma). However, concentration of humanitarian agencies and stable access provides structurally high CMAM coverage, elevating turnover (p). Incidence fluctuates significantly due to volatile displacement inflows and seasonal cross-border dynamics (omega).",
+"p": {"a": 11.0, "b": 9.0},
+"gamma": {"a": 3.0, "b": 247.0},
+"omega": {"a": 2.0, "b": 248.0}
+},
+{
+"district": "Eyl",
+"reasoning": "Predominantly coastal and pastoral livelihoods characterized by structural vulnerability to recurrent droughts, fragile water access, and market dependence for cereals, driving moderate baseline incidence (gamma). Sparse populations and rugged geography structurally constrain CMAM scale-up, keeping recovery rates moderate (p). Month-to-month variability (omega) is driven heavily by the bi-modal rainfall performance and seasonal depletion of fishing/livestock assets.",
+"p": {"a": 8.0, "b": 12.0},
+"gamma": {"a": 2.0, "b": 248.0},
+"omega": {"a": 2.0, "b": 331.3}
+},
+{
+"district": "Gaalkacyo",
+"reasoning": "Characterized by structurally persistent IDP populations fleeing rural drought and conflict, presenting intense nutritional vulnerability and poor sanitation, driving high baseline incidence (gamma). However, the established urban center and concentration of humanitarian agencies provides structurally high CMAM coverage, elevating turnover (p). Incidence fluctuates significantly due to volatile displacement inflows and seasonal disease outbreaks (omega).",
+"p": {"a": 11.0, "b": 9.0},
+"gamma": {"a": 3.0, "b": 247.0},
+"omega": {"a": 2.0, "b": 248.0}
+},
+{
+"district": "Galdogob",
+"reasoning": "Predominantly pastoral livelihoods characterized by structural vulnerability to recurrent droughts, fragile water access, and market dependence for cereals, driving moderate baseline incidence (gamma). Sparse populations and vast geography structurally constrain CMAM scale-up, keeping recovery rates moderate (p). Month-to-month variability (omega) is driven heavily by the bi-modal rainfall performance and seasonal depletion of livestock assets.",
+"p": {"a": 8.0, "b": 12.0},
+"gamma": {"a": 2.0, "b": 248.0},
+"omega": {"a": 2.0, "b": 331.3}
+},
+{
+"district": "Garbahaarey",
+"reasoning": "Agropastoral economies here suffer from compounded structural vulnerabilities: chronic conflict disruptions, erratic rainfall, and diminished crop production, yielding high baseline incidence (gamma). CMAM scale and supply chains are structurally impeded by persistent road blockades and localized insecurity, depressing recovery rates (p). Sharp seasonal changes, erratic Gu/Deyr rains, and localized displacement spur high month-to-month variability (omega).",
+"p": {"a": 7.0, "b": 13.0},
+"gamma": {"a": 2.0, "b": 198.0},
+"omega": {"a": 2.0, "b": 283.7}
+},
+{
+"district": "Garoowe",
+"reasoning": "Structurally stable urban and administrative economy with relatively diversified food access and functional markets, keeping baseline incidence (gamma) low despite hosting some IDPs. The presence of a functioning health system and consistent humanitarian access sustains high CMAM coverage and swift exit rates (p). General economic stability and lack of severe agropastoral shocks dampen month-to-month volatility (omega).",
+"p": {"a": 13.0, "b": 7.0},
+"gamma": {"a": 2.0, "b": 398.0},
+"omega": {"a": 2.0, "b": 998.0}
+},
+{
+"district": "Gebiley",
+"reasoning": "Structurally stable agropastoral and peri-urban economies with relatively diversified food access, functional markets, and better rainfall, keeping baseline incidence (gamma) low. The presence of a functioning health system and consistent access sustains high CMAM coverage and swift exit rates (p). Relative stability and lower exposure to severe climatic shocks dampen month-to-month volatility (omega).",
+"p": {"a": 13.0, "b": 7.0},
+"gamma": {"a": 2.0, "b": 398.0},
+"omega": {"a": 2.0, "b": 998.0}
+},
+{
+"district": "Hargeysa",
+"reasoning": "Structurally stable major urban economy with diversified food access pathways and functional markets, keeping baseline incidence (gamma) low. The presence of a highly developed regional health system and consistent humanitarian access sustains high CMAM coverage and swift exit rates (p). Relative stability, diversified incomes, and lower exposure to severe inland climatic shocks dampen month-to-month volatility (omega).",
+"p": {"a": 13.0, "b": 7.0},
+"gamma": {"a": 2.0, "b": 398.0},
+"omega": {"a": 2.0, "b": 998.0}
+},
+{
+"district": "Hobyo",
+"reasoning": "Predominantly pastoral and coastal livelihoods characterized by structural vulnerability to recurrent droughts, fragile water access, and market dependence for cereals, driving moderate baseline incidence (gamma). Sparse populations and vast geography structurally constrain CMAM scale-up, keeping recovery rates moderate (p). Month-to-month variability (omega) is driven heavily by the bi-modal rainfall performance and seasonal depletion of assets.",
+"p": {"a": 8.0, "b": 12.0},
+"gamma": {"a": 2.0, "b": 248.0},
+"omega": {"a": 2.0, "b": 331.3}
+},
+{
+"district": "Iskushuban",
+"reasoning": "Predominantly pastoral livelihoods characterized by structural vulnerability to recurrent droughts, fragile water access, and market dependence, driving moderate baseline incidence (gamma). Sparse populations, rugged terrain, and vast geography structurally constrain CMAM scale-up, keeping recovery rates moderate (p). Month-to-month variability (omega) is driven heavily by the bi-modal rainfall performance and seasonal depletion of livestock assets.",
+"p": {"a": 8.0, "b": 12.0},
+"gamma": {"a": 2.0, "b": 248.0},
+"omega": {"a": 2.0, "b": 331.3}
+},
+{
+"district": "Jalalaqsi",
+"reasoning": "Agropastoral and riverine economies here suffer from compounded structural vulnerabilities: chronic conflict, siege-like road blockades, and erratic flooding/rainfall, yielding high baseline incidence (gamma). CMAM scale and supply chains are structurally impeded by persistent encirclement, depressing recovery rates (p). Sharp seasonal changes and logistical access volatility spur high month-to-month variability (omega).",
+"p": {"a": 7.0, "b": 13.0},
+"gamma": {"a": 2.0, "b": 198.0},
+"omega": {"a": 2.0, "b": 283.7}
+},
+{
+"district": "Jamaame",
+"reasoning": "Structurally inaccessible due to chronic conflict and Al-Shabaab presence, eliminating formal CMAM coverage and drastically lowering p. Livelihoods are highly dependent on riverine agriculture, driving high baseline incidence (gamma) due to waterborne disease and flood vulnerability. Significant exposure to volatile Juba river flooding drives intense month-to-month variability (omega).",
+"p": {"a": 5.0, "b": 15.0},
+"gamma": {"a": 3.0, "b": 197.0},
+"omega": {"a": 2.0, "b": 198.0}
+},
+{
+"district": "Jariiban",
+"reasoning": "Predominantly pastoral livelihoods characterized by structural vulnerability to recurrent droughts, fragile water access, and market dependence for cereals, driving moderate baseline incidence (gamma). Sparse populations and vast geography structurally constrain CMAM scale-up, keeping recovery rates moderate (p). Month-to-month variability (omega) is driven heavily by the bi-modal rainfall performance and seasonal depletion of livestock assets.",
+"p": {"a": 8.0, "b": 12.0},
+"gamma": {"a": 2.0, "b": 248.0},
+"omega": {"a": 2.0, "b": 331.3}
+},
+{
+"district": "Jilib",
+"reasoning": "Structurally inaccessible due to chronic conflict and core Al-Shabaab presence, eliminating formal health and CMAM coverage and profoundly lowering p. Livelihoods are highly dependent on riverine agriculture, driving high baseline incidence (gamma) amid chronic structural vulnerability and disease burden. Significant vulnerability to Juba river flooding drives intense month-to-month variability (omega).",
+"p": {"a": 5.0, "b": 15.0},
+"gamma": {"a": 3.0, "b": 197.0},
+"omega": {"a": 2.0, "b": 198.0}
+},
+{
+"district": "Jowhar",
+"reasoning": "Riverine livelihood systems face structurally endemic vulnerabilities due to recurrent Shabelle river flooding, which disrupts food access and drives waterborne diseases, elevating baseline incidence (gamma). Severe and volatile seasonal flood cycles cause profound month-to-month fluctuations in incidence (omega). Health access and CMAM coverage are present but intermittently disrupted by both floods and insecurity (moderate p).",
+"p": {"a": 9.0, "b": 11.0},
+"gamma": {"a": 3.0, "b": 247.0},
+"omega": {"a": 2.2, "b": 197.8}
+},
+{
+"district": "Kismaayo",
+"reasoning": "Characterized by massive, structurally persistent IDP populations presenting intense nutritional vulnerability and poor sanitation, driving high baseline incidence (gamma). However, concentration of humanitarian agencies and static health facilities in this major urban center provides structurally high CMAM coverage, elevating turnover (p). Incidence fluctuates significantly due to volatile displacement inflows and seasonal disease outbreaks (omega).",
+"p": {"a": 11.0, "b": 9.0},
+"gamma": {"a": 3.0, "b": 247.0},
+"omega": {"a": 2.0, "b": 248.0}
+},
+{
+"district": "Kurtunwaarey",
+"reasoning": "Structurally inaccessible due to chronic conflict and Al-Shabaab presence, eliminating formal CMAM coverage and lowering p. Livelihoods are highly dependent on rain-fed agropastoralism and riverine agriculture, driving high baseline incidence (gamma). Significant vulnerability to both drought and flooding drives intense month-to-month variability (omega).",
+"p": {"a": 5.0, "b": 15.0},
+"gamma": {"a": 3.0, "b": 197.0},
+"omega": {"a": 2.0, "b": 198.0}
+},
+{
+"district": "Laas Caanood",
+"reasoning": "Predominantly pastoral livelihoods characterized by structural vulnerability to recurrent droughts, fragile water access, and market dependence for cereals, driving moderate baseline incidence (gamma). Sparse populations, coupled with periodic political instability, structurally constrain CMAM scale-up, keeping recovery rates moderate (p). Month-to-month variability (omega) is driven heavily by the bi-modal rainfall performance and seasonal depletion of livestock assets.",
+"p": {"a": 8.0, "b": 12.0},
+"gamma": {"a": 2.0, "b": 248.0},
+"omega": {"a": 2.0, "b": 331.3}
+},
+{
+"district": "Laasqoray",
+"reasoning": "Predominantly coastal and pastoral livelihoods characterized by structural vulnerability to recurrent droughts, fragile water access, and market dependence, driving moderate baseline incidence (gamma). Sparse populations and rugged terrain structurally constrain CMAM scale-up, keeping recovery rates moderate (p). Month-to-month variability (omega) is driven heavily by the bi-modal rainfall performance and seasonal depletion of livestock assets.",
+"p": {"a": 8.0, "b": 12.0},
+"gamma": {"a": 2.0, "b": 248.0},
+"omega": {"a": 2.0, "b": 331.3}
+},
+{
+"district": "Lughaye",
+"reasoning": "Predominantly pastoral and coastal livelihoods characterized by structural vulnerability to recurrent droughts, fragile water access, and market dependence for cereals, driving moderate baseline incidence (gamma). Sparse populations and vast geography structurally constrain CMAM scale-up, keeping recovery rates moderate (p). Month-to-month variability (omega) is driven heavily by the bi-modal rainfall performance and seasonal depletion of livestock assets.",
+"p": {"a": 8.0, "b": 12.0},
+"gamma": {"a": 2.0, "b": 248.0},
+"omega": {"a": 2.0, "b": 331.3}
+},
+{
+"district": "Luuq",
+"reasoning": "Riverine livelihood systems face structurally endemic vulnerabilities due to recurrent Juba river flooding, which disrupts food access and drives waterborne diseases, elevating baseline incidence (gamma). Severe and volatile seasonal flood cycles cause profound month-to-month fluctuations in incidence (omega). Health access and CMAM coverage are established but repeatedly disrupted by flooding and logistical constraints (moderate p).",
+"p": {"a": 9.0, "b": 11.0},
+"gamma": {"a": 3.0, "b": 247.0},
+"omega": {"a": 2.2, "b": 197.8}
+},
+{
+"district": "Marka",
+"reasoning": "Riverine and coastal livelihoods face structurally endemic vulnerabilities due to recurrent flooding and chronic localized conflict, disrupting food access and driving high baseline incidence (gamma). Volatile seasonal flood cycles and shifting control cause profound month-to-month fluctuations in incidence (omega). Health access and CMAM coverage exist but are intermittently disrupted by both floods and insecurity (moderate p).",
+"p": {"a": 9.0, "b": 11.0},
+"gamma": {"a": 3.0, "b": 247.0},
+"omega": {"a": 2.2, "b": 197.8}
+},
+{
+"district": "Owdweyne",
+"reasoning": "Predominantly pastoral livelihoods characterized by structural vulnerability to recurrent droughts, fragile water access, and market dependence for cereals, driving moderate baseline incidence (gamma). Sparse populations and vast geography structurally constrain CMAM scale-up, keeping recovery rates moderate (p). Month-to-month variability (omega) is driven heavily by the bi-modal rainfall performance and seasonal depletion of livestock assets.",
+"p": {"a": 8.0, "b": 12.0},
+"gamma": {"a": 2.0, "b": 248.0},
+"omega": {"a": 2.0, "b": 331.3}
+},
+{
+"district": "Qandala",
+"reasoning": "Predominantly pastoral and coastal livelihoods characterized by structural vulnerability to recurrent droughts, fragile water access, and market dependence, driving moderate baseline incidence (gamma). Sparse populations and remote geography structurally constrain CMAM scale-up, keeping recovery rates moderate (p). Month-to-month variability (omega) is driven heavily by the bi-modal rainfall performance and seasonal disruptions to coastal activities.",
+"p": {"a": 8.0, "b": 12.0},
+"gamma": {"a": 2.0, "b": 248.0},
+"omega": {"a": 2.0, "b": 331.3}
+},
+{
+"district": "Qansax Dheere",
+"reasoning": "Agropastoral economies here suffer from compounded structural vulnerabilities: chronic conflict disruptions, erratic rainfall, and diminished crop production, yielding high baseline incidence (gamma). CMAM scale and supply chains are structurally impeded by persistent road blockades and localized insecurity, depressing recovery rates (p). Sharp seasonal changes, erratic Gu/Deyr rains, and agricultural shocks spur high month-to-month variability (omega).",
+"p": {"a": 7.0, "b": 13.0},
+"gamma": {"a": 2.0, "b": 198.0},
+"omega": {"a": 2.0, "b": 283.7}
+},
+{
+"district": "Qardho",
+"reasoning": "Predominantly pastoral livelihoods characterized by structural vulnerability to recurrent droughts, fragile water access, and market dependence for cereals, driving moderate baseline incidence (gamma). Sparse populations and vast geography structurally constrain broad CMAM scale-up beyond the town center, keeping recovery rates moderate (p). Month-to-month variability (omega) is driven heavily by the bi-modal rainfall performance and seasonal depletion of livestock assets.",
+"p": {"a": 8.0, "b": 12.0},
+"gamma": {"a": 2.0, "b": 248.0},
+"omega": {"a": 2.0, "b": 331.3}
+},
+{
+"district": "Qoryooley",
+"reasoning": "Riverine livelihood systems face structurally endemic vulnerabilities due to recurrent Shabelle river flooding and chronic conflict, disrupting food access and driving waterborne diseases, elevating baseline incidence (gamma). Severe and volatile seasonal flood cycles cause profound month-to-month fluctuations in incidence (omega). Health access and CMAM coverage are intermittently disrupted by both floods and militant activity (moderate p).",
+"p": {"a": 9.0, "b": 11.0},
+"gamma": {"a": 3.0, "b": 247.0},
+"omega": {"a": 2.2, "b": 197.8}
+},
+{
+"district": "Rab Dhuure",
+"reasoning": "Agropastoral and pastoral economies here suffer from compounded structural vulnerabilities: chronic conflict, poor road access, and erratic rainfall, yielding high baseline incidence (gamma). CMAM scale and supply chains are structurally impeded by localized insecurity and poor infrastructure, depressing recovery rates (p). Sharp seasonal changes and erratic Gu/Deyr rains spur high month-to-month variability (omega).",
+"p": {"a": 7.0, "b": 13.0},
+"gamma": {"a": 2.0, "b": 198.0},
+"omega": {"a": 2.0, "b": 283.7}
+},
+{
+"district": "Saakow",
+"reasoning": "Structurally inaccessible due to chronic conflict and Al-Shabaab presence, effectively eliminating formal health and CMAM coverage and drastically lowering p. Livelihoods are dependent on riverine agriculture and agropastoralism, driving high baseline incidence (gamma). Significant exposure to recurrent drought and volatile Juba river flooding drives intense month-to-month variability (omega).",
+"p": {"a": 5.0, "b": 15.0},
+"gamma": {"a": 3.0, "b": 197.0},
+"omega": {"a": 2.0, "b": 198.0}
+},
+{
+"district": "Sablaale",
+"reasoning": "Structurally inaccessible due to chronic conflict and Al-Shabaab presence, eliminating formal CMAM coverage and profoundly lowering p. Livelihoods are highly dependent on riverine agriculture, driving high baseline incidence (gamma) amid chronic structural vulnerability and waterborne disease. Significant vulnerability to flooding and agricultural failure drives intense month-to-month variability (omega).",
+"p": {"a": 5.0, "b": 15.0},
+"gamma": {"a": 3.0, "b": 197.0},
+"omega": {"a": 2.0, "b": 198.0}
+},
+{
+"district": "Sheikh",
+"reasoning": "Predominantly pastoral livelihoods characterized by structural vulnerability to recurrent droughts, fragile water access, and market dependence for cereals, driving moderate baseline incidence (gamma). Sparse populations and mountainous terrain structurally constrain CMAM scale-up, keeping recovery rates moderate (p). Month-to-month variability (omega) is driven heavily by the bi-modal rainfall performance and seasonal depletion of livestock assets.",
+"p": {"a": 8.0, "b": 12.0},
+"gamma": {"a": 2.0, "b": 248.0},
+"omega": {"a": 2.0, "b": 331.3}
+},
+{
+"district": "Taleex",
+"reasoning": "Predominantly pastoral livelihoods characterized by structural vulnerability to recurrent droughts, fragile water access, and market dependence for cereals, driving moderate baseline incidence (gamma). Sparse populations and vast geography structurally constrain CMAM scale-up, keeping recovery rates moderate (p). Month-to-month variability (omega) is driven heavily by the bi-modal rainfall performance and seasonal depletion of livestock assets.",
+"p": {"a": 8.0, "b": 12.0},
+"gamma": {"a": 2.0, "b": 248.0},
+"omega": {"a": 2.0, "b": 331.3}
+},
+{
+"district": "Tayeeglow",
+"reasoning": "Structurally inaccessible due to chronic conflict and long-run Al-Shabaab presence, effectively eliminating formal health and CMAM coverage and drastically lowering p. Livelihoods are dependent on fragile agropastoralism, driving high baseline incidence (gamma). Significant exposure to recurrent drought and shifting conflict lines drives intense month-to-month variability (omega).",
+"p": {"a": 5.0, "b": 15.0},
+"gamma": {"a": 3.0, "b": 197.0},
+"omega": {"a": 2.0, "b": 198.0}
+},
+{
+"district": "Waajid",
+"reasoning": "Agropastoral economies here suffer from compounded structural vulnerabilities: chronic conflict disruptions, encirclement, erratic rainfall, and diminished crop production, yielding high baseline incidence (gamma). CMAM scale and supply chains are structurally impeded by persistent siege-like conditions and localized insecurity, severely depressing recovery rates (p). Sharp seasonal changes and erratic Gu/Deyr rains spur high month-to-month variability (omega).",
+"p": {"a": 7.0, "b": 13.0},
+"gamma": {"a": 2.0, "b": 198.0},
+"omega": {"a": 2.0, "b": 283.7}
+},
+{
+"district": "Wanla Weyn",
+"reasoning": "Riverine and agropastoral livelihood systems face structurally endemic vulnerabilities due to recurrent Shabelle river flooding and localized conflict, disrupting food access and elevating baseline incidence (gamma). Severe and volatile seasonal flood cycles cause profound month-to-month fluctuations in incidence (omega). Health access and CMAM coverage exist but are intermittently disrupted by floods and militant activity (moderate p).",
+"p": {"a": 9.0, "b": 11.0},
+"gamma": {"a": 3.0, "b": 247.0},
+"omega": {"a": 2.2, "b": 197.8}
+},
+{
+"district": "Xarardheere",
+"reasoning": "Structurally inaccessible due to chronic conflict and core Al-Shabaab presence, profoundly limiting formal health and CMAM coverage (depressing p). Livelihoods are dependent on pastoralism and fragile coastal trade, driving high baseline incidence (gamma) amid chronic structural vulnerability. Exposure to recurrent drought and strict administrative isolation drives intense month-to-month variability (omega).",
+"p": {"a": 5.0, "b": 15.0},
+"gamma": {"a": 3.0, "b": 197.0},
+"omega": {"a": 2.0, "b": 198.0}
+},
+{
+"district": "Xudun",
+"reasoning": "Predominantly pastoral livelihoods characterized by structural vulnerability to recurrent droughts, fragile water access, and market dependence for cereals, driving moderate baseline incidence (gamma). Sparse populations and vast geography structurally constrain CMAM scale-up, keeping recovery rates moderate (p). Month-to-month variability (omega) is driven heavily by the bi-modal rainfall performance and seasonal depletion of livestock assets.",
+"p": {"a": 8.0, "b": 12.0},
+"gamma": {"a": 2.0, "b": 248.0},
+"omega": {"a": 2.0, "b": 331.3}
+},
+{
+"district": "Xudur",
+"reasoning": "Agropastoral economies here suffer from compounded structural vulnerabilities: chronic conflict blockades, erratic rainfall, and diminished crop production, yielding high baseline incidence (gamma). CMAM scale and supply chains are structurally impeded by persistent encirclement and localized insecurity, severely depressing recovery rates (p). Sharp seasonal changes, erratic Gu/Deyr rains, and agricultural shocks spur high month-to-month variability (omega).",
+"p": {"a": 7.0, "b": 13.0},
+"gamma": {"a": 2.0, "b": 198.0},
+"omega": {"a": 2.0, "b": 283.7}
+},
+{
+"district": "Zeylac",
+"reasoning": "Predominantly coastal and pastoral livelihoods characterized by structural vulnerability to recurrent droughts, fragile water access, and market dependence for cereals, driving moderate baseline incidence (gamma). Sparse populations and vast geography structurally constrain CMAM scale-up, keeping recovery rates moderate (p). Month-to-month variability (omega) is driven heavily by the bi-modal rainfall performance and seasonal depletion of assets.",
+"p": {"a": 8.0, "b": 12.0},
+"gamma": {"a": 2.0, "b": 248.0},
+"omega": {"a": 2.0, "b": 331.3}
+}
+]
+}

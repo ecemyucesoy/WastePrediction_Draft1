@@ -1,0 +1,1188 @@
+{
+  "districts": [
+    {
+      "district": "Adan Yabaal",
+      "reasoning": "Adan Yabaal (Middle Shabelle hinterland) lies in a zone of central Cowpea Belt agropastoral, rain-dependent cowpea/sorghum with a single short cropping window; it is chronically inaccessible under Al-Shabaab control, with sparse health and CMAM services. Monthly exit is kept moderate by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access and access-driven market and service disruption. Month-to-month variation in new cases is driven by a pronounced jilaal/gu lean-season cycle with recurrent rainfall failure and volatile conflict that repeatedly interrupts markets and assistance.",
+      "p": {
+        "a": 15.2459,
+        "b": 45.7376
+      },
+      "gamma": {
+        "a": 11.0586,
+        "b": 2539.0605
+      },
+      "omega": {
+        "a": 4.9228,
+        "b": 1887.0872
+      }
+    },
+    {
+      "district": "Afgooye",
+      "reasoning": "Afgooye (Lower Shabelle riverine corridor next to Mogadishu with large peri-urban IDP settlements) lies in a zone of Juba/Shabelle riverine irrigated farming, where poor households are landless labourers exposed to river floods and canal failure; it is sporadically accessible, with besieged towns, blocked supply roads or reliance on air access, with moderate, mainly town-based health and CMAM coverage, and it is a major structural IDP-hosting hub. Monthly exit is raised by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access, chronic vulnerability of displaced households and access-driven market and service disruption. Month-to-month variation in new cases is driven by moderate seasonal swings in milk, crop or fishing income; recurrent river flooding; volatile conflict that repeatedly interrupts markets and assistance; and large, fluctuating displacement inflows and outflows.",
+      "p": {
+        "a": 20.9863,
+        "b": 46.7114
+      },
+      "gamma": {
+        "a": 15.892,
+        "b": 2485.8014
+      },
+      "omega": {
+        "a": 8.1161,
+        "b": 1569.1992
+      }
+    },
+    {
+      "district": "Afmadow",
+      "reasoning": "Afmadow (Lower Juba pastoral rangelands with contested control outside the town) lies in a zone of Southern Inland/Juba pastoral, mobile cattle-camel-goat herding with weak service reach; it is sporadically accessible, with besieged towns, blocked supply roads or reliance on air access, with sparse health and CMAM services. Monthly exit is lowered by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access and access-driven market and service disruption. Month-to-month variation in new cases is driven by a pronounced jilaal/gu lean-season cycle with recurrent rainfall failure and volatile conflict that repeatedly interrupts markets and assistance.",
+      "p": {
+        "a": 15.6791,
+        "b": 52.4909
+      },
+      "gamma": {
+        "a": 11.058,
+        "b": 2508.4124
+      },
+      "omega": {
+        "a": 4.9232,
+        "b": 1929.0478
+      }
+    },
+    {
+      "district": "Baardheere",
+      "reasoning": "Baardheere (Gedo Juba-riverine town supplied largely by air) lies in a zone of Juba/Shabelle riverine irrigated farming, where poor households are landless labourers exposed to river floods and canal failure; it is sporadically accessible, with besieged towns, blocked supply roads or reliance on air access, with moderate, mainly town-based health and CMAM coverage, and it hosts moderate protracted IDP populations. Monthly exit is raised by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access, chronic vulnerability of displaced households and access-driven market and service disruption. Month-to-month variation in new cases is driven by moderate seasonal swings in milk, crop or fishing income; recurrent river flooding; volatile conflict that repeatedly interrupts markets and assistance; and periodic displacement arrivals.",
+      "p": {
+        "a": 20.9863,
+        "b": 46.7114
+      },
+      "gamma": {
+        "a": 15.905,
+        "b": 2829.2467
+      },
+      "omega": {
+        "a": 8.1243,
+        "b": 1904.1353
+      }
+    },
+    {
+      "district": "Badhaadhe",
+      "reasoning": "Badhaadhe (coastal Lower Juba pastoral area) lies in a zone of Southern Inland/Juba pastoral, mobile cattle-camel-goat herding with weak service reach; it is chronically inaccessible under Al-Shabaab control, with sparse health and CMAM services. Monthly exit is lowered by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access and access-driven market and service disruption. Month-to-month variation in new cases is driven by a pronounced jilaal/gu lean-season cycle with recurrent rainfall failure and intermittent insecurity.",
+      "p": {
+        "a": 15.6791,
+        "b": 52.4909
+      },
+      "gamma": {
+        "a": 11.0568,
+        "b": 2454.7784
+      },
+      "omega": {
+        "a": 4.9247,
+        "b": 2148.5673
+      }
+    },
+    {
+      "district": "Baki",
+      "reasoning": "Baki (Awdal agropastoral highlands) lies in a zone of Northwest/Togdheer agropastoral and West Golis highland livelihoods with karan rains and comparatively diversified crop, dairy and livestock income; it is consistently accessible to humanitarian programmes, with moderate, mainly town-based health and CMAM coverage. Monthly exit is kept moderate by the level of treatment reach, while incidence reflects the zone's structural food access. Month-to-month variation in new cases is driven by moderate seasonal swings in milk, crop or fishing income.",
+      "p": {
+        "a": 21.9422,
+        "b": 56.4229
+      },
+      "gamma": {
+        "a": 15.9694,
+        "b": 8855.9195
+      },
+      "omega": {
+        "a": 8.1568,
+        "b": 11611.263
+      }
+    },
+    {
+      "district": "Balcad",
+      "reasoning": "Balcad (Middle Shabelle riverine district on the Mogadishu-Jowhar road) lies in a zone of Juba/Shabelle riverine irrigated farming, where poor households are landless labourers exposed to river floods and canal failure; it is sporadically accessible, with besieged towns, blocked supply roads or reliance on air access, with moderate, mainly town-based health and CMAM coverage, and it hosts moderate protracted IDP populations. Monthly exit is raised by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access, chronic vulnerability of displaced households and access-driven market and service disruption. Month-to-month variation in new cases is driven by moderate seasonal swings in milk, crop or fishing income; recurrent river flooding; volatile conflict that repeatedly interrupts markets and assistance; and periodic displacement arrivals.",
+      "p": {
+        "a": 20.9863,
+        "b": 46.7114
+      },
+      "gamma": {
+        "a": 15.905,
+        "b": 2829.2467
+      },
+      "omega": {
+        "a": 8.1243,
+        "b": 1904.1353
+      }
+    },
+    {
+      "district": "Banadir",
+      "reasoning": "Banadir (Mogadishu, the country's main market and health-service centre) lies in a zone of urban/peri-urban market economy with comparatively diversified food access; it is consistently accessible to humanitarian programmes, with dense, long-running health and CMAM partner presence, and it is a major structural IDP-hosting hub. Monthly exit is raised by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access and chronic vulnerability of displaced households. Year-round market food access damps seasonality, so month-to-month variation comes mainly from intermittent insecurity and large, fluctuating displacement inflows and outflows.",
+      "p": {
+        "a": 19.3931,
+        "b": 34.4766
+      },
+      "gamma": {
+        "a": 15.9532,
+        "b": 5785.2286
+      },
+      "omega": {
+        "a": 8.1504,
+        "b": 5803.1963
+      }
+    },
+    {
+      "district": "Bandarbeyla",
+      "reasoning": "Bandarbeyla (remote Bari coastal fishing district exposed to Indian Ocean cyclones) lies in a zone of East Golis frankincense/goat or Coastal Deeh pastoral-fishing, with fish and frankincense partly buffering livestock income; it is consistently accessible to humanitarian programmes, with sparse health and CMAM services. Monthly exit is lowered by the level of treatment reach, while incidence reflects the zone's structural food access. Month-to-month variation in new cases is driven by moderate seasonal swings in milk, crop or fishing income and episodic cyclone and flash-flood shocks.",
+      "p": {
+        "a": 24.4914,
+        "b": 97.9654
+      },
+      "gamma": {
+        "a": 15.9541,
+        "b": 5892.9718
+      },
+      "omega": {
+        "a": 8.1515,
+        "b": 6347.8044
+      }
+    },
+    {
+      "district": "Baraawe",
+      "reasoning": "Baraawe (Lower Shabelle coastal town with an agropastoral hinterland and cut road links) lies in a zone of Southern/Bay-Bakool low-potential agropastoral, with marginal rainfed sorghum, small herds and labour dependence; it is sporadically accessible, with besieged towns, blocked supply roads or reliance on air access, with sparse health and CMAM services, and it hosts moderate protracted IDP populations. Monthly exit is kept moderate by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access, chronic vulnerability of displaced households and access-driven market and service disruption. Month-to-month variation in new cases is driven by a pronounced jilaal/gu lean-season cycle with recurrent rainfall failure; volatile conflict that repeatedly interrupts markets and assistance; and periodic displacement arrivals.",
+      "p": {
+        "a": 15.2459,
+        "b": 45.7376
+      },
+      "gamma": {
+        "a": 11.0403,
+        "b": 1878.0362
+      },
+      "omega": {
+        "a": 4.915,
+        "b": 1250.2994
+      }
+    },
+    {
+      "district": "Baydhaba",
+      "reasoning": "Baydhaba (Baidoa, the Bay regional hub encircled by insecure supply roads) lies in a zone of Bay sorghum high-potential agropastoral, productive but strongly dependent on gu/deyr rainfall and agricultural labour; it is sporadically accessible, with besieged towns, blocked supply roads or reliance on air access, with dense, long-running health and CMAM partner presence, and it is a major structural IDP-hosting hub. Monthly exit is raised by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access, chronic vulnerability of displaced households and access-driven market and service disruption. Month-to-month variation in new cases is driven by a pronounced jilaal/gu lean-season cycle with recurrent rainfall failure; volatile conflict that repeatedly interrupts markets and assistance; and large, fluctuating displacement inflows and outflows.",
+      "p": {
+        "a": 19.3931,
+        "b": 34.4766
+      },
+      "gamma": {
+        "a": 15.9018,
+        "b": 2737.6609
+      },
+      "omega": {
+        "a": 8.1262,
+        "b": 2002.0711
+      }
+    },
+    {
+      "district": "Belet Weyne",
+      "reasoning": "Belet Weyne (Hiiraan Shabelle-riverine town with surrounding agropastoral and Hawd areas) lies in a zone of Juba/Shabelle riverine irrigated farming, where poor households are landless labourers exposed to river floods and canal failure; it is sporadically accessible, with besieged towns, blocked supply roads or reliance on air access, with moderate, mainly town-based health and CMAM coverage, and it is a major structural IDP-hosting hub. Monthly exit is raised by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access, chronic vulnerability of displaced households and access-driven market and service disruption. Month-to-month variation in new cases is driven by moderate seasonal swings in milk, crop or fishing income; recurrent river flooding; intermittent insecurity; and large, fluctuating displacement inflows and outflows.",
+      "p": {
+        "a": 20.9863,
+        "b": 46.7114
+      },
+      "gamma": {
+        "a": 15.8971,
+        "b": 2611.7309
+      },
+      "omega": {
+        "a": 8.1222,
+        "b": 1806.0929
+      }
+    },
+    {
+      "district": "Belet Xaawo",
+      "reasoning": "Belet Xaawo (Gedo border town integrated with Kenyan (Mandera) markets and services) lies in a zone of Southern/Bay-Bakool low-potential agropastoral, with marginal rainfed sorghum, small herds and labour dependence; it is sporadically accessible, with besieged towns, blocked supply roads or reliance on air access, with moderate, mainly town-based health and CMAM coverage, and it hosts moderate protracted IDP populations. Monthly exit is raised by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access, chronic vulnerability of displaced households and access-driven market and service disruption. Month-to-month variation in new cases is driven by a pronounced jilaal/gu lean-season cycle with recurrent rainfall failure; intermittent insecurity; and periodic displacement arrivals.",
+      "p": {
+        "a": 20.9863,
+        "b": 46.7114
+      },
+      "gamma": {
+        "a": 15.9054,
+        "b": 2841.6904
+      },
+      "omega": {
+        "a": 8.1327,
+        "b": 2427.0882
+      }
+    },
+    {
+      "district": "Berbera",
+      "reasoning": "Berbera (Sahil port town within Guban pastoral surroundings) lies in a zone of urban/peri-urban market economy with comparatively diversified food access; it is consistently accessible to humanitarian programmes, with moderate, mainly town-based health and CMAM coverage, and it hosts moderate protracted IDP populations. Monthly exit is kept moderate by the level of treatment reach, while incidence reflects the zone's structural food access and chronic vulnerability of displaced households. Year-round market food access damps seasonality, so month-to-month variation comes mainly from periodic displacement arrivals.",
+      "p": {
+        "a": 21.9422,
+        "b": 56.4229
+      },
+      "gamma": {
+        "a": 15.9589,
+        "b": 6578.6114
+      },
+      "omega": {
+        "a": 8.1546,
+        "b": 8632.0414
+      }
+    },
+    {
+      "district": "Borama",
+      "reasoning": "Borama (Awdal regional capital with agropastoral surroundings) lies in a zone of Northwest/Togdheer agropastoral and West Golis highland livelihoods with karan rains and comparatively diversified crop, dairy and livestock income; it is consistently accessible to humanitarian programmes, with dense, long-running health and CMAM partner presence. Monthly exit is raised by the level of treatment reach, while incidence reflects the zone's structural food access. Month-to-month variation in new cases is driven by moderate seasonal swings in milk, crop or fishing income.",
+      "p": {
+        "a": 20.349,
+        "b": 41.3147
+      },
+      "gamma": {
+        "a": 15.9694,
+        "b": 8855.9195
+      },
+      "omega": {
+        "a": 8.1568,
+        "b": 11611.263
+      }
+    },
+    {
+      "district": "Bossaso",
+      "reasoning": "Bossaso (Bari port city and migration/IDP destination) lies in a zone of urban/peri-urban market economy with comparatively diversified food access; it is consistently accessible to humanitarian programmes, with moderate, mainly town-based health and CMAM coverage, and it is a major structural IDP-hosting hub. Monthly exit is kept moderate by the level of treatment reach, while incidence reflects the zone's structural food access and chronic vulnerability of displaced households. Year-round market food access damps seasonality, so month-to-month variation comes mainly from intermittent insecurity and large, fluctuating displacement inflows and outflows.",
+      "p": {
+        "a": 21.9422,
+        "b": 56.4229
+      },
+      "gamma": {
+        "a": 15.9532,
+        "b": 5785.2286
+      },
+      "omega": {
+        "a": 8.1504,
+        "b": 5803.1963
+      }
+    },
+    {
+      "district": "Bu'aale",
+      "reasoning": "Bu'aale (Middle Juba riverine district) lies in a zone of Juba/Shabelle riverine irrigated farming, where poor households are landless labourers exposed to river floods and canal failure; it is chronically inaccessible under Al-Shabaab control, with sparse health and CMAM services. Monthly exit is kept moderate by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access and access-driven market and service disruption. Month-to-month variation in new cases is driven by moderate seasonal swings in milk, crop or fishing income; recurrent river flooding; and volatile conflict that repeatedly interrupts markets and assistance.",
+      "p": {
+        "a": 15.2459,
+        "b": 45.7376
+      },
+      "gamma": {
+        "a": 11.0451,
+        "b": 2014.9814
+      },
+      "omega": {
+        "a": 4.9153,
+        "b": 1264.9759
+      }
+    },
+    {
+      "district": "Bulo Burto",
+      "reasoning": "Bulo Burto (Hiiraan riverine town under recurrent road blockade) lies in a zone of Juba/Shabelle riverine irrigated farming, where poor households are landless labourers exposed to river floods and canal failure; it is sporadically accessible, with besieged towns, blocked supply roads or reliance on air access, with sparse health and CMAM services, and it hosts moderate protracted IDP populations. Monthly exit is kept moderate by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access, chronic vulnerability of displaced households and access-driven market and service disruption. Month-to-month variation in new cases is driven by moderate seasonal swings in milk, crop or fishing income; recurrent river flooding; volatile conflict that repeatedly interrupts markets and assistance; and periodic displacement arrivals.",
+      "p": {
+        "a": 15.2459,
+        "b": 45.7376
+      },
+      "gamma": {
+        "a": 11.0434,
+        "b": 1964.4508
+      },
+      "omega": {
+        "a": 4.913,
+        "b": 1151.491
+      }
+    },
+    {
+      "district": "Burco",
+      "reasoning": "Burco (Togdheer city hosting the largest livestock market in the north) lies in a zone of urban/peri-urban market economy with comparatively diversified food access; it is consistently accessible to humanitarian programmes, with dense, long-running health and CMAM partner presence, and it hosts moderate protracted IDP populations. Monthly exit is raised by the level of treatment reach, while incidence reflects the zone's structural food access and chronic vulnerability of displaced households. Year-round market food access damps seasonality, so month-to-month variation comes mainly from periodic displacement arrivals.",
+      "p": {
+        "a": 20.349,
+        "b": 41.3147
+      },
+      "gamma": {
+        "a": 15.9589,
+        "b": 6578.6114
+      },
+      "omega": {
+        "a": 8.1546,
+        "b": 8632.0414
+      }
+    },
+    {
+      "district": "Burtinle",
+      "reasoning": "Burtinle (Nugaal pastoral rangelands) lies in a zone of Northern Inland/Hawd pastoral, purchasing most cereals with livestock income and exposed to a harsh jilaal lean season; it is consistently accessible to humanitarian programmes, with sparse health and CMAM services. Monthly exit is lowered by the level of treatment reach, while incidence reflects the zone's structural food access. Month-to-month variation in new cases is driven by a pronounced jilaal/gu lean-season cycle with recurrent rainfall failure.",
+      "p": {
+        "a": 24.4914,
+        "b": 97.9654
+      },
+      "gamma": {
+        "a": 15.9507,
+        "b": 5484.2907
+      },
+      "omega": {
+        "a": 8.1516,
+        "b": 6380.2285
+      }
+    },
+    {
+      "district": "Buuhoodle",
+      "reasoning": "Buuhoodle (contested Hawd border district) lies in a zone of Northern Inland/Hawd pastoral, purchasing most cereals with livestock income and exposed to a harsh jilaal lean season; it is sporadically accessible, with besieged towns, blocked supply roads or reliance on air access, with sparse health and CMAM services, and it hosts moderate protracted IDP populations. Monthly exit is lowered by the level of treatment reach, while incidence reflects the zone's structural food access, chronic vulnerability of displaced households and access-driven market and service disruption. Month-to-month variation in new cases is driven by a pronounced jilaal/gu lean-season cycle with recurrent rainfall failure; intermittent insecurity; and periodic displacement arrivals.",
+      "p": {
+        "a": 16.3289,
+        "b": 65.3157
+      },
+      "gamma": {
+        "a": 11.0686,
+        "b": 3143.2811
+      },
+      "omega": {
+        "a": 4.9266,
+        "b": 2502.1993
+      }
+    },
+    {
+      "district": "Buur Hakaba",
+      "reasoning": "Buur Hakaba (Bay district on the insecure Mogadishu-Baidoa road) lies in a zone of Bay sorghum high-potential agropastoral, productive but strongly dependent on gu/deyr rainfall and agricultural labour; it is sporadically accessible, with besieged towns, blocked supply roads or reliance on air access, with moderate, mainly town-based health and CMAM coverage, and it hosts moderate protracted IDP populations. Monthly exit is raised by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access, chronic vulnerability of displaced households and access-driven market and service disruption. Month-to-month variation in new cases is driven by a pronounced jilaal/gu lean-season cycle with recurrent rainfall failure; volatile conflict that repeatedly interrupts markets and assistance; and periodic displacement arrivals.",
+      "p": {
+        "a": 20.9863,
+        "b": 46.7114
+      },
+      "gamma": {
+        "a": 15.9136,
+        "b": 3115.4532
+      },
+      "omega": {
+        "a": 8.133,
+        "b": 2453.9493
+      }
+    },
+    {
+      "district": "Cabudwaaq",
+      "reasoning": "Cabudwaaq (Galgaduud Hawd border district) lies in a zone of Northern Inland/Hawd pastoral, purchasing most cereals with livestock income and exposed to a harsh jilaal lean season; it is consistently accessible to humanitarian programmes, with moderate, mainly town-based health and CMAM coverage, and it hosts moderate protracted IDP populations. Monthly exit is kept moderate by the level of treatment reach, while incidence reflects the zone's structural food access and chronic vulnerability of displaced households. Month-to-month variation in new cases is driven by a pronounced jilaal/gu lean-season cycle with recurrent rainfall failure; intermittent insecurity; and periodic displacement arrivals.",
+      "p": {
+        "a": 22.5795,
+        "b": 64.2647
+      },
+      "gamma": {
+        "a": 15.9458,
+        "b": 4982.7282
+      },
+      "omega": {
+        "a": 8.1469,
+        "b": 4552.3637
+      }
+    },
+    {
+      "district": "Cadaado",
+      "reasoning": "Cadaado (Galgaduud Addun pastoral district) lies in a zone of Addun pastoral in central Somalia with high cereal-purchase dependence and recurrent water and pasture stress; it is consistently accessible to humanitarian programmes, with moderate, mainly town-based health and CMAM coverage, and it hosts moderate protracted IDP populations. Monthly exit is kept moderate by the level of treatment reach, while incidence reflects the zone's structural food access and chronic vulnerability of displaced households. Month-to-month variation in new cases is driven by a pronounced jilaal/gu lean-season cycle with recurrent rainfall failure; intermittent insecurity; and periodic displacement arrivals.",
+      "p": {
+        "a": 22.5795,
+        "b": 64.2647
+      },
+      "gamma": {
+        "a": 15.9402,
+        "b": 4512.5144
+      },
+      "omega": {
+        "a": 8.1452,
+        "b": 4123.9584
+      }
+    },
+    {
+      "district": "Cadale",
+      "reasoning": "Cadale (Middle Shabelle coastal pastoral-fishing district) lies in a zone of East Golis frankincense/goat or Coastal Deeh pastoral-fishing, with fish and frankincense partly buffering livestock income; it is chronically inaccessible under Al-Shabaab control, with sparse health and CMAM services. Monthly exit is lowered by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access and access-driven market and service disruption. Month-to-month variation in new cases is driven by moderate seasonal swings in milk, crop or fishing income and volatile conflict that repeatedly interrupts markets and assistance.",
+      "p": {
+        "a": 15.6791,
+        "b": 52.4909
+      },
+      "gamma": {
+        "a": 11.0706,
+        "b": 3298.2278
+      },
+      "omega": {
+        "a": 4.9275,
+        "b": 2722.8045
+      }
+    },
+    {
+      "district": "Caluula",
+      "reasoning": "Caluula (remote Bari Gulf of Aden coastal district) lies in a zone of East Golis frankincense/goat or Coastal Deeh pastoral-fishing, with fish and frankincense partly buffering livestock income; it is consistently accessible to humanitarian programmes, with sparse health and CMAM services. Monthly exit is lowered by the level of treatment reach, while incidence reflects the zone's structural food access. Month-to-month variation in new cases is driven by moderate seasonal swings in milk, crop or fishing income and episodic cyclone and flash-flood shocks.",
+      "p": {
+        "a": 24.4914,
+        "b": 97.9654
+      },
+      "gamma": {
+        "a": 15.9541,
+        "b": 5892.9718
+      },
+      "omega": {
+        "a": 8.1515,
+        "b": 6347.8044
+      }
+    },
+    {
+      "district": "Caynabo",
+      "reasoning": "Caynabo (Sool pastoral district) lies in a zone of Northern Inland/Hawd pastoral, purchasing most cereals with livestock income and exposed to a harsh jilaal lean season; it is consistently accessible to humanitarian programmes, with sparse health and CMAM services. Monthly exit is lowered by the level of treatment reach, while incidence reflects the zone's structural food access. Month-to-month variation in new cases is driven by a pronounced jilaal/gu lean-season cycle with recurrent rainfall failure and intermittent insecurity.",
+      "p": {
+        "a": 24.4914,
+        "b": 97.9654
+      },
+      "gamma": {
+        "a": 15.9507,
+        "b": 5484.2907
+      },
+      "omega": {
+        "a": 8.1497,
+        "b": 5502.1362
+      }
+    },
+    {
+      "district": "Ceel Afweyn",
+      "reasoning": "Ceel Afweyn (Sanaag pastoral district with recurrent inter-clan clashes) lies in a zone of Northern Inland/Hawd pastoral, purchasing most cereals with livestock income and exposed to a harsh jilaal lean season; it is consistently accessible to humanitarian programmes, with sparse health and CMAM services. Monthly exit is lowered by the level of treatment reach, while incidence reflects the zone's structural food access. Month-to-month variation in new cases is driven by a pronounced jilaal/gu lean-season cycle with recurrent rainfall failure and volatile conflict that repeatedly interrupts markets and assistance.",
+      "p": {
+        "a": 24.4914,
+        "b": 97.9654
+      },
+      "gamma": {
+        "a": 15.9482,
+        "b": 5221.5674
+      },
+      "omega": {
+        "a": 8.1471,
+        "b": 4604.8885
+      }
+    },
+    {
+      "district": "Ceel Barde",
+      "reasoning": "Ceel Barde (Bakool border agropastoral district with an encircled town) lies in a zone of Southern/Bay-Bakool low-potential agropastoral, with marginal rainfed sorghum, small herds and labour dependence; it is sporadically accessible, with besieged towns, blocked supply roads or reliance on air access, with sparse health and CMAM services, and it hosts moderate protracted IDP populations. Monthly exit is kept moderate by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access, chronic vulnerability of displaced households and access-driven market and service disruption. Month-to-month variation in new cases is driven by a pronounced jilaal/gu lean-season cycle with recurrent rainfall failure; volatile conflict that repeatedly interrupts markets and assistance; and periodic displacement arrivals.",
+      "p": {
+        "a": 15.2459,
+        "b": 45.7376
+      },
+      "gamma": {
+        "a": 11.0403,
+        "b": 1878.0362
+      },
+      "omega": {
+        "a": 4.915,
+        "b": 1250.2994
+      }
+    },
+    {
+      "district": "Ceel Buur",
+      "reasoning": "Ceel Buur (Galgaduud agropastoral district) lies in a zone of central Cowpea Belt agropastoral, rain-dependent cowpea/sorghum with a single short cropping window; it is chronically inaccessible under Al-Shabaab control, with sparse health and CMAM services. Monthly exit is kept moderate by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access and access-driven market and service disruption. Month-to-month variation in new cases is driven by a pronounced jilaal/gu lean-season cycle with recurrent rainfall failure and volatile conflict that repeatedly interrupts markets and assistance.",
+      "p": {
+        "a": 15.2459,
+        "b": 45.7376
+      },
+      "gamma": {
+        "a": 11.0586,
+        "b": 2539.0605
+      },
+      "omega": {
+        "a": 4.9228,
+        "b": 1887.0872
+      }
+    },
+    {
+      "district": "Ceel Dheere",
+      "reasoning": "Ceel Dheere (Galgaduud coastal-agropastoral district) lies in a zone of central Cowpea Belt agropastoral, rain-dependent cowpea/sorghum with a single short cropping window; it is chronically inaccessible under Al-Shabaab control, with sparse health and CMAM services. Monthly exit is kept moderate by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access and access-driven market and service disruption. Month-to-month variation in new cases is driven by a pronounced jilaal/gu lean-season cycle with recurrent rainfall failure and volatile conflict that repeatedly interrupts markets and assistance.",
+      "p": {
+        "a": 15.2459,
+        "b": 45.7376
+      },
+      "gamma": {
+        "a": 11.0586,
+        "b": 2539.0605
+      },
+      "omega": {
+        "a": 4.9228,
+        "b": 1887.0872
+      }
+    },
+    {
+      "district": "Ceel Waaq",
+      "reasoning": "Ceel Waaq (Gedo Kenya-border pastoral district) lies in a zone of Southern Inland/Juba pastoral, mobile cattle-camel-goat herding with weak service reach; it is sporadically accessible, with besieged towns, blocked supply roads or reliance on air access, with sparse health and CMAM services. Monthly exit is lowered by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access and access-driven market and service disruption. Month-to-month variation in new cases is driven by a pronounced jilaal/gu lean-season cycle with recurrent rainfall failure and intermittent insecurity.",
+      "p": {
+        "a": 15.6791,
+        "b": 52.4909
+      },
+      "gamma": {
+        "a": 11.0605,
+        "b": 2634.989
+      },
+      "omega": {
+        "a": 4.9256,
+        "b": 2305.6159
+      }
+    },
+    {
+      "district": "Ceerigaabo",
+      "reasoning": "Ceerigaabo (Sanaag highland/East Golis district with the regional town) lies in a zone of East Golis frankincense/goat or Coastal Deeh pastoral-fishing, with fish and frankincense partly buffering livestock income; it is consistently accessible to humanitarian programmes, with moderate, mainly town-based health and CMAM coverage, and it hosts moderate protracted IDP populations. Monthly exit is kept moderate by the level of treatment reach, while incidence reflects the zone's structural food access and chronic vulnerability of displaced households. Month-to-month variation in new cases is driven by moderate seasonal swings in milk, crop or fishing income; intermittent insecurity; and periodic displacement arrivals.",
+      "p": {
+        "a": 22.5795,
+        "b": 64.2647
+      },
+      "gamma": {
+        "a": 15.9495,
+        "b": 5354.2559
+      },
+      "omega": {
+        "a": 8.1491,
+        "b": 5268.4072
+      }
+    },
+    {
+      "district": "Dhuusamarreeb",
+      "reasoning": "Dhuusamarreeb (Galmudug capital hosting large IDP settlements amid recurrent armed clashes) lies in a zone of central Cowpea Belt agropastoral, rain-dependent cowpea/sorghum with a single short cropping window; it is sporadically accessible, with besieged towns, blocked supply roads or reliance on air access, with moderate, mainly town-based health and CMAM coverage, and it is a major structural IDP-hosting hub. Monthly exit is raised by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access, chronic vulnerability of displaced households and access-driven market and service disruption. Month-to-month variation in new cases is driven by a pronounced jilaal/gu lean-season cycle with recurrent rainfall failure; volatile conflict that repeatedly interrupts markets and assistance; and large, fluctuating displacement inflows and outflows.",
+      "p": {
+        "a": 20.9863,
+        "b": 46.7114
+      },
+      "gamma": {
+        "a": 15.9141,
+        "b": 3133.4434
+      },
+      "omega": {
+        "a": 8.1309,
+        "b": 2290.5466
+      }
+    },
+    {
+      "district": "Diinsoor",
+      "reasoning": "Diinsoor (Bay district whose town is isolated from surrounding farmland) lies in a zone of Bay sorghum high-potential agropastoral, productive but strongly dependent on gu/deyr rainfall and agricultural labour; it is sporadically accessible, with besieged towns, blocked supply roads or reliance on air access, with sparse health and CMAM services. Monthly exit is kept moderate by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access and access-driven market and service disruption. Month-to-month variation in new cases is driven by a pronounced jilaal/gu lean-season cycle with recurrent rainfall failure and volatile conflict that repeatedly interrupts markets and assistance.",
+      "p": {
+        "a": 15.2459,
+        "b": 45.7376
+      },
+      "gamma": {
+        "a": 11.0552,
+        "b": 2381.8361
+      },
+      "omega": {
+        "a": 4.9218,
+        "b": 1770.6232
+      }
+    },
+    {
+      "district": "Doolow",
+      "reasoning": "Doolow (Gedo Juba-riverine border town with a concentrated humanitarian presence) lies in a zone of Juba/Shabelle riverine irrigated farming, where poor households are landless labourers exposed to river floods and canal failure; it is consistently accessible to humanitarian programmes, with dense, long-running health and CMAM partner presence, and it is a major structural IDP-hosting hub. Monthly exit is raised by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access and chronic vulnerability of displaced households. Month-to-month variation in new cases is driven by moderate seasonal swings in milk, crop or fishing income; recurrent river flooding; intermittent insecurity; and large, fluctuating displacement inflows and outflows.",
+      "p": {
+        "a": 19.3931,
+        "b": 34.4766
+      },
+      "gamma": {
+        "a": 15.9065,
+        "b": 2876.1844
+      },
+      "omega": {
+        "a": 8.126,
+        "b": 1988.4271
+      }
+    },
+    {
+      "district": "Eyl",
+      "reasoning": "Eyl (remote Nugaal Coastal Deeh district) lies in a zone of East Golis frankincense/goat or Coastal Deeh pastoral-fishing, with fish and frankincense partly buffering livestock income; it is consistently accessible to humanitarian programmes, with sparse health and CMAM services. Monthly exit is lowered by the level of treatment reach, while incidence reflects the zone's structural food access. Month-to-month variation in new cases is driven by moderate seasonal swings in milk, crop or fishing income.",
+      "p": {
+        "a": 24.4914,
+        "b": 97.9654
+      },
+      "gamma": {
+        "a": 15.9541,
+        "b": 5892.9718
+      },
+      "omega": {
+        "a": 8.1534,
+        "b": 7541.2624
+      }
+    },
+    {
+      "district": "Gaalkacyo",
+      "reasoning": "Gaalkacyo (divided Mudug city hosting large IDP populations) lies in a zone of urban/peri-urban market economy with comparatively diversified food access; it is consistently accessible to humanitarian programmes, with moderate, mainly town-based health and CMAM coverage, and it is a major structural IDP-hosting hub. Monthly exit is kept moderate by the level of treatment reach, while incidence reflects the zone's structural food access and chronic vulnerability of displaced households. Year-round market food access damps seasonality, so month-to-month variation comes mainly from volatile conflict that repeatedly interrupts markets and assistance and large, fluctuating displacement inflows and outflows.",
+      "p": {
+        "a": 21.9422,
+        "b": 56.4229
+      },
+      "gamma": {
+        "a": 15.9509,
+        "b": 5508.1746
+      },
+      "omega": {
+        "a": 8.1479,
+        "b": 4857.0076
+      }
+    },
+    {
+      "district": "Galdogob",
+      "reasoning": "Galdogob (Mudug Hawd pastoral border district) lies in a zone of Northern Inland/Hawd pastoral, purchasing most cereals with livestock income and exposed to a harsh jilaal lean season; it is consistently accessible to humanitarian programmes, with sparse health and CMAM services. Monthly exit is lowered by the level of treatment reach, while incidence reflects the zone's structural food access. Month-to-month variation in new cases is driven by a pronounced jilaal/gu lean-season cycle with recurrent rainfall failure and intermittent insecurity.",
+      "p": {
+        "a": 24.4914,
+        "b": 97.9654
+      },
+      "gamma": {
+        "a": 15.9507,
+        "b": 5484.2907
+      },
+      "omega": {
+        "a": 8.1497,
+        "b": 5502.1362
+      }
+    },
+    {
+      "district": "Garbahaarey",
+      "reasoning": "Garbahaarey (Gedo regional capital in southern agropastoral country) lies in a zone of Southern/Bay-Bakool low-potential agropastoral, with marginal rainfed sorghum, small herds and labour dependence; it is sporadically accessible, with besieged towns, blocked supply roads or reliance on air access, with moderate, mainly town-based health and CMAM coverage, and it hosts moderate protracted IDP populations. Monthly exit is raised by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access, chronic vulnerability of displaced households and access-driven market and service disruption. Month-to-month variation in new cases is driven by a pronounced jilaal/gu lean-season cycle with recurrent rainfall failure; intermittent insecurity; and periodic displacement arrivals.",
+      "p": {
+        "a": 20.9863,
+        "b": 46.7114
+      },
+      "gamma": {
+        "a": 15.9054,
+        "b": 2841.6904
+      },
+      "omega": {
+        "a": 8.1327,
+        "b": 2427.0882
+      }
+    },
+    {
+      "district": "Garoowe",
+      "reasoning": "Garoowe (Puntland capital with good service density) lies in a zone of urban/peri-urban market economy with comparatively diversified food access; it is consistently accessible to humanitarian programmes, with dense, long-running health and CMAM partner presence, and it hosts moderate protracted IDP populations. Monthly exit is raised by the level of treatment reach, while incidence reflects the zone's structural food access and chronic vulnerability of displaced households. Year-round market food access damps seasonality, so month-to-month variation comes mainly from periodic displacement arrivals.",
+      "p": {
+        "a": 20.349,
+        "b": 41.3147
+      },
+      "gamma": {
+        "a": 15.9589,
+        "b": 6578.6114
+      },
+      "omega": {
+        "a": 8.1546,
+        "b": 8632.0414
+      }
+    },
+    {
+      "district": "Gebiley",
+      "reasoning": "Gebiley (Woqooyi Galbeed high-potential agropastoral district) lies in a zone of Northwest/Togdheer agropastoral and West Golis highland livelihoods with karan rains and comparatively diversified crop, dairy and livestock income; it is consistently accessible to humanitarian programmes, with moderate, mainly town-based health and CMAM coverage. Monthly exit is kept moderate by the level of treatment reach, while incidence reflects the zone's structural food access. Month-to-month variation in new cases is driven by moderate seasonal swings in milk, crop or fishing income.",
+      "p": {
+        "a": 21.9422,
+        "b": 56.4229
+      },
+      "gamma": {
+        "a": 15.9694,
+        "b": 8855.9195
+      },
+      "omega": {
+        "a": 8.1568,
+        "b": 11611.263
+      }
+    },
+    {
+      "district": "Hargeysa",
+      "reasoning": "Hargeysa (Somaliland capital with dense health services) lies in a zone of urban/peri-urban market economy with comparatively diversified food access; it is consistently accessible to humanitarian programmes, with dense, long-running health and CMAM partner presence, and it hosts moderate protracted IDP populations. Monthly exit is raised by the level of treatment reach, while incidence reflects the zone's structural food access and chronic vulnerability of displaced households. Year-round market food access damps seasonality, so month-to-month variation comes mainly from periodic displacement arrivals.",
+      "p": {
+        "a": 20.349,
+        "b": 41.3147
+      },
+      "gamma": {
+        "a": 15.9589,
+        "b": 6578.6114
+      },
+      "omega": {
+        "a": 8.1546,
+        "b": 8632.0414
+      }
+    },
+    {
+      "district": "Hobyo",
+      "reasoning": "Hobyo (Mudug Coastal Deeh district with contested hinterland) lies in a zone of East Golis frankincense/goat or Coastal Deeh pastoral-fishing, with fish and frankincense partly buffering livestock income; it is sporadically accessible, with besieged towns, blocked supply roads or reliance on air access, with sparse health and CMAM services, and it hosts moderate protracted IDP populations. Monthly exit is lowered by the level of treatment reach, while incidence reflects the zone's structural food access, chronic vulnerability of displaced households and access-driven market and service disruption. Month-to-month variation in new cases is driven by moderate seasonal swings in milk, crop or fishing income; volatile conflict that repeatedly interrupts markets and assistance; and periodic displacement arrivals.",
+      "p": {
+        "a": 16.3289,
+        "b": 65.3157
+      },
+      "gamma": {
+        "a": 11.0696,
+        "b": 3215.8798
+      },
+      "omega": {
+        "a": 4.9263,
+        "b": 2429.1057
+      }
+    },
+    {
+      "district": "Iskushuban",
+      "reasoning": "Iskushuban (remote Bari frankincense/coastal district exposed to cyclones) lies in a zone of East Golis frankincense/goat or Coastal Deeh pastoral-fishing, with fish and frankincense partly buffering livestock income; it is consistently accessible to humanitarian programmes, with sparse health and CMAM services. Monthly exit is lowered by the level of treatment reach, while incidence reflects the zone's structural food access. Month-to-month variation in new cases is driven by moderate seasonal swings in milk, crop or fishing income and episodic cyclone and flash-flood shocks.",
+      "p": {
+        "a": 24.4914,
+        "b": 97.9654
+      },
+      "gamma": {
+        "a": 15.9541,
+        "b": 5892.9718
+      },
+      "omega": {
+        "a": 8.1515,
+        "b": 6347.8044
+      }
+    },
+    {
+      "district": "Jalalaqsi",
+      "reasoning": "Jalalaqsi (Hiiraan riverine town under recurrent road blockade) lies in a zone of Juba/Shabelle riverine irrigated farming, where poor households are landless labourers exposed to river floods and canal failure; it is sporadically accessible, with besieged towns, blocked supply roads or reliance on air access, with sparse health and CMAM services. Monthly exit is kept moderate by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access and access-driven market and service disruption. Month-to-month variation in new cases is driven by moderate seasonal swings in milk, crop or fishing income; recurrent river flooding; and volatile conflict that repeatedly interrupts markets and assistance.",
+      "p": {
+        "a": 15.2459,
+        "b": 45.7376
+      },
+      "gamma": {
+        "a": 11.0496,
+        "b": 2163.2051
+      },
+      "omega": {
+        "a": 4.9168,
+        "b": 1357.762
+      }
+    },
+    {
+      "district": "Jamaame",
+      "reasoning": "Jamaame (Lower Juba riverine gravity-irrigation district) lies in a zone of Juba/Shabelle riverine irrigated farming, where poor households are landless labourers exposed to river floods and canal failure; it is chronically inaccessible under Al-Shabaab control, with sparse health and CMAM services. Monthly exit is kept moderate by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access and access-driven market and service disruption. Month-to-month variation in new cases is driven by moderate seasonal swings in milk, crop or fishing income; recurrent river flooding; and volatile conflict that repeatedly interrupts markets and assistance.",
+      "p": {
+        "a": 15.2459,
+        "b": 45.7376
+      },
+      "gamma": {
+        "a": 11.0451,
+        "b": 2014.9814
+      },
+      "omega": {
+        "a": 4.9153,
+        "b": 1264.9759
+      }
+    },
+    {
+      "district": "Jariiban",
+      "reasoning": "Jariiban (Mudug Coastal Deeh/Addun district) lies in a zone of East Golis frankincense/goat or Coastal Deeh pastoral-fishing, with fish and frankincense partly buffering livestock income; it is consistently accessible to humanitarian programmes, with sparse health and CMAM services. Monthly exit is lowered by the level of treatment reach, while incidence reflects the zone's structural food access. Month-to-month variation in new cases is driven by moderate seasonal swings in milk, crop or fishing income and intermittent insecurity.",
+      "p": {
+        "a": 24.4914,
+        "b": 97.9654
+      },
+      "gamma": {
+        "a": 15.9541,
+        "b": 5892.9718
+      },
+      "omega": {
+        "a": 8.1516,
+        "b": 6415.5183
+      }
+    },
+    {
+      "district": "Jilib",
+      "reasoning": "Jilib (Middle Juba riverine district) lies in a zone of Juba/Shabelle riverine irrigated farming, where poor households are landless labourers exposed to river floods and canal failure; it is chronically inaccessible under Al-Shabaab control, with sparse health and CMAM services. Monthly exit is kept moderate by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access and access-driven market and service disruption. Month-to-month variation in new cases is driven by moderate seasonal swings in milk, crop or fishing income; recurrent river flooding; and volatile conflict that repeatedly interrupts markets and assistance.",
+      "p": {
+        "a": 15.2459,
+        "b": 45.7376
+      },
+      "gamma": {
+        "a": 11.0451,
+        "b": 2014.9814
+      },
+      "omega": {
+        "a": 4.9153,
+        "b": 1264.9759
+      }
+    },
+    {
+      "district": "Jowhar",
+      "reasoning": "Jowhar (Middle Shabelle riverine capital with repeated river breakages and IDP inflows) lies in a zone of Juba/Shabelle riverine irrigated farming, where poor households are landless labourers exposed to river floods and canal failure; it is sporadically accessible, with besieged towns, blocked supply roads or reliance on air access, with moderate, mainly town-based health and CMAM coverage, and it is a major structural IDP-hosting hub. Monthly exit is raised by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access, chronic vulnerability of displaced households and access-driven market and service disruption. Month-to-month variation in new cases is driven by moderate seasonal swings in milk, crop or fishing income; recurrent river flooding; intermittent insecurity; and large, fluctuating displacement inflows and outflows.",
+      "p": {
+        "a": 20.9863,
+        "b": 46.7114
+      },
+      "gamma": {
+        "a": 15.8971,
+        "b": 2611.7309
+      },
+      "omega": {
+        "a": 8.1222,
+        "b": 1806.0929
+      }
+    },
+    {
+      "district": "Kismaayo",
+      "reasoning": "Kismaayo (Jubaland port city receiving displaced households from the Juba valley) lies in a zone of urban/peri-urban market economy with comparatively diversified food access; it is consistently accessible to humanitarian programmes, with dense, long-running health and CMAM partner presence, and it is a major structural IDP-hosting hub. Monthly exit is raised by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access and chronic vulnerability of displaced households. Year-round market food access damps seasonality, so month-to-month variation comes mainly from intermittent insecurity and large, fluctuating displacement inflows and outflows.",
+      "p": {
+        "a": 19.3931,
+        "b": 34.4766
+      },
+      "gamma": {
+        "a": 15.9532,
+        "b": 5785.2286
+      },
+      "omega": {
+        "a": 8.1504,
+        "b": 5803.1963
+      }
+    },
+    {
+      "district": "Kurtunwaarey",
+      "reasoning": "Kurtunwaarey (Lower Shabelle riverine district) lies in a zone of Juba/Shabelle riverine irrigated farming, where poor households are landless labourers exposed to river floods and canal failure; it is chronically inaccessible under Al-Shabaab control, with sparse health and CMAM services. Monthly exit is kept moderate by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access and access-driven market and service disruption. Month-to-month variation in new cases is driven by moderate seasonal swings in milk, crop or fishing income; recurrent river flooding; and volatile conflict that repeatedly interrupts markets and assistance.",
+      "p": {
+        "a": 15.2459,
+        "b": 45.7376
+      },
+      "gamma": {
+        "a": 11.0451,
+        "b": 2014.9814
+      },
+      "omega": {
+        "a": 4.9153,
+        "b": 1264.9759
+      }
+    },
+    {
+      "district": "Laas Caanood",
+      "reasoning": "Laas Caanood (disputed Sool regional town hosting drought-displaced pastoralists) lies in a zone of Northern Inland/Hawd pastoral, purchasing most cereals with livestock income and exposed to a harsh jilaal lean season; it is sporadically accessible, with besieged towns, blocked supply roads or reliance on air access, with moderate, mainly town-based health and CMAM coverage, and it is a major structural IDP-hosting hub. Monthly exit is kept moderate by the level of treatment reach, while incidence reflects the zone's structural food access, chronic vulnerability of displaced households and access-driven market and service disruption. Month-to-month variation in new cases is driven by a pronounced jilaal/gu lean-season cycle with recurrent rainfall failure; volatile conflict that repeatedly interrupts markets and assistance; and large, fluctuating displacement inflows and outflows.",
+      "p": {
+        "a": 22.5795,
+        "b": 64.2647
+      },
+      "gamma": {
+        "a": 15.9288,
+        "b": 3788.5371
+      },
+      "omega": {
+        "a": 8.1372,
+        "b": 2849.9459
+      }
+    },
+    {
+      "district": "Laasqoray",
+      "reasoning": "Laasqoray (disputed Sanaag coastal frankincense/fishing district) lies in a zone of East Golis frankincense/goat or Coastal Deeh pastoral-fishing, with fish and frankincense partly buffering livestock income; it is sporadically accessible, with besieged towns, blocked supply roads or reliance on air access, with sparse health and CMAM services. Monthly exit is lowered by the level of treatment reach, while incidence reflects the zone's structural food access and access-driven market and service disruption. Month-to-month variation in new cases is driven by moderate seasonal swings in milk, crop or fishing income and intermittent insecurity.",
+      "p": {
+        "a": 16.3289,
+        "b": 65.3157
+      },
+      "gamma": {
+        "a": 11.0751,
+        "b": 3717.9286
+      },
+      "omega": {
+        "a": 4.93,
+        "b": 3526.829
+      }
+    },
+    {
+      "district": "Lughaye",
+      "reasoning": "Lughaye (Awdal Guban coastal district exposed to cyclone flooding) lies in a zone of Guban Pastoral coastal lowland, very arid with almost total market dependence for staples; it is consistently accessible to humanitarian programmes, with sparse health and CMAM services. Monthly exit is lowered by the level of treatment reach, while incidence reflects the zone's structural food access. Month-to-month variation in new cases is driven by moderate seasonal swings in milk, crop or fishing income and episodic cyclone and flash-flood shocks.",
+      "p": {
+        "a": 24.4914,
+        "b": 97.9654
+      },
+      "gamma": {
+        "a": 15.949,
+        "b": 5300.3843
+      },
+      "omega": {
+        "a": 8.1497,
+        "b": 5479.8354
+      }
+    },
+    {
+      "district": "Luuq",
+      "reasoning": "Luuq (Gedo Juba-riverine pump-irrigation district with insecure roads) lies in a zone of Juba/Shabelle riverine irrigated farming, where poor households are landless labourers exposed to river floods and canal failure; it is sporadically accessible, with besieged towns, blocked supply roads or reliance on air access, with moderate, mainly town-based health and CMAM coverage, and it hosts moderate protracted IDP populations. Monthly exit is raised by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access, chronic vulnerability of displaced households and access-driven market and service disruption. Month-to-month variation in new cases is driven by moderate seasonal swings in milk, crop or fishing income; recurrent river flooding; intermittent insecurity; and periodic displacement arrivals.",
+      "p": {
+        "a": 20.9863,
+        "b": 46.7114
+      },
+      "gamma": {
+        "a": 15.9095,
+        "b": 2972.3497
+      },
+      "omega": {
+        "a": 8.1296,
+        "b": 2204.8745
+      }
+    },
+    {
+      "district": "Marka",
+      "reasoning": "Marka (Lower Shabelle riverine/coastal district with contested rural areas) lies in a zone of Juba/Shabelle riverine irrigated farming, where poor households are landless labourers exposed to river floods and canal failure; it is sporadically accessible, with besieged towns, blocked supply roads or reliance on air access, with moderate, mainly town-based health and CMAM coverage, and it hosts moderate protracted IDP populations. Monthly exit is raised by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access, chronic vulnerability of displaced households and access-driven market and service disruption. Month-to-month variation in new cases is driven by moderate seasonal swings in milk, crop or fishing income; recurrent river flooding; volatile conflict that repeatedly interrupts markets and assistance; and periodic displacement arrivals.",
+      "p": {
+        "a": 20.9863,
+        "b": 46.7114
+      },
+      "gamma": {
+        "a": 15.905,
+        "b": 2829.2467
+      },
+      "omega": {
+        "a": 8.1243,
+        "b": 1904.1353
+      }
+    },
+    {
+      "district": "Owdweyne",
+      "reasoning": "Owdweyne (Togdheer agropastoral district) lies in a zone of Northwest/Togdheer agropastoral and West Golis highland livelihoods with karan rains and comparatively diversified crop, dairy and livestock income; it is consistently accessible to humanitarian programmes, with moderate, mainly town-based health and CMAM coverage. Monthly exit is kept moderate by the level of treatment reach, while incidence reflects the zone's structural food access. Month-to-month variation in new cases is driven by moderate seasonal swings in milk, crop or fishing income.",
+      "p": {
+        "a": 21.9422,
+        "b": 56.4229
+      },
+      "gamma": {
+        "a": 15.9694,
+        "b": 8855.9195
+      },
+      "omega": {
+        "a": 8.1568,
+        "b": 11611.263
+      }
+    },
+    {
+      "district": "Qandala",
+      "reasoning": "Qandala (remote Bari Gulf of Aden coastal district) lies in a zone of East Golis frankincense/goat or Coastal Deeh pastoral-fishing, with fish and frankincense partly buffering livestock income; it is consistently accessible to humanitarian programmes, with sparse health and CMAM services. Monthly exit is lowered by the level of treatment reach, while incidence reflects the zone's structural food access. Month-to-month variation in new cases is driven by moderate seasonal swings in milk, crop or fishing income and episodic cyclone and flash-flood shocks.",
+      "p": {
+        "a": 24.4914,
+        "b": 97.9654
+      },
+      "gamma": {
+        "a": 15.9541,
+        "b": 5892.9718
+      },
+      "omega": {
+        "a": 8.1515,
+        "b": 6347.8044
+      }
+    },
+    {
+      "district": "Qansax Dheere",
+      "reasoning": "Qansax Dheere (Bay district whose town depends on intermittent air access) lies in a zone of Bay sorghum high-potential agropastoral, productive but strongly dependent on gu/deyr rainfall and agricultural labour; it is sporadically accessible, with besieged towns, blocked supply roads or reliance on air access, with sparse health and CMAM services. Monthly exit is kept moderate by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access and access-driven market and service disruption. Month-to-month variation in new cases is driven by a pronounced jilaal/gu lean-season cycle with recurrent rainfall failure and volatile conflict that repeatedly interrupts markets and assistance.",
+      "p": {
+        "a": 15.2459,
+        "b": 45.7376
+      },
+      "gamma": {
+        "a": 11.0552,
+        "b": 2381.8361
+      },
+      "omega": {
+        "a": 4.9218,
+        "b": 1770.6232
+      }
+    },
+    {
+      "district": "Qardho",
+      "reasoning": "Qardho (Bari Karkaar/inland pastoral town) lies in a zone of Northern Inland/Hawd pastoral, purchasing most cereals with livestock income and exposed to a harsh jilaal lean season; it is consistently accessible to humanitarian programmes, with moderate, mainly town-based health and CMAM coverage, and it hosts moderate protracted IDP populations. Monthly exit is kept moderate by the level of treatment reach, while incidence reflects the zone's structural food access and chronic vulnerability of displaced households. Month-to-month variation in new cases is driven by a pronounced jilaal/gu lean-season cycle with recurrent rainfall failure and periodic displacement arrivals.",
+      "p": {
+        "a": 22.5795,
+        "b": 64.2647
+      },
+      "gamma": {
+        "a": 15.9458,
+        "b": 4982.7282
+      },
+      "omega": {
+        "a": 8.1489,
+        "b": 5205.1722
+      }
+    },
+    {
+      "district": "Qoryooley",
+      "reasoning": "Qoryooley (Lower Shabelle riverine district with contested farmland) lies in a zone of Juba/Shabelle riverine irrigated farming, where poor households are landless labourers exposed to river floods and canal failure; it is sporadically accessible, with besieged towns, blocked supply roads or reliance on air access, with moderate, mainly town-based health and CMAM coverage, and it hosts moderate protracted IDP populations. Monthly exit is raised by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access, chronic vulnerability of displaced households and access-driven market and service disruption. Month-to-month variation in new cases is driven by moderate seasonal swings in milk, crop or fishing income; recurrent river flooding; volatile conflict that repeatedly interrupts markets and assistance; and periodic displacement arrivals.",
+      "p": {
+        "a": 20.9863,
+        "b": 46.7114
+      },
+      "gamma": {
+        "a": 15.905,
+        "b": 2829.2467
+      },
+      "omega": {
+        "a": 8.1243,
+        "b": 1904.1353
+      }
+    },
+    {
+      "district": "Rab Dhuure",
+      "reasoning": "Rab Dhuure (Bakool low-potential agropastoral district with an encircled town) lies in a zone of Southern/Bay-Bakool low-potential agropastoral, with marginal rainfed sorghum, small herds and labour dependence; it is sporadically accessible, with besieged towns, blocked supply roads or reliance on air access, with sparse health and CMAM services. Monthly exit is kept moderate by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access and access-driven market and service disruption. Month-to-month variation in new cases is driven by a pronounced jilaal/gu lean-season cycle with recurrent rainfall failure and volatile conflict that repeatedly interrupts markets and assistance.",
+      "p": {
+        "a": 15.2459,
+        "b": 45.7376
+      },
+      "gamma": {
+        "a": 11.0468,
+        "b": 2068.1486
+      },
+      "omega": {
+        "a": 4.9187,
+        "b": 1488.2874
+      }
+    },
+    {
+      "district": "Saakow",
+      "reasoning": "Saakow (Middle Juba riverine district) lies in a zone of Juba/Shabelle riverine irrigated farming, where poor households are landless labourers exposed to river floods and canal failure; it is chronically inaccessible under Al-Shabaab control, with sparse health and CMAM services. Monthly exit is kept moderate by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access and access-driven market and service disruption. Month-to-month variation in new cases is driven by moderate seasonal swings in milk, crop or fishing income; recurrent river flooding; and volatile conflict that repeatedly interrupts markets and assistance.",
+      "p": {
+        "a": 15.2459,
+        "b": 45.7376
+      },
+      "gamma": {
+        "a": 11.0451,
+        "b": 2014.9814
+      },
+      "omega": {
+        "a": 4.9153,
+        "b": 1264.9759
+      }
+    },
+    {
+      "district": "Sablaale",
+      "reasoning": "Sablaale (Lower Shabelle riverine district) lies in a zone of Juba/Shabelle riverine irrigated farming, where poor households are landless labourers exposed to river floods and canal failure; it is chronically inaccessible under Al-Shabaab control, with sparse health and CMAM services. Monthly exit is kept moderate by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access and access-driven market and service disruption. Month-to-month variation in new cases is driven by moderate seasonal swings in milk, crop or fishing income; recurrent river flooding; and volatile conflict that repeatedly interrupts markets and assistance.",
+      "p": {
+        "a": 15.2459,
+        "b": 45.7376
+      },
+      "gamma": {
+        "a": 11.0451,
+        "b": 2014.9814
+      },
+      "omega": {
+        "a": 4.9153,
+        "b": 1264.9759
+      }
+    },
+    {
+      "district": "Sheikh",
+      "reasoning": "Sheikh (Sahil highland agropastoral district) lies in a zone of Northwest/Togdheer agropastoral and West Golis highland livelihoods with karan rains and comparatively diversified crop, dairy and livestock income; it is consistently accessible to humanitarian programmes, with moderate, mainly town-based health and CMAM coverage. Monthly exit is kept moderate by the level of treatment reach, while incidence reflects the zone's structural food access. Month-to-month variation in new cases is driven by moderate seasonal swings in milk, crop or fishing income.",
+      "p": {
+        "a": 21.9422,
+        "b": 56.4229
+      },
+      "gamma": {
+        "a": 15.9694,
+        "b": 8855.9195
+      },
+      "omega": {
+        "a": 8.1568,
+        "b": 11611.263
+      }
+    },
+    {
+      "district": "Taleex",
+      "reasoning": "Taleex (remote Sool Nugaal-valley pastoral district) lies in a zone of Northern Inland/Hawd pastoral, purchasing most cereals with livestock income and exposed to a harsh jilaal lean season; it is consistently accessible to humanitarian programmes, with sparse health and CMAM services. Monthly exit is lowered by the level of treatment reach, while incidence reflects the zone's structural food access. Month-to-month variation in new cases is driven by a pronounced jilaal/gu lean-season cycle with recurrent rainfall failure and intermittent insecurity.",
+      "p": {
+        "a": 24.4914,
+        "b": 97.9654
+      },
+      "gamma": {
+        "a": 15.9507,
+        "b": 5484.2907
+      },
+      "omega": {
+        "a": 8.1497,
+        "b": 5502.1362
+      }
+    },
+    {
+      "district": "Tayeeglow",
+      "reasoning": "Tayeeglow (Bakool low-potential agropastoral district) lies in a zone of Southern/Bay-Bakool low-potential agropastoral, with marginal rainfed sorghum, small herds and labour dependence; it is chronically inaccessible under Al-Shabaab control, with sparse health and CMAM services. Monthly exit is kept moderate by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access and access-driven market and service disruption. Month-to-month variation in new cases is driven by a pronounced jilaal/gu lean-season cycle with recurrent rainfall failure and volatile conflict that repeatedly interrupts markets and assistance.",
+      "p": {
+        "a": 15.2459,
+        "b": 45.7376
+      },
+      "gamma": {
+        "a": 11.0421,
+        "b": 1926.3698
+      },
+      "omega": {
+        "a": 4.9173,
+        "b": 1386.6519
+      }
+    },
+    {
+      "district": "Waajid",
+      "reasoning": "Waajid (Bakool district whose town is encircled and air-supplied) lies in a zone of Southern/Bay-Bakool low-potential agropastoral, with marginal rainfed sorghum, small herds and labour dependence; it is sporadically accessible, with besieged towns, blocked supply roads or reliance on air access, with sparse health and CMAM services, and it hosts moderate protracted IDP populations. Monthly exit is kept moderate by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access, chronic vulnerability of displaced households and access-driven market and service disruption. Month-to-month variation in new cases is driven by a pronounced jilaal/gu lean-season cycle with recurrent rainfall failure; volatile conflict that repeatedly interrupts markets and assistance; and periodic displacement arrivals.",
+      "p": {
+        "a": 15.2459,
+        "b": 45.7376
+      },
+      "gamma": {
+        "a": 11.0403,
+        "b": 1878.0362
+      },
+      "omega": {
+        "a": 4.915,
+        "b": 1250.2994
+      }
+    },
+    {
+      "district": "Wanla Weyn",
+      "reasoning": "Wanla Weyn (Lower Shabelle agropastoral district on the Mogadishu-Baidoa road) lies in a zone of Bay sorghum high-potential agropastoral, productive but strongly dependent on gu/deyr rainfall and agricultural labour; it is sporadically accessible, with besieged towns, blocked supply roads or reliance on air access, with moderate, mainly town-based health and CMAM coverage, and it hosts moderate protracted IDP populations. Monthly exit is raised by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access, chronic vulnerability of displaced households and access-driven market and service disruption. Month-to-month variation in new cases is driven by a pronounced jilaal/gu lean-season cycle with recurrent rainfall failure; volatile conflict that repeatedly interrupts markets and assistance; and periodic displacement arrivals.",
+      "p": {
+        "a": 20.9863,
+        "b": 46.7114
+      },
+      "gamma": {
+        "a": 15.9136,
+        "b": 3115.4532
+      },
+      "omega": {
+        "a": 8.133,
+        "b": 2453.9493
+      }
+    },
+    {
+      "district": "Xarardheere",
+      "reasoning": "Xarardheere (Mudug coastal-agropastoral district) lies in a zone of central Cowpea Belt agropastoral, rain-dependent cowpea/sorghum with a single short cropping window; it is chronically inaccessible under Al-Shabaab control, with sparse health and CMAM services. Monthly exit is kept moderate by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access and access-driven market and service disruption. Month-to-month variation in new cases is driven by a pronounced jilaal/gu lean-season cycle with recurrent rainfall failure and volatile conflict that repeatedly interrupts markets and assistance.",
+      "p": {
+        "a": 15.2459,
+        "b": 45.7376
+      },
+      "gamma": {
+        "a": 11.0586,
+        "b": 2539.0605
+      },
+      "omega": {
+        "a": 4.9228,
+        "b": 1887.0872
+      }
+    },
+    {
+      "district": "Xudun",
+      "reasoning": "Xudun (remote disputed Sool pastoral district) lies in a zone of Northern Inland/Hawd pastoral, purchasing most cereals with livestock income and exposed to a harsh jilaal lean season; it is sporadically accessible, with besieged towns, blocked supply roads or reliance on air access, with sparse health and CMAM services. Monthly exit is lowered by the level of treatment reach, while incidence reflects the zone's structural food access and access-driven market and service disruption. Month-to-month variation in new cases is driven by a pronounced jilaal/gu lean-season cycle with recurrent rainfall failure and intermittent insecurity.",
+      "p": {
+        "a": 16.3289,
+        "b": 65.3157
+      },
+      "gamma": {
+        "a": 11.0725,
+        "b": 3459.9233
+      },
+      "omega": {
+        "a": 4.9286,
+        "b": 3024.5204
+      }
+    },
+    {
+      "district": "Xudur",
+      "reasoning": "Xudur (Bakool regional town encircled and air-supplied) lies in a zone of Southern/Bay-Bakool low-potential agropastoral, with marginal rainfed sorghum, small herds and labour dependence; it is sporadically accessible, with besieged towns, blocked supply roads or reliance on air access, with sparse health and CMAM services, and it hosts moderate protracted IDP populations. Monthly exit is kept moderate by the level of treatment reach, with endemic AWD/measles exposure adding case fatality, while incidence reflects the zone's structural food access, chronic vulnerability of displaced households and access-driven market and service disruption. Month-to-month variation in new cases is driven by a pronounced jilaal/gu lean-season cycle with recurrent rainfall failure; volatile conflict that repeatedly interrupts markets and assistance; and periodic displacement arrivals.",
+      "p": {
+        "a": 15.2459,
+        "b": 45.7376
+      },
+      "gamma": {
+        "a": 11.0403,
+        "b": 1878.0362
+      },
+      "omega": {
+        "a": 4.915,
+        "b": 1250.2994
+      }
+    },
+    {
+      "district": "Zeylac",
+      "reasoning": "Zeylac (remote Awdal Guban district bordering Djibouti) lies in a zone of Guban Pastoral coastal lowland, very arid with almost total market dependence for staples; it is consistently accessible to humanitarian programmes, with sparse health and CMAM services. Monthly exit is lowered by the level of treatment reach, while incidence reflects the zone's structural food access. Month-to-month variation in new cases is driven by moderate seasonal swings in milk, crop or fishing income.",
+      "p": {
+        "a": 24.4914,
+        "b": 97.9654
+      },
+      "gamma": {
+        "a": 15.949,
+        "b": 5300.3843
+      },
+      "omega": {
+        "a": 8.1517,
+        "b": 6461.467
+      }
+    }
+  ]
+}

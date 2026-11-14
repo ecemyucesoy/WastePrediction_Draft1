@@ -1,0 +1,522 @@
+{
+"districts": [
+{
+"district": "Adan Yabaal",
+"reasoning": "Located in a highly contested agropastoral zone, chronic conflict and shifting control have severely degraded structural health infrastructure and market integration. The resulting low CMAM presence suppresses p, while endemic livelihood disruptions and restricted food access elevate gamma. Month-to-month variability (omega) is driven by recurrent conflict spikes and unpredictable population displacements.",
+"p": {"a": 10, "b": 30},
+"gamma": {"a": 7, "b": 600},
+"omega": {"a": 6, "b": 800}
+},
+{
+"district": "Afgooye",
+"reasoning": "A major riverine and agropastoral district hosting a massive, structurally embedded IDP population along the Shabelle corridor. Proximity to Mogadishu affords moderate CMAM access (raising p), but gamma remains high due to the chronic vulnerability and poor dietary diversity of displaced communities. Omega is significantly elevated by recurrent riverine floods and volatile IDP inflows.",
+"p": {"a": 18, "b": 22},
+"gamma": {"a": 8, "b": 700},
+"omega": {"a": 7, "b": 800}
+},
+{
+"district": "Afmadow",
+"reasoning": "A predominantly pastoral district dependent on cattle and camel rearing, featuring structurally poor road infrastructure and vast distances that limit consistent CMAM coverage, lowering p. Baseline incidence (gamma) is moderately high due to endemic reliance on markets for cereals. Omega is driven by the severe seasonality of pasture availability, volatile rainfall, and periodic drought-induced distress migrations.",
+"p": {"a": 12, "b": 28},
+"gamma": {"a": 5, "b": 600},
+"omega": {"a": 6, "b": 900}
+},
+{
+"district": "Baardheere",
+"reasoning": "A critical agropastoral and riverine hub on the Juba river with a structurally large IDP presence and persistent humanitarian access constraints due to surrounding conflict. The baseline gamma is high driven by endemic vulnerability among displaced populations, while p is suppressed by fragile supply chains. High month-to-month variability (omega) stems from recurrent riverine flooding and volatile conflict dynamics.",
+"p": {"a": 14, "b": 26},
+"gamma": {"a": 7, "b": 650},
+"omega": {"a": 7, "b": 800}
+},
+{
+"district": "Badhaadhe",
+"reasoning": "A remote coastal and pastoral district in Lower Juba with dense forest cover and chronic structural isolation. Poor infrastructure and long-term access constraints heavily depress p by limiting health programming. Gamma is sustained by limited agricultural diversity, while omega is driven by coastal weather shocks and shifting localized insecurity.",
+"p": {"a": 10, "b": 35},
+"gamma": {"a": 6, "b": 700},
+"omega": {"a": 5, "b": 850}
+},
+{
+"district": "Baki",
+"reasoning": "An agropastoral highland district in Awdal characterized by relative stability, functioning markets, and consistent humanitarian access. High structural CMAM coverage and functional health systems yield a strong baseline p. Incidence (gamma) is comparatively low due to diversified crop and livestock access, and omega is constrained by the absence of severe conflict or major displacement shocks.",
+"p": {"a": 22, "b": 18},
+"gamma": {"a": 3, "b": 800},
+"omega": {"a": 3, "b": 950}
+},
+{
+"district": "Balcad",
+"reasoning": "A riverine district along the Shabelle river heavily dependent on irrigated agriculture but chronically exposed to flood shocks and surrounding insecurity. Moderate baseline p is maintained by proximity to Mogadishu, but gamma is elevated by endemic poverty and degraded irrigation infrastructure. Omega is intensely volatile due to recurrent seasonal flooding that repeatedly destroys crops and displaces households.",
+"p": {"a": 16, "b": 24},
+"gamma": {"a": 6, "b": 600},
+"omega": {"a": 8, "b": 700}
+},
+{
+"district": "Banadir",
+"reasoning": "An entirely urban zone hosting the country's largest concentration of structurally displaced populations. The dense presence of humanitarian actors and health facilities ensures a highly elevated p. However, the sheer scale of chronic IDP vulnerability drives a high baseline incidence (gamma). Omega reflects the continuous, unpredictable influx of new IDPs driven by rural climate shocks and conflict.",
+"p": {"a": 28, "b": 12},
+"gamma": {"a": 8, "b": 600},
+"omega": {"a": 6, "b": 800}
+},
+{
+"district": "Bandarbeyla",
+"reasoning": "A remote coastal pastoral and fishing district facing chronic structural isolation and high vulnerability to coastal cyclones. Baseline health coverage is sparse, yielding a lower p. Incidence (gamma) is moderately elevated due to volatile fishing livelihoods and poor market integration, while omega is heavily influenced by the seasonality of monsoon winds and recurrent storm shocks.",
+"p": {"a": 12, "b": 28},
+"gamma": {"a": 5, "b": 700},
+"omega": {"a": 5, "b": 800}
+},
+{
+"district": "Baraawe",
+"reasoning": "A coastal urban and agropastoral district subjected to persistent access constraints and isolation due to insecurity in the surrounding Lower Shabelle. Structural CMAM presence is constrained, limiting p, while gamma remains elevated by endemic market disruptions. Omega is driven by volatile conflict events, erratic localized displacement, and seasonal port functionality.",
+"p": {"a": 12, "b": 25},
+"gamma": {"a": 6, "b": 650},
+"omega": {"a": 6, "b": 800}
+},
+{
+"district": "Baydhaba",
+"reasoning": "The center of the southern sorghum belt and a massive hub for IDPs fleeing conflict and drought. The heavy concentration of humanitarian programs elevates p, but the extreme structural vulnerability and poor baseline dietary diversity of the IDP population sustain a very high gamma. Omega is highly volatile due to immense, recurring displacement waves and highly variable seasonal rains impacting local harvests.",
+"p": {"a": 20, "b": 20},
+"gamma": {"a": 9, "b": 500},
+"omega": {"a": 8, "b": 700}
+},
+{
+"district": "Belet Weyne",
+"reasoning": "A pivotal riverine district on the Shabelle river burdened by some of the most severe and recurrent seasonal floods in the country. While CMAM presence is moderate (steady p), gamma is structurally elevated by the frequent destruction of livelihoods and poor baseline sanitation. Omega is extremely high, as bi-annual flood cycles cause massive periodic spikes in displacement and morbidity.",
+"p": {"a": 16, "b": 24},
+"gamma": {"a": 7, "b": 600},
+"omega": {"a": 9, "b": 600}
+},
+{
+"district": "Belet Xaawo",
+"reasoning": "A border district characterized by cross-border trade, pastoral livelihoods, and a high concentration of protracted IDPs. Humanitarian access is relatively stable but constrained by periodic border tensions, yielding a moderate p. Gamma is elevated by structural displacement and poor endemic water access, while omega is driven by cross-border market volatility and shifting pastoral migrations.",
+"p": {"a": 15, "b": 25},
+"gamma": {"a": 6, "b": 650},
+"omega": {"a": 5, "b": 800}
+},
+{
+"district": "Berbera",
+"reasoning": "A stable coastal and urban district serving as a major port. Structural food availability is well-supported by trade, and accessible health infrastructure yields a strong p. Incidence (gamma) is very low due to robust market integration and diversified incomes. Omega is low, reflecting structural stability and isolation from the severe conflicts affecting southern districts.",
+"p": {"a": 24, "b": 16},
+"gamma": {"a": 2, "b": 900},
+"omega": {"a": 2, "b": 1000}
+},
+{
+"district": "Borama",
+"reasoning": "A stable, high-altitude agropastoral district with some of the most reliable rainfall and agricultural production in the region. Strong health infrastructure and consistent access result in a high baseline p. Gamma is structurally low due to diversified crop production and stable dietary diversity, and omega is restricted by the absence of conflict and strong local market resilience.",
+"p": {"a": 25, "b": 15},
+"gamma": {"a": 2, "b": 950},
+"omega": {"a": 2, "b": 1000}
+},
+{
+"district": "Bossaso",
+"reasoning": "A major economic hub and port city hosting a large, structurally entrenched IDP population. Health access is robust (high p), but the dense, impoverished IDP settlements maintain a moderate gamma through chronic vulnerability and poor sanitation. Omega is moderate, driven by seasonal economic fluctuations in port activity and periodic influxes of migrants from drought-affected pastoral zones.",
+"p": {"a": 22, "b": 18},
+"gamma": {"a": 5, "b": 700},
+"omega": {"a": 4, "b": 850}
+},
+{
+"district": "Bu'aale",
+"reasoning": "A riverine and agropastoral district in Middle Juba subjected to long-term, total structural inaccessibility due to continuous non-state armed group control. CMAM coverage is virtually non-existent, severely depressing p. Baseline incidence (gamma) is elevated by the lack of humanitarian support and isolated markets, while omega reflects the unmitigated impact of riverine floods and seasonal rainfall failures.",
+"p": {"a": 5, "b": 40},
+"gamma": {"a": 8, "b": 600},
+"omega": {"a": 7, "b": 750}
+},
+{
+"district": "Bulo Burto",
+"reasoning": "A riverine district chronically isolated by siege tactics that severely restrict commercial food imports and humanitarian access. The blockade decimates structural health system capacity, resulting in a very low p. Gamma is structurally high due to endemic food scarcity and degraded livelihoods, while omega is driven by volatile supply drops, localized clashes, and erratic seasonal harvests.",
+"p": {"a": 8, "b": 35},
+"gamma": {"a": 8, "b": 600},
+"omega": {"a": 6, "b": 750}
+},
+{
+"district": "Burco",
+"reasoning": "A critical livestock trading hub supporting deep pastoral livelihoods in a structurally stable region. Health access is functionally intact, supporting a strong p. Incidence (gamma) is relatively low, buffered by livestock wealth, though vulnerable to extended dry periods. Omega is moderately driven by the seasonality of livestock body conditions, market prices, and pastoral migration patterns.",
+"p": {"a": 22, "b": 18},
+"gamma": {"a": 3, "b": 850},
+"omega": {"a": 4, "b": 900}
+},
+{
+"district": "Burtinle",
+"reasoning": "A stable pastoral district with strong market linkages to major administrative hubs. Consistent access to health facilities supports a high baseline p. Structural incidence (gamma) is moderated by pastoral resilience and functioning trade routes. Omega is primarily driven by seasonal rainfall variability affecting pasture, with little to no disruption from conflict.",
+"p": {"a": 20, "b": 20},
+"gamma": {"a": 4, "b": 800},
+"omega": {"a": 3, "b": 950}
+},
+{
+"district": "Buuhoodle",
+"reasoning": "A remote pastoral district experiencing episodic clan tensions that occasionally disrupt market access and health programming, yielding a moderate p. Gamma is structurally anchored by heavy reliance on volatile livestock markets and limited dietary diversity. Omega is driven by the interaction of erratic seasonal rainfall, drought-induced migrations, and periodic localized insecurity.",
+"p": {"a": 14, "b": 26},
+"gamma": {"a": 5, "b": 700},
+"omega": {"a": 5, "b": 850}
+},
+{
+"district": "Buur Hakaba",
+"reasoning": "An agropastoral district in the sorghum belt that faces structural access constraints due to contested control and poor road networks. CMAM coverage is suppressed by these access issues, lowering p. Gamma is elevated by recurrent agricultural stress and structural poverty, while omega is highly sensitive to the bimodal rainfall performance and sporadic conflict disrupting farming.",
+"p": {"a": 12, "b": 28},
+"gamma": {"a": 7, "b": 650},
+"omega": {"a": 6, "b": 800}
+},
+{
+"district": "Cabudwaaq",
+"reasoning": "A border pastoral district frequently impacted by clan conflict and structural isolation, which limit consistent CMAM expansion and keep p low. High reliance on cross-border livestock trade creates endemic vulnerability, sustaining a high baseline gamma. Omega is marked by volatile localized conflict, shifting pastoral borders, and harsh seasonal dry spells.",
+"p": {"a": 12, "b": 28},
+"gamma": {"a": 6, "b": 650},
+"omega": {"a": 6, "b": 800}
+},
+{
+"district": "Cadaado",
+"reasoning": "A central pastoral district with functional local administration but exposed to severe arid conditions. Health systems are accessible but geographically dispersed, resulting in a moderate p. Gamma reflects the chronic baseline vulnerability of pastoralist communities dependent on volatile livestock markets. Omega tracks the pronounced seasonality of water access and pasture regeneration.",
+"p": {"a": 16, "b": 24},
+"gamma": {"a": 5, "b": 700},
+"omega": {"a": 5, "b": 850}
+},
+{
+"district": "Cadale",
+"reasoning": "A coastal and agropastoral district with moderate accessibility but limited heavy health infrastructure, leading to a moderate baseline p. Structural food access is supported by mixed farming and fishing, keeping gamma in the medium range. Omega is driven by seasonal coastal conditions, erratic rainfall affecting local crops, and occasional clan-related disruptions.",
+"p": {"a": 15, "b": 25},
+"gamma": {"a": 5, "b": 750},
+"omega": {"a": 4, "b": 850}
+},
+{
+"district": "Caluula",
+"reasoning": "An exceptionally remote coastal district at the tip of the Horn, constrained by highly challenging terrain and poor road infrastructure. This structural isolation limits CMAM reach and depresses p. Gamma is elevated by reliance on precarious artisanal fishing and limited market integration for staples, while omega is driven by seasonal monsoons that periodically cut off coastal access entirely.",
+"p": {"a": 10, "b": 30},
+"gamma": {"a": 5, "b": 700},
+"omega": {"a": 5, "b": 800}
+},
+{
+"district": "Caynabo",
+"reasoning": "An arid, predominantly pastoral district with highly dispersed populations, complicating health service delivery and yielding a moderate to low p. Incidence (gamma) is structurally embedded in the harsh environment and limited dietary diversity of nomadic livelihoods. Omega fluctuates heavily based on the volatile performance of the Gu and Deyr rains, which dictate immediate food access.",
+"p": {"a": 14, "b": 26},
+"gamma": {"a": 5, "b": 750},
+"omega": {"a": 5, "b": 850}
+},
+{
+"district": "Ceel Afweyn",
+"reasoning": "A pastoral district periodically disrupted by severe clan-based conflict that damages local infrastructure and structural humanitarian access, keeping p low. The baseline gamma is elevated by these recurrent livelihood disruptions and poor market function. Omega is highly volatile, driven by the dual shocks of erratic drought conditions and sudden conflict flare-ups.",
+"p": {"a": 12, "b": 28},
+"gamma": {"a": 6, "b": 650},
+"omega": {"a": 6, "b": 800}
+},
+{
+"district": "Ceel Barde",
+"reasoning": "A pastoral and agropastoral border district facing structural access challenges due to contested rural areas and poor road networks. CMAM programs struggle with supply consistency, depressing p. Chronic reliance on precarious cross-border trade sustains a high gamma, while omega is driven by acute seasonal droughts and volatile access to border markets.",
+"p": {"a": 12, "b": 28},
+"gamma": {"a": 6, "b": 650},
+"omega": {"a": 5, "b": 800}
+},
+{
+"district": "Ceel Buur",
+"reasoning": "An interior pastoral district enduring chronic, absolute inaccessibility due to long-term non-state armed group control. The total absence of formal CMAM programs and functional health networks results in a critically low p. Gamma is structurally high due to unmitigated poverty and lack of assistance, and omega fluctuates with seasonal drought shocks in an environment entirely devoid of humanitarian buffering.",
+"p": {"a": 5, "b": 40},
+"gamma": {"a": 8, "b": 550},
+"omega": {"a": 7, "b": 750}
+},
+{
+"district": "Ceel Dheere",
+"reasoning": "A coastal and pastoral district characterized by persistent non-state armed group presence, resulting in severe structural access constraints and a negligible baseline p. Chronic market isolation and lack of safety nets establish a high incidence gamma. Omega is driven by volatile conflict events, erratic rainfall, and shifting localized blockades that interrupt food trade.",
+"p": {"a": 6, "b": 35},
+"gamma": {"a": 7, "b": 600},
+"omega": {"a": 6, "b": 750}
+},
+{
+"district": "Ceel Waaq",
+"reasoning": "A remote pastoral district on the Kenyan border heavily dependent on cross-border livestock trade and sporadically affected by conflict. Structural health access is weak, yielding a low p. Gamma is elevated by endemic vulnerability to border closures and poor dietary diversity, while omega tracks the seasonality of border trade dynamics and unpredictable rainfall.",
+"p": {"a": 12, "b": 28},
+"gamma": {"a": 6, "b": 650},
+"omega": {"a": 5, "b": 800}
+},
+{
+"district": "Ceerigaabo",
+"reasoning": "A geographically vast, mountainous pastoral district where rugged terrain inherently limits health coverage and structural CMAM reach, maintaining a low to moderate p. Gamma is moderated by relatively resilient pastoral livelihoods but elevated by physical isolation. Omega is driven by localized climatic variations, particularly the erratic performance of seasonal rains across varied elevations.",
+"p": {"a": 14, "b": 26},
+"gamma": {"a": 4, "b": 750},
+"omega": {"a": 4, "b": 850}
+},
+{
+"district": "Dhuusamarreeb",
+"reasoning": "An administrative capital in a pastoral zone with relatively functional health infrastructure and stable humanitarian access, leading to a strong baseline p. While the urban center provides market stability, the surrounding pastoral hinterland sustains a moderate gamma. Omega is buffered by administrative stability but remains sensitive to seasonal influxes of drought-displaced pastoralists.",
+"p": {"a": 20, "b": 20},
+"gamma": {"a": 4, "b": 800},
+"omega": {"a": 4, "b": 900}
+},
+{
+"district": "Diinsoor",
+"reasoning": "An agropastoral district structurally crippled by long-term siege tactics and heavy access constraints. Commercial food access and CMAM supplies are chronically choked, severely depressing p. Gamma is exceptionally high due to entrenched food insecurity and broken coping mechanisms. Omega is highly volatile, dictated by sudden supply line closures and erratic rain-fed agricultural failures.",
+"p": {"a": 8, "b": 35},
+"gamma": {"a": 9, "b": 550},
+"omega": {"a": 7, "b": 750}
+},
+{
+"district": "Doolow",
+"reasoning": "A border district acting as a massive structural hub for protracted IDPs, supported by a heavy, continuous humanitarian presence. This dense programming ensures a high p, but the sheer volume of highly vulnerable, displaced populations sustains a high structural gamma. Omega is exceptionally volatile, driven by massive, sudden cross-border and internal displacement waves responding to regional crises.",
+"p": {"a": 22, "b": 18},
+"gamma": {"a": 8, "b": 600},
+"omega": {"a": 8, "b": 700}
+},
+{
+"district": "Eyl",
+"reasoning": "A coastal district heavily reliant on artisanal fishing and pastoralism, characterized by rough terrain and geographical isolation that limit consistent CMAM rollout (moderate p). Gamma is elevated by precarious food systems and reliance on external markets for staples. Omega is heavily dictated by the predictable but severe seasonality of monsoon winds that halt fishing and isolate coastal roads.",
+"p": {"a": 14, "b": 26},
+"gamma": {"a": 5, "b": 750},
+"omega": {"a": 5, "b": 850}
+},
+{
+"district": "Gaalkacyo",
+"reasoning": "A politically divided administrative and economic hub hosting a vast structural IDP population. Dense urban health networks support a strong p, but the chronic marginalization and poor living conditions of IDP settlements drive a high gamma. Omega is highly volatile, influenced by recurrent clan conflicts, shifting frontlines, and seasonal influxes of drought-affected pastoralists.",
+"p": {"a": 20, "b": 20},
+"gamma": {"a": 7, "b": 650},
+"omega": {"a": 7, "b": 800}
+},
+{
+"district": "Galdogob",
+"reasoning": "A relatively stable pastoral district near the Ethiopian border with established trade routes and functioning local administration. Reliable humanitarian access yields a moderate to high p, while robust cross-border trade lowers structural incidence (gamma). Omega is relatively stable, primarily reflecting natural seasonal variations in pasture and water availability rather than conflict.",
+"p": {"a": 18, "b": 22},
+"gamma": {"a": 3, "b": 850},
+"omega": {"a": 3, "b": 950}
+},
+{
+"district": "Garbahaarey",
+"reasoning": "A mixed agropastoral and pastoral district facing significant geographic barriers and intermittent conflict, which combine to hinder structural health service delivery and depress p. Endemic vulnerability to erratic rainfall keeps baseline gamma moderately high. Omega is driven by volatile climatic shocks and periodic disruptions to trade routes by armed groups.",
+"p": {"a": 12, "b": 28},
+"gamma": {"a": 6, "b": 700},
+"omega": {"a": 5, "b": 850}
+},
+{
+"district": "Garoowe",
+"reasoning": "An administrative capital offering structural stability, deep market integration, and high health system density. Strong CMAM coverage and institutional capacity result in a high p. Baseline incidence (gamma) is very low due to economic diversification and functional governance, while omega is minimized by the structural buffering of a stable urban economy and consistent humanitarian access.",
+"p": {"a": 25, "b": 15},
+"gamma": {"a": 2, "b": 900},
+"omega": {"a": 2, "b": 1000}
+},
+{
+"district": "Gebiley",
+"reasoning": "A highly productive agropastoral district known as the local breadbasket, boasting reliable rainfall and exceptional stability. Excellent health access and strong infrastructure establish a high p. Gamma is among the lowest structurally, reflecting strong dietary diversity and food availability. Omega is low, characterized by minor seasonal harvest variations in an otherwise highly resilient system.",
+"p": {"a": 26, "b": 14},
+"gamma": {"a": 1, "b": 950},
+"omega": {"a": 1, "b": 1000}
+},
+{
+"district": "Hargeysa",
+"reasoning": "A major urban center with a diversified economy, functional market systems, and dense, accessible health infrastructure. Structural CMAM coverage is high, yielding a higher baseline p. Incidence (gamma) is kept comparatively low by stable food access pathways, though a large endemic IDP population contributes a baseline vulnerability; omega is restricted by structural buffering and stable access.",
+"p": {"a": 25, "b": 15},
+"gamma": {"a": 3, "b": 850},
+"omega": {"a": 2, "b": 950}
+},
+{
+"district": "Hobyo",
+"reasoning": "A coastal pastoral district suffering from profound geographical isolation and poor road infrastructure, leading to structural deficits in health service delivery and a low p. High reliance on unstable pastoral and fishing livelihoods elevates baseline incidence (gamma). Omega fluctuates strongly with seasonal coastal dynamics, erratic inland rainfall, and periodic piracy or clan-related disruptions.",
+"p": {"a": 12, "b": 28},
+"gamma": {"a": 6, "b": 700},
+"omega": {"a": 5, "b": 800}
+},
+{
+"district": "Iskushuban",
+"reasoning": "A sprawling, remote pastoral district with highly dispersed populations, rendering comprehensive CMAM coverage structurally unfeasible and keeping p low. The harsh, arid environment mandates precarious nomadic livelihoods, maintaining a moderately high gamma. Omega is entirely dependent on the highly variable, localized performance of seasonal rains and subsequent migrations.",
+"p": {"a": 12, "b": 28},
+"gamma": {"a": 5, "b": 750},
+"omega": {"a": 5, "b": 850}
+},
+{
+"district": "Jalalaqsi",
+"reasoning": "A riverine district chronically strangled by access blockades and severe insecurity, heavily limiting the importation of medical supplies and keeping p very low. Gamma is structurally high due to decimated local economies and limited food imports. Omega is driven by unpredictable, sporadic breakthroughs in supply chains, alongside regular seasonal flooding from the Shabelle river.",
+"p": {"a": 8, "b": 35},
+"gamma": {"a": 8, "b": 600},
+"omega": {"a": 7, "b": 750}
+},
+{
+"district": "Jamaame",
+"reasoning": "A riverine and agropastoral district strictly controlled by non-state armed groups, resulting in absolute structural inaccessibility for humanitarian actors and near-zero CMAM coverage (extremely low p). Baseline gamma is severely elevated by isolated markets and entrenched poverty. Omega responds wildly to recurrent, unmitigated riverine floods and seasonal harvest failures.",
+"p": {"a": 5, "b": 40},
+"gamma": {"a": 9, "b": 550},
+"omega": {"a": 8, "b": 700}
+},
+{
+"district": "Jariiban",
+"reasoning": "A pastoral district with limited infrastructure but free from severe conflict, allowing for basic, albeit sparse, health access (moderate p). Structural food security relies heavily on livestock trade, keeping gamma at a medium baseline. Omega is driven primarily by natural climate variability, specifically seasonal dry spells and corresponding pasture depletion.",
+"p": {"a": 16, "b": 24},
+"gamma": {"a": 4, "b": 800},
+"omega": {"a": 4, "b": 900}
+},
+{
+"district": "Jilib",
+"reasoning": "Located in the Middle Juba riverine and agropastoral zone, Jilib experiences chronic humanitarian inaccessibility due to persistent Al-Shabaab control, practically eliminating CMAM coverage and lowering p. The incidence parameter gamma is elevated by the structural lack of health services and embedded vulnerability, while omega is driven very high by recurrent riverine flooding and volatile climatic shocks without any institutional buffering.",
+"p": {"a": 5, "b": 40},
+"gamma": {"a": 9, "b": 550},
+"omega": {"a": 8, "b": 700}
+},
+{
+"district": "Jowhar",
+"reasoning": "A major riverine agricultural hub persistently plagued by catastrophic, structurally embedded seasonal flooding. While administrative status ensures moderate CMAM presence (moderate p), the repeated destruction of crops and massive localized displacement sustain a high baseline gamma. Omega is exceptionally volatile, dictated by violent bi-annual flood cycles that regularly decimate the local economy.",
+"p": {"a": 16, "b": 24},
+"gamma": {"a": 7, "b": 650},
+"omega": {"a": 9, "b": 600}
+},
+{
+"district": "Kismaayo",
+"reasoning": "A critical port city and a massive structural destination for IDPs fleeing conflict and drought in the Juba regions. Dense humanitarian programming provides a strong p, but the overwhelming scale of the chronically vulnerable IDP population drives a high baseline incidence (gamma). Omega is volatile due to unpredictable, large-scale displacement influxes and seasonal fluctuations in port labor.",
+"p": {"a": 22, "b": 18},
+"gamma": {"a": 7, "b": 600},
+"omega": {"a": 7, "b": 750}
+},
+{
+"district": "Kurtunwaarey",
+"reasoning": "A riverine and agropastoral district in Lower Shabelle hampered by persistent insecurity and constrained access, heavily limiting structural health coverage and depressing p. Gamma is elevated by disrupted farming and market access, while omega is intensely volatile due to the compounding shocks of riverine flooding and shifting frontlines of conflict.",
+"p": {"a": 10, "b": 30},
+"gamma": {"a": 7, "b": 650},
+"omega": {"a": 7, "b": 800}
+},
+{
+"district": "Laas Caanood",
+"reasoning": "A pastoral administrative hub structurally subjected to severe, recurrent political conflict and urban warfare. Health infrastructure is episodically functional, yielding a moderate p. Gamma is elevated by systemic disruption to trade networks and livelihoods caused by conflict. Omega is deeply volatile, mirroring sudden spikes in violence and massive, sudden population displacements.",
+"p": {"a": 15, "b": 25},
+"gamma": {"a": 6, "b": 700},
+"omega": {"a": 7, "b": 750}
+},
+{
+"district": "Laasqoray",
+"reasoning": "A remote coastal district in Sanaag separated by rugged mountains, making structural health delivery exceptionally difficult and resulting in a low p. Gamma is maintained by isolated local markets and precarious coastal livelihoods. Omega is heavily dependent on the predictability of fishing seasons and the severe interruptions caused by coastal storms.",
+"p": {"a": 10, "b": 30},
+"gamma": {"a": 5, "b": 750},
+"omega": {"a": 4, "b": 850}
+},
+{
+"district": "Lughaye",
+"reasoning": "Located in the exceptionally arid Guban coastal plain, this pastoral district experiences extreme structural water scarcity and isolation. Sparse infrastructure restricts CMAM coverage (low p), while harsh environmental baselines drive a moderately high gamma. Omega is highly volatile, driven by recurrent, severe thermal stress and volatile, minimal rainfall that repeatedly decimates livestock.",
+"p": {"a": 12, "b": 28},
+"gamma": {"a": 6, "b": 700},
+"omega": {"a": 6, "b": 850}
+},
+{
+"district": "Luuq",
+"reasoning": "A riverine district on the Juba river serving as a major hub for IDPs and cross-border movement. Heavy humanitarian investment ensures a high baseline p, but the concentration of vulnerable, displaced populations sustains a high structural gamma. Omega is driven by severe riverine flooding and erratic border dynamics that regularly displace communities.",
+"p": {"a": 20, "b": 20},
+"gamma": {"a": 7, "b": 650},
+"omega": {"a": 7, "b": 800}
+},
+{
+"district": "Marka",
+"reasoning": "A coastal urban center in Lower Shabelle plagued by structural, recurrent conflict and severe access constraints that episodically collapse health infrastructure, keeping p moderate to low. Gamma is elevated by chronic livelihood disruption and a large, vulnerable IDP population. Omega is extremely volatile, driven by sudden localized clashes and unpredictable access openings.",
+"p": {"a": 14, "b": 26},
+"gamma": {"a": 7, "b": 650},
+"omega": {"a": 7, "b": 750}
+},
+{
+"district": "Owdweyne",
+"reasoning": "A structurally stable pastoral district in Togdheer with reliable connections to major livestock markets. Functional, accessible health services provide a solid baseline p. Gamma is structurally low due to resilient pastoral wealth and consistent trade, while omega remains stable, affected primarily by standard seasonal variations in pasture rather than catastrophic shocks.",
+"p": {"a": 20, "b": 20},
+"gamma": {"a": 3, "b": 850},
+"omega": {"a": 3, "b": 950}
+},
+{
+"district": "Qandala",
+"reasoning": "An isolated coastal and mountainous district in Bari, characterized by rugged terrain that structurally prohibits widespread health coverage, depressing p. Livelihoods depend on specialized coastal trade and frankincense, yielding a moderate gamma. Omega fluctuates with seasonal shipping viability and harsh local climate variations.",
+"p": {"a": 12, "b": 28},
+"gamma": {"a": 4, "b": 800},
+"omega": {"a": 4, "b": 900}
+},
+{
+"district": "Qansax Dheere",
+"reasoning": "An agropastoral district in Bay heavily subjected to structural blockades and persistent siege tactics that restrict food imports and decimate health systems (low p). Gamma is strongly elevated by entrenched market failure and chronic food insecurity. Omega is highly volatile, driven by erratic bimodal rains and unpredictable supply line interruptions.",
+"p": {"a": 10, "b": 30},
+"gamma": {"a": 8, "b": 600},
+"omega": {"a": 7, "b": 750}
+},
+{
+"district": "Qardho",
+"reasoning": "A critical pastoral hub known for structural vulnerability to sudden, devastating flash floods despite its arid environment. Solid administrative presence ensures a strong p, but a growing IDP population maintains a moderate gamma. Omega is heavily driven by these unpredictable flash flood events and seasonal influxes of nomadic populations.",
+"p": {"a": 20, "b": 20},
+"gamma": {"a": 4, "b": 750},
+"omega": {"a": 6, "b": 850}
+},
+{
+"district": "Qoryooley",
+"reasoning": "A riverine district highly dependent on irrigated agriculture but structurally compromised by surrounding conflict and access constraints. CMAM coverage is suppressed (low p), while gamma is elevated by endemic poverty and failing infrastructure. Omega is intensely variable, driven by cyclical river floods and localized agricultural disruptions from armed groups.",
+"p": {"a": 12, "b": 28},
+"gamma": {"a": 7, "b": 650},
+"omega": {"a": 7, "b": 800}
+},
+{
+"district": "Rab Dhuure",
+"reasoning": "A pastoral and agropastoral district near the border facing recurrent conflict and severe access challenges, severely limiting structural health programming and keeping p low. High baseline incidence (gamma) is driven by persistent livelihood disruption and lack of safety nets. Omega reflects the highly volatile nature of both border conflict and erratic seasonal rainfall.",
+"p": {"a": 10, "b": 30},
+"gamma": {"a": 7, "b": 650},
+"omega": {"a": 6, "b": 800}
+},
+{
+"district": "Saakow",
+"reasoning": "An agropastoral and riverine district under total, long-term non-state armed group control, resulting in a complete structural absence of humanitarian health services and an exceptionally low p. Gamma is structurally high due to deep isolation and unmitigated baseline poverty. Omega is entirely dependent on unbuffered seasonal climate shocks, primarily riverine flooding and drought.",
+"p": {"a": 5, "b": 40},
+"gamma": {"a": 8, "b": 600},
+"omega": {"a": 7, "b": 750}
+},
+{
+"district": "Sablaale",
+"reasoning": "A remote riverine district in Lower Shabelle enduring persistent inaccessibility and non-state armed group presence. The lack of structural CMAM rollout results in a very low p, while isolated, disrupted agriculture drives up baseline gamma. Omega is dictated heavily by seasonal Shabelle river floods and erratic rainfall patterns without institutional support.",
+"p": {"a": 6, "b": 35},
+"gamma": {"a": 7, "b": 650},
+"omega": {"a": 7, "b": 800}
+},
+{
+"district": "Sheikh",
+"reasoning": "A highly stable, mountainous pastoral district with favorable climate conditions and established market integration. Strong structural health access yields an elevated p. Gamma is very low due to resilient pastoral livelihoods and consistent food availability. Omega is constrained by structural stability, exhibiting only minor variations tied to standard seasonal cycles.",
+"p": {"a": 24, "b": 16},
+"gamma": {"a": 2, "b": 900},
+"omega": {"a": 2, "b": 1000}
+},
+{
+"district": "Taleex",
+"reasoning": "An exceptionally remote pastoral district with dispersed populations and limited administrative infrastructure, rendering structural health delivery difficult and keeping p low. Baseline incidence (gamma) is elevated by the harsh arid environment and precarious nomadic livelihoods. Omega is heavily dependent on erratic seasonal rainfall and corresponding distressed migrations.",
+"p": {"a": 12, "b": 28},
+"gamma": {"a": 5, "b": 750},
+"omega": {"a": 5, "b": 850}
+},
+{
+"district": "Tayeeglow",
+"reasoning": "An agropastoral district deeply impacted by shifting frontlines and access blockades that heavily damage structural health capacity and lower p. Chronic market disruptions and food access issues sustain an elevated gamma. Omega is driven by volatile conflict events, sudden displacement, and erratic rain-fed harvest outcomes.",
+"p": {"a": 10, "b": 30},
+"gamma": {"a": 7, "b": 650},
+"omega": {"a": 7, "b": 800}
+},
+{
+"district": "Waajid",
+"reasoning": "A structurally blockaded agropastoral district in Bakool where persistent Al-Shabaab siege tactics severely restrict market functionality, commercial food imports, and humanitarian access. This chronic isolation drastically reduces CMAM coverage, lowering p, while gamma is elevated by endemic food insecurity and degraded coping strategies. Omega is widened by the volatility of sporadic supply chain openings and rainfall shocks.",
+"p": {"a": 8, "b": 35},
+"gamma": {"a": 8, "b": 600},
+"omega": {"a": 7, "b": 750}
+},
+{
+"district": "Wanla Weyn",
+"reasoning": "A predominantly riverine and agropastoral district with moderate accessibility but high structural exposure to river floods. Proximity to major roads provides a moderate p, while reliance on flood-prone agriculture keeps gamma at a medium baseline. Omega is highly volatile due to recurrent seasonal flooding that repeatedly displaces households and destroys crops.",
+"p": {"a": 16, "b": 24},
+"gamma": {"a": 6, "b": 700},
+"omega": {"a": 8, "b": 750}
+},
+{
+"district": "Xarardheere",
+"reasoning": "A coastal and pastoral district enduring prolonged structural inaccessibility due to severe insecurity and armed group control. CMAM programs are functionally absent, resulting in a critically low p. Gamma is high due to isolated markets and lack of safety nets, and omega is driven by coastal weather volatility and sporadic, localized conflict.",
+"p": {"a": 6, "b": 35},
+"gamma": {"a": 7, "b": 600},
+"omega": {"a": 6, "b": 750}
+},
+{
+"district": "Xudun",
+"reasoning": "A deeply isolated pastoral district facing structural deficits in health infrastructure and road access, inherently limiting p. Baseline incidence (gamma) is maintained by the harsh realities of nomadic existence and poor dietary diversity. Omega tracks the pronounced, unmitigated volatility of seasonal rainfall and pasture regeneration.",
+"p": {"a": 12, "b": 28},
+"gamma": {"a": 5, "b": 750},
+"omega": {"a": 5, "b": 850}
+},
+{
+"district": "Xudur",
+"reasoning": "An agropastoral administrative hub plagued by long-standing blockades and severe access constraints that limit medical supply imports, significantly depressing p. Structural market isolation and dependence on restricted airlifts elevate gamma. Omega is extremely volatile, driven by the unpredictability of supply access, erratic rainfall, and shifting localized insecurity.",
+"p": {"a": 10, "b": 30},
+"gamma": {"a": 8, "b": 600},
+"omega": {"a": 7, "b": 750}
+},
+{
+"district": "Zeylac",
+"reasoning": "A highly arid coastal pastoral district in the Guban zone facing extreme structural water scarcity and geographic isolation. Limited infrastructure restrains CMAM scale-up, yielding a low p. Gamma is elevated by precarious livelihoods and environmental hardship, while omega is intensely driven by severe seasonal thermal shocks and highly erratic rainfall.",
+"p": {"a": 12, "b": 28},
+"gamma": {"a": 6, "b": 700},
+"omega": {"a": 6, "b": 850}
+}
+]
+}

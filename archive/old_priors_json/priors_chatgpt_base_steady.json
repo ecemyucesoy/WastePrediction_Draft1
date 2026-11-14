@@ -1,0 +1,1905 @@
+{
+  "districts": [
+    {
+      "district": "Adan Yabaal",
+      "reasoning": "Older Cowpea Belt context and general regional knowledge suggest livelihood vulnerability and uncertain treatment access, motivating moderately elevated gamma and a broadly uncertain p. Seasonal crop and milk availability, together with possible recurring insecurity, motivate omega, with limited district evidence widening its interval. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/sites/default/files/Central-Agro-pastoral.pdf",
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf"
+      ],
+      "sources_unavailable": [
+        "https://www.unocha.org/publications/report/somalia/somalia-humanitarian-access-overview-quarter-1-january-march-2021"
+      ],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.06,
+        "high_90": 0.7
+      },
+      "gamma": {
+        "median": 0.007,
+        "low_90": 0.001,
+        "high_90": 0.0224
+      },
+      "omega": {
+        "median": 0.004,
+        "low_90": 0.0004,
+        "high_90": 0.016
+      }
+    },
+    {
+      "district": "Afgooye",
+      "reasoning": "Retrieved flooding and regional displacement evidence, combined with general knowledge of the agricultural and periurban setting, support elevated gamma and potentially faster recovery access within a broad p interval. Repeated flood exposure and changes in displacement and market access motivate substantial process variability in omega. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 1.5 for gamma and 1.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://faoswalim.org/resources/site_files/Flood_Advisory-Lower%20Shabelle_24072020.pdf",
+        "https://data.unhcr.org/fr/documents/download/71138"
+      ],
+      "sources_unavailable": [
+        "https://www.unocha.org/publications/report/somalia/somalia-humanitarian-access-overview-quarter-1-january-march-2021"
+      ],
+      "p": {
+        "median": 0.3,
+        "low_90": 0.08,
+        "high_90": 0.74
+      },
+      "gamma": {
+        "median": 0.007,
+        "low_90": 0.0018,
+        "high_90": 0.0175
+      },
+      "omega": {
+        "median": 0.005,
+        "low_90": 0.001,
+        "high_90": 0.015
+      }
+    },
+    {
+      "district": "Afmadow",
+      "reasoning": "The documented mixed pastoral and agricultural economy suggests moderate gamma, while uncertain rural treatment reach leaves p weakly informed. Seasonal livestock and crop income, supplemented by general knowledge of insecurity, motivate omega without assuming every month resembles a crisis. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf"
+      ],
+      "sources_unavailable": [
+        "https://www.unocha.org/publications/report/somalia/somalia-humanitarian-access-overview-quarter-1-january-march-2021"
+      ],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.06,
+        "high_90": 0.7
+      },
+      "gamma": {
+        "median": 0.007,
+        "low_90": 0.001,
+        "high_90": 0.0224
+      },
+      "omega": {
+        "median": 0.004,
+        "low_90": 0.0004,
+        "high_90": 0.016
+      }
+    },
+    {
+      "district": "Baardheere",
+      "reasoning": "Agricultural dependence suggests elevated gamma, while possible town-based treatment access moderates p relative to a wholly remote setting. Documented recurrent river flooding and inferred seasonal livelihood changes support a relatively large omega. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 1.5 for gamma and 1.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://faoswalim.org/resources/site_files/Somalia_Flood_Update-26052020.pdf"
+      ],
+      "sources_unavailable": [
+        "https://www.unocha.org/publications/report/somalia/somalia-humanitarian-access-overview-quarter-1-january-march-2021"
+      ],
+      "p": {
+        "median": 0.28,
+        "low_90": 0.07,
+        "high_90": 0.72
+      },
+      "gamma": {
+        "median": 0.008,
+        "low_90": 0.002,
+        "high_90": 0.02
+      },
+      "omega": {
+        "median": 0.005,
+        "low_90": 0.001,
+        "high_90": 0.015
+      }
+    },
+    {
+      "district": "Badhaadhe",
+      "reasoning": "Mixed livestock and rainfed livelihoods suggest moderate gamma, while remoteness and treatment continuity remain general-knowledge assumptions behind a broad p. Seasonal food production and possible recurrent livelihood disruption motivate omega, with wide uncertainty because district-specific process evidence is limited. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf"
+      ],
+      "sources_unavailable": [
+        "https://www.unocha.org/publications/report/somalia/somalia-humanitarian-access-overview-quarter-1-january-march-2021"
+      ],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.06,
+        "high_90": 0.7
+      },
+      "gamma": {
+        "median": 0.007,
+        "low_90": 0.001,
+        "high_90": 0.0224
+      },
+      "omega": {
+        "median": 0.004,
+        "low_90": 0.0004,
+        "high_90": 0.016
+      }
+    },
+    {
+      "district": "Baki",
+      "reasoning": "Older pastoral and agricultural evidence suggests some livelihood diversification, moderating gamma, while rural access costs keep p uncertain. Seasonal rainfall, milk supply and crop income motivate moderate omega rather than an assumption of uniformly stable food access. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 1.5 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/West-Golis-Pastoral-Livelihood-Zone-Baseline-Report.pdf",
+        "https://fsnau.org/downloads/Northwest-Agro-Pastoral-Livelihood-Zone-Baseline-Profile-September-2011.pdf"
+      ],
+      "sources_unavailable": [
+        "https://www.fsnau.org/downloads/West-Golis-Pastoral-Livelihood-Zone-Baseline-Report.pdf"
+      ],
+      "p": {
+        "median": 0.3,
+        "low_90": 0.08,
+        "high_90": 0.74
+      },
+      "gamma": {
+        "median": 0.005,
+        "low_90": 0.0013,
+        "high_90": 0.0125
+      },
+      "omega": {
+        "median": 0.003,
+        "low_90": 0.0003,
+        "high_90": 0.012
+      }
+    },
+    {
+      "district": "Balcad",
+      "reasoning": "Agricultural livelihoods and river exposure support moderately elevated gamma, while general knowledge of access constraints leaves p broadly uncertain. Documented flooding and seasonal agricultural income changes motivate a relatively large omega. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 1.5 for gamma and 1.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://faoswalim.org/resources/site_files/Flood_Advisory-Lower%20Shabelle_24072020.pdf",
+        "https://fsnau.org/sites/default/files/Central-Agro-pastoral.pdf"
+      ],
+      "sources_unavailable": [
+        "https://www.unocha.org/publications/report/somalia/somalia-humanitarian-access-overview-quarter-1-january-march-2021"
+      ],
+      "p": {
+        "median": 0.28,
+        "low_90": 0.07,
+        "high_90": 0.72
+      },
+      "gamma": {
+        "median": 0.007,
+        "low_90": 0.0018,
+        "high_90": 0.0175
+      },
+      "omega": {
+        "median": 0.005,
+        "low_90": 0.001,
+        "high_90": 0.015
+      }
+    },
+    {
+      "district": "Banadir",
+      "reasoning": "Displacement hosting alongside documented treatment services suggests persistent vulnerability in gamma and somewhat faster exits in p, without equating urban services with universal access. Displacement flows and insecure household incomes motivate moderate omega despite the potential smoothing effect of urban markets. These subjective 90% intervals represent confidence roughly equivalent to 1 months of direct district observation for p, 1.5 for gamma and 1.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://data.unhcr.org/es/documents/download/68142",
+        "https://data.unhcr.org/fr/documents/download/71138",
+        "https://www.unicef.org/somalia/media/191/file/Somalia-annual-report-2018-eng.pdf"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.35,
+        "low_90": 0.13,
+        "high_90": 0.71
+      },
+      "gamma": {
+        "median": 0.006,
+        "low_90": 0.0015,
+        "high_90": 0.015
+      },
+      "omega": {
+        "median": 0.003,
+        "low_90": 0.0006,
+        "high_90": 0.009
+      }
+    },
+    {
+      "district": "Bandarbeyla",
+      "reasoning": "The coastal and pastoral setting suggests moderate gamma, while inferred remoteness makes the p judgment weak. Seasonal rainfall, livestock income and coastal livelihood conditions motivate omega, with no assumption that fishing eliminates seasonal risk. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://fsnau.org/downloads/Sool-Plateu-Pastoral-Livelihood-Zone-Baseline-Profile-August-2011.pdf"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.06,
+        "high_90": 0.7
+      },
+      "gamma": {
+        "median": 0.006,
+        "low_90": 0.0009,
+        "high_90": 0.0192
+      },
+      "omega": {
+        "median": 0.004,
+        "low_90": 0.0004,
+        "high_90": 0.016
+      }
+    },
+    {
+      "district": "Baraawe",
+      "reasoning": "Rainfed agriculture and coastal livelihood options suggest moderate gamma, while treatment access is only weakly inferred in p. Harvest seasonality and possible recurring market disruption motivate moderate omega, with broad uncertainty about the district-wide balance. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf"
+      ],
+      "sources_unavailable": [
+        "https://www.unocha.org/publications/report/somalia/somalia-humanitarian-access-overview-quarter-1-january-march-2021"
+      ],
+      "p": {
+        "median": 0.28,
+        "low_90": 0.07,
+        "high_90": 0.72
+      },
+      "gamma": {
+        "median": 0.006,
+        "low_90": 0.0009,
+        "high_90": 0.0192
+      },
+      "omega": {
+        "median": 0.004,
+        "low_90": 0.0004,
+        "high_90": 0.016
+      }
+    },
+    {
+      "district": "Baydhaba",
+      "reasoning": "Retrieved agricultural and displacement context supports elevated gamma, while documented town services suggest some recovery capacity within a district that also includes rural households. Seasonal crop and labour income and changes in displaced populations motivate substantial omega without using observed malnutrition levels. These subjective 90% intervals represent confidence roughly equivalent to 1 months of direct district observation for p, 1.5 for gamma and 1.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Bay-Agro-pastoral-High-Potential-Profile.pdf",
+        "https://fsnau.org/downloads/Bay-Bakool-Agro-pastoral-Low-Potential-Profile.pdf",
+        "https://fsnau.org/downloads/Baidoa-Urban-Baseline-Profile.pdf",
+        "https://data.unhcr.org/es/documents/download/68142",
+        "https://www.unicef.org/somalia/media/191/file/Somalia-annual-report-2018-eng.pdf"
+      ],
+      "sources_unavailable": [
+        "https://unhabitat.org/sites/default/files/2020/07/baidoa_urban_profile_2020.pdf",
+        "https://www.fsnau.org/downloads/Bay-Agro-pastoral-High-Potential-Profile.pdf",
+        "https://www.fsnau.org/downloads/Bay-Bakool-Agro-pastoral-Low-Potential-Profile.pdf"
+      ],
+      "p": {
+        "median": 0.3,
+        "low_90": 0.11,
+        "high_90": 0.67
+      },
+      "gamma": {
+        "median": 0.009,
+        "low_90": 0.0022,
+        "high_90": 0.0225
+      },
+      "omega": {
+        "median": 0.005,
+        "low_90": 0.001,
+        "high_90": 0.015
+      }
+    },
+    {
+      "district": "Belet Weyne",
+      "reasoning": "Flood-exposed livelihoods suggest elevated gamma, while town-based care is a general-knowledge reason for moderate p rather than evidence of uniformly short illness. Repeated flooding documented across years, together with seasonal livelihood disruption, supports a relatively large omega. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 1.5 for gamma and 1.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://faoswalim.org/resources/site_files/Flood_Update_11082020.pdf",
+        "https://faoswalim.org/resources/site_files/Somalia_Flood_Update-26052020.pdf",
+        "https://fsnau.org/downloads/Southern-Inland-Pastoral-Profile.pdf"
+      ],
+      "sources_unavailable": [
+        "https://www.unocha.org/publications/report/somalia/somalia-humanitarian-access-overview-quarter-1-january-march-2021",
+        "https://www.fsnau.org/downloads/Southern-Inland-Pastoral-Profile.pdf"
+      ],
+      "p": {
+        "median": 0.3,
+        "low_90": 0.08,
+        "high_90": 0.74
+      },
+      "gamma": {
+        "median": 0.008,
+        "low_90": 0.002,
+        "high_90": 0.02
+      },
+      "omega": {
+        "median": 0.006,
+        "low_90": 0.0012,
+        "high_90": 0.018
+      }
+    },
+    {
+      "district": "Belet Xaawo",
+      "reasoning": "Older evidence of pastoral and cross-border market dependence supports moderate gamma, while uncertain affordability and continuity of treatment leave p broad. Seasonal livestock returns and possible fluctuations in cross-border food access motivate moderate omega. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 1.5 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Dawa-Pastoral-Livelihood-Zone-Baseline-Report.pdf"
+      ],
+      "sources_unavailable": [
+        "https://www.unocha.org/publications/report/somalia/somalia-humanitarian-access-overview-quarter-1-january-march-2021"
+      ],
+      "p": {
+        "median": 0.28,
+        "low_90": 0.07,
+        "high_90": 0.72
+      },
+      "gamma": {
+        "median": 0.007,
+        "low_90": 0.0018,
+        "high_90": 0.0175
+      },
+      "omega": {
+        "median": 0.004,
+        "low_90": 0.0004,
+        "high_90": 0.016
+      }
+    },
+    {
+      "district": "Berbera",
+      "reasoning": "General knowledge of the port economy, interpreted alongside older rural livelihood evidence, suggests lower district-average gamma and somewhat faster p than a remote pastoral setting. Trade may smooth food access, but rural rainfall and livestock exposure keep omega positive and uncertain. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 1.5 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Guban-Pastoral-Livelihood-Zone-Baseline-Report.pdf",
+        "https://fsnau.org/downloads/West-Golis-Pastoral-Livelihood-Zone-Baseline-Report.pdf"
+      ],
+      "sources_unavailable": [
+        "https://www.fsnau.org/downloads/West-Golis-Pastoral-Livelihood-Zone-Baseline-Report.pdf"
+      ],
+      "p": {
+        "median": 0.35,
+        "low_90": 0.1,
+        "high_90": 0.78
+      },
+      "gamma": {
+        "median": 0.004,
+        "low_90": 0.001,
+        "high_90": 0.01
+      },
+      "omega": {
+        "median": 0.002,
+        "low_90": 0.0002,
+        "high_90": 0.008
+      }
+    },
+    {
+      "district": "Borama",
+      "reasoning": "Agricultural and trading opportunities suggest relatively lower gamma, while better town access to care is a contextual inference supporting moderately higher p. Seasonal agricultural income and rural water constraints still motivate nonzero omega despite assumed urban smoothing. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 1.5 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Northwest-Agro-Pastoral-Livelihood-Zone-Baseline-Profile-September-2011.pdf",
+        "https://fsnau.org/downloads/West-Golis-Pastoral-Livelihood-Zone-Baseline-Report.pdf"
+      ],
+      "sources_unavailable": [
+        "https://www.fsnau.org/downloads/West-Golis-Pastoral-Livelihood-Zone-Baseline-Report.pdf"
+      ],
+      "p": {
+        "median": 0.35,
+        "low_90": 0.1,
+        "high_90": 0.78
+      },
+      "gamma": {
+        "median": 0.004,
+        "low_90": 0.001,
+        "high_90": 0.01
+      },
+      "omega": {
+        "median": 0.002,
+        "low_90": 0.0002,
+        "high_90": 0.008
+      }
+    },
+    {
+      "district": "Bossaso",
+      "reasoning": "General knowledge of the port, migrant livelihoods and service concentration suggests moderate gamma and somewhat higher p, with older East Golis evidence applying mainly to the rural hinterland. Labour and trade fluctuations plus seasonal rural production motivate moderate omega, with weak evidence on their district-wide weighting. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/East-Golis-Frankincens-Goat-and-Fishing-Livelihood-Zone-Baseline-Report_0.pdf"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.35,
+        "low_90": 0.1,
+        "high_90": 0.78
+      },
+      "gamma": {
+        "median": 0.005,
+        "low_90": 0.0008,
+        "high_90": 0.016
+      },
+      "omega": {
+        "median": 0.003,
+        "low_90": 0.0003,
+        "high_90": 0.012
+      }
+    },
+    {
+      "district": "Bu'aale",
+      "reasoning": "Riverine livelihoods suggest elevated gamma, while treatment barriers inferred from general regional knowledge keep p low to moderate and broadly uncertain. Repeated river flooding and associated changes in food production motivate substantial omega. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 1.5 for gamma and 1.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://faoswalim.org/resources/site_files/Somalia_Flood_Update-26052020.pdf"
+      ],
+      "sources_unavailable": [
+        "https://www.unocha.org/publications/report/somalia/somalia-humanitarian-access-overview-quarter-1-january-march-2021"
+      ],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.06,
+        "high_90": 0.7
+      },
+      "gamma": {
+        "median": 0.008,
+        "low_90": 0.002,
+        "high_90": 0.02
+      },
+      "omega": {
+        "median": 0.005,
+        "low_90": 0.001,
+        "high_90": 0.015
+      }
+    },
+    {
+      "district": "Bulo Burto",
+      "reasoning": "Pastoral and river-linked food access suggests elevated gamma, while treatment and supply constraints are general-knowledge assumptions behind broad p. Seasonal rainfall and documented changes in river conditions motivate substantial omega, without inferring malnutrition variation from surveys. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 1.5 for gamma and 1.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://faoswalim.org/resources/site_files/Flood_Update_11082020.pdf",
+        "https://fsnau.org/downloads/Southern-Inland-Pastoral-Profile.pdf"
+      ],
+      "sources_unavailable": [
+        "https://www.unocha.org/publications/report/somalia/somalia-humanitarian-access-overview-quarter-1-january-march-2021",
+        "https://www.fsnau.org/downloads/Southern-Inland-Pastoral-Profile.pdf"
+      ],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.06,
+        "high_90": 0.7
+      },
+      "gamma": {
+        "median": 0.008,
+        "low_90": 0.002,
+        "high_90": 0.02
+      },
+      "omega": {
+        "median": 0.005,
+        "low_90": 0.001,
+        "high_90": 0.015
+      }
+    },
+    {
+      "district": "Burco",
+      "reasoning": "Older livestock and agricultural context, together with general knowledge of the trading centre, suggests moderate gamma and some recovery advantage in p. Seasonal livestock sales, milk supply and crop income motivate omega despite possible smoothing from town markets. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 1.5 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Hawd-Pastoral-Livelihood-Zone-Baseline-Profile-August-2011.pdf",
+        "https://fsnau.org/downloads/Togdher-Agro-pastoral-Baseline-Profile-April-2011.pdf"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.35,
+        "low_90": 0.1,
+        "high_90": 0.78
+      },
+      "gamma": {
+        "median": 0.005,
+        "low_90": 0.0013,
+        "high_90": 0.0125
+      },
+      "omega": {
+        "median": 0.003,
+        "low_90": 0.0003,
+        "high_90": 0.012
+      }
+    },
+    {
+      "district": "Burtinle",
+      "reasoning": "The pastoral setting suggests moderate gamma, while assumed benefits of town access are modest and leave p weakly informed. Seasonal milk and livestock income motivate moderate omega, with limited evidence on how strongly local trade smooths food access. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Hawd-Pastoral-Livelihood-Zone-Baseline-Profile-August-2011.pdf",
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.3,
+        "low_90": 0.08,
+        "high_90": 0.74
+      },
+      "gamma": {
+        "median": 0.005,
+        "low_90": 0.0008,
+        "high_90": 0.016
+      },
+      "omega": {
+        "median": 0.003,
+        "low_90": 0.0003,
+        "high_90": 0.012
+      }
+    },
+    {
+      "district": "Buuhoodle",
+      "reasoning": "Older Hawd livelihood evidence suggests moderate gamma, while rural mobility and uncertain treatment reach leave p broadly uncertain. Seasonal livestock production and general-knowledge concerns about episodic access disruption motivate moderate omega. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Hawd-Pastoral-Livelihood-Zone-Baseline-Profile-August-2011.pdf"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.28,
+        "low_90": 0.07,
+        "high_90": 0.72
+      },
+      "gamma": {
+        "median": 0.006,
+        "low_90": 0.0009,
+        "high_90": 0.0192
+      },
+      "omega": {
+        "median": 0.004,
+        "low_90": 0.0004,
+        "high_90": 0.016
+      }
+    },
+    {
+      "district": "Buur Hakaba",
+      "reasoning": "Older evidence of crop and livestock dependence supports elevated gamma, while uncertain treatment access prevents a precise p judgment. Harvest and milk seasonality, with possible recurring transport disruption, motivate substantial omega. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 1.5 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Bay-Agro-pastoral-High-Potential-Profile.pdf",
+        "https://fsnau.org/downloads/Bay-Bakool-Agro-pastoral-Low-Potential-Profile.pdf"
+      ],
+      "sources_unavailable": [
+        "https://www.unocha.org/publications/report/somalia/somalia-humanitarian-access-overview-quarter-1-january-march-2021",
+        "https://www.fsnau.org/downloads/Bay-Agro-pastoral-High-Potential-Profile.pdf",
+        "https://www.fsnau.org/downloads/Bay-Bakool-Agro-pastoral-Low-Potential-Profile.pdf"
+      ],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.06,
+        "high_90": 0.7
+      },
+      "gamma": {
+        "median": 0.008,
+        "low_90": 0.002,
+        "high_90": 0.02
+      },
+      "omega": {
+        "median": 0.005,
+        "low_90": 0.0005,
+        "high_90": 0.02
+      }
+    },
+    {
+      "district": "Cabudwaaq",
+      "reasoning": "Older pastoral livelihood evidence suggests moderate gamma, while a mixture of town access and mobile rural households leaves p broadly uncertain. Seasonal milk availability, water costs and livestock income motivate moderate omega. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Hawd-Pastoral-Livelihood-Zone-Baseline-Profile-August-2011.pdf",
+        "https://fsnau.org/downloads/Addun-Pastoral-Livelihood-Zone-Baseline-Profile-June-2011.pdf"
+      ],
+      "sources_unavailable": [
+        "http://www.fsnau.org/downloads/Addun-Pastoral-Livelihood-Zone-Baseline-Profile-June-2011.pdf"
+      ],
+      "p": {
+        "median": 0.28,
+        "low_90": 0.07,
+        "high_90": 0.72
+      },
+      "gamma": {
+        "median": 0.006,
+        "low_90": 0.0009,
+        "high_90": 0.0192
+      },
+      "omega": {
+        "median": 0.004,
+        "low_90": 0.0004,
+        "high_90": 0.016
+      }
+    },
+    {
+      "district": "Cadaado",
+      "reasoning": "Pastoral livelihoods suggest moderate gamma, while possible town-based services modestly raise p without establishing district-wide treatment coverage. Seasonal livestock production and food purchasing power motivate moderate omega, with uncertainty about urban and rural population weights. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Hawd-Pastoral-Livelihood-Zone-Baseline-Profile-August-2011.pdf",
+        "https://fsnau.org/downloads/Addun-Pastoral-Livelihood-Zone-Baseline-Profile-June-2011.pdf"
+      ],
+      "sources_unavailable": [
+        "http://www.fsnau.org/downloads/Addun-Pastoral-Livelihood-Zone-Baseline-Profile-June-2011.pdf"
+      ],
+      "p": {
+        "median": 0.3,
+        "low_90": 0.08,
+        "high_90": 0.74
+      },
+      "gamma": {
+        "median": 0.006,
+        "low_90": 0.0009,
+        "high_90": 0.0192
+      },
+      "omega": {
+        "median": 0.004,
+        "low_90": 0.0004,
+        "high_90": 0.016
+      }
+    },
+    {
+      "district": "Cadale",
+      "reasoning": "Older cowpea and coastal livelihood context suggests moderate gamma, while p relies on general knowledge of uneven rural treatment access. Crop seasonality and variable food-market access motivate omega, with only limited support for distinguishing the district from nearby coastal areas. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/sites/default/files/Central-Agro-pastoral.pdf",
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf"
+      ],
+      "sources_unavailable": [
+        "https://www.unocha.org/publications/report/somalia/somalia-humanitarian-access-overview-quarter-1-january-march-2021"
+      ],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.06,
+        "high_90": 0.7
+      },
+      "gamma": {
+        "median": 0.006,
+        "low_90": 0.0009,
+        "high_90": 0.0192
+      },
+      "omega": {
+        "median": 0.004,
+        "low_90": 0.0004,
+        "high_90": 0.016
+      }
+    },
+    {
+      "district": "Caluula",
+      "reasoning": "Older East Golis evidence suggests diversified but fragile income sources, moderating gamma, while limited rural health access leaves p broad. Seasonal fishing, frankincense and livestock income motivate moderate omega despite diversification across activities. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/East-Golis-Frankincens-Goat-and-Fishing-Livelihood-Zone-Baseline-Report_0.pdf"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.06,
+        "high_90": 0.7
+      },
+      "gamma": {
+        "median": 0.005,
+        "low_90": 0.0008,
+        "high_90": 0.016
+      },
+      "omega": {
+        "median": 0.003,
+        "low_90": 0.0003,
+        "high_90": 0.012
+      }
+    },
+    {
+      "district": "Caynabo",
+      "reasoning": "Older northern pastoral evidence suggests moderate gamma, with uncertain treatment reach keeping p broadly distributed. Seasonal water and pasture shortages and livestock purchasing-power changes motivate moderate omega. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Sool-Plateu-Pastoral-Livelihood-Zone-Baseline-Profile-August-2011.pdf",
+        "https://fsnau.org/downloads/Nugal-Pastral-Baseline-Profile-September-2011.pdf"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.28,
+        "low_90": 0.07,
+        "high_90": 0.72
+      },
+      "gamma": {
+        "median": 0.006,
+        "low_90": 0.0009,
+        "high_90": 0.0192
+      },
+      "omega": {
+        "median": 0.004,
+        "low_90": 0.0004,
+        "high_90": 0.016
+      }
+    },
+    {
+      "district": "Ceel Afweyn",
+      "reasoning": "Older pastoral evidence and general knowledge of intermittent insecurity suggest moderately elevated gamma and uncertain p. Seasonal livestock production and possible recurring movement and market disruption motivate omega, with a wide interval for the district mix. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/East-Golis-Frankincens-Goat-and-Fishing-Livelihood-Zone-Baseline-Report_0.pdf",
+        "https://fsnau.org/downloads/West-Golis-Pastoral-Livelihood-Zone-Baseline-Report.pdf",
+        "https://fsnau.org/downloads/Sool-Plateu-Pastoral-Livelihood-Zone-Baseline-Profile-August-2011.pdf"
+      ],
+      "sources_unavailable": [
+        "https://www.fsnau.org/downloads/West-Golis-Pastoral-Livelihood-Zone-Baseline-Report.pdf"
+      ],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.06,
+        "high_90": 0.7
+      },
+      "gamma": {
+        "median": 0.007,
+        "low_90": 0.001,
+        "high_90": 0.0224
+      },
+      "omega": {
+        "median": 0.004,
+        "low_90": 0.0004,
+        "high_90": 0.016
+      }
+    },
+    {
+      "district": "Ceel Barde",
+      "reasoning": "Older Southern Inland Pastoral evidence suggests moderate gamma, while dispersed households and uncertain care access support a broad p interval. Seasonal water and milk availability, combined with possible disruptions to trade, motivate moderate omega. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Southern-Inland-Pastoral-Profile.pdf"
+      ],
+      "sources_unavailable": [
+        "https://www.unocha.org/publications/report/somalia/somalia-humanitarian-access-overview-quarter-1-january-march-2021",
+        "https://www.fsnau.org/downloads/Southern-Inland-Pastoral-Profile.pdf"
+      ],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.06,
+        "high_90": 0.7
+      },
+      "gamma": {
+        "median": 0.007,
+        "low_90": 0.001,
+        "high_90": 0.0224
+      },
+      "omega": {
+        "median": 0.004,
+        "low_90": 0.0004,
+        "high_90": 0.016
+      }
+    },
+    {
+      "district": "Ceel Buur",
+      "reasoning": "Older pastoral and cowpea livelihood evidence suggests moderately elevated gamma, while treatment access inferred from general regional knowledge leaves p uncertain. Seasonal milk and crop output, alongside possible recurring insecurity, motivate moderate omega. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Addun-Pastoral-Livelihood-Zone-Baseline-Profile-June-2011.pdf",
+        "https://fsnau.org/sites/default/files/Central-Agro-pastoral.pdf"
+      ],
+      "sources_unavailable": [
+        "https://www.unocha.org/publications/report/somalia/somalia-humanitarian-access-overview-quarter-1-january-march-2021",
+        "http://www.fsnau.org/downloads/Addun-Pastoral-Livelihood-Zone-Baseline-Profile-June-2011.pdf"
+      ],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.06,
+        "high_90": 0.7
+      },
+      "gamma": {
+        "median": 0.007,
+        "low_90": 0.001,
+        "high_90": 0.0224
+      },
+      "omega": {
+        "median": 0.004,
+        "low_90": 0.0004,
+        "high_90": 0.016
+      }
+    },
+    {
+      "district": "Ceel Dheere",
+      "reasoning": "Older cowpea and coastal livelihood context suggests moderately elevated gamma, while general-knowledge concerns about treatment continuity leave p broad. Seasonal crops, livestock production and food access disruption motivate omega, with limited district-specific evidence reflected in its interval. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/sites/default/files/Central-Agro-pastoral.pdf",
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf"
+      ],
+      "sources_unavailable": [
+        "https://www.unocha.org/publications/report/somalia/somalia-humanitarian-access-overview-quarter-1-january-march-2021"
+      ],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.06,
+        "high_90": 0.7
+      },
+      "gamma": {
+        "median": 0.007,
+        "low_90": 0.001,
+        "high_90": 0.0224
+      },
+      "omega": {
+        "median": 0.004,
+        "low_90": 0.0004,
+        "high_90": 0.016
+      }
+    },
+    {
+      "district": "Ceel Waaq",
+      "reasoning": "Predominantly pastoral livelihoods suggest moderate gamma, while the treatment-access judgment in p rests mainly on general regional knowledge. Seasonal milk supply and possible cross-border market interruptions motivate moderate omega, with broad uncertainty about their recurrence. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf"
+      ],
+      "sources_unavailable": [
+        "https://www.unocha.org/publications/report/somalia/somalia-humanitarian-access-overview-quarter-1-january-march-2021"
+      ],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.06,
+        "high_90": 0.7
+      },
+      "gamma": {
+        "median": 0.007,
+        "low_90": 0.001,
+        "high_90": 0.0224
+      },
+      "omega": {
+        "median": 0.004,
+        "low_90": 0.0004,
+        "high_90": 0.016
+      }
+    },
+    {
+      "district": "Ceerigaabo",
+      "reasoning": "Older pastoral evidence and general knowledge of the service town suggest moderate gamma and p, allowing substantial rural access barriers. Seasonal livestock and other rural income changes motivate moderate omega, with uncertainty about how much town livelihoods smooth exposure. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/East-Golis-Frankincens-Goat-and-Fishing-Livelihood-Zone-Baseline-Report_0.pdf",
+        "https://fsnau.org/downloads/Sool-Plateu-Pastoral-Livelihood-Zone-Baseline-Profile-August-2011.pdf"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.3,
+        "low_90": 0.08,
+        "high_90": 0.74
+      },
+      "gamma": {
+        "median": 0.005,
+        "low_90": 0.0008,
+        "high_90": 0.016
+      },
+      "omega": {
+        "median": 0.003,
+        "low_90": 0.0003,
+        "high_90": 0.012
+      }
+    },
+    {
+      "district": "Dhuusamarreeb",
+      "reasoning": "Older pastoral context suggests moderate gamma, while possible town-based care is an inference supporting moderate p within a broad interval. Seasonal milk production, water costs and rural purchasing power motivate moderate omega. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Addun-Pastoral-Livelihood-Zone-Baseline-Profile-June-2011.pdf",
+        "https://fsnau.org/downloads/Hawd-Pastoral-Livelihood-Zone-Baseline-Profile-August-2011.pdf"
+      ],
+      "sources_unavailable": [
+        "http://www.fsnau.org/downloads/Addun-Pastoral-Livelihood-Zone-Baseline-Profile-June-2011.pdf"
+      ],
+      "p": {
+        "median": 0.3,
+        "low_90": 0.08,
+        "high_90": 0.74
+      },
+      "gamma": {
+        "median": 0.006,
+        "low_90": 0.0009,
+        "high_90": 0.0192
+      },
+      "omega": {
+        "median": 0.004,
+        "low_90": 0.0004,
+        "high_90": 0.016
+      }
+    },
+    {
+      "district": "Diinsoor",
+      "reasoning": "Older agricultural and livestock evidence supports elevated gamma, while general-knowledge concerns about treatment access leave p broadly uncertain. Seasonal harvest and labour income, compounded by possible access disruption, motivate substantial omega. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 1.5 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Bay-Agro-pastoral-High-Potential-Profile.pdf",
+        "https://fsnau.org/downloads/Bay-Bakool-Agro-pastoral-Low-Potential-Profile.pdf"
+      ],
+      "sources_unavailable": [
+        "https://www.unocha.org/publications/report/somalia/somalia-humanitarian-access-overview-quarter-1-january-march-2021",
+        "https://www.fsnau.org/downloads/Bay-Agro-pastoral-High-Potential-Profile.pdf",
+        "https://www.fsnau.org/downloads/Bay-Bakool-Agro-pastoral-Low-Potential-Profile.pdf"
+      ],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.06,
+        "high_90": 0.7
+      },
+      "gamma": {
+        "median": 0.008,
+        "low_90": 0.002,
+        "high_90": 0.02
+      },
+      "omega": {
+        "median": 0.005,
+        "low_90": 0.0005,
+        "high_90": 0.02
+      }
+    },
+    {
+      "district": "Doolow",
+      "reasoning": "Pastoral and border-market dependence suggests moderate gamma, while a possible service-hub advantage in p remains a weak contextual inference. Documented river fluctuations and flooding, combined with seasonal livestock returns, motivate substantial omega. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 1.5 for gamma and 1.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Dawa-Pastoral-Livelihood-Zone-Baseline-Report.pdf",
+        "https://faoswalim.org/resources/site_files/Flood_Advisory_Juba_and_Shabelle_07102019.pdf",
+        "https://faoswalim.org/resources/site_files/Somalia_Flood_Update-26052020.pdf"
+      ],
+      "sources_unavailable": [
+        "https://www.unocha.org/publications/report/somalia/somalia-humanitarian-access-overview-quarter-1-january-march-2021"
+      ],
+      "p": {
+        "median": 0.3,
+        "low_90": 0.08,
+        "high_90": 0.74
+      },
+      "gamma": {
+        "median": 0.007,
+        "low_90": 0.0018,
+        "high_90": 0.0175
+      },
+      "omega": {
+        "median": 0.005,
+        "low_90": 0.001,
+        "high_90": 0.015
+      }
+    },
+    {
+      "district": "Eyl",
+      "reasoning": "Older pastoral and coastal context suggests moderate gamma, while dispersed settlement and uncertain care access keep p broad. Seasonal livestock and fishing conditions motivate omega, with uncertainty about which livelihood component dominates the district. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Addun-Pastoral-Livelihood-Zone-Baseline-Profile-June-2011.pdf",
+        "https://fsnau.org/downloads/Nugal-Pastral-Baseline-Profile-September-2011.pdf",
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf"
+      ],
+      "sources_unavailable": [
+        "http://www.fsnau.org/downloads/Addun-Pastoral-Livelihood-Zone-Baseline-Profile-June-2011.pdf"
+      ],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.06,
+        "high_90": 0.7
+      },
+      "gamma": {
+        "median": 0.006,
+        "low_90": 0.0009,
+        "high_90": 0.0192
+      },
+      "omega": {
+        "median": 0.004,
+        "low_90": 0.0004,
+        "high_90": 0.016
+      }
+    },
+    {
+      "district": "Gaalkacyo",
+      "reasoning": "Older urban service evidence and retrieved displacement context suggest moderate gamma and p, while affordability limits any assumed care advantage. Pastoral seasonality, displacement and unstable household incomes motivate moderate omega despite the commercial centre. These subjective 90% intervals represent confidence roughly equivalent to 1 months of direct district observation for p, 1.5 for gamma and 1.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Galkayo-Urban-Baseline-Profile.pdf",
+        "https://fsnau.org/downloads/Addun-Pastoral-Livelihood-Zone-Baseline-Profile-June-2011.pdf",
+        "https://data.unhcr.org/es/documents/download/68142"
+      ],
+      "sources_unavailable": [
+        "http://www.fsnau.org/downloads/Addun-Pastoral-Livelihood-Zone-Baseline-Profile-June-2011.pdf"
+      ],
+      "p": {
+        "median": 0.3,
+        "low_90": 0.11,
+        "high_90": 0.67
+      },
+      "gamma": {
+        "median": 0.006,
+        "low_90": 0.0015,
+        "high_90": 0.015
+      },
+      "omega": {
+        "median": 0.004,
+        "low_90": 0.0008,
+        "high_90": 0.012
+      }
+    },
+    {
+      "district": "Galdogob",
+      "reasoning": "Older pastoral context and general knowledge of cross-border trading suggest moderate gamma, while p has little district-specific support. Seasonal livestock income and uncertain trade smoothing motivate moderate omega and a wide interval. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Hawd-Pastoral-Livelihood-Zone-Baseline-Profile-August-2011.pdf"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.3,
+        "low_90": 0.08,
+        "high_90": 0.74
+      },
+      "gamma": {
+        "median": 0.005,
+        "low_90": 0.0008,
+        "high_90": 0.016
+      },
+      "omega": {
+        "median": 0.003,
+        "low_90": 0.0003,
+        "high_90": 0.012
+      }
+    },
+    {
+      "district": "Garbahaarey",
+      "reasoning": "Older evidence of pastoral income and food purchases supports moderate gamma, while uncertain recovery access leaves p broadly distributed. Seasonal livestock production, prices and water availability motivate moderate omega. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 1.5 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Dawa-Pastoral-Livelihood-Zone-Baseline-Report.pdf"
+      ],
+      "sources_unavailable": [
+        "https://www.unocha.org/publications/report/somalia/somalia-humanitarian-access-overview-quarter-1-january-march-2021"
+      ],
+      "p": {
+        "median": 0.28,
+        "low_90": 0.07,
+        "high_90": 0.72
+      },
+      "gamma": {
+        "median": 0.007,
+        "low_90": 0.0018,
+        "high_90": 0.0175
+      },
+      "omega": {
+        "median": 0.004,
+        "low_90": 0.0004,
+        "high_90": 0.016
+      }
+    },
+    {
+      "district": "Garoowe",
+      "reasoning": "General knowledge of administrative and commercial livelihoods suggests lower gamma and somewhat higher p, while older pastoral evidence cautions against treating the whole district as urban. Seasonal rural purchasing power and urban income exposure motivate moderate omega, with limited district-wide evidence. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Nugal-Pastral-Baseline-Profile-September-2011.pdf",
+        "https://fsnau.org/downloads/Hawd-Pastoral-Livelihood-Zone-Baseline-Profile-August-2011.pdf"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.35,
+        "low_90": 0.1,
+        "high_90": 0.78
+      },
+      "gamma": {
+        "median": 0.004,
+        "low_90": 0.0006,
+        "high_90": 0.0128
+      },
+      "omega": {
+        "median": 0.003,
+        "low_90": 0.0003,
+        "high_90": 0.012
+      }
+    },
+    {
+      "district": "Gebiley",
+      "reasoning": "Older agricultural and market evidence suggests relatively lower gamma, while the assumed recovery advantage from town access is modest and uncertain in p. Rainfed harvest variation and seasonal water costs motivate moderate omega even with more diversified livelihoods. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 1.5 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Northwest-Agro-Pastoral-Livelihood-Zone-Baseline-Profile-September-2011.pdf"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.35,
+        "low_90": 0.1,
+        "high_90": 0.78
+      },
+      "gamma": {
+        "median": 0.004,
+        "low_90": 0.001,
+        "high_90": 0.01
+      },
+      "omega": {
+        "median": 0.003,
+        "low_90": 0.0003,
+        "high_90": 0.012
+      }
+    },
+    {
+      "district": "Hargeysa",
+      "reasoning": "General knowledge of diversified urban livelihoods and concentrated health services suggests relatively low gamma and higher p, while older rural evidence prevents assuming uniform advantage. Market diversification may smooth arrivals, but seasonal rural hardship and insecure incomes keep omega positive. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 1.5 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Northwest-Agro-Pastoral-Livelihood-Zone-Baseline-Profile-September-2011.pdf",
+        "https://fsnau.org/downloads/Hawd-Pastoral-Livelihood-Zone-Baseline-Profile-August-2011.pdf"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.4,
+        "low_90": 0.13,
+        "high_90": 0.8
+      },
+      "gamma": {
+        "median": 0.003,
+        "low_90": 0.0008,
+        "high_90": 0.0075
+      },
+      "omega": {
+        "median": 0.002,
+        "low_90": 0.0002,
+        "high_90": 0.008
+      }
+    },
+    {
+      "district": "Hobyo",
+      "reasoning": "Older pastoral, crop and coastal context suggests moderate gamma, while limited evidence on accessible treatment leaves p broad. Seasonal milk and crop production and coastal income variability motivate moderate omega. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Addun-Pastoral-Livelihood-Zone-Baseline-Profile-June-2011.pdf",
+        "https://fsnau.org/sites/default/files/Central-Agro-pastoral.pdf"
+      ],
+      "sources_unavailable": [
+        "http://www.fsnau.org/downloads/Addun-Pastoral-Livelihood-Zone-Baseline-Profile-June-2011.pdf"
+      ],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.06,
+        "high_90": 0.7
+      },
+      "gamma": {
+        "median": 0.006,
+        "low_90": 0.0009,
+        "high_90": 0.0192
+      },
+      "omega": {
+        "median": 0.004,
+        "low_90": 0.0004,
+        "high_90": 0.016
+      }
+    },
+    {
+      "district": "Iskushuban",
+      "reasoning": "Older livelihood evidence suggests moderate gamma and sparse rural health access, supporting a low-to-moderate but uncertain p. Seasonal livestock and frankincense income and water stress motivate moderate omega. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 1.5 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/East-Golis-Frankincens-Goat-and-Fishing-Livelihood-Zone-Baseline-Report_0.pdf",
+        "https://fsnau.org/downloads/Dharor-Baseline-Profile-June-2015.pdf"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.06,
+        "high_90": 0.7
+      },
+      "gamma": {
+        "median": 0.006,
+        "low_90": 0.0015,
+        "high_90": 0.015
+      },
+      "omega": {
+        "median": 0.004,
+        "low_90": 0.0004,
+        "high_90": 0.016
+      }
+    },
+    {
+      "district": "Jalalaqsi",
+      "reasoning": "Pastoral and river-linked vulnerability suggests elevated gamma, while recovery access remains a general-knowledge assumption behind broad p. Seasonal production and recurrent upper-Shabelle flood exposure motivate substantial omega, with uncertainty about the district-wide effect. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 1.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Southern-Inland-Pastoral-Profile.pdf",
+        "https://faoswalim.org/resources/site_files/Somalia_Flood_Update-26052020.pdf"
+      ],
+      "sources_unavailable": [
+        "https://www.unocha.org/publications/report/somalia/somalia-humanitarian-access-overview-quarter-1-january-march-2021",
+        "https://www.fsnau.org/downloads/Southern-Inland-Pastoral-Profile.pdf"
+      ],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.06,
+        "high_90": 0.7
+      },
+      "gamma": {
+        "median": 0.008,
+        "low_90": 0.0012,
+        "high_90": 0.0256
+      },
+      "omega": {
+        "median": 0.005,
+        "low_90": 0.001,
+        "high_90": 0.015
+      }
+    },
+    {
+      "district": "Jamaame",
+      "reasoning": "Riverine livelihoods suggest elevated gamma, while uncertain treatment access from general regional knowledge leaves p broadly distributed. Repeated lower-Juba flooding and inferred seasonal food-production changes motivate substantial omega. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 1.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://faoswalim.org/resources/site_files/Somalia_Flood_Update-26052020.pdf"
+      ],
+      "sources_unavailable": [
+        "https://www.unocha.org/publications/report/somalia/somalia-humanitarian-access-overview-quarter-1-january-march-2021"
+      ],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.06,
+        "high_90": 0.7
+      },
+      "gamma": {
+        "median": 0.008,
+        "low_90": 0.0012,
+        "high_90": 0.0256
+      },
+      "omega": {
+        "median": 0.005,
+        "low_90": 0.001,
+        "high_90": 0.015
+      }
+    },
+    {
+      "district": "Jariiban",
+      "reasoning": "Older pastoral evidence suggests moderate gamma and substantial rural care barriers, supporting a low-to-moderate but uncertain p. Seasonal milk supply, livestock returns and water costs motivate moderate omega. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 1.5 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Addun-Pastoral-Livelihood-Zone-Baseline-Profile-June-2011.pdf"
+      ],
+      "sources_unavailable": [
+        "http://www.fsnau.org/downloads/Addun-Pastoral-Livelihood-Zone-Baseline-Profile-June-2011.pdf"
+      ],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.06,
+        "high_90": 0.7
+      },
+      "gamma": {
+        "median": 0.006,
+        "low_90": 0.0015,
+        "high_90": 0.015
+      },
+      "omega": {
+        "median": 0.004,
+        "low_90": 0.0004,
+        "high_90": 0.016
+      }
+    },
+    {
+      "district": "Jilib",
+      "reasoning": "Riverine and livestock livelihoods suggest elevated gamma, while general knowledge of treatment constraints leaves p broadly uncertain. Repeated Juba flooding and seasonal food-production changes motivate substantial omega without assuming permanently extreme arrivals. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 1.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://faoswalim.org/resources/site_files/Somalia_Flood_Update-26052020.pdf"
+      ],
+      "sources_unavailable": [
+        "https://www.unocha.org/publications/report/somalia/somalia-humanitarian-access-overview-quarter-1-january-march-2021"
+      ],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.06,
+        "high_90": 0.7
+      },
+      "gamma": {
+        "median": 0.008,
+        "low_90": 0.0012,
+        "high_90": 0.0256
+      },
+      "omega": {
+        "median": 0.005,
+        "low_90": 0.001,
+        "high_90": 0.015
+      }
+    },
+    {
+      "district": "Jowhar",
+      "reasoning": "Agricultural exposure supports moderately elevated gamma, while possible town services justify a moderate p with substantial uncertainty. Documented recurrent river problems and seasonal crop income motivate substantial omega. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 1.5 for gamma and 1.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://faoswalim.org/resources/site_files/Flood_Advisory-Lower%20Shabelle_24072020.pdf",
+        "https://faoswalim.org/resources/site_files/Flood_Advisory_Juba_and_Shabelle_07102019.pdf",
+        "https://fsnau.org/sites/default/files/Central-Agro-pastoral.pdf"
+      ],
+      "sources_unavailable": [
+        "https://www.unocha.org/publications/report/somalia/somalia-humanitarian-access-overview-quarter-1-january-march-2021"
+      ],
+      "p": {
+        "median": 0.3,
+        "low_90": 0.08,
+        "high_90": 0.74
+      },
+      "gamma": {
+        "median": 0.007,
+        "low_90": 0.0018,
+        "high_90": 0.0175
+      },
+      "omega": {
+        "median": 0.005,
+        "low_90": 0.001,
+        "high_90": 0.015
+      }
+    },
+    {
+      "district": "Kismaayo",
+      "reasoning": "Retrieved persistent displacement hosting offsets an inferred urban-market advantage in gamma, while service concentration is a tentative reason for somewhat higher p. Changing displaced populations and insecure incomes motivate moderate omega, with no assumption that all rural households share urban access. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 1.5 for gamma and 1.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://data.unhcr.org/en/documents/details/71270",
+        "https://data.unhcr.org/es/documents/download/68142"
+      ],
+      "sources_unavailable": [
+        "https://www.unocha.org/publications/report/somalia/somalia-humanitarian-access-overview-quarter-1-january-march-2021"
+      ],
+      "p": {
+        "median": 0.35,
+        "low_90": 0.1,
+        "high_90": 0.78
+      },
+      "gamma": {
+        "median": 0.006,
+        "low_90": 0.0015,
+        "high_90": 0.015
+      },
+      "omega": {
+        "median": 0.004,
+        "low_90": 0.0008,
+        "high_90": 0.012
+      }
+    },
+    {
+      "district": "Kurtunwaarey",
+      "reasoning": "Riverine farming suggests elevated gamma, while treatment barriers inferred from general regional knowledge leave p broad. Recurring lower-Shabelle flooding and seasonal food-production changes motivate substantial omega. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 1.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://faoswalim.org/resources/site_files/Somalia_Flood_Update-26052020.pdf"
+      ],
+      "sources_unavailable": [
+        "https://www.unocha.org/publications/report/somalia/somalia-humanitarian-access-overview-quarter-1-january-march-2021"
+      ],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.06,
+        "high_90": 0.7
+      },
+      "gamma": {
+        "median": 0.008,
+        "low_90": 0.0012,
+        "high_90": 0.0256
+      },
+      "omega": {
+        "median": 0.005,
+        "low_90": 0.001,
+        "high_90": 0.015
+      }
+    },
+    {
+      "district": "Laas Caanood",
+      "reasoning": "Older pastoral evidence and general knowledge of town livelihoods suggest moderate gamma and p, with no use of conflict developments after 2021. Seasonal livestock returns and uncertain food-market stability during the target period motivate moderate omega. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Nugal-Pastral-Baseline-Profile-September-2011.pdf",
+        "https://fsnau.org/downloads/Hawd-Pastoral-Livelihood-Zone-Baseline-Profile-August-2011.pdf"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.3,
+        "low_90": 0.08,
+        "high_90": 0.74
+      },
+      "gamma": {
+        "median": 0.006,
+        "low_90": 0.0009,
+        "high_90": 0.0192
+      },
+      "omega": {
+        "median": 0.004,
+        "low_90": 0.0004,
+        "high_90": 0.016
+      }
+    },
+    {
+      "district": "Laasqoray",
+      "reasoning": "Older coastal and pastoral evidence suggests moderate gamma, while sparse rural care access leaves p broadly uncertain. Seasonal fishing, frankincense and livestock income motivate moderate omega, with uncertainty across the district hinterland. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/East-Golis-Frankincens-Goat-and-Fishing-Livelihood-Zone-Baseline-Report_0.pdf",
+        "https://fsnau.org/downloads/Sool-Plateu-Pastoral-Livelihood-Zone-Baseline-Profile-August-2011.pdf"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.06,
+        "high_90": 0.7
+      },
+      "gamma": {
+        "median": 0.006,
+        "low_90": 0.0009,
+        "high_90": 0.0192
+      },
+      "omega": {
+        "median": 0.004,
+        "low_90": 0.0004,
+        "high_90": 0.016
+      }
+    },
+    {
+      "district": "Lughaye",
+      "reasoning": "Older Guban evidence suggests livelihood vulnerability in gamma, while reported basic health facilities temper an otherwise weak p judgment. Seasonal pasture, milk and purchased-food access motivate moderate omega despite some coastal livelihood options. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 1.5 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Guban-Pastoral-Livelihood-Zone-Baseline-Report.pdf"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.28,
+        "low_90": 0.07,
+        "high_90": 0.72
+      },
+      "gamma": {
+        "median": 0.006,
+        "low_90": 0.0015,
+        "high_90": 0.015
+      },
+      "omega": {
+        "median": 0.004,
+        "low_90": 0.0004,
+        "high_90": 0.016
+      }
+    },
+    {
+      "district": "Luuq",
+      "reasoning": "Pastoral and border-linked food access suggests moderate gamma, while uncertain coverage of treatment leaves p broad. Documented sharp river changes and recurrent flooding add to livestock seasonality in motivating substantial omega. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 1.5 for gamma and 1.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Dawa-Pastoral-Livelihood-Zone-Baseline-Report.pdf",
+        "https://faoswalim.org/resources/site_files/Flood_Advisory_Juba_and_Shabelle_07102019.pdf",
+        "https://faoswalim.org/resources/site_files/Somalia_Flood_Update-26052020.pdf"
+      ],
+      "sources_unavailable": [
+        "https://www.unocha.org/publications/report/somalia/somalia-humanitarian-access-overview-quarter-1-january-march-2021"
+      ],
+      "p": {
+        "median": 0.28,
+        "low_90": 0.07,
+        "high_90": 0.72
+      },
+      "gamma": {
+        "median": 0.007,
+        "low_90": 0.0018,
+        "high_90": 0.0175
+      },
+      "omega": {
+        "median": 0.005,
+        "low_90": 0.001,
+        "high_90": 0.015
+      }
+    },
+    {
+      "district": "Marka",
+      "reasoning": "Agricultural livelihoods and regional displacement evidence suggest moderately elevated gamma, while recovery access remains an uncertain contextual inference in p. Seasonal food production, lower-Shabelle flooding and recurrent regional movement motivate substantial omega. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 1.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://faoswalim.org/resources/site_files/Flood_Advisory-Lower%20Shabelle_24072020.pdf",
+        "https://data.unhcr.org/fr/documents/download/71138"
+      ],
+      "sources_unavailable": [
+        "https://www.unocha.org/publications/report/somalia/somalia-humanitarian-access-overview-quarter-1-january-march-2021"
+      ],
+      "p": {
+        "median": 0.28,
+        "low_90": 0.07,
+        "high_90": 0.72
+      },
+      "gamma": {
+        "median": 0.007,
+        "low_90": 0.001,
+        "high_90": 0.0224
+      },
+      "omega": {
+        "median": 0.005,
+        "low_90": 0.001,
+        "high_90": 0.015
+      }
+    },
+    {
+      "district": "Owdweyne",
+      "reasoning": "Older pastoral and agricultural evidence suggests moderate gamma, while uncertain rural service reach leaves p broadly distributed. Seasonal milk, crop and fodder income motivate moderate omega, with little support for finer numerical precision. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 1.5 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Hawd-Pastoral-Livelihood-Zone-Baseline-Profile-August-2011.pdf",
+        "https://fsnau.org/downloads/Togdher-Agro-pastoral-Baseline-Profile-April-2011.pdf"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.28,
+        "low_90": 0.07,
+        "high_90": 0.72
+      },
+      "gamma": {
+        "median": 0.006,
+        "low_90": 0.0015,
+        "high_90": 0.015
+      },
+      "omega": {
+        "median": 0.004,
+        "low_90": 0.0004,
+        "high_90": 0.016
+      }
+    },
+    {
+      "district": "Qandala",
+      "reasoning": "Older East Golis and pastoral evidence suggests moderate gamma and limited rural care, supporting a low-to-moderate but uncertain p. Seasonal fishing, frankincense and livestock returns motivate moderate omega, while possible insecurity is only a general-knowledge consideration. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/East-Golis-Frankincens-Goat-and-Fishing-Livelihood-Zone-Baseline-Report_0.pdf",
+        "https://fsnau.org/downloads/Dharor-Baseline-Profile-June-2015.pdf"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.06,
+        "high_90": 0.7
+      },
+      "gamma": {
+        "median": 0.006,
+        "low_90": 0.0009,
+        "high_90": 0.0192
+      },
+      "omega": {
+        "median": 0.004,
+        "low_90": 0.0004,
+        "high_90": 0.016
+      }
+    },
+    {
+      "district": "Qansax Dheere",
+      "reasoning": "Older evidence of crop, labour and livestock dependence supports elevated gamma, while uncertain treatment access leaves p broad. Harvest and livestock seasonality, plus possible recurring market interruption, motivate substantial omega. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 1.5 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Bay-Agro-pastoral-High-Potential-Profile.pdf",
+        "https://fsnau.org/downloads/Bay-Bakool-Agro-pastoral-Low-Potential-Profile.pdf"
+      ],
+      "sources_unavailable": [
+        "https://www.unocha.org/publications/report/somalia/somalia-humanitarian-access-overview-quarter-1-january-march-2021",
+        "https://www.fsnau.org/downloads/Bay-Agro-pastoral-High-Potential-Profile.pdf",
+        "https://www.fsnau.org/downloads/Bay-Bakool-Agro-pastoral-Low-Potential-Profile.pdf"
+      ],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.06,
+        "high_90": 0.7
+      },
+      "gamma": {
+        "median": 0.008,
+        "low_90": 0.002,
+        "high_90": 0.02
+      },
+      "omega": {
+        "median": 0.005,
+        "low_90": 0.0005,
+        "high_90": 0.02
+      }
+    },
+    {
+      "district": "Qardho",
+      "reasoning": "Older pastoral evidence and general knowledge of the trading town suggest moderate gamma and p, allowing poorer access in surrounding rural areas. Seasonal livestock income and rainfall-driven purchasing power motivate moderate omega without letting one flood episode determine the median. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 1.5 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Dharor-Baseline-Profile-June-2015.pdf",
+        "https://fsnau.org/downloads/Sool-Plateu-Pastoral-Livelihood-Zone-Baseline-Profile-August-2011.pdf"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.3,
+        "low_90": 0.08,
+        "high_90": 0.74
+      },
+      "gamma": {
+        "median": 0.005,
+        "low_90": 0.0013,
+        "high_90": 0.0125
+      },
+      "omega": {
+        "median": 0.003,
+        "low_90": 0.0003,
+        "high_90": 0.012
+      }
+    },
+    {
+      "district": "Qoryooley",
+      "reasoning": "Riverine farming and regional displacement pressures suggest elevated gamma, while p rests on uncertain assumptions about treatment continuity. Seasonal production, flood exposure and regional food-access disruption motivate substantial omega. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 1.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://faoswalim.org/resources/site_files/Flood_Advisory-Lower%20Shabelle_24072020.pdf",
+        "https://data.unhcr.org/fr/documents/download/71138"
+      ],
+      "sources_unavailable": [
+        "https://www.unocha.org/publications/report/somalia/somalia-humanitarian-access-overview-quarter-1-january-march-2021"
+      ],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.06,
+        "high_90": 0.7
+      },
+      "gamma": {
+        "median": 0.008,
+        "low_90": 0.0012,
+        "high_90": 0.0256
+      },
+      "omega": {
+        "median": 0.005,
+        "low_90": 0.001,
+        "high_90": 0.015
+      }
+    },
+    {
+      "district": "Rab Dhuure",
+      "reasoning": "Older evidence of marginal farming and pastoral dependence suggests elevated gamma, while district treatment access remains weakly known in p. Seasonal livestock and crop production motivate substantial omega, with the wide interval reflecting limited evidence rather than a higher median. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Bakool-Agro-pastoral-Profile.pdf"
+      ],
+      "sources_unavailable": [
+        "https://www.unocha.org/publications/report/somalia/somalia-humanitarian-access-overview-quarter-1-january-march-2021",
+        "https://www.fsnau.org/downloads/Bakool-Agro-pastoral-Profile.pdf"
+      ],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.06,
+        "high_90": 0.7
+      },
+      "gamma": {
+        "median": 0.008,
+        "low_90": 0.0012,
+        "high_90": 0.0256
+      },
+      "omega": {
+        "median": 0.005,
+        "low_90": 0.0005,
+        "high_90": 0.02
+      }
+    },
+    {
+      "district": "Saakow",
+      "reasoning": "River-linked livelihoods suggest elevated gamma, while p remains weakly informed by general regional knowledge of treatment barriers. Recurrent Juba flooding and inferred seasonal food production motivate substantial omega. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 1.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://faoswalim.org/resources/site_files/Somalia_Flood_Update-26052020.pdf"
+      ],
+      "sources_unavailable": [
+        "https://www.unocha.org/publications/report/somalia/somalia-humanitarian-access-overview-quarter-1-january-march-2021"
+      ],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.06,
+        "high_90": 0.7
+      },
+      "gamma": {
+        "median": 0.008,
+        "low_90": 0.0012,
+        "high_90": 0.0256
+      },
+      "omega": {
+        "median": 0.005,
+        "low_90": 0.001,
+        "high_90": 0.015
+      }
+    },
+    {
+      "district": "Sablaale",
+      "reasoning": "Riverine food production suggests elevated gamma, while uncertain treatment reach leaves p broad. Recurring lower-Shabelle flood exposure and seasonal production motivate substantial omega, with limited evidence on the local magnitude. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 1.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Somalia-Livelihood-Profiles-30-June-2016.pdf",
+        "https://faoswalim.org/resources/site_files/Somalia_Flood_Update-26052020.pdf"
+      ],
+      "sources_unavailable": [
+        "https://www.unocha.org/publications/report/somalia/somalia-humanitarian-access-overview-quarter-1-january-march-2021"
+      ],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.06,
+        "high_90": 0.7
+      },
+      "gamma": {
+        "median": 0.008,
+        "low_90": 0.0012,
+        "high_90": 0.0256
+      },
+      "omega": {
+        "median": 0.005,
+        "low_90": 0.001,
+        "high_90": 0.015
+      }
+    },
+    {
+      "district": "Sheikh",
+      "reasoning": "Older West Golis evidence and general knowledge of town connections suggest relatively lower gamma and moderate p, with substantial rural access uncertainty. Seasonal livestock income and water availability motivate moderate omega despite potentially smoother market access. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/West-Golis-Pastoral-Livelihood-Zone-Baseline-Report.pdf"
+      ],
+      "sources_unavailable": [
+        "https://www.fsnau.org/downloads/West-Golis-Pastoral-Livelihood-Zone-Baseline-Report.pdf"
+      ],
+      "p": {
+        "median": 0.3,
+        "low_90": 0.08,
+        "high_90": 0.74
+      },
+      "gamma": {
+        "median": 0.004,
+        "low_90": 0.0006,
+        "high_90": 0.0128
+      },
+      "omega": {
+        "median": 0.003,
+        "low_90": 0.0003,
+        "high_90": 0.012
+      }
+    },
+    {
+      "district": "Taleex",
+      "reasoning": "Older northern pastoral evidence suggests moderate gamma, while dispersed households and weakly documented treatment reach keep p broad. Seasonal pasture, water and livestock purchasing power motivate moderate omega. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Sool-Plateu-Pastoral-Livelihood-Zone-Baseline-Profile-August-2011.pdf",
+        "https://fsnau.org/downloads/Nugal-Pastral-Baseline-Profile-September-2011.pdf"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.06,
+        "high_90": 0.7
+      },
+      "gamma": {
+        "median": 0.006,
+        "low_90": 0.0009,
+        "high_90": 0.0192
+      },
+      "omega": {
+        "median": 0.004,
+        "low_90": 0.0004,
+        "high_90": 0.016
+      }
+    },
+    {
+      "district": "Tayeeglow",
+      "reasoning": "Older marginal crop and livestock evidence suggests elevated gamma, while recovery access inferred from general regional knowledge leaves p uncertain. Seasonal harvests and milk supply, with possible recurring trade interruption, motivate substantial omega. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Bakool-Agro-pastoral-Profile.pdf",
+        "https://fsnau.org/downloads/Bay-Bakool-Agro-pastoral-Low-Potential-Profile.pdf"
+      ],
+      "sources_unavailable": [
+        "https://www.unocha.org/publications/report/somalia/somalia-humanitarian-access-overview-quarter-1-january-march-2021",
+        "https://www.fsnau.org/downloads/Bakool-Agro-pastoral-Profile.pdf",
+        "https://www.fsnau.org/downloads/Bay-Bakool-Agro-pastoral-Low-Potential-Profile.pdf"
+      ],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.06,
+        "high_90": 0.7
+      },
+      "gamma": {
+        "median": 0.008,
+        "low_90": 0.0012,
+        "high_90": 0.0256
+      },
+      "omega": {
+        "median": 0.005,
+        "low_90": 0.0005,
+        "high_90": 0.02
+      }
+    },
+    {
+      "district": "Waajid",
+      "reasoning": "Older agricultural and pastoral evidence suggests elevated gamma, while possible town services modestly raise p without establishing reliable district-wide coverage. Seasonal food production and general-knowledge concerns about supply interruption motivate substantial omega, with access-report gaps widening uncertainty. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Bakool-Agro-pastoral-Profile.pdf",
+        "https://fsnau.org/downloads/Bay-Bakool-Agro-pastoral-Low-Potential-Profile.pdf"
+      ],
+      "sources_unavailable": [
+        "https://www.unocha.org/publications/report/somalia/somalia-humanitarian-access-overview-quarter-1-january-march-2021",
+        "https://www.unocha.org/publications/report/somalia/somalia-humanitarian-access-overview-quarter-3-july-september-2021",
+        "https://www.fsnau.org/downloads/Bakool-Agro-pastoral-Profile.pdf",
+        "https://www.fsnau.org/downloads/Bay-Bakool-Agro-pastoral-Low-Potential-Profile.pdf"
+      ],
+      "p": {
+        "median": 0.28,
+        "low_90": 0.07,
+        "high_90": 0.72
+      },
+      "gamma": {
+        "median": 0.008,
+        "low_90": 0.0012,
+        "high_90": 0.0256
+      },
+      "omega": {
+        "median": 0.005,
+        "low_90": 0.0005,
+        "high_90": 0.02
+      }
+    },
+    {
+      "district": "Wanla Weyn",
+      "reasoning": "Pastoral and agricultural context plus regional displacement evidence suggests moderately elevated gamma, while treatment access remains uncertain in p. Seasonal crop and milk income and possible recurring movement and market disruption motivate moderate omega. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Southern-Inland-Pastoral-Profile.pdf",
+        "https://fsnau.org/downloads/Bay-Agro-pastoral-High-Potential-Profile.pdf",
+        "https://data.unhcr.org/fr/documents/download/71138"
+      ],
+      "sources_unavailable": [
+        "https://www.unocha.org/publications/report/somalia/somalia-humanitarian-access-overview-quarter-1-january-march-2021",
+        "https://www.fsnau.org/downloads/Southern-Inland-Pastoral-Profile.pdf",
+        "https://www.fsnau.org/downloads/Bay-Agro-pastoral-High-Potential-Profile.pdf"
+      ],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.06,
+        "high_90": 0.7
+      },
+      "gamma": {
+        "median": 0.007,
+        "low_90": 0.001,
+        "high_90": 0.0224
+      },
+      "omega": {
+        "median": 0.004,
+        "low_90": 0.0004,
+        "high_90": 0.016
+      }
+    },
+    {
+      "district": "Xarardheere",
+      "reasoning": "Older pastoral and cowpea evidence suggests moderately elevated gamma, while treatment continuity is a weak general-knowledge assumption behind p. Seasonal crops, livestock income and possible recurrent access disruption motivate moderate omega. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/sites/default/files/Central-Agro-pastoral.pdf",
+        "https://fsnau.org/downloads/Addun-Pastoral-Livelihood-Zone-Baseline-Profile-June-2011.pdf"
+      ],
+      "sources_unavailable": [
+        "https://www.unocha.org/publications/report/somalia/somalia-humanitarian-access-overview-quarter-1-january-march-2021",
+        "http://www.fsnau.org/downloads/Addun-Pastoral-Livelihood-Zone-Baseline-Profile-June-2011.pdf"
+      ],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.06,
+        "high_90": 0.7
+      },
+      "gamma": {
+        "median": 0.007,
+        "low_90": 0.001,
+        "high_90": 0.0224
+      },
+      "omega": {
+        "median": 0.004,
+        "low_90": 0.0004,
+        "high_90": 0.016
+      }
+    },
+    {
+      "district": "Xudun",
+      "reasoning": "Older northern pastoral evidence suggests moderate gamma, while dispersed settlements leave recovery access and p weakly informed. Seasonal water scarcity, pasture changes and livestock purchasing power motivate moderate omega. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Sool-Plateu-Pastoral-Livelihood-Zone-Baseline-Profile-August-2011.pdf",
+        "https://fsnau.org/downloads/Nugal-Pastral-Baseline-Profile-September-2011.pdf"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.06,
+        "high_90": 0.7
+      },
+      "gamma": {
+        "median": 0.006,
+        "low_90": 0.0009,
+        "high_90": 0.0192
+      },
+      "omega": {
+        "median": 0.004,
+        "low_90": 0.0004,
+        "high_90": 0.016
+      }
+    },
+    {
+      "district": "Xudur",
+      "reasoning": "Older agricultural and pastoral evidence suggests elevated gamma, while general knowledge of access constraints leaves p uncertain because the urban profile was unavailable. Seasonal food production and possible recurring supply interruptions motivate substantial omega, with evidence gaps reflected in a wide interval. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 0.75 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Bakool-Agro-pastoral-Profile.pdf",
+        "https://fsnau.org/downloads/Bay-Bakool-Agro-pastoral-Low-Potential-Profile.pdf"
+      ],
+      "sources_unavailable": [
+        "https://www.unocha.org/publications/report/somalia/somalia-humanitarian-access-overview-quarter-1-january-march-2021",
+        "https://reliefweb.int/report/somalia/somalia-humanitarian-access-overview-quarter-1-january-march-2021",
+        "https://unhabitat.org/sites/default/files/download-manager-files/Xudur%20City%20Profile.pdf",
+        "https://www.fsnau.org/downloads/Bakool-Agro-pastoral-Profile.pdf",
+        "https://www.fsnau.org/downloads/Bay-Bakool-Agro-pastoral-Low-Potential-Profile.pdf"
+      ],
+      "p": {
+        "median": 0.25,
+        "low_90": 0.06,
+        "high_90": 0.7
+      },
+      "gamma": {
+        "median": 0.008,
+        "low_90": 0.0012,
+        "high_90": 0.0256
+      },
+      "omega": {
+        "median": 0.005,
+        "low_90": 0.0005,
+        "high_90": 0.02
+      }
+    },
+    {
+      "district": "Zeylac",
+      "reasoning": "Older evidence of pastoral and cross-border livelihoods suggests moderate gamma, while reported basic health facilities provide only limited support for p. Seasonal milk supply and variable cross-border food access motivate moderate omega despite some income diversification. These subjective 90% intervals represent confidence roughly equivalent to 0.5 months of direct district observation for p, 1.5 for gamma and 0.5 for omega, as an elicitation analogy without empirical sample-size calibration.",
+      "sources_retrieved": [
+        "https://fsnau.org/downloads/Guban-Pastoral-Livelihood-Zone-Baseline-Report.pdf"
+      ],
+      "sources_unavailable": [],
+      "p": {
+        "median": 0.28,
+        "low_90": 0.07,
+        "high_90": 0.72
+      },
+      "gamma": {
+        "median": 0.005,
+        "low_90": 0.0013,
+        "high_90": 0.0125
+      },
+      "omega": {
+        "median": 0.003,
+        "low_90": 0.0003,
+        "high_90": 0.012
+      }
+    }
+  ]
+}
