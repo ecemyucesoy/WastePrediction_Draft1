@@ -70,6 +70,7 @@ library(loo)
 library(tidyr)
 library(readr)
 library(sf)
+sf::sf_use_s2(FALSE)   # planar GEOS instead of s2: Windows Application Control blocks s2.dll
 library(viridis)
 library(scales)
 library(stringr)
@@ -116,7 +117,7 @@ FORCE_REFIT <- FALSE
 
 # Prior-strength sensitivity: tempered copies of an LLM's pooled prior (see the header).
 # Set to list() to switch it off.
-TEMPER_FACTORS <- list(chatgpt = c(0.5, 0.25, 0.1))
+TEMPER_FACTORS <- list(chatgpt = c(0.5, 0.25, 0.1), gemini = c(0.5, 0.25, 0.1), claude = c(0.5, 0.25, 0.1))
 
 # Cached full-data draws for p, gamma, omega and the district-mean burden are
 # thinned (every THIN_EVERY-th draw) before saving: enough for density plots and
@@ -157,6 +158,17 @@ FALLBACK_PRIOR_BETA <- list(
 # (LLM_NAMES / file naming: priors_llm/priors_llm_<llm>_<run>.json)
 PRIOR_JSON_DIR <- file.path(getwd(), "priors_llm")
 LLM_NAMES      <- c("claude", "gemini", "chatgpt")
+
+# ---- In-sample (training-window) evaluation, for choosing between LLMs without the test points ----
+# Every CV fit (LLO-2: first 7 time points, LLO-3: first 6) already produces posterior predictive draws
+# `y_rep` for its own training points. For the models listed here the CV fit also scores those training
+# points (one step ahead from the observed previous value, time points 2..n_train; time point 1 is
+# excluded because it depends on the free latent P0). A CV fit that is already cached WITHOUT this
+# in-sample record is refitted once (same seed, so the CV scores do not change) and the record is added to
+# its cache file. Set TRAIN_EVAL <- FALSE to skip all of this; add model ids (e.g. "chatgpt_pooled_t025")
+# to TRAIN_EVAL_MODELS to include them (each model is one refit per scheme).
+TRAIN_EVAL        <- TRUE
+TRAIN_EVAL_MODELS <- paste0(LLM_NAMES, "_pooled")
 
 
 POSITIVITY_FLOOR <- 1e-6   # matches Stan's <lower=1e-6> bound on a_p/b_p/...
@@ -622,6 +634,12 @@ write_full_outputs <- function(model_id, full) {
 # ============================================================
 # Cross-validation (LLO-2 / LLO-3): fit on the training split, score held-out points
 # ============================================================
+# Districts left out of every CV / in-sample METRIC (the models are still fitted on them). Rab Dhuure has
+# imputed SAM (the same value at every missing time point), which makes the Naive benchmark look better
+# than it should. Set to character(0) to score all districts.
+EXCLUDE_DISTRICTS <- c("Rab Dhuure")
+.drop_excluded <- function(x) if (length(EXCLUDE_DISTRICTS) && !is.null(x)) x[!x$District %in% EXCLUDE_DISTRICTS, , drop = FALSE] else x
+
 .score_cv_preds <- function(model_label_, preds, df_test, points) {
   med <- apply(preds, 2, median)
   idx_map <- df_test %>%
@@ -648,11 +666,18 @@ write_full_outputs <- function(model_id, full) {
 # Fits (if allowed and not cached) and returns the cached CV result, else NULL.
 fit_cv_model <- function(scheme, model_id) {
   if (model_id == HIER_ID) return(cache_read(scheme, model_id))   # read-only: fitted in HIER_DIR
+  cached <- NULL
   if (!FORCE_REFIT) {
     cached <- cache_read(scheme, model_id)
-    if (!is.null(cached)) return(cached)
+    if (!is.null(cached)) {
+      need_train <- isTRUE(TRAIN_EVAL) && model_id %in% TRAIN_EVAL_MODELS && is.null(cached$train_scores) &&
+                    scheme %in% RUN_SCHEMES && model_id %in% models_to_fit()
+      if (!need_train) return(cached)
+      message("\n==== ", toupper(scheme), "-CV model ", model_label(model_id),
+              " is cached without its in-sample record: refitting once to add it (CV scores are kept) ====")
+    }
   }
-  if (!(scheme %in% RUN_SCHEMES) || !(model_id %in% models_to_fit())) return(NULL)
+  if (is.null(cached) && (!(scheme %in% RUN_SCHEMES) || !(model_id %in% models_to_fit()))) return(NULL)
   sp <- CV_SPECS[[scheme]]
   message("\n==== Fitting ", toupper(scheme), "-CV model: ", model_label(model_id), " ====")
   st <- .run_stan(model_id, .stan_data(model_id, sp$train, sp$starts), SEEDS[[scheme]],
@@ -661,10 +686,55 @@ fit_cv_model <- function(scheme, model_id) {
   set.seed(SEEDS[[scheme]] + sum(utf8ToInt(model_id)))
   preds  <- sp$preds_fn(st$post, sp$train, sp$test, df_model, pop_u5_ref)
   scores <- .score_cv_preds(model_label(model_id), preds, sp$test, sp$points)
-  out <- list(model_id = model_id, scheme = scheme, scores = scores, rhat_df = st$rhat_df,
-              hmc = st$hmc, fit_minutes = st$fit_minutes)
+  train_scores <- if (isTRUE(TRAIN_EVAL) && model_id %in% TRAIN_EVAL_MODELS)
+    .score_train_fit(model_label(model_id), st$post, sp$train) else NULL
+  if (!is.null(cached)) {
+    # refit only to record the in-sample fit: keep the published CV objects, report any difference
+    d <- max(abs(scores$Predicted - cached$scores$Predicted), na.rm = TRUE)
+    message("Refit check [", model_label(model_id), ", ", toupper(scheme), "]: max |new - cached| held-out prediction = ",
+            signif(d, 3), " SAM counts")
+    out <- c(cached[setdiff(names(cached), c("train_scores", "train_refit_max_diff"))],
+             list(train_scores = train_scores, train_refit_max_diff = d))
+  } else {
+    out <- list(model_id = model_id, scheme = scheme, scores = scores, rhat_df = st$rhat_df,
+                hmc = st$hmc, fit_minutes = st$fit_minutes, train_scores = train_scores)
+  }
   cache_write(out, scheme, model_id)
   out
+}
+
+# In-sample scores of ONE CV fit: the posterior predictive draws `y_rep` of its own training points
+# (one step ahead from the observed previous value; time points 2..n_train per district, the first
+# point depends on the free latent P0 and is dropped). Same columns as .score_cv_preds.
+.score_train_fit <- function(model_label_, post, df_tr) {
+  tr <- df_tr %>% mutate(row = row_number()) %>% group_by(district_id) %>% mutate(t = row_number()) %>% ungroup()
+  keep <- which(tr$t >= 2)
+  yrep <- post$y_rep
+  stopifnot(ncol(yrep) == nrow(tr))
+  tibble(Model     = model_label_,
+         District  = tr$District[keep],
+         Point     = paste0("t", tr$t[keep]),
+         Predicted = apply(yrep[, keep, drop = FALSE], 2, median),
+         Observed  = tr$SAM[keep],
+         CRPS      = vapply(keep, function(n) scoringRules::crps_sample(y = tr$SAM[n], dat = yrep[, n]), numeric(1))) %>%
+    mutate(AbsError = abs(Predicted - Observed),
+           SqError  = (Predicted - Observed)^2,
+           MAPE     = ifelse(Observed == 0, NA_real_, 100 * abs(Predicted - Observed) / Observed))
+}
+
+# Benchmarks on the same training points: Naive = previous observed value, HistAverage = mean of all earlier ones.
+.train_benchmark_rows <- function(scheme, which = c("Naive", "HistAverage")) {
+  n0 <- CV_SPECS[[scheme]]$n_train
+  bind_rows(lapply(seq_len(D), function(d) {
+    y  <- df_model$SAM[df_model$district_id == d][seq_len(n0)]
+    ts <- 2:n0
+    bind_rows(lapply(which, function(w) {
+      pred <- if (w == "Naive") y[ts - 1] else vapply(ts, function(k) mean(y[seq_len(k - 1)]), numeric(1))
+      tibble(Model = w, District = district_names[d], Point = paste0("t", ts), Predicted = pred, Observed = y[ts],
+             AbsError = abs(pred - y[ts]), SqError = (pred - y[ts])^2,
+             MAPE = ifelse(y[ts] == 0, NA_real_, 100 * abs(pred - y[ts]) / y[ts]), CRPS = NA_real_)
+    }))
+  })) %>% .drop_excluded()
 }
 
 # Benchmarks, defined for any scheme: Naive predicts each held-out point by the
@@ -683,7 +753,7 @@ fit_cv_model <- function(scheme, model_id) {
              AbsError = abs(pred - obs), SqError = (pred - obs)^2,
              MAPE = ifelse(obs == 0, NA_real_, 100 * abs(pred - obs) / obs), CRPS = NA_real_)
     }))
-  }))
+  })) %>% .drop_excluded()
 }
 
 
@@ -737,7 +807,9 @@ compute_cv_relative_scores <- function(all_df, pop_by_district, benchmarks = CV_
 
   dist_rmse <- long %>%
     group_by(Model, Point, District, Pop) %>%
-    summarise(RMSE_d = sqrt(mean(SqError, na.rm = TRUE)), .groups = "drop")
+    summarise(RMSE_d = sqrt(mean(SqError, na.rm = TRUE)),
+              MAD_d  = median(AbsError, na.rm = TRUE),        # district's median absolute error over its held-out points
+              .groups = "drop")
 
   base <- long %>%
     group_by(Model, Point) %>%
@@ -745,6 +817,9 @@ compute_cv_relative_scores <- function(all_df, pop_by_district, benchmarks = CV_
       n_districts      = n_distinct(District),
       RMSE             = sqrt(mean(SqError, na.rm = TRUE)),
       wRMSE_pop        = sqrt(weighted.mean(SqError, Pop, na.rm = TRUE)),
+      wMAPE_pop        = weighted.mean(MAPE, Pop, na.rm = TRUE),   # MAPE (%) weighted by under-5 reference population
+      MAD              = median(AbsError, na.rm = TRUE),           # median absolute error (robust to a few huge misses)
+      bias_pred_over_obs = sum(Predicted, na.rm = TRUE) / sum(Observed, na.rm = TRUE),  # < 1: predicts too low
       eff_n_districts  = (sum(Pop[!is.na(SqError)])^2) / sum(Pop[!is.na(SqError)]^2),
       .groups = "drop"
     )
@@ -754,11 +829,12 @@ compute_cv_relative_scores <- function(all_df, pop_by_district, benchmarks = CV_
   for (b in names(benchmarks)) {
     ref <- dist_rmse %>%
       filter(Model == benchmarks[[b]]) %>%
-      select(Point, District, RMSE_ref = RMSE_d)
+      select(Point, District, RMSE_ref = RMSE_d, MAD_ref = MAD_d)
     rel <- dist_rmse %>%
       left_join(ref, by = c("Point", "District")) %>%
       mutate(Benchmark = b,
-             Rel = ifelse(!is.na(RMSE_ref) & RMSE_ref > 0, RMSE_d / RMSE_ref, NA_real_))
+             Rel     = ifelse(!is.na(RMSE_ref) & RMSE_ref > 0, RMSE_d / RMSE_ref, NA_real_),
+             Rel_MAD = ifelse(!is.na(MAD_ref) & MAD_ref > 0, MAD_d / MAD_ref, NA_real_))   # same ratio, with MAD_d
     by_district[[b]] <- rel
 
     wref <- base %>% filter(Model == benchmarks[[b]]) %>% select(Point, wRMSE_ref = wRMSE_pop)
@@ -786,7 +862,14 @@ compute_cv_relative_scores <- function(all_df, pop_by_district, benchmarks = CV_
       paste0("WinRate_vs",         b),
       paste0("wRMSE_ratio_vs",     b)
     )
-    out <- left_join(out, summ, by = c("Model", "Point"))
+    # relative MAD: district MAD / benchmark's district MAD, averaged over districts (arithmetic, geometric)
+    summ_mad <- rel %>%
+      group_by(Model, Point) %>%
+      summarise(a = mean(Rel_MAD, na.rm = TRUE),
+                g = { r <- Rel_MAD[!is.na(Rel_MAD) & Rel_MAD > 0]; if (length(r)) exp(mean(log(r))) else NA_real_ },
+                .groups = "drop")
+    names(summ_mad)[-(1:2)] <- c(paste0("RelMAD_mean_vs", b), paste0("RelMAD_geomean_vs", b))
+    out <- left_join(out, summ, by = c("Model", "Point")) %>% left_join(summ_mad, by = c("Model", "Point"))
   }
 
   list(summary = out, by_district = bind_rows(by_district))
@@ -1273,6 +1356,61 @@ for (llm in llms_with_runs) {
   }
 }
 
+# ---- Prior strength within each LLM: pooled prior and its tempered versions (priors only) ----
+# One panel per district, one curve per prior: the pooled prior (f = 1, black) and the
+# tempered copies (concentration a+b multiplied by f, same mean) listed in TEMPER_FACTORS.
+# Same x-scale as plot_prior_sensitivity (log scale for gamma and omega). The mixture prior
+# is not drawn here.
+plot_prior_strength <- function(llm, param, x_n = 300) {
+  pooled_prior <- pooled_full[[llm]]$prior
+  facs <- sort(c(1, TEMPER_FACTORS[[llm]]), decreasing = TRUE)
+  lab  <- ifelse(facs == 1, "pooled (f = 1)", paste0("f = ", facs))
+  pri  <- lapply(facs, function(f) if (f == 1) pooled_prior else temper_prior(pooled_prior, f))
+  log_scale <- param %in% c("gamma", "omega")
+  rows <- list()
+  for (dn in district_names) {
+    q <- unlist(lapply(pri, function(pl) qbeta(c(0.01, 0.99), pl[[dn]][[param]]$a, pl[[dn]][[param]]$b)))
+    if (log_scale) q <- log(q[q > 0])
+    x_grid <- seq(min(q), max(q), length.out = x_n)
+    for (i in seq_along(pri)) {
+      ab <- pri[[i]][[dn]][[param]]
+      d  <- if (log_scale) dbeta(exp(x_grid), ab$a, ab$b) * exp(x_grid) else dbeta(x_grid, ab$a, ab$b)
+      d[!is.finite(d)] <- NA
+      rows[[length(rows) + 1]] <- tibble(District = dn, Prior = lab[i], x = x_grid, density = d)
+    }
+  }
+  # A tempered Beta with a or b < 1 is U-shaped and its density is unbounded at 0/1; left alone those spikes
+  # set the y-axis and flatten every other curve. Densities are therefore clipped, per district, at twice the
+  # peak of the pooled prior (f = 1).
+  plot_df <- bind_rows(rows) %>% filter(!is.na(density)) %>%
+    group_by(District) %>%
+    mutate(density = pmin(density, 2 * max(density[Prior == lab[1]]))) %>%
+    ungroup() %>%
+    mutate(District = factor(District, levels = district_names), Prior = factor(Prior, levels = lab))
+  x_lab <- if (log_scale) paste0("log(", param, ")") else param
+  cols  <- setNames(c("black", viridisLite::viridis(length(lab) - 1, end = 0.85)), lab)
+  p_out <- ggplot(plot_df, aes(x = x, y = density, color = Prior, group = Prior)) +
+    geom_line(aes(linewidth = (Prior == lab[1])), alpha = 0.9) +
+    scale_linewidth_manual(values = c(`FALSE` = 0.5, `TRUE` = 0.9), guide = "none") +
+    facet_wrap(~District, scales = "free", ncol = 9) +
+    scale_color_manual(values = cols, name = "Prior") +
+    labs(title    = paste0("Prior of ", x_lab, " within ", llm, ": pooled prior and tempered versions"),
+         subtitle = "f = factor applied to the Beta concentration a + b (same mean, smaller f = less informative); panels use their own axes; densities above 2x the pooled prior's peak are clipped",
+         x = x_lab, y = "Density") +
+    theme_minimal(base_size = 7) +
+    theme(strip.text = element_text(size = 5), axis.text = element_text(size = 4),
+          axis.title = element_text(size = 6), legend.position = "bottom",
+          panel.grid.minor = element_blank())
+  out_path <- file.path(SENS_PLOT_DIR, sprintf("prior_strength_%s_%s.jpg", llm, param))
+  ggsave(out_path, p_out, width = 22, height = 20, dpi = 250)
+  message("Saved: ", out_path)
+  invisible(p_out)
+}
+for (llm in LLM_NAMES) {
+  if (is.null(pooled_full[[llm]])) next
+  for (param in c("p", "gamma", "omega")) plot_prior_strength(llm, param)
+}
+
 # ============================================================
 # End of the LLM-informed models
 # ============================================================
@@ -1487,7 +1625,7 @@ write_cv_model_metrics <- function(scheme, r) {
   ) %>%
     group_by(Model, Point) %>%
     summarise(MAE = mean(AbsError, na.rm = TRUE), MAPE_mean = mean(MAPE, na.rm = TRUE),
-              CRPS_mean = mean(CRPS, na.rm = TRUE), .groups = "drop")
+              CRPS_mean = mean(CRPS, na.rm = TRUE), .groups = "drop")   # MAD and bias come with `rel`
   out <- left_join(rel, extra, by = c("Model", "Point")) %>%
     mutate(scheme = scheme, divergences = r$hmc$divergent, max_treedepth_hits = r$hmc$max_treedepth,
            low_bfmi_chains = r$hmc$low_bfmi_chains,
@@ -1496,6 +1634,152 @@ write_cv_model_metrics <- function(scheme, r) {
     relocate(scheme, .after = Model)
   write_csv(out, file.path(dir_out, paste0(lab, ".csv")))
   invisible(out)
+}
+
+# All headline metrics of a long score table (Model, District, Point, Predicted, Observed, AbsError, SqError,
+# MAPE, CRPS incl. the benchmarks): relative scores + RMSE, wRMSE, wMAPE, MAD, bias, MAE, MAPE, CRPS.
+.metric_table <- function(all_df) {
+  rel <- compute_cv_relative_scores(all_df, setNames(as.numeric(pop_u5_ref), district_names))$summary
+  extra <- bind_rows(all_df %>% mutate(Point = as.character(Point)), all_df %>% mutate(Point = "All")) %>%
+    group_by(Model, Point) %>%
+    summarise(MAE = mean(AbsError, na.rm = TRUE), MAPE_mean = mean(MAPE, na.rm = TRUE),
+              CRPS_mean = mean(CRPS, na.rm = TRUE), .groups = "drop")
+  left_join(rel, extra, by = c("Model", "Point"))
+}
+
+# ---- Are the measures driven by a few districts? ----
+# Per model and held-out point (and all points): RMSE, MAE, MAD (median absolute error), RMSE/MAD (about
+# 1.5 for well-behaved errors; much larger when a few huge misses dominate), the share of the total squared
+# error that sits in the model's own k worst districts, and the RMSE after dropping the k districts with the
+# largest observed SAM (the same districts for every model). Plots: cumulative share of squared error,
+# the district-level error distribution, RMSE after dropping the largest districts, RMSE / MAE / MAD.
+# Output: outputs/<TAG>_CV_outlier_diagnostics.csv and plots/<TAG>_CV_outliers_*.jpg
+report_cv_outlier_diagnostics <- function(all_df, tag, sp, top_k = c(1, 3, 5, 10),
+                                          models_shown = c(MODEL_LABELS, "Naive", "HistAverage")) {
+  long <- bind_rows(all_df %>% mutate(Point = as.character(Point)), all_df %>% mutate(Point = "All"))
+  big  <- all_df %>% group_by(District) %>% summarise(m = mean(Observed, na.rm = TRUE), .groups = "drop") %>%
+    arrange(desc(m)) %>% pull(District)           # districts from the largest observed SAM down
+
+  diag_tab <- long %>% group_by(Model, Point) %>% group_modify(function(d, key) {
+    se_d <- d %>% group_by(District) %>% summarise(se = sum(SqError, na.rm = TRUE), .groups = "drop") %>% arrange(desc(se))
+    out <- tibble(RMSE = sqrt(mean(d$SqError, na.rm = TRUE)), MAE = mean(d$AbsError, na.rm = TRUE),
+                  MAD = median(d$AbsError, na.rm = TRUE))
+    out$RMSE_over_MAD <- out$RMSE / out$MAD
+    for (k in top_k) out[[paste0("share_SSE_worst", k)]] <- sum(head(se_d$se, k)) / sum(se_d$se)
+    for (k in top_k) out[[paste0("RMSE_without_largest", k)]] <- sqrt(mean(d$SqError[!(d$District %in% head(big, k))], na.rm = TRUE))
+    out
+  }) %>% ungroup()
+  write_csv(diag_tab, sprintf("outputs/%s_CV_outlier_diagnostics.csv", tag))
+  message("Saved: outputs/", tag, "_CV_outlier_diagnostics.csv")
+
+  cols <- c(MODEL_COLORS, Naive = "grey50", HistAverage = "darkgreen")
+  labs_ <- c(MODEL_DISPLAY, Naive = "Naive", HistAverage = "Hist. Average")
+  shown <- long %>% filter(Model %in% models_shown)
+  base_theme <- theme_minimal(base_size = 9) + theme(legend.position = "bottom")
+
+  # 1. cumulative share of the squared error by number of districts (districts sorted worst first, per model)
+  cum <- shown %>% group_by(Model, Point, District) %>% summarise(se = sum(SqError, na.rm = TRUE), .groups = "drop") %>%
+    group_by(Model, Point) %>% arrange(desc(se), .by_group = TRUE) %>%
+    mutate(rank = row_number(), cum_share = cumsum(se) / sum(se)) %>% ungroup()
+  p1 <- ggplot(cum, aes(rank, cum_share, color = Model)) +
+    geom_abline(slope = 1 / length(big), intercept = 0, linetype = "dotted", color = "grey40") +
+    geom_line(linewidth = 0.7) + facet_wrap(~Point) +
+    scale_color_manual(values = cols, labels = labs_, name = NULL) +
+    labs(title = paste0(sp$title, ": how concentrated is the squared error?"),
+         subtitle = "Share of the total squared error in the k worst districts of each model (dotted = all districts equal); a steep start = a few districts drive RMSE",
+         x = "Number of districts (worst first)", y = "Cumulative share of squared error") + base_theme
+  ggsave(sprintf("plots/%s_CV_outliers_error_concentration.jpg", tag), p1, width = 11, height = 6, dpi = 250)
+
+  # 2. district-level absolute errors (pseudo-log axis), the 3 worst districts of each model labelled
+  d2 <- shown %>% filter(Point == "All") %>% group_by(Model, District) %>%
+    summarise(AbsErr = mean(AbsError, na.rm = TRUE), .groups = "drop")
+  lab2 <- d2 %>% group_by(Model) %>% slice_max(AbsErr, n = 3, with_ties = FALSE) %>% ungroup()
+  p2 <- ggplot(d2, aes(Model, AbsErr, color = Model)) +
+    geom_boxplot(outlier.shape = NA, fill = NA, linewidth = 0.4) +
+    geom_jitter(width = 0.15, size = 0.8, alpha = 0.6) +
+    geom_text(data = lab2, aes(label = District), size = 2.3, nudge_x = 0.32, check_overlap = TRUE, show.legend = FALSE) +
+    scale_y_continuous(trans = scales::pseudo_log_trans(base = 10), breaks = c(0, 10, 100, 1000, 10000)) +
+    scale_color_manual(values = cols, guide = "none") + scale_x_discrete(labels = labs_) +
+    labs(title = paste0(sp$title, ": absolute error of each district (mean over its held-out points)"),
+         subtitle = "One dot per district, log-type axis; labels = the 3 worst districts of each model", x = NULL, y = "Absolute error (SAM)") +
+    base_theme + theme(axis.text.x = element_text(angle = 20, hjust = 1))
+  ggsave(sprintf("plots/%s_CV_outliers_district_errors.jpg", tag), p2, width = 10, height = 6, dpi = 250)
+
+  # 3. RMSE after dropping the k districts with the largest observed SAM
+  ks <- c(0, 1, 2, 3, 5, 10, 15, 20)
+  d3 <- bind_rows(lapply(ks, function(k) shown %>% filter(Point == "All", !(District %in% head(big, k))) %>%
+    group_by(Model) %>% summarise(RMSE = sqrt(mean(SqError, na.rm = TRUE)), .groups = "drop") %>% mutate(k = k)))
+  p3 <- ggplot(d3, aes(k, RMSE, color = Model)) + geom_line(linewidth = 0.7) + geom_point(size = 1.3) +
+    scale_color_manual(values = cols, labels = labs_, name = NULL) + scale_x_continuous(breaks = ks) +
+    labs(title = paste0(sp$title, ": RMSE after dropping the k districts with the largest observed SAM"),
+         subtitle = "If the ranking of the models changes with k, it is decided by the large districts",
+         x = "Districts dropped (largest first)", y = "RMSE (all held-out points)") + base_theme
+  ggsave(sprintf("plots/%s_CV_outliers_RMSE_drop_largest.jpg", tag), p3, width = 10, height = 6, dpi = 250)
+
+  # 4. RMSE vs MAE vs MAD: a MAD far below RMSE means a few big misses drive the squared error
+  d4 <- diag_tab %>% filter(Point == "All", Model %in% models_shown) %>% select(Model, RMSE, MAE, MAD) %>%
+    tidyr::pivot_longer(c(RMSE, MAE, MAD), names_to = "Measure", values_to = "Value") %>%
+    mutate(Measure = factor(Measure, levels = c("RMSE", "MAE", "MAD")))
+  p4 <- ggplot(d4, aes(Model, Value, fill = Measure)) + geom_col(position = "dodge") +
+    scale_x_discrete(labels = labs_) + scale_fill_manual(values = c(RMSE = "#2a78d6", MAE = "#1baf7a", MAD = "#eb6834"), name = NULL) +
+    labs(title = paste0(sp$title, ": RMSE, MAE and MAD (median absolute error), all held-out points"),
+         x = NULL, y = "SAM") + base_theme + theme(axis.text.x = element_text(angle = 20, hjust = 1))
+  ggsave(sprintf("plots/%s_CV_outliers_RMSE_MAE_MAD.jpg", tag), p4, width = 10, height = 6, dpi = 250)
+  message("Saved: plots/", tag, "_CV_outliers_*.jpg (4 files)")
+  invisible(diag_tab)
+}
+
+# ---- In-sample (training window) scores next to the held-out scores, per LLM ----
+# `res` = the cached CV objects of this scheme, `all_df` = the held-out scores. Only models whose CV object
+# carries a `train_scores` record (see TRAIN_EVAL_MODELS) are scored. Outputs:
+#   outputs/<TAG>_train_all_models.csv            per district x training point
+#   outputs/<TAG>_train_vs_test_summary_by_model.csv   all headline metrics, in-sample and held-out
+#   outputs/<TAG>_train_vs_test_ranking.csv       rank of each LLM (All points) on each metric, in-sample vs held-out
+#   plots/<TAG>_train_vs_test_by_llm.jpg
+# In-sample numbers describe how well the prior + training data reproduce the training points one step ahead;
+# they use no held-out point, so they can be used to choose between LLMs.
+run_train_eval <- function(scheme, res, all_df) {
+  tag <- toupper(scheme)
+  tr  <- Filter(Negate(is.null), lapply(res, function(r) r$train_scores))
+  if (length(tr) == 0) { message(tag, ": no in-sample records yet (TRAIN_EVAL_MODELS not fitted for this scheme)."); return(invisible(NULL)) }
+  train_df <- bind_rows(bind_rows(tr), .train_benchmark_rows(scheme))
+  write_csv(train_df, sprintf("outputs/%s_train_all_models.csv", tag))
+  models <- unique(bind_rows(tr)$Model)
+  m_train <- .metric_table(train_df) %>% mutate(Sample = "train (in-sample)")
+  m_test  <- .metric_table(all_df %>% filter(Model %in% c(models, "Naive", "HistAverage"))) %>% mutate(Sample = "test (held-out)")
+  tab <- bind_rows(m_train, m_test) %>% relocate(Sample, .after = Point)
+  write_csv(tab, sprintf("outputs/%s_train_vs_test_summary_by_model.csv", tag))
+  message("Saved: outputs/", tag, "_train_all_models.csv and _train_vs_test_summary_by_model.csv")
+  print(as.data.frame(tab %>% filter(Point == "All") %>%
+    select(Model, Sample, RMSE, wRMSE_pop, MAD, MAE, MAPE_mean, wMAPE_pop, CRPS_mean, RelRMSE_geomean_vsPersistence, bias_pred_over_obs) %>%
+    mutate(across(where(is.numeric), ~ round(.x, 3))) %>% arrange(Sample, RMSE)))
+
+  metrics <- c(RMSE = "RMSE", wRMSE = "wRMSE_pop", MAD = "MAD", MAE = "MAE", MAPE = "MAPE_mean", wMAPE = "wMAPE_pop",
+               CRPS = "CRPS_mean", geoP = "RelRMSE_geomean_vsPersistence", arithP = "RelRMSE_mean_vsPersistence",
+               `geoP (MAD)` = "RelMAD_geomean_vsPersistence", `arithP (MAD)` = "RelMAD_mean_vsPersistence", `|bias-1|` = "abs_bias")
+  llm_tab <- tab %>% filter(Point == "All", Model %in% models) %>% mutate(abs_bias = abs(bias_pred_over_obs - 1))
+  long <- llm_tab %>% select(Model, Sample, all_of(unname(metrics))) %>%
+    tidyr::pivot_longer(-c(Model, Sample), names_to = "col", values_to = "Value") %>%
+    mutate(Metric = factor(names(metrics)[match(col, metrics)], levels = names(metrics))) %>%
+    group_by(Sample, Metric) %>% mutate(Rank = rank(Value, ties.method = "min", na.last = "keep")) %>% ungroup()
+  rk <- long %>% select(Metric, Model, Sample, Value, Rank) %>%
+    tidyr::pivot_wider(names_from = Sample, values_from = c(Value, Rank)) %>% arrange(Metric, Model)
+  write_csv(rk, sprintf("outputs/%s_train_vs_test_ranking.csv", tag))
+  message("Saved: outputs/", tag, "_train_vs_test_ranking.csv")
+
+  bench <- tab %>% filter(Point == "All", Model %in% c("Naive", "HistAverage")) %>% mutate(abs_bias = abs(bias_pred_over_obs - 1)) %>%
+    select(Model, Sample, all_of(unname(metrics))) %>% tidyr::pivot_longer(-c(Model, Sample), names_to = "col", values_to = "Value") %>%
+    mutate(Metric = factor(names(metrics)[match(col, metrics)], levels = names(metrics))) %>% filter(!is.na(Value))
+  p <- ggplot(long, aes(Model, Value, fill = Sample)) + geom_col(position = "dodge") +
+    geom_hline(data = bench %>% filter(Model == "Naive"), aes(yintercept = Value, linetype = "Naive"), color = "grey30", linewidth = 0.4) +
+    facet_grid(Metric ~ ., scales = "free_y") + scale_linetype_manual(values = c(Naive = "dashed"), name = NULL) +
+    scale_fill_manual(values = c(`train (in-sample)` = "#2a78d6", `test (held-out)` = "#eb6834"), name = NULL) +
+    labs(title = paste0(CV_SPECS[[scheme]]$title, ": pooled LLM priors, in-sample vs held-out (all points)"),
+         subtitle = "Dashed line = Naive on the same points. Metrics are comparable in rank within a sample; levels differ between samples",
+         x = NULL, y = NULL) + theme_minimal(base_size = 8) + theme(legend.position = "bottom")
+  ggsave(sprintf("plots/%s_train_vs_test_by_llm.jpg", tag), p, width = 7, height = 14, dpi = 220)
+  message("Saved: plots/", tag, "_train_vs_test_by_llm.jpg")
+  invisible(tab)
 }
 
 # One CV section: fit (cached) every model, then tables, relative scores and plots.
@@ -1510,6 +1794,8 @@ run_cv_section <- function(scheme) {
   for (id in ALL_MODEL_IDS) {
     r <- fit_cv_model(scheme, id)
     if (is.null(r)) { message("Skipping ", model_label(id), " (", tag, "): fit not cached and not scheduled."); next }
+    r$scores <- .drop_excluded(r$scores)                       # metrics skip EXCLUDE_DISTRICTS (see above)
+    if (!is.null(r$train_scores)) r$train_scores <- .drop_excluded(r$train_scores)
     res[[id]] <- r
     write_csv(r$rhat_df, file.path(DIAG_DIR, paste0("rhat_and_ess_", sp$rhat_prefix, "_", model_label(id), ".csv")))
     write_cv_model_metrics(scheme, r)   # this model's own metrics file, written as soon as it is fitted
@@ -1530,6 +1816,7 @@ run_cv_section <- function(scheme) {
     summarise(
       RMSE      = sqrt(mean(SqError, na.rm = TRUE)),  # aggregate RMSE = sqrt(mean squared error)
       MAE       = mean(AbsError, na.rm = TRUE),
+      MAD       = median(AbsError, na.rm = TRUE),       # median absolute error
       MAPE_mean = mean(MAPE, na.rm = TRUE),
       CRPS_mean = mean(CRPS, na.rm = TRUE),
       .groups   = "drop"
@@ -1541,6 +1828,12 @@ run_cv_section <- function(scheme) {
 
   # --- Relative (per district, then averaged) and population-weighted scores ---
   report_cv_relative_scores(all_df, tag, paste0(sp$title, ": relative RMSE by district"))
+
+  # --- Are the measures driven by a few districts? (tables + plots) ---
+  report_cv_outlier_diagnostics(all_df, tag, sp)
+
+  # --- In-sample (training window) scores of the pooled models, next to the held-out scores ---
+  run_train_eval(scheme, res, all_df)
 
   # --- Plots: base, pooled models and benchmarks ---
   plot_models <- c(MODEL_LABELS, "Naive", "HistAverage")

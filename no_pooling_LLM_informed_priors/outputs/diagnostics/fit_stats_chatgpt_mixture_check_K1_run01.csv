@@ -1,0 +1,2 @@
+model_id,Model,scheme,n_draws,fit_minutes,divergences,max_treedepth_hits,low_bfmi_chains,max_rhat,min_n_eff,elpd_loo,se_elpd_loo,p_loo,n_pareto_k_bad,elpd_note
+chatgpt_mixture_check_K1_run01,chatgpt_mixture_check_K1_run01,full,20000,8.64,3,0,0,1.0046361882692638,1250.5960721428298,-5572.420909832725,73.09002020416324,431.0954319337541,93,exploratory only: LOO assumes exchangeable data (not true for this AR model)

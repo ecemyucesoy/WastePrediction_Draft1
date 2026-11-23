@@ -1,0 +1,2 @@
+model_id,Model,scheme,n_draws,fit_minutes,divergences,max_treedepth_hits,low_bfmi_chains,max_rhat,min_n_eff,elpd_loo,se_elpd_loo,p_loo,n_pareto_k_bad,elpd_note
+gemini_pooled_t050,gemini_pooled_t050,full,20000,56.14,4,0,0,1.0057724148644922,983.6876408147934,-5342.583339176852,35.488038473131745,246.8438054409309,73,exploratory only: LOO assumes exchangeable data (not true for this AR model)
