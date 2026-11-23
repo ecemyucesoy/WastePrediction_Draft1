@@ -1,2 +1,0 @@
-model_id,Model,scheme,n_draws,fit_minutes,divergences,max_treedepth_hits,low_bfmi_chains,max_rhat,min_n_eff,elpd_loo,se_elpd_loo,p_loo,n_pareto_k_bad,elpd_note
-claude_mixture_joint_fixedw,claude_mixture_joint_fixedw,full,20000,22.37,0,0,0,1.007889991271288,2.0006001800541955,-5504.4752312209075,62.15435245961511,385.03329438773346,103,exploratory only: LOO assumes exchangeable data (not true for this AR model)

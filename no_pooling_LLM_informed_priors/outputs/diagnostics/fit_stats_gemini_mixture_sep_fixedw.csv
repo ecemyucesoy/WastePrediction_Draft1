@@ -1,2 +1,0 @@
-model_id,Model,scheme,n_draws,fit_minutes,divergences,max_treedepth_hits,low_bfmi_chains,max_rhat,min_n_eff,elpd_loo,se_elpd_loo,p_loo,n_pareto_k_bad,elpd_note
-gemini_mixture_sep_fixedw,gemini_mixture_sep_fixedw,full,20000,34.58,0,0,0,1.0240825490961836,2.0006001800541955,-5339.718509673388,37.078522162064274,254.23840571136282,81,exploratory only: LOO assumes exchangeable data (not true for this AR model)
