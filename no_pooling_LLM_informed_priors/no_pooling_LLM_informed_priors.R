@@ -8,8 +8,8 @@
 #   <llm>_run<NN>      one model per prior JSON (30 models)
 #   <llm>_pooled       prior = equal-weight mixture of that LLM's 10 runs, moment-matched
 #                      to one Beta per district and parameter (3 models)
-#   <llm>_pooled_tNNN  tempered pooled prior: same means, concentration a+b multiplied by
-#                      the factor (see TEMPER_FACTORS)
+#   all_llms_pooled    prior = the three <llm>_pooled priors pooled again (equal weights, moment-
+#                      matched), i.e. one prior that combines all three LLMs (1 model)
 # The hierarchical model with weakly informative priors lives in the sibling folder
 # hierarchical_weakly_informative_priors/. This script READS its cached fits (never
 # refits them) so that the comparison tables and maps in this folder include it.
@@ -18,12 +18,16 @@
 #   0. Setup: libraries, paths, settings, helper functions
 #   1. Data loading and cleaning
 #   2. Outlier analysis
-#   3. LLM-informed models (full data): one fit per prior JSON plus pooled / tempered
+#   3. LLM-informed models (full data): one fit per prior JSON plus pooled
 #        - posterior tables and output files for every model
 #        - prior sensitivity across runs, prior-posterior overlays within each LLM
 #   4. Chain statistics for every model, trace plots of the pooled models
 #   5. LLO-2 cross-validation: LLM models, hierarchical model, Naive / HistAverage benchmarks
-#        (RMSE, wRMSE, MAPE, CRPS, per-district relative scores averaged over districts)
+#        Metrics: RMSE, wRMSE, MAE, MAD, MAPE, wMAPE, bias, CRPS, per-district relative scores
+#        (arithP / geoP for RMSE and for MAD vs Naive and HistAverage), outlier diagnostics,
+#        in-sample (training-window) vs held-out comparison of the pooled LLMs, per-point ranks and
+#        average rank across metrics, and the per-district plot of every metric.
+#        Rab Dhuure (imputed SAM) is left out of every metric (EXCLUDE_DISTRICTS).
 #   6. LLO-3 cross-validation: same
 #   7. Daily model (placeholder: the LLM-informed daily model is not built yet)
 #   8. Maps and graphs (hierarchical and pooled LLM models) and burden comparison
@@ -45,15 +49,8 @@
 #   partial (not wrong) outputs; rerun after the next batch to complete them.
 #   Delete a cache file (or set FORCE_REFIT <- TRUE) to refit a model.
 #
-# PRIOR-STRENGTH SENSITIVITY (tempered pooled priors)
-#   TEMPER_FACTORS lists, per LLM, factors f by which the pooled prior's Beta concentration
-#   a+b is multiplied (mean unchanged, variance larger). Each gives an extra model id
-#   <llm>_pooled_tNNN (f = 0.5 -> t050, 0.25 -> t025, 0.1 -> t010), handled exactly like
-#   the other models (full fit, LLO-2, LLO-3, tables).
-#   Example: RUN_MODELS <- c("chatgpt_pooled_t050", "chatgpt_pooled_t025", "chatgpt_pooled_t010")
-#
 # Model ids and labels in every table: "hierarchical" (read from the sibling folder),
-# "<llm>_run<NN>", "<llm>_pooled", "<llm>_pooled_tNNN". Benchmarks: "Naive" (previous
+# "<llm>_run<NN>", "<llm>_pooled". Benchmarks: "Naive" (previous
 # observed value) and "HistAverage" (mean of all earlier observed values).
 # ============================================================
 
@@ -115,10 +112,6 @@ RUN_MODELS  <- NULL
 RUN_SCHEMES <- c("full", "llo2", "llo3")
 FORCE_REFIT <- FALSE
 
-# Prior-strength sensitivity: tempered copies of an LLM's pooled prior (see the header).
-# Set to list() to switch it off.
-TEMPER_FACTORS <- list(chatgpt = c(0.5, 0.25, 0.1), gemini = c(0.5, 0.25, 0.1), claude = c(0.5, 0.25, 0.1))
-
 # Cached full-data draws for p, gamma, omega and the district-mean burden are
 # thinned (every THIN_EVERY-th draw) before saving: enough for density plots and
 # run-to-run comparisons, small enough for ~35 models. All summary tables, Rhat
@@ -165,10 +158,10 @@ LLM_NAMES      <- c("claude", "gemini", "chatgpt")
 # points (one step ahead from the observed previous value, time points 2..n_train; time point 1 is
 # excluded because it depends on the free latent P0). A CV fit that is already cached WITHOUT this
 # in-sample record is refitted once (same seed, so the CV scores do not change) and the record is added to
-# its cache file. Set TRAIN_EVAL <- FALSE to skip all of this; add model ids (e.g. "chatgpt_pooled_t025")
-# to TRAIN_EVAL_MODELS to include them (each model is one refit per scheme).
+# its cache file. Set TRAIN_EVAL <- FALSE to skip all of this; add model ids to TRAIN_EVAL_MODELS to include
+# them (each model is one refit per scheme).
 TRAIN_EVAL        <- TRUE
-TRAIN_EVAL_MODELS <- paste0(LLM_NAMES, "_pooled")
+TRAIN_EVAL_MODELS <- c(paste0(LLM_NAMES, "_pooled"), "all_llms_pooled")
 
 
 POSITIVITY_FLOOR <- 1e-6   # matches Stan's <lower=1e-6> bound on a_p/b_p/...
@@ -338,34 +331,20 @@ pool_priors_moment_match <- function(prior_list, weights = NULL) {
   pooled
 }
 
-# ---- Tempered prior: the same Beta means with the concentration a+b multiplied by `f` ----
-# f < 1 widens every district x parameter prior without moving its mean; f = 1 returns it
-# unchanged. a and b stay above the positivity floor (Stan's lower bound).
-temper_prior <- function(prior, f) {
-  out <- list()
-  for (dn in district_names) {
-    out[[dn]] <- list()
-    for (param in c("p", "gamma", "omega")) {
-      ab <- prior[[dn]][[param]]
-      out[[dn]][[param]] <- list(a = max(ab$a * f, POSITIVITY_FLOOR), b = max(ab$b * f, POSITIVITY_FLOOR))
-    }
-  }
-  out
-}
-tempered_id <- function(llm, f) sprintf("%s_pooled_t%03d", llm, round(100 * f))
-
 # ---- Models shown in the main plots/maps: the hierarchical model and the pooled model of each LLM ----
-# (tables always cover every model: hierarchical, every LLM run, every pooled/tempered model)
-MODEL_LABELS  <- c("hierarchical", paste0(LLM_NAMES, "_pooled"))
-MODEL_COLORS  <- setNames(c("grey40", "#2a78d6", "#eb6834", "#1baf7a"), MODEL_LABELS)
+# (tables always cover every model: hierarchical, every LLM run, every pooled model)
+# ALL_LLM_ID = the pooled model of the three LLMs' pooled priors (moment-matched again, equal weights).
+ALL_LLM_ID    <- "all_llms_pooled"
+MODEL_LABELS  <- c("hierarchical", paste0(LLM_NAMES, "_pooled"), ALL_LLM_ID)
+MODEL_COLORS  <- setNames(c("grey40", "#2a78d6", "#eb6834", "#1baf7a", "#8b5cf6"), MODEL_LABELS)
 MODEL_DISPLAY <- setNames(
-  c("Hierarchical", paste0(c("Claude", "Gemini", "ChatGPT"), " (pooled)")),
+  c("Hierarchical", paste0(c("Claude", "Gemini", "ChatGPT"), " (pooled)"), "All 3 LLMs (pooled)"),
   MODEL_LABELS
 )
 
 # ============================================================
 # Model registry and fit cache
-# Model ids: "<llm>_run<NN>" (one per prior JSON), "<llm>_pooled", "<llm>_pooled_tNNN".
+# Model ids: "<llm>_run<NN>" (one per prior JSON), "<llm>_pooled".
 # The label of a model in outputs is its id. The hierarchical model is not in the
 # registry (it is fitted in the sibling folder) but is added to every comparison.
 # ============================================================
@@ -383,13 +362,9 @@ build_model_registry <- function() {
                                        type = "llm_run", llm = llm, run = runs)
     rows[[length(rows) + 1]] <- tibble(model_id = paste0(llm, "_pooled"),
                                        type = "llm_pooled", llm = llm, run = NA_integer_)
-    for (f in TEMPER_FACTORS[[llm]]) {
-      rows[[length(rows) + 1]] <- tibble(model_id = tempered_id(llm, f),
-                                         type = "llm_tempered", llm = llm, run = NA_integer_)
-    }
   }
-  unknown_llm <- setdiff(names(TEMPER_FACTORS), LLM_NAMES)
-  if (length(unknown_llm) > 0) stop("TEMPER_FACTORS names an unknown LLM: ", paste(unknown_llm, collapse = ", "))
+  # one more model: the three LLMs' pooled priors pooled again (see load_llm_priors)
+  rows[[length(rows) + 1]] <- tibble(model_id = ALL_LLM_ID, type = "all_llms_pooled", llm = NA_character_, run = NA_integer_)
   bind_rows(rows)
 }
 
@@ -453,13 +428,12 @@ load_llm_priors <- function() {
     priors[[paste0(llm, "_pooled")]] <- pool_priors_moment_match(run_priors)
     .write_prior_summary(priors[[paste0(llm, "_pooled")]], "pooled_runs",
                          file.path(SENS_OUT_DIR, sprintf("prior_summary_%s_pooled.csv", llm)))
-    for (f in TEMPER_FACTORS[[llm]]) {
-      id <- tempered_id(llm, f)
-      priors[[id]] <- temper_prior(priors[[paste0(llm, "_pooled")]], f)
-      .write_prior_summary(priors[[id]], paste0("pooled_tempered_x", f),
-                           file.path(SENS_OUT_DIR, sprintf("prior_summary_%s.csv", id)))
-    }
   }
+  # Pool of the pooled LLM priors: the three LLM-pooled Betas, equal weights, moment-matched again
+  # (same law-of-total-variance rule as above), so the all-LLM prior is wider where the LLMs disagree.
+  priors[[ALL_LLM_ID]] <- pool_priors_moment_match(lapply(paste0(LLM_NAMES, "_pooled"), function(id) priors[[id]]))
+  .write_prior_summary(priors[[ALL_LLM_ID]], "pooled_llms",
+                       file.path(SENS_OUT_DIR, sprintf("prior_summary_%s.csv", ALL_LLM_ID)))
   priors
 }
 
@@ -802,13 +776,17 @@ compute_cv_relative_scores <- function(all_df, pop_by_district, benchmarks = CV_
     all_df %>% mutate(Point = as.character(Point)),
     all_df %>% mutate(Point = "All")
   ) %>%
-    mutate(Pop = unname(pop_lookup[District]))
+    mutate(Pop = unname(pop_lookup[District]),
+           # LOG-SCALE error, log(1 + x) so that zeros are allowed: log(predicted) - log(observed) = log(pred/obs).
+           # Over- and under-prediction by the same factor get the same size (+/- the same number), unlike MAPE.
+           LogErr = log1p(pmax(Predicted, 0)) - log1p(pmax(Observed, 0)))
   stopifnot(!anyNA(long$Pop))
 
   dist_rmse <- long %>%
     group_by(Model, Point, District, Pop) %>%
     summarise(RMSE_d = sqrt(mean(SqError, na.rm = TRUE)),
               MAD_d  = median(AbsError, na.rm = TRUE),        # district's median absolute error over its held-out points
+              RMSLE_d = sqrt(mean(LogErr^2, na.rm = TRUE)),   # district's log-scale RMSE over its held-out points
               .groups = "drop")
 
   base <- long %>%
@@ -818,8 +796,14 @@ compute_cv_relative_scores <- function(all_df, pop_by_district, benchmarks = CV_
       RMSE             = sqrt(mean(SqError, na.rm = TRUE)),
       wRMSE_pop        = sqrt(weighted.mean(SqError, Pop, na.rm = TRUE)),
       wMAPE_pop        = weighted.mean(MAPE, Pop, na.rm = TRUE),   # MAPE (%) weighted by under-5 reference population
-      MAD              = median(AbsError, na.rm = TRUE),           # median absolute error (robust to a few huge misses)
+      MAD              = median(AbsError, na.rm = TRUE),           # MEDIAN absolute error, median(|pred - obs|) (robust to a few huge misses); the mean version is MAE
       bias_pred_over_obs = sum(Predicted, na.rm = TRUE) / sum(Observed, na.rm = TRUE),  # < 1: predicts too low
+      # log-scale metrics (log(1 + x)): symmetric between over- and under-prediction, and relative, so the largest
+      # districts do not dominate. exp(MALE) - 1 ~ typical % error; MeanLogErr < 0: predicts too low.
+      RMSLE            = sqrt(mean(LogErr^2, na.rm = TRUE)),
+      MALE             = mean(abs(LogErr), na.rm = TRUE),
+      MedALE           = median(abs(LogErr), na.rm = TRUE),
+      MeanLogErr       = mean(LogErr, na.rm = TRUE),
       eff_n_districts  = (sum(Pop[!is.na(SqError)])^2) / sum(Pop[!is.na(SqError)]^2),
       .groups = "drop"
     )
@@ -829,12 +813,13 @@ compute_cv_relative_scores <- function(all_df, pop_by_district, benchmarks = CV_
   for (b in names(benchmarks)) {
     ref <- dist_rmse %>%
       filter(Model == benchmarks[[b]]) %>%
-      select(Point, District, RMSE_ref = RMSE_d, MAD_ref = MAD_d)
+      select(Point, District, RMSE_ref = RMSE_d, MAD_ref = MAD_d, RMSLE_ref = RMSLE_d)
     rel <- dist_rmse %>%
       left_join(ref, by = c("Point", "District")) %>%
       mutate(Benchmark = b,
              Rel     = ifelse(!is.na(RMSE_ref) & RMSE_ref > 0, RMSE_d / RMSE_ref, NA_real_),
-             Rel_MAD = ifelse(!is.na(MAD_ref) & MAD_ref > 0, MAD_d / MAD_ref, NA_real_))   # same ratio, with MAD_d
+             Rel_MAD = ifelse(!is.na(MAD_ref) & MAD_ref > 0, MAD_d / MAD_ref, NA_real_),   # same ratio, with MAD_d
+             Rel_Log = ifelse(!is.na(RMSLE_ref) & RMSLE_ref > 0, RMSLE_d / RMSLE_ref, NA_real_))   # same ratio, on the log scale
     by_district[[b]] <- rel
 
     wref <- base %>% filter(Model == benchmarks[[b]]) %>% select(Point, wRMSE_ref = wRMSE_pop)
@@ -869,7 +854,15 @@ compute_cv_relative_scores <- function(all_df, pop_by_district, benchmarks = CV_
                 g = { r <- Rel_MAD[!is.na(Rel_MAD) & Rel_MAD > 0]; if (length(r)) exp(mean(log(r))) else NA_real_ },
                 .groups = "drop")
     names(summ_mad)[-(1:2)] <- c(paste0("RelMAD_mean_vs", b), paste0("RelMAD_geomean_vs", b))
-    out <- left_join(out, summ, by = c("Model", "Point")) %>% left_join(summ_mad, by = c("Model", "Point"))
+    # relative log-scale RMSE: district RMSLE / benchmark's district RMSLE, averaged over districts
+    summ_log <- rel %>%
+      group_by(Model, Point) %>%
+      summarise(a = mean(Rel_Log, na.rm = TRUE),
+                g = { r <- Rel_Log[!is.na(Rel_Log) & Rel_Log > 0]; if (length(r)) exp(mean(log(r))) else NA_real_ },
+                .groups = "drop")
+    names(summ_log)[-(1:2)] <- c(paste0("RelRMSLE_mean_vs", b), paste0("RelRMSLE_geomean_vs", b))
+    out <- left_join(out, summ, by = c("Model", "Point")) %>% left_join(summ_mad, by = c("Model", "Point")) %>%
+      left_join(summ_log, by = c("Model", "Point"))
   }
 
   list(summary = out, by_district = bind_rows(by_district))
@@ -1034,13 +1027,13 @@ print(outlier_summary_by_timepoint)
 # p, gamma, omega are Beta(a, b) distributions elicited from an LLM and read directly
 # from JSON (priors_llm/priors_llm_<llm>_<run>.json). One model per JSON, plus one
 # POOLED model per LLM whose prior is the moment-matched mixture of that LLM's runs
-# (pool_priors_moment_match()), plus tempered copies of the pooled prior. Each model gets
+# (pool_priors_moment_match()). Each model gets
 # the posterior tables and fit statistics below. The hierarchical model's cached fit is
 # added to the comparison tables when it exists.
 # ============================================================
 message("Models: ", sum(MODEL_REGISTRY$type == "llm_run"), " LLM runs + ",
         sum(MODEL_REGISTRY$type == "llm_pooled"), " pooled + ",
-        sum(MODEL_REGISTRY$type == "llm_tempered"), " tempered = ", nrow(MODEL_REGISTRY),
+        sum(MODEL_REGISTRY$type == "all_llms_pooled"), " all-LLM pooled = ", nrow(MODEL_REGISTRY),
         if (HIER_AVAILABLE) " (+ the hierarchical model read from the sibling folder)" else "")
 
 FULL <- list()    # cached full-data results by model id
@@ -1354,61 +1347,6 @@ for (llm in llms_with_runs) {
   for (param in .SENS_PARAMS) {
     plot_prior_sensitivity(llm, sens_run_ids[[llm]], param, pooled = pooled_full[[llm]])
   }
-}
-
-# ---- Prior strength within each LLM: pooled prior and its tempered versions (priors only) ----
-# One panel per district, one curve per prior: the pooled prior (f = 1, black) and the
-# tempered copies (concentration a+b multiplied by f, same mean) listed in TEMPER_FACTORS.
-# Same x-scale as plot_prior_sensitivity (log scale for gamma and omega). The mixture prior
-# is not drawn here.
-plot_prior_strength <- function(llm, param, x_n = 300) {
-  pooled_prior <- pooled_full[[llm]]$prior
-  facs <- sort(c(1, TEMPER_FACTORS[[llm]]), decreasing = TRUE)
-  lab  <- ifelse(facs == 1, "pooled (f = 1)", paste0("f = ", facs))
-  pri  <- lapply(facs, function(f) if (f == 1) pooled_prior else temper_prior(pooled_prior, f))
-  log_scale <- param %in% c("gamma", "omega")
-  rows <- list()
-  for (dn in district_names) {
-    q <- unlist(lapply(pri, function(pl) qbeta(c(0.01, 0.99), pl[[dn]][[param]]$a, pl[[dn]][[param]]$b)))
-    if (log_scale) q <- log(q[q > 0])
-    x_grid <- seq(min(q), max(q), length.out = x_n)
-    for (i in seq_along(pri)) {
-      ab <- pri[[i]][[dn]][[param]]
-      d  <- if (log_scale) dbeta(exp(x_grid), ab$a, ab$b) * exp(x_grid) else dbeta(x_grid, ab$a, ab$b)
-      d[!is.finite(d)] <- NA
-      rows[[length(rows) + 1]] <- tibble(District = dn, Prior = lab[i], x = x_grid, density = d)
-    }
-  }
-  # A tempered Beta with a or b < 1 is U-shaped and its density is unbounded at 0/1; left alone those spikes
-  # set the y-axis and flatten every other curve. Densities are therefore clipped, per district, at twice the
-  # peak of the pooled prior (f = 1).
-  plot_df <- bind_rows(rows) %>% filter(!is.na(density)) %>%
-    group_by(District) %>%
-    mutate(density = pmin(density, 2 * max(density[Prior == lab[1]]))) %>%
-    ungroup() %>%
-    mutate(District = factor(District, levels = district_names), Prior = factor(Prior, levels = lab))
-  x_lab <- if (log_scale) paste0("log(", param, ")") else param
-  cols  <- setNames(c("black", viridisLite::viridis(length(lab) - 1, end = 0.85)), lab)
-  p_out <- ggplot(plot_df, aes(x = x, y = density, color = Prior, group = Prior)) +
-    geom_line(aes(linewidth = (Prior == lab[1])), alpha = 0.9) +
-    scale_linewidth_manual(values = c(`FALSE` = 0.5, `TRUE` = 0.9), guide = "none") +
-    facet_wrap(~District, scales = "free", ncol = 9) +
-    scale_color_manual(values = cols, name = "Prior") +
-    labs(title    = paste0("Prior of ", x_lab, " within ", llm, ": pooled prior and tempered versions"),
-         subtitle = "f = factor applied to the Beta concentration a + b (same mean, smaller f = less informative); panels use their own axes; densities above 2x the pooled prior's peak are clipped",
-         x = x_lab, y = "Density") +
-    theme_minimal(base_size = 7) +
-    theme(strip.text = element_text(size = 5), axis.text = element_text(size = 4),
-          axis.title = element_text(size = 6), legend.position = "bottom",
-          panel.grid.minor = element_blank())
-  out_path <- file.path(SENS_PLOT_DIR, sprintf("prior_strength_%s_%s.jpg", llm, param))
-  ggsave(out_path, p_out, width = 22, height = 20, dpi = 250)
-  message("Saved: ", out_path)
-  invisible(p_out)
-}
-for (llm in LLM_NAMES) {
-  if (is.null(pooled_full[[llm]])) next
-  for (param in c("p", "gamma", "omega")) plot_prior_strength(llm, param)
 }
 
 # ============================================================
@@ -1756,8 +1694,10 @@ run_train_eval <- function(scheme, res, all_df) {
 
   metrics <- c(RMSE = "RMSE", wRMSE = "wRMSE_pop", MAD = "MAD", MAE = "MAE", MAPE = "MAPE_mean", wMAPE = "wMAPE_pop",
                CRPS = "CRPS_mean", geoP = "RelRMSE_geomean_vsPersistence", arithP = "RelRMSE_mean_vsPersistence",
-               `geoP (MAD)` = "RelMAD_geomean_vsPersistence", `arithP (MAD)` = "RelMAD_mean_vsPersistence", `|bias-1|` = "abs_bias")
-  llm_tab <- tab %>% filter(Point == "All", Model %in% models) %>% mutate(abs_bias = abs(bias_pred_over_obs - 1))
+               `geoP (MAD)` = "RelMAD_geomean_vsPersistence", `arithP (MAD)` = "RelMAD_mean_vsPersistence", `|bias-1|` = "abs_bias",
+               RMSLE = "RMSLE", MALE = "MALE", MedALE = "MedALE", `|mean log err|` = "abs_logbias", `geoP (log)` = "RelRMSLE_geomean_vsPersistence")
+  tab <- tab %>% mutate(abs_bias = abs(bias_pred_over_obs - 1), abs_logbias = abs(MeanLogErr))
+  llm_tab <- tab %>% filter(Point == "All", Model %in% models)
   long <- llm_tab %>% select(Model, Sample, all_of(unname(metrics))) %>%
     tidyr::pivot_longer(-c(Model, Sample), names_to = "col", values_to = "Value") %>%
     mutate(Metric = factor(names(metrics)[match(col, metrics)], levels = names(metrics))) %>%
@@ -1777,9 +1717,136 @@ run_train_eval <- function(scheme, res, all_df) {
     labs(title = paste0(CV_SPECS[[scheme]]$title, ": pooled LLM priors, in-sample vs held-out (all points)"),
          subtitle = "Dashed line = Naive on the same points. Metrics are comparable in rank within a sample; levels differ between samples",
          x = NULL, y = NULL) + theme_minimal(base_size = 8) + theme(legend.position = "bottom")
-  ggsave(sprintf("plots/%s_train_vs_test_by_llm.jpg", tag), p, width = 7, height = 14, dpi = 220)
+  ggsave(sprintf("plots/%s_train_vs_test_by_llm.jpg", tag), p, width = 7, height = 22, dpi = 220)
   message("Saved: plots/", tag, "_train_vs_test_by_llm.jpg")
   invisible(tab)
+}
+
+# ---- Pooled LLM comparison: every metric by point, and the average rank across the metrics ----
+# For the three pooled LLM models (the prior of each LLM is the moment-matched pool of its 10 runs), on each
+# point separately and on all points pooled: the values of all metrics, the rank of each LLM on each metric
+# (1 = best; for bias the distance of pred/obs from 1), and the average rank across the 10 metrics.
+# In-sample = the training points t2.. (needs the in-sample records, see TRAIN_EVAL); held-out = the CV points.
+# Outputs: outputs/<TAG>_pooled_llm_by_point.csv           all metric values, per Sample x Model x Point
+#          outputs/<TAG>_pooled_llm_ranks_by_point.csv     rank of each LLM on each metric, per Sample x Point
+#          outputs/<TAG>_pooled_llm_average_rank.csv       average rank across the metrics (+ mean over the single points)
+POOLED_RANK_METRICS <- c(RMSE = "RMSE", wRMSE = "wRMSE_pop", MAE = "MAE", MAD = "MAD", MAPE = "MAPE_mean", wMAPE = "wMAPE_pop",
+                         `|bias-1|` = "abs_bias", CRPS = "CRPS_mean", geoP = "RelRMSE_geomean_vsPersistence",
+                         arithP = "RelRMSE_mean_vsPersistence",
+                         # log-scale metrics (symmetric between over- and under-prediction)
+                         RMSLE = "RMSLE", MALE = "MALE", MedALE = "MedALE", `|mean log err|` = "abs_logbias",
+                         `geoP (log)` = "RelRMSLE_geomean_vsPersistence")
+report_pooled_llm_comparison <- function(scheme, res, all_df) {
+  tag  <- toupper(scheme)
+  llms <- c(paste0(LLM_NAMES, "_pooled"), ALL_LLM_ID)   # the three LLM-pooled models and the pool of the three
+  tr   <- Filter(Negate(is.null), lapply(res, function(r) r$train_scores))
+  parts <- list()
+  if (length(tr) > 0) {
+    train_df <- bind_rows(bind_rows(tr), .train_benchmark_rows(scheme))
+    parts$train <- .metric_table(train_df) %>% filter(Model %in% llms) %>% mutate(Sample = "train (in-sample)")
+  } else message(tag, ": no in-sample records -- the pooled-LLM comparison covers the held-out points only.")
+  parts$test <- .metric_table(all_df %>% filter(Model %in% c(llms, "Naive", "HistAverage"))) %>%
+    filter(Model %in% llms) %>% mutate(Sample = "test (held-out)")
+  tab <- bind_rows(parts) %>% mutate(abs_bias = abs(bias_pred_over_obs - 1), abs_logbias = abs(MeanLogErr)) %>% relocate(Sample, .before = Model)
+  write_csv(tab, sprintf("outputs/%s_pooled_llm_by_point.csv", tag))
+
+  long <- tab %>% select(Sample, Model, Point, all_of(unname(POOLED_RANK_METRICS))) %>%
+    tidyr::pivot_longer(-c(Sample, Model, Point), names_to = "col", values_to = "Value") %>%
+    mutate(Metric = factor(names(POOLED_RANK_METRICS)[match(col, POOLED_RANK_METRICS)], levels = names(POOLED_RANK_METRICS))) %>%
+    group_by(Sample, Point, Metric) %>% mutate(Rank = rank(Value)) %>% ungroup() %>% select(-col)
+  write_csv(long %>% arrange(Sample, Point, Metric, Rank), sprintf("outputs/%s_pooled_llm_ranks_by_point.csv", tag))
+
+  avg <- long %>% group_by(Sample, Point, Model) %>% summarise(AvgRank = mean(Rank), .groups = "drop")
+  avg_pts <- avg %>% filter(Point != "All") %>% group_by(Sample, Model) %>%
+    summarise(AvgRank = mean(AvgRank), .groups = "drop") %>% mutate(Point = "mean of the points")
+  avg_all <- bind_rows(avg, avg_pts) %>% tidyr::pivot_wider(names_from = Model, values_from = AvgRank) %>% arrange(Sample, Point)
+  write_csv(avg_all, sprintf("outputs/%s_pooled_llm_average_rank.csv", tag))
+  message("Saved: outputs/", tag, "_pooled_llm_by_point.csv, _pooled_llm_ranks_by_point.csv, _pooled_llm_average_rank.csv")
+  cat("\n", tag, ": average rank across", length(POOLED_RANK_METRICS), "metrics (1 = best)\n")
+  print(as.data.frame(avg_all %>% mutate(across(where(is.numeric), ~ round(.x, 2)))), row.names = FALSE)
+  invisible(avg_all)
+}
+
+# ---- Every metric by district, one panel per measure, for each held-out point ----
+# One dot per district (x = the district's observed SAM, log scale, so the large districts -- the outlier
+# candidates -- sit on the right) and one colour per model: the hierarchical model, the three pooled LLM models and
+# Naive. Dashed (and dotted) horizontal lines = the reported value of the measure for each model, the same numbers
+# as in the tables. Panels: A absolute error (dashed RMSE, dotted MAD), B signed error (dashed = mean),
+# C absolute % error (dashed MAPE, dotted wMAPE), D CRPS (dashed = mean), E error relative to Naive (dashed geoP),
+# F cumulative share of the squared error. Output, per point: plots/measures_by_district/<TAG>_<point>_all_measures.jpg
+# (all panels) and one file per measure.
+N_LABEL_DISTRICTS <- 4    # number of largest districts labelled in the plots
+.fmt_val <- function(x) ifelse(abs(x) >= 100, formatC(x, format = "f", digits = 0, big.mark = ","), formatC(x, format = "f", digits = 2))
+
+.measure_scatter <- function(df, ycol, title, ylab, show, cols, labs_, logy = TRUE, hline = NULL, big, lines = NULL) {
+  df$y <- df[[ycol]]
+  if (logy) df <- df[is.finite(df$y) & df$y > 0, ]
+  p <- ggplot(df, aes(Observed, y, colour = Model)) +
+    { if (!is.null(hline)) geom_hline(yintercept = hline, colour = "grey60", linetype = 2) } +
+    { if (!is.null(lines)) {
+        lines <- lines[lines$Model %in% df$Model & is.finite(lines$y) & (!logy | lines$y > 0), ]
+        lines$name <- factor(lines$name, unique(lines$name))
+        v <- lines %>% arrange(Model, name) %>% group_by(Model) %>% summarise(txt = paste(.fmt_val(y), collapse = "  /  "), .groups = "drop")
+        v$k <- as.numeric(factor(v$Model, show[show %in% v$Model])); v$txt <- paste0(labs_[as.character(v$Model)], ":  ", v$txt)
+        list(geom_hline(data = lines, aes(yintercept = y, colour = Model, linetype = name), linewidth = 0.7, alpha = 0.9),
+             scale_linetype_manual(values = c("dashed", "dotted")[seq_along(levels(lines$name))], guide = "none"),
+             geom_label(data = v, aes(x = min(df$Observed), y = Inf, label = txt, colour = Model, vjust = 1.25 * k - 0.05), hjust = 0, size = 2.7,
+                        fontface = "bold", fill = scales::alpha("white", 0.85), linewidth = 0, label.padding = unit(0.08, "lines"), show.legend = FALSE))
+      } } +
+    geom_point(alpha = 0.75, size = 1.6) +
+    geom_text_repel(data = df[df$Model == show[1] & df$District %in% big, ], aes(label = District), colour = "black", size = 2.6,
+                    min.segment.length = 0, box.padding = 0.4, max.overlaps = Inf, seed = 1) +
+    scale_colour_manual(values = cols, labels = labs_, name = NULL) +
+    scale_x_log10(labels = scales::comma) +
+    labs(title = title, x = "Observed SAM (log scale)", y = ylab) +
+    theme_minimal(base_size = 11) + theme(legend.position = "none", plot.title = element_text(face = "bold", size = 11))
+  if (logy) p + scale_y_log10(labels = scales::comma) else p + scale_y_continuous(labels = scales::comma)
+}
+
+plot_measures_by_district <- function(scheme, all_df) {
+  sp <- CV_SPECS[[scheme]]; tag <- toupper(scheme)
+  show  <- c("Naive", MODEL_LABELS)
+  cols  <- c(Naive = "grey60", MODEL_COLORS)
+  labs_ <- c(Naive = "Naive", MODEL_DISPLAY)
+  out_dir <- "plots/measures_by_district"; dir.create(out_dir, showWarnings = FALSE, recursive = TRUE)
+  mt <- .metric_table(all_df %>% filter(Model %in% c(show, "HistAverage")))   # HistAverage: needed by the relative scores
+  for (point in sp$points) {
+    d <- all_df %>% filter(Point == point, Model %in% show) %>% mutate(Model = factor(Model, show), Error = Predicted - Observed)
+    if (nrow(d) == 0) next
+    nv <- d %>% filter(Model == "Naive") %>% select(District, NaiveAbs = AbsError)
+    d <- left_join(d, nv, by = "District") %>% mutate(RelAbs = ifelse(NaiveAbs > 0, AbsError / NaiveAbs, NA_real_))
+    big <- d %>% filter(Model == "Naive") %>% slice_max(Observed, n = N_LABEL_DISTRICTS) %>% pull(District)
+    rel <- mt %>% filter(Point == point)
+    L  <- function(col, nm) data.frame(Model = factor(rel$Model, show), y = rel[[col]], name = nm)
+    sg <- d %>% group_by(Model) %>% summarise(MeanSigned = mean(Error), .groups = "drop")
+    Ls <- data.frame(Model = sg$Model, y = sg$MeanSigned, name = "mean signed error")
+
+    cum <- d %>% group_by(Model) %>% arrange(desc(SqError), .by_group = TRUE) %>%
+      mutate(Rank = row_number(), Share = cumsum(SqError) / sum(SqError)) %>% ungroup()
+    pF <- ggplot(cum, aes(Rank, Share, colour = Model)) + geom_line(linewidth = 0.9) +
+      scale_colour_manual(values = cols, labels = labs_, name = NULL) + scale_y_continuous(labels = scales::percent, limits = c(0, 1)) +
+      labs(title = "F. Cumulative share of squared error (RMSE)", x = "Districts, largest squared error first", y = "Share of total squared error") +
+      theme_minimal(base_size = 11) + theme(legend.position = "none", plot.title = element_text(face = "bold", size = 11))
+
+    pl <- list(
+      A_abs_error     = .measure_scatter(d, "AbsError", "A. Absolute error: dashed = RMSE, dotted = MAD", "Absolute error", show, cols, labs_, TRUE, NULL, big, rbind(L("RMSE", "RMSE"), L("MAD", "MAD"))),
+      B_signed_error  = .measure_scatter(d, "Error", "B. Signed error: dashed = mean", "Predicted - observed", show, cols, labs_, FALSE, 0, big, Ls),
+      C_abs_pct_error = .measure_scatter(d, "MAPE", "C. Absolute % error: dashed = MAPE, dotted = wMAPE", "Absolute % error", show, cols, labs_, TRUE, NULL, big, rbind(L("MAPE_mean", "MAPE"), L("wMAPE_pop", "wMAPE"))),
+      D_CRPS          = .measure_scatter(d %>% filter(!is.na(CRPS)), "CRPS", "D. CRPS: dashed = mean CRPS", "CRPS (counts)", show, cols, labs_, TRUE, NULL, big, L("CRPS_mean", "mean CRPS")[!is.na(rel$CRPS_mean), ]),
+      E_rel_to_naive  = .measure_scatter(d %>% filter(Model != "Naive"), "RelAbs", "E. Abs. error / Naive abs. error: dashed = geoP", "Ratio to Naive (log scale)", show, cols, labs_, TRUE, 1, big, L("RelRMSE_geomean_vsPersistence", "geoP")),
+      F_cum_sq_share  = pF)
+    leg <- cowplot::get_legend(pl[[1]] + theme(legend.position = "bottom", legend.text = element_text(size = 10)))
+    ttl <- cowplot::ggdraw() + cowplot::draw_label(paste0(sp$title, ", held-out ", point, " point: every measure by district"), fontface = "bold", x = 0.01, hjust = 0, size = 13)
+    sub <- cowplot::ggdraw() + cowplot::draw_label(paste0("Labels: the ", N_LABEL_DISTRICTS, " districts with the largest observed SAM; dots far from the rest on the right of panels A-E are the outlier candidates"), x = 0.01, hjust = 0, size = 9.5, colour = "grey30")
+    allp <- cowplot::plot_grid(ttl, sub, cowplot::plot_grid(plotlist = unname(pl), ncol = 3), leg, ncol = 1, rel_heights = c(0.05, 0.04, 1, 0.06))
+    ggsave(file.path(out_dir, sprintf("%s_%s_all_measures.jpg", tag, point)), allp, width = 17, height = 10, dpi = 150, bg = "white")
+    for (nm in names(pl)) {
+      one <- pl[[nm]] + theme(legend.position = "bottom") + labs(subtitle = paste0(sp$title, ", held-out ", point, " point"))
+      ggsave(file.path(out_dir, sprintf("%s_%s_%s.jpg", tag, point, nm)), one, width = 8, height = 5.5, dpi = 150, bg = "white")
+    }
+  }
+  message("Saved: ", out_dir, "/", tag, "_<point>_all_measures.jpg and one file per measure (", paste(sp$points, collapse = ", "), ")")
+  invisible(NULL)
 }
 
 # One CV section: fit (cached) every model, then tables, relative scores and plots.
@@ -1816,9 +1883,13 @@ run_cv_section <- function(scheme) {
     summarise(
       RMSE      = sqrt(mean(SqError, na.rm = TRUE)),  # aggregate RMSE = sqrt(mean squared error)
       MAE       = mean(AbsError, na.rm = TRUE),
-      MAD       = median(AbsError, na.rm = TRUE),       # median absolute error
+      MAD       = median(AbsError, na.rm = TRUE),       # MEDIAN absolute error (the mean version is MAE)
       MAPE_mean = mean(MAPE, na.rm = TRUE),
       CRPS_mean = mean(CRPS, na.rm = TRUE),
+      # log-scale metrics on log(1 + x): symmetric between over- and under-prediction
+      RMSLE     = sqrt(mean((log1p(pmax(Predicted, 0)) - log1p(pmax(Observed, 0)))^2, na.rm = TRUE)),
+      MALE      = mean(abs(log1p(pmax(Predicted, 0)) - log1p(pmax(Observed, 0))), na.rm = TRUE),
+      MedALE    = median(abs(log1p(pmax(Predicted, 0)) - log1p(pmax(Observed, 0))), na.rm = TRUE),
       .groups   = "drop"
     ) %>%
     arrange(Point, RMSE)
@@ -1834,6 +1905,12 @@ run_cv_section <- function(scheme) {
 
   # --- In-sample (training window) scores of the pooled models, next to the held-out scores ---
   run_train_eval(scheme, res, all_df)
+
+  # --- Pooled LLMs: every metric by point (in-sample and held-out) and the average rank across metrics ---
+  report_pooled_llm_comparison(scheme, res, all_df)
+
+  # --- Every metric by district, one panel per measure, for each held-out point ---
+  plot_measures_by_district(scheme, all_df)
 
   # --- Plots: base, pooled models and benchmarks ---
   plot_models <- c(MODEL_LABELS, "Naive", "HistAverage")
@@ -1903,7 +1980,7 @@ run_cv_section <- function(scheme) {
   # Overview of every model (all held-out points): RMSE and mean CRPS side by side
   ov <- summary_df %>%
     filter(Point == "All", !(Model %in% c("Naive", "HistAverage"))) %>%
-    mutate(Group  = case_when(Model == "hierarchical" ~ "hierarchical", grepl("_t[0-9]+$", Model) ~ "tempered",
+    mutate(Group  = case_when(Model == "hierarchical" ~ "hierarchical", Model == ALL_LLM_ID ~ "All 3 LLMs",
                               grepl("claude", Model) ~ "Claude",
                               grepl("gemini", Model) ~ "Gemini", TRUE ~ "ChatGPT"),
            Pooled = grepl("pooled", Model)) %>%
@@ -2621,6 +2698,7 @@ bs_by_llm <- lapply(pooled_full, function(f) f$burden_summary)
 burden_compare_long <- bind_rows(
   bs_tv %>% mutate(Model = "hierarchical"),
   bind_rows(lapply(LLM_NAMES, function(llm) bs_by_llm[[llm]] %>% mutate(Model = paste0("llm_", llm, "_pooled")))),
+  if (!is.null(FULL[[ALL_LLM_ID]])) FULL[[ALL_LLM_ID]]$burden_summary %>% mutate(Model = paste0("llm_", ALL_LLM_ID)),   # pool of the three LLM-pooled priors
   df_model %>%
     select(District, Timepoint, SAM) %>%
     mutate(
@@ -2642,8 +2720,7 @@ burden_compare_wide <- burden_compare_long %>%
   pivot_wider(names_from = Model, values_from = burden_median) %>%
   mutate(diff_hierarchical_vs_k16 = hierarchical - k1.6)
 
-for (llm in LLM_NAMES) {
-  col <- paste0("llm_", llm, "_pooled")
+for (col in intersect(c(paste0("llm_", LLM_NAMES, "_pooled"), paste0("llm_", ALL_LLM_ID)), names(burden_compare_wide))) {
   burden_compare_wide[[paste0("diff_", col, "_vs_k16")]]        <- burden_compare_wide[[col]] - burden_compare_wide[["k1.6"]]
   burden_compare_wide[[paste0("diff_hierarchical_vs_", col)]]   <- burden_compare_wide[["hierarchical"]] - burden_compare_wide[[col]]
 }
@@ -2676,6 +2753,14 @@ burden_compare_global <- burden_compare_long %>%
 print(burden_compare_global)
 write_csv(burden_compare_global, "outputs/burden_comparison_global_summary.csv")
 message("Saved: outputs/burden_comparison_global_summary.csv")
+
+# Total burden over all districts at each time point, per model, and its ratio to the K = 1.6 benchmark
+burden_total_by_time <- burden_compare_long %>%
+  group_by(Timepoint, Model) %>% summarise(burden_total = sum(burden_median, na.rm = TRUE), .groups = "drop") %>%
+  group_by(Timepoint) %>% mutate(ratio_to_k16 = burden_total / burden_total[Model == "k1.6"]) %>% ungroup() %>%
+  arrange(Timepoint, Model)
+write_csv(burden_total_by_time, "outputs/burden_comparison_total_by_timepoint.csv")
+message("Saved: outputs/burden_comparison_total_by_timepoint.csv")
 
 # ============================================================
 # End of burden comparison

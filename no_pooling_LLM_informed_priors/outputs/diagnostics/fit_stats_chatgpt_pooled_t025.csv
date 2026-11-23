@@ -1,2 +1,0 @@
-model_id,Model,scheme,n_draws,fit_minutes,divergences,max_treedepth_hits,low_bfmi_chains,max_rhat,min_n_eff,elpd_loo,se_elpd_loo,p_loo,n_pareto_k_bad,elpd_note
-chatgpt_pooled_t025,chatgpt_pooled_t025,full,20000,9.21,0,0,0,1.0045109735711895,1231.7462303838981,-5351.34222674141,39.09888711361397,276.0986018621813,79,exploratory only: LOO assumes exchangeable data (not true for this AR model)

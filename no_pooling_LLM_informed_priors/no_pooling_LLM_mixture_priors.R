@@ -288,22 +288,6 @@ pool_priors_moment_match <- function(prior_list, weights = NULL) {
   pooled
 }
 
-# ---- Tempered prior: the same Beta means with the concentration a+b multiplied by `f` ----
-# f < 1 widens every district x parameter prior without moving its mean; f = 1 returns it
-# unchanged. a and b stay above the positivity floor (Stan's lower bound).
-temper_prior <- function(prior, f) {
-  out <- list()
-  for (dn in district_names) {
-    out[[dn]] <- list()
-    for (param in c("p", "gamma", "omega")) {
-      ab <- prior[[dn]][[param]]
-      out[[dn]][[param]] <- list(a = max(ab$a * f, POSITIVITY_FLOOR), b = max(ab$b * f, POSITIVITY_FLOOR))
-    }
-  }
-  out
-}
-tempered_id <- function(llm, f) sprintf("%s_pooled_t%03d", llm, round(100 * f))
-
 # ============================================================
 # 2. DATA LOADING AND CLEANING
 # ============================================================
